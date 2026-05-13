@@ -106,6 +106,7 @@ def retry_task(db: WorkflowDB, task_id: str) -> list[str]:
             error_message=None,
             error_type=None,
             retry_count=0,
+            work_dir=None,  # force recompute (prior attempt may have stickied a bad path)
         )
     return list(to_reset)
 

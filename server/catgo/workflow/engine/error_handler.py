@@ -63,6 +63,7 @@ def handle_errors(db: WorkflowDB, workflow_id: str, config: dict[str, Any]) -> l
                 status=TaskState.READY.value,
                 retry_count=retry_count + 1,
                 error_message=f"Auto-fix applied: {diagnosis['diagnosis']}",
+                work_dir=None,  # force recompute (prior attempt may have stickied a bad path)
             )
             retried.append(task_id)
             logger.info("Task %s: smart recovery applied (%s)", task_id, diagnosis["diagnosis"])
@@ -79,6 +80,7 @@ def handle_errors(db: WorkflowDB, workflow_id: str, config: dict[str, Any]) -> l
                 status=TaskState.READY.value,
                 retry_count=retry_count + 1,
                 error_message=None,
+                work_dir=None,  # force recompute (prior attempt may have stickied a bad path)
             )
             retried.append(task_id)
             logger.info("Task %s: REMOTE_ERROR -> READY (retry %d/%d)", task_id, retry_count + 1, max_retries)
