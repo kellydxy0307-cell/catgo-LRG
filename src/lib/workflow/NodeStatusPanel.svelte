@@ -1431,7 +1431,6 @@
                   points={convergence.points}
                   {is_orca}
                   running={status === `running` || status === `queued`}
-                  max_steps={Number(effective_node_params?.max_steps) || Number(effective_node_params?.NSW) || 0}
                 />
               {/if}
             </div>
@@ -1921,6 +1920,7 @@
               <ConvergencePlot
                 points={convergence?.points ?? []}
                 is_orca={true}
+                running={status === `running` || status === `queued`}
               />
             {:else}
               <div class="sp-ssh-hint">

@@ -6,16 +6,10 @@
     points = [],
     is_orca = false,
     running = false,
-    max_steps = 0,
   }: {
     points: ConvergencePoint[]
     is_orca: boolean
     running?: boolean
-    /** Target step count (NSW / max_steps). When > 0, the x-axis is pinned
-     * to [0, max_steps] so a 57-of-500-steps NEB visibly shows ~11% progress
-     * across the plot width instead of filling the whole axis. Pass 0 to
-     * let Plotly auto-scale. */
-    max_steps?: number
   } = $props()
 
   let plot_div: HTMLDivElement | undefined = $state()
@@ -56,22 +50,14 @@
     }
 
     const axis_color = `var(--text-color, #374151)`
-    // Pin x-axis to the target step count when provided so the user sees
-    // their progress as a fraction of the planned run (e.g. 57/500 = 11 %
-    // of the plot width). When max_steps is 0 or unknown, fall back to
-    // Plotly auto-scaling.
-    const x_current_max = steps[steps.length - 1] ?? 1
-    const x_range = max_steps > x_current_max
-      ? [0, max_steps]
-      : [0, Math.max(x_current_max, 10)]
 
     const layout = base_layout({
       height: 260,
       margin: { l: 60, r: 60, t: 15, b: 50 },
       xaxis: {
-        title: max_steps > 0 ? `Step (of ${max_steps})` : `Step`,
+        title: `Step`,
         showgrid: true, zeroline: false, color: axis_color,
-        range: x_range, autorange: false,
+        autorange: true,
       },
       yaxis: { title: is_orca ? `Energy (Eh)` : `Energy (eV)`, showgrid: true, zeroline: false, color: axis_color },
       yaxis2: { title: is_orca ? `Max Gradient` : `Max Force (eV/Å)`, overlaying: `y`, side: `right`, showgrid: false, color: axis_color },
