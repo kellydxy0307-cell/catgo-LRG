@@ -1447,7 +1447,11 @@
           {/if}
 
           <!-- Convergence flag (client-side validated) -->
-          {#if is_actually_converged}
+          <!-- Freq nodes compute a Hessian, not an iterative optimization, so a
+               convergence verdict is meaningless — suppress the flag entirely. -->
+          {#if node_type === `freq` || node_type === `orca_freq`}
+            {''}
+          {:else if is_actually_converged}
             <div class="sp-conv-flag converged">Converged</div>
           {:else if status === `completed` || status === `not_converged` || status === `failed`}
             <div class="sp-conv-flag not-converged">Not converged</div>
