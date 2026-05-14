@@ -42,13 +42,31 @@ async def get_hpc_connection(task: dict, config: dict) -> Any | None:
     return None
 
 
+# States in which the stored tasks.work_dir is authoritative — these only
+# occur after `mkdir -p` has succeeded on the remote in submitter.py.
+# For any other state the column may hold a stale path from a failed prior
+# attempt, or a local preview path written by the advancer, and must be
+# recomputed from the current run config.
+_REMOTE_DIR_EXISTS_STATES = frozenset({
+    "UPLOADING", "SUBMITTED", "QUEUED", "RUNNING",
+    "COMPLETED_REMOTE", "COLLECTING", "COMPLETED",
+})
+
+
 def resolve_work_dir(task: dict, workflow_id: str, config: dict) -> str:
-    """Build remote work directory path for a task."""
+    """Build remote work directory path for a task.
+
+    The stored ``tasks.work_dir`` is only trusted when the task is past
+    the upload step; for pre-submission states it is recomputed from the
+    current run config so that a stale path from a failed prior attempt
+    (or a since-corrected ``base_work_dir``) cannot be stickied indefinitely.
+    """
     import logging
     _logger = logging.getLogger(__name__)
 
-    if task.get("work_dir"):
-        return task["work_dir"]
+    existing = task.get("work_dir")
+    if existing and task.get("status") in _REMOTE_DIR_EXISTS_STATES:
+        return existing
 
     template = config.get("paths", {}).get(
         "work_dir_template", "{base_dir}/{workflow_id}/{task_id}"

@@ -233,9 +233,12 @@ async def _submit_one(
         task_for_resolve = {**task, "work_dir": ""}
     work_dir = resolve_work_dir(task_for_resolve, workflow_id, config)
 
-    # 5. Create remote directory
-    db.update_task(task_id, status=TaskState.GENERATING.value, work_dir=work_dir)
+    # 5. Create remote directory. Persist work_dir only AFTER mkdir succeeds
+    # so a failed attempt does not leave a stale path stickied to the row —
+    # otherwise resolve_work_dir will reuse it on every subsequent retry.
+    db.update_task(task_id, status=TaskState.GENERATING.value)
     await hpc.run_on_owner(lambda: hpc.conn.run(f"mkdir -p {work_dir}", check=True))
+    db.update_task(task_id, work_dir=work_dir)
 
     # 5.5 Check if preview files exist (from PENDING_REVIEW local generation)
     from pathlib import Path
