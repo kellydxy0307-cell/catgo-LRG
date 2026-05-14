@@ -258,25 +258,6 @@
     save_configs_to_storage()
   })
 
-  // ─── Load saved global job params + execution mode ───
-  $effect(() => {
-    if (!show) return
-    try {
-      const raw = localStorage.getItem(GLOBAL_PARAMS_KEY)
-      if (!raw) return
-      const p = JSON.parse(raw)
-      if (p.nodes) nodes = p.nodes
-      if (p.ntasks) ntasks = p.ntasks
-      if (p.cpus_per_task) cpus_per_task = p.cpus_per_task
-      if (p.walltime) walltime = p.walltime
-      if (p.partition) partition = p.partition
-      if (p.memory) memory = p.memory
-      if (p.execution_mode === `hpc` || p.execution_mode === `local`) {
-        execution_mode = p.execution_mode
-      }
-    } catch {}
-  })
-
   // ─── Load presets on mount ───
   $effect(() => {
     if (!show) return
@@ -317,12 +298,22 @@
     }
   })
 
-  // ─── Sync Parameters tab when selected cluster changes ───
+  // ─── Seed Parameters tab from the cluster preset, once per session selection ───
+  // Tracked by last_synced_session_id so unrelated cluster_configs proxy mutations
+  // (POTCAR root, account, module_loads, …) don't re-fire this effect and clobber
+  // the user's typed-in box values. Cluster preset only writes when the selected
+  // session actually transitions.
+  let last_synced_session_id = $state(``)
   $effect(() => {
-    const s = sessions.find(ss => ss.id === selected_session_id)
+    const sid = selected_session_id
+    if (!sid) return
+    if (sid === last_synced_session_id) return
+    const s = sessions.find(ss => ss.id === sid)
     if (!s) return
-    const cfg = cluster_configs[s.id]
+    const cfg = cluster_configs[sid]
     if (!cfg?.default_job_params) return
+    last_synced_session_id = sid
+
     const jp = cfg.default_job_params
     nodes = jp.nodes ?? 1
     ntasks = jp.ntasks ?? 32
@@ -338,6 +329,29 @@
     } else if (!base_work_dir) {
       base_work_dir = `/home/${s.username}/catgo/workflows`
     }
+  })
+
+  // ─── Restore saved global job params + execution mode on dialog open ───
+  // Registered AFTER the cluster-sync effect so on first open localStorage wins
+  // the initial flush race — boxes show the user's last-used values, not the
+  // cluster preset. handle_run writes back here on Run so MCP / next open sees
+  // what was actually submitted.
+  $effect(() => {
+    if (!show) return
+    try {
+      const raw = localStorage.getItem(GLOBAL_PARAMS_KEY)
+      if (!raw) return
+      const p = JSON.parse(raw)
+      if (p.nodes) nodes = p.nodes
+      if (p.ntasks) ntasks = p.ntasks
+      if (p.cpus_per_task) cpus_per_task = p.cpus_per_task
+      if (p.walltime) walltime = p.walltime
+      if (p.partition) partition = p.partition
+      if (p.memory) memory = p.memory
+      if (p.execution_mode === `hpc` || p.execution_mode === `local`) {
+        execution_mode = p.execution_mode
+      }
+    } catch {}
   })
 
   let active_cluster = $derived(cluster_configs[active_cluster_id])
@@ -360,13 +374,16 @@
       }))
     } catch {}
 
+    // Send all box values explicitly (no truthy-guard) — if the user cleared a
+    // field, that empty value should propagate so the backend's setdefault on
+    // the cluster preset doesn't silently re-pull a stale default.
     const default_job_params: JobScriptParams = {
       nodes,
       ntasks,
       cpus_per_task,
       walltime,
-      ...(partition ? { partition } : {}),
-      ...(memory ? { memory } : {}),
+      partition,
+      memory,
     }
 
     // Determine fallback template from first cluster or presets
