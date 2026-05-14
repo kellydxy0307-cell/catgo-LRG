@@ -24,6 +24,7 @@ export default defineConfig(({ mode }) => ({
     __CATGO_STATIC_ONLY__: 'false',
     __CATGO_SERVER_URL__: JSON.stringify(''),
     __CATGO_DESKTOP__: 'false',
+    __CATGO_VSCODE_EXTENSION__: 'true',
   },
   build: {
     outDir: `dist`,

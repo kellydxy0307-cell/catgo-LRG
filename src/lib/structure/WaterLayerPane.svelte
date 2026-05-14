@@ -5,6 +5,9 @@
   import { addWaterLayer, type WaterLayerParams, type WaterLayerResult } from '$lib/api/water-layer'
   import { SERVER_URL } from '$lib/api/config'
 
+  declare const __CATGO_VSCODE_EXTENSION__: boolean | undefined
+  const is_vscode_extension = typeof __CATGO_VSCODE_EXTENSION__ !== `undefined` && __CATGO_VSCODE_EXTENSION__
+
   let {
     structure = $bindable(),
     pane_open = $bindable(false),
@@ -153,25 +156,31 @@
     </div>
   {/if}
 
-  <div class="equilibrate-section">
-    <label class="checkbox-row">
-      <input type="checkbox" bind:checked={equilibrate} />
-      <span>Equilibrate with TIP4P (LAMMPS)</span>
-    </label>
+  {#if !is_vscode_extension}
+    <div class="equilibrate-section">
+      <label class="checkbox-row">
+        <input type="checkbox" bind:checked={equilibrate} />
+        <span>Equilibrate with TIP4P (LAMMPS)</span>
+      </label>
 
-    {#if equilibrate}
-      <div class="equil-params">
-        <label>
-          <span>Temperature (K)</span>
-          <input type="number" bind:value={equil_temperature} min={1} max={1000} step={10} />
-        </label>
-        <label>
-          <span>MD steps</span>
-          <input type="number" bind:value={equil_steps} min={100} max={50000} step={100} />
-        </label>
-      </div>
-    {/if}
-  </div>
+      {#if equilibrate}
+        <div class="equil-params">
+          <label>
+            <span>Temperature (K)</span>
+            <input type="number" bind:value={equil_temperature} min={1} max={1000} step={10} />
+          </label>
+          <label>
+            <span>MD steps</span>
+            <input type="number" bind:value={equil_steps} min={100} max={50000} step={100} />
+          </label>
+        </div>
+      {/if}
+    </div>
+  {:else}
+    <div class="equilibrate-section">
+      <span class="hint">Equilibration unavailable in the VS Code extension (runs locally without LAMMPS).</span>
+    </div>
+  {/if}
 
   <div class="controls">
     <button

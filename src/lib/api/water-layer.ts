@@ -1,6 +1,8 @@
 import type { PymatgenStructure } from '$lib/structure'
 import { SERVER_URL } from './config'
 
+declare const __CATGO_VSCODE_EXTENSION__: boolean | undefined
+
 function format_error_detail(detail: unknown): string {
   if (typeof detail === `string`) return detail
   if (Array.isArray(detail)) {
@@ -37,6 +39,7 @@ export interface WaterLayerResult {
   c_axis_adjusted: boolean
   new_c_length: number
   equilibrated: boolean
+  actual_density?: number
   message: string
 }
 
@@ -45,6 +48,10 @@ export async function addWaterLayer(
   params: WaterLayerParams = {},
   server_url = SERVER_URL,
 ): Promise<WaterLayerResult> {
+  if (typeof __CATGO_VSCODE_EXTENSION__ !== `undefined` && __CATGO_VSCODE_EXTENSION__) {
+    const { add_water_layer_local } = await import('./water-layer-local')
+    return add_water_layer_local(structure, params)
+  }
   const response = await fetch(`${server_url}/api/water-layer/add`, {
     method: `POST`,
     headers: { 'Content-Type': `application/json` },
