@@ -1311,7 +1311,16 @@ async def parse_orca_neb_progress(
     # NEB-TS only reports true convergence after the TS optimization stage.
     # The earlier "THE NEB OPTIMIZATION HAS CONVERGED" marker fires when the
     # CI-NEB stage finishes but before the TS opt — don't treat that as done.
-    converged = "THE TS OPTIMIZATION HAS CONVERGED" in content
+    #
+    # The marker can sit several MB from EOF when ORCA appends a Hessian /
+    # frequency block after the TS opt, so the 2 MB tail in `content` may
+    # not contain it. grep -q short-circuits at the first match, so it
+    # only reads up through the marker (not the trailing Hessian output).
+    marker_result = await conn.run(
+        f"grep -q 'THE TS OPTIMIZATION HAS CONVERGED' {orca_out}",
+        check=False,
+    )
+    converged = marker_result.exit_status == 0
 
     # Count how many PATH SUMMARY table headers appear.
     # Each NEB iteration produces one PATH SUMMARY block in the output.
