@@ -33,6 +33,10 @@
   import { normalize_status } from '$lib/api/task-adapter'
   import { get_v2_task, get_v2_task_result, type V2Task } from '$lib/api/workflow-v2'
   import ResultsPlot from './ResultsPlot.svelte'
+  // Static imports for the View Structure click handler — using a dynamic
+  // import here would code-split the parsers into a chunk that can fail to
+  // load on production builds with strict CSP, silently swallowing clicks.
+  import { parse_poscar, parse_xyz } from '$lib/structure/parse'
 
   let {
     // ========== EXISTING STEP-BASED PROPS ==========
@@ -590,15 +594,22 @@
   }
   /** Parse outputs_json from a V2 task_results row and merge into base object */
   function _merge_outputs_json(base: Record<string, any>): Record<string, any> {
+    let merged: Record<string, any> = base
     if (typeof base.outputs_json === 'string' && base.outputs_json !== '{}') {
       try {
         const outputs = JSON.parse(base.outputs_json)
         if (outputs && typeof outputs === 'object') {
-          return { ...base, ...outputs }
+          merged = { ...base, ...outputs }
         }
       } catch { /* ignore malformed outputs_json */ }
     }
-    return base
+    // V2 engine writes output geometries (e.g. NEB-TS converged XYZ) to the
+    // `structure_json` column rather than embedding them in outputs_json.
+    // Surface it under the `structure` key the UI consults.
+    if (!merged.structure && typeof merged.structure_json === 'string' && merged.structure_json.trim().length > 0) {
+      merged = { ...merged, structure: merged.structure_json }
+    }
+    return merged
   }
 
   const cached_summary = $derived.by<CachedSummary>(() => {
@@ -2040,8 +2051,10 @@
           {/if}
         </div>
 
-        <!-- Output files for MLP (local: contcar key, HPC: structure key) -->
+        <!-- Output files: MLP / VASP write CONTCAR (POSCAR); ORCA writes XYZ -->
         {@const mlp_contcar = cached_summary.contcar || cached_summary.structure}
+        {@const mlp_contcar_is_xyz = !!mlp_contcar && /^\s*\d+\s*$/.test(mlp_contcar.split(/\r?\n/, 1)[0] ?? '')}
+        {@const mlp_contcar_filename = mlp_contcar_is_xyz ? 'output.xyz' : 'CONTCAR'}
         {#if mlp_contcar || cached_summary.work_dir}
           <div class="sp-section">
             <div class="sp-section-title">Output Files</div>
@@ -2051,11 +2064,11 @@
                   const blob = new Blob([mlp_contcar!], { type: 'text/plain' })
                   const url = URL.createObjectURL(blob)
                   const a = document.createElement('a')
-                  a.href = url; a.download = 'CONTCAR'; a.click()
+                  a.href = url; a.download = mlp_contcar_filename; a.click()
                   URL.revokeObjectURL(url)
                 }}>
                   <span class="sp-file-icon">📄</span>
-                  <span class="sp-file-name">CONTCAR</span>
+                  <span class="sp-file-name">{mlp_contcar_filename}</span>
                   <span class="sp-file-desc">Optimized structure</span>
                 </button>
               {/if}
@@ -2073,20 +2086,27 @@
                 </button>
               {/if}
               {#if mlp_contcar}
-                <button class="sp-file-btn sp-file-load" onclick={async () => {
+                <button class="sp-file-btn sp-file-load" onclick={() => {
+                  view_structure_error = null
                   try {
-                    const { parse_poscar } = await import('$lib/structure/parse')
-                    const parsed = parse_poscar(mlp_contcar!)
-                    if (parsed) {
-                      pending_open_structure.structure = parsed
-                      pending_open_structure.label = node_label
-                      pending_open_structure.seq++
-                    } else {
-                      view_structure_error = `Could not parse output structure (invalid CONTCAR format)`
+                    if (!mlp_contcar || mlp_contcar.trim().length === 0) {
+                      view_structure_error = `Output structure is empty — backend did not extract a geometry for this task.`
+                      return
                     }
+                    const parsed = mlp_contcar_is_xyz ? parse_xyz(mlp_contcar) : parse_poscar(mlp_contcar)
+                    if (!parsed) {
+                      const preview = mlp_contcar.slice(0, 80).replace(/\n/g, '\\n')
+                      view_structure_error = `Could not parse ${mlp_contcar_is_xyz ? 'XYZ' : 'POSCAR'} (first 80 chars: "${preview}")`
+                      console.error(`[NodeStatusPanel] parser returned null for ${mlp_contcar_is_xyz ? 'XYZ' : 'POSCAR'} payload of ${mlp_contcar.length} bytes`)
+                      return
+                    }
+                    pending_open_structure.structure = parsed
+                    pending_open_structure.label = node_label
+                    pending_open_structure.seq++
+                    console.info(`[NodeStatusPanel] View Structure: opened ${parsed.sites?.length ?? 0} sites in new tab`)
                   } catch (err) {
-                    console.error(`[NodeStatusPanel] Failed to parse structure:`, err)
-                    view_structure_error = `Failed to load structure: ${err instanceof Error ? err.message : err}`
+                    console.error(`[NodeStatusPanel] View Structure failed:`, err)
+                    view_structure_error = `Failed to load structure: ${err instanceof Error ? err.message : String(err)}`
                   }
                 }}>
                   <span class="sp-file-icon">🔬</span>
@@ -2094,7 +2114,7 @@
                   <span class="sp-file-desc">Open structure in another tab</span>
                 </button>
                 {#if view_structure_error}
-                  <div class="sp-error-box" style="margin-top: 4px; font-size: 11px;">{view_structure_error}</div>
+                  <div class="sp-error-box" style="margin-top: 6px; padding: 8px; font-size: 13px; line-height: 1.4; background: rgba(239, 68, 68, 0.1); border: 1px solid rgba(239, 68, 68, 0.4); border-radius: 4px; color: #ef4444;" role="alert">{view_structure_error}</div>
                 {/if}
               {/if}
             </div>

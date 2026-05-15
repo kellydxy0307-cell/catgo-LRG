@@ -884,9 +884,32 @@
       label += ` — Input`
       is_readonly = true
     } else if (source === `output`) {
-      if (!workflow_id) return
-      // Try 1: Check step result_json for embedded structure (local nodes like doping_gen)
-      // Always fetch from Python backend since execution results live there
+      if (!workflow_id) {
+        alert(`View Output Structure: workflow not yet saved — cannot fetch results.`)
+        return
+      }
+      console.info(`[view-output] resolving output structure for node ${node_id}`)
+
+      // Helper: parse text payload (pymatgen JSON / XYZ / POSCAR) into structure_json
+      const parse_text_to_struct_json = async (raw: string): Promise<string | null> => {
+        const trimmed = raw.trim()
+        if (!trimmed) return null
+        // Already pymatgen JSON
+        if (trimmed.startsWith(`{`) || trimmed.startsWith(`[`)) {
+          try {
+            const obj = JSON.parse(trimmed)
+            if (obj && typeof obj === `object` && `sites` in obj) return trimmed
+          } catch { /* fall through to text parsers */ }
+        }
+        // XYZ if first line is just an atom count; otherwise treat as POSCAR
+        const first_line = trimmed.split(/\r?\n/, 1)[0]?.trim() ?? ``
+        const is_xyz = /^\d+$/.test(first_line)
+        const { parse_xyz, parse_poscar } = await import(`$lib/structure/parse`)
+        const parsed = is_xyz ? parse_xyz(trimmed) : parse_poscar(trimmed)
+        return parsed ? JSON.stringify(parsed) : null
+      }
+
+      // Try 1: V1 step result_json (local nodes like doping_gen)
       try {
         const resp = await fetch(`${API_BASE}/workflow/${encodeURIComponent(workflow_id)}/steps`)
         if (resp.ok) {
@@ -895,32 +918,70 @@
           if (step?.result_json) {
             const result = typeof step.result_json === `string` ? JSON.parse(step.result_json) : step.result_json
             if (result?.structure) {
-              structure_json = typeof result.structure === `string` ? result.structure : JSON.stringify(result.structure)
+              structure_json = typeof result.structure === `string`
+                ? (await parse_text_to_struct_json(result.structure)) ?? result.structure
+                : JSON.stringify(result.structure)
             } else if (result?.contcar) {
-              // MLP/local engines store optimized structure as CONTCAR (POSCAR format)
-              const { parse_poscar } = await import(`$lib/structure/parse`)
-              const parsed = parse_poscar(result.contcar)
-              if (parsed) structure_json = JSON.stringify(parsed)
+              structure_json = await parse_text_to_struct_json(result.contcar)
             }
           }
         }
-      } catch (err) { console.error(`[view-output] step fetch error:`, err) }
-      // Try 2: Load CONTCAR from HPC work directory (remote compute nodes)
+      } catch (err) { console.error(`[view-output] V1 step fetch error:`, err) }
+
+      // Try 2: V2 engine task result (NEB-TS converged XYZ lands in structure_json column).
+      // V2 engine never writes to workflow_steps so Try 1 returns nothing for V2 tasks.
+      if (!structure_json) {
+        try {
+          const resp = await fetch(`${API_BASE}/engine/tasks/${encodeURIComponent(node_id)}/result`)
+          if (resp.ok) {
+            const row: any = await resp.json()
+            const raw = row?.structure_json
+            if (typeof raw === `string` && raw.trim().length > 0) {
+              structure_json = await parse_text_to_struct_json(raw)
+              if (!structure_json) {
+                console.error(`[view-output] V2 structure_json present (${raw.length} bytes) but parsers returned null`,
+                  { preview: raw.slice(0, 200) })
+              } else {
+                console.info(`[view-output] resolved from V2 engine task result`)
+              }
+            }
+            // Also check outputs_json for an inlined `structure` (forward-compat with future ORCA collectors)
+            if (!structure_json && typeof row?.outputs_json === `string`) {
+              try {
+                const outputs = JSON.parse(row.outputs_json)
+                if (outputs?.structure) {
+                  structure_json = typeof outputs.structure === `string`
+                    ? (await parse_text_to_struct_json(outputs.structure)) ?? outputs.structure
+                    : JSON.stringify(outputs.structure)
+                }
+              } catch { /* malformed outputs_json */ }
+            }
+          }
+        } catch (err) { console.error(`[view-output] V2 engine task result fetch error:`, err) }
+      }
+
+      // Try 3: Load CONTCAR from HPC work directory (VASP/MLP remote nodes)
       if (!structure_json) {
         try {
           const data = await api.get_step_output(workflow_id, node_id, `CONTCAR`)
           if (data?.content) {
-            const { parse_poscar } = await import(`$lib/structure/parse`)
-            const parsed = parse_poscar(data.content)
-            if (parsed) structure_json = JSON.stringify(parsed)
+            structure_json = await parse_text_to_struct_json(data.content)
           }
         } catch { /* CONTCAR not available */ }
       }
+
       label += ` — Output`
       is_readonly = true
     }
 
-    if (!structure_json) return
+    if (!structure_json) {
+      const msg = source === `output`
+        ? `View Output Structure: no geometry available for this task.\n\nLikely cause: the calculation completed but the backend did not extract an output geometry (HPC connection may have dropped, or the converged file was not produced).\n\nCheck the task's work directory or rerun the task.`
+        : `View Structure: no geometry data found for this node.`
+      console.error(`[view-output] all resolution paths failed for node ${node_id} (source=${source})`)
+      alert(msg)
+      return
+    }
 
     try {
       edit_3d_node_id = node_id
@@ -952,8 +1013,9 @@
 
       // Show modal AFTER all state is ready
       show_structure_edit_3d = true
-    } catch {
-      // invalid JSON
+    } catch (err) {
+      console.error(`[view-output] failed to open 3D editor:`, err, { structure_json_preview: structure_json?.slice(0, 200) })
+      alert(`View Output Structure: failed to open the 3D editor — ${err instanceof Error ? err.message : String(err)}`)
     }
   }
 
