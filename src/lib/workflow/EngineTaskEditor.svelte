@@ -13,6 +13,7 @@
   import StructureEditModal from './components/StructureEditModal.svelte'
   import { NODE_DEFINITIONS } from './node-defs'
   import type { NodeDefinition, ParamDef } from './workflow-types'
+  import { parse_xyz, parse_poscar } from '$lib/structure/parse'
 
   // ── Eagerly load StructurePreview (avoids async rendering issues with Threlte Canvas) ──
   let StructurePreviewComponent = $state<typeof import('$lib/structure/StructurePreview.svelte').default | null>(null)
@@ -126,13 +127,37 @@
   // ── Parse structure from JSON string safely + normalize lattice ──
   function try_parse_structure(raw: unknown): PymatgenStructure | null {
     if (!raw) return null
-    try {
-      const parsed = typeof raw === 'string' ? JSON.parse(raw) : raw
-      if (parsed && typeof parsed === 'object' && 'sites' in parsed) {
-        normalize_structure(parsed)
-        return parsed as PymatgenStructure
+    // Object input: must already be in pymatgen shape
+    if (typeof raw !== 'string') {
+      if (raw && typeof raw === 'object' && 'sites' in (raw as object)) {
+        normalize_structure(raw)
+        return raw as PymatgenStructure
       }
-    } catch { /* ignore */ }
+      return null
+    }
+    const trimmed = raw.trim()
+    if (!trimmed) return null
+    // pymatgen-serialized JSON (e.g. {"@module": ..., "sites": [...]})
+    if (trimmed.startsWith('{') || trimmed.startsWith('[')) {
+      try {
+        const parsed = JSON.parse(trimmed)
+        if (parsed && typeof parsed === 'object' && 'sites' in parsed) {
+          normalize_structure(parsed)
+          return parsed as PymatgenStructure
+        }
+      } catch { /* fall through to text-format parsers */ }
+    }
+    // Plain-text formats produced by V2 engine output collectors:
+    //   ORCA NEB-TS → XYZ (first line is an atom count integer)
+    //   VASP/MLP    → POSCAR (line 2 is a numeric scale factor)
+    const first_line = trimmed.split(/\r?\n/, 1)[0]?.trim() ?? ''
+    const is_xyz = /^\d+$/.test(first_line)
+    const parsed = is_xyz ? parse_xyz(trimmed) : parse_poscar(trimmed)
+    if (parsed && parsed.sites?.length) {
+      // ParsedStructure has optional lattice; PymatgenStructure requires it
+      // but downstream renderers handle lattice-less molecules conditionally.
+      return parsed as unknown as PymatgenStructure
+    }
     return null
   }
 
@@ -185,8 +210,12 @@
         params = {}
       }
 
-      // Parse input structure from params
-      if (!cached) {
+      // Parse input/output structures. Re-fetch on cache miss OR when the cached
+      // entry has no output_structure but the task is now COMPLETED — this
+      // recovers from earlier loads where the result hadn't arrived yet or the
+      // parser couldn't handle the format (pre-XYZ-support cache entries).
+      const needs_refetch = !cached || (cached.output == null && t.status === 'COMPLETED')
+      if (needs_refetch) {
         const inp = try_parse_structure(params.structure) ?? try_parse_structure(params.structure_json)
         input_structure = inp
 
