@@ -1040,7 +1040,7 @@
       {#if preview_info}
         <div class="preview-info">
           {#if preview_info.is_placed}
-            *{active_adsorbate?.formula ?? `?`} placed
+            *{active_adsorbate?.display_formula ?? active_adsorbate?.formula ?? `?`} placed
           {/if}
           &middot; {preview_info.n_atoms} atoms
           {#if !result_structure && sites.length > 0}
@@ -1113,7 +1113,7 @@
             <optgroup label={group.label}>
               {#each group.presets as p}
                 {@const flat_idx = ADSORBATE_PRESETS.indexOf(p)}
-                <option value={flat_idx}>{p.formula} — {p.name}</option>
+                <option value={flat_idx}>{p.display_formula ?? p.formula} — {p.name}</option>
               {/each}
             </optgroup>
           {/each}

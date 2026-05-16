@@ -240,7 +240,7 @@ TOOLS = [
             "  call 1: catgo_workflow {action:'create', name:'HER on Pt(111)', material_ids:['mp-126']}\n"
             "  call 2: catgo_workflow {action:'batch', operations:[\n"
             "    {op:'add_node', node_type:'slab_gen',           label:'slab', params:{miller:'1,1,1', layers:4, vacuum:15, supercell:'2x2x1'}},\n"
-            "    {op:'add_node', node_type:'adsorbate_placement', label:'ads',  params:{adsorbate:'H', site:'fcc'}},\n"
+            "    {op:'add_node', node_type:'adsorbate_place', label:'ads',  params:{species:'H', site:'fcc'}},\n"
             "    {op:'add_node', node_type:'geo_opt',             label:'opt',  params:{software:'vasp', encut:520, ediffg:-0.03, freeze_mode:'bottom', freeze_n_layers:2}},\n"
             "    {op:'add_node', node_type:'freq',                label:'freq', params:{software:'vasp', freeze_mode:'bottom', freeze_n_layers:2}},\n"
             "    {op:'add_node', node_type:'free_energy',         label:'fe',   params:{temperature:298.15, reference:'CHE', target:'H'}},\n"
@@ -257,7 +257,7 @@ TOOLS = [
             "geo_opt+freq nodes per intermediate all feeding one free_energy aggregator; OER "
             "adds OOH/O/OH intermediates; NEB swaps geo_opt+freq for a single neb node "
             "between two structure_inputs).\n\n"
-            "CATALYSIS: Use slab_gen + adsorbate_placement nodes (NOT catgo_structure) for slabs and "
+            "CATALYSIS: Use slab_gen + adsorbate_place nodes (NOT catgo_structure) for slabs and "
             "adsorbates inside a workflow.\n"
             "FREQ NODES: Do NOT copy geo_opt params. Freq requires kpoints='1×1×1', NCORE=0, LREAL=.FALSE. "
             "For slabs: set freeze_mode='layers', freeze_layers=N (N=total slab layers, only adsorbate vibrates).\n\n"
@@ -1606,8 +1606,8 @@ def _quickbuild_recipes() -> dict[str, dict]:
             "nodes": [
                 {"id": "slab", "type": "slab_gen",
                  "params": {"miller": "1,1,1", "layers": 4, "vacuum": 15, "supercell": "2x2x1"}},
-                {"id": "ads", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "H", "site": "fcc"}},
+                {"id": "ads", "type": "adsorbate_place",
+                 "params": {"species": "H", "site": "fcc"}},
                 {"id": "opt", "type": "geo_opt", "params": vasp_opt},
                 {"id": "freq", "type": "freq", "params": vasp_freq},
                 {"id": "fe", "type": "free_energy",
@@ -1622,12 +1622,12 @@ def _quickbuild_recipes() -> dict[str, dict]:
                 {"id": "slab", "type": "slab_gen",
                  "params": {"miller": "1,1,1", "layers": 4, "vacuum": 15, "supercell": "2x2x1"}},
                 # OH / O / OOH intermediates relax independently
-                {"id": "ads_OH", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "OH", "site": "top"}},
-                {"id": "ads_O", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "O", "site": "top"}},
-                {"id": "ads_OOH", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "OOH", "site": "top"}},
+                {"id": "ads_OH", "type": "adsorbate_place",
+                 "params": {"species": "OH", "site": "ontop"}},
+                {"id": "ads_O", "type": "adsorbate_place",
+                 "params": {"species": "O", "site": "ontop"}},
+                {"id": "ads_OOH", "type": "adsorbate_place",
+                 "params": {"species": "OOH", "site": "ontop"}},
                 {"id": "opt_OH", "type": "geo_opt", "params": vasp_opt},
                 {"id": "opt_O", "type": "geo_opt", "params": vasp_opt},
                 {"id": "opt_OOH", "type": "geo_opt", "params": vasp_opt},
@@ -1650,10 +1650,10 @@ def _quickbuild_recipes() -> dict[str, dict]:
             "nodes": [
                 {"id": "slab", "type": "slab_gen",
                  "params": {"miller": "1,1,1", "layers": 4, "vacuum": 15, "supercell": "2x2x1"}},
-                {"id": "ads_COOH", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "COOH", "site": "top"}},
-                {"id": "ads_CO", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "CO", "site": "top"}},
+                {"id": "ads_COOH", "type": "adsorbate_place",
+                 "params": {"species": "COOH", "site": "ontop"}},
+                {"id": "ads_CO", "type": "adsorbate_place",
+                 "params": {"species": "CO", "site": "ontop"}},
                 {"id": "opt_COOH", "type": "geo_opt", "params": vasp_opt},
                 {"id": "opt_CO", "type": "geo_opt", "params": vasp_opt},
                 {"id": "freq_COOH", "type": "freq", "params": vasp_freq},
@@ -1674,12 +1674,12 @@ def _quickbuild_recipes() -> dict[str, dict]:
             "nodes": [
                 {"id": "slab", "type": "slab_gen",
                  "params": {"miller": "1,1,1", "layers": 4, "vacuum": 15, "supercell": "2x2x1"}},
-                {"id": "ads_N2", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "N2", "site": "top"}},
-                {"id": "ads_N2H", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "NNH", "site": "top"}},
-                {"id": "ads_NH2", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "NH2", "site": "top"}},
+                {"id": "ads_N2", "type": "adsorbate_place",
+                 "params": {"species": "N2", "site": "ontop"}},
+                {"id": "ads_N2H", "type": "adsorbate_place",
+                 "params": {"species": "NNH", "site": "ontop"}},
+                {"id": "ads_NH2", "type": "adsorbate_place",
+                 "params": {"species": "NH2", "site": "ontop"}},
                 {"id": "opt_N2", "type": "geo_opt", "params": vasp_opt},
                 {"id": "opt_N2H", "type": "geo_opt", "params": vasp_opt},
                 {"id": "opt_NH2", "type": "geo_opt", "params": vasp_opt},
@@ -1702,12 +1702,12 @@ def _quickbuild_recipes() -> dict[str, dict]:
             "nodes": [
                 {"id": "slab", "type": "slab_gen",
                  "params": {"miller": "1,1,1", "layers": 4, "vacuum": 15, "supercell": "2x2x1"}},
-                {"id": "ads_OOH", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "OOH", "site": "top"}},
-                {"id": "ads_O", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "O", "site": "fcc"}},
-                {"id": "ads_OH", "type": "adsorbate_placement",
-                 "params": {"adsorbate": "OH", "site": "top"}},
+                {"id": "ads_OOH", "type": "adsorbate_place",
+                 "params": {"species": "OOH", "site": "ontop"}},
+                {"id": "ads_O", "type": "adsorbate_place",
+                 "params": {"species": "O", "site": "fcc"}},
+                {"id": "ads_OH", "type": "adsorbate_place",
+                 "params": {"species": "OH", "site": "ontop"}},
                 {"id": "opt_OOH", "type": "geo_opt", "params": vasp_opt},
                 {"id": "opt_O", "type": "geo_opt", "params": vasp_opt},
                 {"id": "opt_OH", "type": "geo_opt", "params": vasp_opt},

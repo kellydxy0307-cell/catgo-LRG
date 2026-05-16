@@ -110,7 +110,12 @@ _NODE_DEFAULTS: dict[str, dict] = {
     "adsorbate_place": {
         "_inputs": ["structure"], "_outputs": ["structure"],
         "defaults": {"species": "OH", "site": "all", "height": 2.0},
-        "_note": "Use 'list_presets preset_type=adsorbates' to see all ~100 available species.",
+        "_note": (
+            "Param 'species' is the ASCII formula (H, OH, NNH, CH3OH, …) — "
+            "matches server/data/adsorbates.json. Call 'list_presets preset_type=adsorbates' "
+            "for the full library (~70 entries grouped by reaction). "
+            "Param 'site' is one of: all, ontop, bridge, fcc, hcp."
+        ),
     },
     "condition": {
         "_inputs": ["input_a", "input_b"], "_outputs": ["true_out", "false_out"],
@@ -1181,14 +1186,38 @@ async def _handle_workflow(client: httpx.AsyncClient, args: dict) -> list[TextCo
             for idx, op in enumerate(operations):
                 op_type = op.get("op", op.get("action", ""))
                 if op_type == "add_node":
-                    node_type = op.get("node_type", "")
-                    if not node_type:
+                    raw_node_type = op.get("node_type", "")
+                    if not raw_node_type:
                         results.append(f"[{idx}] add_node: missing node_type")
                         continue
+                    # Same convention as the add_node action: registry keys are
+                    # lowercase. Lower-case here so 'Geo_Opt' / 'MD' / 'NEB' hit
+                    # the registry instead of falling through as unknown.
+                    node_type = raw_node_type.lower()
                     ndef = _NODE_DEFAULTS.get(node_type, {})
                     if "_alias" in ndef:
                         node_type = ndef["_alias"]
                         ndef = _NODE_DEFAULTS.get(node_type, {})
+                    # Reject unknown types here too. Without this, a typo
+                    # (e.g. 'adsorbate_placement' instead of 'adsorbate_place')
+                    # silently creates a ghost node with empty defaults and no
+                    # engine binding — the frontend then can't render it and
+                    # the rest of the batch (connect ops referencing this
+                    # label) breaks downstream. The add_node action enforces
+                    # this; the batch path used to skip it. See PR for the
+                    # CatBot OER hang root-causing this.
+                    if not ndef:
+                        valid_types = sorted(
+                            k for k, v in _NODE_DEFAULTS.items() if "_alias" not in v
+                        )
+                        suggestions = difflib.get_close_matches(
+                            node_type, valid_types, n=3, cutoff=0.6,
+                        )
+                        msg = f"[{idx}] add_node: unknown node_type '{raw_node_type}'"
+                        if suggestions:
+                            msg += f" — did you mean: {', '.join(suggestions)}?"
+                        results.append(msg)
+                        continue
                     default_params = dict(ndef.get("defaults", {}))
                     user_params = op.get("params", {})
                     _sw_map: dict[tuple[str, str], str] = {
@@ -1763,17 +1792,31 @@ async def _handle_workflow(client: httpx.AsyncClient, args: dict) -> list[TextCo
         if action == "list_presets":
             preset_type = args.get("preset_type", "vasp")
             if preset_type == "adsorbates":
+                # Read directly from the JSON source of truth so this view
+                # stays in sync with the workflow engine and the frontend
+                # adsorbate library. Previously this imported a non-existent
+                # `workflow.presets.adsorbates` module and always errored out.
                 try:
-                    from workflow.presets.adsorbates import ADSORBATE_GROUPS
-                    lines = ["Available adsorbate presets (~100 molecules):\n"]
-                    for group_name, entries in ADSORBATE_GROUPS.items():
-                        lines.append(f"  [{group_name}]")
-                        for e in entries:
-                            lines.append(f"    {e['formula']:12s} — {e['name']} ({e['n_atoms']} atoms)")
-                    lines.append("\nUse these formula names as the 'species' parameter in adsorbate_place nodes.")
-                    lines.append("Names are case-insensitive. The '*' prefix is optional.")
+                    from pathlib import Path
+                    json_path = (
+                        Path(__file__).resolve().parent.parent
+                        / "data" / "adsorbates.json"
+                    )
+                    data = json.loads(json_path.read_text(encoding="utf-8"))
+                    groups = data.get("groups", [])
+                    total = sum(len(g.get("presets", [])) for g in groups)
+                    lines = [f"Available adsorbate presets ({total} entries across {len(groups)} reaction groups):\n"]
+                    for g in groups:
+                        lines.append(f"  [{g['label']}]")
+                        for p in g.get("presets", []):
+                            n_atoms = len(p.get("atoms", []))
+                            display = p.get("display_formula", p["formula"])
+                            note = f" (display: {display})" if display != p["formula"] else ""
+                            lines.append(f"    {p['formula']:14s} — {p['name']} ({n_atoms} atoms){note}")
+                    lines.append("\nUse the ASCII formula (left column) as the 'species' param in adsorbate_place nodes.")
+                    lines.append("Names are case-insensitive. A leading '*' prefix is accepted but optional.")
                     return [_t(type="text", text="\n".join(lines))]
-                except ImportError as exc:
+                except (FileNotFoundError, OSError) as exc:
                     return [_t(type="text", text=f"Cannot load adsorbate presets: {exc}")]
             else:
                 try:
