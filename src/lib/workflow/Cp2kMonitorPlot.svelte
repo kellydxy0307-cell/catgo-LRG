@@ -184,16 +184,24 @@
     {/if}
   </div>
 
-  <!-- Force panel — OPT only by default. Hidden when the data has no
-       forces (CP2K MD doesn't print per-step forces unless
-       MOTION/PRINT/FORCES is enabled; OPT before any step has run also
-       has none). Avoids showing a flat-zero plot. -->
-  {#if mode === `opt` && (empty || has_forces)}
+  <!-- Force panel — OPT mode only. Always rendered (mirrors the
+       Temperature panel pattern in MD mode) so the slot stays reserved.
+       Plotly mount in the $effect above is gated on has_forces, so when
+       no force data is parsed yet (e.g. CP2K still in initial SCF before
+       the first OPT step's gradient block) the panel just shows the
+       placeholder instead of disappearing. -->
+  {#if mode === `opt`}
     <div class="panel">
       <div class="panel-title">Forces</div>
       <div bind:this={force_div} class="panel-plot"></div>
-      {#if empty}
-        <div class="placeholder">{running ? `Waiting for first step…` : `No data yet`}</div>
+      {#if !has_forces}
+        <div class="placeholder">
+          <div>{empty ? `Waiting for first step…` : `Waiting for gradient output`}</div>
+          <div class="placeholder-sub">
+            CP2K writes <code>Max. gradient</code> / <code>RMS gradient</code> in the per-step
+            <code>Informations at step</code> convergence block.
+          </div>
+        </div>
       {/if}
     </div>
   {/if}
