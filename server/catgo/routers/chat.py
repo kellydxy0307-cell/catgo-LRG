@@ -211,6 +211,31 @@ _SDK_CLAUDE_MODELS = [
     {"id": "haiku", "label": "Haiku 4.5"},
 ]
 
+# Empirically verified against this user's ChatGPT-account Codex on
+# @openai/codex 0.132.0-alpha.1 (other gpt-5* variants returned
+# "not supported when using Codex with a ChatGPT account").
+_SDK_CODEX_MODELS = [
+    {"id": "gpt-5.5",       "label": "Default (GPT-5.5)"},
+    {"id": "gpt-5.4",       "label": "GPT-5.4"},
+    {"id": "gpt-5.4-mini",  "label": "GPT-5.4 mini"},
+    {"id": "gpt-5.3-codex", "label": "GPT-5.3 Codex"},
+]
+
+# Empirically verified against gemini-cli 0.42.0 + this user's OAuth account.
+_SDK_GEMINI_MODELS = [
+    {"id": "gemini-2.5-pro",        "label": "Default (Gemini 2.5 Pro)"},
+    {"id": "gemini-2.5-flash",      "label": "Gemini 2.5 Flash"},
+    {"id": "gemini-2.5-flash-lite", "label": "Gemini 2.5 Flash Lite"},
+    {"id": "gemini-3-pro-preview",  "label": "Gemini 3 Pro (preview)"},
+]
+
+# Dispatch table — list_providers() looks up the seed by provider id.
+_SDK_MODELS = {
+    "sdk-claude": _SDK_CLAUDE_MODELS,
+    "sdk-codex":  _SDK_CODEX_MODELS,
+    "sdk-gemini": _SDK_GEMINI_MODELS,
+}
+
 _API_MODELS = {
     "deepseek": [
         {"id": "deepseek-chat", "label": "DeepSeek V3"},
@@ -243,7 +268,7 @@ def list_providers() -> dict:
             "name": label,
             "type": "cli",
             "available": shutil.which(binary) is not None,
-            "models": _SDK_CLAUDE_MODELS if pid == "sdk-claude" else [],
+            "models": _SDK_MODELS.get(pid, []),
             "base_url": None,
         })
 

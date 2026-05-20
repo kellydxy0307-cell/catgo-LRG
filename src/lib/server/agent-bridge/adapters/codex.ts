@@ -178,7 +178,7 @@ export function createCodexAdapter(): AgentAdapter {
     agent: 'codex',
 
     async *stream(params: StreamParams): AsyncGenerator<AgentEvent> {
-      const { prompt, sessionId, model, cwd, abortSignal, mcpServerUrl, tabId } =
+      const { prompt, sessionId, model, cwd, abortSignal, mcpServerUrl, tabId, systemPrompt } =
         params
 
       // Dynamic import — the package may not be installed everywhere.
@@ -200,6 +200,15 @@ export function createCodexAdapter(): AgentAdapter {
       // (a real approval↔PermissionCard bridge would be the longer-term fix).
       const codexConfig: Record<string, any> = {
         dangerously_bypass_approvals_and_sandbox: true,
+      }
+      // System prompt → codex `developer_instructions` config (codex-sdk has
+      // no systemPrompt parameter, and exec mode's stdin is the user input).
+      // Empirically verified to reach the model as a system instruction
+      // (behavior fingerprint test, 2026-05-20). Without this the adapter
+      // silently dropped systemPrompt — Codex never saw the loaded
+      // structure / chat context that Claude got via `query({systemPrompt})`.
+      if (systemPrompt) {
+        codexConfig.developer_instructions = systemPrompt
       }
       if (mcpServerUrl) {
         const catgo: Record<string, any> = {
