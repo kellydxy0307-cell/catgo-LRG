@@ -41,6 +41,11 @@ full = [
 ml = [
     "mace-torch>=0.3.0",
 ]
+analyze = [
+    "matplotlib>=3.8",
+    "scienceplots>=2.1",
+    "pylustrator>=1.3",
+]
 
 [project.scripts]
 catgo = "catgo.cli:main"
