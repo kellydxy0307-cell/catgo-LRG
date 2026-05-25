@@ -47,6 +47,7 @@
     bond_opacity_overrides = $bindable(new Map<string, number>()),
     structure = undefined,
     bond_distance_rules = $bindable<import('./index').BondDistanceRule[]>([]),
+    large_system_mode = $bindable(false),
     supercell_loading = false,
     pane_props = {},
     toggle_props = {},
@@ -69,6 +70,7 @@
     bond_opacity_overrides?: Map<string, number>
     structure?: AnyStructure
     bond_distance_rules?: import('./index').BondDistanceRule[]
+    large_system_mode?: boolean
     supercell_loading?: boolean
     pane_props?: ComponentProps<typeof DraggablePane>[`pane_props`]
     toggle_props?: ComponentProps<typeof DraggablePane>[`toggle_props`]

@@ -18,6 +18,7 @@
     align_to_principal_axes,
     get_elem_amounts,
   } from '$lib/structure'
+  import { parse_supercell_scaling } from '$lib/structure/supercell'
   import { WyckoffTable, wyckoff_positions_from_moyo, spacegroup_to_crystal_sys } from '$lib/symmetry'
   import type { Crystal } from '$lib/structure'
   import type { MoyoDataset } from '@spglib/moyo-wasm'
@@ -66,6 +67,7 @@
     JobDetailPane,
     PluginHubPane,
   } from './index'
+  import LargeSystemOverlay from './gpu/LargeSystemOverlay.svelte'
   import { ChatPane, get_display_text } from '$lib/chat'
   import { send_message, get_chat_slice, chat_position } from '$lib/chat/chat-state.svelte'
   import { build_structure_context } from '$lib/chat/context'
@@ -116,6 +118,8 @@
   import ScaleBar from '$lib/structure/ScaleBar.svelte'
 
   import type { AtomColorConfig } from './atom-properties'
+  import { get_orig_site_idx } from './atom-properties'
+  import { toggle_site_selection } from './scene/picking'
 
   import { delete_atoms, move_atom, move_atoms_by_displacement, concatenate_structures, merge_structures } from './atom-manipulation'
   import OptimadeSearchModal from './OptimadeSearchModal.svelte'
@@ -183,6 +187,14 @@
   // default `new AtomManager()` is overwritten by this $state value at mount,
   // so the second allocation is discarded (small one-time cost).
   let scene_atom_manager = $state(new AtomManager())
+
+  // WebGPU overlay bridge: bound from StructureScene. Returns the live
+  // per-displayed-atom current-frame position array (3 × n_displayed) the
+  // WebGL atoms/bonds render at (StructureScene.atom_positions_buffer:
+  // displayed-topology base overlaid with the manager's per-frame positions).
+  // The overlay calls this so its positions match the WebGL view atom-for-atom
+  // instead of re-deriving from base-only trajectory data. Null until mount.
+  let scene_get_displayed_frame_positions = $state<(() => Float32Array) | null>(null)
 
   // ── Extracted state modules (state/*.svelte.ts) ──
   const sel_state = create_selection_state()
@@ -987,6 +999,9 @@
     get_supercell_scaling: () => supercell_scaling,
     get_show_image_atoms: () => show_image_atoms,
     get_periodic_repeats: () => periodic_repeats,
+    // Phase 1: when the GPU overlay instances the supercell, the CPU keeps the
+    // base cell (no N× Site objects) — gates the supercell + PBC-image effects.
+    get_gpu_supercell_active: () => gpu_supercell_active,
     set_displayed_structure: (s) => { displayed_structure = s },
     set_saveable_structure: (s) => { saveable_structure = s },
   })
@@ -1182,6 +1197,22 @@
   // here means an accidental Phase 4 leak into Phase 2.
   let __traj_write_warned_supercell = false
   $effect(() => {
+    // This effect writes the current frame's xyz into the WebGL atom_manager
+    // (a plain typed-array scatter — no GPU paint by itself; Threlte 8 is
+    // render-on-demand and autoRender is off while the overlay is active). It
+    // runs in BOTH modes on purpose:
+    //   - WebGL active: drives the WebGL atoms/bonds per frame as before.
+    //   - WebGPU overlay active (`webgl_suspended`): the EXPENSIVE WebGL
+    //     pipelines (X2 full diff, bond-pair rebuild, bond worker) stay gated
+    //     in StructureScene, but we still keep the manager's positions current
+    //     so StructureScene's `atom_positions_buffer` resolves the live frame.
+    //     That buffer is the SINGLE SOURCE OF TRUTH the overlay now consumes
+    //     (via get_displayed_frame_positions) so its atoms/bonds match the
+    //     WebGL view atom-for-atom — including the supercell base-block /
+    //     replica-static behaviour, which is decided HERE (max_slot bound) and
+    //     reused rather than re-guessed in the overlay.
+    // We do NOT early-return on webgl_suspended: the cheap manager write is
+    // what makes the overlay's positions identical to the WebGL resolver.
     const traj = trajectory_frame_positions
     if (!traj) {
       __traj_write_warned_supercell = false
@@ -1621,6 +1652,53 @@
     error: null,
   })
 
+  // ── WebGPU overlay selection bridge ────────────────────────────────────────
+  // The overlay renders displayed_structure.sites in order, so its picked index
+  // and its highlight buffer are DISPLAYED-site indices. The app's selection
+  // model (selected_sites) is BASE-site indices (matching the WebGL path). Map
+  // between the two: the overlay highlights every displayed site whose base index
+  // (orig_site_idx) is currently selected, and an overlay pick is mapped back to
+  // its base index before toggling selected_sites (exactly like the WebGL
+  // handle_atom_click → toggle_selection(atom.site_idx) path).
+  let overlay_selected_displayed = $derived.by(() => {
+    const sites = displayed_structure?.sites
+    if (!sites || selected_sites.length === 0) return [] as number[]
+    const sel = new Set(selected_sites)
+    const out: number[] = []
+    for (let i = 0; i < sites.length; i++) {
+      if (sel.has(get_orig_site_idx(sites[i], i))) out.push(i)
+    }
+    return out
+  })
+
+  /** Handle an atom pick from the WebGPU overlay. `displayed_idx` is the picked
+   *  displayed-site index, or -1 for empty space. Maps to the base index and
+   *  toggles selected_sites the same way the WebGL click path does; a background
+   *  click (-1) clears the selection (mirroring clicking empty space). */
+  function handle_overlay_pick(displayed_idx: number): void {
+    if (displayed_idx < 0) {
+      // Empty-space pick ⇒ would clear the selection. But the overlay watches
+      // window pointerup and classifies click-vs-drag purely by movement
+      // distance (it can't see the Cmd/Ctrl box-select modifier). A small/dense
+      // box-select drag is therefore misclassified as a background click and its
+      // async pick (GPU readback) resolves AFTER the WebGL box-select already set
+      // selected_sites — clearing here would wipe the box result one frame later
+      // (the flash). Suppress this clear if a box-select committed in the last
+      // ~400ms (covers the pick readback latency without swallowing a genuine
+      // later empty-space click). Box-select set persists.
+      const now = (typeof performance !== `undefined` ? performance.now() : Date.now())
+      if (now - interaction.last_box_select_commit_ms < 400) return
+      if (selected_sites.length > 0) selected_sites = []
+      return
+    }
+    const sites = displayed_structure?.sites
+    const site = sites?.[displayed_idx]
+    if (!site) return
+    const base_idx = get_orig_site_idx(site, displayed_idx)
+    const result = toggle_site_selection(base_idx, selected_sites)
+    if (result) selected_sites = result
+  }
+
   // Slice split-view state
   let slice_result = $state<SliceResult | null>(null)
   let slice_atoms_info = $state.raw<AtomSliceInfo[] | null>(null)
@@ -1713,6 +1791,11 @@
     get_options: () => (scene_props?.bonding_options ?? {}) as Record<string, number>,
     set_connectivity: (v) => { trajectory_bond_connectivity_for_frame = v },
     get_connectivity: () => trajectory_bond_connectivity_for_frame,
+    // WebGPU overlay active ⇒ suspend the per-frame async bond recompute. The
+    // overlay computes its own GPU bonds and does not read
+    // trajectory_bond_connectivity_for_frame. Read reactively inside the driver
+    // effect so toggle-OFF re-primes the current frame's connectivity.
+    get_suspended: () => webgl_suspended,
   })
 
   // Track selection to restore after atom movement
@@ -1901,6 +1984,51 @@
   let camera_is_moving = $state(false)
   let scene = $state<any>(undefined)
   let camera = $state<any>(undefined)
+  // Task 9: experimental WebGPU large-system render path. Default OFF — when
+  // off the overlay renders nothing and the WebGL viewer is unchanged.
+  let large_system_mode = $state(false)
+  // While the WebGPU overlay is active, the WebGL/Threlte path must do ZERO
+  // per-frame work (not just zero painting): the overlay computes its own GPU
+  // bonds/atoms, so any per-frame CPU recompute on the WebGL side is wasted and
+  // defeats the perf win. `webgl_suspended` is read REACTIVELY inside the gated
+  // effects so that flipping the overlay OFF (true→false) re-fires them and the
+  // WebGL view fully resumes for the current frame. Default OFF ⇒ always false
+  // ⇒ zero change to existing WebGL behavior.
+  let webgl_suspended = $derived(large_system_mode)
+  // ── GPU supercell instancing (Phase 1) ──────────────────────────────────────
+  // Parsed [nx,ny,nz] from supercell_scaling. parse_supercell_scaling throws on
+  // malformed input, so guard — a bad string falls back to [1,1,1] (no supercell).
+  let gpu_supercell_factors = $derived.by((): Vec3 => {
+    try {
+      return parse_supercell_scaling(supercell_scaling)
+    } catch {
+      return [1, 1, 1]
+    }
+  })
+  // GPU-supercell is ACTIVE only when the overlay is on AND a real (>1) supercell
+  // is requested AND the structure carries a lattice (offsets need a,b,c). When
+  // active, the CPU keeps the base cell (transform-controller gate) and the GPU
+  // instances base_count × nx·ny·nz spheres. Off / overlay-off / 1×1×1 ⇒ false ⇒
+  // identical CPU + shader behaviour to today.
+  let gpu_supercell_active = $derived(
+    large_system_mode &&
+      gpu_supercell_factors[0] * gpu_supercell_factors[1] * gpu_supercell_factors[2] > 1 &&
+      !!(structure as { lattice?: unknown } | undefined)?.lattice,
+  )
+  // One-shot repaint trigger for StructureScene. Bumped when large_system_mode
+  // turns OFF so the WebGL view (whose autoRender was paused while the overlay
+  // covered it) repaints once on the next frame and isn't left on a stale paint.
+  let webgl_repaint_trigger = $state(0)
+  let _last_large_system_mode = false
+  $effect(() => {
+    // Only act on the OFF transition (true → false). default-off ⇒ no-op at
+    // mount; ON ⇒ no-op (autoRender pauses, overlay paints). On OFF, autoRender
+    // flips back to true (the <Canvas> prop) and this bumps a repaint so the
+    // resumed WebGL render loop paints the current scene immediately.
+    const on = large_system_mode
+    if (_last_large_system_mode && !on) webgl_repaint_trigger++
+    _last_large_system_mode = on
+  })
   let pixels_per_angstrom = $state(0)
   let orbit_controls = $state<any>(undefined)
   let rotation_target_ref = $state<[number, number, number] | undefined>(undefined)
@@ -2745,6 +2873,7 @@
       bind:io_pane_open
       bind:server_pane_open
       bind:plugin_hub_open
+      bind:large_system_mode
       bind:chat_pane_open
       on_popout_chat={popout_chat}
       bind:show_terminal
@@ -2778,6 +2907,8 @@
               bind:structure
               pane_open={true}
               bind:center_camera_trigger
+              bind:supercell_scaling
+              {large_system_mode}
               on_structure_change={(new_struct) => build.handle_structure_replace(new_struct)}
               on_push_undo={push_to_undo}
               on_reset_view={() => align_view_to_lattice()}
@@ -3376,6 +3507,9 @@
             bind:crop_mode_active={interaction.crop_mode_active}
             bind:crop_region={interaction.crop_region}
             {trajectory_context}
+            {gpu_supercell_active}
+            {gpu_supercell_factors}
+            gpu_supercell_base={displayed_structure}
           />
 
           <ServerPane
@@ -3511,6 +3645,7 @@
           selected_bonds={pencil.selected_bonds}
           {structure}
           bind:bond_distance_rules
+          bind:large_system_mode
           {supercell_loading}
           closed_icon="Sliders"
         />
@@ -3538,6 +3673,8 @@
           sym_data={symmetry_data}
           loading={supercell_loading}
           direction="up"
+          {large_system_mode}
+          base_site_count={structure?.sites?.length ?? 0}
         />
       {/if}
     </AtomLegend>
@@ -3560,8 +3697,18 @@
 
       <!-- prevent HTML labels from rendering outside of the canvas -->
       <div style="overflow: hidden; height: 100%; position: relative; z-index: 0; pointer-events: none">
-        <div style="width: 100%; height: 100%; pointer-events: auto">
-        <Canvas {...{ rendererParameters: { antialias: true, powerPreference: `high-performance` } } as any}>
+        <div style="width: 100%; height: 100%; pointer-events: auto; position: relative">
+        <!--
+          autoRender is paused while large-system mode is ON: the WebGPU overlay
+          fully covers this WebGL canvas, so letting Threlte keep repainting the
+          whole scene every invalidate (each trajectory frame) just doubles GPU
+          load → lag. autoRender=false stops the WebGL PAINTS only; OrbitControls
+          still update the shared camera object the overlay reads, so camera
+          interaction keeps working under the overlay. Toggling the mode OFF
+          restores autoRender=true and an $effect below nudges a one-shot repaint
+          so the WebGL view isn't left on a stale/blank frame.
+        -->
+        <Canvas autoRender={!large_system_mode} {...{ rendererParameters: { antialias: true, powerPreference: `high-performance` } } as any}>
           <!--
             show_image_atoms is a separate bindable from scene_props.show_image_atoms
             (the UI checkbox binds to the local one). It must be passed AFTER the
@@ -3572,6 +3719,7 @@
           <StructureScene
             structure={displayed_structure}
             bond_input_structure={supercell_structure ?? structure}
+            {webgl_suspended}
             {trajectory_frame_positions}
             {trajectory_frame_forces}
             trajectory_bond_connectivity={trajectory_bond_connectivity_for_frame}
@@ -3631,6 +3779,7 @@
             {center_camera_trigger}
             bind:lattice_align_trigger
             {reset_camera_up_trigger}
+            repaint_trigger={webgl_repaint_trigger}
             external_dragging={interaction.is_dragging_atom || interaction.is_rotating_atoms}
             is_box_selecting={interaction.is_box_selecting}
             is_rotating_atoms={interaction.is_rotating_atoms}
@@ -3675,6 +3824,7 @@
             bond_manager={pencil.bond_manager}
             bind:atom_fast_ops={scene_atom_fast_ops}
             bind:atom_manager={scene_atom_manager}
+            bind:get_displayed_frame_positions={scene_get_displayed_frame_positions}
             deleted_bond_keys={pencil.deleted_bond_keys}
             bind:selected_bonds={pencil.selected_bonds}
             bond_first_atom={pencil.bond_first_atom}
@@ -3730,6 +3880,43 @@
             cube_slice_color={cube_state_data.slice_plane.plane_color}
           />
         </Canvas>
+        <!--
+          Task 9: WebGPU large-system render overlay. A plain DOM canvas sibling
+          of the Threlte <Canvas> (NOT inside it). Gated by large_system_mode —
+          when off, {#if enabled} renders nothing and the WebGL path is untouched.
+          When on, it's absolutely positioned over the Canvas (z-index 1) and its
+          opaque clear pass covers the WebGL canvas underneath.
+        -->
+        <div style="position: absolute; inset: 0; z-index: 1; pointer-events: none">
+          <LargeSystemOverlay
+            enabled={large_system_mode}
+            {camera}
+            structure={displayed_structure}
+            supercell={gpu_supercell_active ? gpu_supercell_factors : [1, 1, 1]}
+            {show_image_atoms}
+            element_colors={colors.element}
+            atom_radius={scene_props.atom_radius}
+            same_size_atoms={scene_props.same_size_atoms}
+            {element_radius_overrides}
+            {site_radius_overrides}
+            bonding_options={(scene_props.bonding_options ?? {}) as Record<string, number>}
+            {bond_distance_rules}
+            show_bonds={scene_props.show_bonds}
+            {background_color}
+            {background_opacity}
+            show_cell={scene_props.show_cell}
+            cell_edge_color={scene_props.cell_edge_color}
+            {trajectory_positions_version}
+            {trajectory_step_idx}
+            get_displayed_frame_positions={scene_get_displayed_frame_positions}
+            selected_sites={overlay_selected_displayed}
+            on_pick={handle_overlay_pick}
+            on_fallback={(reason) => {
+              large_system_mode = false
+              console.warn(`[CatGO] large-system mode: ${reason}`)
+            }}
+          />
+        </div>
         </div>
         <ScaleBar {pixels_per_angstrom} show={scene_props.show_scale_bar ?? false} />
       </div>
