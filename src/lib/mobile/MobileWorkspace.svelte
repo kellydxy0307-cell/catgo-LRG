@@ -17,8 +17,10 @@
 -->
 <script lang="ts">
   import Structure from '$lib/structure/Structure.svelte'
+  import Trajectory from '$lib/trajectory/Trajectory.svelte'
   import OptimadeSearchModal from '$lib/structure/OptimadeSearchModal.svelte'
   import { parse_any_structure } from '$lib/structure/parsers/dispatch'
+  import { is_trajectory_file, parse_trajectory_data } from '$lib/trajectory/parse'
   import { structure_to_poscar } from '$lib/structure/export/offline-serialize'
   import { writeRemoteFile } from '$lib/api/hpc'
   import { transport } from '$lib/api/transport'
@@ -41,6 +43,10 @@
   let structure = $state<any>(undefined)
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   let saveable_structure = $state<any>(undefined)
+  // Multi-frame files (extxyz/traj/vasprun…) load as a trajectory with playback
+  // instead of a single static structure.
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  let trajectory = $state<any>(undefined)
   // Where the open structure came from, so Save knows to write it back.
   let remote_origin = $state<{ path: string; filename: string } | null>(null)
   let local_filename = $state(`structure.vasp`)
@@ -71,6 +77,7 @@
 
   let term_cwd = $state(``)
   const has_structure = $derived(structure != null)
+  const has_content = $derived(structure != null || trajectory != null)
 
   // Auto-dismiss the save/notice banner so it never sticks permanently; a ✕ also
   // clears it immediately.
@@ -83,19 +90,43 @@
   })
   const can_save = $derived(has_structure && (saveable_structure != null || structure != null))
 
-  function set_structure(content: string, filename: string, origin: { path: string } | null): void {
+  function show_loaded(filename: string, origin: { path: string } | null): void {
+    local_filename = filename
+    remote_origin = origin ? { path: origin.path, filename } : null
+    save_msg = ``
+    files_open = false
+    if (mode === `choose` || mode === `terminal`) mode = `structure`
+  }
+
+  async function set_structure(
+    content: string,
+    filename: string,
+    origin: { path: string } | null,
+  ): Promise<void> {
+    // Multi-frame file -> load the whole trajectory (with playback), not frame 1.
+    if (is_trajectory_file(filename, content)) {
+      try {
+        const traj = await parse_trajectory_data(content, filename)
+        if (traj) {
+          trajectory = traj
+          structure = undefined
+          saveable_structure = undefined
+          show_loaded(filename, origin)
+          return
+        }
+      } catch {
+        /* fall back to single-structure parsing */
+      }
+    }
     const parsed = parse_any_structure(content, filename)
     if (!parsed) {
       save_msg = t(`mobile.could_not_parse`, { filename })
       return
     }
     structure = parsed
+    trajectory = undefined
     saveable_structure = undefined
-    local_filename = filename
-    remote_origin = origin ? { path: origin.path, filename } : null
-    save_msg = ``
-    files_open = false
-    if (mode === `choose` || mode === `terminal`) mode = `structure`
+    show_loaded(filename, origin)
   }
 
   // ── Local file open (no cluster needed) ──
@@ -120,6 +151,7 @@
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function on_db_import(s: any): void {
     structure = s
+    trajectory = undefined
     saveable_structure = undefined
     local_filename = `POSCAR`
     remote_origin = null
@@ -162,7 +194,7 @@
     session_id = null
     ks_visible = false
     files_open = false
-    if (!has_structure) mode = `terminal`
+    if (!has_content) mode = `terminal`
   }
 
   function on_connected(id: string): void {
@@ -256,42 +288,52 @@
       </div>
     {/if}
 
+    <!-- Both panes stay MOUNTED across layout switches (hidden, not removed), so
+         the terminal keeps its live PTY + working directory when you pop into the
+         structure view and back. -->
     <div class="mw-body" class:split-h={mode === `split-h`} class:split-v={mode === `split-v`}>
-      {#if show_structure}
-        <div class="mw-pane mw-struct">
-          {#if has_structure}
-            <Structure
-              bind:structure
-              bind:saveable_structure
-              show_controls={true}
-              fullscreen_toggle={false}
-              allow_file_drop={false}
-              persist_settings={false}
-              hidden_toolbar_items={HIDDEN_TOOLBAR}
-            />
-          {:else}
-            <div class="mw-empty">
-              <p>{t(`mobile.no_structure_loaded`)}</p>
-              <button type="button" class="mw-open-btn" onclick={open_local}>{t(`mobile.open_local_file`)}</button>
-              {#if session_id}
-                <button type="button" class="mw-open-btn" onclick={() => (files_open = true)}>{t(`mobile.open_from_cluster`)}</button>
-              {/if}
-            </div>
-          {/if}
-        </div>
-      {/if}
+      <div class="mw-pane mw-struct" class:hidden={!show_structure}>
+        {#if trajectory}
+          <Trajectory
+            bind:trajectory
+            fullscreen_toggle={false}
+            structure_props={{
+              show_controls: true,
+              fullscreen_toggle: false,
+              allow_file_drop: false,
+              hidden_toolbar_items: HIDDEN_TOOLBAR,
+            }}
+          />
+        {:else if has_structure}
+          <Structure
+            bind:structure
+            bind:saveable_structure
+            show_controls={true}
+            fullscreen_toggle={false}
+            allow_file_drop={false}
+            persist_settings={false}
+            hidden_toolbar_items={HIDDEN_TOOLBAR}
+          />
+        {:else}
+          <div class="mw-empty">
+            <p>{t(`mobile.no_structure_loaded`)}</p>
+            <button type="button" class="mw-open-btn" onclick={open_local}>{t(`mobile.open_local_file`)}</button>
+            {#if session_id}
+              <button type="button" class="mw-open-btn" onclick={() => (files_open = true)}>{t(`mobile.open_from_cluster`)}</button>
+            {/if}
+          </div>
+        {/if}
+      </div>
 
-      {#if show_terminal}
-        <div class="mw-pane mw-term">
-          {#if session_id}
-            <MobileTerminal {session_id} on_cwd={(p) => (term_cwd = p)} />
-          {:else}
-            <div class="mw-connect">
-              <MobileConnect {on_connected} />
-            </div>
-          {/if}
-        </div>
-      {/if}
+      <div class="mw-pane mw-term" class:hidden={!show_terminal}>
+        {#if session_id}
+          <MobileTerminal {session_id} on_cwd={(p) => (term_cwd = p)} />
+        {:else}
+          <div class="mw-connect">
+            <MobileConnect {on_connected} />
+          </div>
+        {/if}
+      </div>
     </div>
   {/if}
 
@@ -471,6 +513,10 @@
     min-height: 0;
     position: relative;
     display: flex;
+  }
+  /* Kept mounted but hidden (preserves the terminal PTY/cwd across layouts). */
+  .mw-pane.hidden {
+    display: none;
   }
   /* The editor's root (.structure-main) defaults to height:500px via
      --struct-height; override it so it fills the pane (no black gap / clipping

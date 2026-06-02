@@ -15,6 +15,7 @@
 <script lang="ts">
   import DOMPurify from 'dompurify'
   import { transport } from '$lib/api/transport'
+  import { writeRemoteFile } from '$lib/api/hpc'
   import { markdown_to_html } from '$lib/chat/markdown'
   import { humanSize, isBinaryName } from './files-util'
   import { t } from '$lib/i18n/index.svelte'
@@ -44,6 +45,29 @@
   let blob_url = $state(``)
   let truncated = $state(false)
   let error_msg = $state(``)
+  // Text editing: dirty once the user types; Save writes back over SFTP.
+  let dirty = $state(false)
+  let saving = $state(false)
+  let save_note = $state(``)
+
+  async function save(): Promise<void> {
+    if (saving || truncated) return
+    saving = true
+    save_note = ``
+    try {
+      const r = await writeRemoteFile(session_id, path, content)
+      if (r.success) {
+        dirty = false
+        save_note = t(`mobile.saved`)
+      } else {
+        save_note = r.message || t(`mobile.save_failed`)
+      }
+    } catch (e) {
+      save_note = e instanceof Error ? e.message : String(e)
+    } finally {
+      saving = false
+    }
+  }
 
   const base_name = $derived(path.slice(path.lastIndexOf(`/`) + 1) || path)
 
@@ -149,7 +173,21 @@
       ‹ {t(`mobile.back`)}
     </button>
     <span class="fv-name" title={path}>{base_name}</span>
+    {#if status === `text` && !truncated}
+      <button
+        type="button"
+        class="fv-save"
+        onclick={save}
+        disabled={saving || !dirty}
+      >
+        {saving ? t(`mobile.saving`) : t(`mobile.save`)}
+      </button>
+    {/if}
   </header>
+
+  {#if save_note}
+    <div class="fv-savenote">{save_note}</div>
+  {/if}
 
   <div class="fv-body" class:centered={status === `image` || status === `pdf`}>
     {#if status === `loading`}
@@ -176,7 +214,18 @@
           {t(`mobile.truncated_note`, { size: humanSize(MAX_BYTES) })}
         </div>
       {/if}
-      <pre class="fv-pre">{content}</pre>
+      {#if truncated}
+        <pre class="fv-pre">{content}</pre>
+      {:else}
+        <textarea
+          class="fv-edit"
+          bind:value={content}
+          oninput={() => (dirty = true)}
+          autocapitalize="off"
+          autocorrect="off"
+          spellcheck="false"
+        ></textarea>
+      {/if}
     {/if}
   </div>
 </div>
@@ -308,5 +357,45 @@
     color: var(--text-color, #e0e0e0);
     white-space: pre;
     tab-size: 4;
+  }
+  .fv-edit {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 12px;
+    border: none;
+    outline: none;
+    resize: none;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 13px;
+    line-height: 1.45;
+    color: var(--text-color, #e0e0e0);
+    background: var(--page-bg, #0e1117);
+    white-space: pre;
+    tab-size: 4;
+  }
+  .fv-save {
+    flex-shrink: 0;
+    min-height: 36px;
+    padding: 0 14px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--accent-color, #0a84ff);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .fv-save:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+  .fv-savenote {
+    flex-shrink: 0;
+    padding: 6px 12px;
+    font-size: 0.82em;
+    color: var(--text-color-muted, #cbd5e1);
+    background: rgba(59, 130, 246, 0.1);
   }
 </style>

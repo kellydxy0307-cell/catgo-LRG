@@ -104,6 +104,10 @@ const mobile: Record<string, string> = {
   binary_file:            `Binary file`,
   binary_note:            `{size} — not shown (non-text or too large to preview).`,
   truncated_note:         `Showing the first {size} — file is larger and was truncated.`,
+  save:                   `Save`,
+  saving:                 `Saving…`,
+  saved:                  `Saved`,
+  save_failed:            `Save failed`,
 }
 
 export default mobile

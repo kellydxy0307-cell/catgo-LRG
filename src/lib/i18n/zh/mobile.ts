@@ -104,6 +104,10 @@ const mobile: Record<string, string> = {
   binary_file:            `二进制文件`,
   binary_note:            `{size} — 不显示（非文本或过大无法预览）。`,
   truncated_note:         `仅显示前 {size} — 文件更大，已被截断。`,
+  save:                   `保存`,
+  saving:                 `保存中…`,
+  saved:                  `已保存`,
+  save_failed:            `保存失败`,
 }
 
 export default mobile
