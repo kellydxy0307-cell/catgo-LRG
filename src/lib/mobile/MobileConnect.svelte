@@ -193,6 +193,21 @@
     connecting = true
     used_saved_pw = false
     captured_password = method === `password` ? password : ``
+    // Robustly load a saved password for THIS endpoint (so OTP-only reconnect
+    // works even when the form was filled manually, not via a saved-list tap).
+    if (!auto_password) {
+      try {
+        const pw = await transport.keyLoad(endpoint_pw_key())
+        if (pw) {
+          auto_password = pw
+          // password method: fill the form value directly; keyboard-interactive
+          // uses auto_password to answer the password prompt round.
+          if (method === `password` && !password) password = pw
+        }
+      } catch {
+        /* no stored password / desktop transport */
+      }
+    }
     try {
       const r = await transport.connect({
         host: host.trim(),
