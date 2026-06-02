@@ -259,7 +259,7 @@ export async function fetch_optimade_structure(
 ): Promise<OptimadeStructure | null> {
   const encoded_id = encode_structure_id(structure_id)
 
-  const is_static = typeof __CATGO_STATIC_ONLY__ !== `undefined` && __CATGO_STATIC_ONLY__
+  const is_static = (typeof __CATGO_STATIC_ONLY__ !== `undefined` && __CATGO_STATIC_ONLY__) || isMobile()
   let url: string
   if (vscode_api || is_static) {
     // Direct API call: need to resolve provider base URL and construct endpoint
@@ -302,7 +302,7 @@ export async function fetch_suggested_structures(
     let url: string
     let data: { data?: OptimadeStructure[] }
 
-    const is_static = typeof __CATGO_STATIC_ONLY__ !== `undefined` && __CATGO_STATIC_ONLY__
+    const is_static = (typeof __CATGO_STATIC_ONLY__ !== `undefined` && __CATGO_STATIC_ONLY__) || isMobile()
     if (vscode_api || is_static) {
       // Direct API call
       const provider_obj = providers.find(p => p.id === provider)
@@ -594,7 +594,7 @@ export async function search_optimade_structures(
       return result
     }
 
-    const is_static = typeof __CATGO_STATIC_ONLY__ !== `undefined` && __CATGO_STATIC_ONLY__
+    const is_static = (typeof __CATGO_STATIC_ONLY__ !== `undefined` && __CATGO_STATIC_ONLY__) || isMobile()
     const limit = options.limit ?? 20
     const offset = options.offset ?? 0
     const filter = build_optimade_filter(options)

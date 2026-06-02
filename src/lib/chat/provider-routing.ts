@@ -39,7 +39,9 @@ export async function relay_fetch(url: string, init?: RequestInit): Promise<Resp
     try {
       const { fetch: tauriFetch } = await import('@tauri-apps/plugin-http')
       return await tauriFetch(url, init)
-    } catch {
+    } catch (e) {
+      // eslint-disable-next-line no-console
+      console.warn(`[CatGo] tauri http fetch failed, falling back:`, url, e)
       // Plugin unavailable (e.g. plain browser) — fall back to the relay path.
     }
   }
