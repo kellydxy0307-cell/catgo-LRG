@@ -17,6 +17,13 @@
 <script lang="ts">
   import { transport, type HpcAuthMethod, type OtpPrompt } from '$lib/api/transport'
   import OtpDialog from './OtpDialog.svelte'
+  import {
+    loadConnections,
+    upsertConnection,
+    removeConnection,
+    connectionLabel,
+    type SavedConnection,
+  } from './connections'
 
   interface Props {
     /** Emitted with the live session id once authentication completes. */
@@ -25,7 +32,8 @@
 
   let { on_connected }: Props = $props()
 
-  const STORAGE_KEY = `catgo_mobile_connect`
+  // ─── Saved (non-secret) connections ───
+  let saved = $state<SavedConnection[]>([])
 
   // ─── Form state ───
   let host = $state(``)
@@ -47,37 +55,40 @@
   let otp_prompts = $state<OtpPrompt[]>([])
   let otp_instructions = $state(``)
 
-  // Restore non-secret fields on mount.
+  // Load the saved-connection list and prefill the form from the most recent.
   $effect(() => {
-    try {
-      const raw = globalThis.localStorage?.getItem(STORAGE_KEY)
-      if (!raw) return
-      const saved = JSON.parse(raw) as {
-        host?: string
-        port?: number
-        username?: string
-        method?: HpcAuthMethod
-        key_path?: string
-      }
-      if (saved.host) host = saved.host
-      if (typeof saved.port === `number`) port = saved.port
-      if (saved.username) username = saved.username
-      if (saved.method) method = saved.method
-      if (saved.key_path) key_path = saved.key_path
-    } catch {
-      // Corrupt / unavailable storage — ignore and start fresh.
+    saved = loadConnections()
+    const recent = saved[0]
+    if (recent && !host) {
+      host = recent.host
+      port = recent.port
+      username = recent.username
+      method = recent.method
+      if (recent.keyPath) key_path = recent.keyPath
     }
   })
 
+  /** Fill the form from a saved connection (tap-to-reconnect). */
+  function pick_saved(c: SavedConnection): void {
+    host = c.host
+    port = c.port
+    username = c.username
+    method = c.method
+    key_path = c.keyPath ?? ``
+    error_msg = ``
+  }
+
+  /** Delete a saved connection (does not touch any stored key material). */
+  function delete_saved(id: string, e: Event): void {
+    e.stopPropagation()
+    saved = removeConnection(id)
+  }
+
   function persist_non_secrets(): void {
-    try {
-      globalThis.localStorage?.setItem(
-        STORAGE_KEY,
-        JSON.stringify({ host, port, username, method, key_path }),
-      )
-    } catch {
-      // Storage unavailable — non-fatal.
-    }
+    saved = upsertConnection(
+      { host, port, username, method, keyPath: key_path },
+      Date.now(),
+    )
   }
 
   /** Apply a connect / submitOtp result: succeed, advance OTP round, or error. */
@@ -172,6 +183,37 @@
 <div class="connect-wrap">
   <div class="connect-card">
     <div class="connect-title">Connect to cluster</div>
+
+    {#if saved.length > 0}
+      <div class="saved-list">
+        <span class="saved-label">Saved</span>
+        {#each saved as c (c.id)}
+          <div
+            class="saved-row"
+            role="button"
+            tabindex="0"
+            onclick={() => pick_saved(c)}
+            onkeydown={(e) => {
+              if (e.key === `Enter` || e.key === ` `) {
+                e.preventDefault()
+                pick_saved(c)
+              }
+            }}
+          >
+            <span class="saved-main">{connectionLabel(c)}</span>
+            <span class="saved-method">{c.method}</span>
+            <button
+              type="button"
+              class="saved-del"
+              aria-label="Remove saved connection"
+              onclick={(e) => delete_saved(c.id, e)}
+            >
+              ✕
+            </button>
+          </div>
+        {/each}
+      </div>
+    {/if}
 
     <form
       class="connect-form"
@@ -296,6 +338,67 @@
     font-weight: 600;
     color: var(--text-color, #e0e0e0);
     margin-bottom: 16px;
+  }
+  .saved-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 18px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  .saved-label {
+    font-size: 0.85em;
+    color: var(--text-color-muted, #94a3b8);
+  }
+  .saved-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 48px;
+    padding: 8px 12px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .saved-row:hover,
+  .saved-row:focus-visible {
+    border-color: var(--accent-color, #3b82f6);
+    outline: none;
+  }
+  .saved-main {
+    flex: 1;
+    min-width: 0;
+    font-size: 15px;
+    color: var(--text-color, #e0e0e0);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .saved-method {
+    flex-shrink: 0;
+    font-size: 0.72em;
+    color: var(--text-color-muted, #94a3b8);
+    background: rgba(255, 255, 255, 0.06);
+    padding: 2px 8px;
+    border-radius: 999px;
+  }
+  .saved-del {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 1;
+    color: var(--text-color-muted, #94a3b8);
+    background: transparent;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .saved-del:hover {
+    color: #ff6b6b;
+    background: rgba(255, 107, 107, 0.1);
   }
   .connect-form {
     display: flex;
