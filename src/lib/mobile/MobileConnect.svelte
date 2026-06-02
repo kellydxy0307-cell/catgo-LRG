@@ -15,6 +15,7 @@
   convenience. NEVER persists passwords, passphrases, or OTP answers.
 -->
 <script lang="ts">
+  import { untrack } from 'svelte'
   import { transport, type HpcAuthMethod, type OtpPrompt } from '$lib/api/transport'
   import OtpDialog from './OtpDialog.svelte'
   import {
@@ -24,6 +25,7 @@
     connectionLabel,
     type SavedConnection,
   } from './connections'
+  import { endpointKey, reuseSession, rememberSession } from './sessions'
 
   interface Props {
     /** Emitted with the live session id once authentication completes. */
@@ -86,24 +88,26 @@
     )
   }
 
-  // Load the saved-connection list and prefill the form from the most recent.
-  // NOTE: read the fresh list into a LOCAL — never read `saved` back inside this
-  // effect. `loadConnections()` returns a new array each call, so writing AND
-  // reading `saved` here would make the effect depend on a value it just changed
-  // → infinite re-run (svelte effect_update_depth_exceeded). Only `host` is a
-  // tracked read, and the `!host` guard makes it converge after the first set.
+  // Prefill the form from the most-recent saved connection — but ONLY on first
+  // mount. `untrack` + the `did_prefill` guard stop the effect from depending on
+  // `host`; otherwise clearing the form (the "+ New" button) would set host=``,
+  // re-run the effect, and immediately refill it (New appears to do nothing).
+  let did_prefill = false
   $effect(() => {
     const list = loadConnections()
     saved = list
-    const recent = list[0]
-    if (recent && !host) {
+    untrack(() => {
+      if (did_prefill) return
+      did_prefill = true
+      const recent = list[0]
+      if (!recent || host) return
       label = recent.label ?? ``
       host = recent.host
       port = recent.port
       username = recent.username
       method = recent.method
       if (recent.keyPath) key_path = recent.keyPath
-    }
+    })
   })
 
   /** Fill the form from a saved connection (tap-to-reconnect), and load its
@@ -187,6 +191,8 @@
       otp_visible = false
       otp_busy = false
       persist_non_secrets()
+      // Register the live session so a later reconnect to this endpoint reuses it.
+      rememberSession(endpointKey(host.trim(), port, username.trim()), r.sessionId)
       // Offer to save the password (once) so the next reconnect is OTP-only.
       // Park until the user decides — calling on_connected swaps us out.
       if (captured_password && !used_saved_pw) {
@@ -211,6 +217,19 @@
     connecting = true
     used_saved_pw = false
     captured_password = method === `password` ? password : ``
+    // ControlMaster-style reuse: if a still-live session exists for this
+    // endpoint, reuse it (no re-auth / no OTP) instead of connecting again.
+    try {
+      const reused = await reuseSession(endpointKey(host.trim(), port, username.trim()))
+      if (reused) {
+        persist_non_secrets()
+        connecting = false
+        on_connected?.(reused)
+        return
+      }
+    } catch {
+      /* fall through to a fresh connect */
+    }
     // Robustly load a saved password for THIS endpoint (so OTP-only reconnect
     // works even when the form was filled manually, not via a saved-list tap).
     if (!auto_password) {
