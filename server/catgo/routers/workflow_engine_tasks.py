@@ -4,6 +4,7 @@ Endpoints:
   GET  /api/engine/tasks/{id}           — get task details
   PUT  /api/engine/tasks/{id}/params    — update params (only WAITING/READY)
   GET  /api/engine/tasks/{id}/result    — get result data
+  GET  /api/engine/tasks/{id}/step-results — completed-step convergence/energy summary
   POST /api/engine/tasks/{id}/retry     — reset task + downstream
   POST /api/engine/tasks/{id}/cancel    — cancel task
   GET  /api/engine/tasks/{id}/provenance — get provenance lineage
@@ -14,6 +15,8 @@ Endpoints:
   GET  /api/engine/tasks/{id}/frequencies  — parse vibrational frequencies
   GET  /api/engine/tasks/{id}/forces       — per-ionic-step force vectors
   GET  /api/engine/tasks/{id}/mlp-progress — MLP optimizer live progress
+  GET  /api/engine/tasks/{id}/orca-progress — ORCA stdout-tail calc stage
+  GET  /api/engine/tasks/{id}/irc-trajectory — ORCA IRC full trajectory (XYZ)
 """
 
 from __future__ import annotations
@@ -140,6 +143,58 @@ async def get_result(task_id: str):
         pass
 
     raise HTTPException(404, f"No result for task {task_id}")
+
+
+@router.get("/{task_id}/step-results")
+def get_step_results(task_id: str):
+    """Completed-step results (convergence points, energy, etc.) for a V2 task.
+
+    V2-native mirror of V1 ``GET /api/workflow/{wf}/step-results/{step}``
+    (``catgo.routers.workflow.api_get_step_results``). Resolves the task via
+    ``WorkflowDB.get_task`` and reads its stored result via
+    ``WorkflowDB.get_result`` (the ``task_results`` table) instead of the legacy
+    ``workflow_steps`` table.
+
+    The result-merge (tasks.result_json + task_results.outputs_json + the typed
+    result columns) is delegated to the SAME V1-compat shim
+    (``catgo.workflow.v1_compat._task_to_step``) the V1 endpoint already reads
+    through — this is additive convergence work, not a re-implementation of the
+    merge. The scalar fields are then pulled out of the merged summary exactly as
+    V1 does, so the response shape is byte-for-byte compatible with the V1
+    endpoint the frontend already consumes.
+
+    Contract (matches V1): unknown task -> clean 404; task not completed -> 400;
+    on success the documented ``{node_type, convergence_points, energy_eh,
+    energy_ev, converged, n_steps, full_summary}`` payload.
+    """
+    db = _get_db()
+    try:
+        task = db.get_task(task_id)
+    except KeyError:
+        raise HTTPException(404, f"Task {task_id} not found")
+
+    # Build the V1-shaped step dict (merges result_json + task_results columns +
+    # flattened outputs_json) via the shared compat shim, then read it exactly as
+    # the V1 step-results handler does.
+    from catgo.workflow.v1_compat import _task_to_step
+    step = _task_to_step(db, task)
+
+    status = (step.get("status") or "").lower()
+    if status != "completed":
+        raise HTTPException(400, f"Step not completed (status: {status})")
+
+    result_json_str = step.get("result_json", "{}") or "{}"
+    result_json = json.loads(result_json_str) if isinstance(result_json_str, str) else result_json_str
+
+    return {
+        "node_type": step.get("node_type"),
+        "convergence_points": result_json.get("convergence_points", []),
+        "energy_eh": result_json.get("energy_eh"),
+        "energy_ev": result_json.get("energy_ev"),
+        "converged": result_json.get("converged"),
+        "n_steps": result_json.get("n_steps"),
+        "full_summary": result_json,  # Full merged summary for detailed analysis
+    }
 
 
 @router.post("/{task_id}/retry")
@@ -604,6 +659,185 @@ async def get_task_mlp_progress(task_id: str):
             f"(target fmax not in params — convergence flag suppressed)"
         )
     return {"points": points, "converged": converged_value, "message": message}
+
+
+def _starting_stage() -> dict:
+    """Clean default stage when there is nothing to parse yet."""
+    return {"stage": "starting", "message": "Starting calculation..."}
+
+
+@router.get("/{task_id}/orca-progress")
+async def get_task_orca_progress(task_id: str):
+    """Coarse-grained ORCA calculation *stage* parsed from the output tail.
+
+    V2-native mirror of V1 ``GET /api/workflow/{wf}/orca_progress/{step}``
+    (``catgo.routers.workflow.api_get_orca_progress``). Resolves the task via
+    ``WorkflowDB.get_task`` (V2 store) for its ``work_dir`` / ``task_type`` /
+    ``params_json`` instead of the legacy ``workflow_steps`` table, tails the
+    task's ``ORCA.out`` and derives a stage from it. The stage parsing is
+    delegated to the SAME engine parsers the poller already uses
+    (``catgo.workflow.engine.orca_progress.get_orca_stage`` /
+    ``get_orca_irc_stage``) — this is additive convergence work, not a
+    re-implementation of the physics/parsing.
+
+    Unlike the V1 endpoint (which returns convergence *points* via
+    ``parse_orca_progress``), this returns the lightweight stdout-tail *stage*
+    dict — the coarse progress label the poller surfaces. The IRC parser is
+    dispatched for ``orca_irc`` (resolving unified nodes like ``geo_opt`` +
+    ``software=orca`` first); every other ORCA node uses the opt/freq parser.
+
+    Contract: unknown task -> clean 404; no work_dir, no ORCA.out yet, or no
+    live HPC connection -> a clean ``starting`` stage (never a 500). The
+    response always echoes ``task_id`` + the resolved ``task_type`` so the
+    frontend can map it back to its graph node.
+    """
+    db = _get_db()
+    try:
+        task = db.get_task(task_id)
+    except KeyError:
+        raise HTTPException(404, f"Task {task_id} not found")
+
+    work_dir = task.get("work_dir")
+    if not work_dir:
+        return {"task_id": task_id, "task_type": task.get("task_type", ""), **_starting_stage()}
+
+    # Resolve unified calc types (e.g. geo_opt + software=orca → orca_opt, or
+    # ts_search + software=orca → orca_neb_ts) so the right parser is dispatched
+    # — same resolution the convergence endpoint + V1 handler use.
+    task_type = task.get("task_type", "")
+    from workflow.node_sets import UNIFIED_CALC_NODES, _resolve_software
+    if task_type in UNIFIED_CALC_NODES:
+        params = json.loads(task.get("params_json", "{}") or "{}")
+        task_type, _ = _resolve_software(task_type, params)
+
+    base = {"task_id": task_id, "task_type": task_type}
+
+    # Tail the ORCA.out — local preview reads straight from disk; HPC tails over
+    # SSH. Any failure (no file / dead session) degrades to a clean starting
+    # stage rather than a 500, matching the V1 "no work directory" behaviour.
+    tail_text = ""
+    orca_out = f"{work_dir}/ORCA.out"
+    if _is_local_preview(work_dir):
+        local_path = Path(work_dir) / "ORCA.out"
+        if local_path.is_file():
+            tail_text = local_path.read_text(encoding="utf-8", errors="replace")
+    else:
+        try:
+            _task, hpc = _get_task_hpc(task_id)
+        except HTTPException:
+            # No live HPC connection (expired session) → clean starting stage.
+            return {**base, **_starting_stage()}
+        try:
+            result = await hpc.run(
+                f"test -f {orca_out} && tail -c 20000 {orca_out} || echo ''",
+                check=False,
+            )
+            tail_text = result.stdout or ""
+        except Exception as exc:
+            logger.warning("Task %s orca-progress tail failed: %s", task_id, exc)
+            return {**base, **_starting_stage()}
+
+    if not tail_text.strip():
+        return {**base, **_starting_stage()}
+
+    from catgo.workflow.engine.orca_progress import get_orca_stage, get_orca_irc_stage
+    if task_type == "orca_irc":
+        stage = get_orca_irc_stage(tail_text)
+    else:
+        stage = get_orca_stage(tail_text)
+
+    return {**base, **stage}
+
+
+@router.get("/{task_id}/irc-trajectory")
+async def get_task_irc_trajectory(task_id: str):
+    """Serve the ORCA IRC full trajectory (``ORCA_IRC_Full_trj.xyz``) for a V2 task.
+
+    V2-native mirror of V1 ``GET /api/workflow/{wf}/irc_trajectory/{step}``
+    (``catgo.routers.workflow.api_get_irc_trajectory``). Resolves the task via
+    ``WorkflowDB.get_task`` (V2 store) for its ``work_dir`` / ``task_type`` /
+    ``params_json`` instead of the legacy ``workflow_steps`` table, then reads
+    the IRC trajectory file ORCA writes (input basename ``ORCA`` →
+    ``ORCA_IRC_Full_trj.xyz``) and returns it as raw XYZ text for the trajectory
+    viewer. The HPC read reuses the SAME V1 file helper
+    (``catgo.utils.job_parser.read_remote_file``) — this is additive convergence
+    work, not a re-implementation of the I/O.
+
+    Unified ``irc`` nodes (``software=orca``) are resolved to ``orca_irc`` first,
+    matching the V1 node-type guard: this endpoint only serves ORCA IRC nodes.
+
+    Contract: unknown task / no ``work_dir`` -> clean 404; non-IRC node -> 400;
+    trajectory file absent (not produced yet) or no live HPC connection -> clean
+    404. The response echoes ``task_id`` + the resolved ``task_type`` so the
+    frontend can map it back to its graph node, alongside the documented V1
+    ``{content, filename}`` payload.
+    """
+    db = _get_db()
+    try:
+        task = db.get_task(task_id)
+    except KeyError:
+        raise HTTPException(404, f"Task {task_id} not found")
+
+    work_dir = task.get("work_dir")
+    if not work_dir:
+        raise HTTPException(404, f"Task {task_id} has no work_dir")
+
+    # Resolve unified calc types (irc + software=orca → orca_irc) so the node-type
+    # guard matches the V1 handler — same resolution the convergence/orca-progress
+    # endpoints use.
+    task_type = task.get("task_type", "")
+    from workflow.node_sets import UNIFIED_CALC_NODES, _resolve_software
+    if task_type in UNIFIED_CALC_NODES:
+        params = json.loads(task.get("params_json", "{}") or "{}")
+        task_type, _ = _resolve_software(task_type, params)
+
+    if task_type != "orca_irc":
+        raise HTTPException(400, "This endpoint only supports orca_irc nodes")
+
+    # ORCA appends the input basename to all IRC output files. The input is
+    # always written as ORCA.inp, so basename = ORCA → ORCA_IRC_Full_trj.xyz.
+    filename = "ORCA_IRC_Full_trj.xyz"
+    base = {"task_id": task_id, "task_type": task_type}
+
+    # Local-preview work dirs read straight from disk; HPC work dirs read over
+    # SSH via the shared V1 helper.
+    if _is_local_preview(work_dir):
+        local_path = Path(work_dir) / filename
+        if not local_path.is_file():
+            raise HTTPException(404, f"{filename} not found")
+        content = local_path.read_text(encoding="utf-8", errors="replace")
+        if not content:
+            raise HTTPException(404, f"{filename} not found")
+        return {**base, "content": content, "filename": filename}
+
+    # HPC path — a missing/expired session degrades to a clean 404 (file is
+    # unreachable), matching the V1 "file not found on HPC" behaviour.
+    try:
+        _task, hpc = _get_task_hpc(task_id)
+    except HTTPException:
+        raise HTTPException(404, f"{filename} not reachable (no HPC session)")
+
+    trajectory_path = f"{work_dir}/{filename}"
+    try:
+        from catgo.utils.hpc_client import LocalFileConnection
+        if isinstance(hpc, LocalFileConnection):
+            content, _ = await hpc.read_file_content(trajectory_path)
+        else:
+            from catgo.utils.job_parser import read_remote_file
+            # IRC trajectories are typically 10–200 KB for 40-step paths.
+            content, _ = await read_remote_file(
+                hpc.conn, trajectory_path, max_bytes=10 * 1024 * 1024
+            )
+    except asyncio.TimeoutError:
+        raise HTTPException(504, "Timeout reading trajectory file from HPC")
+    except Exception as exc:
+        logger.warning("Task %s irc-trajectory read failed: %s", task_id, exc)
+        raise HTTPException(404, f"{filename} not found")
+
+    if not content:
+        raise HTTPException(404, f"{filename} not found")
+
+    return {**base, "content": content, "filename": filename}
 
 
 def _freqs_from_v2_result(result: dict) -> tuple[list[float], list[float]]:
