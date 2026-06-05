@@ -109,9 +109,24 @@ jobs:
           PLIST=$(find src-tauri/gen/apple -name Info.plist -path '*_iOS*' -print -quit)
           [ -n "$PLIST" ] || PLIST=$(find src-tauri/gen/apple -name Info.plist -print -quit)
           if [ -n "$PLIST" ]; then
-            /usr/libexec/PlistBuddy -c "Add :ITSAppUsesNonExemptEncryption bool false" "$PLIST" 2>/dev/null \
-              || /usr/libexec/PlistBuddy -c "Set :ITSAppUsesNonExemptEncryption false" "$PLIST" 2>/dev/null || true
-            echo "Patched $PLIST"
+            PB=/usr/libexec/PlistBuddy
+            # Export-compliance: skip the encryption prompt.
+            $PB -c "Add :ITSAppUsesNonExemptEncryption bool false" "$PLIST" 2>/dev/null \
+              || $PB -c "Set :ITSAppUsesNonExemptEncryption false" "$PLIST" 2>/dev/null || true
+            # tauri.conf fileAssociations generate CFBundleDocumentTypes but omit the
+            # iOS-required keys, tripping ITMS-90737 / ITMS-90788 on upload:
+            #  - LSSupportsOpeningDocumentsInPlace (app-level): open files in place.
+            #  - LSHandlerRank on every document type: CatGo views common formats it
+            #    doesn't own → Alternate.
+            $PB -c "Add :LSSupportsOpeningDocumentsInPlace bool true" "$PLIST" 2>/dev/null \
+              || $PB -c "Set :LSSupportsOpeningDocumentsInPlace true" "$PLIST" 2>/dev/null || true
+            i=0
+            while $PB -c "Print :CFBundleDocumentTypes:$i:CFBundleTypeName" "$PLIST" >/dev/null 2>&1; do
+              $PB -c "Add :CFBundleDocumentTypes:$i:LSHandlerRank string Alternate" "$PLIST" 2>/dev/null \
+                || $PB -c "Set :CFBundleDocumentTypes:$i:LSHandlerRank Alternate" "$PLIST" 2>/dev/null || true
+              i=$((i+1))
+            done
+            echo "Patched $PLIST ($i document types got LSHandlerRank)"
           else
             echo "::warning::No iOS Info.plist found under src-tauri/gen/apple"
           fi
