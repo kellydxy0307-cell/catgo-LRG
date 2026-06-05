@@ -456,6 +456,7 @@
       </span>
 
       <!-- === Analysis Tools === -->
+      {#if !hidden_toolbar_items.includes('analysis')}
       <span class="struct-toolbar-tooltip-wrap">
         <button
           type="button"
@@ -467,6 +468,7 @@
         </button>
         <span class="struct-toolbar-tooltip" role="tooltip">{t('structure.analysis_tools')}</span>
       </span>
+      {/if}
 
       {#if !hidden_toolbar_items.includes('workflow') && !STATIC_ONLY}
       <!-- === Workflow === -->
