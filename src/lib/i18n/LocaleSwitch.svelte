@@ -10,9 +10,12 @@
 
   let {
     onchange,
+    compact = false,
     ...rest
   }: Omit<HTMLAttributes<HTMLSelectElement>, `onchange`> & {
     onchange?: (pref: LocalePreference) => void
+    /** Icon-only options — collapses to just the flag/globe (tight toolbars). */
+    compact?: boolean
   } = $props()
 
   let current = $state<LocalePreference>(get_preference())
@@ -34,11 +37,12 @@
 <select
   bind:value={current}
   onchange={handle_change}
+  aria-label="Language"
   {...rest}
   class="locale-control {rest.class ?? ``}"
 >
   {#each options as { value, label, icon } (value)}
-    <option {value}>{icon}&ensp;{label}</option>
+    <option {value}>{compact ? icon : `${icon} ${label}`}</option>
   {/each}
 </select>
 

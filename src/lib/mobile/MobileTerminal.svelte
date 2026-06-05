@@ -114,9 +114,59 @@
         const cols = term.cols > 0 ? term.cols : 80
         const rows = term.rows > 0 ? term.rows : 24
 
-        // Open the remote PTY; stream bytes straight into xterm.
+        // Hide the OSC 7 setup injection (sent below): a PTY unavoidably echoes
+        // the command we "type", so rather than let it paint and then clear it,
+        // we DON'T paint the terminal until the setup finishes — signalled by a
+        // private OSC 99 sentinel the setup prints. During this window we still
+        // scan the raw stream for the initial cwd (OSC 7). Falls open after 1.5s
+        // if the sentinel never arrives, so the screen can't get stuck blank.
+        const decoder = new TextDecoder()
+        let gate_open = false
+        let setup_scan = ``
+        const open_gate = (flush = false) => {
+          if (gate_open || disposed) return
+          gate_open = true
+          clearTimeout(gate_timer)
+          const buffered = setup_scan
+          setup_scan = ``
+          try {
+            term.reset()
+            // Sentinel path discards the (hidden) setup echo; the timeout fallback
+            // flushes the buffer so a shell that never emits the sentinel (e.g. fish,
+            // or a startup error) still shows its output instead of losing it.
+            if (flush && buffered) term.write(buffered)
+          } catch { /* term may be disposing */ }
+        }
+        const gate_timer = setTimeout(() => open_gate(true), 1500)
+
+        // Open the remote PTY; stream bytes into xterm once the gate is open.
         const ch = await transport.ptyOpen(session_id, cols, rows, (bytes) => {
-          if (!disposed) term.write(bytes)
+          if (disposed) return
+          if (gate_open) {
+            // Decode through the SAME decoder used during the gate window, so a
+            // partial UTF-8 sequence buffered across the gate boundary completes
+            // instead of being dropped/corrupted.
+            term.write(decoder.decode(bytes, { stream: true }))
+            return
+          }
+          // Setup window: scan (don't render) for the cwd + completion sentinel.
+          setup_scan += decoder.decode(bytes, { stream: true })
+          const cwd = /\x1b\]7;file:\/\/[^/]*(\/[^\x07\x1b]*)/.exec(setup_scan)
+          if (cwd) {
+            try {
+              on_cwd?.(decodeURIComponent(cwd[1]))
+            } catch {
+              on_cwd?.(cwd[1])
+            }
+          }
+          const sentinel = `\x1b]99;catgo`
+          const at = setup_scan.indexOf(sentinel)
+          if (at !== -1) {
+            // Anything after the sentinel is real session output — render it.
+            const rest = setup_scan.slice(at + sentinel.length).replace(/^\x07/, ``)
+            open_gate()
+            if (rest) term.write(rest)
+          }
         })
         if (disposed) {
           transport.ptyClose(session_id, ch).catch(() => {})
@@ -199,12 +249,18 @@
           }
           return true
         })
-        // Ask the shell to emit OSC 7 on every prompt. Leading space keeps it out
-        // of history (HISTCONTROL=ignorespace); bash/zsh honor PROMPT_COMMAND, a
-        // shell without it just never reports (Files then stays at $HOME).
+        // Ask the shell to emit OSC 7 on every prompt so the Files tab can follow
+        // the cwd. Register per shell — zsh uses precmd_functions (it ignores
+        // bash's PROMPT_COMMAND), bash uses PROMPT_COMMAND. Emit the cwd once, then
+        // print the private OSC 99 sentinel that opens the render gate above — so
+        // this whole (echoed) line is never painted. Leading space keeps it out of
+        // bash history; the sentinel uses a real ESC so the echoed source (literal
+        // backslashes) can't false-match it.
         const osc7_setup =
-          ` export PROMPT_COMMAND='printf "\\033]7;file://%s%s\\a" "$HOSTNAME" "$PWD"'` +
-          `\${PROMPT_COMMAND:+;$PROMPT_COMMAND}\n`
+          ` _catgo_osc7(){ printf '\\033]7;file://%s%s\\a' "\${HOSTNAME:-\$HOST}" "\$PWD"; };` +
+          ` if [ -n "\$ZSH_VERSION" ]; then typeset -ga precmd_functions; precmd_functions+=(_catgo_osc7);` +
+          ` else PROMPT_COMMAND="_catgo_osc7\${PROMPT_COMMAND:+;\$PROMPT_COMMAND}"; fi;` +
+          ` _catgo_osc7; printf '\\033]99;catgo\\a'\n`
         transport.ptyWrite(session_id, ch, encoder.encode(osc7_setup)).catch(() => {})
 
         // Selection = copy: in a touch UI there's no right-click/Ctrl-C, so push
@@ -264,6 +320,10 @@
     min-height: 0;
     overflow: hidden;
     position: relative;
+    /* Horizontal breathing room so the first/last column isn't clipped at the
+       screen edge. FitAddon measures this padded content box, so column count
+       stays correct. */
+    padding: 2px 8px;
   }
   .mt-body :global(.xterm),
   .mt-body :global(.xterm-viewport),
