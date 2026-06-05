@@ -108,17 +108,14 @@ jobs:
         # xcodegen regeneration keeps the iOS bundle id.
         run: pnpm tauri ios init --config '{"identifier":"org.catgo.app"}'
 
-      - name: Configure manual code signing + Info.plist
-        # Two things, in this order (order matters):
-        # 1. Inject manual signing into project.yml and regenerate with xcodegen
-        #    (the generated project defaults to automatic signing with no profile
-        #    → "requires a provisioning profile").
-        # 2. ONLY THEN patch Info.plist. xcodegen regenerates Info.plist from
-        #    project.yml, so any plist edits made before xcodegen get wiped — which
-        #    is why an earlier build still showed "Missing Compliance" and the
-        #    ITMS-90737/90788 document-type warnings. `tauri ios build` does not
-        #    re-run xcodegen (the signing inject survives into the build), so this
-        #    is the last regeneration — patches here persist.
+      - name: Configure manual code signing
+        # The generated project.yml has the right bundle id (org.catgo.app) but no
+        # signing settings → automatic signing with no profile → "requires a
+        # provisioning profile". Inject manual signing and regenerate with xcodegen.
+        # (Info.plist keys — export-compliance + document-type LSHandlerRank /
+        # LSSupportsOpeningDocumentsInPlace — are handled at the config layer via
+        # bundle.iOS.infoPlist + fileAssociation rank, which survive the build's
+        # Info.plist regeneration; PlistBuddy here would be wiped by it.)
         if: ${{ inputs.signed }}
         env:
           APPLE_DEVELOPMENT_TEAM: ${{ secrets.APPLE_DEVELOPMENT_TEAM }}
@@ -137,25 +134,6 @@ jobs:
           xcodegen generate
           echo "=== pbxproj signing ==="
           grep -hoE "(CODE_SIGN_STYLE|PROVISIONING_PROFILE_SPECIFIER|DEVELOPMENT_TEAM|CODE_SIGN_IDENTITY) = [^;]+;" catgo.xcodeproj/project.pbxproj | sort -u
-          # --- Info.plist patches AFTER xcodegen ---
-          PB=/usr/libexec/PlistBuddy
-          PLIST=$(find . -name Info.plist -path '*_iOS*' -print -quit)
-          [ -n "$PLIST" ] || PLIST=$(find . -name Info.plist -print -quit)
-          if [ -z "$PLIST" ]; then echo "::error::No iOS Info.plist found"; exit 1; fi
-          # Export-compliance: declare standard/exempt encryption → no questionnaire.
-          $PB -c "Add :ITSAppUsesNonExemptEncryption bool false" "$PLIST" 2>/dev/null \
-            || $PB -c "Set :ITSAppUsesNonExemptEncryption false" "$PLIST" 2>/dev/null || true
-          # Document types (from tauri.conf fileAssociations) need these or ITMS-90737/90788.
-          $PB -c "Add :LSSupportsOpeningDocumentsInPlace bool true" "$PLIST" 2>/dev/null \
-            || $PB -c "Set :LSSupportsOpeningDocumentsInPlace true" "$PLIST" 2>/dev/null || true
-          i=0
-          while $PB -c "Print :CFBundleDocumentTypes:$i:CFBundleTypeName" "$PLIST" >/dev/null 2>&1; do
-            $PB -c "Add :CFBundleDocumentTypes:$i:LSHandlerRank string Alternate" "$PLIST" 2>/dev/null \
-              || $PB -c "Set :CFBundleDocumentTypes:$i:LSHandlerRank Alternate" "$PLIST" 2>/dev/null || true
-            i=$((i+1))
-          done
-          echo "=== Info.plist patched ($PLIST): ITSAppUsesNonExemptEncryption + $i doc types ==="
-          $PB -c "Print :ITSAppUsesNonExemptEncryption" "$PLIST" || true
 
       # ---- Unsigned simulator smoke build (no Apple account needed) ----
       - name: Build (simulator, unsigned)
