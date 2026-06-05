@@ -12,6 +12,8 @@ Endpoints:
   GET  /api/engine/tasks/{id}/file-content — read a file from work_dir
   PUT  /api/engine/tasks/{id}/file-content — write a file in work_dir
   GET  /api/engine/tasks/{id}/frequencies  — parse vibrational frequencies
+  GET  /api/engine/tasks/{id}/forces       — per-ionic-step force vectors
+  GET  /api/engine/tasks/{id}/mlp-progress — MLP optimizer live progress
 """
 
 from __future__ import annotations
@@ -25,6 +27,8 @@ from pydantic import BaseModel
 from catgo.workflow.states import TaskState
 from catgo.workflow import service
 from catgo.workflow.engine.advancer import PREVIEW_DIR_PREFIX
+# Reuse the V1 request schema rather than redefining it (additive convergence).
+from catgo.routers.workflow import GibbsRequest
 
 logger = logging.getLogger(__name__)
 
@@ -458,3 +462,231 @@ async def get_task_frequencies(task_id: str):
         return data
     except Exception as exc:
         return {"success": False, "message": str(exc)}
+
+
+@router.get("/{task_id}/forces")
+async def get_task_forces(task_id: str, ionic_step: int = Query(0, description="Ionic step (0 = last)")):
+    """Per-atom force vectors for one ionic step from the task's VASP output.
+
+    V2-native mirror of V1 ``GET /api/workflow/{wf}/forces/{step}``. Resolves the
+    task (and its HPC connection) via ``WorkflowDB.get_task`` / ``_get_task_hpc``
+    instead of the legacy ``workflow_steps`` table, then delegates the actual
+    OUTCAR/vaspout.h5 parsing to the SAME V1 helpers
+    (``parse_vasp_forces_h5`` then ``parse_vasp_forces``) — this is additive
+    convergence work, not a re-implementation.
+
+    ``_get_task_hpc`` raises a clean 404 when the task is unknown or has no
+    ``work_dir``, and a 404 when no HPC connection is available.
+    """
+    task, hpc = _get_task_hpc(task_id)
+    work_dir = task["work_dir"]
+
+    from catgo.utils.job_parser import parse_vasp_forces, parse_vasp_forces_h5
+
+    # Try H5 first (VASP 6.4+ vaspout.h5), fall back to OUTCAR AWK — same order
+    # the V1 handler uses.
+    h5_result = await parse_vasp_forces_h5(hpc.conn, work_dir, ionic_step)
+    if h5_result and h5_result.get("success"):
+        return h5_result
+    return await parse_vasp_forces(hpc.conn, work_dir, ionic_step)
+
+
+@router.get("/{task_id}/mlp-progress")
+async def get_task_mlp_progress(task_id: str):
+    """Per-iteration live progress from an MLP optimizer log for a V2 task.
+
+    V2-native mirror of V1 ``GET /api/workflow/{wf}/mlp-progress/{step}``
+    (``catgo.routers.workflow.api_get_mlp_progress``). Resolves the task via
+    ``WorkflowDB.get_task`` (V2 store) for its ``work_dir`` / ``task_type`` /
+    ``params_json`` instead of the legacy ``workflow_steps`` table, then reuses
+    the SAME V1 parser (``catgo.utils.job_parser.parse_ase_opt_log``) and emits
+    the identical ``{points, converged, message}`` shape the frontend's
+    ``NormalizedConvergence`` adapter renders — this is additive convergence
+    work, not a re-implementation.
+
+    This is what the frontend task-adapter's ``mode:'task'`` branch (currently a
+    placeholder message) calls to make live MLP progress real.
+
+    Local-only, same as V1: an HPC-remote MLP task returns a deferred message
+    rather than SSH-tailing the log. Unknown task -> clean 404; no work_dir or
+    no log yet -> clean empty result (never a 500).
+    """
+    db = _get_db()
+    try:
+        task = db.get_task(task_id)
+    except KeyError:
+        raise HTTPException(404, f"Task {task_id} not found")
+
+    work_dir = task.get("work_dir")
+    if not work_dir:
+        return {"points": [], "converged": False, "message": "No work directory yet"}
+
+    # Only local work dirs are readable here. HPC work dirs would need SSH
+    # tailing — deferred until the MLP+HPC path is tested (mirrors V1).
+    if task.get("hpc_session_id"):
+        return {
+            "points": [], "converged": False,
+            "message": "MLP progress over HPC is not yet wired",
+        }
+
+    import os
+    # Pick opt.log for relax/vibrations, neb.log for NEB / ts_search. Match the
+    # V1 contract: only the log files ASE actually writes, no os.listdir
+    # fallback (OS-dependent ordering could shadow the current log with a stale
+    # one from an aborted run).
+    task_type = (task.get("task_type") or "").lower()
+    candidates = []
+    if "neb" in task_type or task_type == "ts_search":
+        candidates.append(os.path.join(work_dir, "neb.log"))
+    candidates.append(os.path.join(work_dir, "opt.log"))
+
+    log_path = next((p for p in candidates if os.path.isfile(p)), None)
+    if not log_path:
+        return {"points": [], "converged": False, "message": "Log file not created yet"}
+
+    # Resolve the per-task fmax target from params_json (the V2 analog of V1's
+    # config_json). We DON'T silently default to 0.05 — a wrong target could
+    # flip a still-running node to converged=True and prematurely complete it.
+    # When unresolvable, return converged=None so the frontend status-sync
+    # short-circuits and keeps the node "running" (mirrors V1 exactly).
+    fmax_target: float | None = None
+    try:
+        params = json.loads(task.get("params_json") or "{}")
+        if isinstance(params, dict) and "fmax" in params:
+            fmax_target = float(params["fmax"])
+    except (ValueError, TypeError) as exc:
+        logger.warning(
+            "Could not parse fmax from task %s params_json: %s — "
+            "convergence flag will be reported as null.",
+            task_id, exc,
+        )
+    if fmax_target is None:
+        # No known target -> parse points but skip the converged check. The
+        # parser uses a sentinel fmax that's never reached so converged stays
+        # False; we override to null below.
+        fmax_target = -1.0
+
+    from catgo.utils.job_parser import parse_ase_opt_log
+    # Parser is synchronous & reads a local file — offload so the event loop
+    # doesn't block on large log tails.
+    try:
+        conv_data = await asyncio.to_thread(parse_ase_opt_log, log_path, fmax_target)
+    except Exception:
+        logger.exception("Error parsing MLP progress for task %s", task_id)
+        raise HTTPException(500, f"Error reading MLP progress for task {task_id}")
+
+    if not conv_data.success:
+        return {"points": [], "converged": False, "message": conv_data.message}
+
+    # If fmax_target was unresolvable, null out converged so the frontend
+    # status-sync branch in NodeStatusPanel can't use it.
+    unresolved_fmax = fmax_target < 0
+
+    prev_energy = None
+    points = []
+    for pt in conv_data.points:
+        dE = (pt.energy - prev_energy) if prev_energy is not None else 0.0
+        points.append({
+            "step": pt.step,
+            "energy": pt.energy,
+            "dE": dE,
+            "energy_sigma0": pt.energy_sigma0,
+            "max_force": pt.max_force,
+            "rms_force": pt.rms_force,
+        })
+        prev_energy = pt.energy
+
+    converged_value = None if unresolved_fmax else conv_data.converged
+    message = conv_data.message
+    if unresolved_fmax and points:
+        message = (
+            f"step {points[-1]['step']} · fmax={points[-1]['max_force']:.3f} eV/Å "
+            f"(target fmax not in params — convergence flag suppressed)"
+        )
+    return {"points": points, "converged": converged_value, "message": message}
+
+
+def _freqs_from_v2_result(result: dict) -> tuple[list[float], list[float]]:
+    """Extract real/imag frequency lists (cm⁻¹) from a V2 task_results row.
+
+    The V2 engine stores frequencies in the dedicated ``real_freqs_json`` /
+    ``imag_freqs_json`` columns (lists of floats, or lists of dicts carrying a
+    ``frequency_cm`` key). For robustness we also fall back to a nested
+    ``outputs_json`` blob using the same legacy key names the V1 path reads
+    (``real_freqs`` / ``imag_freqs``).
+    """
+    def _coerce(raw) -> list[float]:
+        if raw is None:
+            return []
+        data = json.loads(raw) if isinstance(raw, str) else raw
+        if not isinstance(data, list):
+            return []
+        return [f["frequency_cm"] if isinstance(f, dict) else f for f in data]
+
+    real_cm = _coerce(result.get("real_freqs_json"))
+    imag_cm = _coerce(result.get("imag_freqs_json"))
+
+    # Fallback: legacy-shaped frequencies nested in outputs_json.
+    if not real_cm and not imag_cm:
+        outputs_raw = result.get("outputs_json")
+        if outputs_raw:
+            outputs = json.loads(outputs_raw) if isinstance(outputs_raw, str) else outputs_raw
+            if isinstance(outputs, dict):
+                real_cm = _coerce(outputs.get("real_freqs"))
+                imag_cm = _coerce(outputs.get("imag_freqs"))
+
+    return real_cm, imag_cm
+
+
+@router.post("/{task_id}/gibbs")
+def calculate_task_gibbs(task_id: str, req: GibbsRequest):
+    """Calculate Gibbs free-energy correction from a V2 task's stored frequencies.
+
+    V2-native mirror of V1 ``POST /api/workflow/{wf}/gibbs/{step}``. Reads the
+    task's frequency data from the ``task_results`` table (via
+    ``WorkflowDB.get_result``) — the V1 path is broken for V2 because
+    ``task_results`` has no ``result_json`` mirror. The Gibbs/thermo physics is
+    delegated to the same shared helpers the V1 handler calls
+    (``catgo.utils.gibbs_calculator.calc_adsorbed`` / ``calc_gas``).
+    """
+    db = _get_db()
+    try:
+        db.get_task(task_id)
+    except KeyError:
+        raise HTTPException(404, f"Task {task_id} not found")
+
+    result = db.get_result(task_id)
+    if not result:
+        raise HTTPException(404, f"No result for task {task_id}")
+
+    real_cm, imag_cm = _freqs_from_v2_result(result)
+    if not real_cm:
+        return {"success": False, "message": "No frequency data available"}
+
+    from catgo.utils.gibbs_calculator import calc_adsorbed, calc_gas
+
+    if req.mode == "adsorbed":
+        return calc_adsorbed(real_cm, imag_cm, req.temperature, req.freq_cutoff)
+    elif req.mode == "gas":
+        positions = _coerce_json_list(result.get("positions_json"))
+        masses = _coerce_json_list(result.get("masses_json"))
+        atom_types = _coerce_json_list(result.get("atom_types_json"))
+
+        if not positions or not masses:
+            return {"success": False, "message": "Position/mass data required for gas mode"}
+
+        return calc_gas(
+            real_cm, imag_cm, positions, masses, atom_types,
+            T=req.temperature, P=req.pressure,
+            n_unpaired=req.n_unpaired,
+        )
+    else:
+        return {"success": False, "message": f"Unknown mode: {req.mode}"}
+
+
+def _coerce_json_list(raw):
+    """Decode a JSON-encoded list column, returning [] for missing/blank."""
+    if raw is None:
+        return []
+    data = json.loads(raw) if isinstance(raw, str) else raw
+    return data if isinstance(data, list) else []
