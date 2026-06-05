@@ -69,7 +69,9 @@
   // gesture (MediaPipe hand-tracking via camera) is dropped on mobile: the
   // front camera + hand model + the 3D editor together exhaust the WebView and
   // crash the app on this hardware.
-  const HIDDEN_TOOLBAR = [`server`, `terminal`, `workflow`, `plugin_hub`, `chat`, `gesture`]
+  // analysis: AnalysisPane fetches /api/plugins/analyzers from the Python backend,
+  // which mobile doesn't run — a visible-but-503 entry point Apple App Review flags.
+  const HIDDEN_TOOLBAR = [`server`, `terminal`, `workflow`, `plugin_hub`, `chat`, `gesture`, `analysis`]
 
   // SSH-key passwordless onboarding (shown once per endpoint after first connect).
   let ks_visible = $state(false)
