@@ -108,6 +108,22 @@ jobs:
         # Assets.xcassets with the default Tauri icon (the cyan/yellow "8").
         run: pnpm tauri icon desktop/logo.png
 
+      - name: Flatten app icons (App Store requires opaque, no alpha)
+        # desktop/logo.png has an alpha channel, so the generated 1024 marketing
+        # icon does too → App Store rejects: "Invalid large app icon … can't be
+        # transparent or contain an alpha channel". Composite every AppIcon PNG
+        # over the icon's navy background and strip alpha. (iOS/App Store apply
+        # their own corner mask, so the filled square corners aren't shown.)
+        run: |
+          set -euo pipefail
+          command -v magick >/dev/null 2>&1 || brew install imagemagick
+          count=0
+          while IFS= read -r -d '' f; do
+            magick "$f" -background '#0d1a3a' -alpha remove -alpha off "$f"
+            count=$((count+1))
+          done < <(find src-tauri/gen/apple src-tauri/icons/ios -name '*.png' -print0 2>/dev/null)
+          echo "Flattened $count icon PNGs (removed alpha)"
+
       - name: Configure manual code signing
         # The generated project.yml has the right bundle id (org.catgo.app) but no
         # signing settings → automatic signing with no profile → "requires a
@@ -185,9 +201,21 @@ jobs:
           IPA=$(find src-tauri/gen/apple/build -name '*.ipa' -print -quit)
           if [ -z "${IPA}" ]; then echo "::error::No .ipa found to upload"; exit 1; fi
           echo "Uploading ${IPA} to App Store Connect…"
-          xcrun altool --upload-app -f "${IPA}" -t ios \
-            --apiKey "${APPLE_API_KEY_ID}" --apiIssuer "${APPLE_API_ISSUER_ID}"
+          # altool can print "UPLOAD FAILED" / validation errors but still exit 0,
+          # so the step would falsely pass. Capture output and fail explicitly on
+          # any error marker (and on a non-zero exit).
+          set +e
+          OUT=$(xcrun altool --upload-app -f "${IPA}" -t ios \
+            --apiKey "${APPLE_API_KEY_ID}" --apiIssuer "${APPLE_API_ISSUER_ID}" 2>&1)
+          RC=$?
+          set -e
+          echo "$OUT"
           rm -f ~/".appstoreconnect/private_keys/AuthKey_${APPLE_API_KEY_ID}.p8"
+          if [ "$RC" -ne 0 ] || echo "$OUT" | grep -qiE "UPLOAD FAILED|ERROR:"; then
+            echo "::error::App Store Connect upload failed (see altool output above)."
+            exit 1
+          fi
+          echo "Upload accepted by App Store Connect."
 
       - name: Upload artifacts
         # always() so a successfully-built+signed IPA is saved even when the
