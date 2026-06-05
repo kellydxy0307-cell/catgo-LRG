@@ -30,13 +30,23 @@ on:
 
 jobs:
   ios:
-    runs-on: macos-latest # Apple Silicon, Xcode preinstalled
+    runs-on: macos-15 # Apple Silicon; carries Xcode 26 (iOS 26 SDK)
     name: Build iOS app
     env:
       NODE_OPTIONS: --max-old-space-size=6144
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Select Xcode 26 (iOS 26 SDK)
+        # App Store Connect now rejects uploads built with the iOS 18.5 SDK —
+        # "must be built with the iOS 26 SDK or later (Xcode 26+)". macos-latest
+        # still defaults to Xcode 16.4, so explicitly select the newest stable.
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - name: Show Xcode / SDK
+        run: xcodebuild -version && xcodebuild -showsdks | grep -i ios || true
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
