@@ -65,6 +65,12 @@ jobs:
       - name: Install JS dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Generate documentation chunks
+        # vite build imports src/lib/chat/rag.ts → ./docs-chunks.json, which this
+        # script generates. Desktop CI runs it too; without it the frontend build
+        # fails with "Could not resolve ./docs-chunks.json".
+        run: pnpm run build:doc-chunks
+
       - name: Initialise the iOS project
         # Generates src-tauri/gen/apple (xcodegen-based Xcode project). Idempotent.
         # com.catgo.app (the tauri.conf identifier, kept for Android) is taken on the
