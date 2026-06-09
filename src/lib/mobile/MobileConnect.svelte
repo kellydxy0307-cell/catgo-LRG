@@ -70,6 +70,10 @@
   let otp_pending_id = $state(``)
   let otp_prompts = $state<OtpPrompt[]>([])
   let otp_instructions = $state(``)
+  // Pre-filled answers for the current OTP round (index-aligned with
+  // otp_prompts) — used to seed password prompt(s) from a saved password in a
+  // mixed password+2FA round, so the user only types the OTP.
+  let otp_prefill = $state<string[]>([])
 
   // ─── Saved-password / OTP-only reconnect ───
   // A password loaded from the encrypted store for the picked connection; when a
@@ -83,6 +87,9 @@
   // Post-success "save password?" prompt, parked until the user decides so we
   // stay mounted (calling on_connected swaps us out).
   let save_prompt_visible = $state(false)
+  // Shown inside the save-password dialog when the encrypted store write fails,
+  // so a failed save isn't silently swallowed (the dialog offers Retry).
+  let save_error = $state(``)
   let pending_session = ``
   let pending_pw = ``
 
@@ -132,12 +139,19 @@
     username = c.username
     method = c.method
     key_path = c.keyPath ?? ``
+    password = `` // reset; filled (masked) from the store below for password auth
     error_msg = ``
     auto_password = ``
     transport
       .keyLoad(`pw:${c.host}:${c.port}:${c.username}`)
       .then((pw) => {
-        if (pw) auto_password = pw
+        if (pw) {
+          auto_password = pw
+          // Show the saved password (masked ••••) so the user sees it's stored
+          // and can just tap Connect. keyboard-interactive has no password field
+          // — it uses auto_password to answer the prompt round instead.
+          if (c.method === `password`) password = pw
+        }
       })
       .catch(() => {
         /* no stored password / desktop transport — type it manually */
@@ -166,8 +180,18 @@
   }
 
   function persist_non_secrets(): void {
+    // Trim host/username so the saved descriptor matches the password key
+    // (endpoint_pw_key also trims) — otherwise a stray space means pick_saved's
+    // keyLoad looks under a different key than the password was stored at.
     saved = upsertConnection(
-      { host, port, username, method, keyPath: key_path, label },
+      {
+        host: host.trim(),
+        port,
+        username: username.trim(),
+        method,
+        keyPath: key_path,
+        label,
+      },
       Date.now(),
     )
   }
@@ -186,15 +210,24 @@
       otp_pending_id = r.pendingId
       otp_prompts = r.prompts
       otp_instructions = r.instructions
-      // OTP-only reconnect: if this round is just the account-password prompt and
-      // we have a saved password, answer it silently and only surface later
-      // rounds (the Duo passcode) to the user.
-      if (auto_password && r.prompts.length === 1 && is_password_prompt(r.prompts[0])) {
+      otp_prefill = []
+      // Saved-password reconnect: answer the account-password prompt(s) from the
+      // stored password. If the WHOLE round is password prompts, submit silently
+      // (OTP-only reconnect). If it's MIXED (password + a Duo/OTP passcode),
+      // surface the dialog with the password field(s) pre-filled so the user
+      // only types the 2FA code — works regardless of how many prompts the
+      // server bundles together.
+      if (auto_password && r.prompts.some(is_password_prompt)) {
         used_saved_pw = true
         const pw = auto_password
-        auto_password = ``
-        void submit_otp([pw])
-        return
+        if (r.prompts.every(is_password_prompt)) {
+          auto_password = `` // consumed
+          void submit_otp(r.prompts.map(() => pw))
+          return
+        }
+        // Mixed round: seed password prompts, leave OTP prompts blank. Keep
+        // auto_password in case a later round re-prompts for the password.
+        otp_prefill = r.prompts.map((p) => (is_password_prompt(p) ? pw : ``))
       }
       otp_visible = true
       otp_busy = false
@@ -212,6 +245,7 @@
         pending_session = r.sessionId
         pending_pw = captured_password
         captured_password = ``
+        save_error = ``
         save_prompt_visible = true
         return
       }
@@ -222,6 +256,18 @@
     otp_visible = false
     otp_busy = false
     error_msg = r.message || t(`mobile.connection_failed`)
+    // If THIS attempt used a saved password and it was rejected, it's probably
+    // stale (changed on the server). Clear it — in-memory AND from the encrypted
+    // store (overwrite empty; there's no delete command, and an empty value
+    // reads back as "no saved password") — so the next attempt prompts fresh
+    // instead of silently re-submitting the wrong one (esp. the keyboard-
+    // interactive auto-answer path, which the user can't otherwise interrupt).
+    if (used_saved_pw) {
+      auto_password = ``
+      used_saved_pw = false
+      transport.keyStore(endpoint_pw_key(), ``).catch(() => {/* best-effort */})
+      error_msg = t(`mobile.saved_pw_rejected`)
+    }
   }
 
   async function connect(): Promise<void> {
@@ -243,20 +289,32 @@
     } catch {
       /* fall through to a fresh connect */
     }
-    // Robustly load a saved password for THIS endpoint (so OTP-only reconnect
-    // works even when the form was filled manually, not via a saved-list tap).
+    // Load a saved password for THIS endpoint if we don't already have one (so a
+    // manually-filled form benefits too, not just a saved-list tap).
     if (!auto_password) {
       try {
         const pw = await transport.keyLoad(endpoint_pw_key())
-        if (pw) {
-          auto_password = pw
-          // password method: fill the form value directly; keyboard-interactive
-          // uses auto_password to answer the password prompt round.
-          if (method === `password` && !password) password = pw
-        }
+        if (pw) auto_password = pw
       } catch {
         /* no stored password / desktop transport */
       }
+    }
+    // password method: apply the saved password to the form value that connect()
+    // sends below. This MUST run whether auto_password came from a saved-list tap
+    // (pick_saved pre-loads it) or the keyLoad just above. The old code only set
+    // `password` INSIDE the `if (!auto_password)` block, so tapping a saved
+    // connection (which pre-loads auto_password) skipped it → an empty password
+    // was sent → "Password authentication rejected". keyboard-interactive instead
+    // uses auto_password to answer the prompt round (see apply_result).
+    if (method === `password` && !password && auto_password) {
+      password = auto_password
+    }
+    // If we're about to send EXACTLY the saved password (the user didn't edit the
+    // pre-filled field), mark it so apply_result doesn't redundantly re-offer to
+    // save it. If they edited it to a new value, this stays false → we offer to
+    // save the new one.
+    if (method === `password` && auto_password && password === auto_password) {
+      used_saved_pw = true
     }
     try {
       const r = await transport.connect({
@@ -321,6 +379,7 @@
 
   function finish_connect(): void {
     save_prompt_visible = false
+    save_error = ``
     const id = pending_session
     pending_session = ``
     pending_pw = ``
@@ -329,10 +388,15 @@
 
   /** Save the password (encrypted) for OTP-only reconnect, then continue. */
   async function save_password_yes(): Promise<void> {
+    save_error = ``
     try {
       await transport.keyStore(endpoint_pw_key(), pending_pw)
     } catch {
-      /* store unavailable — proceed without saving */
+      // The user explicitly chose to save — don't pretend it worked (that would
+      // silently re-create the "empty password on reconnect → rejected" bug).
+      // Surface it and keep the dialog so they can retry or continue without it.
+      save_error = t(`mobile.save_pw_failed`)
+      return
     }
     finish_connect()
   }
@@ -554,6 +618,7 @@
     prompts={otp_prompts}
     instructions={otp_instructions}
     busy={otp_busy}
+    prefill={otp_prefill}
     on_submit={submit_otp}
     on_cancel={cancel_otp}
   />
@@ -566,9 +631,14 @@
       <div class="sp-body">
         {t(`mobile.save_pw_body`, { user: `${username}@${host}` })}
       </div>
+      {#if save_error}
+        <div class="sp-error" role="alert">{save_error}</div>
+      {/if}
       <div class="sp-actions">
         <button type="button" class="sp-no" onclick={finish_connect}>{t(`mobile.save_pw_not_now`)}</button>
-        <button type="button" class="sp-yes" onclick={save_password_yes}>{t(`mobile.save_pw_save`)}</button>
+        <button type="button" class="sp-yes" onclick={save_password_yes}>
+          {save_error ? t(`mobile.save_pw_retry`) : t(`mobile.save_pw_save`)}
+        </button>
       </div>
     </div>
   </div>
@@ -604,6 +674,12 @@
     line-height: 1.5;
     color: var(--text-color-muted, #cbd5e1);
     margin-bottom: 18px;
+  }
+  .sp-error {
+    font-size: 0.85em;
+    line-height: 1.4;
+    color: #ff6b6b;
+    margin-bottom: 14px;
   }
   .sp-actions {
     display: flex;

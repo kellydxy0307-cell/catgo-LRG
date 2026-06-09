@@ -207,5 +207,85 @@ Connect dialog: host = Mac LAN IP, user = Mac username, port 22, Mac login
 password. (iPad must be on the same LAN — it already is, since it loads the UI
 from that IP.)
 
+## 2026-06-09 — connection + terminal/keyboard polish (device-tested)
+
+Found while a colleague + we tested SSH connections and the terminal on iPhone/iPad.
+
+### SSH connection password (`MobileConnect.svelte`, `OtpDialog.svelte`)
+
+- **Saved password never applied → "Password authentication rejected".** The
+  `password = pw` copy lived INSIDE `if (!auto_password)`, but tapping a saved
+  connection (`pick_saved`) pre-loads `auto_password`, so the block was skipped
+  and an empty password was sent. Fixed: apply the saved password whenever it's
+  the password method (any load path); mark `used_saved_pw` when sending the
+  unchanged saved password so we don't re-offer to save it.
+- **No masked feedback on tap.** `pick_saved` now fills the (masked) password
+  field from the store for the password method, so the user sees `••••` and can
+  just tap Connect.
+- **2FA clusters.** Reconnect now pre-fills the password prompt(s) from the saved
+  password even in a MIXED password+OTP round (new `prefill` prop on
+  `OtpDialog`); submits silently only when the whole round is password prompts.
+  Generalized from the old "exactly one prompt" rule.
+- **Key-trim consistency.** `persist_non_secrets` trims host/username so the saved
+  descriptor matches the (trimmed) password key.
+
+### iPhone top-bar overflow (`MobileWorkspace.svelte`)
+
+- Save (and Disconnect) were scrolling off the right edge. Wrapped the secondary
+  actions in a `.mw-actions-scroll` flexbox scroller; Save/Disconnect stay OUTSIDE
+  it (`flex-shrink:0`) so they're always pinned/visible on a narrow screen.
+
+### Terminal soft-keyboard (`MobileTerminal.svelte`, `MobileWorkspace.svelte`)
+
+- **Key bar hidden under the keyboard.** It floats `position:fixed` just above
+  the keyboard (height tracked via `visualViewport`; no transformed ancestors so
+  fixed tracks the viewport). CSS transition + debounced re-fit keep it smooth.
+- **Split mode auto-expand.** When the keyboard opens in split layout, the
+  workspace switches to full-terminal (keep-warm `visibility:hidden`, NOT
+  display:none) and restores the split on close — so the terminal is usable.
+- **Collapse toggle.** A toggle on the bar hides it to a corner pill (terminal
+  visible) and back; `preventDefault` + refocus keep the keyboard up. Styled to
+  fill the strip (`align-self:stretch`, strip bg) so there's no dark box.
+
+### Visualizer (`MobileWorkspace.svelte`)
+
+- Touch-drag to rotate the 3D viewer triggered WKWebView text selection
+  ("selects the whole thing"). Added `-webkit-user-select:none` +
+  `-webkit-touch-callout:none` to `.mw-struct`.
+
+### Review follow-ups (post code-review)
+
+- **Per-tab stream cancel.** `MobileChat`'s unmount-cancel `$effect` read the
+  reactive `active_id`, so switching tabs cancelled the LEFT tab's stream. Now
+  reads it via `untrack` → cancels only on real unmount.
+- **Silent password-save failure.** `save_password_yes` swallowed a `keyStore`
+  error. Now surfaces it in the save dialog with a Retry (`save_pw_failed` /
+  `save_pw_retry`).
+- **Stale saved password.** If a saved password is rejected on reconnect (changed
+  server-side), clear it in-memory AND from the store (overwrite empty — no
+  delete command; empty reads back as "none") and prompt to re-enter
+  (`saved_pw_rejected`). Mainly matters for the keyboard-interactive auto-answer
+  path, which the user couldn't otherwise interrupt.
+
+### Fixed: Xcode deployment-target warnings
+
+- The ~390 *"object file built for newer iOS (17.0) than being linked (14.0)"*
+  warnings: added `export IPHONEOS_DEPLOYMENT_TARGET="${...:-14.0}"` to the
+  `gen/apple/project.yml` "Build Rust Code" preBuildScript (next to the PATH
+  export) so cargo builds the Rust lib for iOS 14 to match the project's link
+  target. **Machine-local (gen/apple is gitignored) — re-apply after
+  `tauri ios init`, then `xcodegen generate` + rebuild.**
+
+### Not changed — by design / platform
+
+- **No SSE streaming on iOS** — the Tauri HTTP plugin buffers the whole body;
+  fixing needs native plugin work. The single-read fallback + idle-timeout make
+  it correct, just one-shot. Out of scope.
+- **Conservative password-prompt capture** — only offers to save when the prompt
+  is recognized as a password (excludes passcode/OTP/duo) so we never persist a
+  one-time code. Intentional; broadening it is unsafe.
+- **One abort-listener per send** in `stream_client_llm` — bounded and GC'd with
+  the per-send AbortController; not a real leak.
+
 ---
 *Session notes — a resume guide for building and testing CatGo on iOS.*

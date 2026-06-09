@@ -69,6 +69,7 @@ const mobile: Record<string, string> = {
   connecting:             `连接中…`,
   connect_action:         `连接`,
   connection_failed:      `连接失败。`,
+  saved_pw_rejected:      `已保存的密码被拒绝 — 可能已更改。请重新输入以连接。`,
   auth_cancelled:         `认证已取消。`,
 
   // ── 保存密码提示 (MobileConnect) ─────────────────────────────────────
@@ -76,6 +77,8 @@ const mobile: Record<string, string> = {
   save_pw_body:           `下次连接到 {user} 时，你只需输入一次性验证码（OTP）。密码会加密保存在本设备上。`,
   save_pw_not_now:        `暂不`,
   save_pw_save:           `保存密码`,
+  save_pw_retry:          `重试`,
+  save_pw_failed:         `无法保存密码 — 未能存储。请重试，或继续并下次手动输入。`,
 
   // ── OTP 对话框 (OtpDialog) ───────────────────────────────────────────
   otp_title:              `需要验证`,
