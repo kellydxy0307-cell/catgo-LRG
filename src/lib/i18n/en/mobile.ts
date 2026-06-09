@@ -116,6 +116,39 @@ const mobile: Record<string, string> = {
   saving:                 `Saving…`,
   saved:                  `Saved`,
   save_failed:            `Save failed`,
+
+  // ── Terminal tabs ("Terminals" panel, MobileWorkspace) ───────────────
+  term_panel:             `Terminals`,
+  term_label:             `Terminal {n}`,
+  term_new:               `New terminal`,
+  term_close:             `Close terminal`,
+  term_edit:              `Edit terminals`,
+
+  // ── AI chat (MobileChat / MobileChatSetup) ───────────────────────────
+  action_ai:              `AI assistant`,
+  action_ai_short:        `AI`,
+  ai_title:               `AI`,
+  ai_provider:            `Provider`,
+  ai_setup:               `AI setup`,
+  ai_api_key:             `API key`,
+  ai_api_key_placeholder: `Paste your API key`,
+  ai_base_url:            `Base URL`,
+  ai_base_url_placeholder: `https://host/v1`,
+  ai_model:               `Model (optional)`,
+  ai_save:                `Save`,
+  ai_saving:              `Saving…`,
+  ai_send:                `Send`,
+  ai_new_chat:            `New chat`,
+  ai_minimize:            `Minimize`,
+  ai_close_chat:          `Close chat`,
+  ai_stop:                `Stop`,
+  ai_thinking:            `Thinking…`,
+  ai_empty:               `Ask me anything about your structure or research.`,
+  ai_no_key:              `Add an API key to start chatting.`,
+  ai_invalid_key:         `API key is invalid. Check your key in AI setup.`,
+  ai_rate_limited:        `Rate limit reached — the free tier allows only a few messages per minute. Wait a few seconds and resend, or pick a higher-limit model in settings.`,
+  ai_model_busy:          `The model is busy right now (high demand) — usually temporary. Wait a moment and resend, or try a different model in settings.`,
+  ai_message_placeholder: `Type a message…`,
 }
 
 export default mobile
