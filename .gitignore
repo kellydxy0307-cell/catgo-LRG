@@ -90,3 +90,4 @@ server/catgo/vendor/pormake/database/**/*.pickle
 repro-*.jpeg
 repro-*.png
 server/catgo/data/
+.understand-anything/

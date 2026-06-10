@@ -1316,6 +1316,14 @@
       const aligned = align_to_principal_axes(structure!)
       structure = { ...aligned, _aligned: true } as any as typeof structure
       structure_aligned_id = structure_id
+      // The scene may have already locked its rotation pivot from the raw
+      // imported coordinates. Recenter once after this automatic load-time
+      // alignment so molecules rotate around the displayed center, not the
+      // pre-alignment PubChem/file coordinate offset. Wait one tick so the
+      // transform pipeline has pushed the aligned structure to StructureScene.
+      void tick().then(() => {
+        center_camera_trigger++
+      })
     })
   })
 

@@ -1046,17 +1046,163 @@
     return () => observer.disconnect()
   })
 
-  // Expose rotation target for external reset
+  let locked_rotation_pivot = $state<Vec3>([0, 0, 0])
+
+  function copy_vec3(v: Vec3 | undefined | null): Vec3 {
+    return v ? [v[0], v[1], v[2]] : [0, 0, 0]
+  }
+
+  function vector_to_vec3(v: Vector3): Vec3 {
+    return [v.x, v.y, v.z] as Vec3
+  }
+
+  function clear_trackball_rotation_inertia() {
+    const ctrl = orbit_controls as any
+    if (!ctrl) return
+    ctrl._lastAngle = 0
+    if (ctrl._lastAxis) ctrl._lastAxis.set(0, 0, 0)
+  }
+
+  function sync_trackball_reset_refs() {
+    if (!orbit_controls || !camera) return
+    const ctrl = orbit_controls as any
+    if (ctrl._target0 && orbit_controls.target) ctrl._target0.copy(orbit_controls.target)
+    if (ctrl._eye0 && orbit_controls.target) {
+      ctrl._eye0.subVectors(camera.position, orbit_controls.target)
+    }
+    if (ctrl._up0) ctrl._up0.copy(camera.up)
+  }
+
+  function sync_current_camera_target_from_controls() {
+    if (!orbit_controls?.target) return
+    current_camera_target = vector_to_vec3(orbit_controls.target)
+  }
+
+  function finish_camera_change(next_target?: Vec3 | null) {
+    if (next_target) current_camera_target = copy_vec3(next_target)
+    else sync_current_camera_target_from_controls()
+    snapshot_view()
+    clear_trackball_rotation_inertia()
+    sync_trackball_reset_refs()
+    mark_dirty()
+  }
+
+  function get_locked_rotation_pivot_vector(): Vector3 {
+    return new Vector3(...locked_rotation_pivot)
+  }
+
+  function apply_camera_rotation_about_locked_pivot(q: Quaternion) {
+    if (!camera || !orbit_controls?.target) return
+    const pivot = get_locked_rotation_pivot_vector()
+    const target = orbit_controls.target as Vector3
+
+    const camera_offset = camera.position.clone().sub(pivot).applyQuaternion(q)
+    camera.position.copy(pivot).add(camera_offset)
+
+    const target_offset = target.clone().sub(pivot).applyQuaternion(q)
+    target.copy(pivot).add(target_offset)
+
+    camera.up.applyQuaternion(q).normalize()
+    camera.lookAt(target)
+    camera.updateMatrixWorld(true)
+    finish_camera_change(vector_to_vec3(target))
+  }
+
+  type TrackballViewState = {
+    position: Vector3
+    target: Vector3
+    up: Vector3
+  }
+
+  let trackball_view_state: TrackballViewState | null = null
+
+  const TRACKBALL_STATE_NONE = -1
+  const TRACKBALL_STATE_ROTATE = 0
+  const TRACKBALL_STATE_TOUCH_ROTATE = 3
+
+  function capture_trackball_view_state() {
+    if (!camera || !orbit_controls?.target) return
+    trackball_view_state = {
+      position: camera.position.clone(),
+      target: orbit_controls.target.clone(),
+      up: camera.up.clone(),
+    }
+  }
+
+  function trackball_is_rotating() {
+    const ctrl = orbit_controls as any
+    if (!ctrl) return false
+    const key_state = ctrl.keyState ?? TRACKBALL_STATE_NONE
+    const state = key_state !== TRACKBALL_STATE_NONE
+      ? key_state
+      : (ctrl.state ?? TRACKBALL_STATE_NONE)
+    return state === TRACKBALL_STATE_ROTATE ||
+      state === TRACKBALL_STATE_TOUCH_ROTATE ||
+      (state === TRACKBALL_STATE_NONE && Math.abs(ctrl._lastAngle ?? 0) > 1e-7)
+  }
+
+  // Full view-frame orientation (eye direction + up), so the recovered rotation
+  // includes the roll component TrackballControls produces on curved drags.
+  // A two-vector minimal-arc quaternion (setFromUnitVectors on eye alone) would
+  // silently drop that roll and the rebased view would drift from the user's drag.
+  function view_frame_quaternion(eye: Vector3, up: Vector3): Quaternion | null {
+    const z_axis = eye.clone().normalize()
+    const x_axis = new Vector3().crossVectors(up, z_axis)
+    if (x_axis.lengthSq() < 1e-10) return null // up parallel to eye — degenerate frame
+    x_axis.normalize()
+    const y_axis = new Vector3().crossVectors(z_axis, x_axis)
+    return new Quaternion().setFromRotationMatrix(new Matrix4().makeBasis(x_axis, y_axis, z_axis))
+  }
+
+  function rebase_trackball_rotation_to_locked_pivot() {
+    if (!camera || !orbit_controls?.target || !trackball_view_state) return
+    if (!trackball_is_rotating()) return
+
+    const prev_eye = trackball_view_state.position.clone().sub(trackball_view_state.target)
+    const next_eye = camera.position.clone().sub(orbit_controls.target)
+    if (prev_eye.lengthSq() < 1e-10 || next_eye.lengthSq() < 1e-10) return
+
+    const q_prev = view_frame_quaternion(prev_eye, trackball_view_state.up)
+    const q_next = view_frame_quaternion(next_eye, camera.up)
+    if (!q_prev || !q_next) return
+    // World-frame rotation that carries the previous view frame onto the new one.
+    const q = q_next.multiply(q_prev.invert())
+    const pivot = get_locked_rotation_pivot_vector()
+    const target = orbit_controls.target as Vector3
+
+    const corrected_target = pivot.clone()
+      .add(trackball_view_state.target.clone().sub(pivot).applyQuaternion(q))
+    const corrected_position = pivot.clone()
+      .add(trackball_view_state.position.clone().sub(pivot).applyQuaternion(q))
+
+    target.copy(corrected_target)
+    camera.position.copy(corrected_position)
+    camera.up.copy(trackball_view_state.up.clone().applyQuaternion(q)).normalize()
+    camera.lookAt(target)
+    camera.updateMatrixWorld(true)
+
+    const ctrl = orbit_controls as any
+    if (ctrl._eye) ctrl._eye.subVectors(camera.position, target)
+  }
+
+  function handle_trackball_change() {
+    rebase_trackball_rotation_to_locked_pivot()
+    sync_current_camera_target_from_controls()
+    snapshot_view()
+    sync_trackball_reset_refs()
+    capture_trackball_view_state()
+  }
+
+  // Expose the stable rotation pivot for external reset/gesture handlers.
   $effect(() => {
-    rotation_target_ref = rotation_target
+    rotation_target_ref = locked_rotation_pivot
   })
 
   // Track the last trigger value to detect changes
   let last_center_trigger = $state(0)
   // Track whether initial camera target has been set
   let initial_target_set = $state(false)
-  // Store the current camera target - only update when center_camera_trigger changes
-  // This prevents the target from changing when structure changes (e.g., after slab cut)
+  // Current camera look-at point. It can drift away from the structure pivot when the user pans.
   let current_camera_target = $state<Vec3>([0, 0, 0])
 
   function get_atom_bounds_center(structure: AnyStructure | undefined): Vec3 | null {
@@ -1084,9 +1230,9 @@
     untrack(() => {
       if (!orbit_controls?.target) return
       orbit_controls.target.set(...target)
-      if ((orbit_controls as any)._target0) {
-        (orbit_controls as any)._target0.set(...target)
-      }
+      current_camera_target = copy_vec3(target)
+      clear_trackball_rotation_inertia()
+      sync_trackball_reset_refs()
       orbit_controls.update?.()
       // mark_dirty: imperative orbit_controls.target.set + .update() bypasses <T.> prop chain
       mark_dirty()
@@ -1107,15 +1253,25 @@
     orbit_controls.update?.()
   })
 
-  // Set orbit controls target on initial mount or when center_camera_trigger changes.
-  // Defers initial_target_set until orbit_controls is ready (TrackballControls may
-  // mount after the structure arrives). Once set, only updates via trigger.
+  // Lock the rotation pivot on initial structure load or explicit recenter.
+  // Regular structure edits do not move this pivot, so adding/removing atoms does
+  // not make the camera rotation center jump.
   $effect(() => {
-    if (!rotation_target) return
+    const base_target = structure ? structure_rotation_center : [0, 0, 0] as Vec3
     // Track orbit_controls to re-run when it becomes available
     const controls_ready = !!orbit_controls?.target
 
+    if (!structure) {
+      locked_rotation_pivot = [0, 0, 0]
+      current_camera_target = [0, 0, 0]
+      initial_target_set = false
+      last_center_trigger = center_camera_trigger
+      if (controls_ready) apply_orbit_target([0, 0, 0])
+      return
+    }
+
     if (!initial_target_set) {
+      locked_rotation_pivot = copy_vec3(base_target)
       current_camera_target = get_camera_fit_target()
       last_center_trigger = center_camera_trigger
       if (controls_ready) {
@@ -1127,8 +1283,8 @@
 
     if (center_camera_trigger === last_center_trigger) return
     last_center_trigger = center_camera_trigger
-    current_camera_target = get_camera_fit_target()
-    apply_orbit_target(current_camera_target)
+    locked_rotation_pivot = copy_vec3(base_target)
+    apply_orbit_target(get_camera_fit_target())
   })
 
   // Reset camera to default +Z viewing direction when lattice_align_trigger changes.
@@ -1140,7 +1296,7 @@
     requestAnimationFrame(() => {
       if (!camera || !orbit_controls) return
 
-      const center = new Vector3(...(rotation_target || [0, 0, 0]))
+      const center = new Vector3(...(structure_rotation_center || [0, 0, 0]))
       const dist = camera.position.distanceTo(orbit_controls.target || new Vector3())
       const cam_distance = Math.max(dist, 1)
       const cam_pos = center.clone().add(new Vector3(0, 0, cam_distance))
@@ -1164,7 +1320,8 @@
       ctrl._lastAngle = 0
       orbit_controls.update()
 
-      current_camera_target = [center.x, center.y, center.z] as Vec3
+      locked_rotation_pivot = vector_to_vec3(center)
+      current_camera_target = vector_to_vec3(center)
       last_center_trigger = center_camera_trigger
       // mark_dirty: imperative camera.position/up/lookAt + orbit_controls.update() bypass <T.> prop chain
       mark_dirty()
@@ -1233,6 +1390,7 @@
       camera.up.copy(_view_up).normalize()
       camera.lookAt(center)
       orbit_controls.target.copy(center)
+      current_camera_target = vector_to_vec3(center)
       const ctrl = orbit_controls as any
       ctrl._target0?.copy(center)
       ctrl._eye0?.copy(new Vector3().subVectors(camera.position, center))
@@ -1259,41 +1417,18 @@
     }
   })
 
-  // Auto-recenter when center of mass diverges from orbit target (panel close).
-  $effect(() => {
-    if (!initial_target_set || !rotation_target) return
-    // Only read orbit_controls presence, not its deep properties
-    if (!orbit_controls) return
-    const target = get_camera_fit_target()
-    const [rx, ry, rz] = target
-    const [cx, cy, cz] = current_camera_target
-    const dist_sq = (rx - cx) ** 2 + (ry - cy) ** 2 + (rz - cz) ** 2
-    if (dist_sq > 4) {
-      current_camera_target = target
-      apply_orbit_target(target)
-    }
-  })
+  // Do not auto-recenter when the look-at target drifts from the structure pivot:
+  // that drift is exactly the user's pan offset (current_camera_target now tracks
+  // panning via the TrackballControls onchange handler, so the old divergence
+  // check would undo any pan larger than 2 Å). Explicit recenter/reset paths
+  // update both current_camera_target and locked_rotation_pivot above.
 
   // Keep TrackballControls reset points (_target0, _eye0, _up0) synchronized with current state
   // This prevents the camera from snapping back to an outdated position on any reset-like operation
   // (e.g., when user Ctrl+clicks after panning the view)
   $effect(() => {
     if (!orbit_controls) return
-    // Sync _target0 with the actual target to prevent snap-back behavior
-    // When user pans, orbit_controls.target changes but _target0 stays stale
-    // This causes Ctrl+click or other operations to snap back to the old position
-    if ((orbit_controls as any)._target0 && orbit_controls.target) {
-      (orbit_controls as any)._target0.copy(orbit_controls.target)
-    }
-    // Also sync _eye0 (camera position relative to target) to prevent camera position snap-back
-    if ((orbit_controls as any)._eye0 && camera) {
-      const eye = new Vector3().subVectors(camera.position, orbit_controls.target)
-      ;(orbit_controls as any)._eye0.copy(eye)
-    }
-    // Also sync _up0 (camera up vector) to prevent up direction snap-back
-    if ((orbit_controls as any)._up0 && camera) {
-      (orbit_controls as any)._up0.copy(camera.up)
-    }
+    sync_trackball_reset_refs()
   })
 
   // Reset camera.up to [0,0,1] (Z-up) when triggered (e.g., after slab cut reorients the structure).
@@ -1389,7 +1524,16 @@
 
   // Keyboard rotation controls - screen-relative axes (trackball-style)
   function handle_keyboard_rotation(event: KeyboardEvent) {
-    kbd_rotation(event, camera, orbit_controls, selected_sites, hovered, current_camera_target)
+    const next_target = kbd_rotation(
+      event,
+      camera,
+      orbit_controls,
+      selected_sites,
+      hovered,
+      current_camera_target,
+      locked_rotation_pivot,
+    )
+    if (next_target) finish_camera_change(next_target)
   }
 
   // Add keyboard listener
@@ -1408,7 +1552,15 @@
     roll_start(event, roll_drag_state, selected_sites, hovered)
   }
   function handle_scene_roll_move(event: PointerEvent) {
-    roll_move(event, roll_drag_state, camera, orbit_controls, current_camera_target)
+    const next_target = roll_move(
+      event,
+      roll_drag_state,
+      camera,
+      orbit_controls,
+      current_camera_target,
+      locked_rotation_pivot,
+    )
+    if (next_target) finish_camera_change(next_target)
   }
   function handle_scene_roll_end() {
     roll_end(roll_drag_state)
@@ -1535,11 +1687,15 @@
 
   let lattice = $derived.by(() => get_lattice_pure(structure))
 
+  let structure_rotation_center = $derived.by(() => (
+    structure
+      ? get_rotation_center(structure)
+      : [0, 0, 0] as Vec3
+  ))
+
   let rotation_target = $derived.by(() => frozen_rotation_target || (
-      structure
-        ? get_rotation_center(structure)
-        : [0, 0, 0] as Vec3
-    ))
+    initial_target_set ? locked_rotation_pivot : structure_rotation_center
+  ))
 
 
 
@@ -4309,6 +4465,8 @@
     // The target is managed programmatically in the $effect blocks above.
     onstart: () => {
       camera_is_moving = true
+      capture_trackball_view_state()
+      if (!trackball_is_rotating()) clear_trackball_rotation_inertia()
       // Don't clear hovered_idx here - let it stay so rotation stays disabled on atoms.
       // Don't clear hovered_bond_key either: TrackballControls fires onstart on
       // mousedown even if no movement follows, so clearing here would erase
@@ -4318,53 +4476,29 @@
     },
     onend: () => {
       camera_is_moving = false
+      sync_current_camera_target_from_controls()
       snapshot_view()
       // Sync reset reference points with current state after every camera operation
       // This prevents Ctrl+click or any other operation from snapping back to an old position
       // TrackballControls uses _target0, _eye0, and _up0 as reset reference points
-      if (orbit_controls) {
-        if ((orbit_controls as any)._target0 && orbit_controls.target) {
-          (orbit_controls as any)._target0.copy(orbit_controls.target)
-        }
-        if ((orbit_controls as any)._eye0 && camera) {
-          // _eye0 stores camera position relative to target
-          const eye = new Vector3().subVectors(camera.position, orbit_controls.target)
-          ;(orbit_controls as any)._eye0.copy(eye)
-        }
-        if ((orbit_controls as any)._up0 && camera) {
-          (orbit_controls as any)._up0.copy(camera.up)
-        }
-      }
+      sync_trackball_reset_refs()
+      capture_trackball_view_state()
     },
     onchange: () => {
-      snapshot_view()
-      // Continuously sync reset reference points during camera movement
-      // TrackballControls uses _target0, _eye0, and _up0 as reset reference points
-      if (orbit_controls) {
-        if ((orbit_controls as any)._target0 && orbit_controls.target) {
-          (orbit_controls as any)._target0.copy(orbit_controls.target)
-        }
-        if ((orbit_controls as any)._eye0 && camera) {
-          const eye = new Vector3().subVectors(camera.position, orbit_controls.target)
-          ;(orbit_controls as any)._eye0.copy(eye)
-        }
-        if ((orbit_controls as any)._up0 && camera) {
-          (orbit_controls as any)._up0.copy(camera.up)
-        }
-      }
+      handle_trackball_change()
     },
   }))
 
   // Configure mouse buttons for TrackballControls
   // LEFT: rotate (blocked on atoms by Structure.svelte stopPropagation)
-  // MIDDLE: disabled
-  // RIGHT: disabled (context menu handled separately)
+  // MIDDLE: pan
+  // RIGHT: disabled (context menu/right-drag roll handled separately)
   $effect(() => {
     if (orbit_controls) {
       orbit_controls.mouseButtons = {
-        LEFT: 0,    // ROTATE
-        MIDDLE: 2,  // PAN
-        RIGHT: -1 as any  // Disabled (context menu handled separately)
+        LEFT: 0,
+        MIDDLE: 2,
+        RIGHT: -1 as any,
       }
       // Disable keyboard controls to prevent Ctrl+click from panning/resetting
       // TrackballControls by default has keys for A=rotate, S=zoom, D=pan
@@ -4464,28 +4598,11 @@
       const delta = (now - last_time) / 1000 // Convert to seconds
       last_time = now
 
-      // Rotate camera around the Y axis at the target point
+      // Rotate camera around the Y axis at the locked structure pivot.
       // auto_rotate is the speed (radians per second)
       const angle = auto_rotate * delta
-
-      // Get current camera position relative to target
-      const target = orbit_controls!.target
-      const dx = camera!.position.x - target.x
-      const dz = camera!.position.z - target.z
-
-      // Rotate around Y axis
-      const cos_angle = Math.cos(angle)
-      const sin_angle = Math.sin(angle)
-      const new_dx = dx * cos_angle - dz * sin_angle
-      const new_dz = dx * sin_angle + dz * cos_angle
-
-      camera!.position.x = target.x + new_dx
-      camera!.position.z = target.z + new_dz
-      camera!.lookAt(target.x, target.y, target.z)
-
-      if (orbit_controls!.update) orbit_controls!.update()
-      // mark_dirty: imperative camera.position + lookAt + orbit_controls.update() inside rAF bypasses <T.> prop chain
-      mark_dirty()
+      const q = new Quaternion().setFromAxisAngle(new Vector3(0, 1, 0), angle)
+      apply_camera_rotation_about_locked_pivot(q)
 
       frame_id = requestAnimationFrame(animate)
     }
@@ -4571,6 +4688,11 @@
           width: canvas.clientWidth,
           height: canvas.clientHeight,
         }
+      },
+      get_rotation_pivot: (): Vec3 => copy_vec3(locked_rotation_pivot),
+      get_orbit_target: (): Vec3 | null => {
+        const target = orbit_controls?.target as Vector3 | undefined
+        return target ? vector_to_vec3(target) : null
       },
       get override_size(): number { return realtime_position_overrides?.size ?? 0 },
       get vibration_active(): boolean { return vibration_data?.playing === true },

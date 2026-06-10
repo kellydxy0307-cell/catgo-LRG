@@ -228,3 +228,87 @@ describe(`get_center_of_mass`, () => {
     },
   )
 })
+
+describe(`get_rotation_center`, () => {
+  const create_molecule = (sites: (Species & { xyz: Vec3 })[]): AnyStructure => ({
+    sites: sites.map((site, idx) => ({
+      species: [{ element: site.element, occu: site.occu, oxidation_state: 0 }],
+      abc: site.xyz,
+      xyz: site.xyz,
+      label: `${site.element}${idx + 1}`,
+      properties: {},
+    })) as Site[],
+    charge: 0,
+  })
+
+  test(`uses the H2 bond midpoint for a translated non-periodic molecule`, () => {
+    const h2 = create_molecule([
+      { element: `H`, xyz: [10, -3, 2] as Vec3, occu: 1 },
+      { element: `H`, xyz: [12, -3, 2] as Vec3, occu: 1 },
+    ])
+
+    const center = struct_utils.get_rotation_center(h2)
+    expect(center[0]).toBeCloseTo(11, 6)
+    expect(center[1]).toBeCloseTo(-3, 6)
+    expect(center[2]).toBeCloseTo(2, 6)
+  })
+
+  test(`uses a mass-weighted center near oxygen for H2O`, () => {
+    const h2o = create_molecule([
+      { element: `O`, xyz: [0, 0, 0] as Vec3, occu: 1 },
+      { element: `H`, xyz: [1, 0, 0] as Vec3, occu: 1 },
+      { element: `H`, xyz: [0, 1, 0] as Vec3, occu: 1 },
+    ])
+    const expected_h = 1.008 / (15.999 + 2 * 1.008)
+
+    const center = struct_utils.get_rotation_center(h2o)
+    expect(center[0]).toBeCloseTo(expected_h, 6)
+    expect(center[1]).toBeCloseTo(expected_h, 6)
+    expect(center[2]).toBeCloseTo(0, 6)
+  })
+
+  test(`treats an explicit non-periodic lattice box as a molecule`, () => {
+    const boxed_h2o = {
+      ...create_molecule([
+        { element: `O`, xyz: [0, 0, 0] as Vec3, occu: 1 },
+        { element: `H`, xyz: [1, 0, 0] as Vec3, occu: 1 },
+        { element: `H`, xyz: [0, 1, 0] as Vec3, occu: 1 },
+      ]),
+      lattice: {
+        matrix: [[100, 0, 0], [0, 100, 0], [0, 0, 100]] as [Vec3, Vec3, Vec3],
+        pbc: [false, false, false] as [boolean, boolean, boolean],
+        a: 100,
+        b: 100,
+        c: 100,
+        alpha: 90,
+        beta: 90,
+        gamma: 90,
+        volume: 1000000,
+      },
+    }
+
+    const center = struct_utils.get_rotation_center(boxed_h2o)
+    expect(center[0]).toBeLessThan(1)
+    expect(center[1]).toBeLessThan(1)
+    expect(center[2]).toBeCloseTo(0, 6)
+  })
+
+  test(`keeps periodic structures rotating about the lattice-box center`, () => {
+    const periodic = {
+      ...create_molecule([{ element: `Fe`, xyz: [0, 0, 0] as Vec3, occu: 1 }]),
+      lattice: {
+        matrix: [[10, 0, 0], [0, 8, 0], [0, 0, 6]] as [Vec3, Vec3, Vec3],
+        pbc: [true, true, true] as [boolean, boolean, boolean],
+        a: 10,
+        b: 8,
+        c: 6,
+        alpha: 90,
+        beta: 90,
+        gamma: 90,
+        volume: 480,
+      },
+    }
+
+    expect(struct_utils.get_rotation_center(periodic)).toEqual([5, 4, 3])
+  })
+})
