@@ -1,0 +1,767 @@
+{
+  "nodes": [
+    {
+      "id": "file:extensions/rust/src/python/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "extensions/rust/src/python/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/neighbors.rs",
+      "type": "file",
+      "name": "neighbors.rs",
+      "filePath": "extensions/rust/src/python/neighbors.rs",
+      "summary": "neighbors.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/neighbors.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/order_params.rs",
+      "type": "file",
+      "name": "order_params.rs",
+      "filePath": "extensions/rust/src/python/order_params.rs",
+      "summary": "order_params.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/order_params.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/oxidation.rs",
+      "type": "file",
+      "name": "oxidation.rs",
+      "filePath": "extensions/rust/src/python/oxidation.rs",
+      "summary": "oxidation.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/oxidation.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/potentials.rs",
+      "type": "file",
+      "name": "potentials.rs",
+      "filePath": "extensions/rust/src/python/potentials.rs",
+      "summary": "potentials.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/potentials.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/rdf.rs",
+      "type": "file",
+      "name": "rdf.rs",
+      "filePath": "extensions/rust/src/python/rdf.rs",
+      "summary": "rdf.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/rdf.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/structure.rs",
+      "type": "file",
+      "name": "structure.rs",
+      "filePath": "extensions/rust/src/python/structure.rs",
+      "summary": "structure.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/structure.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/surfaces.rs",
+      "type": "file",
+      "name": "surfaces.rs",
+      "filePath": "extensions/rust/src/python/surfaces.rs",
+      "summary": "surfaces.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/surfaces.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/symmetry.rs",
+      "type": "file",
+      "name": "symmetry.rs",
+      "filePath": "extensions/rust/src/python/symmetry.rs",
+      "summary": "symmetry.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/symmetry.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/trajectory.rs",
+      "type": "file",
+      "name": "trajectory.rs",
+      "filePath": "extensions/rust/src/python/trajectory.rs",
+      "summary": "trajectory.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/trajectory.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/python/xrd.rs",
+      "type": "file",
+      "name": "xrd.rs",
+      "filePath": "extensions/rust/src/python/xrd.rs",
+      "summary": "xrd.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/python/xrd.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/rdf.rs",
+      "type": "file",
+      "name": "rdf.rs",
+      "filePath": "extensions/rust/src/rdf.rs",
+      "summary": "rdf.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/rdf.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/slab.rs",
+      "type": "file",
+      "name": "slab.rs",
+      "filePath": "extensions/rust/src/slab.rs",
+      "summary": "slab.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/slab.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/species.rs",
+      "type": "file",
+      "name": "species.rs",
+      "filePath": "extensions/rust/src/species.rs",
+      "summary": "species.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/species.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/structure_matcher.rs",
+      "type": "file",
+      "name": "structure_matcher.rs",
+      "filePath": "extensions/rust/src/structure_matcher.rs",
+      "summary": "structure_matcher.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/structure_matcher.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/structure.rs",
+      "type": "file",
+      "name": "structure.rs",
+      "filePath": "extensions/rust/src/structure.rs",
+      "summary": "structure.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/structure.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/surfaces.rs",
+      "type": "file",
+      "name": "surfaces.rs",
+      "filePath": "extensions/rust/src/surfaces.rs",
+      "summary": "surfaces.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/surfaces.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/trajectory.rs",
+      "type": "file",
+      "name": "trajectory.rs",
+      "filePath": "extensions/rust/src/trajectory.rs",
+      "summary": "trajectory.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/trajectory.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/transformations/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "extensions/rust/src/transformations/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/transformations/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/transformations/order_disordered.rs",
+      "type": "file",
+      "name": "order_disordered.rs",
+      "filePath": "extensions/rust/src/transformations/order_disordered.rs",
+      "summary": "order_disordered.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/transformations/order_disordered.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/transformations/ordering.rs",
+      "type": "file",
+      "name": "ordering.rs",
+      "filePath": "extensions/rust/src/transformations/ordering.rs",
+      "summary": "ordering.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/transformations/ordering.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/transformations/partial_remove.rs",
+      "type": "file",
+      "name": "partial_remove.rs",
+      "filePath": "extensions/rust/src/transformations/partial_remove.rs",
+      "summary": "partial_remove.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/transformations/partial_remove.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/transformations/site.rs",
+      "type": "file",
+      "name": "site.rs",
+      "filePath": "extensions/rust/src/transformations/site.rs",
+      "summary": "site.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/transformations/site.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/transformations/standard.rs",
+      "type": "file",
+      "name": "standard.rs",
+      "filePath": "extensions/rust/src/transformations/standard.rs",
+      "summary": "standard.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/transformations/standard.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/transformations/supercell.rs",
+      "type": "file",
+      "name": "supercell.rs",
+      "filePath": "extensions/rust/src/transformations/supercell.rs",
+      "summary": "supercell.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/transformations/supercell.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/cell.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/composition.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/coordination.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/defects.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/elastic.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/element.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/helpers.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/io.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/lattice.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/md.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/neighbors.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/order_params.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/oxidation.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/potentials.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/rdf.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/surfaces.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/symmetry.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/trajectory.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/mod.rs",
+      "target": "file:extensions/rust/src/python/xrd.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/order_params.rs",
+      "target": "file:extensions/rust/src/order_params.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/oxidation.rs",
+      "target": "file:extensions/rust/src/composition.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/oxidation.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/structure.rs",
+      "target": "file:extensions/rust/src/io.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/structure.rs",
+      "target": "file:extensions/rust/src/structure_matcher.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/python/symmetry.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/rdf.rs",
+      "target": "file:extensions/rust/src/element.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/rdf.rs",
+      "target": "file:extensions/rust/src/neighbors.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/rdf.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/slab.rs",
+      "target": "file:extensions/rust/src/error.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/slab.rs",
+      "target": "file:extensions/rust/src/lattice.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/slab.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/species.rs",
+      "target": "file:extensions/rust/src/element.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure_matcher.rs",
+      "target": "file:extensions/rust/src/element.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure_matcher.rs",
+      "target": "file:extensions/rust/src/error.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure_matcher.rs",
+      "target": "file:extensions/rust/src/lattice.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure_matcher.rs",
+      "target": "file:extensions/rust/src/pbc.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure_matcher.rs",
+      "target": "file:extensions/rust/src/species.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure_matcher.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure.rs",
+      "target": "file:extensions/rust/src/algorithms/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure.rs",
+      "target": "file:extensions/rust/src/composition.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure.rs",
+      "target": "file:extensions/rust/src/element.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure.rs",
+      "target": "file:extensions/rust/src/error.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure.rs",
+      "target": "file:extensions/rust/src/lattice.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure.rs",
+      "target": "file:extensions/rust/src/species.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/structure.rs",
+      "target": "file:extensions/rust/src/transformations/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/surfaces.rs",
+      "target": "file:extensions/rust/src/error.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/surfaces.rs",
+      "target": "file:extensions/rust/src/lattice.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/surfaces.rs",
+      "target": "file:extensions/rust/src/species.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/surfaces.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/mod.rs",
+      "target": "file:extensions/rust/src/error.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/mod.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/mod.rs",
+      "target": "file:extensions/rust/src/transformations/ordering.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/mod.rs",
+      "target": "file:extensions/rust/src/transformations/site.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/mod.rs",
+      "target": "file:extensions/rust/src/transformations/standard.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/ordering.rs",
+      "target": "file:extensions/rust/src/algorithms/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/ordering.rs",
+      "target": "file:extensions/rust/src/error.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/ordering.rs",
+      "target": "file:extensions/rust/src/species.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/ordering.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/transformations/ordering.rs",
+      "target": "file:extensions/rust/src/transformations/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

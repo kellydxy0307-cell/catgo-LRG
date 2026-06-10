@@ -1,0 +1,216 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "server/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 58,
+      "nonEmptyLines": 44,
+      "sections": [
+        {
+          "heading": "CatGo Compute Server",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Core Architecture",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "1. Tool-First System",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "2. Dual MCP Servers",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "3. Key Routers & Capabilities",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "Quick Start",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "1. Environment Setup (Conda)",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "2. Start Backend",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "Development",
+          "level": 2,
+          "line": 46
+        },
+        {
+          "heading": "Adding a New Tool",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "API Documentation",
+          "level": 3,
+          "line": 53
+        },
+        {
+          "heading": "Implementation Details & Pitfalls",
+          "level": 2,
+          "line": 56
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "server/VISUALIZE_VASP.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 151,
+      "nonEmptyLines": 114,
+      "sections": [
+        {
+          "heading": "Visualizing and Testing the VASP Backend",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Quick Start",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "1. Start the Server",
+          "level": 3,
+          "line": 5
+        },
+        {
+          "heading": "2. Interactive API Documentation (Best Option!)",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "3. Test VASP Endpoints",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Option A: Using the Browser (Swagger UI)",
+          "level": 4,
+          "line": 35
+        },
+        {
+          "heading": "Option B: Using curl",
+          "level": 4,
+          "line": 44
+        },
+        {
+          "heading": "Option C: Using Python Test Script",
+          "level": 4,
+          "line": 74
+        },
+        {
+          "heading": "4. Available Endpoints",
+          "level": 3,
+          "line": 84
+        },
+        {
+          "heading": "5. Example Response",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "6. Integration with Frontend",
+          "level": 3,
+          "line": 109
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 135
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "server/pyproject.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 58,
+      "nonEmptyLines": 54,
+      "sections": [
+        {
+          "heading": "build-system",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "project",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "project.optional-dependencies",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "project.scripts",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "tool.hatch.build.targets.wheel",
+          "level": 5,
+          "line": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "server/pytest.ini",
+      "language": "config",
+      "fileCategory": "config",
+      "totalLines": 5,
+      "nonEmptyLines": 5,
+      "metrics": {}
+    },
+    {
+      "path": "server/requirements.txt",
+      "language": "txt",
+      "fileCategory": "docs",
+      "totalLines": 51,
+      "nonEmptyLines": 39,
+      "metrics": {}
+    }
+  ]
+}

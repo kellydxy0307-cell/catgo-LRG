@@ -1,0 +1,2004 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/phase-diagram/PhaseDiagramInfoPane.svelte",
+      "type": "file",
+      "name": "PhaseDiagramInfoPane.svelte",
+      "filePath": "src/lib/phase-diagram/PhaseDiagramInfoPane.svelte",
+      "summary": "实现Svelte UI相关的 PhaseDiagramInfoPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/PhaseDiagramStats.svelte",
+      "type": "file",
+      "name": "PhaseDiagramStats.svelte",
+      "filePath": "src/lib/phase-diagram/PhaseDiagramStats.svelte",
+      "summary": "实现Svelte UI相关的 PhaseDiagramStats.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/StructurePopup.svelte",
+      "type": "file",
+      "name": "StructurePopup.svelte",
+      "filePath": "src/lib/phase-diagram/StructurePopup.svelte",
+      "summary": "实现结构相关的 StructurePopup.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "type": "file",
+      "name": "thermodynamics.ts",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "summary": "实现项目相关的 thermodynamics.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 45 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:process_pd_entries",
+      "type": "function",
+      "name": "process_pd_entries",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        16,
+        40
+      ],
+      "summary": "封装项目模块中的 process_pd_entries 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:compute_e_form_per_atom",
+      "type": "function",
+      "name": "compute_e_form_per_atom",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        52,
+        74
+      ],
+      "summary": "封装项目模块中的 compute_e_form_per_atom 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:find_lowest_energy_unary_refs",
+      "type": "function",
+      "name": "find_lowest_energy_unary_refs",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        76,
+        107
+      ],
+      "summary": "封装项目模块中的 find_lowest_energy_unary_refs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:get_phase_diagram_stats",
+      "type": "function",
+      "name": "get_phase_diagram_stats",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        109,
+        184
+      ],
+      "summary": "封装项目模块中的 get_phase_diagram_stats 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:choose_initial_tetrahedron",
+      "type": "function",
+      "name": "choose_initial_tetrahedron",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        233,
+        268
+      ],
+      "summary": "封装项目模块中的 choose_initial_tetrahedron 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:make_face",
+      "type": "function",
+      "name": "make_face",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        270,
+        286
+      ],
+      "summary": "封装项目模块中的 make_face 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:assign_outside_points",
+      "type": "function",
+      "name": "assign_outside_points",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        288,
+        298
+      ],
+      "summary": "封装项目模块中的 assign_outside_points 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:farthest_point_for_face",
+      "type": "function",
+      "name": "farthest_point_for_face",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        306,
+        321
+      ],
+      "summary": "封装项目模块中的 farthest_point_for_face 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:build_horizon",
+      "type": "function",
+      "name": "build_horizon",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        323,
+        344
+      ],
+      "summary": "封装项目模块中的 build_horizon 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:compute_quickhull_triangles",
+      "type": "function",
+      "name": "compute_quickhull_triangles",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        346,
+        427
+      ],
+      "summary": "封装项目模块中的 compute_quickhull_triangles 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:compute_lower_hull_triangles",
+      "type": "function",
+      "name": "compute_lower_hull_triangles",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        429,
+        432
+      ],
+      "summary": "封装项目模块中的 compute_lower_hull_triangles 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:build_lower_hull_model",
+      "type": "function",
+      "name": "build_lower_hull_model",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        453,
+        494
+      ],
+      "summary": "封装项目模块中的 build_lower_hull_model 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:e_hull_at_xy",
+      "type": "function",
+      "name": "e_hull_at_xy",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        506,
+        517
+      ],
+      "summary": "封装项目模块中的 e_hull_at_xy 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:compute_e_above_hull_for_points",
+      "type": "function",
+      "name": "compute_e_above_hull_for_points",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        519,
+        528
+      ],
+      "summary": "封装项目模块中的 compute_e_above_hull_for_points 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:compute_plane_4d",
+      "type": "function",
+      "name": "compute_plane_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        596,
+        640
+      ],
+      "summary": "封装项目模块中的 compute_plane_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:compute_centroid_4d",
+      "type": "function",
+      "name": "compute_centroid_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        646,
+        658
+      ],
+      "summary": "封装项目模块中的 compute_centroid_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:distance_point_to_hyperplane_4d",
+      "type": "function",
+      "name": "distance_point_to_hyperplane_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        660,
+        702
+      ],
+      "summary": "封装项目模块中的 distance_point_to_hyperplane_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:distance_point_to_line_4d",
+      "type": "function",
+      "name": "distance_point_to_line_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        705,
+        722
+      ],
+      "summary": "封装项目模块中的 distance_point_to_line_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:choose_initial_4_simplex",
+      "type": "function",
+      "name": "choose_initial_4_simplex",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        724,
+        815
+      ],
+      "summary": "封装项目模块中的 choose_initial_4_simplex 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:make_face_4d",
+      "type": "function",
+      "name": "make_face_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        817,
+        839
+      ],
+      "summary": "封装项目模块中的 make_face_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:assign_outside_points_4d",
+      "type": "function",
+      "name": "assign_outside_points_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        841,
+        851
+      ],
+      "summary": "封装项目模块中的 assign_outside_points_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:farthest_point_for_face_4d",
+      "type": "function",
+      "name": "farthest_point_for_face_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        861,
+        876
+      ],
+      "summary": "封装项目模块中的 farthest_point_for_face_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:build_horizon_4d",
+      "type": "function",
+      "name": "build_horizon_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        878,
+        918
+      ],
+      "summary": "封装项目模块中的 build_horizon_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:compute_quickhull_4d",
+      "type": "function",
+      "name": "compute_quickhull_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        920,
+        1035
+      ],
+      "summary": "封装项目模块中的 compute_quickhull_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:compute_lower_hull_4d",
+      "type": "function",
+      "name": "compute_lower_hull_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        1037,
+        1041
+      ],
+      "summary": "封装项目模块中的 compute_lower_hull_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:point_in_tetrahedron_3d",
+      "type": "function",
+      "name": "point_in_tetrahedron_3d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        1044,
+        1084
+      ],
+      "summary": "封装项目模块中的 point_in_tetrahedron_3d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:build_tetrahedron_models",
+      "type": "function",
+      "name": "build_tetrahedron_models",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        1100,
+        1125
+      ],
+      "summary": "封装项目模块中的 build_tetrahedron_models 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/thermodynamics.ts:compute_e_above_hull_4d",
+      "type": "function",
+      "name": "compute_e_above_hull_4d",
+      "filePath": "src/lib/phase-diagram/thermodynamics.ts",
+      "lineRange": [
+        1128,
+        1168
+      ],
+      "summary": "封装项目模块中的 compute_e_above_hull_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "summary": "实现项目相关的 types.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 11 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:get_arity",
+      "type": "function",
+      "name": "get_arity",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        143,
+        145
+      ],
+      "summary": "封装项目模块中的 get_arity 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_unary_entry",
+      "type": "function",
+      "name": "is_unary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        147,
+        147
+      ],
+      "summary": "封装项目模块中的 is_unary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_binary_entry",
+      "type": "function",
+      "name": "is_binary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        148,
+        148
+      ],
+      "summary": "封装项目模块中的 is_binary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_ternary_entry",
+      "type": "function",
+      "name": "is_ternary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        149,
+        149
+      ],
+      "summary": "封装项目模块中的 is_ternary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_quaternary_entry",
+      "type": "function",
+      "name": "is_quaternary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        150,
+        150
+      ],
+      "summary": "封装项目模块中的 is_quaternary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_quinary_entry",
+      "type": "function",
+      "name": "is_quinary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        151,
+        151
+      ],
+      "summary": "封装项目模块中的 is_quinary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_senary_entry",
+      "type": "function",
+      "name": "is_senary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        152,
+        152
+      ],
+      "summary": "封装项目模块中的 is_senary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_septenary_entry",
+      "type": "function",
+      "name": "is_septenary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        153,
+        153
+      ],
+      "summary": "封装项目模块中的 is_septenary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_octonary_entry",
+      "type": "function",
+      "name": "is_octonary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        154,
+        154
+      ],
+      "summary": "封装项目模块中的 is_octonary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_nonary_entry",
+      "type": "function",
+      "name": "is_nonary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        155,
+        155
+      ],
+      "summary": "封装项目模块中的 is_nonary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/types.ts:is_denary_entry",
+      "type": "function",
+      "name": "is_denary_entry",
+      "filePath": "src/lib/phase-diagram/types.ts",
+      "lineRange": [
+        156,
+        156
+      ],
+      "summary": "封装项目模块中的 is_denary_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/plot/BarPlot.svelte",
+      "type": "file",
+      "name": "BarPlot.svelte",
+      "filePath": "src/lib/plot/BarPlot.svelte",
+      "summary": "实现Svelte UI相关的 BarPlot.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/BarPlotControls.svelte",
+      "type": "file",
+      "name": "BarPlotControls.svelte",
+      "filePath": "src/lib/plot/BarPlotControls.svelte",
+      "summary": "实现Svelte UI相关的 BarPlotControls.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/ColorBar.svelte",
+      "type": "file",
+      "name": "ColorBar.svelte",
+      "filePath": "src/lib/plot/ColorBar.svelte",
+      "summary": "实现Svelte UI相关的 ColorBar.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/ColorScaleSelect.svelte",
+      "type": "file",
+      "name": "ColorScaleSelect.svelte",
+      "filePath": "src/lib/plot/ColorScaleSelect.svelte",
+      "summary": "实现Svelte UI相关的 ColorScaleSelect.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/data-transform.ts",
+      "type": "file",
+      "name": "data-transform.ts",
+      "filePath": "src/lib/plot/data-transform.ts",
+      "summary": "实现项目相关的 data-transform.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 3 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/plot/data-transform.ts:extract_series_color",
+      "type": "function",
+      "name": "extract_series_color",
+      "filePath": "src/lib/plot/data-transform.ts",
+      "lineRange": [
+        7,
+        13
+      ],
+      "summary": "封装项目模块中的 extract_series_color 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/data-transform.ts:prepare_legend_data",
+      "type": "function",
+      "name": "prepare_legend_data",
+      "filePath": "src/lib/plot/data-transform.ts",
+      "lineRange": [
+        16,
+        32
+      ],
+      "summary": "封装项目模块中的 prepare_legend_data 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/data-transform.ts:create_data_points",
+      "type": "function",
+      "name": "create_data_points",
+      "filePath": "src/lib/plot/data-transform.ts",
+      "lineRange": [
+        35,
+        50
+      ],
+      "summary": "封装项目模块中的 create_data_points 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/plot/ElementScatter.svelte",
+      "type": "file",
+      "name": "ElementScatter.svelte",
+      "filePath": "src/lib/plot/ElementScatter.svelte",
+      "summary": "实现Svelte UI相关的 ElementScatter.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/Histogram.svelte",
+      "type": "file",
+      "name": "Histogram.svelte",
+      "filePath": "src/lib/plot/Histogram.svelte",
+      "summary": "实现Svelte UI相关的 Histogram.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/HistogramControls.svelte",
+      "type": "file",
+      "name": "HistogramControls.svelte",
+      "filePath": "src/lib/plot/HistogramControls.svelte",
+      "summary": "实现Svelte UI相关的 HistogramControls.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/plot/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/interactions.ts",
+      "type": "file",
+      "name": "interactions.ts",
+      "filePath": "src/lib/plot/interactions.ts",
+      "summary": "实现项目相关的 interactions.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/plot/interactions.ts:get_relative_coords",
+      "type": "function",
+      "name": "get_relative_coords",
+      "filePath": "src/lib/plot/interactions.ts",
+      "lineRange": [
+        2,
+        11
+      ],
+      "summary": "封装项目模块中的 get_relative_coords 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/interactions.ts:is_valid_dimension",
+      "type": "function",
+      "name": "is_valid_dimension",
+      "filePath": "src/lib/plot/interactions.ts",
+      "lineRange": [
+        14,
+        20
+      ],
+      "summary": "封装项目模块中的 is_valid_dimension 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/plot/layout.ts",
+      "type": "file",
+      "name": "layout.ts",
+      "filePath": "src/lib/plot/layout.ts",
+      "summary": "实现项目相关的 layout.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 5 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/plot/layout.ts:measure_text_width",
+      "type": "function",
+      "name": "measure_text_width",
+      "filePath": "src/lib/plot/layout.ts",
+      "lineRange": [
+        10,
+        19
+      ],
+      "summary": "封装项目模块中的 measure_text_width 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/layout.ts:calc_auto_padding",
+      "type": "function",
+      "name": "calc_auto_padding",
+      "filePath": "src/lib/plot/layout.ts",
+      "lineRange": [
+        40,
+        63
+      ],
+      "summary": "封装项目模块中的 calc_auto_padding 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/layout.ts:constrain_tooltip_position",
+      "type": "function",
+      "name": "constrain_tooltip_position",
+      "filePath": "src/lib/plot/layout.ts",
+      "lineRange": [
+        66,
+        82
+      ],
+      "summary": "封装项目模块中的 constrain_tooltip_position 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/layout.ts:find_best_plot_area",
+      "type": "function",
+      "name": "find_best_plot_area",
+      "filePath": "src/lib/plot/layout.ts",
+      "lineRange": [
+        142,
+        206
+      ],
+      "summary": "封装项目模块中的 find_best_plot_area 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/plot/Line.svelte",
+      "type": "file",
+      "name": "Line.svelte",
+      "filePath": "src/lib/plot/Line.svelte",
+      "summary": "实现Svelte UI相关的 Line.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/PlotControls.svelte",
+      "type": "file",
+      "name": "PlotControls.svelte",
+      "filePath": "src/lib/plot/PlotControls.svelte",
+      "summary": "实现Svelte UI相关的 PlotControls.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/PlotLegend.svelte",
+      "type": "file",
+      "name": "PlotLegend.svelte",
+      "filePath": "src/lib/plot/PlotLegend.svelte",
+      "summary": "实现Svelte UI相关的 PlotLegend.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/scales.ts",
+      "type": "file",
+      "name": "scales.ts",
+      "filePath": "src/lib/plot/scales.ts",
+      "summary": "实现项目相关的 scales.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 9 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/plot/scales.ts:create_scale",
+      "type": "function",
+      "name": "create_scale",
+      "filePath": "src/lib/plot/scales.ts",
+      "lineRange": [
+        19,
+        28
+      ],
+      "summary": "封装项目模块中的 create_scale 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/scales.ts:create_time_scale",
+      "type": "function",
+      "name": "create_time_scale",
+      "filePath": "src/lib/plot/scales.ts",
+      "lineRange": [
+        31,
+        38
+      ],
+      "summary": "封装项目模块中的 create_time_scale 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/scales.ts:generate_ticks",
+      "type": "function",
+      "name": "generate_ticks",
+      "filePath": "src/lib/plot/scales.ts",
+      "lineRange": [
+        41,
+        112
+      ],
+      "summary": "封装项目模块中的 generate_ticks 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/plot/scales.ts:calculate_domain",
+      "type": "function",
+      "name": "calculate_domain",
+      "filePath": "src/lib/plot/scales.ts",
+      "lineRange": [
+        115,
+        125
+      ],
+      "summary": "封装项目模块中的 calculate_domain 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/scales.ts:get_nice_data_range",
+      "type": "function",
+      "name": "get_nice_data_range",
+      "filePath": "src/lib/plot/scales.ts",
+      "lineRange": [
+        128,
+        193
+      ],
+      "summary": "封装项目模块中的 get_nice_data_range 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/plot/scales.ts:generate_log_ticks",
+      "type": "function",
+      "name": "generate_log_ticks",
+      "filePath": "src/lib/plot/scales.ts",
+      "lineRange": [
+        196,
+        237
+      ],
+      "summary": "封装项目模块中的 generate_log_ticks 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/scales.ts:get_tick_label",
+      "type": "function",
+      "name": "get_tick_label",
+      "filePath": "src/lib/plot/scales.ts",
+      "lineRange": [
+        240,
+        248
+      ],
+      "summary": "封装项目模块中的 get_tick_label 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/scales.ts:create_color_scale",
+      "type": "function",
+      "name": "create_color_scale",
+      "filePath": "src/lib/plot/scales.ts",
+      "lineRange": [
+        251,
+        282
+      ],
+      "summary": "封装项目模块中的 create_color_scale 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/plot/scales.ts:create_size_scale",
+      "type": "function",
+      "name": "create_size_scale",
+      "filePath": "src/lib/plot/scales.ts",
+      "lineRange": [
+        285,
+        309
+      ],
+      "summary": "封装项目模块中的 create_size_scale 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/plot/ScatterPlot.svelte",
+      "type": "file",
+      "name": "ScatterPlot.svelte",
+      "filePath": "src/lib/plot/ScatterPlot.svelte",
+      "summary": "实现Svelte UI相关的 ScatterPlot.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/ScatterPlotControls.svelte",
+      "type": "file",
+      "name": "ScatterPlotControls.svelte",
+      "filePath": "src/lib/plot/ScatterPlotControls.svelte",
+      "summary": "实现Svelte UI相关的 ScatterPlotControls.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/ScatterPoint.svelte",
+      "type": "file",
+      "name": "ScatterPoint.svelte",
+      "filePath": "src/lib/plot/ScatterPoint.svelte",
+      "summary": "实现Svelte UI相关的 ScatterPoint.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/SpacegroupBarPlot.svelte",
+      "type": "file",
+      "name": "SpacegroupBarPlot.svelte",
+      "filePath": "src/lib/plot/SpacegroupBarPlot.svelte",
+      "summary": "实现Svelte UI相关的 SpacegroupBarPlot.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/plot/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "src/lib/plot/types.ts",
+      "summary": "实现项目相关的 types.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:process_pd_entries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_e_form_per_atom",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:find_lowest_energy_unary_refs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:get_phase_diagram_stats",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:choose_initial_tetrahedron",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:make_face",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:assign_outside_points",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:farthest_point_for_face",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:build_horizon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_quickhull_triangles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_lower_hull_triangles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:build_lower_hull_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:e_hull_at_xy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_e_above_hull_for_points",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_plane_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_centroid_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:distance_point_to_hyperplane_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:distance_point_to_line_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:choose_initial_4_simplex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:make_face_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:assign_outside_points_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:farthest_point_for_face_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:build_horizon_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_quickhull_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_lower_hull_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:point_in_tetrahedron_3d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:build_tetrahedron_models",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_e_above_hull_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:process_pd_entries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_e_form_per_atom",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:find_lowest_energy_unary_refs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:get_phase_diagram_stats",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_quickhull_triangles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_lower_hull_triangles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:build_lower_hull_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:e_hull_at_xy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_e_above_hull_for_points",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_quickhull_4d",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_lower_hull_4d",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "target": "function:src/lib/phase-diagram/thermodynamics.ts:compute_e_above_hull_4d",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:get_arity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_unary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_binary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_ternary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_quaternary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_quinary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_senary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_septenary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_octonary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_nonary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_denary_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:get_arity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_unary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_binary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_ternary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_quaternary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_quinary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_senary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_septenary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_octonary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_nonary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/types.ts",
+      "target": "function:src/lib/phase-diagram/types.ts:is_denary_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/data-transform.ts",
+      "target": "function:src/lib/plot/data-transform.ts:extract_series_color",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/data-transform.ts",
+      "target": "function:src/lib/plot/data-transform.ts:prepare_legend_data",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/data-transform.ts",
+      "target": "function:src/lib/plot/data-transform.ts:create_data_points",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/data-transform.ts",
+      "target": "function:src/lib/plot/data-transform.ts:extract_series_color",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/data-transform.ts",
+      "target": "function:src/lib/plot/data-transform.ts:prepare_legend_data",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/data-transform.ts",
+      "target": "function:src/lib/plot/data-transform.ts:create_data_points",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/interactions.ts",
+      "target": "function:src/lib/plot/interactions.ts:get_relative_coords",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/interactions.ts",
+      "target": "function:src/lib/plot/interactions.ts:is_valid_dimension",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/interactions.ts",
+      "target": "function:src/lib/plot/interactions.ts:get_relative_coords",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/interactions.ts",
+      "target": "function:src/lib/plot/interactions.ts:is_valid_dimension",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/layout.ts",
+      "target": "function:src/lib/plot/layout.ts:measure_text_width",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/layout.ts",
+      "target": "function:src/lib/plot/layout.ts:calc_auto_padding",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/layout.ts",
+      "target": "function:src/lib/plot/layout.ts:constrain_tooltip_position",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/layout.ts",
+      "target": "function:src/lib/plot/layout.ts:find_best_plot_area",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/layout.ts",
+      "target": "function:src/lib/plot/layout.ts:measure_text_width",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/layout.ts",
+      "target": "function:src/lib/plot/layout.ts:calc_auto_padding",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/layout.ts",
+      "target": "function:src/lib/plot/layout.ts:constrain_tooltip_position",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/layout.ts",
+      "target": "function:src/lib/plot/layout.ts:find_best_plot_area",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:create_scale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:create_time_scale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:generate_ticks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:calculate_domain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:get_nice_data_range",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:generate_log_ticks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:get_tick_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:create_color_scale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:create_size_scale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:create_scale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:create_time_scale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:generate_ticks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:calculate_domain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:get_nice_data_range",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:generate_log_ticks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:get_tick_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:create_color_scale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/plot/scales.ts",
+      "target": "function:src/lib/plot/scales.ts:create_size_scale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

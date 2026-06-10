@@ -1,0 +1,227 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".dockerignore",
+      "language": "unknown",
+      "fileCategory": "infra",
+      "totalLines": 36,
+      "nonEmptyLines": 36,
+      "metrics": {}
+    },
+    {
+      "path": "docker-compose.yml",
+      "language": "yaml",
+      "fileCategory": "infra",
+      "totalLines": 40,
+      "nonEmptyLines": 39,
+      "sections": [
+        {
+          "heading": "services",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "volumes",
+          "level": 1,
+          "line": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "Dockerfile",
+      "language": "dockerfile",
+      "fileCategory": "infra",
+      "totalLines": 120,
+      "nonEmptyLines": 99,
+      "services": [
+        {
+          "name": "builder",
+          "image": "node:22-bookworm-slim",
+          "ports": [],
+          "startLine": 14,
+          "endLine": 69
+        },
+        {
+          "name": "runtime",
+          "image": "python:3.11-slim-bookworm",
+          "ports": [
+            3100,
+            8000
+          ],
+          "startLine": 70,
+          "endLine": 121
+        }
+      ],
+      "steps": [
+        {
+          "name": "FROM node:22-bookworm-slim AS builder",
+          "startLine": 14,
+          "endLine": 14
+        },
+        {
+          "name": "ENV DEBIAN_FRONTEND=noninteractive \\",
+          "startLine": 16,
+          "endLine": 16
+        },
+        {
+          "name": "RUN apt-get update && apt-get install -y --no-install-recommends",
+          "startLine": 21,
+          "endLine": 21
+        },
+        {
+          "name": "RUN corepack enable && corepack prepare pnpm@10.28.2 --activate",
+          "startLine": 26,
+          "endLine": 26
+        },
+        {
+          "name": "RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs \\",
+          "startLine": 29,
+          "endLine": 29
+        },
+        {
+          "name": "WORKDIR /app",
+          "startLine": 33,
+          "endLine": 33
+        },
+        {
+          "name": "COPY package.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc .nvmr",
+          "startLine": 36,
+          "endLine": 36
+        },
+        {
+          "name": "COPY patches ./patches",
+          "startLine": 37,
+          "endLine": 37
+        },
+        {
+          "name": "COPY extensions/rust-wasm/package.json ./extensions/rust-wasm/",
+          "startLine": 38,
+          "endLine": 38
+        },
+        {
+          "name": "RUN --mount=type=cache,target=/pnpm/store \\",
+          "startLine": 40,
+          "endLine": 40
+        },
+        {
+          "name": "COPY . .",
+          "startLine": 44,
+          "endLine": 44
+        },
+        {
+          "name": "RUN cd extensions/rust-wasm && pnpm build \\",
+          "startLine": 48,
+          "endLine": 48
+        },
+        {
+          "name": "RUN cd extensions/catrender-wasm \\",
+          "startLine": 57,
+          "endLine": 57
+        },
+        {
+          "name": "RUN pnpm build:doc-chunks",
+          "startLine": 63,
+          "endLine": 63
+        },
+        {
+          "name": "ENV VITE_STATIC_ONLY=true",
+          "startLine": 66,
+          "endLine": 66
+        },
+        {
+          "name": "RUN pnpm desktop:build",
+          "startLine": 67,
+          "endLine": 67
+        },
+        {
+          "name": "FROM python:3.11-slim-bookworm AS runtime",
+          "startLine": 70,
+          "endLine": 70
+        },
+        {
+          "name": "ENV DEBIAN_FRONTEND=noninteractive \\",
+          "startLine": 72,
+          "endLine": 72
+        },
+        {
+          "name": "RUN apt-get update && apt-get install -y --no-install-recommends",
+          "startLine": 85,
+          "endLine": 85
+        },
+        {
+          "name": "WORKDIR /app",
+          "startLine": 97,
+          "endLine": 97
+        },
+        {
+          "name": "COPY server/requirements.txt /tmp/requirements.txt",
+          "startLine": 102,
+          "endLine": 102
+        },
+        {
+          "name": "RUN grep -v \"^openbabel\" /tmp/requirements.txt > /tmp/requiremen",
+          "startLine": 103,
+          "endLine": 103
+        },
+        {
+          "name": "COPY server ./server",
+          "startLine": 109,
+          "endLine": 109
+        },
+        {
+          "name": "COPY --from=builder /app/build-desktop ./build-desktop",
+          "startLine": 112,
+          "endLine": 112
+        },
+        {
+          "name": "COPY docker/Caddyfile /etc/caddy/Caddyfile",
+          "startLine": 113,
+          "endLine": 113
+        },
+        {
+          "name": "COPY docker/start.sh /usr/local/bin/start.sh",
+          "startLine": 114,
+          "endLine": 114
+        },
+        {
+          "name": "RUN chmod +x /usr/local/bin/start.sh",
+          "startLine": 115,
+          "endLine": 115
+        },
+        {
+          "name": "EXPOSE 3100 8000",
+          "startLine": 117,
+          "endLine": 117
+        },
+        {
+          "name": "ENTRYPOINT [\"/usr/bin/tini\", \"--\"]",
+          "startLine": 119,
+          "endLine": 119
+        },
+        {
+          "name": "CMD [\"/usr/local/bin/start.sh\"]",
+          "startLine": 120,
+          "endLine": 120
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "serviceCount": 2,
+        "stepCount": 30
+      }
+    }
+  ]
+}

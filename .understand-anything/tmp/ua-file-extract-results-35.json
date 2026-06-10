@@ -1,0 +1,510 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "server/templates/INTEGRATION_GUIDE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 435,
+      "nonEmptyLines": 338,
+      "sections": [
+        {
+          "heading": "Integration Guide: Adding ORCA Templates to CatGO",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Step 1: Copy Template Files",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Step 2: Create Cluster Configuration",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Step 3: Pass Configuration to Workflow Engine",
+          "level": 2,
+          "line": 72
+        },
+        {
+          "heading": "Step 4: Update Workflow Routes",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "Step 5: Update CatGO UI Components",
+          "level": 2,
+          "line": 127
+        },
+        {
+          "heading": "Step 6: Test Configuration",
+          "level": 2,
+          "line": 163
+        },
+        {
+          "heading": "Local Testing",
+          "level": 3,
+          "line": 165
+        },
+        {
+          "heading": "Test on HPC",
+          "level": 3,
+          "line": 195
+        },
+        {
+          "heading": "Step 7: Add to Database",
+          "level": 2,
+          "line": 226
+        },
+        {
+          "heading": "Step 8: Add UI for Cluster Management",
+          "level": 2,
+          "line": 251
+        },
+        {
+          "heading": "Step 9: Documentation for Users",
+          "level": 2,
+          "line": 286
+        },
+        {
+          "heading": "Step 10: Add Tests",
+          "level": 2,
+          "line": 323
+        },
+        {
+          "heading": "Step 11: Error Handling",
+          "level": 2,
+          "line": 350
+        },
+        {
+          "heading": "Step 12: Logging & Monitoring",
+          "level": 2,
+          "line": 368
+        },
+        {
+          "heading": "Checklist",
+          "level": 2,
+          "line": 385
+        },
+        {
+          "heading": "Troubleshooting Integration",
+          "level": 2,
+          "line": 400
+        },
+        {
+          "heading": "Next Steps",
+          "level": 2,
+          "line": 423
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": "server/templates/QUICK_REFERENCE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 276,
+      "nonEmptyLines": 211,
+      "sections": [
+        {
+          "heading": "ORCA Job Template - Quick Reference Card",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Expanse Configuration (Copy-Paste Ready)",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Key Placeholders",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Expanse Partitions",
+          "level": 2,
+          "line": 41
+        },
+        {
+          "heading": "Expanse Job Time Limits",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "Template Files Available",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "Common ORCA Methods & Est. Runtime",
+          "level": 2,
+          "line": 71
+        },
+        {
+          "heading": "Expanse ORCA Setup Details",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "Common ORCA Calculation Types",
+          "level": 2,
+          "line": 102
+        },
+        {
+          "heading": "Result Files on HPC",
+          "level": 2,
+          "line": 126
+        },
+        {
+          "heading": "Troubleshooting 30-Second Guide",
+          "level": 2,
+          "line": 143
+        },
+        {
+          "heading": "Expanse Management Commands",
+          "level": 2,
+          "line": 154
+        },
+        {
+          "heading": "File Transfer",
+          "level": 2,
+          "line": 177
+        },
+        {
+          "heading": "Performance Tips",
+          "level": 2,
+          "line": 190
+        },
+        {
+          "heading": "NEB-TS (Reaction Path) Example",
+          "level": 2,
+          "line": 203
+        },
+        {
+          "heading": "Template Modification (Advanced)",
+          "level": 2,
+          "line": 221
+        },
+        {
+          "heading": "Estimate Walltimes",
+          "level": 2,
+          "line": 249
+        },
+        {
+          "heading": "Reference Links",
+          "level": 2,
+          "line": 268
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": "server/templates/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 295,
+      "nonEmptyLines": 244,
+      "sections": [
+        {
+          "heading": "ORCA & VASP Job Script Templates",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Available Templates",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "ORCA Templates",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "`orca_expanse.sh` - Expanse Supercomputer (SDSC)",
+          "level": 4,
+          "line": 9
+        },
+        {
+          "heading": "`orca_generic.sh` - Generic SLURM Cluster",
+          "level": 4,
+          "line": 22
+        },
+        {
+          "heading": "`orca_shaheen.sh` - Shaheen II (KAUST)",
+          "level": 4,
+          "line": 32
+        },
+        {
+          "heading": "Template Placeholders",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "How Templates are Used in CatGO",
+          "level": 2,
+          "line": 62
+        },
+        {
+          "heading": "1. **Global Fallback Template**",
+          "level": 3,
+          "line": 64
+        },
+        {
+          "heading": "2. **Per-Cluster Template** (Recommended)",
+          "level": 3,
+          "line": 72
+        },
+        {
+          "heading": "3. **Per-Calculation-Type Template**",
+          "level": 3,
+          "line": 92
+        },
+        {
+          "heading": "Setup Instructions",
+          "level": 2,
+          "line": 102
+        },
+        {
+          "heading": "For Expanse Users",
+          "level": 3,
+          "line": 104
+        },
+        {
+          "heading": "For Other Clusters",
+          "level": 3,
+          "line": 139
+        },
+        {
+          "heading": "Key Features of Expanse Template",
+          "level": 2,
+          "line": 163
+        },
+        {
+          "heading": "Local Scratch Usage",
+          "level": 3,
+          "line": 165
+        },
+        {
+          "heading": "NEB-TS File Handling",
+          "level": 3,
+          "line": 179
+        },
+        {
+          "heading": "Module Loading",
+          "level": 3,
+          "line": 191
+        },
+        {
+          "heading": "Customization Examples",
+          "level": 2,
+          "line": 203
+        },
+        {
+          "heading": "Use Different ORCA Version",
+          "level": 3,
+          "line": 205
+        },
+        {
+          "heading": "Override Partition",
+          "level": 3,
+          "line": 210
+        },
+        {
+          "heading": "Add Custom Environment Variables",
+          "level": 3,
+          "line": 219
+        },
+        {
+          "heading": "Disable Local Scratch (for small jobs)",
+          "level": 3,
+          "line": 226
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 234
+        },
+        {
+          "heading": "\"orca: command not found\"",
+          "level": 3,
+          "line": 236
+        },
+        {
+          "heading": "Job fails: \"No space left on device\"",
+          "level": 3,
+          "line": 241
+        },
+        {
+          "heading": "Job times out",
+          "level": 3,
+          "line": 246
+        },
+        {
+          "heading": "Slow I/O performance",
+          "level": 3,
+          "line": 251
+        },
+        {
+          "heading": "Integration with CatGO Workflow",
+          "level": 2,
+          "line": 256
+        },
+        {
+          "heading": "File Structure",
+          "level": 2,
+          "line": 272
+        },
+        {
+          "heading": "Contributing New Templates",
+          "level": 2,
+          "line": 283
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 31
+      }
+    },
+    {
+      "path": "server/templates/TEMPLATE_USAGE.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 332,
+      "nonEmptyLines": 301,
+      "sections": [
+        {
+          "heading": "ORCA Template Usage Flow",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "How Templates Work in CatGO",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Configuration Hierarchy",
+          "level": 2,
+          "line": 154
+        },
+        {
+          "heading": "1. **Per-Calculation-Type Template** (Highest Priority)",
+          "level": 3,
+          "line": 158
+        },
+        {
+          "heading": "2. **Per-Cluster Default Template** (Recommended)",
+          "level": 3,
+          "line": 164
+        },
+        {
+          "heading": "3. **Global Fallback Template** (Lowest Priority)",
+          "level": 3,
+          "line": 170
+        },
+        {
+          "heading": "Parameter Sources",
+          "level": 2,
+          "line": 176
+        },
+        {
+          "heading": "Example: Two Clusters",
+          "level": 2,
+          "line": 198
+        },
+        {
+          "heading": "Template Comparison Table",
+          "level": 2,
+          "line": 231
+        },
+        {
+          "heading": "Choosing a Template",
+          "level": 2,
+          "line": 244
+        },
+        {
+          "heading": "When to Customize",
+          "level": 2,
+          "line": 258
+        },
+        {
+          "heading": "Quick Start: Expanse",
+          "level": 2,
+          "line": 271
+        },
+        {
+          "heading": "File Locations Summary",
+          "level": 2,
+          "line": 297
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "server/templates/orca_expanse.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 43,
+      "nonEmptyLines": 36,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/templates/orca_generic.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 72,
+      "nonEmptyLines": 59,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "server/templates/orca_shaheen.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 44,
+      "nonEmptyLines": 37,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

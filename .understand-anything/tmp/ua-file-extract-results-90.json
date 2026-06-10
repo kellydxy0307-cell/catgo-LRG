@@ -1,0 +1,3097 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/lib/phase-diagram/PhaseDiagramInfoPane.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 118,
+      "nonEmptyLines": 112,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/phase-diagram/PhaseDiagramStats.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 304,
+      "nonEmptyLines": 285,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/phase-diagram/StructurePopup.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 120,
+      "nonEmptyLines": 111,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/phase-diagram/thermodynamics.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1168,
+      "nonEmptyLines": 1038,
+      "functions": [
+        {
+          "name": "process_pd_entries",
+          "startLine": 16,
+          "endLine": 40,
+          "params": [
+            "entries"
+          ]
+        },
+        {
+          "name": "get_corrected_energy_per_atom",
+          "startLine": 42,
+          "endLine": 50,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "compute_e_form_per_atom",
+          "startLine": 52,
+          "endLine": 74,
+          "params": [
+            "entry",
+            "el_refs"
+          ]
+        },
+        {
+          "name": "find_lowest_energy_unary_refs",
+          "startLine": 76,
+          "endLine": 107,
+          "params": [
+            "entries"
+          ]
+        },
+        {
+          "name": "get_phase_diagram_stats",
+          "startLine": 109,
+          "endLine": 184,
+          "params": [
+            "processed_entries",
+            "elements",
+            "max_arity"
+          ]
+        },
+        {
+          "name": "subtract",
+          "startLine": 190,
+          "endLine": 192,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "cross",
+          "startLine": 194,
+          "endLine": 196,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "norm",
+          "startLine": 198,
+          "endLine": 200,
+          "params": [
+            "a"
+          ]
+        },
+        {
+          "name": "normalize",
+          "startLine": 202,
+          "endLine": 206,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "compute_plane",
+          "startLine": 208,
+          "endLine": 214,
+          "params": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        {
+          "name": "point_plane_signed_distance",
+          "startLine": 216,
+          "endLine": 218,
+          "params": [
+            "plane",
+            "p"
+          ]
+        },
+        {
+          "name": "compute_centroid",
+          "startLine": 220,
+          "endLine": 222,
+          "params": [
+            "a",
+            "b",
+            "c"
+          ]
+        },
+        {
+          "name": "distance_point_to_line",
+          "startLine": 224,
+          "endLine": 231,
+          "params": [
+            "a",
+            "b",
+            "p"
+          ]
+        },
+        {
+          "name": "choose_initial_tetrahedron",
+          "startLine": 233,
+          "endLine": 268,
+          "params": [
+            "points"
+          ]
+        },
+        {
+          "name": "make_face",
+          "startLine": 270,
+          "endLine": 286,
+          "params": [
+            "points",
+            "a",
+            "b",
+            "c",
+            "interior_point"
+          ]
+        },
+        {
+          "name": "assign_outside_points",
+          "startLine": 288,
+          "endLine": 298,
+          "params": [
+            "face",
+            "points",
+            "candidate_indices"
+          ]
+        },
+        {
+          "name": "collect_candidate_points",
+          "startLine": 300,
+          "endLine": 304,
+          "params": [
+            "faces"
+          ]
+        },
+        {
+          "name": "farthest_point_for_face",
+          "startLine": 306,
+          "endLine": 321,
+          "params": [
+            "points",
+            "face"
+          ]
+        },
+        {
+          "name": "build_horizon",
+          "startLine": 323,
+          "endLine": 344,
+          "params": [
+            "faces",
+            "visible_face_indices"
+          ]
+        },
+        {
+          "name": "compute_quickhull_triangles",
+          "startLine": 346,
+          "endLine": 427,
+          "params": [
+            "points"
+          ]
+        },
+        {
+          "name": "compute_lower_hull_triangles",
+          "startLine": 429,
+          "endLine": 432,
+          "params": [
+            "points"
+          ]
+        },
+        {
+          "name": "build_lower_hull_model",
+          "startLine": 453,
+          "endLine": 494,
+          "params": [
+            "faces"
+          ]
+        },
+        {
+          "name": "point_in_triangle_xy",
+          "startLine": 496,
+          "endLine": 504,
+          "params": [
+            "model",
+            "x",
+            "y"
+          ]
+        },
+        {
+          "name": "e_hull_at_xy",
+          "startLine": 506,
+          "endLine": 517,
+          "params": [
+            "models",
+            "x",
+            "y"
+          ]
+        },
+        {
+          "name": "compute_e_above_hull_for_points",
+          "startLine": 519,
+          "endLine": 528,
+          "params": [
+            "points",
+            "models"
+          ]
+        },
+        {
+          "name": "subtract_4d",
+          "startLine": 557,
+          "endLine": 559,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "dot_4d",
+          "startLine": 561,
+          "endLine": 563,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "norm_4d",
+          "startLine": 565,
+          "endLine": 567,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "normalize_4d",
+          "startLine": 569,
+          "endLine": 573,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "compute_plane_4d",
+          "startLine": 596,
+          "endLine": 640,
+          "params": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "name": "point_plane_signed_distance_4d",
+          "startLine": 642,
+          "endLine": 644,
+          "params": [
+            "plane",
+            "p"
+          ]
+        },
+        {
+          "name": "compute_centroid_4d",
+          "startLine": 646,
+          "endLine": 658,
+          "params": [
+            "p1",
+            "p2",
+            "p3",
+            "p4"
+          ]
+        },
+        {
+          "name": "distance_point_to_hyperplane_4d",
+          "startLine": 660,
+          "endLine": 702,
+          "params": [
+            "p1",
+            "p2",
+            "p3",
+            "point"
+          ]
+        },
+        {
+          "name": "distance_point_to_line_4d",
+          "startLine": 705,
+          "endLine": 722,
+          "params": [
+            "a",
+            "b",
+            "p"
+          ]
+        },
+        {
+          "name": "choose_initial_4_simplex",
+          "startLine": 724,
+          "endLine": 815,
+          "params": [
+            "points"
+          ]
+        },
+        {
+          "name": "make_face_4d",
+          "startLine": 817,
+          "endLine": 839,
+          "params": [
+            "points",
+            "a",
+            "b",
+            "c",
+            "d",
+            "interior_point"
+          ]
+        },
+        {
+          "name": "assign_outside_points_4d",
+          "startLine": 841,
+          "endLine": 851,
+          "params": [
+            "face",
+            "points",
+            "candidate_indices"
+          ]
+        },
+        {
+          "name": "collect_candidate_points_4d",
+          "startLine": 853,
+          "endLine": 859,
+          "params": [
+            "faces"
+          ]
+        },
+        {
+          "name": "farthest_point_for_face_4d",
+          "startLine": 861,
+          "endLine": 876,
+          "params": [
+            "points",
+            "face"
+          ]
+        },
+        {
+          "name": "build_horizon_4d",
+          "startLine": 878,
+          "endLine": 918,
+          "params": [
+            "faces",
+            "visible_face_indices"
+          ]
+        },
+        {
+          "name": "compute_quickhull_4d",
+          "startLine": 920,
+          "endLine": 1035,
+          "params": [
+            "points"
+          ]
+        },
+        {
+          "name": "compute_lower_hull_4d",
+          "startLine": 1037,
+          "endLine": 1041,
+          "params": [
+            "points"
+          ]
+        },
+        {
+          "name": "point_in_tetrahedron_3d",
+          "startLine": 1044,
+          "endLine": 1084,
+          "params": [
+            "p0",
+            "p1",
+            "p2",
+            "p3",
+            "point"
+          ]
+        },
+        {
+          "name": "build_tetrahedron_models",
+          "startLine": 1100,
+          "endLine": 1125,
+          "params": [
+            "hull_tetrahedra"
+          ]
+        },
+        {
+          "name": "compute_e_above_hull_4d",
+          "startLine": 1128,
+          "endLine": 1168,
+          "params": [
+            "points",
+            "hull_tetrahedra"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "process_pd_entries",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "compute_e_form_per_atom",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "find_lowest_energy_unary_refs",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "get_phase_diagram_stats",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "compute_quickhull_triangles",
+          "line": 346,
+          "isDefault": false
+        },
+        {
+          "name": "compute_lower_hull_triangles",
+          "line": 429,
+          "isDefault": false
+        },
+        {
+          "name": "build_lower_hull_model",
+          "line": 453,
+          "isDefault": false
+        },
+        {
+          "name": "e_hull_at_xy",
+          "line": 506,
+          "isDefault": false
+        },
+        {
+          "name": "compute_e_above_hull_for_points",
+          "line": 519,
+          "isDefault": false
+        },
+        {
+          "name": "compute_quickhull_4d",
+          "line": 920,
+          "isDefault": false
+        },
+        {
+          "name": "compute_lower_hull_4d",
+          "line": 1037,
+          "isDefault": false
+        },
+        {
+          "name": "compute_e_above_hull_4d",
+          "line": 1128,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "process_pd_entries",
+          "callee": "entries.filter",
+          "lineNumber": 18
+        },
+        {
+          "caller": "process_pd_entries",
+          "callee": "entries.filter",
+          "lineNumber": 23
+        },
+        {
+          "caller": "process_pd_entries",
+          "callee": "Array.from(\r\n    new Set(entries.flatMap((entry) => Object.keys(entry.composition))),\r\n  ).sort",
+          "lineNumber": 29
+        },
+        {
+          "caller": "process_pd_entries",
+          "callee": "Array.from",
+          "lineNumber": 29
+        },
+        {
+          "caller": "process_pd_entries",
+          "callee": "entries.flatMap",
+          "lineNumber": 30
+        },
+        {
+          "caller": "process_pd_entries",
+          "callee": "Object.keys",
+          "lineNumber": 30
+        },
+        {
+          "caller": "process_pd_entries",
+          "callee": "Object.fromEntries",
+          "lineNumber": 33
+        },
+        {
+          "caller": "process_pd_entries",
+          "callee": "stable_entries\r\n      .filter(is_unary_entry)\r\n      .map",
+          "lineNumber": 34
+        },
+        {
+          "caller": "process_pd_entries",
+          "callee": "stable_entries\r\n      .filter",
+          "lineNumber": 34
+        },
+        {
+          "caller": "process_pd_entries",
+          "callee": "Object.keys",
+          "lineNumber": 36
+        },
+        {
+          "caller": "get_corrected_energy_per_atom",
+          "callee": "Object.values(entry.composition).reduce",
+          "lineNumber": 43
+        },
+        {
+          "caller": "get_corrected_energy_per_atom",
+          "callee": "Object.values",
+          "lineNumber": 43
+        },
+        {
+          "caller": "compute_e_form_per_atom",
+          "callee": "Object.values(entry.composition).reduce",
+          "lineNumber": 56
+        },
+        {
+          "caller": "compute_e_form_per_atom",
+          "callee": "Object.values",
+          "lineNumber": 56
+        },
+        {
+          "caller": "compute_e_form_per_atom",
+          "callee": "get_corrected_energy_per_atom",
+          "lineNumber": 58
+        },
+        {
+          "caller": "compute_e_form_per_atom",
+          "callee": "Object.entries",
+          "lineNumber": 63
+        },
+        {
+          "caller": "compute_e_form_per_atom",
+          "callee": "Object.values(ref.composition).reduce",
+          "lineNumber": 66
+        },
+        {
+          "caller": "compute_e_form_per_atom",
+          "callee": "Object.values",
+          "lineNumber": 66
+        },
+        {
+          "caller": "compute_e_form_per_atom",
+          "callee": "get_corrected_energy_per_atom",
+          "lineNumber": 67
+        },
+        {
+          "caller": "compute_e_form_per_atom",
+          "callee": "Math.max",
+          "lineNumber": 70
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "is_unary_entry",
+          "lineNumber": 81
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "Object.keys(entry.composition).find",
+          "lineNumber": 82
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "Object.keys",
+          "lineNumber": 82
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "Object.values(entry.composition).reduce",
+          "lineNumber": 86
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "Object.values",
+          "lineNumber": 86
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "get_corrected_energy_per_atom",
+          "lineNumber": 87
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "Math.max",
+          "lineNumber": 90
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "Object.values(current.composition).reduce",
+          "lineNumber": 95
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "Object.values",
+          "lineNumber": 95
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "get_corrected_energy_per_atom",
+          "lineNumber": 99
+        },
+        {
+          "caller": "find_lowest_energy_unary_refs",
+          "callee": "Math.max",
+          "lineNumber": 102
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "(max_arity === 4 ? [1, 2, 3, 4] : [1, 2, 3]).map",
+          "lineNumber": 128
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "processed_entries.filter",
+          "lineNumber": 129
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "Object.keys(entry.composition).filter",
+          "lineNumber": 130
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "Object.keys",
+          "lineNumber": 130
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "processed_entries.filter",
+          "lineNumber": 143
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "processed_entries\r\n    .map((e) => e.e_form_per_atom ?? e.energy_per_atom)\r\n    .filter",
+          "lineNumber": 149
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "processed_entries\r\n    .map",
+          "lineNumber": 149
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "Number.isFinite",
+          "lineNumber": 151
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "Math.min",
+          "lineNumber": 155
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "Math.max",
+          "lineNumber": 156
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "energies.reduce",
+          "lineNumber": 157
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "processed_entries\r\n    .map((e) => e.e_above_hull)\r\n    .filter",
+          "lineNumber": 161
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "processed_entries\r\n    .map",
+          "lineNumber": 161
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "Math.max",
+          "lineNumber": 166
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "hull_distances.reduce",
+          "lineNumber": 167
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "sort_by_electronegativity([...elements]).join",
+          "lineNumber": 182
+        },
+        {
+          "caller": "get_phase_diagram_stats",
+          "callee": "sort_by_electronegativity",
+          "lineNumber": 182
+        },
+        {
+          "caller": "norm",
+          "callee": "Math.sqrt",
+          "lineNumber": 199
+        },
+        {
+          "caller": "normalize",
+          "callee": "norm",
+          "lineNumber": 203
+        },
+        {
+          "caller": "compute_plane",
+          "callee": "subtract",
+          "lineNumber": 209
+        },
+        {
+          "caller": "compute_plane",
+          "callee": "subtract",
+          "lineNumber": 210
+        },
+        {
+          "caller": "compute_plane",
+          "callee": "normalize",
+          "lineNumber": 211
+        },
+        {
+          "caller": "compute_plane",
+          "callee": "cross",
+          "lineNumber": 211
+        },
+        {
+          "caller": "distance_point_to_line",
+          "callee": "subtract",
+          "lineNumber": 225
+        },
+        {
+          "caller": "distance_point_to_line",
+          "callee": "subtract",
+          "lineNumber": 226
+        },
+        {
+          "caller": "distance_point_to_line",
+          "callee": "cross",
+          "lineNumber": 227
+        },
+        {
+          "caller": "distance_point_to_line",
+          "callee": "norm",
+          "lineNumber": 228
+        },
+        {
+          "caller": "distance_point_to_line",
+          "callee": "norm",
+          "lineNumber": 230
+        },
+        {
+          "caller": "choose_initial_tetrahedron",
+          "callee": "distance_point_to_line",
+          "lineNumber": 248
+        },
+        {
+          "caller": "choose_initial_tetrahedron",
+          "callee": "compute_plane",
+          "lineNumber": 255
+        },
+        {
+          "caller": "choose_initial_tetrahedron",
+          "callee": "Math.abs",
+          "lineNumber": 260
+        },
+        {
+          "caller": "choose_initial_tetrahedron",
+          "callee": "point_plane_signed_distance",
+          "lineNumber": 260
+        },
+        {
+          "caller": "make_face",
+          "callee": "compute_plane",
+          "lineNumber": 277
+        },
+        {
+          "caller": "make_face",
+          "callee": "compute_centroid",
+          "lineNumber": 278
+        },
+        {
+          "caller": "make_face",
+          "callee": "point_plane_signed_distance",
+          "lineNumber": 279
+        },
+        {
+          "caller": "make_face",
+          "callee": "compute_plane",
+          "lineNumber": 281
+        },
+        {
+          "caller": "make_face",
+          "callee": "compute_centroid",
+          "lineNumber": 282
+        },
+        {
+          "caller": "assign_outside_points",
+          "callee": "face.outside_points.clear",
+          "lineNumber": 293
+        },
+        {
+          "caller": "assign_outside_points",
+          "callee": "point_plane_signed_distance",
+          "lineNumber": 295
+        },
+        {
+          "caller": "assign_outside_points",
+          "callee": "face.outside_points.add",
+          "lineNumber": 296
+        },
+        {
+          "caller": "collect_candidate_points",
+          "callee": "set.add",
+          "lineNumber": 302
+        },
+        {
+          "caller": "collect_candidate_points",
+          "callee": "Array.from",
+          "lineNumber": 303
+        },
+        {
+          "caller": "farthest_point_for_face",
+          "callee": "point_plane_signed_distance",
+          "lineNumber": 313
+        },
+        {
+          "caller": "build_horizon",
+          "callee": "edge_count.has",
+          "lineNumber": 334
+        },
+        {
+          "caller": "build_horizon",
+          "callee": "edge_count.set",
+          "lineNumber": 334
+        },
+        {
+          "caller": "build_horizon",
+          "callee": "edge_count.set",
+          "lineNumber": 335
+        },
+        {
+          "caller": "build_horizon",
+          "callee": "edge_count.values",
+          "lineNumber": 339
+        },
+        {
+          "caller": "build_horizon",
+          "callee": "Number.isNaN",
+          "lineNumber": 340
+        },
+        {
+          "caller": "build_horizon",
+          "callee": "horizon.push",
+          "lineNumber": 341
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "choose_initial_tetrahedron",
+          "lineNumber": 348
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "make_face",
+          "lineNumber": 357
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "make_face",
+          "lineNumber": 358
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "make_face",
+          "lineNumber": 359
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "make_face",
+          "lineNumber": 360
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "all_indices.push",
+          "lineNumber": 365
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "assign_outside_points",
+          "lineNumber": 367
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "farthest_point_for_face",
+          "lineNumber": 375
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "point_plane_signed_distance",
+          "lineNumber": 387
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "visible_face_indices.add",
+          "lineNumber": 388
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "build_horizon",
+          "lineNumber": 390
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "Array.from(visible_face_indices).sort",
+          "lineNumber": 391
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "Array.from",
+          "lineNumber": 391
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "collect_candidate_points",
+          "lineNumber": 392
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "visible_faces.map",
+          "lineNumber": 393
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "faces.splice",
+          "lineNumber": 395
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "make_face",
+          "lineNumber": 398
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "new_faces.push",
+          "lineNumber": 399
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "face.outside_points.clear",
+          "lineNumber": 401
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "point_plane_signed_distance",
+          "lineNumber": 407
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "best_face.outside_points.add",
+          "lineNumber": 413
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "faces.push",
+          "lineNumber": 415
+        },
+        {
+          "caller": "compute_quickhull_triangles",
+          "callee": "faces.map",
+          "lineNumber": 417
+        },
+        {
+          "caller": "compute_lower_hull_triangles",
+          "callee": "compute_quickhull_triangles",
+          "lineNumber": 430
+        },
+        {
+          "caller": "compute_lower_hull_triangles",
+          "callee": "all_faces.filter",
+          "lineNumber": 431
+        },
+        {
+          "caller": "build_lower_hull_model",
+          "callee": "faces.map",
+          "lineNumber": 456
+        },
+        {
+          "caller": "build_lower_hull_model",
+          "callee": "(() => {\r\n      const x1 = p1.x, y1 = p1.y, z1 = p1.z\r\n      const x2 = p2.x, y2 = p2.y, z2 = p2.z\r\n      const x3 = p3.x, y3 = p3.y, z3 = p3.z\r\n      const det = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)\r\n      if (Math.abs(det) < 1e-12) return { a: 0, b: 0, c: (z1 + z2 + z3) / 3 }\r\n      const a = (z1 * (y2 - y3) + z2 * (y3 - y1) + z3 * (y1 - y2)) / det\r\n      const b = (z1 * (x3 - x2) + z2 * (x1 - x3) + z3 * (x2 - x1)) / det\r\n      const c =\r\n        (z1 * (x2 * y3 - x3 * y2) + z2 * (x3 * y1 - x1 * y3) + z3 * (x1 * y2 - x2 * y1)) /\r\n        det\r\n      return { a, b, c }\r\n    })",
+          "lineNumber": 458
+        },
+        {
+          "caller": "build_lower_hull_model",
+          "callee": "Math.abs",
+          "lineNumber": 463
+        },
+        {
+          "caller": "build_lower_hull_model",
+          "callee": "[p1.x, p2.x, p3.x].sort",
+          "lineNumber": 471
+        },
+        {
+          "caller": "build_lower_hull_model",
+          "callee": "[p1.y, p2.y, p3.y].sort",
+          "lineNumber": 472
+        },
+        {
+          "caller": "point_in_triangle_xy",
+          "callee": "Math.abs",
+          "lineNumber": 498
+        },
+        {
+          "caller": "e_hull_at_xy",
+          "callee": "point_in_triangle_xy",
+          "lineNumber": 512
+        },
+        {
+          "caller": "e_hull_at_xy",
+          "callee": "Math.min",
+          "lineNumber": 514
+        },
+        {
+          "caller": "compute_e_above_hull_for_points",
+          "callee": "points.map",
+          "lineNumber": 523
+        },
+        {
+          "caller": "compute_e_above_hull_for_points",
+          "callee": "e_hull_at_xy",
+          "lineNumber": 524
+        },
+        {
+          "caller": "norm_4d",
+          "callee": "Math.sqrt",
+          "lineNumber": 566
+        },
+        {
+          "caller": "normalize_4d",
+          "callee": "norm_4d",
+          "lineNumber": 570
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "subtract_4d",
+          "lineNumber": 598
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "subtract_4d",
+          "lineNumber": 599
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "subtract_4d",
+          "lineNumber": 600
+        },
+        {
+          "caller": "det_submatrix",
+          "callee": "[0, 1, 2, 3].filter",
+          "lineNumber": 611
+        },
+        {
+          "caller": "det_submatrix",
+          "callee": "math.det_3x3",
+          "lineNumber": 617
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "[0, 1, 2, 3].map",
+          "lineNumber": 623
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "det_submatrix",
+          "lineNumber": 624
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "normalize_4d",
+          "lineNumber": 628
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "Math.abs",
+          "lineNumber": 631
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "Math.abs",
+          "lineNumber": 631
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "Math.abs",
+          "lineNumber": 631
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "Math.abs",
+          "lineNumber": 632
+        },
+        {
+          "caller": "compute_plane_4d",
+          "callee": "dot_4d",
+          "lineNumber": 637
+        },
+        {
+          "caller": "point_plane_signed_distance_4d",
+          "callee": "dot_4d",
+          "lineNumber": 643
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "subtract_4d",
+          "lineNumber": 667
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "subtract_4d",
+          "lineNumber": 668
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "subtract_4d",
+          "lineNumber": 669
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "dot_4d",
+          "lineNumber": 673
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "dot_4d",
+          "lineNumber": 674
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "dot_4d",
+          "lineNumber": 675
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "dot_4d",
+          "lineNumber": 679
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "dot_4d",
+          "lineNumber": 680
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "Math.abs",
+          "lineNumber": 684
+        },
+        {
+          "caller": "distance_point_to_hyperplane_4d",
+          "callee": "Math.sqrt",
+          "lineNumber": 701
+        },
+        {
+          "caller": "distance_point_to_line_4d",
+          "callee": "subtract_4d",
+          "lineNumber": 706
+        },
+        {
+          "caller": "distance_point_to_line_4d",
+          "callee": "subtract_4d",
+          "lineNumber": 707
+        },
+        {
+          "caller": "distance_point_to_line_4d",
+          "callee": "dot_4d",
+          "lineNumber": 709
+        },
+        {
+          "caller": "distance_point_to_line_4d",
+          "callee": "norm_4d",
+          "lineNumber": 710
+        },
+        {
+          "caller": "distance_point_to_line_4d",
+          "callee": "dot_4d",
+          "lineNumber": 713
+        },
+        {
+          "caller": "distance_point_to_line_4d",
+          "callee": "norm_4d",
+          "lineNumber": 721
+        },
+        {
+          "caller": "distance_point_to_line_4d",
+          "callee": "subtract_4d",
+          "lineNumber": 721
+        },
+        {
+          "caller": "choose_initial_4_simplex",
+          "callee": "Math.min",
+          "lineNumber": 731
+        },
+        {
+          "caller": "choose_initial_4_simplex",
+          "callee": "points.map",
+          "lineNumber": 733
+        },
+        {
+          "caller": "choose_initial_4_simplex",
+          "callee": "Array.from",
+          "lineNumber": 734
+        },
+        {
+          "caller": "choose_initial_4_simplex",
+          "callee": "Math.floor",
+          "lineNumber": 735
+        },
+        {
+          "caller": "choose_initial_4_simplex",
+          "callee": "distance_point_to_line_4d",
+          "lineNumber": 762
+        },
+        {
+          "caller": "choose_initial_4_simplex",
+          "callee": "distance_point_to_hyperplane_4d",
+          "lineNumber": 779
+        },
+        {
+          "caller": "choose_initial_4_simplex",
+          "callee": "compute_plane_4d",
+          "lineNumber": 793
+        },
+        {
+          "caller": "choose_initial_4_simplex",
+          "callee": "Math.abs",
+          "lineNumber": 806
+        },
+        {
+          "caller": "choose_initial_4_simplex",
+          "callee": "point_plane_signed_distance_4d",
+          "lineNumber": 806
+        },
+        {
+          "caller": "make_face_4d",
+          "callee": "compute_plane_4d",
+          "lineNumber": 825
+        },
+        {
+          "caller": "make_face_4d",
+          "callee": "compute_centroid_4d",
+          "lineNumber": 826
+        },
+        {
+          "caller": "make_face_4d",
+          "callee": "point_plane_signed_distance_4d",
+          "lineNumber": 828
+        },
+        {
+          "caller": "make_face_4d",
+          "callee": "compute_plane_4d",
+          "lineNumber": 833
+        },
+        {
+          "caller": "make_face_4d",
+          "callee": "compute_centroid_4d",
+          "lineNumber": 834
+        },
+        {
+          "caller": "assign_outside_points_4d",
+          "callee": "face.outside_points.clear",
+          "lineNumber": 846
+        },
+        {
+          "caller": "assign_outside_points_4d",
+          "callee": "point_plane_signed_distance_4d",
+          "lineNumber": 848
+        },
+        {
+          "caller": "assign_outside_points_4d",
+          "callee": "face.outside_points.add",
+          "lineNumber": 849
+        },
+        {
+          "caller": "collect_candidate_points_4d",
+          "callee": "set.add",
+          "lineNumber": 856
+        },
+        {
+          "caller": "collect_candidate_points_4d",
+          "callee": "Array.from",
+          "lineNumber": 858
+        },
+        {
+          "caller": "farthest_point_for_face_4d",
+          "callee": "point_plane_signed_distance_4d",
+          "lineNumber": 868
+        },
+        {
+          "caller": "build_horizon_4d",
+          "callee": "ridge.slice().sort",
+          "lineNumber": 898
+        },
+        {
+          "caller": "build_horizon_4d",
+          "callee": "ridge.slice",
+          "lineNumber": 898
+        },
+        {
+          "caller": "build_horizon_4d",
+          "callee": "sorted.join",
+          "lineNumber": 899
+        },
+        {
+          "caller": "build_horizon_4d",
+          "callee": "ridge_count.has",
+          "lineNumber": 901
+        },
+        {
+          "caller": "build_horizon_4d",
+          "callee": "ridge_count.set",
+          "lineNumber": 902
+        },
+        {
+          "caller": "build_horizon_4d",
+          "callee": "ridge_count.set",
+          "lineNumber": 905
+        },
+        {
+          "caller": "build_horizon_4d",
+          "callee": "ridge_count.values",
+          "lineNumber": 911
+        },
+        {
+          "caller": "build_horizon_4d",
+          "callee": "Number.isNaN",
+          "lineNumber": 912
+        },
+        {
+          "caller": "build_horizon_4d",
+          "callee": "horizon.push",
+          "lineNumber": 913
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "choose_initial_4_simplex",
+          "lineNumber": 923
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "make_face_4d",
+          "lineNumber": 938
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "make_face_4d",
+          "lineNumber": 939
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "make_face_4d",
+          "lineNumber": 940
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "make_face_4d",
+          "lineNumber": 941
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "make_face_4d",
+          "lineNumber": 942
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "all_indices.push",
+          "lineNumber": 948
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "assign_outside_points_4d",
+          "lineNumber": 952
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "farthest_point_for_face_4d",
+          "lineNumber": 965
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "point_plane_signed_distance_4d",
+          "lineNumber": 980
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "visible_face_indices.add",
+          "lineNumber": 981
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "build_horizon_4d",
+          "lineNumber": 984
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "Array.from(visible_face_indices).sort",
+          "lineNumber": 985
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "Array.from",
+          "lineNumber": 985
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "collect_candidate_points_4d",
+          "lineNumber": 986
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "visible_faces.map",
+          "lineNumber": 987
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "faces.splice",
+          "lineNumber": 991
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "make_face_4d",
+          "lineNumber": 996
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "new_faces.push",
+          "lineNumber": 997
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "face.outside_points.clear",
+          "lineNumber": 1000
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "point_plane_signed_distance_4d",
+          "lineNumber": 1009
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "best_face.outside_points.add",
+          "lineNumber": 1016
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "faces.push",
+          "lineNumber": 1019
+        },
+        {
+          "caller": "compute_quickhull_4d",
+          "callee": "faces.map",
+          "lineNumber": 1022
+        },
+        {
+          "caller": "compute_lower_hull_4d",
+          "callee": "compute_quickhull_4d",
+          "lineNumber": 1038
+        },
+        {
+          "caller": "compute_lower_hull_4d",
+          "callee": "all_faces.filter",
+          "lineNumber": 1040
+        },
+        {
+          "caller": "point_in_tetrahedron_3d",
+          "callee": "math.det_4x4",
+          "lineNumber": 1063
+        },
+        {
+          "caller": "point_in_tetrahedron_3d",
+          "callee": "Math.abs",
+          "lineNumber": 1064
+        },
+        {
+          "caller": "point_in_tetrahedron_3d",
+          "callee": "matrix.map",
+          "lineNumber": 1071
+        },
+        {
+          "caller": "point_in_tetrahedron_3d",
+          "callee": "math.det_4x4",
+          "lineNumber": 1075
+        },
+        {
+          "caller": "point_in_tetrahedron_3d",
+          "callee": "bary.every",
+          "lineNumber": 1080
+        },
+        {
+          "caller": "point_in_tetrahedron_3d",
+          "callee": "Math.abs",
+          "lineNumber": 1081
+        },
+        {
+          "caller": "point_in_tetrahedron_3d",
+          "callee": "bary.reduce",
+          "lineNumber": 1081
+        },
+        {
+          "caller": "build_tetrahedron_models",
+          "callee": "hull_tetrahedra.map",
+          "lineNumber": 1103
+        },
+        {
+          "caller": "build_tetrahedron_models",
+          "callee": "Math.min",
+          "lineNumber": 1117
+        },
+        {
+          "caller": "build_tetrahedron_models",
+          "callee": "Math.max",
+          "lineNumber": 1118
+        },
+        {
+          "caller": "build_tetrahedron_models",
+          "callee": "Math.min",
+          "lineNumber": 1119
+        },
+        {
+          "caller": "build_tetrahedron_models",
+          "callee": "Math.max",
+          "lineNumber": 1120
+        },
+        {
+          "caller": "build_tetrahedron_models",
+          "callee": "Math.min",
+          "lineNumber": 1121
+        },
+        {
+          "caller": "build_tetrahedron_models",
+          "callee": "Math.max",
+          "lineNumber": 1122
+        },
+        {
+          "caller": "compute_e_above_hull_4d",
+          "callee": "build_tetrahedron_models",
+          "lineNumber": 1133
+        },
+        {
+          "caller": "compute_e_above_hull_4d",
+          "callee": "points.map",
+          "lineNumber": 1135
+        },
+        {
+          "caller": "compute_e_above_hull_4d",
+          "callee": "point_in_tetrahedron_3d",
+          "lineNumber": 1147
+        },
+        {
+          "caller": "compute_e_above_hull_4d",
+          "callee": "Math.min",
+          "lineNumber": 1160
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 12,
+        "functionCount": 45,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/phase-diagram/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 156,
+      "nonEmptyLines": 138,
+      "functions": [
+        {
+          "name": "get_arity",
+          "startLine": 143,
+          "endLine": 145,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_unary_entry",
+          "startLine": 147,
+          "endLine": 147,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_binary_entry",
+          "startLine": 148,
+          "endLine": 148,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_ternary_entry",
+          "startLine": 149,
+          "endLine": 149,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_quaternary_entry",
+          "startLine": 150,
+          "endLine": 150,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_quinary_entry",
+          "startLine": 151,
+          "endLine": 151,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_senary_entry",
+          "startLine": 152,
+          "endLine": 152,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_septenary_entry",
+          "startLine": 153,
+          "endLine": 153,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_octonary_entry",
+          "startLine": 154,
+          "endLine": 154,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_nonary_entry",
+          "startLine": 155,
+          "endLine": 155,
+          "params": [
+            "entry"
+          ]
+        },
+        {
+          "name": "is_denary_entry",
+          "startLine": 156,
+          "endLine": 156,
+          "params": [
+            "entry"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_arity",
+          "line": 143,
+          "isDefault": false
+        },
+        {
+          "name": "is_unary_entry",
+          "line": 147,
+          "isDefault": false
+        },
+        {
+          "name": "is_binary_entry",
+          "line": 148,
+          "isDefault": false
+        },
+        {
+          "name": "is_ternary_entry",
+          "line": 149,
+          "isDefault": false
+        },
+        {
+          "name": "is_quaternary_entry",
+          "line": 150,
+          "isDefault": false
+        },
+        {
+          "name": "is_quinary_entry",
+          "line": 151,
+          "isDefault": false
+        },
+        {
+          "name": "is_senary_entry",
+          "line": 152,
+          "isDefault": false
+        },
+        {
+          "name": "is_septenary_entry",
+          "line": 153,
+          "isDefault": false
+        },
+        {
+          "name": "is_octonary_entry",
+          "line": 154,
+          "isDefault": false
+        },
+        {
+          "name": "is_nonary_entry",
+          "line": 155,
+          "isDefault": false
+        },
+        {
+          "name": "is_denary_entry",
+          "line": 156,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_arity",
+          "callee": "Object.values(entry.composition).filter",
+          "lineNumber": 144
+        },
+        {
+          "caller": "get_arity",
+          "callee": "Object.values",
+          "lineNumber": 144
+        },
+        {
+          "caller": "is_unary_entry",
+          "callee": "get_arity",
+          "lineNumber": 147
+        },
+        {
+          "caller": "is_binary_entry",
+          "callee": "get_arity",
+          "lineNumber": 148
+        },
+        {
+          "caller": "is_ternary_entry",
+          "callee": "get_arity",
+          "lineNumber": 149
+        },
+        {
+          "caller": "is_quaternary_entry",
+          "callee": "get_arity",
+          "lineNumber": 150
+        },
+        {
+          "caller": "is_quinary_entry",
+          "callee": "get_arity",
+          "lineNumber": 151
+        },
+        {
+          "caller": "is_senary_entry",
+          "callee": "get_arity",
+          "lineNumber": 152
+        },
+        {
+          "caller": "is_septenary_entry",
+          "callee": "get_arity",
+          "lineNumber": 153
+        },
+        {
+          "caller": "is_octonary_entry",
+          "callee": "get_arity",
+          "lineNumber": 154
+        },
+        {
+          "caller": "is_nonary_entry",
+          "callee": "get_arity",
+          "lineNumber": 155
+        },
+        {
+          "caller": "is_denary_entry",
+          "callee": "get_arity",
+          "lineNumber": 156
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 11,
+        "functionCount": 11,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/plot/BarPlot.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 1136,
+      "nonEmptyLines": 1080,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/BarPlotControls.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 59,
+      "nonEmptyLines": 57,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/ColorBar.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 524,
+      "nonEmptyLines": 476,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/ColorScaleSelect.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 54,
+      "nonEmptyLines": 52,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/data-transform.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 50,
+      "nonEmptyLines": 47,
+      "functions": [
+        {
+          "name": "extract_series_color",
+          "startLine": 7,
+          "endLine": 13,
+          "params": [
+            "series_data"
+          ]
+        },
+        {
+          "name": "prepare_legend_data",
+          "startLine": 16,
+          "endLine": 32,
+          "params": [
+            "series"
+          ]
+        },
+        {
+          "name": "create_data_points",
+          "startLine": 35,
+          "endLine": 50,
+          "params": [
+            "series",
+            "filter_fn"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "extract_series_color",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "prepare_legend_data",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "create_data_points",
+          "line": 35,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "extract_series_color",
+          "callee": "Array.isArray",
+          "lineNumber": 9
+        },
+        {
+          "caller": "prepare_legend_data",
+          "callee": "series.map",
+          "lineNumber": 22
+        },
+        {
+          "caller": "prepare_legend_data",
+          "callee": "Array.isArray",
+          "lineNumber": 27
+        },
+        {
+          "caller": "prepare_legend_data",
+          "callee": "extract_series_color",
+          "lineNumber": 30
+        },
+        {
+          "caller": "create_data_points",
+          "callee": "series\r\n    .filter(filter_fn || ((srs) => srs.visible ?? true))\r\n    .flatMap",
+          "lineNumber": 39
+        },
+        {
+          "caller": "create_data_points",
+          "callee": "series\r\n    .filter",
+          "lineNumber": 39
+        },
+        {
+          "caller": "create_data_points",
+          "callee": "Math.min",
+          "lineNumber": 42
+        },
+        {
+          "caller": "create_data_points",
+          "callee": "console.warn",
+          "lineNumber": 44
+        },
+        {
+          "caller": "create_data_points",
+          "callee": "xs.slice(0, length).map",
+          "lineNumber": 48
+        },
+        {
+          "caller": "create_data_points",
+          "callee": "xs.slice",
+          "lineNumber": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/plot/ElementScatter.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 55,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/Histogram.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 907,
+      "nonEmptyLines": 859,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/HistogramControls.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 176,
+      "nonEmptyLines": 170,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 63,
+      "nonEmptyLines": 57,
+      "exports": [
+        {
+          "name": "BarPlot",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "BarPlotControls",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "ColorBar",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "ColorScaleSelect",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "ElementScatter",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "Histogram",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "HistogramControls",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "Line",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "PlotControls",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "PlotLegend",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "ScatterPlot",
+          "line": 24,
+          "isDefault": false
+        },
+        {
+          "name": "ScatterPlotControls",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "ScatterPoint",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "SpacegroupBarPlot",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "line_types",
+          "line": 30,
+          "isDefault": false
+        },
+        {
+          "name": "cells_3x3",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "corner_cells",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "DEFAULT_GRID_STYLE",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "DEFAULT_MARKERS",
+          "line": 63,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 19,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/plot/interactions.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "get_relative_coords",
+          "startLine": 2,
+          "endLine": 11,
+          "params": [
+            "evt"
+          ]
+        },
+        {
+          "name": "is_valid_dimension",
+          "startLine": 14,
+          "endLine": 20,
+          "params": [
+            "val",
+            "min",
+            "max"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_relative_coords",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "is_valid_dimension",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_relative_coords",
+          "callee": "current_target.getBoundingClientRect",
+          "lineNumber": 8
+        },
+        {
+          "caller": "is_valid_dimension",
+          "callee": "isNaN",
+          "lineNumber": 19
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/plot/layout.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 206,
+      "nonEmptyLines": 181,
+      "functions": [
+        {
+          "name": "measure_text_width",
+          "startLine": 10,
+          "endLine": 19,
+          "params": [
+            "text",
+            "font"
+          ]
+        },
+        {
+          "name": "measure_max_tick_width",
+          "startLine": 32,
+          "endLine": 38,
+          "params": [
+            "ticks",
+            "format"
+          ]
+        },
+        {
+          "name": "calc_auto_padding",
+          "startLine": 40,
+          "endLine": 63,
+          "params": [
+            "{\r\n  padding,\r\n  default_padding,\r\n  y_axis = {},\r\n  y2_axis = {},\r\n  label_gap = LABEL_GAP_DEFAULT,\r\n}"
+          ]
+        },
+        {
+          "name": "constrain_tooltip_position",
+          "startLine": 66,
+          "endLine": 82,
+          "params": [
+            "base_x",
+            "base_y",
+            "tooltip_width",
+            "tooltip_height",
+            "chart_width",
+            "chart_height"
+          ]
+        },
+        {
+          "name": "find_best_plot_area",
+          "startLine": 142,
+          "endLine": 206,
+          "params": [
+            "points",
+            "config"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LABEL_GAP_DEFAULT",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "measure_text_width",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "calc_auto_padding",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "constrain_tooltip_position",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "PLACEMENT_ANCHORS",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "PLACEMENT_PRIORITY",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "find_best_plot_area",
+          "line": 142,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "measure_text_width",
+          "callee": "document.createElement",
+          "lineNumber": 13
+        },
+        {
+          "caller": "measure_text_width",
+          "callee": "measurement_canvas.getContext",
+          "lineNumber": 15
+        },
+        {
+          "caller": "measure_text_width",
+          "callee": "ctx.measureText",
+          "lineNumber": 18
+        },
+        {
+          "caller": "measure_max_tick_width",
+          "callee": "Math.max",
+          "lineNumber": 33
+        },
+        {
+          "caller": "measure_max_tick_width",
+          "callee": "ticks.map",
+          "lineNumber": 34
+        },
+        {
+          "caller": "measure_max_tick_width",
+          "callee": "format_value",
+          "lineNumber": 35
+        },
+        {
+          "caller": "measure_max_tick_width",
+          "callee": "measure_text_width",
+          "lineNumber": 36
+        },
+        {
+          "caller": "calc_auto_padding",
+          "callee": "Math.max",
+          "lineNumber": 56
+        },
+        {
+          "caller": "calc_auto_padding",
+          "callee": "measure_max_tick_width",
+          "lineNumber": 56
+        },
+        {
+          "caller": "calc_auto_padding",
+          "callee": "Math.max",
+          "lineNumber": 58
+        },
+        {
+          "caller": "calc_auto_padding",
+          "callee": "measure_max_tick_width",
+          "lineNumber": 60
+        },
+        {
+          "caller": "constrain_tooltip_position",
+          "callee": "Math.max",
+          "lineNumber": 75
+        },
+        {
+          "caller": "constrain_tooltip_position",
+          "callee": "Math.max",
+          "lineNumber": 76
+        },
+        {
+          "caller": "constrain_tooltip_position",
+          "callee": "Math.min",
+          "lineNumber": 79
+        },
+        {
+          "caller": "constrain_tooltip_position",
+          "callee": "Math.max",
+          "lineNumber": 79
+        },
+        {
+          "caller": "constrain_tooltip_position",
+          "callee": "Math.min",
+          "lineNumber": 80
+        },
+        {
+          "caller": "constrain_tooltip_position",
+          "callee": "Math.max",
+          "lineNumber": 80
+        },
+        {
+          "caller": "find_best_plot_area",
+          "callee": "(() => {\r\n      const step = points.length / max_points_for_full_calc\r\n      return Array.from({ length: max_points_for_full_calc }, (_, idx) =>\r\n        points[Math.floor(idx * step)])\r\n    })",
+          "lineNumber": 152
+        },
+        {
+          "caller": "find_best_plot_area",
+          "callee": "Array.from",
+          "lineNumber": 154
+        },
+        {
+          "caller": "find_best_plot_area",
+          "callee": "Math.floor",
+          "lineNumber": 155
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/plot/Line.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 73,
+      "nonEmptyLines": 66,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/PlotControls.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 294,
+      "nonEmptyLines": 280,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/PlotLegend.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 229,
+      "nonEmptyLines": 209,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/scales.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 309,
+      "nonEmptyLines": 276,
+      "functions": [
+        {
+          "name": "create_scale",
+          "startLine": 19,
+          "endLine": 28,
+          "params": [
+            "scale_type",
+            "domain",
+            "range"
+          ]
+        },
+        {
+          "name": "create_time_scale",
+          "startLine": 31,
+          "endLine": 38,
+          "params": [
+            "domain",
+            "range"
+          ]
+        },
+        {
+          "name": "generate_ticks",
+          "startLine": 41,
+          "endLine": 112,
+          "params": [
+            "domain",
+            "scale_type",
+            "ticks_option",
+            "scale_fn",
+            "options"
+          ]
+        },
+        {
+          "name": "calculate_domain",
+          "startLine": 115,
+          "endLine": 125,
+          "params": [
+            "values",
+            "scale_type"
+          ]
+        },
+        {
+          "name": "get_nice_data_range",
+          "startLine": 128,
+          "endLine": 193,
+          "params": [
+            "points",
+            "get_value",
+            "range",
+            "scale_type",
+            "padding_factor",
+            "is_time"
+          ]
+        },
+        {
+          "name": "generate_log_ticks",
+          "startLine": 196,
+          "endLine": 237,
+          "params": [
+            "min",
+            "max",
+            "ticks_option"
+          ]
+        },
+        {
+          "name": "get_tick_label",
+          "startLine": 240,
+          "endLine": 248,
+          "params": [
+            "tick_value",
+            "ticks_option"
+          ]
+        },
+        {
+          "name": "create_color_scale",
+          "startLine": 251,
+          "endLine": 282,
+          "params": [
+            "color_scale_config",
+            "auto_color_range"
+          ]
+        },
+        {
+          "name": "create_size_scale",
+          "startLine": 285,
+          "endLine": 309,
+          "params": [
+            "config",
+            "all_size_values"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "create_scale",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "create_time_scale",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "generate_ticks",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "calculate_domain",
+          "line": 115,
+          "isDefault": false
+        },
+        {
+          "name": "get_nice_data_range",
+          "line": 128,
+          "isDefault": false
+        },
+        {
+          "name": "generate_log_ticks",
+          "line": 196,
+          "isDefault": false
+        },
+        {
+          "name": "get_tick_label",
+          "line": 240,
+          "isDefault": false
+        },
+        {
+          "name": "create_color_scale",
+          "line": 251,
+          "isDefault": false
+        },
+        {
+          "name": "create_size_scale",
+          "line": 285,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "create_scale",
+          "callee": "scaleLog().domain([Math.max(min_val, math.LOG_EPS), max_val]).range",
+          "lineNumber": 26
+        },
+        {
+          "caller": "create_scale",
+          "callee": "scaleLog().domain",
+          "lineNumber": 26
+        },
+        {
+          "caller": "create_scale",
+          "callee": "scaleLog",
+          "lineNumber": 26
+        },
+        {
+          "caller": "create_scale",
+          "callee": "Math.max",
+          "lineNumber": 26
+        },
+        {
+          "caller": "create_scale",
+          "callee": "scaleLinear().domain(domain).range",
+          "lineNumber": 27
+        },
+        {
+          "caller": "create_scale",
+          "callee": "scaleLinear().domain",
+          "lineNumber": 27
+        },
+        {
+          "caller": "create_scale",
+          "callee": "scaleLinear",
+          "lineNumber": 27
+        },
+        {
+          "caller": "create_time_scale",
+          "callee": "scaleTime()\r\n    .domain([new Date(domain[0]), new Date(domain[1])])\r\n    .range",
+          "lineNumber": 35
+        },
+        {
+          "caller": "create_time_scale",
+          "callee": "scaleTime()\r\n    .domain",
+          "lineNumber": 35
+        },
+        {
+          "caller": "create_time_scale",
+          "callee": "scaleTime",
+          "lineNumber": 35
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Array.isArray",
+          "lineNumber": 56
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Math.min",
+          "lineNumber": 57
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Math.max",
+          "lineNumber": 57
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Object.keys(ticks_option)\r\n      .map(Number)\r\n      .filter((val) => Number.isFinite(val) && val >= domain_min && val <= domain_max)\r\n      .sort",
+          "lineNumber": 58
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Object.keys(ticks_option)\r\n      .map(Number)\r\n      .filter",
+          "lineNumber": 58
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Object.keys(ticks_option)\r\n      .map",
+          "lineNumber": 58
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Object.keys",
+          "lineNumber": 58
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Number.isFinite",
+          "lineNumber": 60
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Array.isArray",
+          "lineNumber": 65
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "format?.startsWith",
+          "lineNumber": 68
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "scaleTime().domain",
+          "lineNumber": 69
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "scaleTime",
+          "lineNumber": 69
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Math.ceil",
+          "lineNumber": 74
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Math.abs",
+          "lineNumber": 74
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "time_scale.ticks",
+          "lineNumber": 80
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "ticks.filter((d: Date) => d.getDate() === 1).map",
+          "lineNumber": 84
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "ticks.filter",
+          "lineNumber": 84
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "d.getDate",
+          "lineNumber": 84
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "d.getTime",
+          "lineNumber": 84
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "ticks\r\n          .filter((d: Date) => d.getMonth() === 0 && d.getDate() === 1)\r\n          .map",
+          "lineNumber": 87
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "ticks\r\n          .filter",
+          "lineNumber": 87
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "d.getMonth",
+          "lineNumber": 88
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "d.getDate",
+          "lineNumber": 88
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "d.getTime",
+          "lineNumber": 89
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "ticks.map",
+          "lineNumber": 92
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "d.getTime",
+          "lineNumber": 92
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "generate_log_ticks",
+          "lineNumber": 96
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Math.abs",
+          "lineNumber": 100
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "Math.ceil",
+          "lineNumber": 101
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "range",
+          "lineNumber": 102
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "scale_fn.ticks",
+          "lineNumber": 110
+        },
+        {
+          "caller": "generate_ticks",
+          "callee": "ticks.map",
+          "lineNumber": 111
+        },
+        {
+          "caller": "calculate_domain",
+          "callee": "extent",
+          "lineNumber": 119
+        },
+        {
+          "caller": "calculate_domain",
+          "callee": "Math.max",
+          "lineNumber": 123
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "extent",
+          "lineNumber": 137
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.log10",
+          "lineNumber": 151
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.max",
+          "lineNumber": 151
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.log10",
+          "lineNumber": 152
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.max",
+          "lineNumber": 152
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.pow",
+          "lineNumber": 154
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.pow",
+          "lineNumber": 155
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.max",
+          "lineNumber": 169
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.abs",
+          "lineNumber": 172
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "scaleLog().domain",
+          "lineNumber": 185
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "scaleLog",
+          "lineNumber": 185
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.max",
+          "lineNumber": 186
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "Math.max",
+          "lineNumber": 187
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "scaleLinear().domain",
+          "lineNumber": 189
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "scaleLinear",
+          "lineNumber": 189
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "scale.nice",
+          "lineNumber": 191
+        },
+        {
+          "caller": "get_nice_data_range",
+          "callee": "scale.domain",
+          "lineNumber": 192
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Array.isArray",
+          "lineNumber": 202
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.max",
+          "lineNumber": 203
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.max",
+          "lineNumber": 205
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.floor",
+          "lineNumber": 207
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.log10",
+          "lineNumber": 207
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.ceil",
+          "lineNumber": 208
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.log10",
+          "lineNumber": 208
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.max",
+          "lineNumber": 214
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.floor",
+          "lineNumber": 214
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "range(extended_min_power, extended_max_power + 1).map",
+          "lineNumber": 217
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "range",
+          "lineNumber": 217
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.pow",
+          "lineNumber": 218
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "powers.forEach",
+          "lineNumber": 228
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "detailed_ticks.push",
+          "lineNumber": 229
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.pow",
+          "lineNumber": 230
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "detailed_ticks.push",
+          "lineNumber": 230
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "Math.pow",
+          "lineNumber": 231
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "detailed_ticks.push",
+          "lineNumber": 231
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "detailed_ticks.filter",
+          "lineNumber": 233
+        },
+        {
+          "caller": "generate_log_ticks",
+          "callee": "powers.filter",
+          "lineNumber": 236
+        },
+        {
+          "caller": "get_tick_label",
+          "callee": "Array.isArray",
+          "lineNumber": 244
+        },
+        {
+          "caller": "create_color_scale",
+          "callee": "scaleSequentialLog(interpolator).domain",
+          "lineNumber": 277
+        },
+        {
+          "caller": "create_color_scale",
+          "callee": "scaleSequentialLog",
+          "lineNumber": 277
+        },
+        {
+          "caller": "create_color_scale",
+          "callee": "Math.max",
+          "lineNumber": 278
+        },
+        {
+          "caller": "create_color_scale",
+          "callee": "Math.max",
+          "lineNumber": 279
+        },
+        {
+          "caller": "create_color_scale",
+          "callee": "scaleSequential(interpolator).domain",
+          "lineNumber": 281
+        },
+        {
+          "caller": "create_color_scale",
+          "callee": "scaleSequential",
+          "lineNumber": 281
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "extent",
+          "lineNumber": 295
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "all_size_values.filter",
+          "lineNumber": 295
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "scaleLog().domain",
+          "lineNumber": 302
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "scaleLog",
+          "lineNumber": 302
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "Math.max",
+          "lineNumber": 303
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "Math.max",
+          "lineNumber": 304
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "scaleLinear().domain",
+          "lineNumber": 306
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "scaleLinear",
+          "lineNumber": 306
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "scale.range([min_radius, max_radius]).clamp",
+          "lineNumber": 308
+        },
+        {
+          "caller": "create_size_scale",
+          "callee": "scale.range",
+          "lineNumber": 308
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 9,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/plot/ScatterPlot.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 1800,
+      "nonEmptyLines": 1651,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/ScatterPlotControls.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 236,
+      "nonEmptyLines": 230,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/ScatterPoint.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 105,
+      "nonEmptyLines": 98,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/SpacegroupBarPlot.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 291,
+      "nonEmptyLines": 267,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/plot/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 379,
+      "nonEmptyLines": 346,
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

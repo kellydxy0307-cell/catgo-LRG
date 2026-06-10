@@ -1,0 +1,35 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "docs/tutorials/md-analysis/clustering-pca.md",
+      "language": "markdown",
+      "sizeLines": 58,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/md-analysis/hbond-detection.md",
+      "language": "markdown",
+      "sizeLines": 50,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/md-analysis/rdf-analysis.md",
+      "language": "markdown",
+      "sizeLines": 59,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/md-analysis/rmsd-rmsf.md",
+      "language": "markdown",
+      "sizeLines": 50,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "docs/tutorials/md-analysis/clustering-pca.md": [],
+    "docs/tutorials/md-analysis/hbond-detection.md": [],
+    "docs/tutorials/md-analysis/rdf-analysis.md": [],
+    "docs/tutorials/md-analysis/rmsd-rmsf.md": []
+  }
+}

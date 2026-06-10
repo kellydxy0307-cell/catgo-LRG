@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "document:docs/reference/changelog.md",
+      "type": "document",
+      "name": "changelog.md",
+      "filePath": "docs/reference/changelog.md",
+      "summary": "这份文档围绕版本变更记录展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Changelog、[1.0.1] — 2026-05-12、Added、Fixed。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "markdown 文件，扫描到 165 行；结构抽取识别出 30 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/reference/configuration.md",
+      "type": "document",
+      "name": "configuration.md",
+      "filePath": "docs/reference/configuration.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Configuration Reference、User Data Directory、Environment Variables、Application。",
+      "tags": [
+        "文档",
+        "知识库",
+        "配置",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "markdown 文件，扫描到 94 行；结构抽取识别出 9 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/reference/faq.md",
+      "type": "document",
+      "name": "faq.md",
+      "filePath": "docs/reference/faq.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Frequently Asked Questions、General、What is CatGo?、What file formats are supported?。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 269 行；结构抽取识别出 50 个章节/顶层键。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:docs/reference/changelog.md",
+      "target": "document:docs/reference/configuration.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/reference/configuration.md",
+      "target": "document:docs/reference/faq.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

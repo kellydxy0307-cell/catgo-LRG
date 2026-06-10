@@ -1,0 +1,185 @@
+{
+  "nodes": [
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/btube.json",
+      "type": "config",
+      "name": "btube.json",
+      "filePath": "extensions/catrender-wasm/src/presets/btube.json",
+      "summary": "btube.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 18 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/bubble.json",
+      "type": "config",
+      "name": "bubble.json",
+      "filePath": "extensions/catrender-wasm/src/presets/bubble.json",
+      "summary": "bubble.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 6 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/default.json",
+      "type": "config",
+      "name": "default.json",
+      "filePath": "extensions/catrender-wasm/src/presets/default.json",
+      "summary": "default.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 51 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/flat.json",
+      "type": "config",
+      "name": "flat.json",
+      "filePath": "extensions/catrender-wasm/src/presets/flat.json",
+      "summary": "flat.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 5 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/graph.json",
+      "type": "config",
+      "name": "graph.json",
+      "filePath": "extensions/catrender-wasm/src/presets/graph.json",
+      "summary": "graph.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 22 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/mtube.json",
+      "type": "config",
+      "name": "mtube.json",
+      "filePath": "extensions/catrender-wasm/src/presets/mtube.json",
+      "summary": "mtube.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 25 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/overlay.json",
+      "type": "config",
+      "name": "overlay.json",
+      "filePath": "extensions/catrender-wasm/src/presets/overlay.json",
+      "summary": "overlay.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 13 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/paton.json",
+      "type": "config",
+      "name": "paton.json",
+      "filePath": "extensions/catrender-wasm/src/presets/paton.json",
+      "summary": "paton.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 14 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/pmol.json",
+      "type": "config",
+      "name": "pmol.json",
+      "filePath": "extensions/catrender-wasm/src/presets/pmol.json",
+      "summary": "pmol.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 19 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/skeletal.json",
+      "type": "config",
+      "name": "skeletal.json",
+      "filePath": "extensions/catrender-wasm/src/presets/skeletal.json",
+      "summary": "skeletal.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 16 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/tube.json",
+      "type": "config",
+      "name": "tube.json",
+      "filePath": "extensions/catrender-wasm/src/presets/tube.json",
+      "summary": "tube.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 18 行有效内容。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/src/presets/wire.json",
+      "type": "config",
+      "name": "wire.json",
+      "filePath": "extensions/catrender-wasm/src/presets/wire.json",
+      "summary": "wire.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "渲染",
+        "性能",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 16 行有效内容。"
+    }
+  ],
+  "edges": []
+}

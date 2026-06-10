@@ -1,0 +1,399 @@
+{
+  "nodes": [
+    {
+      "id": "document:docs/modules/dynamics/trajectories.md",
+      "type": "document",
+      "name": "trajectories.md",
+      "filePath": "docs/modules/dynamics/trajectories.md",
+      "summary": "trajectories.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/modules/dynamics/trajectories.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/modules/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "docs/modules/index.md",
+      "summary": "index.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/modules/index.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/modules/integrations/database-integration.md",
+      "type": "document",
+      "name": "database-integration.md",
+      "filePath": "docs/modules/integrations/database-integration.md",
+      "summary": "database-integration.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/modules/integrations/database-integration.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/modules/integrations/density-visualization.md",
+      "type": "document",
+      "name": "density-visualization.md",
+      "filePath": "docs/modules/integrations/density-visualization.md",
+      "summary": "density-visualization.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/modules/integrations/density-visualization.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/modules/server/mcp-server.md",
+      "type": "document",
+      "name": "mcp-server.md",
+      "filePath": "docs/modules/server/mcp-server.md",
+      "summary": "mcp-server.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/modules/server/mcp-server.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/modules/server/rest-api.md",
+      "type": "document",
+      "name": "rest-api.md",
+      "filePath": "docs/modules/server/rest-api.md",
+      "summary": "rest-api.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/modules/server/rest-api.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/ai/ai-chat.md",
+      "type": "document",
+      "name": "ai-chat.md",
+      "filePath": "docs/tutorials/ai/ai-chat.md",
+      "summary": "ai-chat.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/ai/ai-chat.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/ai/literature-import.md",
+      "type": "document",
+      "name": "literature-import.md",
+      "filePath": "docs/tutorials/ai/literature-import.md",
+      "summary": "literature-import.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/ai/literature-import.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/basics/getting-started.md",
+      "type": "document",
+      "name": "getting-started.md",
+      "filePath": "docs/tutorials/basics/getting-started.md",
+      "summary": "getting-started.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/basics/getting-started.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/desktop/desktop-app.md",
+      "type": "document",
+      "name": "desktop-app.md",
+      "filePath": "docs/tutorials/desktop/desktop-app.md",
+      "summary": "desktop-app.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/desktop/desktop-app.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "docs/tutorials/index.md",
+      "summary": "index.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/index.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/interaction/gesture-hand-tracking.md",
+      "type": "document",
+      "name": "gesture-hand-tracking.md",
+      "filePath": "docs/tutorials/interaction/gesture-hand-tracking.md",
+      "summary": "gesture-hand-tracking.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/interaction/gesture-hand-tracking.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/interaction/voice-control.md",
+      "type": "document",
+      "name": "voice-control.md",
+      "filePath": "docs/tutorials/interaction/voice-control.md",
+      "summary": "voice-control.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/interaction/voice-control.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/server/mcp-server.md",
+      "type": "document",
+      "name": "mcp-server.md",
+      "filePath": "docs/tutorials/server/mcp-server.md",
+      "summary": "mcp-server.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/server/mcp-server.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/server/server-api.md",
+      "type": "document",
+      "name": "server-api.md",
+      "filePath": "docs/tutorials/server/server-api.md",
+      "summary": "server-api.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/server/server-api.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/visualization/density-viz.md",
+      "type": "document",
+      "name": "density-viz.md",
+      "filePath": "docs/tutorials/visualization/density-viz.md",
+      "summary": "density-viz.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/visualization/density-viz.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/visualization/trajectories.md",
+      "type": "document",
+      "name": "trajectories.md",
+      "filePath": "docs/tutorials/visualization/trajectories.md",
+      "summary": "trajectories.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/visualization/trajectories.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/tutorials/workflows/workflows.md",
+      "type": "document",
+      "name": "workflows.md",
+      "filePath": "docs/tutorials/workflows/workflows.md",
+      "summary": "workflows.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/tutorials/workflows/workflows.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/zh/guide/catbot.md",
+      "type": "document",
+      "name": "catbot.md",
+      "filePath": "docs/zh/guide/catbot.md",
+      "summary": "catbot.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/zh/guide/catbot.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/zh/guide/installation.md",
+      "type": "document",
+      "name": "installation.md",
+      "filePath": "docs/zh/guide/installation.md",
+      "summary": "installation.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/zh/guide/installation.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:docs/zh/index.md",
+      "type": "document",
+      "name": "index.md",
+      "filePath": "docs/zh/index.md",
+      "summary": "index.md 是 CatGo 项目中的文档文件，使用 markdown，位于 docs/zh/index.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "file:energy_diagram/energydiagram.egg-info/PKG-INFO",
+      "type": "file",
+      "name": "PKG-INFO",
+      "filePath": "energy_diagram/energydiagram.egg-info/PKG-INFO",
+      "summary": "PKG-INFO 是 CatGo 项目中的代码文件，使用 unknown，位于 energy_diagram/energydiagram.egg-info/PKG-INFO，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:energy_diagram/energydiagram/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "energy_diagram/energydiagram/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 energy_diagram/energydiagram/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:energy_diagram/energydiagram/core.py",
+      "type": "file",
+      "name": "core.py",
+      "filePath": "energy_diagram/energydiagram/core.py",
+      "summary": "core.py 是 CatGo 项目中的代码文件，使用 python，位于 energy_diagram/energydiagram/core.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:energy_diagram/energydiagram/interaction.py",
+      "type": "file",
+      "name": "interaction.py",
+      "filePath": "energy_diagram/energydiagram/interaction.py",
+      "summary": "interaction.py 是 CatGo 项目中的代码文件，使用 python，位于 energy_diagram/energydiagram/interaction.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:energy_diagram/energydiagram/__init__.py",
+      "target": "file:energy_diagram/energydiagram/core.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:energy_diagram/energydiagram/core.py",
+      "target": "file:energy_diagram/energydiagram/interaction.py",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

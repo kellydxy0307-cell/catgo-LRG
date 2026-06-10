@@ -1,0 +1,1784 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/structure/atoms/atom-instanced-renderer.ts",
+      "type": "file",
+      "name": "atom-instanced-renderer.ts",
+      "filePath": "src/lib/structure/atoms/atom-instanced-renderer.ts",
+      "summary": "实现结构相关的 atom-instanced-renderer.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:src/lib/structure/atoms/atom-instanced-renderer.ts:AtomInstancedRenderer",
+      "type": "class",
+      "name": "AtomInstancedRenderer",
+      "filePath": "src/lib/structure/atoms/atom-instanced-renderer.ts",
+      "lineRange": [
+        67,
+        625
+      ],
+      "summary": "定义结构模块中的 AtomInstancedRenderer 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/lib/structure/atoms/atom-manager.svelte.ts",
+      "type": "file",
+      "name": "atom-manager.svelte.ts",
+      "filePath": "src/lib/structure/atoms/atom-manager.svelte.ts",
+      "summary": "实现结构相关的 atom-manager.svelte.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/atoms/atom-manager.svelte.ts:element_to_atomic_number",
+      "type": "function",
+      "name": "element_to_atomic_number",
+      "filePath": "src/lib/structure/atoms/atom-manager.svelte.ts",
+      "lineRange": [
+        134,
+        136
+      ],
+      "summary": "封装结构模块中的 element_to_atomic_number 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/atoms/atom-manager.svelte.ts:atomic_number_to_element",
+      "type": "function",
+      "name": "atomic_number_to_element",
+      "filePath": "src/lib/structure/atoms/atom-manager.svelte.ts",
+      "lineRange": [
+        139,
+        141
+      ],
+      "summary": "封装结构模块中的 atomic_number_to_element 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/lib/structure/atoms/atom-manager.svelte.ts:AtomManager",
+      "type": "class",
+      "name": "AtomManager",
+      "filePath": "src/lib/structure/atoms/atom-manager.svelte.ts",
+      "lineRange": [
+        158,
+        1066
+      ],
+      "summary": "定义结构模块中的 AtomManager 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "component",
+        "class",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/lib/structure/atoms/AtomManagerInstances.svelte",
+      "type": "file",
+      "name": "AtomManagerInstances.svelte",
+      "filePath": "src/lib/structure/atoms/AtomManagerInstances.svelte",
+      "summary": "实现结构相关的 AtomManagerInstances.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/atoms/feature-flag.ts",
+      "type": "file",
+      "name": "feature-flag.ts",
+      "filePath": "src/lib/structure/atoms/feature-flag.ts",
+      "summary": "实现结构相关的 feature-flag.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "结构"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "type": "file",
+      "name": "bond-computation-controller.svelte.ts",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "summary": "实现结构相关的 bond-computation-controller.svelte.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 22 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:clear_trajectory_bond_frame_cache",
+      "type": "function",
+      "name": "clear_trajectory_bond_frame_cache",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        96,
+        105
+      ],
+      "summary": "封装结构模块中的 clear_trajectory_bond_frame_cache 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_trajectory_overlay_structure",
+      "type": "function",
+      "name": "build_trajectory_overlay_structure",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        120,
+        150
+      ],
+      "summary": "封装结构模块中的 build_trajectory_overlay_structure 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:invert_3x3",
+      "type": "function",
+      "name": "invert_3x3",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        155,
+        167
+      ],
+      "summary": "封装结构模块中的 invert_3x3 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:create_bond_state",
+      "type": "function",
+      "name": "create_bond_state",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        173,
+        211
+      ],
+      "summary": "封装结构模块中的 create_bond_state 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:compute_bond_connectivity",
+      "type": "function",
+      "name": "compute_bond_connectivity",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        219,
+        391
+      ],
+      "summary": "封装结构模块中的 compute_bond_connectivity 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:compute_bond_connectivity_for_frame",
+      "type": "function",
+      "name": "compute_bond_connectivity_for_frame",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        423,
+        500
+      ],
+      "summary": "封装结构模块中的 compute_bond_connectivity_for_frame 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:dispatch_traj_async",
+      "type": "function",
+      "name": "dispatch_traj_async",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        506,
+        583
+      ],
+      "summary": "封装结构模块中的 dispatch_traj_async 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_jimage",
+      "type": "function",
+      "name": "apply_jimage",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        589,
+        604
+      ],
+      "summary": "封装结构模块中的 apply_jimage 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_bond_pairs",
+      "type": "function",
+      "name": "build_bond_pairs",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        616,
+        663
+      ],
+      "summary": "封装结构模块中的 build_bond_pairs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_trajectory_bond_pairs",
+      "type": "function",
+      "name": "build_trajectory_bond_pairs",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        683,
+        783
+      ],
+      "summary": "封装结构模块中的 build_trajectory_bond_pairs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:create_hbond_state",
+      "type": "function",
+      "name": "create_hbond_state",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        789,
+        800
+      ],
+      "summary": "封装结构模块中的 create_hbond_state 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:compute_hbond_connectivity",
+      "type": "function",
+      "name": "compute_hbond_connectivity",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        806,
+        887
+      ],
+      "summary": "封装结构模块中的 compute_hbond_connectivity 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_hbond_pairs",
+      "type": "function",
+      "name": "build_hbond_pairs",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        893,
+        943
+      ],
+      "summary": "封装结构模块中的 build_hbond_pairs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_delete_incremental",
+      "type": "function",
+      "name": "apply_atom_delete_incremental",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        961,
+        1051
+      ],
+      "summary": "封装结构模块中的 apply_atom_delete_incremental 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:__recompute_bonds_sync",
+      "type": "function",
+      "name": "__recompute_bonds_sync",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        1095,
+        1111
+      ],
+      "summary": "封装结构模块中的 __recompute_bonds_sync 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_add_incremental",
+      "type": "function",
+      "name": "apply_atom_add_incremental",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        1131,
+        1208
+      ],
+      "summary": "封装结构模块中的 apply_atom_add_incremental 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_replace_incremental",
+      "type": "function",
+      "name": "apply_atom_replace_incremental",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        1222,
+        1247
+      ],
+      "summary": "封装结构模块中的 apply_atom_replace_incremental 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_move_incremental",
+      "type": "function",
+      "name": "apply_atom_move_incremental",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        1262,
+        1287
+      ],
+      "summary": "封装结构模块中的 apply_atom_move_incremental 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bond-computation-controller.svelte.ts:__apply_full_bond_diff",
+      "type": "function",
+      "name": "__apply_full_bond_diff",
+      "filePath": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "lineRange": [
+        1300,
+        1368
+      ],
+      "summary": "封装结构模块中的 __apply_full_bond_diff 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/structure/Bond.svelte",
+      "type": "file",
+      "name": "Bond.svelte",
+      "filePath": "src/lib/structure/Bond.svelte",
+      "summary": "实现结构相关的 Bond.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/BondEditingIndicators.svelte",
+      "type": "file",
+      "name": "BondEditingIndicators.svelte",
+      "filePath": "src/lib/structure/BondEditingIndicators.svelte",
+      "summary": "实现结构相关的 BondEditingIndicators.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/bonding.ts",
+      "type": "file",
+      "name": "bonding.ts",
+      "filePath": "src/lib/structure/bonding.ts",
+      "summary": "实现结构相关的 bonding.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 12 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/bonding.ts:get_bond_key",
+      "type": "function",
+      "name": "get_bond_key",
+      "filePath": "src/lib/structure/bonding.ts",
+      "lineRange": [
+        19,
+        32
+      ],
+      "summary": "封装结构模块中的 get_bond_key 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bonding.ts:compute_bond_transform",
+      "type": "function",
+      "name": "compute_bond_transform",
+      "filePath": "src/lib/structure/bonding.ts",
+      "lineRange": [
+        53,
+        108
+      ],
+      "summary": "封装结构模块中的 compute_bond_transform 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bonding.ts:update_bond_positions",
+      "type": "function",
+      "name": "update_bond_positions",
+      "filePath": "src/lib/structure/bonding.ts",
+      "lineRange": [
+        112,
+        131
+      ],
+      "summary": "封装结构模块中的 update_bond_positions 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bonding.ts:build_spatial_grid",
+      "type": "function",
+      "name": "build_spatial_grid",
+      "filePath": "src/lib/structure/bonding.ts",
+      "lineRange": [
+        134,
+        144
+      ],
+      "summary": "封装结构模块中的 build_spatial_grid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bonding.ts:get_neighbors_from_grid",
+      "type": "function",
+      "name": "get_neighbors_from_grid",
+      "filePath": "src/lib/structure/bonding.ts",
+      "lineRange": [
+        147,
+        167
+      ],
+      "summary": "封装结构模块中的 get_neighbors_from_grid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bonding.ts:electroneg_ratio",
+      "type": "function",
+      "name": "electroneg_ratio",
+      "filePath": "src/lib/structure/bonding.ts",
+      "lineRange": [
+        194,
+        294
+      ],
+      "summary": "封装结构模块中的 electroneg_ratio 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bonding.ts:solid_angle",
+      "type": "function",
+      "name": "solid_angle",
+      "filePath": "src/lib/structure/bonding.ts",
+      "lineRange": [
+        301,
+        362
+      ],
+      "summary": "封装结构模块中的 solid_angle 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bonding.ts:atom_radii",
+      "type": "function",
+      "name": "atom_radii",
+      "filePath": "src/lib/structure/bonding.ts",
+      "lineRange": [
+        364,
+        425
+      ],
+      "summary": "封装结构模块中的 atom_radii 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bonding.ts:detect_hydrogen_bonds",
+      "type": "function",
+      "name": "detect_hydrogen_bonds",
+      "filePath": "src/lib/structure/bonding.ts",
+      "lineRange": [
+        444,
+        581
+      ],
+      "summary": "封装结构模块中的 detect_hydrogen_bonds 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/structure/bonding/bond-instanced-renderer.ts",
+      "type": "file",
+      "name": "bond-instanced-renderer.ts",
+      "filePath": "src/lib/structure/bonding/bond-instanced-renderer.ts",
+      "summary": "实现结构相关的 bond-instanced-renderer.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:src/lib/structure/bonding/bond-instanced-renderer.ts:BondInstancedRenderer",
+      "type": "class",
+      "name": "BondInstancedRenderer",
+      "filePath": "src/lib/structure/bonding/bond-instanced-renderer.ts",
+      "lineRange": [
+        89,
+        936
+      ],
+      "summary": "定义结构模块中的 BondInstancedRenderer 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/lib/structure/bonding/bond-manager.svelte.ts",
+      "type": "file",
+      "name": "bond-manager.svelte.ts",
+      "filePath": "src/lib/structure/bonding/bond-manager.svelte.ts",
+      "summary": "实现结构相关的 bond-manager.svelte.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:src/lib/structure/bonding/bond-manager.svelte.ts:BondManager",
+      "type": "class",
+      "name": "BondManager",
+      "filePath": "src/lib/structure/bonding/bond-manager.svelte.ts",
+      "lineRange": [
+        48,
+        1015
+      ],
+      "summary": "定义结构模块中的 BondManager 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "component",
+        "class",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/lib/structure/bonding/bond-undo-stack.ts",
+      "type": "file",
+      "name": "bond-undo-stack.ts",
+      "filePath": "src/lib/structure/bonding/bond-undo-stack.ts",
+      "summary": "实现结构相关的 bond-undo-stack.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/bonding/bond-undo-stack.ts:pair_kind_jimage_key",
+      "type": "function",
+      "name": "pair_kind_jimage_key",
+      "filePath": "src/lib/structure/bonding/bond-undo-stack.ts",
+      "lineRange": [
+        77,
+        92
+      ],
+      "summary": "封装结构模块中的 pair_kind_jimage_key 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bonding/bond-undo-stack.ts:build_pair_kind_jimage_map",
+      "type": "function",
+      "name": "build_pair_kind_jimage_map",
+      "filePath": "src/lib/structure/bonding/bond-undo-stack.ts",
+      "lineRange": [
+        94,
+        112
+      ],
+      "summary": "封装结构模块中的 build_pair_kind_jimage_map 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/lib/structure/bonding/bond-undo-stack.ts:BondUndoStack",
+      "type": "class",
+      "name": "BondUndoStack",
+      "filePath": "src/lib/structure/bonding/bond-undo-stack.ts",
+      "lineRange": [
+        114,
+        378
+      ],
+      "summary": "定义结构模块中的 BondUndoStack 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/lib/structure/bonding/BondManagerInstances.svelte",
+      "type": "file",
+      "name": "BondManagerInstances.svelte",
+      "filePath": "src/lib/structure/bonding/BondManagerInstances.svelte",
+      "summary": "实现结构相关的 BondManagerInstances.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/bonding/image-atom-layout.ts",
+      "type": "file",
+      "name": "image-atom-layout.ts",
+      "filePath": "src/lib/structure/bonding/image-atom-layout.ts",
+      "summary": "实现结构相关的 image-atom-layout.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 3 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/bonding/image-atom-layout.ts:empty_image_atom_layout",
+      "type": "function",
+      "name": "empty_image_atom_layout",
+      "filePath": "src/lib/structure/bonding/image-atom-layout.ts",
+      "lineRange": [
+        56,
+        58
+      ],
+      "summary": "封装结构模块中的 empty_image_atom_layout 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/bonding/image-atom-layout.ts:build_image_atom_layout",
+      "type": "function",
+      "name": "build_image_atom_layout",
+      "filePath": "src/lib/structure/bonding/image-atom-layout.ts",
+      "lineRange": [
+        60,
+        133
+      ],
+      "summary": "封装结构模块中的 build_image_atom_layout 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/bonding/image-atom-layout.ts:image_atom_decorator_instance_count",
+      "type": "function",
+      "name": "image_atom_decorator_instance_count",
+      "filePath": "src/lib/structure/bonding/image-atom-layout.ts",
+      "lineRange": [
+        143,
+        147
+      ],
+      "summary": "封装结构模块中的 image_atom_decorator_instance_count 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/structure/BuildPane.svelte",
+      "type": "file",
+      "name": "BuildPane.svelte",
+      "filePath": "src/lib/structure/BuildPane.svelte",
+      "summary": "实现结构相关的 BuildPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/CanvasTooltip.svelte",
+      "type": "file",
+      "name": "CanvasTooltip.svelte",
+      "filePath": "src/lib/structure/CanvasTooltip.svelte",
+      "summary": "实现结构相关的 CanvasTooltip.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/__tests__/atom-merge.test.ts",
+      "type": "file",
+      "name": "atom-merge.test.ts",
+      "filePath": "src/lib/structure/catrender/__tests__/atom-merge.test.ts",
+      "summary": "覆盖结构相关行为的测试文件，验证 atom-merge 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/__tests__/bond-merge.test.ts",
+      "type": "file",
+      "name": "bond-merge.test.ts",
+      "filePath": "src/lib/structure/catrender/__tests__/bond-merge.test.ts",
+      "summary": "覆盖结构相关行为的测试文件，验证 bond-merge 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/__tests__/catrender-state.test.ts",
+      "type": "file",
+      "name": "catrender-state.test.ts",
+      "filePath": "src/lib/structure/catrender/__tests__/catrender-state.test.ts",
+      "summary": "覆盖结构相关行为的测试文件，验证 catrender-state 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "state-management",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/__tests__/pick-hit.test.ts",
+      "type": "file",
+      "name": "pick-hit.test.ts",
+      "filePath": "src/lib/structure/catrender/__tests__/pick-hit.test.ts",
+      "summary": "覆盖结构相关行为的测试文件，验证 pick-hit 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/atom-merge.ts",
+      "type": "file",
+      "name": "atom-merge.ts",
+      "filePath": "src/lib/structure/catrender/atom-merge.ts",
+      "summary": "实现结构相关的 atom-merge.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/catrender/atom-merge.ts:merge_atoms",
+      "type": "function",
+      "name": "merge_atoms",
+      "filePath": "src/lib/structure/catrender/atom-merge.ts",
+      "lineRange": [
+        29,
+        45
+      ],
+      "summary": "封装结构模块中的 merge_atoms 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/catrender/atom-merge.ts:prune_atom_overrides",
+      "type": "function",
+      "name": "prune_atom_overrides",
+      "filePath": "src/lib/structure/catrender/atom-merge.ts",
+      "lineRange": [
+        48,
+        53
+      ],
+      "summary": "封装结构模块中的 prune_atom_overrides 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/bond-merge.ts",
+      "type": "file",
+      "name": "bond-merge.ts",
+      "filePath": "src/lib/structure/catrender/bond-merge.ts",
+      "summary": "实现结构相关的 bond-merge.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 3 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "结构"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/catrender/bond-merge.ts:merge_bonds",
+      "type": "function",
+      "name": "merge_bonds",
+      "filePath": "src/lib/structure/catrender/bond-merge.ts",
+      "lineRange": [
+        18,
+        35
+      ],
+      "summary": "封装结构模块中的 merge_bonds 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/catrender/bond-merge.ts:prune_overrides",
+      "type": "function",
+      "name": "prune_overrides",
+      "filePath": "src/lib/structure/catrender/bond-merge.ts",
+      "lineRange": [
+        38,
+        43
+      ],
+      "summary": "封装结构模块中的 prune_overrides 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/catrender-state.svelte.ts",
+      "type": "file",
+      "name": "catrender-state.svelte.ts",
+      "filePath": "src/lib/structure/catrender/catrender-state.svelte.ts",
+      "summary": "实现结构相关的 catrender-state.svelte.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "state-management",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/catrender/catrender-state.svelte.ts:build_overrides",
+      "type": "function",
+      "name": "build_overrides",
+      "filePath": "src/lib/structure/catrender/catrender-state.svelte.ts",
+      "lineRange": [
+        62,
+        83
+      ],
+      "summary": "封装结构模块中的 build_overrides 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/catrender/catrender-state.svelte.ts:prune_atom_idx",
+      "type": "function",
+      "name": "prune_atom_idx",
+      "filePath": "src/lib/structure/catrender/catrender-state.svelte.ts",
+      "lineRange": [
+        86,
+        88
+      ],
+      "summary": "封装结构模块中的 prune_atom_idx 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/lib/structure/catrender/catrender-state.svelte.ts:CatRenderState",
+      "type": "class",
+      "name": "CatRenderState",
+      "filePath": "src/lib/structure/catrender/catrender-state.svelte.ts",
+      "lineRange": [
+        101,
+        190
+      ],
+      "summary": "定义结构模块中的 CatRenderState 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "component",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/catrender-wasm.ts",
+      "type": "file",
+      "name": "catrender-wasm.ts",
+      "filePath": "src/lib/structure/catrender/catrender-wasm.ts",
+      "summary": "实现结构相关的 catrender-wasm.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "结构"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/catrender/catrender-wasm.ts:ensure_ready",
+      "type": "function",
+      "name": "ensure_ready",
+      "filePath": "src/lib/structure/catrender/catrender-wasm.ts",
+      "lineRange": [
+        20,
+        43
+      ],
+      "summary": "封装结构模块中的 ensure_ready 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/catrender/catrender-wasm.ts:render_svg",
+      "type": "function",
+      "name": "render_svg",
+      "filePath": "src/lib/structure/catrender/catrender-wasm.ts",
+      "lineRange": [
+        46,
+        49
+      ],
+      "summary": "封装结构模块中的 render_svg 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/CatRenderParamsPane.svelte",
+      "type": "file",
+      "name": "CatRenderParamsPane.svelte",
+      "filePath": "src/lib/structure/catrender/CatRenderParamsPane.svelte",
+      "summary": "实现结构相关的 CatRenderParamsPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/CatRenderViewPane.svelte",
+      "type": "file",
+      "name": "CatRenderViewPane.svelte",
+      "filePath": "src/lib/structure/catrender/CatRenderViewPane.svelte",
+      "summary": "实现结构相关的 CatRenderViewPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/structure/atoms/atom-instanced-renderer.ts",
+      "target": "class:src/lib/structure/atoms/atom-instanced-renderer.ts:AtomInstancedRenderer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/atoms/atom-instanced-renderer.ts",
+      "target": "class:src/lib/structure/atoms/atom-instanced-renderer.ts:AtomInstancedRenderer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/atoms/atom-manager.svelte.ts",
+      "target": "function:src/lib/structure/atoms/atom-manager.svelte.ts:element_to_atomic_number",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/atoms/atom-manager.svelte.ts",
+      "target": "function:src/lib/structure/atoms/atom-manager.svelte.ts:atomic_number_to_element",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/atoms/atom-manager.svelte.ts",
+      "target": "class:src/lib/structure/atoms/atom-manager.svelte.ts:AtomManager",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/atoms/atom-manager.svelte.ts",
+      "target": "function:src/lib/structure/atoms/atom-manager.svelte.ts:element_to_atomic_number",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/atoms/atom-manager.svelte.ts",
+      "target": "function:src/lib/structure/atoms/atom-manager.svelte.ts:atomic_number_to_element",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/atoms/atom-manager.svelte.ts",
+      "target": "class:src/lib/structure/atoms/atom-manager.svelte.ts:AtomManager",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:clear_trajectory_bond_frame_cache",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_trajectory_overlay_structure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:invert_3x3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:create_bond_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:compute_bond_connectivity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:compute_bond_connectivity_for_frame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:dispatch_traj_async",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_jimage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_bond_pairs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_trajectory_bond_pairs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:create_hbond_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:compute_hbond_connectivity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_hbond_pairs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_delete_incremental",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:__recompute_bonds_sync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_add_incremental",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_replace_incremental",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_move_incremental",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:__apply_full_bond_diff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:clear_trajectory_bond_frame_cache",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:create_bond_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:compute_bond_connectivity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:compute_bond_connectivity_for_frame",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_bond_pairs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_trajectory_bond_pairs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:create_hbond_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:compute_hbond_connectivity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:build_hbond_pairs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_delete_incremental",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_add_incremental",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_replace_incremental",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "target": "function:src/lib/structure/bond-computation-controller.svelte.ts:apply_atom_move_incremental",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:get_bond_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:compute_bond_transform",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:update_bond_positions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:build_spatial_grid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:get_neighbors_from_grid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:electroneg_ratio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:solid_angle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:atom_radii",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:detect_hydrogen_bonds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:get_bond_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:compute_bond_transform",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:update_bond_positions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:electroneg_ratio",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:solid_angle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:atom_radii",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding.ts",
+      "target": "function:src/lib/structure/bonding.ts:detect_hydrogen_bonds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding/bond-instanced-renderer.ts",
+      "target": "class:src/lib/structure/bonding/bond-instanced-renderer.ts:BondInstancedRenderer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding/bond-instanced-renderer.ts",
+      "target": "class:src/lib/structure/bonding/bond-instanced-renderer.ts:BondInstancedRenderer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding/bond-manager.svelte.ts",
+      "target": "class:src/lib/structure/bonding/bond-manager.svelte.ts:BondManager",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding/bond-manager.svelte.ts",
+      "target": "class:src/lib/structure/bonding/bond-manager.svelte.ts:BondManager",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding/bond-undo-stack.ts",
+      "target": "function:src/lib/structure/bonding/bond-undo-stack.ts:pair_kind_jimage_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding/bond-undo-stack.ts",
+      "target": "function:src/lib/structure/bonding/bond-undo-stack.ts:build_pair_kind_jimage_map",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding/bond-undo-stack.ts",
+      "target": "class:src/lib/structure/bonding/bond-undo-stack.ts:BondUndoStack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding/bond-undo-stack.ts",
+      "target": "class:src/lib/structure/bonding/bond-undo-stack.ts:BondUndoStack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding/image-atom-layout.ts",
+      "target": "function:src/lib/structure/bonding/image-atom-layout.ts:empty_image_atom_layout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding/image-atom-layout.ts",
+      "target": "function:src/lib/structure/bonding/image-atom-layout.ts:build_image_atom_layout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding/image-atom-layout.ts",
+      "target": "function:src/lib/structure/bonding/image-atom-layout.ts:image_atom_decorator_instance_count",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/bonding/image-atom-layout.ts",
+      "target": "function:src/lib/structure/bonding/image-atom-layout.ts:empty_image_atom_layout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding/image-atom-layout.ts",
+      "target": "function:src/lib/structure/bonding/image-atom-layout.ts:build_image_atom_layout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/bonding/image-atom-layout.ts",
+      "target": "function:src/lib/structure/bonding/image-atom-layout.ts:image_atom_decorator_instance_count",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/catrender/atom-merge.ts",
+      "target": "function:src/lib/structure/catrender/atom-merge.ts:merge_atoms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/catrender/atom-merge.ts",
+      "target": "function:src/lib/structure/catrender/atom-merge.ts:prune_atom_overrides",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/catrender/atom-merge.ts",
+      "target": "function:src/lib/structure/catrender/atom-merge.ts:merge_atoms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/catrender/atom-merge.ts",
+      "target": "function:src/lib/structure/catrender/atom-merge.ts:prune_atom_overrides",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/catrender/bond-merge.ts",
+      "target": "function:src/lib/structure/catrender/bond-merge.ts:merge_bonds",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/catrender/bond-merge.ts",
+      "target": "function:src/lib/structure/catrender/bond-merge.ts:prune_overrides",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/catrender/bond-merge.ts",
+      "target": "function:src/lib/structure/catrender/bond-merge.ts:merge_bonds",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/catrender/bond-merge.ts",
+      "target": "function:src/lib/structure/catrender/bond-merge.ts:prune_overrides",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/catrender/catrender-state.svelte.ts",
+      "target": "function:src/lib/structure/catrender/catrender-state.svelte.ts:build_overrides",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/catrender/catrender-state.svelte.ts",
+      "target": "function:src/lib/structure/catrender/catrender-state.svelte.ts:prune_atom_idx",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/catrender/catrender-state.svelte.ts",
+      "target": "class:src/lib/structure/catrender/catrender-state.svelte.ts:CatRenderState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/catrender/catrender-state.svelte.ts",
+      "target": "function:src/lib/structure/catrender/catrender-state.svelte.ts:build_overrides",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/catrender/catrender-state.svelte.ts",
+      "target": "function:src/lib/structure/catrender/catrender-state.svelte.ts:prune_atom_idx",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/catrender/catrender-wasm.ts",
+      "target": "function:src/lib/structure/catrender/catrender-wasm.ts:ensure_ready",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/catrender/catrender-wasm.ts",
+      "target": "function:src/lib/structure/catrender/catrender-wasm.ts:render_svg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/catrender/catrender-wasm.ts",
+      "target": "function:src/lib/structure/catrender/catrender-wasm.ts:render_svg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

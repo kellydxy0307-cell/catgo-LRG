@@ -1,0 +1,1562 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/lib/gesture/structure-adapter.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 141,
+      "nonEmptyLines": 126,
+      "classes": [
+        {
+          "name": "StructureAdapter",
+          "startLine": 50,
+          "endLine": 141,
+          "methods": [
+            "constructor",
+            "set_sensitivity",
+            "process",
+            "process_voice",
+            "reset"
+          ],
+          "properties": [
+            "api",
+            "sensitivity",
+            "state"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "StructureAdapter",
+          "line": 50,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "process",
+          "callee": "this.api.rotate",
+          "lineNumber": 75
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.rotate",
+          "lineNumber": 76
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.zoom",
+          "lineNumber": 81
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.canvas_size",
+          "lineNumber": 85
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.pan",
+          "lineNumber": 88
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.atom_at",
+          "lineNumber": 92
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.set_hover",
+          "lineNumber": 93
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.atom_at",
+          "lineNumber": 97
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.toggle_select",
+          "lineNumber": 98
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.rotate",
+          "lineNumber": 114
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.rotate",
+          "lineNumber": 115
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.rotate",
+          "lineNumber": 116
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.rotate",
+          "lineNumber": 117
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.zoom",
+          "lineNumber": 118
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.zoom",
+          "lineNumber": 119
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.reset_camera",
+          "lineNumber": 120
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.pan",
+          "lineNumber": 121
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.pan",
+          "lineNumber": 122
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.pan",
+          "lineNumber": 123
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.pan",
+          "lineNumber": 124
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.select_all",
+          "lineNumber": 129
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.clear_selection",
+          "lineNumber": 130
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.delete_selected",
+          "lineNumber": 131
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.undo",
+          "lineNumber": 132
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/gesture/tts-engine.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 165,
+      "nonEmptyLines": 141,
+      "classes": [
+        {
+          "name": "TTSEngine",
+          "startLine": 26,
+          "endLine": 165,
+          "methods": [
+            "constructor",
+            "is_supported",
+            "is_speaking",
+            "update_config",
+            "set_voice",
+            "set_voice_by_name",
+            "get_voices",
+            "speak",
+            "stop",
+            "speak_now",
+            "process_queue",
+            "cache_voices"
+          ],
+          "properties": [
+            "synth",
+            "voice_cache",
+            "selected_voice",
+            "config",
+            "queue",
+            "_speaking",
+            "MAX_QUEUE"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "DEFAULT_TTS_CONFIG",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "TTSEngine",
+          "line": 26,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "constructor",
+          "callee": "this.cache_voices",
+          "lineNumber": 38
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.cache_voices",
+          "lineNumber": 39
+        },
+        {
+          "caller": "update_config",
+          "callee": "Object.assign",
+          "lineNumber": 52
+        },
+        {
+          "caller": "set_voice_by_name",
+          "callee": "this.synth.getVoices().find",
+          "lineNumber": 66
+        },
+        {
+          "caller": "set_voice_by_name",
+          "callee": "this.synth.getVoices",
+          "lineNumber": 66
+        },
+        {
+          "caller": "get_voices",
+          "callee": "this.synth?.getVoices",
+          "lineNumber": 72
+        },
+        {
+          "caller": "speak",
+          "callee": "text.trim",
+          "lineNumber": 79
+        },
+        {
+          "caller": "speak",
+          "callee": "this.synth.cancel",
+          "lineNumber": 82
+        },
+        {
+          "caller": "speak",
+          "callee": "this.speak_now",
+          "lineNumber": 84
+        },
+        {
+          "caller": "speak",
+          "callee": "this.queue.findIndex",
+          "lineNumber": 91
+        },
+        {
+          "caller": "speak",
+          "callee": "this.queue.splice",
+          "lineNumber": 93
+        },
+        {
+          "caller": "speak",
+          "callee": "this.queue.shift",
+          "lineNumber": 95
+        },
+        {
+          "caller": "speak",
+          "callee": "this.queue.push",
+          "lineNumber": 98
+        },
+        {
+          "caller": "speak",
+          "callee": "this.process_queue",
+          "lineNumber": 99
+        },
+        {
+          "caller": "stop",
+          "callee": "this.synth.cancel",
+          "lineNumber": 106
+        },
+        {
+          "caller": "speak_now",
+          "callee": "text.slice",
+          "lineNumber": 116
+        },
+        {
+          "caller": "speak_now",
+          "callee": "this.voice_cache.get",
+          "lineNumber": 125
+        },
+        {
+          "caller": "speak_now",
+          "callee": "this.process_queue",
+          "lineNumber": 130
+        },
+        {
+          "caller": "speak_now",
+          "callee": "this.process_queue",
+          "lineNumber": 134
+        },
+        {
+          "caller": "speak_now",
+          "callee": "this.synth.speak",
+          "lineNumber": 138
+        },
+        {
+          "caller": "process_queue",
+          "callee": "this.queue.shift",
+          "lineNumber": 143
+        },
+        {
+          "caller": "process_queue",
+          "callee": "this.speak_now",
+          "lineNumber": 144
+        },
+        {
+          "caller": "cache_voices",
+          "callee": "this.synth.getVoices",
+          "lineNumber": 149
+        },
+        {
+          "caller": "cache_voices",
+          "callee": "voices.find",
+          "lineNumber": 153
+        },
+        {
+          "caller": "cache_voices",
+          "callee": "this.voice_cache.set",
+          "lineNumber": 154
+        },
+        {
+          "caller": "cache_voices",
+          "callee": "this.voice_cache.has",
+          "lineNumber": 159
+        },
+        {
+          "caller": "cache_voices",
+          "callee": "voices.find",
+          "lineNumber": 160
+        },
+        {
+          "caller": "cache_voices",
+          "callee": "v.lang.startsWith",
+          "lineNumber": 160
+        },
+        {
+          "caller": "cache_voices",
+          "callee": "this.voice_cache.set",
+          "lineNumber": 161
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/gesture/vad.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 66,
+      "nonEmptyLines": 58,
+      "functions": [
+        {
+          "name": "start_vad",
+          "startLine": 28,
+          "endLine": 53,
+          "params": [
+            "config"
+          ]
+        },
+        {
+          "name": "stop_vad",
+          "startLine": 55,
+          "endLine": 62,
+          "params": []
+        },
+        {
+          "name": "is_vad_running",
+          "startLine": 64,
+          "endLine": 66,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "start_vad",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "stop_vad",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "is_vad_running",
+          "line": 64,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "start_vad",
+          "callee": "import",
+          "lineNumber": 30
+        },
+        {
+          "caller": "start_vad",
+          "callee": "config.on_speech_end",
+          "lineNumber": 38
+        },
+        {
+          "caller": "start_vad",
+          "callee": "config.on_speech_start",
+          "lineNumber": 41
+        },
+        {
+          "caller": "start_vad",
+          "callee": "MicVAD.new",
+          "lineNumber": 50
+        },
+        {
+          "caller": "start_vad",
+          "callee": "vad_instance.start",
+          "lineNumber": 51
+        },
+        {
+          "caller": "start_vad",
+          "callee": "console.info",
+          "lineNumber": 52
+        },
+        {
+          "caller": "stop_vad",
+          "callee": "vad_instance.pause",
+          "lineNumber": 57
+        },
+        {
+          "caller": "stop_vad",
+          "callee": "vad_instance.destroy",
+          "lineNumber": 58
+        },
+        {
+          "caller": "stop_vad",
+          "callee": "console.info",
+          "lineNumber": 60
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/gesture/voice-engine.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 242,
+      "nonEmptyLines": 211,
+      "functions": [
+        {
+          "name": "match_command",
+          "startLine": 96,
+          "endLine": 99,
+          "params": [
+            "text",
+            "ai_enabled",
+            "confidence"
+          ]
+        },
+        {
+          "name": "match_command_with_score",
+          "startLine": 102,
+          "endLine": 108,
+          "params": [
+            "text",
+            "ai_enabled",
+            "confidence"
+          ]
+        },
+        {
+          "name": "command_confirmation",
+          "startLine": 113,
+          "endLine": 151,
+          "params": [
+            "action",
+            "lang"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "VoiceEngine",
+          "startLine": 157,
+          "endLine": 242,
+          "methods": [
+            "is_supported",
+            "is_running",
+            "start",
+            "stop",
+            "set_language"
+          ],
+          "properties": [
+            "recognition",
+            "callback",
+            "error_callback",
+            "running"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ELEMENT_MAP",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "COMMANDS",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "match_command",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "match_command_with_score",
+          "line": 102,
+          "isDefault": false
+        },
+        {
+          "name": "command_confirmation",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "VoiceEngine",
+          "line": 157,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "match_command",
+          "callee": "fuzzy_match_command",
+          "lineNumber": 97
+        },
+        {
+          "caller": "match_command_with_score",
+          "callee": "fuzzy_match_command",
+          "lineNumber": 107
+        },
+        {
+          "caller": "command_confirmation",
+          "callee": "lang.startsWith",
+          "lineNumber": 114
+        },
+        {
+          "caller": "start",
+          "callee": "match_command_with_score",
+          "lineNumber": 191
+        },
+        {
+          "caller": "start",
+          "callee": "this.callback",
+          "lineNumber": 193
+        },
+        {
+          "caller": "start",
+          "callee": "performance.now",
+          "lineNumber": 199
+        },
+        {
+          "caller": "start",
+          "callee": "console.warn",
+          "lineNumber": 207
+        },
+        {
+          "caller": "start",
+          "callee": "this.error_callback",
+          "lineNumber": 208
+        },
+        {
+          "caller": "start",
+          "callee": "this.recognition?.start",
+          "lineNumber": 215
+        },
+        {
+          "caller": "start",
+          "callee": "this.recognition.start",
+          "lineNumber": 220
+        },
+        {
+          "caller": "stop",
+          "callee": "this.recognition.stop",
+          "lineNumber": 226
+        },
+        {
+          "caller": "set_language",
+          "callee": "this.stop",
+          "lineNumber": 237
+        },
+        {
+          "caller": "set_language",
+          "callee": "this.start",
+          "lineNumber": 239
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 6,
+        "functionCount": 3,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/gesture/whisper-voice-engine.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 143,
+      "nonEmptyLines": 125,
+      "classes": [
+        {
+          "name": "WhisperVoiceEngine",
+          "startLine": 15,
+          "endLine": 143,
+          "methods": [
+            "constructor",
+            "is_supported",
+            "is_running",
+            "start",
+            "stop",
+            "set_language",
+            "transcribe"
+          ],
+          "properties": [
+            "callback",
+            "error_callback",
+            "running",
+            "api_key",
+            "language",
+            "ai_enabled",
+            "transcribing",
+            "pipeline"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "WhisperVoiceEngine",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "start",
+          "callee": "language.split",
+          "lineNumber": 49
+        },
+        {
+          "caller": "start",
+          "callee": "import",
+          "lineNumber": 57
+        },
+        {
+          "caller": "start",
+          "callee": "create_audio_pipeline",
+          "lineNumber": 58
+        },
+        {
+          "caller": "start",
+          "callee": "console.info",
+          "lineNumber": 60
+        },
+        {
+          "caller": "start",
+          "callee": "console.warn",
+          "lineNumber": 62
+        },
+        {
+          "caller": "start",
+          "callee": "start_vad",
+          "lineNumber": 67
+        },
+        {
+          "caller": "start",
+          "callee": "float32_to_wav",
+          "lineNumber": 69
+        },
+        {
+          "caller": "start",
+          "callee": "this.transcribe",
+          "lineNumber": 70
+        },
+        {
+          "caller": "start",
+          "callee": "console.info",
+          "lineNumber": 76
+        },
+        {
+          "caller": "start",
+          "callee": "console.error",
+          "lineNumber": 78
+        },
+        {
+          "caller": "start",
+          "callee": "this.error_callback",
+          "lineNumber": 79
+        },
+        {
+          "caller": "stop",
+          "callee": "stop_vad",
+          "lineNumber": 85
+        },
+        {
+          "caller": "stop",
+          "callee": "this.pipeline.destroy",
+          "lineNumber": 87
+        },
+        {
+          "caller": "set_language",
+          "callee": "lang.split",
+          "lineNumber": 94
+        },
+        {
+          "caller": "transcribe",
+          "callee": "form.append",
+          "lineNumber": 106
+        },
+        {
+          "caller": "transcribe",
+          "callee": "form.append",
+          "lineNumber": 107
+        },
+        {
+          "caller": "transcribe",
+          "callee": "form.append",
+          "lineNumber": 108
+        },
+        {
+          "caller": "transcribe",
+          "callee": "fetch",
+          "lineNumber": 110
+        },
+        {
+          "caller": "transcribe",
+          "callee": "res.text().catch",
+          "lineNumber": 117
+        },
+        {
+          "caller": "transcribe",
+          "callee": "res.text",
+          "lineNumber": 117
+        },
+        {
+          "caller": "transcribe",
+          "callee": "console.error",
+          "lineNumber": 118
+        },
+        {
+          "caller": "transcribe",
+          "callee": "this.error_callback",
+          "lineNumber": 119
+        },
+        {
+          "caller": "transcribe",
+          "callee": "res.json",
+          "lineNumber": 123
+        },
+        {
+          "caller": "transcribe",
+          "callee": "data.text?.trim",
+          "lineNumber": 124
+        },
+        {
+          "caller": "transcribe",
+          "callee": "match_command_with_score",
+          "lineNumber": 128
+        },
+        {
+          "caller": "transcribe",
+          "callee": "this.callback",
+          "lineNumber": 129
+        },
+        {
+          "caller": "transcribe",
+          "callee": "performance.now",
+          "lineNumber": 135
+        },
+        {
+          "caller": "transcribe",
+          "callee": "console.error",
+          "lineNumber": 138
+        }
+      ],
+      "metrics": {
+        "importCount": 6,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/gesture/workflow-adapter.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 87,
+      "nonEmptyLines": 77,
+      "classes": [
+        {
+          "name": "WorkflowAdapter",
+          "startLine": 29,
+          "endLine": 87,
+          "methods": [
+            "constructor",
+            "set_sensitivity",
+            "process",
+            "process_voice"
+          ],
+          "properties": [
+            "api",
+            "sensitivity"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "WorkflowAdapter",
+          "line": 29,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "process",
+          "callee": "this.api.canvas_size",
+          "lineNumber": 47
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.pan",
+          "lineNumber": 49
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.zoom",
+          "lineNumber": 54
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.node_at",
+          "lineNumber": 58
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.set_hover",
+          "lineNumber": 59
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.node_at",
+          "lineNumber": 63
+        },
+        {
+          "caller": "process",
+          "callee": "this.api.select_node",
+          "lineNumber": 64
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.zoom",
+          "lineNumber": 76
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.zoom",
+          "lineNumber": 77
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.pan",
+          "lineNumber": 78
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.pan",
+          "lineNumber": 79
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.pan",
+          "lineNumber": 80
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.pan",
+          "lineNumber": 81
+        },
+        {
+          "caller": "process_voice",
+          "callee": "this.api.clear_selection",
+          "lineNumber": 84
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/hpc-sessions.svelte.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 66,
+      "nonEmptyLines": 60,
+      "functions": [
+        {
+          "name": "refresh_hpc_sessions",
+          "startLine": 25,
+          "endLine": 45,
+          "params": []
+        },
+        {
+          "name": "add_session",
+          "startLine": 48,
+          "endLine": 60,
+          "params": [
+            "info"
+          ]
+        },
+        {
+          "name": "remove_session",
+          "startLine": 63,
+          "endLine": 66,
+          "params": [
+            "session_id"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "LOCAL_SESSION_ID",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "hpc_session_store",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "refresh_hpc_sessions",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "add_session",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "remove_session",
+          "line": 63,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "refresh_hpc_sessions",
+          "callee": "fetchConnections",
+          "lineNumber": 28
+        },
+        {
+          "caller": "refresh_hpc_sessions",
+          "callee": "seen.has",
+          "lineNumber": 35
+        },
+        {
+          "caller": "refresh_hpc_sessions",
+          "callee": "seen.add",
+          "lineNumber": 36
+        },
+        {
+          "caller": "refresh_hpc_sessions",
+          "callee": "unique.push",
+          "lineNumber": 37
+        },
+        {
+          "caller": "add_session",
+          "callee": "hpc_session_store.sessions.find",
+          "lineNumber": 50
+        },
+        {
+          "caller": "add_session",
+          "callee": "hpc_session_store.sessions.push",
+          "lineNumber": 54
+        },
+        {
+          "caller": "remove_session",
+          "callee": "hpc_session_store.sessions.findIndex",
+          "lineNumber": 64
+        },
+        {
+          "caller": "remove_session",
+          "callee": "hpc_session_store.sessions.splice",
+          "lineNumber": 65
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/en/app.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 159,
+      "nonEmptyLines": 151,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/en/chat.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 162,
+      "nonEmptyLines": 162,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/en/common.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 196,
+      "nonEmptyLines": 188,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/en/mobile.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 115,
+      "nonEmptyLines": 104,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/en/sidebar.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 44,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/en/structure.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1614,
+      "nonEmptyLines": 1600,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/en/workflow.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1246,
+      "nonEmptyLines": 1186,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/index.svelte.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 202,
+      "nonEmptyLines": 175,
+      "functions": [
+        {
+          "name": "get_locale",
+          "startLine": 83,
+          "endLine": 85,
+          "params": []
+        },
+        {
+          "name": "get_preference",
+          "startLine": 88,
+          "endLine": 90,
+          "params": []
+        },
+        {
+          "name": "t",
+          "startLine": 101,
+          "endLine": 120,
+          "params": [
+            "key",
+            "params"
+          ]
+        },
+        {
+          "name": "load_i18n_module",
+          "startLine": 131,
+          "endLine": 146,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "set_locale",
+          "startLine": 155,
+          "endLine": 171,
+          "params": [
+            "pref"
+          ]
+        },
+        {
+          "name": "init_i18n",
+          "startLine": 179,
+          "endLine": 181,
+          "params": []
+        },
+        {
+          "name": "seed_i18n_for_tests",
+          "startLine": 191,
+          "endLine": 202,
+          "params": [
+            "locale",
+            "modules"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_locale",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "get_preference",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "t",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "load_i18n_module",
+          "line": 131,
+          "isDefault": false
+        },
+        {
+          "name": "set_locale",
+          "line": 155,
+          "isDefault": false
+        },
+        {
+          "name": "init_i18n",
+          "line": 179,
+          "isDefault": false
+        },
+        {
+          "name": "seed_i18n_for_tests",
+          "line": 191,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "t",
+          "callee": "key.indexOf",
+          "lineNumber": 105
+        },
+        {
+          "caller": "t",
+          "callee": "key.slice",
+          "lineNumber": 108
+        },
+        {
+          "caller": "t",
+          "callee": "key.slice",
+          "lineNumber": 109
+        },
+        {
+          "caller": "t",
+          "callee": "_cache.get",
+          "lineNumber": 111
+        },
+        {
+          "caller": "t",
+          "callee": "value.replace",
+          "lineNumber": 116
+        },
+        {
+          "caller": "t",
+          "callee": "String",
+          "lineNumber": 118
+        },
+        {
+          "caller": "load_i18n_module",
+          "callee": "_cache.has",
+          "lineNumber": 132
+        },
+        {
+          "caller": "load_i18n_module",
+          "callee": "console.warn",
+          "lineNumber": 136
+        },
+        {
+          "caller": "load_i18n_module",
+          "callee": "importer",
+          "lineNumber": 140
+        },
+        {
+          "caller": "load_i18n_module",
+          "callee": "_cache.set",
+          "lineNumber": 141
+        },
+        {
+          "caller": "load_i18n_module",
+          "callee": "console.error",
+          "lineNumber": 144
+        },
+        {
+          "caller": "set_locale",
+          "callee": "save_preference",
+          "lineNumber": 157
+        },
+        {
+          "caller": "set_locale",
+          "callee": "resolve_locale",
+          "lineNumber": 159
+        },
+        {
+          "caller": "set_locale",
+          "callee": "_cache.keys",
+          "lineNumber": 165
+        },
+        {
+          "caller": "set_locale",
+          "callee": "_cache.clear",
+          "lineNumber": 166
+        },
+        {
+          "caller": "set_locale",
+          "callee": "Promise.all",
+          "lineNumber": 170
+        },
+        {
+          "caller": "set_locale",
+          "callee": "active_modules.map",
+          "lineNumber": 170
+        },
+        {
+          "caller": "set_locale",
+          "callee": "load_i18n_module",
+          "lineNumber": 170
+        },
+        {
+          "caller": "init_i18n",
+          "callee": "load_i18n_module",
+          "lineNumber": 180
+        },
+        {
+          "caller": "seed_i18n_for_tests",
+          "callee": "_cache.clear",
+          "lineNumber": 197
+        },
+        {
+          "caller": "seed_i18n_for_tests",
+          "callee": "Object.entries",
+          "lineNumber": 198
+        },
+        {
+          "caller": "seed_i18n_for_tests",
+          "callee": "_cache.set",
+          "lineNumber": 199
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/locale-detect.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 74,
+      "nonEmptyLines": 67,
+      "functions": [
+        {
+          "name": "get_saved_preference",
+          "startLine": 14,
+          "endLine": 26,
+          "params": []
+        },
+        {
+          "name": "save_preference",
+          "startLine": 29,
+          "endLine": 37,
+          "params": [
+            "pref"
+          ]
+        },
+        {
+          "name": "detect_system_locale",
+          "startLine": 45,
+          "endLine": 55,
+          "params": []
+        },
+        {
+          "name": "resolve_locale",
+          "startLine": 62,
+          "endLine": 65,
+          "params": [
+            "pref"
+          ]
+        },
+        {
+          "name": "get_initial_locale",
+          "startLine": 72,
+          "endLine": 74,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_saved_preference",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "save_preference",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "detect_system_locale",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "resolve_locale",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "get_initial_locale",
+          "line": 72,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_saved_preference",
+          "callee": "localStorage.getItem",
+          "lineNumber": 17
+        },
+        {
+          "caller": "save_preference",
+          "callee": "localStorage.setItem",
+          "lineNumber": 32
+        },
+        {
+          "caller": "detect_system_locale",
+          "callee": "lang.startsWith",
+          "lineNumber": 49
+        },
+        {
+          "caller": "resolve_locale",
+          "callee": "detect_system_locale",
+          "lineNumber": 64
+        },
+        {
+          "caller": "get_initial_locale",
+          "callee": "resolve_locale",
+          "lineNumber": 73
+        },
+        {
+          "caller": "get_initial_locale",
+          "callee": "get_saved_preference",
+          "lineNumber": 73
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/LocaleSwitch.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 77,
+      "nonEmptyLines": 71,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/i18n/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 26,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/zh/app.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 159,
+      "nonEmptyLines": 151,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/zh/chat.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 162,
+      "nonEmptyLines": 162,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/zh/common.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 195,
+      "nonEmptyLines": 187,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/zh/mobile.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 115,
+      "nonEmptyLines": 104,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/zh/sidebar.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 44,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/zh/structure.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1614,
+      "nonEmptyLines": 1600,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/i18n/zh/workflow.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1247,
+      "nonEmptyLines": 1187,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,4913 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/tests/test_graph_converter_ids.py",
+      "type": "file",
+      "name": "test_graph_converter_ids.py",
+      "filePath": "server/tests/test_graph_converter_ids.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_graph_converter_ids.py 场景中的核心逻辑与边界情况。结构提取发现 6 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter_ids.py:_make_db",
+      "type": "function",
+      "name": "_make_db",
+      "filePath": "server/tests/test_graph_converter_ids.py",
+      "lineRange": [
+        10,
+        13
+      ],
+      "summary": "封装测试模块中的 _make_db 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter_ids.py:test_node_ids_preserved",
+      "type": "function",
+      "name": "test_node_ids_preserved",
+      "filePath": "server/tests/test_graph_converter_ids.py",
+      "lineRange": [
+        16,
+        33
+      ],
+      "summary": "封装测试模块中的 test_node_ids_preserved 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter_ids.py:test_graph_json_stored_on_workflow",
+      "type": "function",
+      "name": "test_graph_json_stored_on_workflow",
+      "filePath": "server/tests/test_graph_converter_ids.py",
+      "lineRange": [
+        36,
+        46
+      ],
+      "summary": "封装测试模块中的 test_graph_json_stored_on_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter_ids.py:test_links_use_original_ids",
+      "type": "function",
+      "name": "test_links_use_original_ids",
+      "filePath": "server/tests/test_graph_converter_ids.py",
+      "lineRange": [
+        49,
+        68
+      ],
+      "summary": "封装测试模块中的 test_links_use_original_ids 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter_ids.py:test_explicit_workflow_id",
+      "type": "function",
+      "name": "test_explicit_workflow_id",
+      "filePath": "server/tests/test_graph_converter_ids.py",
+      "lineRange": [
+        71,
+        91
+      ],
+      "summary": "封装测试模块中的 test_explicit_workflow_id 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter_ids.py:test_rerun_with_same_workflow_id",
+      "type": "function",
+      "name": "test_rerun_with_same_workflow_id",
+      "filePath": "server/tests/test_graph_converter_ids.py",
+      "lineRange": [
+        94,
+        113
+      ],
+      "summary": "封装测试模块中的 test_rerun_with_same_workflow_id 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_graph_converter.py",
+      "type": "file",
+      "name": "test_graph_converter.py",
+      "filePath": "server/tests/test_graph_converter.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_graph_converter.py 场景中的核心逻辑与边界情况。结构提取发现 6 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter.py:db",
+      "type": "function",
+      "name": "db",
+      "filePath": "server/tests/test_graph_converter.py",
+      "lineRange": [
+        11,
+        12
+      ],
+      "summary": "封装测试模块中的 db 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter.py:test_converts_nodes_to_tasks",
+      "type": "function",
+      "name": "test_converts_nodes_to_tasks",
+      "filePath": "server/tests/test_graph_converter.py",
+      "lineRange": [
+        28,
+        35
+      ],
+      "summary": "封装测试模块中的 test_converts_nodes_to_tasks 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter.py:test_converts_edges_to_links",
+      "type": "function",
+      "name": "test_converts_edges_to_links",
+      "filePath": "server/tests/test_graph_converter.py",
+      "lineRange": [
+        38,
+        45
+      ],
+      "summary": "封装测试模块中的 test_converts_edges_to_links 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter.py:test_preserves_params",
+      "type": "function",
+      "name": "test_preserves_params",
+      "filePath": "server/tests/test_graph_converter.py",
+      "lineRange": [
+        48,
+        54
+      ],
+      "summary": "封装测试模块中的 test_preserves_params 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter.py:test_preserves_software_field",
+      "type": "function",
+      "name": "test_preserves_software_field",
+      "filePath": "server/tests/test_graph_converter.py",
+      "lineRange": [
+        57,
+        61
+      ],
+      "summary": "封装测试模块中的 test_preserves_software_field 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_graph_converter.py:test_empty_graph",
+      "type": "function",
+      "name": "test_empty_graph",
+      "filePath": "server/tests/test_graph_converter.py",
+      "lineRange": [
+        64,
+        68
+      ],
+      "summary": "封装测试模块中的 test_empty_graph 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_hpc_dry_run.py",
+      "type": "file",
+      "name": "test_hpc_dry_run.py",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_hpc_dry_run.py 场景中的核心逻辑与边界情况。结构提取发现 11 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:db",
+      "type": "function",
+      "name": "db",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        18,
+        19
+      ],
+      "summary": "封装测试模块中的 db 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:config",
+      "type": "function",
+      "name": "config",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        23,
+        36
+      ],
+      "summary": "封装测试模块中的 config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:_create_geo_opt_workflow",
+      "type": "function",
+      "name": "_create_geo_opt_workflow",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        39,
+        45
+      ],
+      "summary": "封装测试模块中的 _create_geo_opt_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:_run",
+      "type": "function",
+      "name": "_run",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        48,
+        54
+      ],
+      "summary": "封装测试模块中的 _run 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:_mock_hpc_patches",
+      "type": "function",
+      "name": "_mock_hpc_patches",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        57,
+        63
+      ],
+      "summary": "封装测试模块中的 _mock_hpc_patches 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:test_local_task_completes",
+      "type": "function",
+      "name": "test_local_task_completes",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        66,
+        83
+      ],
+      "summary": "封装测试模块中的 test_local_task_completes 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:test_full_hpc_lifecycle_mocked",
+      "type": "function",
+      "name": "test_full_hpc_lifecycle_mocked",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        86,
+        170
+      ],
+      "summary": "封装测试模块中的 test_full_hpc_lifecycle_mocked 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:test_error_handler_retries",
+      "type": "function",
+      "name": "test_error_handler_retries",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        173,
+        196
+      ],
+      "summary": "封装测试模块中的 test_error_handler_retries 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:test_poller_marks_remote_error_when_no_connection",
+      "type": "function",
+      "name": "test_poller_marks_remote_error_when_no_connection",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        199,
+        232
+      ],
+      "summary": "封装测试模块中的 test_poller_marks_remote_error_when_no_connection 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:test_poller_lost_connection_triggers_retry_to_ready",
+      "type": "function",
+      "name": "test_poller_lost_connection_triggers_retry_to_ready",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        235,
+        274
+      ],
+      "summary": "封装测试模块中的 test_poller_lost_connection_triggers_retry_to_ready 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_hpc_dry_run.py:test_hpc_config_default_session_key",
+      "type": "function",
+      "name": "test_hpc_config_default_session_key",
+      "filePath": "server/tests/test_hpc_dry_run.py",
+      "lineRange": [
+        277,
+        305
+      ],
+      "summary": "封装测试模块中的 test_hpc_config_default_session_key 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_integration_local.py",
+      "type": "file",
+      "name": "test_integration_local.py",
+      "filePath": "server/tests/test_integration_local.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_integration_local.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_integration_local.py:TestLocalWorkflowEndToEnd",
+      "type": "class",
+      "name": "TestLocalWorkflowEndToEnd",
+      "filePath": "server/tests/test_integration_local.py",
+      "lineRange": [
+        10,
+        71
+      ],
+      "summary": "定义测试模块中的 TestLocalWorkflowEndToEnd 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_job_script.py",
+      "type": "file",
+      "name": "test_job_script.py",
+      "filePath": "server/tests/test_job_script.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_job_script.py 场景中的核心逻辑与边界情况。结构提取发现 12 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:task",
+      "type": "function",
+      "name": "task",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        8,
+        9
+      ],
+      "summary": "封装测试模块中的 task 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:config",
+      "type": "function",
+      "name": "config",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        13,
+        29
+      ],
+      "summary": "封装测试模块中的 config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_generates_sbatch_headers",
+      "type": "function",
+      "name": "test_generates_sbatch_headers",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        32,
+        39
+      ],
+      "summary": "封装测试模块中的 test_generates_sbatch_headers 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_includes_run_command",
+      "type": "function",
+      "name": "test_includes_run_command",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        42,
+        44
+      ],
+      "summary": "封装测试模块中的 test_includes_run_command 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_includes_module_loads",
+      "type": "function",
+      "name": "test_includes_module_loads",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        47,
+        49
+      ],
+      "summary": "封装测试模块中的 test_includes_module_loads 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_includes_env_setup",
+      "type": "function",
+      "name": "test_includes_env_setup",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        52,
+        54
+      ],
+      "summary": "封装测试模块中的 test_includes_env_setup 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_params_override_defaults",
+      "type": "function",
+      "name": "test_params_override_defaults",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        57,
+        62
+      ],
+      "summary": "封装测试模块中的 test_params_override_defaults 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_custodian_overrides_vasp_command",
+      "type": "function",
+      "name": "test_custodian_overrides_vasp_command",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        65,
+        69
+      ],
+      "summary": "封装测试模块中的 test_custodian_overrides_vasp_command 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_vasp_executable_override",
+      "type": "function",
+      "name": "test_vasp_executable_override",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        72,
+        75
+      ],
+      "summary": "封装测试模块中的 test_vasp_executable_override 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_custom_template",
+      "type": "function",
+      "name": "test_custom_template",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        78,
+        82
+      ],
+      "summary": "封装测试模块中的 test_custom_template 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_default_engine_commands",
+      "type": "function",
+      "name": "test_default_engine_commands",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        85,
+        88
+      ],
+      "summary": "封装测试模块中的 test_default_engine_commands 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_job_script.py:test_strips_empty_sbatch_lines",
+      "type": "function",
+      "name": "test_strips_empty_sbatch_lines",
+      "filePath": "server/tests/test_job_script.py",
+      "lineRange": [
+        91,
+        94
+      ],
+      "summary": "封装测试模块中的 test_strips_empty_sbatch_lines 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_lammps_engine_def.py",
+      "type": "file",
+      "name": "test_lammps_engine_def.py",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_lammps_engine_def.py 场景中的核心逻辑与边界情况。结构提取发现 2 个函数和 8 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_lammps_engine_def.py:raw_spec",
+      "type": "function",
+      "name": "raw_spec",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        20,
+        22
+      ],
+      "summary": "封装测试模块中的 raw_spec 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_lammps_engine_def.py:spec",
+      "type": "function",
+      "name": "spec",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        26,
+        28
+      ],
+      "summary": "封装测试模块中的 spec 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_lammps_engine_def.py:TestLammpsYamlLoads",
+      "type": "class",
+      "name": "TestLammpsYamlLoads",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        31,
+        39
+      ],
+      "summary": "定义测试模块中的 TestLammpsYamlLoads 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_lammps_engine_def.py:TestLammpsEngineIdentity",
+      "type": "class",
+      "name": "TestLammpsEngineIdentity",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        42,
+        50
+      ],
+      "summary": "定义测试模块中的 TestLammpsEngineIdentity 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_lammps_engine_def.py:TestLammpsCalcTypes",
+      "type": "class",
+      "name": "TestLammpsCalcTypes",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        53,
+        64
+      ],
+      "summary": "定义测试模块中的 TestLammpsCalcTypes 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_lammps_engine_def.py:TestLammpsParams",
+      "type": "class",
+      "name": "TestLammpsParams",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        67,
+        108
+      ],
+      "summary": "定义测试模块中的 TestLammpsParams 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_lammps_engine_def.py:TestLammpsInputFiles",
+      "type": "class",
+      "name": "TestLammpsInputFiles",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        111,
+        119
+      ],
+      "summary": "定义测试模块中的 TestLammpsInputFiles 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_lammps_engine_def.py:TestLammpsRunAndOutput",
+      "type": "class",
+      "name": "TestLammpsRunAndOutput",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        122,
+        133
+      ],
+      "summary": "定义测试模块中的 TestLammpsRunAndOutput 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_lammps_engine_def.py:TestLammpsHooks",
+      "type": "class",
+      "name": "TestLammpsHooks",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        136,
+        144
+      ],
+      "summary": "定义测试模块中的 TestLammpsHooks 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_lammps_engine_def.py:TestLammpsSafety",
+      "type": "class",
+      "name": "TestLammpsSafety",
+      "filePath": "server/tests/test_lammps_engine_def.py",
+      "lineRange": [
+        147,
+        149
+      ],
+      "summary": "定义测试模块中的 TestLammpsSafety 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_lateral_hetero_mcp.py",
+      "type": "file",
+      "name": "test_lateral_hetero_mcp.py",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_lateral_hetero_mcp.py 场景中的核心逻辑与边界情况。结构提取发现 5 个函数和 4 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_lateral_hetero_mcp.py:_slab",
+      "type": "function",
+      "name": "_slab",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "lineRange": [
+        60,
+        67
+      ],
+      "summary": "封装测试模块中的 _slab 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_lateral_hetero_mcp.py:_hetero_tool",
+      "type": "function",
+      "name": "_hetero_tool",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "lineRange": [
+        74,
+        78
+      ],
+      "summary": "封装测试模块中的 _hetero_tool 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_lateral_hetero_mcp.py:test_search_lateral_routes_to_endpoint",
+      "type": "function",
+      "name": "test_search_lateral_routes_to_endpoint",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "lineRange": [
+        120,
+        149
+      ],
+      "summary": "封装测试模块中的 test_search_lateral_routes_to_endpoint 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_lateral_hetero_mcp.py:test_build_lateral_searches_then_builds_and_pushes",
+      "type": "function",
+      "name": "test_build_lateral_searches_then_builds_and_pushes",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "lineRange": [
+        153,
+        195
+      ],
+      "summary": "封装测试模块中的 test_build_lateral_searches_then_builds_and_pushes 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_lateral_hetero_mcp.py:test_lateral_params_clamped_to_backend_range",
+      "type": "function",
+      "name": "test_lateral_params_clamped_to_backend_range",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "lineRange": [
+        199,
+        223
+      ],
+      "summary": "封装测试模块中的 test_lateral_params_clamped_to_backend_range 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_lateral_hetero_mcp.py:_FakeResponse",
+      "type": "class",
+      "name": "_FakeResponse",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "lineRange": [
+        29,
+        36
+      ],
+      "summary": "定义测试模块中的 _FakeResponse 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_lateral_hetero_mcp.py:_FakeClient",
+      "type": "class",
+      "name": "_FakeClient",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "lineRange": [
+        39,
+        55
+      ],
+      "summary": "定义测试模块中的 _FakeClient 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_lateral_hetero_mcp.py:TestLateralSchema",
+      "type": "class",
+      "name": "TestLateralSchema",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "lineRange": [
+        81,
+        92
+      ],
+      "summary": "定义测试模块中的 TestLateralSchema 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_lateral_hetero_mcp.py:TestLateralDeclarativeTools",
+      "type": "class",
+      "name": "TestLateralDeclarativeTools",
+      "filePath": "server/tests/test_lateral_hetero_mcp.py",
+      "lineRange": [
+        99,
+        112
+      ],
+      "summary": "定义测试模块中的 TestLateralDeclarativeTools 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_local_calculations_e2e.py",
+      "type": "file",
+      "name": "test_local_calculations_e2e.py",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_local_calculations_e2e.py 场景中的核心逻辑与边界情况。结构提取发现 2 个函数和 7 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_local_calculations_e2e.py:_make_poscar_from_dict",
+      "type": "function",
+      "name": "_make_poscar_from_dict",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "lineRange": [
+        62,
+        81
+      ],
+      "summary": "封装测试模块中的 _make_poscar_from_dict 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_local_calculations_e2e.py:_run_script_in_dir",
+      "type": "function",
+      "name": "_run_script_in_dir",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "lineRange": [
+        84,
+        96
+      ],
+      "summary": "封装测试模块中的 _run_script_in_dir 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_local_calculations_e2e.py:TestXtbGeoOpt",
+      "type": "class",
+      "name": "TestXtbGeoOpt",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "lineRange": [
+        103,
+        155
+      ],
+      "summary": "定义测试模块中的 TestXtbGeoOpt 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_local_calculations_e2e.py:TestXtbSinglePoint",
+      "type": "class",
+      "name": "TestXtbSinglePoint",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "lineRange": [
+        158,
+        207
+      ],
+      "summary": "定义测试模块中的 TestXtbSinglePoint 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_local_calculations_e2e.py:TestMlpGeoOpt",
+      "type": "class",
+      "name": "TestMlpGeoOpt",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "lineRange": [
+        214,
+        296
+      ],
+      "summary": "定义测试模块中的 TestMlpGeoOpt 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_local_calculations_e2e.py:TestMlpMD",
+      "type": "class",
+      "name": "TestMlpMD",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "lineRange": [
+        299,
+        354
+      ],
+      "summary": "定义测试模块中的 TestMlpMD 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_local_calculations_e2e.py:TestSellaTS",
+      "type": "class",
+      "name": "TestSellaTS",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "lineRange": [
+        361,
+        398
+      ],
+      "summary": "定义测试模块中的 TestSellaTS 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_local_calculations_e2e.py:TestLammpsMD",
+      "type": "class",
+      "name": "TestLammpsMD",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "lineRange": [
+        405,
+        484
+      ],
+      "summary": "定义测试模块中的 TestLammpsMD 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_local_calculations_e2e.py:TestDeclarativeToExecution",
+      "type": "class",
+      "name": "TestDeclarativeToExecution",
+      "filePath": "server/tests/test_local_calculations_e2e.py",
+      "lineRange": [
+        491,
+        562
+      ],
+      "summary": "定义测试模块中的 TestDeclarativeToExecution 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_mace_ni_benchmark.py",
+      "type": "file",
+      "name": "test_mace_ni_benchmark.py",
+      "filePath": "server/tests/test_mace_ni_benchmark.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_mace_ni_benchmark.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 4 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_mace_ni_benchmark.py:TestMetadataPreamble",
+      "type": "class",
+      "name": "TestMetadataPreamble",
+      "filePath": "server/tests/test_mace_ni_benchmark.py",
+      "lineRange": [
+        30,
+        49
+      ],
+      "summary": "定义测试模块中的 TestMetadataPreamble 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_mace_ni_benchmark.py:TestIsValidTsFlag",
+      "type": "class",
+      "name": "TestIsValidTsFlag",
+      "filePath": "server/tests/test_mace_ni_benchmark.py",
+      "lineRange": [
+        56,
+        73
+      ],
+      "summary": "定义测试模块中的 TestIsValidTsFlag 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_mace_ni_benchmark.py:TestHpcTemplateCoverage",
+      "type": "class",
+      "name": "TestHpcTemplateCoverage",
+      "filePath": "server/tests/test_mace_ni_benchmark.py",
+      "lineRange": [
+        80,
+        113
+      ],
+      "summary": "定义测试模块中的 TestHpcTemplateCoverage 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_mace_ni_benchmark.py:TestEndToEndSmoke",
+      "type": "class",
+      "name": "TestEndToEndSmoke",
+      "filePath": "server/tests/test_mace_ni_benchmark.py",
+      "lineRange": [
+        121,
+        184
+      ],
+      "summary": "定义测试模块中的 TestEndToEndSmoke 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_mace_relax_local.py",
+      "type": "file",
+      "name": "test_mace_relax_local.py",
+      "filePath": "server/tests/test_mace_relax_local.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_mace_relax_local.py 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_mace_relax_local.py:test_mace_relax",
+      "type": "function",
+      "name": "test_mace_relax",
+      "filePath": "server/tests/test_mace_relax_local.py",
+      "lineRange": [
+        22,
+        97
+      ],
+      "summary": "封装测试模块中的 test_mace_relax 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_mace_surface_energy.py",
+      "type": "file",
+      "name": "test_mace_surface_energy.py",
+      "filePath": "server/tests/test_mace_surface_energy.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_mace_surface_energy.py 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_mace_surface_energy.py:test_surface_energy",
+      "type": "function",
+      "name": "test_surface_energy",
+      "filePath": "server/tests/test_mace_surface_energy.py",
+      "lineRange": [
+        21,
+        169
+      ],
+      "summary": "封装测试模块中的 test_surface_energy 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_map.py",
+      "type": "file",
+      "name": "test_map.py",
+      "filePath": "server/tests/test_map.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_map.py 场景中的核心逻辑与边界情况。结构提取发现 7 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_map.py:_make_db",
+      "type": "function",
+      "name": "_make_db",
+      "filePath": "server/tests/test_map.py",
+      "lineRange": [
+        13,
+        16
+      ],
+      "summary": "封装测试模块中的 _make_db 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_map.py:test_map_creates_children",
+      "type": "function",
+      "name": "test_map_creates_children",
+      "filePath": "server/tests/test_map.py",
+      "lineRange": [
+        19,
+        41
+      ],
+      "summary": "封装测试模块中的 test_map_creates_children 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_map.py:test_map_over_must_have_one_key",
+      "type": "function",
+      "name": "test_map_over_must_have_one_key",
+      "filePath": "server/tests/test_map.py",
+      "lineRange": [
+        44,
+        54
+      ],
+      "summary": "封装测试模块中的 test_map_over_must_have_one_key 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_map.py:test_map_children_execute",
+      "type": "function",
+      "name": "test_map_children_execute",
+      "filePath": "server/tests/test_map.py",
+      "lineRange": [
+        57,
+        80
+      ],
+      "summary": "封装测试模块中的 test_map_children_execute 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_map.py:test_map_gather",
+      "type": "function",
+      "name": "test_map_gather",
+      "filePath": "server/tests/test_map.py",
+      "lineRange": [
+        83,
+        104
+      ],
+      "summary": "封装测试模块中的 test_map_gather 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_map.py:test_map_with_common_kwargs",
+      "type": "function",
+      "name": "test_map_with_common_kwargs",
+      "filePath": "server/tests/test_map.py",
+      "lineRange": [
+        107,
+        126
+      ],
+      "summary": "封装测试模块中的 test_map_with_common_kwargs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_map.py:test_map_controller_name",
+      "type": "function",
+      "name": "test_map_controller_name",
+      "filePath": "server/tests/test_map.py",
+      "lineRange": [
+        129,
+        140
+      ],
+      "summary": "封装测试模块中的 test_map_controller_name 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_mcp_tools.py",
+      "type": "file",
+      "name": "test_mcp_tools.py",
+      "filePath": "server/tests/test_mcp_tools.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_mcp_tools.py 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_mcp_tools.py:_get_tools",
+      "type": "function",
+      "name": "_get_tools",
+      "filePath": "server/tests/test_mcp_tools.py",
+      "lineRange": [
+        19,
+        25
+      ],
+      "summary": "封装测试模块中的 _get_tools 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_mcp_tools.py:TestMCPToolDefinitions",
+      "type": "class",
+      "name": "TestMCPToolDefinitions",
+      "filePath": "server/tests/test_mcp_tools.py",
+      "lineRange": [
+        28,
+        140
+      ],
+      "summary": "定义测试模块中的 TestMCPToolDefinitions 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_mcp_workflow.py",
+      "type": "file",
+      "name": "test_mcp_workflow.py",
+      "filePath": "server/tests/test_mcp_workflow.py",
+      "summary": "覆盖工作流相关行为的测试文件，验证 test_mcp_workflow.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "工作流"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_mcp_workflow.py:TestMCPWorkflow",
+      "type": "class",
+      "name": "TestMCPWorkflow",
+      "filePath": "server/tests/test_mcp_workflow.py",
+      "lineRange": [
+        7,
+        101
+      ],
+      "summary": "定义工作流模块中的 TestMCPWorkflow 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_md_paper_features.py",
+      "type": "file",
+      "name": "test_md_paper_features.py",
+      "filePath": "server/tests/test_md_paper_features.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_md_paper_features.py 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 2 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_md_paper_features.py:_load_module_without_imports",
+      "type": "function",
+      "name": "_load_module_without_imports",
+      "filePath": "server/tests/test_md_paper_features.py",
+      "lineRange": [
+        23,
+        79
+      ],
+      "summary": "封装测试模块中的 _load_module_without_imports 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_md_paper_features.py:MSDKernelTests",
+      "type": "class",
+      "name": "MSDKernelTests",
+      "filePath": "server/tests/test_md_paper_features.py",
+      "lineRange": [
+        92,
+        134
+      ],
+      "summary": "定义测试模块中的 MSDKernelTests 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_md_paper_features.py:CavitationKernelTests",
+      "type": "class",
+      "name": "CavitationKernelTests",
+      "filePath": "server/tests/test_md_paper_features.py",
+      "lineRange": [
+        137,
+        165
+      ],
+      "summary": "定义测试模块中的 CavitationKernelTests 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_mlp_neb.py",
+      "type": "file",
+      "name": "test_mlp_neb.py",
+      "filePath": "server/tests/test_mlp_neb.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_mlp_neb.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 4 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_mlp_neb.py:TestNodeRegistration",
+      "type": "class",
+      "name": "TestNodeRegistration",
+      "filePath": "server/tests/test_mlp_neb.py",
+      "lineRange": [
+        19,
+        38
+      ],
+      "summary": "定义测试模块中的 TestNodeRegistration 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_mlp_neb.py:TestScriptGeneration",
+      "type": "class",
+      "name": "TestScriptGeneration",
+      "filePath": "server/tests/test_mlp_neb.py",
+      "lineRange": [
+        56,
+        122
+      ],
+      "summary": "定义测试模块中的 TestScriptGeneration 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_mlp_neb.py:TestResultParsing",
+      "type": "class",
+      "name": "TestResultParsing",
+      "filePath": "server/tests/test_mlp_neb.py",
+      "lineRange": [
+        129,
+        172
+      ],
+      "summary": "定义测试模块中的 TestResultParsing 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_mlp_neb.py:TestDualStructureInput",
+      "type": "class",
+      "name": "TestDualStructureInput",
+      "filePath": "server/tests/test_mlp_neb.py",
+      "lineRange": [
+        179,
+        197
+      ],
+      "summary": "定义测试模块中的 TestDualStructureInput 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_mlp_single_point.py",
+      "type": "file",
+      "name": "test_mlp_single_point.py",
+      "filePath": "server/tests/test_mlp_single_point.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_mlp_single_point.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 4 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_mlp_single_point.py:TestNodeRegistration",
+      "type": "class",
+      "name": "TestNodeRegistration",
+      "filePath": "server/tests/test_mlp_single_point.py",
+      "lineRange": [
+        19,
+        40
+      ],
+      "summary": "定义测试模块中的 TestNodeRegistration 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_mlp_single_point.py:TestScriptGeneration",
+      "type": "class",
+      "name": "TestScriptGeneration",
+      "filePath": "server/tests/test_mlp_single_point.py",
+      "lineRange": [
+        47,
+        107
+      ],
+      "summary": "定义测试模块中的 TestScriptGeneration 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_mlp_single_point.py:TestResultParsing",
+      "type": "class",
+      "name": "TestResultParsing",
+      "filePath": "server/tests/test_mlp_single_point.py",
+      "lineRange": [
+        114,
+        147
+      ],
+      "summary": "定义测试模块中的 TestResultParsing 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_mlp_single_point.py:TestDownstreamCompatibility",
+      "type": "class",
+      "name": "TestDownstreamCompatibility",
+      "filePath": "server/tests/test_mlp_single_point.py",
+      "lineRange": [
+        154,
+        168
+      ],
+      "summary": "定义测试模块中的 TestDownstreamCompatibility 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_mlp_vibrations.py",
+      "type": "file",
+      "name": "test_mlp_vibrations.py",
+      "filePath": "server/tests/test_mlp_vibrations.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_mlp_vibrations.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 5 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_mlp_vibrations.py:TestNodeRegistration",
+      "type": "class",
+      "name": "TestNodeRegistration",
+      "filePath": "server/tests/test_mlp_vibrations.py",
+      "lineRange": [
+        20,
+        41
+      ],
+      "summary": "定义测试模块中的 TestNodeRegistration 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_mlp_vibrations.py:TestScriptGeneration",
+      "type": "class",
+      "name": "TestScriptGeneration",
+      "filePath": "server/tests/test_mlp_vibrations.py",
+      "lineRange": [
+        48,
+        125
+      ],
+      "summary": "定义测试模块中的 TestScriptGeneration 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_mlp_vibrations.py:TestVibrationIndicesBlock",
+      "type": "class",
+      "name": "TestVibrationIndicesBlock",
+      "filePath": "server/tests/test_mlp_vibrations.py",
+      "lineRange": [
+        132,
+        161
+      ],
+      "summary": "定义测试模块中的 TestVibrationIndicesBlock 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_mlp_vibrations.py:TestFrequencyParsing",
+      "type": "class",
+      "name": "TestFrequencyParsing",
+      "filePath": "server/tests/test_mlp_vibrations.py",
+      "lineRange": [
+        168,
+        212
+      ],
+      "summary": "定义测试模块中的 TestFrequencyParsing 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_mlp_vibrations.py:TestGibbsCompatibility",
+      "type": "class",
+      "name": "TestGibbsCompatibility",
+      "filePath": "server/tests/test_mlp_vibrations.py",
+      "lineRange": [
+        219,
+        259
+      ],
+      "summary": "定义测试模块中的 TestGibbsCompatibility 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_mofdb.py",
+      "type": "file",
+      "name": "test_mofdb.py",
+      "filePath": "server/tests/test_mofdb.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_mofdb.py 场景中的核心逻辑与边界情况。结构提取发现 12 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:_install_fake",
+      "type": "function",
+      "name": "_install_fake",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        39,
+        59
+      ],
+      "summary": "封装测试模块中的 _install_fake 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_search_maps_mofs_to_hits",
+      "type": "function",
+      "name": "test_search_maps_mofs_to_hits",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        62,
+        76
+      ],
+      "summary": "封装测试模块中的 test_search_maps_mofs_to_hits 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_search_caps_at_limit_without_passing_limit_to_fetch",
+      "type": "function",
+      "name": "test_search_caps_at_limit_without_passing_limit_to_fetch",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        79,
+        87
+      ],
+      "summary": "封装测试模块中的 test_search_caps_at_limit_without_passing_limit_to_fetch 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_get_structure_by_name_database",
+      "type": "function",
+      "name": "test_get_structure_by_name_database",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        90,
+        101
+      ],
+      "summary": "封装测试模块中的 test_get_structure_by_name_database 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_get_structure_unknown_raises_lookuperror",
+      "type": "function",
+      "name": "test_get_structure_unknown_raises_lookuperror",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        104,
+        109
+      ],
+      "summary": "封装测试模块中的 test_get_structure_unknown_raises_lookuperror 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_search_without_client_raises_runtimeerror",
+      "type": "function",
+      "name": "test_search_without_client_raises_runtimeerror",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        112,
+        117
+      ],
+      "summary": "封装测试模块中的 test_search_without_client_raises_runtimeerror 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_router_search_returns_hits",
+      "type": "function",
+      "name": "test_router_search_returns_hits",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        120,
+        129
+      ],
+      "summary": "封装测试模块中的 test_router_search_returns_hits 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_router_structure_returns_pymatgen",
+      "type": "function",
+      "name": "test_router_structure_returns_pymatgen",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        132,
+        140
+      ],
+      "summary": "封装测试模块中的 test_router_structure_returns_pymatgen 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_router_structure_unknown_404",
+      "type": "function",
+      "name": "test_router_structure_unknown_404",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        143,
+        150
+      ],
+      "summary": "封装测试模块中的 test_router_structure_unknown_404 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_router_search_not_installed_503",
+      "type": "function",
+      "name": "test_router_search_not_installed_503",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        153,
+        161
+      ],
+      "summary": "封装测试模块中的 test_router_search_not_installed_503 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_search_times_out",
+      "type": "function",
+      "name": "test_search_times_out",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        164,
+        181
+      ],
+      "summary": "封装测试模块中的 test_search_times_out 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_mofdb.py:test_live_mofx_roundtrip",
+      "type": "function",
+      "name": "test_live_mofx_roundtrip",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        188,
+        200
+      ],
+      "summary": "封装测试模块中的 test_live_mofx_roundtrip 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_mofdb.py:_FakeMof",
+      "type": "class",
+      "name": "_FakeMof",
+      "filePath": "server/tests/test_mofdb.py",
+      "lineRange": [
+        12,
+        18
+      ],
+      "summary": "定义测试模块中的 _FakeMof 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "type": "file",
+      "name": "test_oer_shaheen_gibbs.py",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_oer_shaheen_gibbs.py 场景中的核心逻辑与边界情况。结构提取发现 9 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen_gibbs.py:uid",
+      "type": "function",
+      "name": "uid",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "lineRange": [
+        61,
+        62
+      ],
+      "summary": "封装测试模块中的 uid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen_gibbs.py:check_prereqs",
+      "type": "function",
+      "name": "check_prereqs",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "lineRange": [
+        65,
+        86
+      ],
+      "summary": "封装测试模块中的 check_prereqs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen_gibbs.py:shaheen_config",
+      "type": "function",
+      "name": "shaheen_config",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "lineRange": [
+        89,
+        144
+      ],
+      "summary": "封装测试模块中的 shaheen_config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen_gibbs.py:build_oer_graph",
+      "type": "function",
+      "name": "build_oer_graph",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "lineRange": [
+        196,
+        265
+      ],
+      "summary": "封装测试模块中的 build_oer_graph 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen_gibbs.py:create_and_submit",
+      "type": "function",
+      "name": "create_and_submit",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "lineRange": [
+        268,
+        287
+      ],
+      "summary": "封装测试模块中的 create_and_submit 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen_gibbs.py:poll_workflow",
+      "type": "function",
+      "name": "poll_workflow",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "lineRange": [
+        290,
+        341
+      ],
+      "summary": "封装测试模块中的 poll_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen_gibbs.py:get_task_result",
+      "type": "function",
+      "name": "get_task_result",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "lineRange": [
+        344,
+        346
+      ],
+      "summary": "封装测试模块中的 get_task_result 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen_gibbs.py:compute_oer_from_gibbs",
+      "type": "function",
+      "name": "compute_oer_from_gibbs",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "lineRange": [
+        349,
+        586
+      ],
+      "summary": "封装测试模块中的 compute_oer_from_gibbs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen_gibbs.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "server/tests/test_oer_shaheen_gibbs.py",
+      "lineRange": [
+        591,
+        649
+      ],
+      "summary": "封装测试模块中的 main 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_oer_shaheen.py",
+      "type": "file",
+      "name": "test_oer_shaheen.py",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_oer_shaheen.py 场景中的核心逻辑与边界情况。结构提取发现 9 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen.py:uid",
+      "type": "function",
+      "name": "uid",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "lineRange": [
+        60,
+        61
+      ],
+      "summary": "封装测试模块中的 uid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen.py:check_prereqs",
+      "type": "function",
+      "name": "check_prereqs",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "lineRange": [
+        64,
+        82
+      ],
+      "summary": "封装测试模块中的 check_prereqs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen.py:shaheen_config",
+      "type": "function",
+      "name": "shaheen_config",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "lineRange": [
+        85,
+        145
+      ],
+      "summary": "封装测试模块中的 shaheen_config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen.py:build_oer_graph",
+      "type": "function",
+      "name": "build_oer_graph",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "lineRange": [
+        171,
+        253
+      ],
+      "summary": "封装测试模块中的 build_oer_graph 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen.py:create_and_submit",
+      "type": "function",
+      "name": "create_and_submit",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "lineRange": [
+        256,
+        280
+      ],
+      "summary": "封装测试模块中的 create_and_submit 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen.py:poll_workflow",
+      "type": "function",
+      "name": "poll_workflow",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "lineRange": [
+        283,
+        331
+      ],
+      "summary": "封装测试模块中的 poll_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen.py:get_energy",
+      "type": "function",
+      "name": "get_energy",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "lineRange": [
+        334,
+        340
+      ],
+      "summary": "封装测试模块中的 get_energy 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen.py:compute_oer_and_diagram",
+      "type": "function",
+      "name": "compute_oer_and_diagram",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "lineRange": [
+        343,
+        545
+      ],
+      "summary": "封装测试模块中的 compute_oer_and_diagram 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:server/tests/test_oer_shaheen.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "server/tests/test_oer_shaheen.py",
+      "lineRange": [
+        550,
+        601
+      ],
+      "summary": "封装测试模块中的 main 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_orca_engine_def.py",
+      "type": "file",
+      "name": "test_orca_engine_def.py",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_orca_engine_def.py 场景中的核心逻辑与边界情况。结构提取发现 2 个函数和 8 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_orca_engine_def.py:raw_spec",
+      "type": "function",
+      "name": "raw_spec",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        20,
+        22
+      ],
+      "summary": "封装测试模块中的 raw_spec 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_orca_engine_def.py:spec",
+      "type": "function",
+      "name": "spec",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        26,
+        28
+      ],
+      "summary": "封装测试模块中的 spec 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_orca_engine_def.py:TestOrcaYamlLoads",
+      "type": "class",
+      "name": "TestOrcaYamlLoads",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        31,
+        39
+      ],
+      "summary": "定义测试模块中的 TestOrcaYamlLoads 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_orca_engine_def.py:TestOrcaEngineIdentity",
+      "type": "class",
+      "name": "TestOrcaEngineIdentity",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        42,
+        50
+      ],
+      "summary": "定义测试模块中的 TestOrcaEngineIdentity 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_orca_engine_def.py:TestOrcaCalcTypes",
+      "type": "class",
+      "name": "TestOrcaCalcTypes",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        53,
+        88
+      ],
+      "summary": "定义测试模块中的 TestOrcaCalcTypes 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_orca_engine_def.py:TestOrcaParams",
+      "type": "class",
+      "name": "TestOrcaParams",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        91,
+        167
+      ],
+      "summary": "定义测试模块中的 TestOrcaParams 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:server/tests/test_orca_engine_def.py:TestOrcaInputFiles",
+      "type": "class",
+      "name": "TestOrcaInputFiles",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        170,
+        184
+      ],
+      "summary": "定义测试模块中的 TestOrcaInputFiles 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_orca_engine_def.py:TestOrcaRunAndOutput",
+      "type": "class",
+      "name": "TestOrcaRunAndOutput",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        187,
+        201
+      ],
+      "summary": "定义测试模块中的 TestOrcaRunAndOutput 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_orca_engine_def.py:TestOrcaHooks",
+      "type": "class",
+      "name": "TestOrcaHooks",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        204,
+        212
+      ],
+      "summary": "定义测试模块中的 TestOrcaHooks 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_orca_engine_def.py:TestOrcaSafety",
+      "type": "class",
+      "name": "TestOrcaSafety",
+      "filePath": "server/tests/test_orca_engine_def.py",
+      "lineRange": [
+        215,
+        217
+      ],
+      "summary": "定义测试模块中的 TestOrcaSafety 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_orca_results_e2e.py",
+      "type": "file",
+      "name": "test_orca_results_e2e.py",
+      "filePath": "server/tests/test_orca_results_e2e.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_orca_results_e2e.py 场景中的核心逻辑与边界情况。结构提取发现 3 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_orca_results_e2e.py:test_orca_freq_results_stored_and_retrieved",
+      "type": "function",
+      "name": "test_orca_freq_results_stored_and_retrieved",
+      "filePath": "server/tests/test_orca_results_e2e.py",
+      "lineRange": [
+        18,
+        131
+      ],
+      "summary": "封装测试模块中的 test_orca_freq_results_stored_and_retrieved 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_orca_results_e2e.py:test_orca_opt_convergence_stored_and_retrieved",
+      "type": "function",
+      "name": "test_orca_opt_convergence_stored_and_retrieved",
+      "filePath": "server/tests/test_orca_results_e2e.py",
+      "lineRange": [
+        135,
+        213
+      ],
+      "summary": "封装测试模块中的 test_orca_opt_convergence_stored_and_retrieved 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_orca_results_e2e.py:test_api_enriched_results_includes_v2_tasks",
+      "type": "function",
+      "name": "test_api_enriched_results_includes_v2_tasks",
+      "filePath": "server/tests/test_orca_results_e2e.py",
+      "lineRange": [
+        217,
+        236
+      ],
+      "summary": "封装测试模块中的 test_api_enriched_results_includes_v2_tasks 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_provenance.py",
+      "type": "file",
+      "name": "test_provenance.py",
+      "filePath": "server/tests/test_provenance.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_provenance.py 场景中的核心逻辑与边界情况。结构提取发现 2 个函数和 4 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_provenance.py:db",
+      "type": "function",
+      "name": "db",
+      "filePath": "server/tests/test_provenance.py",
+      "lineRange": [
+        16,
+        17
+      ],
+      "summary": "封装测试模块中的 db 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_provenance.py:wf_with_chain",
+      "type": "function",
+      "name": "wf_with_chain",
+      "filePath": "server/tests/test_provenance.py",
+      "lineRange": [
+        21,
+        35
+      ],
+      "summary": "封装测试模块中的 wf_with_chain 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_provenance.py:TestHashConsistency",
+      "type": "class",
+      "name": "TestHashConsistency",
+      "filePath": "server/tests/test_provenance.py",
+      "lineRange": [
+        38,
+        56
+      ],
+      "summary": "定义测试模块中的 TestHashConsistency 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_provenance.py:TestRecordAndTrace",
+      "type": "class",
+      "name": "TestRecordAndTrace",
+      "filePath": "server/tests/test_provenance.py",
+      "lineRange": [
+        59,
+        148
+      ],
+      "summary": "定义测试模块中的 TestRecordAndTrace 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_provenance.py:TestFindDuplicate",
+      "type": "class",
+      "name": "TestFindDuplicate",
+      "filePath": "server/tests/test_provenance.py",
+      "lineRange": [
+        151,
+        185
+      ],
+      "summary": "定义测试模块中的 TestFindDuplicate 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_provenance.py:TestDBProvenance",
+      "type": "class",
+      "name": "TestDBProvenance",
+      "filePath": "server/tests/test_provenance.py",
+      "lineRange": [
+        188,
+        217
+      ],
+      "summary": "定义测试模块中的 TestDBProvenance 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_reference.py",
+      "type": "file",
+      "name": "test_reference.py",
+      "filePath": "server/tests/test_reference.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_reference.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_reference.py:TestOutputReference",
+      "type": "class",
+      "name": "TestOutputReference",
+      "filePath": "server/tests/test_reference.py",
+      "lineRange": [
+        4,
+        32
+      ],
+      "summary": "定义测试模块中的 TestOutputReference 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:_make_db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_node_ids_preserved",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_graph_json_stored_on_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_links_use_original_ids",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_explicit_workflow_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_rerun_with_same_workflow_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:_make_db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_node_ids_preserved",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_graph_json_stored_on_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_links_use_original_ids",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_explicit_workflow_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter_ids.py",
+      "target": "function:server/tests/test_graph_converter_ids.py:test_rerun_with_same_workflow_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_converts_nodes_to_tasks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_converts_edges_to_links",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_preserves_params",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_preserves_software_field",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_empty_graph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_converts_nodes_to_tasks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_converts_edges_to_links",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_preserves_params",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_preserves_software_field",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_graph_converter.py",
+      "target": "function:server/tests/test_graph_converter.py:test_empty_graph",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:_create_geo_opt_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:_mock_hpc_patches",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_local_task_completes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_full_hpc_lifecycle_mocked",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_error_handler_retries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_poller_marks_remote_error_when_no_connection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_poller_lost_connection_triggers_retry_to_ready",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_hpc_config_default_session_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:_create_geo_opt_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:_mock_hpc_patches",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_local_task_completes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_full_hpc_lifecycle_mocked",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_error_handler_retries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_poller_marks_remote_error_when_no_connection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_poller_lost_connection_triggers_retry_to_ready",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_hpc_dry_run.py",
+      "target": "function:server/tests/test_hpc_dry_run.py:test_hpc_config_default_session_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_integration_local.py",
+      "target": "class:server/tests/test_integration_local.py:TestLocalWorkflowEndToEnd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_integration_local.py",
+      "target": "class:server/tests/test_integration_local.py:TestLocalWorkflowEndToEnd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:task",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_generates_sbatch_headers",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_includes_run_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_includes_module_loads",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_includes_env_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_params_override_defaults",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_custodian_overrides_vasp_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_vasp_executable_override",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_custom_template",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_default_engine_commands",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_strips_empty_sbatch_lines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:task",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_generates_sbatch_headers",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_includes_run_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_includes_module_loads",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_includes_env_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_params_override_defaults",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_custodian_overrides_vasp_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_vasp_executable_override",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_custom_template",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_default_engine_commands",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_job_script.py",
+      "target": "function:server/tests/test_job_script.py:test_strips_empty_sbatch_lines",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "function:server/tests/test_lammps_engine_def.py:raw_spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "function:server/tests/test_lammps_engine_def.py:spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsYamlLoads",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsEngineIdentity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsCalcTypes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsInputFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsRunAndOutput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsHooks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsSafety",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "function:server/tests/test_lammps_engine_def.py:raw_spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "function:server/tests/test_lammps_engine_def.py:spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsYamlLoads",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsEngineIdentity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsCalcTypes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsInputFiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsRunAndOutput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsHooks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lammps_engine_def.py",
+      "target": "class:server/tests/test_lammps_engine_def.py:TestLammpsSafety",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:_slab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:_hetero_tool",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:test_search_lateral_routes_to_endpoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:test_build_lateral_searches_then_builds_and_pushes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:test_lateral_params_clamped_to_backend_range",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "class:server/tests/test_lateral_hetero_mcp.py:_FakeResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "class:server/tests/test_lateral_hetero_mcp.py:_FakeClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "class:server/tests/test_lateral_hetero_mcp.py:TestLateralSchema",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "class:server/tests/test_lateral_hetero_mcp.py:TestLateralDeclarativeTools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:_slab",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:_hetero_tool",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:test_search_lateral_routes_to_endpoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:test_build_lateral_searches_then_builds_and_pushes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "function:server/tests/test_lateral_hetero_mcp.py:test_lateral_params_clamped_to_backend_range",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "class:server/tests/test_lateral_hetero_mcp.py:_FakeResponse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "class:server/tests/test_lateral_hetero_mcp.py:_FakeClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "class:server/tests/test_lateral_hetero_mcp.py:TestLateralSchema",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_lateral_hetero_mcp.py",
+      "target": "class:server/tests/test_lateral_hetero_mcp.py:TestLateralDeclarativeTools",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "function:server/tests/test_local_calculations_e2e.py:_make_poscar_from_dict",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "function:server/tests/test_local_calculations_e2e.py:_run_script_in_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestXtbGeoOpt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestXtbSinglePoint",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestMlpGeoOpt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestMlpMD",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestSellaTS",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestLammpsMD",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestDeclarativeToExecution",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "function:server/tests/test_local_calculations_e2e.py:_make_poscar_from_dict",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "function:server/tests/test_local_calculations_e2e.py:_run_script_in_dir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestXtbGeoOpt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestXtbSinglePoint",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestMlpGeoOpt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestMlpMD",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestSellaTS",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestLammpsMD",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_local_calculations_e2e.py",
+      "target": "class:server/tests/test_local_calculations_e2e.py:TestDeclarativeToExecution",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mace_ni_benchmark.py",
+      "target": "class:server/tests/test_mace_ni_benchmark.py:TestMetadataPreamble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mace_ni_benchmark.py",
+      "target": "class:server/tests/test_mace_ni_benchmark.py:TestIsValidTsFlag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mace_ni_benchmark.py",
+      "target": "class:server/tests/test_mace_ni_benchmark.py:TestHpcTemplateCoverage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mace_ni_benchmark.py",
+      "target": "class:server/tests/test_mace_ni_benchmark.py:TestEndToEndSmoke",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mace_ni_benchmark.py",
+      "target": "class:server/tests/test_mace_ni_benchmark.py:TestMetadataPreamble",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mace_ni_benchmark.py",
+      "target": "class:server/tests/test_mace_ni_benchmark.py:TestIsValidTsFlag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mace_ni_benchmark.py",
+      "target": "class:server/tests/test_mace_ni_benchmark.py:TestHpcTemplateCoverage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mace_ni_benchmark.py",
+      "target": "class:server/tests/test_mace_ni_benchmark.py:TestEndToEndSmoke",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mace_relax_local.py",
+      "target": "function:server/tests/test_mace_relax_local.py:test_mace_relax",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mace_relax_local.py",
+      "target": "function:server/tests/test_mace_relax_local.py:test_mace_relax",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mace_surface_energy.py",
+      "target": "function:server/tests/test_mace_surface_energy.py:test_surface_energy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mace_surface_energy.py",
+      "target": "function:server/tests/test_mace_surface_energy.py:test_surface_energy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:_make_db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_creates_children",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_over_must_have_one_key",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_children_execute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_gather",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_with_common_kwargs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_controller_name",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:_make_db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_creates_children",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_over_must_have_one_key",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_children_execute",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_gather",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_with_common_kwargs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_map.py",
+      "target": "function:server/tests/test_map.py:test_map_controller_name",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mcp_tools.py",
+      "target": "function:server/tests/test_mcp_tools.py:_get_tools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mcp_tools.py",
+      "target": "class:server/tests/test_mcp_tools.py:TestMCPToolDefinitions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mcp_tools.py",
+      "target": "function:server/tests/test_mcp_tools.py:_get_tools",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mcp_tools.py",
+      "target": "class:server/tests/test_mcp_tools.py:TestMCPToolDefinitions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mcp_workflow.py",
+      "target": "class:server/tests/test_mcp_workflow.py:TestMCPWorkflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mcp_workflow.py",
+      "target": "class:server/tests/test_mcp_workflow.py:TestMCPWorkflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_md_paper_features.py",
+      "target": "function:server/tests/test_md_paper_features.py:_load_module_without_imports",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_md_paper_features.py",
+      "target": "class:server/tests/test_md_paper_features.py:MSDKernelTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_md_paper_features.py",
+      "target": "class:server/tests/test_md_paper_features.py:CavitationKernelTests",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_md_paper_features.py",
+      "target": "function:server/tests/test_md_paper_features.py:_load_module_without_imports",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_md_paper_features.py",
+      "target": "class:server/tests/test_md_paper_features.py:MSDKernelTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_md_paper_features.py",
+      "target": "class:server/tests/test_md_paper_features.py:CavitationKernelTests",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_neb.py",
+      "target": "class:server/tests/test_mlp_neb.py:TestNodeRegistration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_neb.py",
+      "target": "class:server/tests/test_mlp_neb.py:TestScriptGeneration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_neb.py",
+      "target": "class:server/tests/test_mlp_neb.py:TestResultParsing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_neb.py",
+      "target": "class:server/tests/test_mlp_neb.py:TestDualStructureInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_neb.py",
+      "target": "class:server/tests/test_mlp_neb.py:TestNodeRegistration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_neb.py",
+      "target": "class:server/tests/test_mlp_neb.py:TestScriptGeneration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_neb.py",
+      "target": "class:server/tests/test_mlp_neb.py:TestResultParsing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_neb.py",
+      "target": "class:server/tests/test_mlp_neb.py:TestDualStructureInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_single_point.py",
+      "target": "class:server/tests/test_mlp_single_point.py:TestNodeRegistration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_single_point.py",
+      "target": "class:server/tests/test_mlp_single_point.py:TestScriptGeneration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_single_point.py",
+      "target": "class:server/tests/test_mlp_single_point.py:TestResultParsing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_single_point.py",
+      "target": "class:server/tests/test_mlp_single_point.py:TestDownstreamCompatibility",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_single_point.py",
+      "target": "class:server/tests/test_mlp_single_point.py:TestNodeRegistration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_single_point.py",
+      "target": "class:server/tests/test_mlp_single_point.py:TestScriptGeneration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_single_point.py",
+      "target": "class:server/tests/test_mlp_single_point.py:TestResultParsing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_single_point.py",
+      "target": "class:server/tests/test_mlp_single_point.py:TestDownstreamCompatibility",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestNodeRegistration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestScriptGeneration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestVibrationIndicesBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestFrequencyParsing",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestGibbsCompatibility",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestNodeRegistration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestScriptGeneration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestVibrationIndicesBlock",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestFrequencyParsing",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mlp_vibrations.py",
+      "target": "class:server/tests/test_mlp_vibrations.py:TestGibbsCompatibility",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:_install_fake",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_search_maps_mofs_to_hits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_search_caps_at_limit_without_passing_limit_to_fetch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_get_structure_by_name_database",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_get_structure_unknown_raises_lookuperror",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_search_without_client_raises_runtimeerror",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_router_search_returns_hits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_router_structure_returns_pymatgen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_router_structure_unknown_404",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_router_search_not_installed_503",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_search_times_out",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_live_mofx_roundtrip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "class:server/tests/test_mofdb.py:_FakeMof",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:_install_fake",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_search_maps_mofs_to_hits",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_search_caps_at_limit_without_passing_limit_to_fetch",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_get_structure_by_name_database",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_get_structure_unknown_raises_lookuperror",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_search_without_client_raises_runtimeerror",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_router_search_returns_hits",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_router_structure_returns_pymatgen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_router_structure_unknown_404",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_router_search_not_installed_503",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_search_times_out",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "function:server/tests/test_mofdb.py:test_live_mofx_roundtrip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_mofdb.py",
+      "target": "class:server/tests/test_mofdb.py:_FakeMof",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:uid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:check_prereqs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:shaheen_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:build_oer_graph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:create_and_submit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:poll_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:get_task_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:compute_oer_from_gibbs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:uid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:check_prereqs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:shaheen_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:build_oer_graph",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:create_and_submit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:poll_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:get_task_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:compute_oer_from_gibbs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen_gibbs.py",
+      "target": "function:server/tests/test_oer_shaheen_gibbs.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:uid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:check_prereqs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:shaheen_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:build_oer_graph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:create_and_submit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:poll_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:get_energy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:compute_oer_and_diagram",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:uid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:check_prereqs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:shaheen_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:build_oer_graph",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:create_and_submit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:poll_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:get_energy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:compute_oer_and_diagram",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_oer_shaheen.py",
+      "target": "function:server/tests/test_oer_shaheen.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "function:server/tests/test_orca_engine_def.py:raw_spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "function:server/tests/test_orca_engine_def.py:spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaYamlLoads",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaEngineIdentity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaCalcTypes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaInputFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaRunAndOutput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaHooks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaSafety",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "function:server/tests/test_orca_engine_def.py:raw_spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "function:server/tests/test_orca_engine_def.py:spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaYamlLoads",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaEngineIdentity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaCalcTypes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaInputFiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaRunAndOutput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaHooks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_engine_def.py",
+      "target": "class:server/tests/test_orca_engine_def.py:TestOrcaSafety",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_results_e2e.py",
+      "target": "function:server/tests/test_orca_results_e2e.py:test_orca_freq_results_stored_and_retrieved",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_results_e2e.py",
+      "target": "function:server/tests/test_orca_results_e2e.py:test_orca_opt_convergence_stored_and_retrieved",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_results_e2e.py",
+      "target": "function:server/tests/test_orca_results_e2e.py:test_api_enriched_results_includes_v2_tasks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_orca_results_e2e.py",
+      "target": "function:server/tests/test_orca_results_e2e.py:test_orca_freq_results_stored_and_retrieved",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_results_e2e.py",
+      "target": "function:server/tests/test_orca_results_e2e.py:test_orca_opt_convergence_stored_and_retrieved",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_orca_results_e2e.py",
+      "target": "function:server/tests/test_orca_results_e2e.py:test_api_enriched_results_includes_v2_tasks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "function:server/tests/test_provenance.py:db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "function:server/tests/test_provenance.py:wf_with_chain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "class:server/tests/test_provenance.py:TestHashConsistency",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "class:server/tests/test_provenance.py:TestRecordAndTrace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "class:server/tests/test_provenance.py:TestFindDuplicate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "class:server/tests/test_provenance.py:TestDBProvenance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "function:server/tests/test_provenance.py:db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "function:server/tests/test_provenance.py:wf_with_chain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "class:server/tests/test_provenance.py:TestHashConsistency",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "class:server/tests/test_provenance.py:TestRecordAndTrace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "class:server/tests/test_provenance.py:TestFindDuplicate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_provenance.py",
+      "target": "class:server/tests/test_provenance.py:TestDBProvenance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_reference.py",
+      "target": "class:server/tests/test_reference.py:TestOutputReference",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_reference.py",
+      "target": "class:server/tests/test_reference.py:TestOutputReference",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

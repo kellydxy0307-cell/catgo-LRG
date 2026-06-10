@@ -1,0 +1,764 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/trajectory/parse.ts",
+      "type": "file",
+      "name": "parse.ts",
+      "filePath": "src/lib/trajectory/parse.ts",
+      "summary": "parse.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parse.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/ase.ts",
+      "type": "file",
+      "name": "ase.ts",
+      "filePath": "src/lib/trajectory/parsers/ase.ts",
+      "summary": "ase.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/ase.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "file",
+      "name": "common.ts",
+      "filePath": "src/lib/trajectory/parsers/common.ts",
+      "summary": "common.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/common.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/frame-loader.ts",
+      "type": "file",
+      "name": "frame-loader.ts",
+      "filePath": "src/lib/trajectory/parsers/frame-loader.ts",
+      "summary": "frame-loader.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/frame-loader.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/gaussian.ts",
+      "type": "file",
+      "name": "gaussian.ts",
+      "filePath": "src/lib/trajectory/parsers/gaussian.ts",
+      "summary": "gaussian.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/gaussian.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/hdf5.ts",
+      "type": "file",
+      "name": "hdf5.ts",
+      "filePath": "src/lib/trajectory/parsers/hdf5.ts",
+      "summary": "hdf5.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/hdf5.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/trajectory/parsers/index.ts",
+      "summary": "index.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/index.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/json.ts",
+      "type": "file",
+      "name": "json.ts",
+      "filePath": "src/lib/trajectory/parsers/json.ts",
+      "summary": "json.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/json.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/lammps.ts",
+      "type": "file",
+      "name": "lammps.ts",
+      "filePath": "src/lib/trajectory/parsers/lammps.ts",
+      "summary": "lammps.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/lammps.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/vasp.ts",
+      "type": "file",
+      "name": "vasp.ts",
+      "filePath": "src/lib/trajectory/parsers/vasp.ts",
+      "summary": "vasp.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/vasp.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/parsers/xyz.ts",
+      "type": "file",
+      "name": "xyz.ts",
+      "filePath": "src/lib/trajectory/parsers/xyz.ts",
+      "summary": "xyz.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/parsers/xyz.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/PathwayControls.svelte",
+      "type": "file",
+      "name": "PathwayControls.svelte",
+      "filePath": "src/lib/trajectory/PathwayControls.svelte",
+      "summary": "PathwayControls.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/trajectory/PathwayControls.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/plotting.ts",
+      "type": "file",
+      "name": "plotting.ts",
+      "filePath": "src/lib/trajectory/plotting.ts",
+      "summary": "plotting.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/plotting.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/remote-frame-loader.ts",
+      "type": "file",
+      "name": "remote-frame-loader.ts",
+      "filePath": "src/lib/trajectory/remote-frame-loader.ts",
+      "summary": "remote-frame-loader.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/remote-frame-loader.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/trajectory-controls.ts",
+      "type": "file",
+      "name": "trajectory-controls.ts",
+      "filePath": "src/lib/trajectory/trajectory-controls.ts",
+      "summary": "trajectory-controls.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/trajectory-controls.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/trajectory-utils.ts",
+      "type": "file",
+      "name": "trajectory-utils.ts",
+      "filePath": "src/lib/trajectory/trajectory-utils.ts",
+      "summary": "trajectory-utils.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/trajectory/trajectory-utils.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/Trajectory.svelte",
+      "type": "file",
+      "name": "Trajectory.svelte",
+      "filePath": "src/lib/trajectory/Trajectory.svelte",
+      "summary": "Trajectory.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/trajectory/Trajectory.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/TrajectoryError.svelte",
+      "type": "file",
+      "name": "TrajectoryError.svelte",
+      "filePath": "src/lib/trajectory/TrajectoryError.svelte",
+      "summary": "TrajectoryError.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/trajectory/TrajectoryError.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/TrajectoryExportPane.svelte",
+      "type": "file",
+      "name": "TrajectoryExportPane.svelte",
+      "filePath": "src/lib/trajectory/TrajectoryExportPane.svelte",
+      "summary": "TrajectoryExportPane.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/trajectory/TrajectoryExportPane.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/trajectory/TrajectoryInfoPane.svelte",
+      "type": "file",
+      "name": "TrajectoryInfoPane.svelte",
+      "filePath": "src/lib/trajectory/TrajectoryInfoPane.svelte",
+      "summary": "TrajectoryInfoPane.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/trajectory/TrajectoryInfoPane.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/utils.ts",
+      "type": "file",
+      "name": "utils.ts",
+      "filePath": "src/lib/utils.ts",
+      "summary": "utils.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/utils.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/AdsorbatePlacePanel.svelte",
+      "type": "file",
+      "name": "AdsorbatePlacePanel.svelte",
+      "filePath": "src/lib/workflow/AdsorbatePlacePanel.svelte",
+      "summary": "AdsorbatePlacePanel.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/AdsorbatePlacePanel.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/BatchPanel.svelte",
+      "type": "file",
+      "name": "BatchPanel.svelte",
+      "filePath": "src/lib/workflow/BatchPanel.svelte",
+      "summary": "BatchPanel.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/BatchPanel.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/BatchStatusPanel.svelte",
+      "type": "file",
+      "name": "BatchStatusPanel.svelte",
+      "filePath": "src/lib/workflow/BatchStatusPanel.svelte",
+      "summary": "BatchStatusPanel.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/BatchStatusPanel.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/BatchStatusSection.svelte",
+      "type": "file",
+      "name": "BatchStatusSection.svelte",
+      "filePath": "src/lib/workflow/BatchStatusSection.svelte",
+      "summary": "BatchStatusSection.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/BatchStatusSection.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/constants.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/structure/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/trajectory/parsers/ase.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/trajectory/parsers/gaussian.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/trajectory/parsers/hdf5.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/trajectory/parsers/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/trajectory/parsers/json.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/trajectory/parsers/lammps.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/trajectory/parsers/vasp.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parse.ts",
+      "target": "file:src/lib/trajectory/parsers/xyz.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/ase.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/ase.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/ase.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/common.ts",
+      "target": "file:src/lib/composition/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/common.ts",
+      "target": "file:src/lib/constants.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/common.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/common.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/common.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/frame-loader.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/frame-loader.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/frame-loader.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/frame-loader.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/gaussian.ts",
+      "target": "file:src/lib/composition/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/gaussian.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/gaussian.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/gaussian.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/hdf5.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/hdf5.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/hdf5.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/hdf5.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/json.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/json.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/json.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/json.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/lammps.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/lammps.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/lammps.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/lammps.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/vasp.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/vasp.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/vasp.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/vasp.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/xyz.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/xyz.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/xyz.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/parsers/xyz.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/plotting.ts",
+      "target": "file:src/lib/colors/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/plotting.ts",
+      "target": "file:src/lib/labels.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/plotting.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/plotting.ts",
+      "target": "file:src/lib/plot/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/plotting.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/remote-frame-loader.ts",
+      "target": "file:src/lib/api/config.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/remote-frame-loader.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/remote-frame-loader.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/remote-frame-loader.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/trajectory-controls.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/trajectory/trajectory-utils.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/structure/catrender/drag-rotate-action.ts",
+      "language": "typescript",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/pick-hit.ts",
+      "language": "typescript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/CellSelect.svelte",
+      "language": "svelte",
+      "sizeLines": 453,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/charge-label-rendering.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 153,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/clone.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/analysis-controller.ts",
+      "language": "typescript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/analysis.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 161,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/build-tools.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/context-menu-actions.ts",
+      "language": "typescript",
+      "sizeLines": 555,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/file-handlers.ts",
+      "language": "typescript",
+      "sizeLines": 461,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/fragments.ts",
+      "language": "typescript",
+      "sizeLines": 199,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/interaction.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 1709,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/pencil-mode.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 784,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/settings.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 377,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/tool-controller.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 535,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/tool-handler.ts",
+      "language": "typescript",
+      "sizeLines": 260,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/transform-controller.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 234,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/transform-controller.ts",
+      "language": "typescript",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/viewer-controller.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/viewer-controller.ts",
+      "language": "typescript",
+      "sizeLines": 246,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/controllers/xrd-state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 294,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/CoordinationPolyhedra.svelte",
+      "language": "svelte",
+      "sizeLines": 164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/CubeIsosurface.svelte",
+      "language": "svelte",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/CubePanel.svelte",
+      "language": "svelte",
+      "sizeLines": 731,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/current-structure.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/structure/catrender/drag-rotate-action.ts": [],
+    "src/lib/structure/catrender/pick-hit.ts": [],
+    "src/lib/structure/CellSelect.svelte": [],
+    "src/lib/structure/charge-label-rendering.svelte.ts": [],
+    "src/lib/structure/clone.ts": [],
+    "src/lib/structure/controllers/analysis-controller.ts": [],
+    "src/lib/structure/controllers/analysis.svelte.ts": [],
+    "src/lib/structure/controllers/build-tools.svelte.ts": [],
+    "src/lib/structure/controllers/context-menu-actions.ts": [],
+    "src/lib/structure/controllers/file-handlers.ts": [],
+    "src/lib/structure/controllers/fragments.ts": [],
+    "src/lib/structure/controllers/interaction.svelte.ts": [],
+    "src/lib/structure/controllers/pencil-mode.svelte.ts": [],
+    "src/lib/structure/controllers/settings.svelte.ts": [],
+    "src/lib/structure/controllers/tool-controller.svelte.ts": [],
+    "src/lib/structure/controllers/tool-handler.ts": [],
+    "src/lib/structure/controllers/transform-controller.svelte.ts": [],
+    "src/lib/structure/controllers/transform-controller.ts": [],
+    "src/lib/structure/controllers/viewer-controller.svelte.ts": [],
+    "src/lib/structure/controllers/viewer-controller.ts": [],
+    "src/lib/structure/controllers/xrd-state.svelte.ts": [],
+    "src/lib/structure/CoordinationPolyhedra.svelte": [],
+    "src/lib/structure/CubeIsosurface.svelte": [],
+    "src/lib/structure/CubePanel.svelte": [],
+    "src/lib/structure/current-structure.svelte.ts": []
+  }
+}

@@ -1,0 +1,406 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/structure/BuildPane.svelte",
+      "type": "file",
+      "name": "BuildPane.svelte",
+      "filePath": "src/lib/structure/BuildPane.svelte",
+      "summary": "BuildPane.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/BuildPane.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/CanvasTooltip.svelte",
+      "type": "file",
+      "name": "CanvasTooltip.svelte",
+      "filePath": "src/lib/structure/CanvasTooltip.svelte",
+      "summary": "CanvasTooltip.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/CanvasTooltip.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/__tests__/pick-hit.test.ts",
+      "type": "file",
+      "name": "pick-hit.test.ts",
+      "filePath": "src/lib/structure/catrender/__tests__/pick-hit.test.ts",
+      "summary": "pick-hit.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/structure/catrender/__tests__/pick-hit.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/catrender-wasm.ts",
+      "type": "file",
+      "name": "catrender-wasm.ts",
+      "filePath": "src/lib/structure/catrender/catrender-wasm.ts",
+      "summary": "catrender-wasm.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/structure/catrender/catrender-wasm.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/CatRenderParamsPane.svelte",
+      "type": "file",
+      "name": "CatRenderParamsPane.svelte",
+      "filePath": "src/lib/structure/catrender/CatRenderParamsPane.svelte",
+      "summary": "CatRenderParamsPane.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/catrender/CatRenderParamsPane.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/CatRenderViewPane.svelte",
+      "type": "file",
+      "name": "CatRenderViewPane.svelte",
+      "filePath": "src/lib/structure/catrender/CatRenderViewPane.svelte",
+      "summary": "CatRenderViewPane.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/catrender/CatRenderViewPane.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/drag-rotate-action.ts",
+      "type": "file",
+      "name": "drag-rotate-action.ts",
+      "filePath": "src/lib/structure/catrender/drag-rotate-action.ts",
+      "summary": "drag-rotate-action.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/structure/catrender/drag-rotate-action.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/catrender/pick-hit.ts",
+      "type": "file",
+      "name": "pick-hit.ts",
+      "filePath": "src/lib/structure/catrender/pick-hit.ts",
+      "summary": "pick-hit.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/structure/catrender/pick-hit.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/CellSelect.svelte",
+      "type": "file",
+      "name": "CellSelect.svelte",
+      "filePath": "src/lib/structure/CellSelect.svelte",
+      "summary": "CellSelect.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/CellSelect.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/CoordinationPolyhedra.svelte",
+      "type": "file",
+      "name": "CoordinationPolyhedra.svelte",
+      "filePath": "src/lib/structure/CoordinationPolyhedra.svelte",
+      "summary": "CoordinationPolyhedra.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/CoordinationPolyhedra.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/CubeIsosurface.svelte",
+      "type": "file",
+      "name": "CubeIsosurface.svelte",
+      "filePath": "src/lib/structure/CubeIsosurface.svelte",
+      "summary": "CubeIsosurface.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/CubeIsosurface.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/CubePanel.svelte",
+      "type": "file",
+      "name": "CubePanel.svelte",
+      "filePath": "src/lib/structure/CubePanel.svelte",
+      "summary": "CubePanel.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/CubePanel.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/CuttingPlaneVisualizer.svelte",
+      "type": "file",
+      "name": "CuttingPlaneVisualizer.svelte",
+      "filePath": "src/lib/structure/CuttingPlaneVisualizer.svelte",
+      "summary": "CuttingPlaneVisualizer.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/CuttingPlaneVisualizer.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/Cylinder.svelte",
+      "type": "file",
+      "name": "Cylinder.svelte",
+      "filePath": "src/lib/structure/Cylinder.svelte",
+      "summary": "Cylinder.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/Cylinder.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/DashedBond.svelte",
+      "type": "file",
+      "name": "DashedBond.svelte",
+      "filePath": "src/lib/structure/DashedBond.svelte",
+      "summary": "DashedBond.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/DashedBond.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/DopingPane.svelte",
+      "type": "file",
+      "name": "DopingPane.svelte",
+      "filePath": "src/lib/structure/DopingPane.svelte",
+      "summary": "DopingPane.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/DopingPane.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/DopingPTPanel.svelte",
+      "type": "file",
+      "name": "DopingPTPanel.svelte",
+      "filePath": "src/lib/structure/DopingPTPanel.svelte",
+      "summary": "DopingPTPanel.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/DopingPTPanel.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/DopingPTWindow.svelte",
+      "type": "file",
+      "name": "DopingPTWindow.svelte",
+      "filePath": "src/lib/structure/DopingPTWindow.svelte",
+      "summary": "DopingPTWindow.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/DopingPTWindow.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/export/AbacusExport.svelte",
+      "type": "file",
+      "name": "AbacusExport.svelte",
+      "filePath": "src/lib/structure/export/AbacusExport.svelte",
+      "summary": "AbacusExport.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/export/AbacusExport.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/export/amber-export.ts",
+      "type": "file",
+      "name": "amber-export.ts",
+      "filePath": "src/lib/structure/export/amber-export.ts",
+      "summary": "amber-export.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/structure/export/amber-export.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/export/AmberExport.svelte",
+      "type": "file",
+      "name": "AmberExport.svelte",
+      "filePath": "src/lib/structure/export/AmberExport.svelte",
+      "summary": "AmberExport.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/export/AmberExport.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/export/Cp2kExport.svelte",
+      "type": "file",
+      "name": "Cp2kExport.svelte",
+      "filePath": "src/lib/structure/export/Cp2kExport.svelte",
+      "summary": "Cp2kExport.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/export/Cp2kExport.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/export/GaussianExport.svelte",
+      "type": "file",
+      "name": "GaussianExport.svelte",
+      "filePath": "src/lib/structure/export/GaussianExport.svelte",
+      "summary": "GaussianExport.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/export/GaussianExport.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/export/GromacsExport.svelte",
+      "type": "file",
+      "name": "GromacsExport.svelte",
+      "filePath": "src/lib/structure/export/GromacsExport.svelte",
+      "summary": "GromacsExport.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/structure/export/GromacsExport.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/structure/export/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/structure/export/index.ts",
+      "summary": "index.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/structure/export/index.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    }
+  ],
+  "edges": []
+}

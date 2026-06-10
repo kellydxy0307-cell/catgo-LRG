@@ -1,0 +1,34 @@
+{
+    "projectRoot":  "D:/catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "docs/tutorials/electronic/band-structure.md",
+                           "language":  "markdown",
+                           "sizeLines":  58,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/tutorials/electronic/cohp-analysis.md",
+                           "language":  "markdown",
+                           "sizeLines":  51,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/tutorials/electronic/dos-analysis.md",
+                           "language":  "markdown",
+                           "sizeLines":  57,
+                           "fileCategory":  "docs"
+                       }
+                   ],
+    "batchImportData":  {
+                            "docs/tutorials/electronic/band-structure.md":  [
+
+                                                                            ],
+                            "docs/tutorials/electronic/cohp-analysis.md":  [
+
+                                                                           ],
+                            "docs/tutorials/electronic/dos-analysis.md":  [
+
+                                                                          ]
+                        }
+}

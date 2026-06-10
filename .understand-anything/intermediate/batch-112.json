@@ -1,0 +1,748 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/vitest/plot/ColorScaleSelect.test.ts",
+      "type": "file",
+      "name": "ColorScaleSelect.test.ts",
+      "filePath": "tests/vitest/plot/ColorScaleSelect.test.ts",
+      "summary": "ColorScaleSelect.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/ColorScaleSelect.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/data-transform.test.ts",
+      "type": "file",
+      "name": "data-transform.test.ts",
+      "filePath": "tests/vitest/plot/data-transform.test.ts",
+      "summary": "data-transform.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/data-transform.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/Histogram.test.ts",
+      "type": "file",
+      "name": "Histogram.test.ts",
+      "filePath": "tests/vitest/plot/Histogram.test.ts",
+      "summary": "Histogram.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/Histogram.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/interactions.test.ts",
+      "type": "file",
+      "name": "interactions.test.ts",
+      "filePath": "tests/vitest/plot/interactions.test.ts",
+      "summary": "interactions.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/interactions.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/layout.test.ts",
+      "type": "file",
+      "name": "layout.test.ts",
+      "filePath": "tests/vitest/plot/layout.test.ts",
+      "summary": "layout.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/layout.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/Line.test.ts",
+      "type": "file",
+      "name": "Line.test.ts",
+      "filePath": "tests/vitest/plot/Line.test.ts",
+      "summary": "Line.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/Line.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/PlotControls.test.svelte.ts",
+      "type": "file",
+      "name": "PlotControls.test.svelte.ts",
+      "filePath": "tests/vitest/plot/PlotControls.test.svelte.ts",
+      "summary": "PlotControls.test.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/PlotControls.test.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/PlotLegend.test.ts",
+      "type": "file",
+      "name": "PlotLegend.test.ts",
+      "filePath": "tests/vitest/plot/PlotLegend.test.ts",
+      "summary": "PlotLegend.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/PlotLegend.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/scales.test.ts",
+      "type": "file",
+      "name": "scales.test.ts",
+      "filePath": "tests/vitest/plot/scales.test.ts",
+      "summary": "scales.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/scales.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/ScatterPlot.test.ts",
+      "type": "file",
+      "name": "ScatterPlot.test.ts",
+      "filePath": "tests/vitest/plot/ScatterPlot.test.ts",
+      "summary": "ScatterPlot.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/ScatterPlot.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/ScatterPoint.test.ts",
+      "type": "file",
+      "name": "ScatterPoint.test.ts",
+      "filePath": "tests/vitest/plot/ScatterPoint.test.ts",
+      "summary": "ScatterPoint.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/ScatterPoint.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/series-visibility.test.ts",
+      "type": "file",
+      "name": "series-visibility.test.ts",
+      "filePath": "tests/vitest/plot/series-visibility.test.ts",
+      "summary": "series-visibility.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/series-visibility.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/rag.test.ts",
+      "type": "file",
+      "name": "rag.test.ts",
+      "filePath": "tests/vitest/rag.test.ts",
+      "summary": "rag.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/rag.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/rdf/calc-rdf.test.ts",
+      "type": "file",
+      "name": "calc-rdf.test.ts",
+      "filePath": "tests/vitest/rdf/calc-rdf.test.ts",
+      "summary": "calc-rdf.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/rdf/calc-rdf.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/rdf/RdfPlot.test.ts",
+      "type": "file",
+      "name": "RdfPlot.test.ts",
+      "filePath": "tests/vitest/rdf/RdfPlot.test.ts",
+      "summary": "RdfPlot.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/rdf/RdfPlot.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/rotation-math.test.ts",
+      "type": "file",
+      "name": "rotation-math.test.ts",
+      "filePath": "tests/vitest/rotation-math.test.ts",
+      "summary": "rotation-math.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/rotation-math.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/settings.test.ts",
+      "type": "file",
+      "name": "settings.test.ts",
+      "filePath": "tests/vitest/settings.test.ts",
+      "summary": "settings.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/settings.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/SettingsSection.test.ts",
+      "type": "file",
+      "name": "SettingsSection.test.ts",
+      "filePath": "tests/vitest/SettingsSection.test.ts",
+      "summary": "SettingsSection.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/SettingsSection.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/setup.ts",
+      "type": "file",
+      "name": "setup.ts",
+      "filePath": "tests/vitest/setup.ts",
+      "summary": "setup.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/setup.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/site/phonons.test.ts",
+      "type": "file",
+      "name": "phonons.test.ts",
+      "filePath": "tests/vitest/site/phonons.test.ts",
+      "summary": "phonons.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/site/phonons.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/site/plot-utils.test.ts",
+      "type": "file",
+      "name": "plot-utils.test.ts",
+      "filePath": "tests/vitest/site/plot-utils.test.ts",
+      "summary": "plot-utils.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/site/plot-utils.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/site/state.test.ts",
+      "type": "file",
+      "name": "state.test.ts",
+      "filePath": "tests/vitest/site/state.test.ts",
+      "summary": "state.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/site/state.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/Spinner.test.ts",
+      "type": "file",
+      "name": "Spinner.test.ts",
+      "filePath": "tests/vitest/Spinner.test.ts",
+      "summary": "Spinner.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/Spinner.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/state.test.ts",
+      "type": "file",
+      "name": "state.test.ts",
+      "filePath": "tests/vitest/state.test.ts",
+      "summary": "state.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/state.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/StatusMessage.test.ts",
+      "type": "file",
+      "name": "StatusMessage.test.ts",
+      "filePath": "tests/vitest/StatusMessage.test.ts",
+      "summary": "StatusMessage.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/StatusMessage.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tests/vitest/plot/ColorScaleSelect.test.ts",
+      "target": "file:src/lib/colors/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ColorScaleSelect.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ColorScaleSelect.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/data-transform.test.ts",
+      "target": "file:src/lib/plot/data-transform.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/data-transform.test.ts",
+      "target": "file:src/lib/plot/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/data-transform.test.ts",
+      "target": "file:src/lib/settings/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/Histogram.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/interactions.test.ts",
+      "target": "file:src/lib/plot/interactions.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/layout.test.ts",
+      "target": "file:src/lib/plot/layout.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/Line.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/PlotControls.test.svelte.ts",
+      "target": "file:src/lib/plot/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/PlotControls.test.svelte.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/PlotLegend.test.ts",
+      "target": "file:src/lib/plot/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/PlotLegend.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/scales.test.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/scales.test.ts",
+      "target": "file:src/lib/plot/scales.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/scales.test.ts",
+      "target": "file:src/lib/plot/types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ScatterPlot.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ScatterPlot.test.ts",
+      "target": "file:src/lib/plot/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ScatterPoint.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ScatterPoint.test.ts",
+      "target": "file:src/lib/plot/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ScatterPoint.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/series-visibility.test.ts",
+      "target": "file:src/lib/plot/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/series-visibility.test.ts",
+      "target": "file:src/lib/plot/utils/series-visibility.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/rag.test.ts",
+      "target": "file:src/lib/chat/rag.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/rdf/calc-rdf.test.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/rdf/calc-rdf.test.ts",
+      "target": "file:src/lib/rdf/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/rdf/calc-rdf.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/rdf/calc-rdf.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/rdf/RdfPlot.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/rdf/RdfPlot.test.ts",
+      "target": "file:src/lib/rdf/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/rdf/RdfPlot.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/rotation-math.test.ts",
+      "target": "file:src/lib/structure/rotation-math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/settings.test.ts",
+      "target": "file:src/lib/settings/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/SettingsSection.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/SettingsSection.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/i18n/en/app.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/i18n/en/chat.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/i18n/en/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/i18n/en/sidebar.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/i18n/en/structure.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/i18n/en/workflow.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/i18n/index.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/setup.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/site/phonons.test.ts",
+      "target": "file:src/lib/bands/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/site/plot-utils.test.ts",
+      "target": "file:src/site/plot-utils.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/site/state.test.ts",
+      "target": "file:src/site/state.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/Spinner.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/Spinner.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/state.test.ts",
+      "target": "file:src/lib/colors/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/state.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/state.test.ts",
+      "target": "file:src/lib/state.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/state.test.ts",
+      "target": "file:src/lib/theme/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/StatusMessage.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/StatusMessage.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

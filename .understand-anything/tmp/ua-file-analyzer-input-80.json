@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src-tauri/src/pty.rs",
+      "language": "rust",
+      "sizeLines": 268,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/ssh/auth.rs",
+      "language": "rust",
+      "sizeLines": 391,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/ssh/exec.rs",
+      "language": "rust",
+      "sizeLines": 182,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/ssh/handler.rs",
+      "language": "rust",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/ssh/keygen.rs",
+      "language": "rust",
+      "sizeLines": 424,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/ssh/mod.rs",
+      "language": "rust",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/ssh/otp.rs",
+      "language": "rust",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/ssh/pty.rs",
+      "language": "rust",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/ssh/sftp.rs",
+      "language": "rust",
+      "sizeLines": 293,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/ssh/state.rs",
+      "language": "rust",
+      "sizeLines": 264,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/workflow_engine.rs",
+      "language": "rust",
+      "sizeLines": 386,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/app.d.ts",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/__tests__/optimade.test.ts",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/adsorbate.ts",
+      "language": "typescript",
+      "sizeLines": 323,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/backend-url.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/bands.ts",
+      "language": "typescript",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/build.ts",
+      "language": "typescript",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/cohp.ts",
+      "language": "typescript",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/compute.ts",
+      "language": "typescript",
+      "sizeLines": 743,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/config.ts",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/db-local.ts",
+      "language": "typescript",
+      "sizeLines": 297,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/db-wasm.ts",
+      "language": "typescript",
+      "sizeLines": 1362,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/dos.ts",
+      "language": "typescript",
+      "sizeLines": 212,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/heterostructure.ts",
+      "language": "typescript",
+      "sizeLines": 679,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/api/hpc.ts",
+      "language": "typescript",
+      "sizeLines": 1110,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src-tauri/src/pty.rs": [],
+    "src-tauri/src/ssh/auth.rs": [],
+    "src-tauri/src/ssh/exec.rs": [],
+    "src-tauri/src/ssh/handler.rs": [],
+    "src-tauri/src/ssh/keygen.rs": [],
+    "src-tauri/src/ssh/mod.rs": [],
+    "src-tauri/src/ssh/otp.rs": [],
+    "src-tauri/src/ssh/pty.rs": [],
+    "src-tauri/src/ssh/sftp.rs": [],
+    "src-tauri/src/ssh/state.rs": [],
+    "src-tauri/src/workflow_engine.rs": [],
+    "src/app.d.ts": [],
+    "src/lib/api/__tests__/optimade.test.ts": [],
+    "src/lib/api/adsorbate.ts": [],
+    "src/lib/api/backend-url.svelte.ts": [],
+    "src/lib/api/bands.ts": [],
+    "src/lib/api/build.ts": [],
+    "src/lib/api/cohp.ts": [],
+    "src/lib/api/compute.ts": [],
+    "src/lib/api/config.ts": [],
+    "src/lib/api/db-local.ts": [],
+    "src/lib/api/db-wasm.ts": [],
+    "src/lib/api/dos.ts": [],
+    "src/lib/api/heterostructure.ts": [],
+    "src/lib/api/hpc.ts": []
+  }
+}

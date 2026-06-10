@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "server/tests/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_adapter.py",
+      "language": "python",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_argparse.py",
+      "language": "python",
+      "sizeLines": 327,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_autostart.py",
+      "language": "python",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_equivalence.py",
+      "language": "python",
+      "sizeLines": 95,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_extpath.py",
+      "language": "python",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_hpc_link.py",
+      "language": "python",
+      "sizeLines": 291,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_ir.py",
+      "language": "python",
+      "sizeLines": 243,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_ops_analyze.py",
+      "language": "python",
+      "sizeLines": 576,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_ops_build.py",
+      "language": "python",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_ops_convert.py",
+      "language": "python",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_ops_submit.py",
+      "language": "python",
+      "sizeLines": 297,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_ops_viewer.py",
+      "language": "python",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_pdos_groups.py",
+      "language": "python",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_plotting.py",
+      "language": "python",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_registry.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_server_link.py",
+      "language": "python",
+      "sizeLines": 207,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_session.py",
+      "language": "python",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_shell.py",
+      "language": "python",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/cli/test_vib.py",
+      "language": "python",
+      "sizeLines": 181,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/conftest.py",
+      "language": "python",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_adsorption_energy_zpe.py",
+      "language": "python",
+      "sizeLines": 164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_ai_diagnosis.py",
+      "language": "python",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_all_engine_defs_load.py",
+      "language": "python",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/tests/__init__.py": [],
+    "server/tests/cli/__init__.py": [],
+    "server/tests/cli/test_adapter.py": [],
+    "server/tests/cli/test_argparse.py": [],
+    "server/tests/cli/test_autostart.py": [],
+    "server/tests/cli/test_equivalence.py": [],
+    "server/tests/cli/test_extpath.py": [],
+    "server/tests/cli/test_hpc_link.py": [],
+    "server/tests/cli/test_ir.py": [],
+    "server/tests/cli/test_ops_analyze.py": [],
+    "server/tests/cli/test_ops_build.py": [],
+    "server/tests/cli/test_ops_convert.py": [],
+    "server/tests/cli/test_ops_submit.py": [],
+    "server/tests/cli/test_ops_viewer.py": [],
+    "server/tests/cli/test_pdos_groups.py": [],
+    "server/tests/cli/test_plotting.py": [],
+    "server/tests/cli/test_registry.py": [],
+    "server/tests/cli/test_server_link.py": [],
+    "server/tests/cli/test_session.py": [],
+    "server/tests/cli/test_shell.py": [],
+    "server/tests/cli/test_vib.py": [],
+    "server/tests/conftest.py": [],
+    "server/tests/test_adsorption_energy_zpe.py": [],
+    "server/tests/test_ai_diagnosis.py": [],
+    "server/tests/test_all_engine_defs_load.py": []
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 7,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "scripts/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 39,
+      "nonEmptyLines": 25,
+      "sections": [
+        {
+          "heading": "CatGo Utility Scripts",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Core Build Scripts",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Setup Scripts",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Maintenance & Generation",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Scientific Processing",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Testing & CI",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Usage",
+          "level": 2,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "scripts/build-backend.ps1",
+      "language": "powershell",
+      "fileCategory": "script",
+      "totalLines": 65,
+      "nonEmptyLines": 51,
+      "metrics": {}
+    },
+    {
+      "path": "scripts/build-backend.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 107,
+      "nonEmptyLines": 94,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "scripts/build-server.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 82,
+      "nonEmptyLines": 72,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "scripts/catgo-session-start.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 15,
+      "nonEmptyLines": 15,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "scripts/migrate-to-rust-dag.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 32,
+      "nonEmptyLines": 25,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "scripts/setup-claude-code.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 168,
+      "nonEmptyLines": 157,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

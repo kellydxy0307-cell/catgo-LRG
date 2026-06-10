@@ -1,0 +1,406 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/playwright/plot/colorbar.test.ts",
+      "type": "file",
+      "name": "colorbar.test.ts",
+      "filePath": "tests/playwright/plot/colorbar.test.ts",
+      "summary": "colorbar.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/plot/colorbar.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/plot/histogram.test.ts",
+      "type": "file",
+      "name": "histogram.test.ts",
+      "filePath": "tests/playwright/plot/histogram.test.ts",
+      "summary": "histogram.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/plot/histogram.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/plot/plot-legend.test.ts",
+      "type": "file",
+      "name": "plot-legend.test.ts",
+      "filePath": "tests/playwright/plot/plot-legend.test.ts",
+      "summary": "plot-legend.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/plot/plot-legend.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/plot/rdf-plot.test.ts",
+      "type": "file",
+      "name": "rdf-plot.test.ts",
+      "filePath": "tests/playwright/plot/rdf-plot.test.ts",
+      "summary": "rdf-plot.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/plot/rdf-plot.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/plot/spacegroup-bar-plot.test.ts",
+      "type": "file",
+      "name": "spacegroup-bar-plot.test.ts",
+      "filePath": "tests/playwright/plot/spacegroup-bar-plot.test.ts",
+      "summary": "spacegroup-bar-plot.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/plot/spacegroup-bar-plot.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/structure/bonds.test.ts",
+      "type": "file",
+      "name": "bonds.test.ts",
+      "filePath": "tests/playwright/structure/bonds.test.ts",
+      "summary": "bonds.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/structure/bonds.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/structure/lattice.test.ts",
+      "type": "file",
+      "name": "lattice.test.ts",
+      "filePath": "tests/playwright/structure/lattice.test.ts",
+      "summary": "lattice.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/structure/lattice.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/structure/render-loop.test.ts",
+      "type": "file",
+      "name": "render-loop.test.ts",
+      "filePath": "tests/playwright/structure/render-loop.test.ts",
+      "summary": "render-loop.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/structure/render-loop.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/structure/structure-export-pane.test.ts",
+      "type": "file",
+      "name": "structure-export-pane.test.ts",
+      "filePath": "tests/playwright/structure/structure-export-pane.test.ts",
+      "summary": "structure-export-pane.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/structure/structure-export-pane.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/trajectory-performance.test.ts",
+      "type": "file",
+      "name": "trajectory-performance.test.ts",
+      "filePath": "tests/playwright/trajectory-performance.test.ts",
+      "summary": "trajectory-performance.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/trajectory-performance.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/trajectory.test.ts",
+      "type": "file",
+      "name": "trajectory.test.ts",
+      "filePath": "tests/playwright/trajectory.test.ts",
+      "summary": "trajectory.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/trajectory.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/playwright/xrd-plot.test.ts",
+      "type": "file",
+      "name": "xrd-plot.test.ts",
+      "filePath": "tests/playwright/xrd-plot.test.ts",
+      "summary": "xrd-plot.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/playwright/xrd-plot.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/test_ai_tools_e2e.py",
+      "type": "file",
+      "name": "test_ai_tools_e2e.py",
+      "filePath": "tests/test_ai_tools_e2e.py",
+      "summary": "test_ai_tools_e2e.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_ai_tools_e2e.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "document:tests/test_all_phases_log_20260303.txt",
+      "type": "document",
+      "name": "test_all_phases_log_20260303.txt",
+      "filePath": "tests/test_all_phases_log_20260303.txt",
+      "summary": "test_all_phases_log_20260303.txt 是 CatGo 项目中的文档文件，使用 txt，位于 tests/test_all_phases_log_20260303.txt，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "txt",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "txt",
+      "languageNotes": "此节点以中文概述，保留必要的 txt 技术术语。"
+    },
+    {
+      "id": "file:tests/test_all_phases.py",
+      "type": "file",
+      "name": "test_all_phases.py",
+      "filePath": "tests/test_all_phases.py",
+      "summary": "test_all_phases.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_all_phases.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_catrender_bridge.py",
+      "type": "file",
+      "name": "test_catrender_bridge.py",
+      "filePath": "tests/test_catrender_bridge.py",
+      "summary": "test_catrender_bridge.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_catrender_bridge.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_engine_runtime.py",
+      "type": "file",
+      "name": "test_engine_runtime.py",
+      "filePath": "tests/test_engine_runtime.py",
+      "summary": "test_engine_runtime.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_engine_runtime.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_kremer_grest_polymer.py",
+      "type": "file",
+      "name": "test_kremer_grest_polymer.py",
+      "filePath": "tests/test_kremer_grest_polymer.py",
+      "summary": "test_kremer_grest_polymer.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_kremer_grest_polymer.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_lammps_api.py",
+      "type": "file",
+      "name": "test_lammps_api.py",
+      "filePath": "tests/test_lammps_api.py",
+      "summary": "test_lammps_api.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_lammps_api.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_lammps_simple.py",
+      "type": "file",
+      "name": "test_lammps_simple.py",
+      "filePath": "tests/test_lammps_simple.py",
+      "summary": "test_lammps_simple.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_lammps_simple.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_mcp_integration.py",
+      "type": "file",
+      "name": "test_mcp_integration.py",
+      "filePath": "tests/test_mcp_integration.py",
+      "summary": "test_mcp_integration.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_mcp_integration.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_phase1_manual.py",
+      "type": "file",
+      "name": "test_phase1_manual.py",
+      "filePath": "tests/test_phase1_manual.py",
+      "summary": "test_phase1_manual.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_phase1_manual.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_phase2_analyzer.py",
+      "type": "file",
+      "name": "test_phase2_analyzer.py",
+      "filePath": "tests/test_phase2_analyzer.py",
+      "summary": "test_phase2_analyzer.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_phase2_analyzer.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_polymer_workflow.py",
+      "type": "file",
+      "name": "test_polymer_workflow.py",
+      "filePath": "tests/test_polymer_workflow.py",
+      "summary": "test_polymer_workflow.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_polymer_workflow.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/test_reader_plugin.py",
+      "type": "file",
+      "name": "test_reader_plugin.py",
+      "filePath": "tests/test_reader_plugin.py",
+      "summary": "test_reader_plugin.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_reader_plugin.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    }
+  ],
+  "edges": []
+}

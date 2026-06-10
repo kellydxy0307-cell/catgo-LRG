@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "tests/vitest/plot/ColorScaleSelect.test.ts",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/data-transform.test.ts",
+      "language": "typescript",
+      "sizeLines": 318,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/Histogram.test.ts",
+      "language": "typescript",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/interactions.test.ts",
+      "language": "typescript",
+      "sizeLines": 262,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/layout.test.ts",
+      "language": "typescript",
+      "sizeLines": 288,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/Line.test.ts",
+      "language": "typescript",
+      "sizeLines": 225,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/PlotControls.test.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/PlotLegend.test.ts",
+      "language": "typescript",
+      "sizeLines": 443,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/scales.test.ts",
+      "language": "typescript",
+      "sizeLines": 377,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/ScatterPlot.test.ts",
+      "language": "typescript",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/ScatterPoint.test.ts",
+      "language": "typescript",
+      "sizeLines": 392,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/plot/series-visibility.test.ts",
+      "language": "typescript",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/rag.test.ts",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/rdf/calc-rdf.test.ts",
+      "language": "typescript",
+      "sizeLines": 559,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/rdf/RdfPlot.test.ts",
+      "language": "typescript",
+      "sizeLines": 161,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/rotation-math.test.ts",
+      "language": "typescript",
+      "sizeLines": 76,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/settings.test.ts",
+      "language": "typescript",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/SettingsSection.test.ts",
+      "language": "typescript",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/setup.ts",
+      "language": "typescript",
+      "sizeLines": 268,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/site/phonons.test.ts",
+      "language": "typescript",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/site/plot-utils.test.ts",
+      "language": "typescript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/site/state.test.ts",
+      "language": "typescript",
+      "sizeLines": 58,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/Spinner.test.ts",
+      "language": "typescript",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/state.test.ts",
+      "language": "typescript",
+      "sizeLines": 189,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/StatusMessage.test.ts",
+      "language": "typescript",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "tests/vitest/plot/ColorScaleSelect.test.ts": [],
+    "tests/vitest/plot/data-transform.test.ts": [],
+    "tests/vitest/plot/Histogram.test.ts": [],
+    "tests/vitest/plot/interactions.test.ts": [],
+    "tests/vitest/plot/layout.test.ts": [],
+    "tests/vitest/plot/Line.test.ts": [],
+    "tests/vitest/plot/PlotControls.test.svelte.ts": [],
+    "tests/vitest/plot/PlotLegend.test.ts": [],
+    "tests/vitest/plot/scales.test.ts": [],
+    "tests/vitest/plot/ScatterPlot.test.ts": [],
+    "tests/vitest/plot/ScatterPoint.test.ts": [],
+    "tests/vitest/plot/series-visibility.test.ts": [],
+    "tests/vitest/rag.test.ts": [],
+    "tests/vitest/rdf/calc-rdf.test.ts": [],
+    "tests/vitest/rdf/RdfPlot.test.ts": [],
+    "tests/vitest/rotation-math.test.ts": [],
+    "tests/vitest/settings.test.ts": [],
+    "tests/vitest/SettingsSection.test.ts": [],
+    "tests/vitest/setup.ts": [],
+    "tests/vitest/site/phonons.test.ts": [],
+    "tests/vitest/site/plot-utils.test.ts": [],
+    "tests/vitest/site/state.test.ts": [],
+    "tests/vitest/Spinner.test.ts": [],
+    "tests/vitest/state.test.ts": [],
+    "tests/vitest/StatusMessage.test.ts": []
+  }
+}

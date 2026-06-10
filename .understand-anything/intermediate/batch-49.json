@@ -1,0 +1,619 @@
+{
+  "nodes": [
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/strain_deform.rs",
+      "type": "file",
+      "name": "strain_deform.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/strain_deform.rs",
+      "summary": "strain_deform.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/strain_deform.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/structure_input.rs",
+      "type": "file",
+      "name": "structure_input.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/structure_input.rs",
+      "summary": "structure_input.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/structure_input.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/structure.rs",
+      "type": "file",
+      "name": "structure.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/structure.rs",
+      "summary": "structure.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/structure.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/supercell_gen.rs",
+      "type": "file",
+      "name": "supercell_gen.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/supercell_gen.rs",
+      "summary": "supercell_gen.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/supercell_gen.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/registry.rs",
+      "type": "file",
+      "name": "registry.rs",
+      "filePath": "crates/catgo-graph/src/tools/registry.rs",
+      "summary": "registry.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/registry.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/stats.rs",
+      "type": "file",
+      "name": "stats.rs",
+      "filePath": "crates/catgo-graph/src/tools/stats.rs",
+      "summary": "stats.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/stats.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "file",
+      "name": "traits.rs",
+      "filePath": "crates/catgo-graph/src/tools/traits.rs",
+      "summary": "traits.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/traits.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/vasp.rs",
+      "type": "file",
+      "name": "vasp.rs",
+      "filePath": "crates/catgo-graph/src/tools/vasp.rs",
+      "summary": "vasp.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/vasp.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/helpers/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "crates/catgo-graph/tests/helpers/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/helpers/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/integration.rs",
+      "type": "file",
+      "name": "integration.rs",
+      "filePath": "crates/catgo-graph/tests/integration.rs",
+      "summary": "integration.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/integration.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/rewrite_edge_cases.rs",
+      "type": "file",
+      "name": "rewrite_edge_cases.rs",
+      "filePath": "crates/catgo-graph/tests/rewrite_edge_cases.rs",
+      "summary": "rewrite_edge_cases.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/rewrite_edge_cases.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/rewrite_tests.rs",
+      "type": "file",
+      "name": "rewrite_tests.rs",
+      "filePath": "crates/catgo-graph/tests/rewrite_tests.rs",
+      "summary": "rewrite_tests.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/rewrite_tests.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/stabilization_tests.rs",
+      "type": "file",
+      "name": "stabilization_tests.rs",
+      "filePath": "crates/catgo-graph/tests/stabilization_tests.rs",
+      "summary": "stabilization_tests.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/stabilization_tests.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/subgraph_edge_cases.rs",
+      "type": "file",
+      "name": "subgraph_edge_cases.rs",
+      "filePath": "crates/catgo-graph/tests/subgraph_edge_cases.rs",
+      "summary": "subgraph_edge_cases.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/subgraph_edge_cases.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/subgraph_monitoring_tests.rs",
+      "type": "file",
+      "name": "subgraph_monitoring_tests.rs",
+      "filePath": "crates/catgo-graph/tests/subgraph_monitoring_tests.rs",
+      "summary": "subgraph_monitoring_tests.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/subgraph_monitoring_tests.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/subgraph_tests.rs",
+      "type": "file",
+      "name": "subgraph_tests.rs",
+      "filePath": "crates/catgo-graph/tests/subgraph_tests.rs",
+      "summary": "subgraph_tests.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/subgraph_tests.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/subgraph_validation_tests.rs",
+      "type": "file",
+      "name": "subgraph_validation_tests.rs",
+      "filePath": "crates/catgo-graph/tests/subgraph_validation_tests.rs",
+      "summary": "subgraph_validation_tests.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/subgraph_validation_tests.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/tests/subgraph_versioning_tests.rs",
+      "type": "file",
+      "name": "subgraph_versioning_tests.rs",
+      "filePath": "crates/catgo-graph/tests/subgraph_versioning_tests.rs",
+      "summary": "subgraph_versioning_tests.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/tests/subgraph_versioning_tests.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "document:deploy/android/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "deploy/android/README.md",
+      "summary": "README.md 是 CatGo 项目中的文档文件，使用 markdown，位于 deploy/android/README.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "file:deploy/hpc/bundle/build.sh",
+      "type": "file",
+      "name": "build.sh",
+      "filePath": "deploy/hpc/bundle/build.sh",
+      "summary": "build.sh 是 CatGo 项目中的脚本文件，使用 shell，位于 deploy/hpc/bundle/build.sh，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "script",
+        "shell"
+      ],
+      "complexity": "simple",
+      "language": "shell",
+      "languageNotes": "此节点以中文概述，保留必要的 shell 技术术语。"
+    },
+    {
+      "id": "file:deploy/hpc/bundle/catgo-expanse.def",
+      "type": "file",
+      "name": "catgo-expanse.def",
+      "filePath": "deploy/hpc/bundle/catgo-expanse.def",
+      "summary": "catgo-expanse.def 是 CatGo 项目中的代码文件，使用 def，位于 deploy/hpc/bundle/catgo-expanse.def，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "def"
+      ],
+      "complexity": "simple",
+      "language": "def",
+      "languageNotes": "此节点以中文概述，保留必要的 def 技术术语。"
+    },
+    {
+      "id": "file:deploy/hpc/bundle/catgo-job.sh",
+      "type": "file",
+      "name": "catgo-job.sh",
+      "filePath": "deploy/hpc/bundle/catgo-job.sh",
+      "summary": "catgo-job.sh 是 CatGo 项目中的脚本文件，使用 shell，位于 deploy/hpc/bundle/catgo-job.sh，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "script",
+        "shell"
+      ],
+      "complexity": "moderate",
+      "language": "shell",
+      "languageNotes": "此节点以中文概述，保留必要的 shell 技术术语。"
+    },
+    {
+      "id": "file:deploy/hpc/catgo.def",
+      "type": "file",
+      "name": "catgo.def",
+      "filePath": "deploy/hpc/catgo.def",
+      "summary": "catgo.def 是 CatGo 项目中的代码文件，使用 def，位于 deploy/hpc/catgo.def，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "def"
+      ],
+      "complexity": "moderate",
+      "language": "def",
+      "languageNotes": "此节点以中文概述，保留必要的 def 技术术语。"
+    },
+    {
+      "id": "file:deploy/hpc/conda/catgo-job.sh",
+      "type": "file",
+      "name": "catgo-job.sh",
+      "filePath": "deploy/hpc/conda/catgo-job.sh",
+      "summary": "catgo-job.sh 是 CatGo 项目中的脚本文件，使用 shell，位于 deploy/hpc/conda/catgo-job.sh，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "script",
+        "shell"
+      ],
+      "complexity": "simple",
+      "language": "shell",
+      "languageNotes": "此节点以中文概述，保留必要的 shell 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/control_flow.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/convergence.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/defect_gen.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/doping_gen.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/energy_compare.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/strain_deform.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/structure_input.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/supercell_gen.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/registry.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/strain_deform.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/strain_deform.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/strain_deform.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/strain_deform.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/structure_input.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/structure_input.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/structure_input.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/supercell_gen.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/supercell_gen.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/supercell_gen.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/supercell_gen.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/registry.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/stats.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/stats.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/stats.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/traits.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/traits.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/vasp.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/vasp.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/vasp.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/tests/integration.rs",
+      "target": "file:crates/catgo-graph/tests/helpers/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/tests/rewrite_edge_cases.rs",
+      "target": "file:crates/catgo-graph/tests/helpers/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/tests/rewrite_tests.rs",
+      "target": "file:crates/catgo-graph/tests/helpers/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/tests/stabilization_tests.rs",
+      "target": "file:crates/catgo-graph/tests/helpers/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/tests/subgraph_monitoring_tests.rs",
+      "target": "file:crates/catgo-graph/tests/helpers/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/tests/subgraph_tests.rs",
+      "target": "file:crates/catgo-graph/tests/helpers/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/tests/subgraph_validation_tests.rs",
+      "target": "file:crates/catgo-graph/tests/helpers/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/tests/subgraph_versioning_tests.rs",
+      "target": "file:crates/catgo-graph/tests/helpers/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

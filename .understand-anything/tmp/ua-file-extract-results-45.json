@@ -1,0 +1,2507 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".claude/skills/nrr/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 272,
+      "nonEmptyLines": 211,
+      "sections": [
+        {
+          "heading": "NRR Overpotential Calculation",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "Theory: Distal Pathway (6-Electron Transfer)",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Overpotential",
+          "level": 3,
+          "line": 22
+        },
+        {
+          "heading": "Atom-Balanced Free Energy Steps (Distal Pathway, CHE Convention)",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "pH Correction",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "Simplified Descriptor",
+          "level": 3,
+          "line": 70
+        },
+        {
+          "heading": "Discussion Checkpoints",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "MCP Tool: catgo_catalysis action=\"nrr\"",
+          "level": 2,
+          "line": 93
+        },
+        {
+          "heading": "Basic NRR Overpotential (Single Descriptor)",
+          "level": 3,
+          "line": 95
+        },
+        {
+          "heading": "Full Pathway Analysis",
+          "level": 3,
+          "line": 108
+        },
+        {
+          "heading": "Alternating Pathway",
+          "level": 3,
+          "line": 127
+        },
+        {
+          "heading": "Parameters",
+          "level": 2,
+          "line": 139
+        },
+        {
+          "heading": "Return Format",
+          "level": 2,
+          "line": 152
+        },
+        {
+          "heading": "Complete MCP Workflow: NRR on Fe(110)",
+          "level": 2,
+          "line": 164
+        },
+        {
+          "heading": "1. Create workflow",
+          "level": 3,
+          "line": 166
+        },
+        {
+          "heading": "2. Build slab and adsorbate structures",
+          "level": 3,
+          "line": 174
+        },
+        {
+          "heading": "3. For each intermediate: geo_opt --> freq --> gibbs_energy",
+          "level": 3,
+          "line": 185
+        },
+        {
+          "heading": "4. Add gas-phase references (N2, H2, NH3)",
+          "level": 3,
+          "line": 213
+        },
+        {
+          "heading": "5. Compute overpotential",
+          "level": 3,
+          "line": 229
+        },
+        {
+          "heading": "DAG Structure",
+          "level": 2,
+          "line": 241
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 257
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 21
+      }
+    },
+    {
+      "path": ".claude/skills/oer/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 223,
+      "nonEmptyLines": 173,
+      "sections": [
+        {
+          "heading": "OER Overpotential Calculation",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "Theory: 4-Electron Pathway",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Free Energy Steps",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "pH Correction",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Overpotential",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "Discussion Checkpoints",
+          "level": 2,
+          "line": 55
+        },
+        {
+          "heading": "Reference Energies",
+          "level": 2,
+          "line": 72
+        },
+        {
+          "heading": "Complete MCP Workflow",
+          "level": 2,
+          "line": 82
+        },
+        {
+          "heading": "1. Create workflow",
+          "level": 3,
+          "line": 84
+        },
+        {
+          "heading": "2. Build slab + adsorbate structures",
+          "level": 3,
+          "line": 92
+        },
+        {
+          "heading": "3. For each intermediate, add: geo_opt --> freq --> gibbs_energy",
+          "level": 3,
+          "line": 109
+        },
+        {
+          "heading": "4. Add gas-phase references (H2, H2O)",
+          "level": 3,
+          "line": 138
+        },
+        {
+          "heading": "5. Submit",
+          "level": 3,
+          "line": 154
+        },
+        {
+          "heading": "Python API",
+          "level": 2,
+          "line": 162
+        },
+        {
+          "heading": "DAG Structure",
+          "level": 2,
+          "line": 200
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 213
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": ".claude/skills/openbabel/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 149,
+      "nonEmptyLines": 113,
+      "sections": [
+        {
+          "heading": "Open Babel — Molecular Format Conversion",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Workflow Steps — CLI",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Convert between formats",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "Common CLI Commands",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "SMILES to 3D structure",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "Add hydrogens",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "Remove hydrogens",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "Batch conversion",
+          "level": 3,
+          "line": 64
+        },
+        {
+          "heading": "Generate conformers",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "Get canonical SMILES",
+          "level": 3,
+          "line": 77
+        },
+        {
+          "heading": "Energy minimization",
+          "level": 3,
+          "line": 83
+        },
+        {
+          "heading": "Supported Formats (most common)",
+          "level": 2,
+          "line": 89
+        },
+        {
+          "heading": "Python API",
+          "level": 2,
+          "line": 104
+        },
+        {
+          "heading": "Parameter Guidance",
+          "level": 2,
+          "line": 129
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 142
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 17
+      }
+    },
+    {
+      "path": ".claude/skills/orca-freq/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 307,
+      "nonEmptyLines": 242,
+      "sections": [
+        {
+          "heading": "ORCA Frequency Calculation Skill",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "MCP Tool Examples — proven Expanse submission flow",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "1. Confirm structure is loaded and find Expanse session_id",
+          "level": 3,
+          "line": 32
+        },
+        {
+          "heading": "2. Create the workflow (auto-captures viewer structure)",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "3. Add the freq node (or opt → freq chain)",
+          "level": 3,
+          "line": 53
+        },
+        {
+          "heading": "4. Optional: append a Gibbs energy node",
+          "level": 3,
+          "line": 109
+        },
+        {
+          "heading": "5. Run with the full HPC run_config",
+          "level": 3,
+          "line": 121
+        },
+        {
+          "heading": "6. Monitor",
+          "level": 3,
+          "line": 157
+        },
+        {
+          "heading": "7. Pull results when COMPLETED",
+          "level": 3,
+          "line": 163
+        },
+        {
+          "heading": "8. Parse with OPI",
+          "level": 3,
+          "line": 185
+        },
+        {
+          "heading": "Viewing the IR spectrum in the IDE",
+          "level": 3,
+          "line": 217
+        },
+        {
+          "heading": "Submission gotchas (real failures we hit)",
+          "level": 3,
+          "line": 229
+        },
+        {
+          "heading": "Interpreting Results",
+          "level": 2,
+          "line": 238
+        },
+        {
+          "heading": "Minima verification",
+          "level": 3,
+          "line": 240
+        },
+        {
+          "heading": "Transition state verification",
+          "level": 3,
+          "line": 245
+        },
+        {
+          "heading": "Thermochemistry output",
+          "level": 3,
+          "line": 250
+        },
+        {
+          "heading": "Frequency Scaling Factors",
+          "level": 2,
+          "line": 266
+        },
+        {
+          "heading": "Common Mistakes",
+          "level": 2,
+          "line": 279
+        },
+        {
+          "heading": "Canonical params (what the engine actually reads)",
+          "level": 2,
+          "line": 287
+        },
+        {
+          "heading": "ORCA-Specific Notes",
+          "level": 2,
+          "line": 301
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 22
+      }
+    },
+    {
+      "path": ".claude/skills/orca-irc/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 443,
+      "nonEmptyLines": 323,
+      "sections": [
+        {
+          "heading": "ORCA IRC Calculation Skill",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Stage 1: Input Generation",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Hessian Handling (important — read all of this)",
+          "level": 3,
+          "line": 35
+        },
+        {
+          "heading": "IRC Parameters and ORCA Defaults",
+          "level": 3,
+          "line": 80
+        },
+        {
+          "heading": "Composite Methods",
+          "level": 3,
+          "line": 105
+        },
+        {
+          "heading": "Template",
+          "level": 3,
+          "line": 115
+        },
+        {
+          "heading": "About OPI input builders",
+          "level": 3,
+          "line": 148
+        },
+        {
+          "heading": "Submitting to HPC (Expanse) — proven flow",
+          "level": 2,
+          "line": 154
+        },
+        {
+          "heading": "1. Confirm TS structure is loaded and find session_id",
+          "level": 3,
+          "line": 164
+        },
+        {
+          "heading": "2. Create the workflow (auto-captures the TS structure)",
+          "level": 3,
+          "line": 176
+        },
+        {
+          "heading": "3. Add the IRC node",
+          "level": 3,
+          "line": 182
+        },
+        {
+          "heading": "Canonical IRC node params (what the engine actually reads)",
+          "level": 3,
+          "line": 201
+        },
+        {
+          "heading": "4. Run with the full HPC run_config",
+          "level": 3,
+          "line": 215
+        },
+        {
+          "heading": "5. Monitor",
+          "level": 3,
+          "line": 250
+        },
+        {
+          "heading": "6. Pull files for post-processing",
+          "level": 3,
+          "line": 256
+        },
+        {
+          "heading": "Submission gotchas",
+          "level": 3,
+          "line": 274
+        },
+        {
+          "heading": "Stage 2: Post-Processing",
+          "level": 2,
+          "line": 284
+        },
+        {
+          "heading": "Parsing the Energy Profile",
+          "level": 3,
+          "line": 300
+        },
+        {
+          "heading": "Plotting the Energy Profile",
+          "level": 3,
+          "line": 361
+        },
+        {
+          "heading": "Viewing the IRC profile in the IDE",
+          "level": 3,
+          "line": 411
+        },
+        {
+          "heading": "Extracting Endpoint Geometries",
+          "level": 3,
+          "line": 429
+        },
+        {
+          "heading": "Common Issues and Troubleshooting",
+          "level": 2,
+          "line": 433
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 23
+      }
+    },
+    {
+      "path": ".claude/skills/orca-neb-ts/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 283,
+      "nonEmptyLines": 218,
+      "sections": [
+        {
+          "heading": "ORCA NEB-TS Transition State Skill",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "How NEB-TS Works",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "MCP Tool Examples — proven Expanse submission flow",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Step 1: Load both structures and capture their JSON",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Step 2: Find Expanse session_id",
+          "level": 3,
+          "line": 53
+        },
+        {
+          "heading": "Step 3: Create the workflow",
+          "level": 3,
+          "line": 61
+        },
+        {
+          "heading": "Step 4: Wire reactant + product → orca_neb_ts",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "Step 5: Optional — chain a freq node to verify the TS",
+          "level": 3,
+          "line": 100
+        },
+        {
+          "heading": "Step 6: Run with the full HPC run_config",
+          "level": 3,
+          "line": 111
+        },
+        {
+          "heading": "Step 7: Monitor and pull results",
+          "level": 3,
+          "line": 147
+        },
+        {
+          "heading": "Step 8: Parse with OPI",
+          "level": 3,
+          "line": 164
+        },
+        {
+          "heading": "Viewing the MEP curve in the IDE",
+          "level": 3,
+          "line": 195
+        },
+        {
+          "heading": "Submission gotchas (real failures we hit)",
+          "level": 3,
+          "line": 205
+        },
+        {
+          "heading": "Canonical NEB-TS node params (what the engine actually reads)",
+          "level": 2,
+          "line": 215
+        },
+        {
+          "heading": "About OPI input builders",
+          "level": 3,
+          "line": 232
+        },
+        {
+          "heading": "Image count guidelines",
+          "level": 3,
+          "line": 238
+        },
+        {
+          "heading": "Common Reaction Types",
+          "level": 2,
+          "line": 248
+        },
+        {
+          "heading": "SN2 reaction",
+          "level": 3,
+          "line": 250
+        },
+        {
+          "heading": "Bond dissociation / formation",
+          "level": 3,
+          "line": 254
+        },
+        {
+          "heading": "Proton transfer",
+          "level": 3,
+          "line": 258
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 262
+        },
+        {
+          "heading": "NEB does not converge",
+          "level": 3,
+          "line": 264
+        },
+        {
+          "heading": "Wrong TS found",
+          "level": 3,
+          "line": 269
+        },
+        {
+          "heading": "Too expensive",
+          "level": 3,
+          "line": 274
+        },
+        {
+          "heading": "Important Notes",
+          "level": 2,
+          "line": 278
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 26
+      }
+    },
+    {
+      "path": ".claude/skills/orca-opt/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 265,
+      "nonEmptyLines": 202,
+      "sections": [
+        {
+          "heading": "ORCA Geometry Optimization Skill",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Node Parameters (canonical names — these are what the engine actually reads)",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "MCP Tool Examples — proven Expanse submission flow",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "1. Confirm structure is loaded",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "2. Find the Expanse session_id",
+          "level": 3,
+          "line": 50
+        },
+        {
+          "heading": "3. Create the workflow (auto-captures viewer structure)",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "4. Add the geo_opt node and connect it",
+          "level": 3,
+          "line": 69
+        },
+        {
+          "heading": "5. Run with the full HPC run_config",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "6. Common parameter variations",
+          "level": 3,
+          "line": 132
+        },
+        {
+          "heading": "7. Monitor",
+          "level": 3,
+          "line": 157
+        },
+        {
+          "heading": "8. Pull results when COMPLETED",
+          "level": 3,
+          "line": 169
+        },
+        {
+          "heading": "9. Parse with OPI",
+          "level": 3,
+          "line": 188
+        },
+        {
+          "heading": "Viewing the optimization curve in the IDE",
+          "level": 3,
+          "line": 213
+        },
+        {
+          "heading": "Submission gotchas (real failures we hit)",
+          "level": 3,
+          "line": 225
+        },
+        {
+          "heading": "Dispersion Corrections",
+          "level": 2,
+          "line": 234
+        },
+        {
+          "heading": "Basis Set Ladder",
+          "level": 2,
+          "line": 245
+        },
+        {
+          "heading": "SCF Convergence Issues",
+          "level": 2,
+          "line": 256
+        },
+        {
+          "heading": "Common Mistakes",
+          "level": 2,
+          "line": 260
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 19
+      }
+    },
+    {
+      "path": ".claude/skills/orca-uv-vis/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 311,
+      "nonEmptyLines": 239,
+      "sections": [
+        {
+          "heading": "ORCA UV-Vis Calculation Pipeline",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Stage 1: Input Generation",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Building the `%tddft` block with OPI",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "Submitting to HPC (Expanse) — proven flow",
+          "level": 2,
+          "line": 80
+        },
+        {
+          "heading": "1. Confirm structure is loaded and find session_id",
+          "level": 3,
+          "line": 90
+        },
+        {
+          "heading": "2. Create the workflow",
+          "level": 3,
+          "line": 102
+        },
+        {
+          "heading": "3. Add the TD-DFT node",
+          "level": 3,
+          "line": 108
+        },
+        {
+          "heading": "Canonical UV-Vis node params (verified against [server/workflow/engines/orca.py:244-268](server/workflow/engines/orca.py#L244-L268))",
+          "level": 3,
+          "line": 137
+        },
+        {
+          "heading": "4. Run with the full HPC run_config",
+          "level": 3,
+          "line": 154
+        },
+        {
+          "heading": "5. Monitor",
+          "level": 3,
+          "line": 189
+        },
+        {
+          "heading": "6. Pull files for post-processing",
+          "level": 3,
+          "line": 195
+        },
+        {
+          "heading": "Submission gotchas",
+          "level": 3,
+          "line": 210
+        },
+        {
+          "heading": "Stage 2: Post-Processing",
+          "level": 2,
+          "line": 219
+        },
+        {
+          "heading": "Reading the Spectrum via OPI",
+          "level": 3,
+          "line": 221
+        },
+        {
+          "heading": "Reference Parser and Plotter",
+          "level": 3,
+          "line": 231
+        },
+        {
+          "heading": "Viewing the spectrum in the IDE",
+          "level": 3,
+          "line": 288
+        },
+        {
+          "heading": "Plotting Defaults",
+          "level": 3,
+          "line": 300
+        },
+        {
+          "heading": "Requesting eV on the x-axis",
+          "level": 3,
+          "line": 309
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": ".claude/skills/packmol/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 165,
+      "nonEmptyLines": 131,
+      "sections": [
+        {
+          "heading": "Packmol — Mixture/Solution Box Generation",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Workflow Steps",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "1. Prepare molecule files",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "2. Create Packmol input and run",
+          "level": 3,
+          "line": 39
+        },
+        {
+          "heading": "Packmol Input Template — Simple Liquid Box",
+          "level": 2,
+          "line": 56
+        },
+        {
+          "heading": "Packmol Input Template — Binary Mixture",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "Packmol Input Template — Solvated Solute",
+          "level": 2,
+          "line": 89
+        },
+        {
+          "heading": "Packmol Input Template — Layered System (e.g., Interface)",
+          "level": 2,
+          "line": 111
+        },
+        {
+          "heading": "Box Size Estimation",
+          "level": 2,
+          "line": 131
+        },
+        {
+          "heading": "Parameter Guidance",
+          "level": 2,
+          "line": 145
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 157
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": ".claude/skills/phonopy/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 193,
+      "nonEmptyLines": 153,
+      "sections": [
+        {
+          "heading": "Phonopy — Phonon Calculations",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Workflow Overview",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "Workflow Steps",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "1. Create supercells with displacements",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "2. Run DFT on each displaced structure",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "3. Collect forces and compute force constants",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "4. Compute phonon band structure",
+          "level": 3,
+          "line": 101
+        },
+        {
+          "heading": "Configuration Files",
+          "level": 2,
+          "line": 117
+        },
+        {
+          "heading": "band.conf — Band structure",
+          "level": 3,
+          "line": 119
+        },
+        {
+          "heading": "mesh.conf — DOS and thermal properties",
+          "level": 3,
+          "line": 127
+        },
+        {
+          "heading": "pdos.conf — Projected DOS",
+          "level": 3,
+          "line": 138
+        },
+        {
+          "heading": "Python API",
+          "level": 2,
+          "line": 148
+        },
+        {
+          "heading": "Parameter Guidance",
+          "level": 2,
+          "line": 168
+        },
+        {
+          "heading": "Interpreting Results",
+          "level": 2,
+          "line": 178
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 185
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 17
+      }
+    },
+    {
+      "path": ".claude/skills/qe/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 140,
+      "nonEmptyLines": 114,
+      "sections": [
+        {
+          "heading": "Quantum ESPRESSO (pw.x)",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Workflow Steps",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "1. Verify structure",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "2. Create workflow",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "3. Add QE task",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "4. Submit",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "Input File Template — SCF",
+          "level": 2,
+          "line": 65
+        },
+        {
+          "heading": "Parameter Guidance",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "Relaxation-Specific Parameters",
+          "level": 2,
+          "line": 112
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 133
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": ".claude/skills/rdkit/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 146,
+      "nonEmptyLines": 112,
+      "sections": [
+        {
+          "heading": "RDKit — Conformers and Molecular Representations",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Workflow Steps",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Conformer Generation",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "Script — Conformer Generation",
+          "level": 2,
+          "line": 42
+        },
+        {
+          "heading": "Script — Molecular Descriptors",
+          "level": 2,
+          "line": 74
+        },
+        {
+          "heading": "Script — Fingerprints and Similarity",
+          "level": 2,
+          "line": 90
+        },
+        {
+          "heading": "Script — SMILES to XYZ",
+          "level": 2,
+          "line": 106
+        },
+        {
+          "heading": "Parameter Guidance",
+          "level": 2,
+          "line": 129
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 139
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": ".claude/skills/reacnetgen/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 142,
+      "nonEmptyLines": 111,
+      "sections": [
+        {
+          "heading": "ReacNetGenerator — Reaction Network Analysis",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Workflow Steps",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "1. Run after ReaxFF MD",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "CLI Usage",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "From LAMMPS dump + bond file",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "From XYZ trajectory (bond detection by distance)",
+          "level": 3,
+          "line": 58
+        },
+        {
+          "heading": "Python API",
+          "level": 2,
+          "line": 68
+        },
+        {
+          "heading": "Output Files",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "Parameter Guidance",
+          "level": 2,
+          "line": 95
+        },
+        {
+          "heading": "Interpreting Results",
+          "level": 2,
+          "line": 108
+        },
+        {
+          "heading": "Reaction Network Graph",
+          "level": 3,
+          "line": 110
+        },
+        {
+          "heading": "Species Time Evolution",
+          "level": 3,
+          "line": 117
+        },
+        {
+          "heading": "Integration with CatGo Workflow",
+          "level": 2,
+          "line": 124
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 134
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": ".claude/skills/siesta/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 140,
+      "nonEmptyLines": 108,
+      "sections": [
+        {
+          "heading": "SIESTA",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Workflow Steps",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "1. Verify structure",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "2. Create workflow",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "3. Add SIESTA task via shell",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Input File Template — SCF",
+          "level": 2,
+          "line": 60
+        },
+        {
+          "heading": "Relaxation Parameters",
+          "level": 2,
+          "line": 108
+        },
+        {
+          "heading": "Parameter Guidance",
+          "level": 2,
+          "line": 121
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 132
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": ".claude/skills/structure-adsorbate/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 352,
+      "nonEmptyLines": 290,
+      "sections": [
+        {
+          "heading": "Adsorbate Placement",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Task Type: `adsorbate_place`",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Parameters",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Supported Adsorbate Species",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Site Types",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "Discussion Checkpoints",
+          "level": 2,
+          "line": 60
+        },
+        {
+          "heading": "MCP Workflow: Place Adsorbate on Slab",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "Step 1: Generate slab (or use existing)",
+          "level": 3,
+          "line": 78
+        },
+        {
+          "heading": "Step 2: Find adsorption sites",
+          "level": 3,
+          "line": 102
+        },
+        {
+          "heading": "Step 3: Build workflow with adsorbate placement",
+          "level": 3,
+          "line": 112
+        },
+        {
+          "heading": "Step 4: PENDING_REVIEW -- verify adsorbate position",
+          "level": 3,
+          "line": 136
+        },
+        {
+          "heading": "Step 5: Submit for DFT optimization",
+          "level": 3,
+          "line": 148
+        },
+        {
+          "heading": "Python API",
+          "level": 2,
+          "line": 158
+        },
+        {
+          "heading": "Complete OER Workflow Example",
+          "level": 2,
+          "line": 196
+        },
+        {
+          "heading": "DAG Structure (Single Adsorbate)",
+          "level": 2,
+          "line": 300
+        },
+        {
+          "heading": "DAG Structure (OER)",
+          "level": 2,
+          "line": 306
+        },
+        {
+          "heading": "Comparing Multiple Sites",
+          "level": 2,
+          "line": 315
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 334
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 19
+      }
+    },
+    {
+      "path": ".claude/skills/structure-defect/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 193,
+      "nonEmptyLines": 150,
+      "sections": [
+        {
+          "heading": "Defect Generation",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "MCP Tool: catgo_structure (via REST /build/defect)",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "Create a Vacancy",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "Create All Symmetry-Unique Vacancies",
+          "level": 3,
+          "line": 54
+        },
+        {
+          "heading": "Create a Substitutional Defect",
+          "level": 3,
+          "line": 72
+        },
+        {
+          "heading": "Create an Interstitial Defect",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "Parameters",
+          "level": 2,
+          "line": 113
+        },
+        {
+          "heading": "Complete Workflow: Vacancy Formation Energy",
+          "level": 2,
+          "line": 123
+        },
+        {
+          "heading": "1. Fetch and prepare structure",
+          "level": 3,
+          "line": 125
+        },
+        {
+          "heading": "2. Identify target atom",
+          "level": 3,
+          "line": 139
+        },
+        {
+          "heading": "3. Create vacancy",
+          "level": 3,
+          "line": 147
+        },
+        {
+          "heading": "4. Set up DFT workflow",
+          "level": 3,
+          "line": 155
+        },
+        {
+          "heading": "5. Compute vacancy formation energy",
+          "level": 3,
+          "line": 172
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 181
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": ".claude/skills/structure-doping/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 241,
+      "nonEmptyLines": 180,
+      "sections": [
+        {
+          "heading": "Substitutional Doping",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "MCP Tool: catgo_structure(action: replace_atom)",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Replace a single atom",
+          "level": 3,
+          "line": 22
+        },
+        {
+          "heading": "Identify which atom to replace",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "Replace multiple atoms (alloy)",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "Verify after doping",
+          "level": 3,
+          "line": 69
+        },
+        {
+          "heading": "Complete Doping Workflow: Fe-doped NiOOH for OER",
+          "level": 2,
+          "line": 78
+        },
+        {
+          "heading": "Step 1: Fetch and build host structure",
+          "level": 3,
+          "line": 80
+        },
+        {
+          "heading": "Step 2: Replace one Ni with Fe",
+          "level": 3,
+          "line": 101
+        },
+        {
+          "heading": "Step 3: Relax doped structure",
+          "level": 3,
+          "line": 115
+        },
+        {
+          "heading": "Python API",
+          "level": 2,
+          "line": 132
+        },
+        {
+          "heading": "Doping Strategies",
+          "level": 2,
+          "line": 156
+        },
+        {
+          "heading": "Surface Doping",
+          "level": 3,
+          "line": 158
+        },
+        {
+          "heading": "Subsurface Doping",
+          "level": 3,
+          "line": 169
+        },
+        {
+          "heading": "Random Alloy",
+          "level": 3,
+          "line": 175
+        },
+        {
+          "heading": "Ordered Alloy",
+          "level": 3,
+          "line": 186
+        },
+        {
+          "heading": "Magnetic Considerations",
+          "level": 2,
+          "line": 191
+        },
+        {
+          "heading": "DFT+U for Transition Metal Dopants",
+          "level": 2,
+          "line": 211
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 225
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 20
+      }
+    },
+    {
+      "path": ".claude/skills/structure-fetch/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 173,
+      "nonEmptyLines": 124,
+      "sections": [
+        {
+          "heading": "Structure Fetching Skill",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Data Sources",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "MCP Tool Examples",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Fetch a crystal by formula (Materials Project)",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "Fetch a specific structure by ID",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "Search for structures (returns list, does not auto-load)",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "Search by elements (any compound containing these elements)",
+          "level": 3,
+          "line": 57
+        },
+        {
+          "heading": "Search across multiple providers",
+          "level": 3,
+          "line": 65
+        },
+        {
+          "heading": "Fetch a molecule from PubChem",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "Add a molecule to existing structure",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "Workflow: Search -> Select -> Load -> Build",
+          "level": 2,
+          "line": 107
+        },
+        {
+          "heading": "Formula Normalization",
+          "level": 2,
+          "line": 137
+        },
+        {
+          "heading": "Provider-Specific Notes",
+          "level": 2,
+          "line": 149
+        },
+        {
+          "heading": "Materials Project (mp)",
+          "level": 3,
+          "line": 151
+        },
+        {
+          "heading": "Alexandria",
+          "level": 3,
+          "line": 156
+        },
+        {
+          "heading": "PubChem",
+          "level": 3,
+          "line": 161
+        },
+        {
+          "heading": "Common Mistakes",
+          "level": 2,
+          "line": 167
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": ".claude/skills/structure-heterostructure/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 225,
+      "nonEmptyLines": 185,
+      "sections": [
+        {
+          "heading": "Heterostructure Assembly",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "MCP Tools",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "catgo_hetero_search -- Find lattice-matched superlattices",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "catgo_hetero_build -- Build the interface",
+          "level": 3,
+          "line": 61
+        },
+        {
+          "heading": "catgo_hetero_build_intermat -- One-step build (JARVIS pipeline)",
+          "level": 3,
+          "line": 89
+        },
+        {
+          "heading": "Router: `/heterostructure/search` (POST), `/heterostructure/build` (POST), `/heterostructure/build-intermat` (POST), and more",
+          "level": 3,
+          "line": 108
+        },
+        {
+          "heading": "Complete Workflow: TiO2/Pt Interface",
+          "level": 2,
+          "line": 113
+        },
+        {
+          "heading": "Step 1: Fetch both materials",
+          "level": 3,
+          "line": 115
+        },
+        {
+          "heading": "Step 2: Search for lattice matches",
+          "level": 3,
+          "line": 131
+        },
+        {
+          "heading": "Step 3: Build the interface",
+          "level": 3,
+          "line": 150
+        },
+        {
+          "heading": "Step 4: Verify",
+          "level": 3,
+          "line": 169
+        },
+        {
+          "heading": "Step 5: Relax the interface",
+          "level": 3,
+          "line": 178
+        },
+        {
+          "heading": "Tolerance Guidelines",
+          "level": 2,
+          "line": 197
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 208
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": ".claude/skills/structure-intercalation/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 174,
+      "nonEmptyLines": 136,
+      "sections": [
+        {
+          "heading": "Intercalation",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "MCP Tool: catgo_intercalation",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Position Modes",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "Router: `/build/intercalation` (POST)",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "Complete Workflow: Li Intercalation in LiCoO2",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "Step 1: Fetch the host structure",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "Step 2: Create a supercell for dilute intercalation",
+          "level": 3,
+          "line": 72
+        },
+        {
+          "heading": "Step 3: Intercalate Li",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "Step 4: Verify",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "Step 5: Relax and compute intercalation voltage",
+          "level": 3,
+          "line": 103
+        },
+        {
+          "heading": "Intercalation Voltage Calculation",
+          "level": 2,
+          "line": 123
+        },
+        {
+          "heading": "Common Intercalant Species",
+          "level": 2,
+          "line": 138
+        },
+        {
+          "heading": "DFT Considerations",
+          "level": 2,
+          "line": 148
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 158
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": ".claude/skills/structure-moire/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 154,
+      "nonEmptyLines": 119,
+      "sections": [
+        {
+          "heading": "Moire Superlattice",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "MCP Tools",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "catgo_moire_search -- Find commensurate angles",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "catgo_moire_build -- Build the twisted bilayer",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "Router: `/moire/search` (POST), `/moire/build` (POST)",
+          "level": 3,
+          "line": 61
+        },
+        {
+          "heading": "Complete Workflow: Twisted Bilayer Graphene",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "Step 1: Fetch graphene monolayer",
+          "level": 3,
+          "line": 65
+        },
+        {
+          "heading": "Step 2: Search for commensurate angles",
+          "level": 3,
+          "line": 75
+        },
+        {
+          "heading": "Step 3: Build the moire structure",
+          "level": 3,
+          "line": 87
+        },
+        {
+          "heading": "Step 4: Verify",
+          "level": 3,
+          "line": 98
+        },
+        {
+          "heading": "Step 5: Relax (optional -- requires ML potential for large cells)",
+          "level": 3,
+          "line": 107
+        },
+        {
+          "heading": "Angle Selection Guide",
+          "level": 2,
+          "line": 128
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 139
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": ".claude/skills/structure-nanotube/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 149,
+      "nonEmptyLines": 112,
+      "sections": [
+        {
+          "heading": "Nanotube Generation",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Chirality Quick Reference",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "MCP Tools",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "catgo_nanotube_info -- Query geometry before building",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "catgo_nanotube_build -- Build the nanotube",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "Router: `/nanotube/info` (POST), `/nanotube/build` (POST)",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "Complete Workflow: (10,0) Zigzag CNT Relaxation",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "Step 1: Check nanotube geometry",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "Step 2: Build the nanotube",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "Step 3: Verify in viewer",
+          "level": 3,
+          "line": 90
+        },
+        {
+          "heading": "Step 4: Relax with DFT",
+          "level": 3,
+          "line": 98
+        },
+        {
+          "heading": "Multi-walled Nanotubes (MWNT)",
+          "level": 2,
+          "line": 117
+        },
+        {
+          "heading": "Non-Carbon Nanotubes",
+          "level": 2,
+          "line": 123
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 138
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": ".claude/skills/structure-slab/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 247,
+      "nonEmptyLines": 193,
+      "sections": [
+        {
+          "heading": "Slab Generation",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Task Type: `slab_gen`",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Parameters",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "Miller Index Quick Reference",
+          "level": 3,
+          "line": 35
+        },
+        {
+          "heading": "Discussion Checkpoints",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "MCP Workflow",
+          "level": 2,
+          "line": 65
+        },
+        {
+          "heading": "Step 1: Fetch bulk crystal",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "Step 2: Generate slab (interactive viewer)",
+          "level": 3,
+          "line": 75
+        },
+        {
+          "heading": "Step 3: PENDING_REVIEW -- verify the slab",
+          "level": 3,
+          "line": 99
+        },
+        {
+          "heading": "Step 4: Make supercell for adsorbate calculations",
+          "level": 3,
+          "line": 111
+        },
+        {
+          "heading": "Step 5: Submit geometry optimization",
+          "level": 3,
+          "line": 123
+        },
+        {
+          "heading": "Python API",
+          "level": 2,
+          "line": 139
+        },
+        {
+          "heading": "Workflow Engine (catgo_workflow) Batch Example",
+          "level": 2,
+          "line": 171
+        },
+        {
+          "heading": "DAG Structure",
+          "level": 2,
+          "line": 191
+        },
+        {
+          "heading": "Slab Thickness Guidelines",
+          "level": 2,
+          "line": 197
+        },
+        {
+          "heading": "Vacuum Thickness",
+          "level": 3,
+          "line": 206
+        },
+        {
+          "heading": "Layer Freezing",
+          "level": 2,
+          "line": 212
+        },
+        {
+          "heading": "Oxide Slabs",
+          "level": 2,
+          "line": 221
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 230
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 20
+      }
+    },
+    {
+      "path": ".claude/skills/structure-strain/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 188,
+      "nonEmptyLines": 148,
+      "sections": [
+        {
+          "heading": "Strain / Deformation",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "MCP Tool: catgo_structure (via REST /build/strain)",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Apply Uniaxial Strain",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Apply Biaxial Strain",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Apply Hydrostatic Strain",
+          "level": 3,
+          "line": 62
+        },
+        {
+          "heading": "Apply Shear Strain",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "Generate Multiple Strain Steps",
+          "level": 3,
+          "line": 90
+        },
+        {
+          "heading": "Parameters",
+          "level": 2,
+          "line": 109
+        },
+        {
+          "heading": "Complete Workflow: Elastic Constants via Stress-Strain",
+          "level": 2,
+          "line": 119
+        },
+        {
+          "heading": "1. Fetch and relax structure",
+          "level": 3,
+          "line": 121
+        },
+        {
+          "heading": "2. Apply strain series and compute stresses",
+          "level": 3,
+          "line": 144
+        },
+        {
+          "heading": "3. Fit elastic tensor",
+          "level": 3,
+          "line": 150
+        },
+        {
+          "heading": "Deformation Matrix Reference",
+          "level": 2,
+          "line": 163
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 174
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": ".claude/skills/structure-substitution/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 165,
+      "nonEmptyLines": 131,
+      "sections": [
+        {
+          "heading": "Combinatorial Substitution",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "MCP Tool: catgo_substitution",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Router: `/build/substitution` (POST)",
+          "level": 3,
+          "line": 55
+        },
+        {
+          "heading": "Combinatorics",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "Complete Workflow: Perovskite ABO3 Screening",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "Step 1: Fetch a reference perovskite",
+          "level": 3,
+          "line": 75
+        },
+        {
+          "heading": "Step 2: Identify site indices",
+          "level": 3,
+          "line": 83
+        },
+        {
+          "heading": "Step 3: Generate all A/B combinations",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "Step 4: Screen with MLP, then refine with DFT",
+          "level": 3,
+          "line": 111
+        },
+        {
+          "heading": "Difference from Doping (catgo_structure action: doping)",
+          "level": 2,
+          "line": 136
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 149
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    }
+  ]
+}

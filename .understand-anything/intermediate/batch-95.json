@@ -1,0 +1,1814 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/structure/CuttingPlaneVisualizer.svelte",
+      "type": "file",
+      "name": "CuttingPlaneVisualizer.svelte",
+      "filePath": "src/lib/structure/CuttingPlaneVisualizer.svelte",
+      "summary": "实现结构相关的 CuttingPlaneVisualizer.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/Cylinder.svelte",
+      "type": "file",
+      "name": "Cylinder.svelte",
+      "filePath": "src/lib/structure/Cylinder.svelte",
+      "summary": "实现结构相关的 Cylinder.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/DashedBond.svelte",
+      "type": "file",
+      "name": "DashedBond.svelte",
+      "filePath": "src/lib/structure/DashedBond.svelte",
+      "summary": "实现结构相关的 DashedBond.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/depth-cue-helpers.ts",
+      "type": "file",
+      "name": "depth-cue-helpers.ts",
+      "filePath": "src/lib/structure/depth-cue-helpers.ts",
+      "summary": "实现结构相关的 depth-cue-helpers.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "utility",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/depth-cue-helpers.ts:compute_depth_range",
+      "type": "function",
+      "name": "compute_depth_range",
+      "filePath": "src/lib/structure/depth-cue-helpers.ts",
+      "lineRange": [
+        18,
+        34
+      ],
+      "summary": "封装结构模块中的 compute_depth_range 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/depth-cue-helpers.ts:get_depth_color",
+      "type": "function",
+      "name": "get_depth_color",
+      "filePath": "src/lib/structure/depth-cue-helpers.ts",
+      "lineRange": [
+        40,
+        54
+      ],
+      "summary": "封装结构模块中的 get_depth_color 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/structure/DopingPane.svelte",
+      "type": "file",
+      "name": "DopingPane.svelte",
+      "filePath": "src/lib/structure/DopingPane.svelte",
+      "summary": "实现结构相关的 DopingPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/DopingPTPanel.svelte",
+      "type": "file",
+      "name": "DopingPTPanel.svelte",
+      "filePath": "src/lib/structure/DopingPTPanel.svelte",
+      "summary": "实现结构相关的 DopingPTPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/DopingPTWindow.svelte",
+      "type": "file",
+      "name": "DopingPTWindow.svelte",
+      "filePath": "src/lib/structure/DopingPTWindow.svelte",
+      "summary": "实现结构相关的 DopingPTWindow.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/export.ts",
+      "type": "file",
+      "name": "export.ts",
+      "filePath": "src/lib/structure/export.ts",
+      "summary": "实现结构相关的 export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 19 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:convert_instanced_meshes_to_regular",
+      "type": "function",
+      "name": "convert_instanced_meshes_to_regular",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        20,
+        98
+      ],
+      "summary": "封装结构模块中的 convert_instanced_meshes_to_regular 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:create_structure_filename",
+      "type": "function",
+      "name": "create_structure_filename",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        101,
+        139
+      ],
+      "summary": "封装结构模块中的 create_structure_filename 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:structure_to_xyz_str",
+      "type": "function",
+      "name": "structure_to_xyz_str",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        142,
+        254
+      ],
+      "summary": "封装结构模块中的 structure_to_xyz_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:structure_to_extxyz_str",
+      "type": "function",
+      "name": "structure_to_extxyz_str",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        257,
+        259
+      ],
+      "summary": "封装结构模块中的 structure_to_extxyz_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:trajectory_to_xyz_str",
+      "type": "function",
+      "name": "trajectory_to_xyz_str",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        262,
+        266
+      ],
+      "summary": "封装结构模块中的 trajectory_to_xyz_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:structure_to_cif_str",
+      "type": "function",
+      "name": "structure_to_cif_str",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        269,
+        412
+      ],
+      "summary": "封装结构模块中的 structure_to_cif_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:structure_to_poscar_str",
+      "type": "function",
+      "name": "structure_to_poscar_str",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        415,
+        583
+      ],
+      "summary": "封装结构模块中的 structure_to_poscar_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:structure_to_json_str",
+      "type": "function",
+      "name": "structure_to_json_str",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        586,
+        589
+      ],
+      "summary": "封装结构模块中的 structure_to_json_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:export_structure_as_cif",
+      "type": "function",
+      "name": "export_structure_as_cif",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        592,
+        600
+      ],
+      "summary": "封装结构模块中的 export_structure_as_cif 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:export_structure_as_poscar",
+      "type": "function",
+      "name": "export_structure_as_poscar",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        603,
+        611
+      ],
+      "summary": "封装结构模块中的 export_structure_as_poscar 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:export_structure_as_xyz",
+      "type": "function",
+      "name": "export_structure_as_xyz",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        617,
+        625
+      ],
+      "summary": "封装结构模块中的 export_structure_as_xyz 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:export_structure_as_extxyz",
+      "type": "function",
+      "name": "export_structure_as_extxyz",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        629,
+        637
+      ],
+      "summary": "封装结构模块中的 export_structure_as_extxyz 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:export_structure_as_json",
+      "type": "function",
+      "name": "export_structure_as_json",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        640,
+        648
+      ],
+      "summary": "封装结构模块中的 export_structure_as_json 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:export_structure_as_glb",
+      "type": "function",
+      "name": "export_structure_as_glb",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        652,
+        687
+      ],
+      "summary": "封装结构模块中的 export_structure_as_glb 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:export_structure_as_obj",
+      "type": "function",
+      "name": "export_structure_as_obj",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        691,
+        715
+      ],
+      "summary": "封装结构模块中的 export_structure_as_obj 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:structure_to_mol2_str",
+      "type": "function",
+      "name": "structure_to_mol2_str",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        719,
+        819
+      ],
+      "summary": "封装结构模块中的 structure_to_mol2_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:structure_to_pdb_str",
+      "type": "function",
+      "name": "structure_to_pdb_str",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        823,
+        907
+      ],
+      "summary": "封装结构模块中的 structure_to_pdb_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:export_structure_as_mol2",
+      "type": "function",
+      "name": "export_structure_as_mol2",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        910,
+        918
+      ],
+      "summary": "封装结构模块中的 export_structure_as_mol2 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export.ts:export_structure_as_pdb",
+      "type": "function",
+      "name": "export_structure_as_pdb",
+      "filePath": "src/lib/structure/export.ts",
+      "lineRange": [
+        921,
+        929
+      ],
+      "summary": "封装结构模块中的 export_structure_as_pdb 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/structure/export/abacus-export.ts",
+      "type": "file",
+      "name": "abacus-export.ts",
+      "filePath": "src/lib/structure/export/abacus-export.ts",
+      "summary": "实现结构相关的 abacus-export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export/abacus-export.ts:gen_abacus_input",
+      "type": "function",
+      "name": "gen_abacus_input",
+      "filePath": "src/lib/structure/export/abacus-export.ts",
+      "lineRange": [
+        43,
+        154
+      ],
+      "summary": "封装结构模块中的 gen_abacus_input 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/structure/export/AbacusExport.svelte",
+      "type": "file",
+      "name": "AbacusExport.svelte",
+      "filePath": "src/lib/structure/export/AbacusExport.svelte",
+      "summary": "实现结构相关的 AbacusExport.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/export/amber-export.ts",
+      "type": "file",
+      "name": "amber-export.ts",
+      "filePath": "src/lib/structure/export/amber-export.ts",
+      "summary": "实现结构相关的 amber-export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export/amber-export.ts:apply_amber_preset",
+      "type": "function",
+      "name": "apply_amber_preset",
+      "filePath": "src/lib/structure/export/amber-export.ts",
+      "lineRange": [
+        75,
+        113
+      ],
+      "summary": "封装结构模块中的 apply_amber_preset 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/amber-export.ts:generate_amber_mdin",
+      "type": "function",
+      "name": "generate_amber_mdin",
+      "filePath": "src/lib/structure/export/amber-export.ts",
+      "lineRange": [
+        116,
+        218
+      ],
+      "summary": "封装结构模块中的 generate_amber_mdin 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/structure/export/AmberExport.svelte",
+      "type": "file",
+      "name": "AmberExport.svelte",
+      "filePath": "src/lib/structure/export/AmberExport.svelte",
+      "summary": "实现结构相关的 AmberExport.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/export/common-export.ts",
+      "type": "file",
+      "name": "common-export.ts",
+      "filePath": "src/lib/structure/export/common-export.ts",
+      "summary": "实现结构相关的 common-export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 7 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export/common-export.ts:get_atom_mass",
+      "type": "function",
+      "name": "get_atom_mass",
+      "filePath": "src/lib/structure/export/common-export.ts",
+      "lineRange": [
+        31,
+        33
+      ],
+      "summary": "封装结构模块中的 get_atom_mass 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/common-export.ts:parse_index_range",
+      "type": "function",
+      "name": "parse_index_range",
+      "filePath": "src/lib/structure/export/common-export.ts",
+      "lineRange": [
+        53,
+        70
+      ],
+      "summary": "封装结构模块中的 parse_index_range 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/common-export.ts:get_unique_elements",
+      "type": "function",
+      "name": "get_unique_elements",
+      "filePath": "src/lib/structure/export/common-export.ts",
+      "lineRange": [
+        73,
+        81
+      ],
+      "summary": "封装结构模块中的 get_unique_elements 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/common-export.ts:get_constrained_atoms_info",
+      "type": "function",
+      "name": "get_constrained_atoms_info",
+      "filePath": "src/lib/structure/export/common-export.ts",
+      "lineRange": [
+        84,
+        97
+      ],
+      "summary": "封装结构模块中的 get_constrained_atoms_info 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/common-export.ts:generate_magmom_string",
+      "type": "function",
+      "name": "generate_magmom_string",
+      "filePath": "src/lib/structure/export/common-export.ts",
+      "lineRange": [
+        100,
+        119
+      ],
+      "summary": "封装结构模块中的 generate_magmom_string 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/common-export.ts:download_file",
+      "type": "function",
+      "name": "download_file",
+      "filePath": "src/lib/structure/export/common-export.ts",
+      "lineRange": [
+        122,
+        127
+      ],
+      "summary": "封装结构模块中的 download_file 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/common-export.ts:build_selective_dynamics",
+      "type": "function",
+      "name": "build_selective_dynamics",
+      "filePath": "src/lib/structure/export/common-export.ts",
+      "lineRange": [
+        138,
+        150
+      ],
+      "summary": "封装结构模块中的 build_selective_dynamics 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/structure/export/cp2k-export.ts",
+      "type": "file",
+      "name": "cp2k-export.ts",
+      "filePath": "src/lib/structure/export/cp2k-export.ts",
+      "summary": "实现结构相关的 cp2k-export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 5 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export/cp2k-export.ts:get_cp2k_valence",
+      "type": "function",
+      "name": "get_cp2k_valence",
+      "filePath": "src/lib/structure/export/cp2k-export.ts",
+      "lineRange": [
+        19,
+        21
+      ],
+      "summary": "封装结构模块中的 get_cp2k_valence 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/cp2k-export.ts:cp2k_ref_functional",
+      "type": "function",
+      "name": "cp2k_ref_functional",
+      "filePath": "src/lib/structure/export/cp2k-export.ts",
+      "lineRange": [
+        24,
+        30
+      ],
+      "summary": "封装结构模块中的 cp2k_ref_functional 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/cp2k-export.ts:cp2k_is_hybrid",
+      "type": "function",
+      "name": "cp2k_is_hybrid",
+      "filePath": "src/lib/structure/export/cp2k-export.ts",
+      "lineRange": [
+        33,
+        35
+      ],
+      "summary": "封装结构模块中的 cp2k_is_hybrid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/cp2k-export.ts:apply_cp2k_preset",
+      "type": "function",
+      "name": "apply_cp2k_preset",
+      "filePath": "src/lib/structure/export/cp2k-export.ts",
+      "lineRange": [
+        122,
+        159
+      ],
+      "summary": "封装结构模块中的 apply_cp2k_preset 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/cp2k-export.ts:gen_cp2k_local",
+      "type": "function",
+      "name": "gen_cp2k_local",
+      "filePath": "src/lib/structure/export/cp2k-export.ts",
+      "lineRange": [
+        161,
+        739
+      ],
+      "summary": "封装结构模块中的 gen_cp2k_local 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/lib/structure/export/Cp2kExport.svelte",
+      "type": "file",
+      "name": "Cp2kExport.svelte",
+      "filePath": "src/lib/structure/export/Cp2kExport.svelte",
+      "summary": "实现结构相关的 Cp2kExport.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/export/gaussian-export.ts",
+      "type": "file",
+      "name": "gaussian-export.ts",
+      "filePath": "src/lib/structure/export/gaussian-export.ts",
+      "summary": "实现结构相关的 gaussian-export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export/gaussian-export.ts:apply_gaussian_preset",
+      "type": "function",
+      "name": "apply_gaussian_preset",
+      "filePath": "src/lib/structure/export/gaussian-export.ts",
+      "lineRange": [
+        29,
+        43
+      ],
+      "summary": "封装结构模块中的 apply_gaussian_preset 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/gaussian-export.ts:generate_gaussian_input",
+      "type": "function",
+      "name": "generate_gaussian_input",
+      "filePath": "src/lib/structure/export/gaussian-export.ts",
+      "lineRange": [
+        45,
+        76
+      ],
+      "summary": "封装结构模块中的 generate_gaussian_input 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/structure/export/GaussianExport.svelte",
+      "type": "file",
+      "name": "GaussianExport.svelte",
+      "filePath": "src/lib/structure/export/GaussianExport.svelte",
+      "summary": "实现结构相关的 GaussianExport.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/export/gromacs-export.ts",
+      "type": "file",
+      "name": "gromacs-export.ts",
+      "filePath": "src/lib/structure/export/gromacs-export.ts",
+      "summary": "实现结构相关的 gromacs-export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export/gromacs-export.ts:apply_gmx_preset",
+      "type": "function",
+      "name": "apply_gmx_preset",
+      "filePath": "src/lib/structure/export/gromacs-export.ts",
+      "lineRange": [
+        41,
+        81
+      ],
+      "summary": "封装结构模块中的 apply_gmx_preset 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/gromacs-export.ts:generate_gromacs_input",
+      "type": "function",
+      "name": "generate_gromacs_input",
+      "filePath": "src/lib/structure/export/gromacs-export.ts",
+      "lineRange": [
+        83,
+        309
+      ],
+      "summary": "封装结构模块中的 generate_gromacs_input 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/lib/structure/export/GromacsExport.svelte",
+      "type": "file",
+      "name": "GromacsExport.svelte",
+      "filePath": "src/lib/structure/export/GromacsExport.svelte",
+      "summary": "实现结构相关的 GromacsExport.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/export/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/structure/export/index.ts",
+      "summary": "实现结构相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "entry-point",
+        "结构"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/export/lammps-export.ts",
+      "type": "file",
+      "name": "lammps-export.ts",
+      "filePath": "src/lib/structure/export/lammps-export.ts",
+      "summary": "实现结构相关的 lammps-export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export/lammps-export.ts:make_lmp_preset",
+      "type": "function",
+      "name": "make_lmp_preset",
+      "filePath": "src/lib/structure/export/lammps-export.ts",
+      "lineRange": [
+        35,
+        59
+      ],
+      "summary": "封装结构模块中的 make_lmp_preset 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/lammps-export.ts:gen_lammps_local",
+      "type": "function",
+      "name": "gen_lammps_local",
+      "filePath": "src/lib/structure/export/lammps-export.ts",
+      "lineRange": [
+        84,
+        184
+      ],
+      "summary": "封装结构模块中的 gen_lammps_local 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/structure/export/LammpsExport.svelte",
+      "type": "file",
+      "name": "LammpsExport.svelte",
+      "filePath": "src/lib/structure/export/LammpsExport.svelte",
+      "summary": "实现结构相关的 LammpsExport.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/structure/export/offline-serialize.ts",
+      "type": "file",
+      "name": "offline-serialize.ts",
+      "filePath": "src/lib/structure/export/offline-serialize.ts",
+      "summary": "实现结构相关的 offline-serialize.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 4 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export/offline-serialize.ts:mat3_inverse",
+      "type": "function",
+      "name": "mat3_inverse",
+      "filePath": "src/lib/structure/export/offline-serialize.ts",
+      "lineRange": [
+        24,
+        34
+      ],
+      "summary": "封装结构模块中的 mat3_inverse 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/offline-serialize.ts:cart_to_frac",
+      "type": "function",
+      "name": "cart_to_frac",
+      "filePath": "src/lib/structure/export/offline-serialize.ts",
+      "lineRange": [
+        42,
+        51
+      ],
+      "summary": "封装结构模块中的 cart_to_frac 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/offline-serialize.ts:structure_to_poscar",
+      "type": "function",
+      "name": "structure_to_poscar",
+      "filePath": "src/lib/structure/export/offline-serialize.ts",
+      "lineRange": [
+        65,
+        107
+      ],
+      "summary": "封装结构模块中的 structure_to_poscar 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/structure/export/offline-serialize.ts:structure_to_xyz",
+      "type": "function",
+      "name": "structure_to_xyz",
+      "filePath": "src/lib/structure/export/offline-serialize.ts",
+      "lineRange": [
+        117,
+        130
+      ],
+      "summary": "封装结构模块中的 structure_to_xyz 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/structure/export/orca-export.ts",
+      "type": "file",
+      "name": "orca-export.ts",
+      "filePath": "src/lib/structure/export/orca-export.ts",
+      "summary": "实现结构相关的 orca-export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "结构"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/structure/export/orca-export.ts:gen_orca_input",
+      "type": "function",
+      "name": "gen_orca_input",
+      "filePath": "src/lib/structure/export/orca-export.ts",
+      "lineRange": [
+        37,
+        120
+      ],
+      "summary": "封装结构模块中的 gen_orca_input 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/structure/export/OrcaExport.svelte",
+      "type": "file",
+      "name": "OrcaExport.svelte",
+      "filePath": "src/lib/structure/export/OrcaExport.svelte",
+      "summary": "实现结构相关的 OrcaExport.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "export",
+        "结构"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/structure/depth-cue-helpers.ts",
+      "target": "function:src/lib/structure/depth-cue-helpers.ts:compute_depth_range",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/depth-cue-helpers.ts",
+      "target": "function:src/lib/structure/depth-cue-helpers.ts:get_depth_color",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/depth-cue-helpers.ts",
+      "target": "function:src/lib/structure/depth-cue-helpers.ts:compute_depth_range",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/depth-cue-helpers.ts",
+      "target": "function:src/lib/structure/depth-cue-helpers.ts:get_depth_color",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:convert_instanced_meshes_to_regular",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:create_structure_filename",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_xyz_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_extxyz_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:trajectory_to_xyz_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_cif_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_poscar_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_json_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_cif",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_poscar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_xyz",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_extxyz",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_json",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_glb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_obj",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_mol2_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_pdb_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_mol2",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_pdb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:create_structure_filename",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_xyz_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_extxyz_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:trajectory_to_xyz_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_cif_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_poscar_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_json_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_cif",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_poscar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_xyz",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_extxyz",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_json",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_glb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_obj",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_mol2_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:structure_to_pdb_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_mol2",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export.ts",
+      "target": "function:src/lib/structure/export.ts:export_structure_as_pdb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/abacus-export.ts",
+      "target": "function:src/lib/structure/export/abacus-export.ts:gen_abacus_input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/abacus-export.ts",
+      "target": "function:src/lib/structure/export/abacus-export.ts:gen_abacus_input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/amber-export.ts",
+      "target": "function:src/lib/structure/export/amber-export.ts:apply_amber_preset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/amber-export.ts",
+      "target": "function:src/lib/structure/export/amber-export.ts:generate_amber_mdin",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/amber-export.ts",
+      "target": "function:src/lib/structure/export/amber-export.ts:apply_amber_preset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/amber-export.ts",
+      "target": "function:src/lib/structure/export/amber-export.ts:generate_amber_mdin",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:get_atom_mass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:parse_index_range",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:get_unique_elements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:get_constrained_atoms_info",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:generate_magmom_string",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:download_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:build_selective_dynamics",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:get_atom_mass",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:parse_index_range",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:get_unique_elements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:get_constrained_atoms_info",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:generate_magmom_string",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:download_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/common-export.ts",
+      "target": "function:src/lib/structure/export/common-export.ts:build_selective_dynamics",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:get_cp2k_valence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:cp2k_ref_functional",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:cp2k_is_hybrid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:apply_cp2k_preset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:gen_cp2k_local",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:get_cp2k_valence",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:cp2k_ref_functional",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:cp2k_is_hybrid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:apply_cp2k_preset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/cp2k-export.ts",
+      "target": "function:src/lib/structure/export/cp2k-export.ts:gen_cp2k_local",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/gaussian-export.ts",
+      "target": "function:src/lib/structure/export/gaussian-export.ts:apply_gaussian_preset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/gaussian-export.ts",
+      "target": "function:src/lib/structure/export/gaussian-export.ts:generate_gaussian_input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/gaussian-export.ts",
+      "target": "function:src/lib/structure/export/gaussian-export.ts:apply_gaussian_preset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/gaussian-export.ts",
+      "target": "function:src/lib/structure/export/gaussian-export.ts:generate_gaussian_input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/gromacs-export.ts",
+      "target": "function:src/lib/structure/export/gromacs-export.ts:apply_gmx_preset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/gromacs-export.ts",
+      "target": "function:src/lib/structure/export/gromacs-export.ts:generate_gromacs_input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/gromacs-export.ts",
+      "target": "function:src/lib/structure/export/gromacs-export.ts:apply_gmx_preset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/gromacs-export.ts",
+      "target": "function:src/lib/structure/export/gromacs-export.ts:generate_gromacs_input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/lammps-export.ts",
+      "target": "function:src/lib/structure/export/lammps-export.ts:make_lmp_preset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/lammps-export.ts",
+      "target": "function:src/lib/structure/export/lammps-export.ts:gen_lammps_local",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/lammps-export.ts",
+      "target": "function:src/lib/structure/export/lammps-export.ts:make_lmp_preset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/lammps-export.ts",
+      "target": "function:src/lib/structure/export/lammps-export.ts:gen_lammps_local",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/offline-serialize.ts",
+      "target": "function:src/lib/structure/export/offline-serialize.ts:mat3_inverse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/offline-serialize.ts",
+      "target": "function:src/lib/structure/export/offline-serialize.ts:cart_to_frac",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/offline-serialize.ts",
+      "target": "function:src/lib/structure/export/offline-serialize.ts:structure_to_poscar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/offline-serialize.ts",
+      "target": "function:src/lib/structure/export/offline-serialize.ts:structure_to_xyz",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/offline-serialize.ts",
+      "target": "function:src/lib/structure/export/offline-serialize.ts:mat3_inverse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/offline-serialize.ts",
+      "target": "function:src/lib/structure/export/offline-serialize.ts:cart_to_frac",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/offline-serialize.ts",
+      "target": "function:src/lib/structure/export/offline-serialize.ts:structure_to_poscar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/offline-serialize.ts",
+      "target": "function:src/lib/structure/export/offline-serialize.ts:structure_to_xyz",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/structure/export/orca-export.ts",
+      "target": "function:src/lib/structure/export/orca-export.ts:gen_orca_input",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/structure/export/orca-export.ts",
+      "target": "function:src/lib/structure/export/orca-export.ts:gen_orca_input",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

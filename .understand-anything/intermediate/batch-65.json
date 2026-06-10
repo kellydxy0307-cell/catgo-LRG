@@ -1,0 +1,574 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/catgo/routers/chat.py",
+      "type": "file",
+      "name": "chat.py",
+      "filePath": "server/catgo/routers/chat.py",
+      "summary": "chat.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/chat.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/chgcar.py",
+      "type": "file",
+      "name": "chgcar.py",
+      "filePath": "server/catgo/routers/chgcar.py",
+      "summary": "chgcar.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/chgcar.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/cohp.py",
+      "type": "file",
+      "name": "cohp.py",
+      "filePath": "server/catgo/routers/cohp.py",
+      "summary": "cohp.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/cohp.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/cp2k.py",
+      "type": "file",
+      "name": "cp2k.py",
+      "filePath": "server/catgo/routers/cp2k.py",
+      "summary": "cp2k.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/cp2k.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/cube.py",
+      "type": "file",
+      "name": "cube.py",
+      "filePath": "server/catgo/routers/cube.py",
+      "summary": "cube.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/cube.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/dos.py",
+      "type": "file",
+      "name": "dos.py",
+      "filePath": "server/catgo/routers/dos.py",
+      "summary": "dos.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/dos.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/file_sandbox.py",
+      "type": "file",
+      "name": "file_sandbox.py",
+      "filePath": "server/catgo/routers/file_sandbox.py",
+      "summary": "file_sandbox.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/file_sandbox.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/forcefield_utils.py",
+      "type": "file",
+      "name": "forcefield_utils.py",
+      "filePath": "server/catgo/routers/forcefield_utils.py",
+      "summary": "forcefield_utils.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/forcefield_utils.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/forcefield.py",
+      "type": "file",
+      "name": "forcefield.py",
+      "filePath": "server/catgo/routers/forcefield.py",
+      "summary": "forcefield.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/forcefield.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/freq_analysis.py",
+      "type": "file",
+      "name": "freq_analysis.py",
+      "filePath": "server/catgo/routers/freq_analysis.py",
+      "summary": "freq_analysis.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/freq_analysis.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/heterostructure.py",
+      "type": "file",
+      "name": "heterostructure.py",
+      "filePath": "server/catgo/routers/heterostructure.py",
+      "summary": "heterostructure.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/heterostructure.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/hpc.py",
+      "type": "file",
+      "name": "hpc.py",
+      "filePath": "server/catgo/routers/hpc.py",
+      "summary": "hpc.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/hpc.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/hub.py",
+      "type": "file",
+      "name": "hub.py",
+      "filePath": "server/catgo/routers/hub.py",
+      "summary": "hub.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/hub.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/kmc.py",
+      "type": "file",
+      "name": "kmc.py",
+      "filePath": "server/catgo/routers/kmc.py",
+      "summary": "kmc.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/kmc.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/lammps/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/routers/lammps/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/lammps/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/lammps/setup.py",
+      "type": "file",
+      "name": "setup.py",
+      "filePath": "server/catgo/routers/lammps/setup.py",
+      "summary": "setup.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/lammps/setup.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/lammps/simulation.py",
+      "type": "file",
+      "name": "simulation.py",
+      "filePath": "server/catgo/routers/lammps/simulation.py",
+      "summary": "simulation.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/lammps/simulation.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/lammps/utils.py",
+      "type": "file",
+      "name": "utils.py",
+      "filePath": "server/catgo/routers/lammps/utils.py",
+      "summary": "utils.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/lammps/utils.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/materials_project.py",
+      "type": "file",
+      "name": "materials_project.py",
+      "filePath": "server/catgo/routers/materials_project.py",
+      "summary": "materials_project.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/materials_project.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/mcp_http.py",
+      "type": "file",
+      "name": "mcp_http.py",
+      "filePath": "server/catgo/routers/mcp_http.py",
+      "summary": "mcp_http.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/mcp_http.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/mcp_sse.py",
+      "type": "file",
+      "name": "mcp_sse.py",
+      "filePath": "server/catgo/routers/mcp_sse.py",
+      "summary": "mcp_sse.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/mcp_sse.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/md_angles.py",
+      "type": "file",
+      "name": "md_angles.py",
+      "filePath": "server/catgo/routers/md_angles.py",
+      "summary": "md_angles.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_angles.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/md_cavitation.py",
+      "type": "file",
+      "name": "md_cavitation.py",
+      "filePath": "server/catgo/routers/md_cavitation.py",
+      "summary": "md_cavitation.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_cavitation.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/md_clustering.py",
+      "type": "file",
+      "name": "md_clustering.py",
+      "filePath": "server/catgo/routers/md_clustering.py",
+      "summary": "md_clustering.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_clustering.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/md_density.py",
+      "type": "file",
+      "name": "md_density.py",
+      "filePath": "server/catgo/routers/md_density.py",
+      "summary": "md_density.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_density.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/catgo/routers/cohp.py",
+      "target": "file:server/catgo/models/cohp.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/cp2k.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/dos.py",
+      "target": "file:server/catgo/models/dos.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/file_sandbox.py",
+      "target": "file:server/catgo/tools/file_sandbox.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/forcefield.py",
+      "target": "file:server/catgo/routers/forcefield_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/heterostructure.py",
+      "target": "file:server/catgo/models/heterostructure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/heterostructure.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/heterostructure.py",
+      "target": "file:server/catgo/utils/heterostructure_algorithm.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/hpc.py",
+      "target": "file:server/catgo/models/hpc.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/hpc.py",
+      "target": "file:server/catgo/utils/hpc_client.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/hpc.py",
+      "target": "file:server/catgo/utils/job_parser.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/hub.py",
+      "target": "file:server/catgo/tools/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/hub.py",
+      "target": "file:server/catgo/tools/models.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/hub.py",
+      "target": "file:server/catgo/tools/registry.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/hub.py",
+      "target": "file:server/catgo/tools/sandbox.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/lammps/__init__.py",
+      "target": "file:server/catgo/routers/lammps/setup.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/lammps/__init__.py",
+      "target": "file:server/catgo/routers/lammps/simulation.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/lammps/setup.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/lammps/setup.py",
+      "target": "file:server/catgo/routers/lammps/utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/lammps/simulation.py",
+      "target": "file:server/catgo/models/hpc.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/lammps/simulation.py",
+      "target": "file:server/catgo/routers/lammps/utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/lammps/utils.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/mcp_http.py",
+      "target": "file:server/catgo/mcp_tools/server_claude_code.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/mcp_http.py",
+      "target": "file:server/catgo/routers/view_state.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/md_angles.py",
+      "target": "file:server/catgo/routers/md_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/md_cavitation.py",
+      "target": "file:server/catgo/routers/md_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/md_clustering.py",
+      "target": "file:server/catgo/routers/md_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/md_density.py",
+      "target": "file:server/catgo/routers/md_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

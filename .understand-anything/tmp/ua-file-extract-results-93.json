@@ -1,0 +1,4504 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/lib/structure/atoms/atom-instanced-renderer.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 625,
+      "nonEmptyLines": 570,
+      "classes": [
+        {
+          "name": "AtomInstancedRenderer",
+          "startLine": 67,
+          "endLine": 625,
+          "methods": [
+            "constructor",
+            "set_hidden_site_ids",
+            "set_cutting",
+            "set_image_atoms",
+            "set_atom_opacity_overrides",
+            "sync",
+            "force_full_resync",
+            "dispose"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AtomInstancedRenderer",
+          "line": 67,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "constructor",
+          "callee": "this.#position_attr.setUsage",
+          "lineNumber": 109
+        },
+        {
+          "caller": "constructor",
+          "callee": "mesh.geometry.setAttribute",
+          "lineNumber": 110
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.#radius_attr.setUsage",
+          "lineNumber": 114
+        },
+        {
+          "caller": "constructor",
+          "callee": "mesh.geometry.setAttribute",
+          "lineNumber": 115
+        },
+        {
+          "caller": "constructor",
+          "callee": "col_buf.fill",
+          "lineNumber": 120
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.#color_attr.setUsage",
+          "lineNumber": 122
+        },
+        {
+          "caller": "constructor",
+          "callee": "mesh.geometry.setAttribute",
+          "lineNumber": 123
+        },
+        {
+          "caller": "constructor",
+          "callee": "op_buf.fill",
+          "lineNumber": 126
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.#opacity_attr.setUsage",
+          "lineNumber": 128
+        },
+        {
+          "caller": "constructor",
+          "callee": "mesh.geometry.setAttribute",
+          "lineNumber": 129
+        },
+        {
+          "caller": "constructor",
+          "callee": "sat_buf.fill",
+          "lineNumber": 132
+        },
+        {
+          "caller": "constructor",
+          "callee": "this.#saturation_attr.setUsage",
+          "lineNumber": 134
+        },
+        {
+          "caller": "constructor",
+          "callee": "mesh.geometry.setAttribute",
+          "lineNumber": 135
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#position_attr.clearUpdateRanges",
+          "lineNumber": 258
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#radius_attr.clearUpdateRanges",
+          "lineNumber": 259
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#color_attr.clearUpdateRanges",
+          "lineNumber": 260
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#opacity_attr.clearUpdateRanges",
+          "lineNumber": 261
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#saturation_attr.clearUpdateRanges",
+          "lineNumber": 262
+        },
+        {
+          "caller": "sync",
+          "callee": "Math.max",
+          "lineNumber": 276
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#sync_attr_vec3",
+          "lineNumber": 279
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#sync_attr_float",
+          "lineNumber": 294
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#sync_attr_vec3",
+          "lineNumber": 311
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#has_opacity_modulation",
+          "lineNumber": 334
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#sync_attr_float_computed",
+          "lineNumber": 337
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#compute_effective_opacity",
+          "lineNumber": 339
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#sync_attr_float",
+          "lineNumber": 342
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#opacity_attr.addUpdateRange",
+          "lineNumber": 360
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#has_saturation_modulation",
+          "lineNumber": 365
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#sync_attr_float_computed",
+          "lineNumber": 368
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#compute_effective_saturation",
+          "lineNumber": 370
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#sync_attr_float",
+          "lineNumber": 373
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#saturation_attr.addUpdateRange",
+          "lineNumber": 386
+        },
+        {
+          "caller": "sync",
+          "callee": "manager.clear_dirty",
+          "lineNumber": 396
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#position_attr.clearUpdateRanges",
+          "lineNumber": 413
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#radius_attr.clearUpdateRanges",
+          "lineNumber": 414
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#color_attr.clearUpdateRanges",
+          "lineNumber": 415
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#opacity_attr.clearUpdateRanges",
+          "lineNumber": 416
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#saturation_attr.clearUpdateRanges",
+          "lineNumber": 417
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#compute_effective_opacity",
+          "lineNumber": 448
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#compute_effective_saturation",
+          "lineNumber": 450
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#position_attr.addUpdateRange",
+          "lineNumber": 453
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#radius_attr.addUpdateRange",
+          "lineNumber": 454
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#color_attr.addUpdateRange",
+          "lineNumber": 455
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#opacity_attr.addUpdateRange",
+          "lineNumber": 456
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#saturation_attr.addUpdateRange",
+          "lineNumber": 457
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "manager.clear_dirty",
+          "lineNumber": 467
+        },
+        {
+          "caller": "dispose",
+          "callee": "geom.deleteAttribute",
+          "lineNumber": 474
+        },
+        {
+          "caller": "dispose",
+          "callee": "geom.deleteAttribute",
+          "lineNumber": 475
+        },
+        {
+          "caller": "dispose",
+          "callee": "geom.deleteAttribute",
+          "lineNumber": 476
+        },
+        {
+          "caller": "dispose",
+          "callee": "geom.deleteAttribute",
+          "lineNumber": 477
+        },
+        {
+          "caller": "dispose",
+          "callee": "geom.deleteAttribute",
+          "lineNumber": 478
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/structure/atoms/atom-manager.svelte.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1066,
+      "nonEmptyLines": 969,
+      "functions": [
+        {
+          "name": "element_to_atomic_number",
+          "startLine": 134,
+          "endLine": 136,
+          "params": [
+            "symbol"
+          ]
+        },
+        {
+          "name": "atomic_number_to_element",
+          "startLine": 139,
+          "endLine": 141,
+          "params": [
+            "n"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AtomManager",
+          "startLine": 158,
+          "endLine": 1066,
+          "methods": [
+            "constructor",
+            "version",
+            "count",
+            "capacity",
+            "site_ids_buffer",
+            "positions_buffer",
+            "radii_buffer",
+            "elements_buffer",
+            "colors_buffer",
+            "opacities_buffer",
+            "saturations_buffer",
+            "has_colors",
+            "has_opacities",
+            "has_saturations",
+            "dirty_positions",
+            "dirty_all_positions",
+            "dirty_radii",
+            "dirty_all_radii",
+            "dirty_elements",
+            "dirty_all_elements",
+            "dirty_colors",
+            "dirty_all_colors",
+            "dirty_opacities",
+            "dirty_all_opacities",
+            "dirty_saturations",
+            "dirty_all_saturations",
+            "clear_dirty",
+            "reserve",
+            "shrink_to_fit",
+            "add_atom",
+            "add_atoms",
+            "remove_atom",
+            "remove_atoms",
+            "apply_atom_delete",
+            "remove_where",
+            "set_position",
+            "set_radius",
+            "set_element",
+            "ensure_colors",
+            "set_color",
+            "begin_colors_batch",
+            "commit_colors_batch",
+            "ensure_opacities",
+            "set_opacity",
+            "begin_opacity_batch",
+            "commit_opacity_batch",
+            "ensure_saturations",
+            "set_saturation",
+            "begin_saturation_batch",
+            "commit_saturation_batch",
+            "find_slot_by_site_id",
+            "find_slots_by_site_ids",
+            "get_site_id",
+            "get_x",
+            "get_y",
+            "get_z",
+            "get_radius",
+            "get_element",
+            "clear"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "element_to_atomic_number",
+          "line": 134,
+          "isDefault": false
+        },
+        {
+          "name": "atomic_number_to_element",
+          "line": 139,
+          "isDefault": false
+        },
+        {
+          "name": "AtomManager",
+          "line": 158,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "element_to_atomic_number",
+          "callee": "ATOMIC_NUMBER_BY_SYMBOL.get",
+          "lineNumber": 135
+        },
+        {
+          "caller": "atomic_number_to_element",
+          "callee": "SYMBOL_BY_ATOMIC_NUMBER.get",
+          "lineNumber": 140
+        },
+        {
+          "caller": "constructor",
+          "callee": "Math.max",
+          "lineNumber": 205
+        },
+        {
+          "caller": "clear_dirty",
+          "callee": "this.#dirty_positions.clear",
+          "lineNumber": 253
+        },
+        {
+          "caller": "clear_dirty",
+          "callee": "this.#dirty_radii.clear",
+          "lineNumber": 254
+        },
+        {
+          "caller": "clear_dirty",
+          "callee": "this.#dirty_elements.clear",
+          "lineNumber": 255
+        },
+        {
+          "caller": "clear_dirty",
+          "callee": "this.#dirty_colors.clear",
+          "lineNumber": 256
+        },
+        {
+          "caller": "clear_dirty",
+          "callee": "this.#dirty_opacities.clear",
+          "lineNumber": 257
+        },
+        {
+          "caller": "clear_dirty",
+          "callee": "this.#dirty_saturations.clear",
+          "lineNumber": 258
+        },
+        {
+          "caller": "reserve",
+          "callee": "this.#ensure_capacity",
+          "lineNumber": 371
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "Math.max",
+          "lineNumber": 376
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "Math.max",
+          "lineNumber": 376
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_site_ids.set",
+          "lineNumber": 383
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#site_ids.subarray",
+          "lineNumber": 383
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_positions.set",
+          "lineNumber": 384
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#positions.subarray",
+          "lineNumber": 384
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_radii.set",
+          "lineNumber": 385
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#radii.subarray",
+          "lineNumber": 385
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_elements.set",
+          "lineNumber": 386
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#elements.subarray",
+          "lineNumber": 386
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "next.set",
+          "lineNumber": 394
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#colors.subarray",
+          "lineNumber": 394
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "next.fill",
+          "lineNumber": 399
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "next.set",
+          "lineNumber": 400
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#opacities.subarray",
+          "lineNumber": 400
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "next.fill",
+          "lineNumber": 405
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "next.set",
+          "lineNumber": 406
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#saturations.subarray",
+          "lineNumber": 406
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#dirty_positions.clear",
+          "lineNumber": 412
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#dirty_radii.clear",
+          "lineNumber": 413
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#dirty_elements.clear",
+          "lineNumber": 414
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#dirty_colors.clear",
+          "lineNumber": 415
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#dirty_opacities.clear",
+          "lineNumber": 416
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#dirty_saturations.clear",
+          "lineNumber": 417
+        },
+        {
+          "caller": "add_atom",
+          "callee": "this.#ensure_capacity",
+          "lineNumber": 434
+        },
+        {
+          "caller": "add_atom",
+          "callee": "this.#site_id_to_slot.set",
+          "lineNumber": 442
+        },
+        {
+          "caller": "add_atom",
+          "callee": "this.#touch_all_attrs_for_slot",
+          "lineNumber": 444
+        },
+        {
+          "caller": "add_atoms",
+          "callee": "this.#ensure_capacity",
+          "lineNumber": 475
+        },
+        {
+          "caller": "add_atoms",
+          "callee": "this.#site_id_to_slot.set",
+          "lineNumber": 481
+        },
+        {
+          "caller": "add_atoms",
+          "callee": "this.#touch_range_core",
+          "lineNumber": 489
+        },
+        {
+          "caller": "add_atoms",
+          "callee": "this.#touch_color",
+          "lineNumber": 493
+        },
+        {
+          "caller": "add_atoms",
+          "callee": "this.#touch_opacity",
+          "lineNumber": 496
+        },
+        {
+          "caller": "add_atoms",
+          "callee": "this.#touch_saturation",
+          "lineNumber": 500
+        },
+        {
+          "caller": "remove_atom",
+          "callee": "this.#site_id_to_slot.delete",
+          "lineNumber": 516
+        },
+        {
+          "caller": "remove_atom",
+          "callee": "this.#site_id_to_slot.set",
+          "lineNumber": 534
+        },
+        {
+          "caller": "remove_atom",
+          "callee": "this.#touch_all_attrs_for_slot",
+          "lineNumber": 535
+        },
+        {
+          "caller": "remove_atom",
+          "callee": "this.#dirty_positions.delete",
+          "lineNumber": 541
+        },
+        {
+          "caller": "remove_atom",
+          "callee": "this.#dirty_radii.delete",
+          "lineNumber": 542
+        },
+        {
+          "caller": "remove_atom",
+          "callee": "this.#dirty_elements.delete",
+          "lineNumber": 543
+        },
+        {
+          "caller": "remove_atom",
+          "callee": "this.#dirty_colors.delete",
+          "lineNumber": 544
+        },
+        {
+          "caller": "remove_atom",
+          "callee": "this.#dirty_opacities.delete",
+          "lineNumber": 545
+        },
+        {
+          "caller": "remove_atom",
+          "callee": "this.#dirty_saturations.delete",
+          "lineNumber": 546
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "seen.has",
+          "lineNumber": 562
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "seen.add",
+          "lineNumber": 563
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "sorted.push",
+          "lineNumber": 564
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "sorted.sort",
+          "lineNumber": 566
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "this.#site_id_to_slot.delete",
+          "lineNumber": 574
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "this.#site_id_to_slot.set",
+          "lineNumber": 591
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "this.#touch_all_attrs_for_slot",
+          "lineNumber": 592
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "this.#dirty_positions.delete",
+          "lineNumber": 596
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "this.#dirty_radii.delete",
+          "lineNumber": 597
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "this.#dirty_elements.delete",
+          "lineNumber": 598
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "this.#dirty_colors.delete",
+          "lineNumber": 599
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "this.#dirty_opacities.delete",
+          "lineNumber": 600
+        },
+        {
+          "caller": "remove_atoms",
+          "callee": "this.#dirty_saturations.delete",
+          "lineNumber": 601
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "deleted_set.add",
+          "lineNumber": 634
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "deleted_set.add",
+          "lineNumber": 637
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "Array.from",
+          "lineNumber": 642
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "sorted_deleted.sort",
+          "lineNumber": 643
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "deleted_set.has",
+          "lineNumber": 683
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "shift_for",
+          "lineNumber": 690
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#site_id_to_slot.clear",
+          "lineNumber": 725
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#site_id_to_slot.set",
+          "lineNumber": 727
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "Math.min",
+          "lineNumber": 734
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#touch_range_core",
+          "lineNumber": 736
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#dirty_colors.clear",
+          "lineNumber": 747
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#dirty_opacities.clear",
+          "lineNumber": 748
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#dirty_saturations.clear",
+          "lineNumber": 749
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#touch_color",
+          "lineNumber": 752
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#touch_opacity",
+          "lineNumber": 753
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#touch_saturation",
+          "lineNumber": 754
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#purge_dead_dirty_slots_after_compact",
+          "lineNumber": 762
+        },
+        {
+          "caller": "purge",
+          "callee": "to_remove.push",
+          "lineNumber": 777
+        },
+        {
+          "caller": "purge",
+          "callee": "set.delete",
+          "lineNumber": 780
+        },
+        {
+          "caller": "remove_where",
+          "callee": "pred",
+          "lineNumber": 799
+        },
+        {
+          "caller": "remove_where",
+          "callee": "this.#site_id_to_slot.delete",
+          "lineNumber": 801
+        },
+        {
+          "caller": "remove_where",
+          "callee": "this.#site_id_to_slot.set",
+          "lineNumber": 819
+        },
+        {
+          "caller": "remove_where",
+          "callee": "this.#touch_range_core",
+          "lineNumber": 828
+        },
+        {
+          "caller": "remove_where",
+          "callee": "Math.max",
+          "lineNumber": 828
+        },
+        {
+          "caller": "remove_where",
+          "callee": "Math.max",
+          "lineNumber": 830
+        },
+        {
+          "caller": "remove_where",
+          "callee": "this.#touch_color",
+          "lineNumber": 832
+        },
+        {
+          "caller": "remove_where",
+          "callee": "this.#touch_opacity",
+          "lineNumber": 833
+        },
+        {
+          "caller": "remove_where",
+          "callee": "this.#touch_saturation",
+          "lineNumber": 834
+        },
+        {
+          "caller": "set_position",
+          "callee": "Math.fround",
+          "lineNumber": 854
+        },
+        {
+          "caller": "set_position",
+          "callee": "Math.fround",
+          "lineNumber": 854
+        },
+        {
+          "caller": "set_position",
+          "callee": "Math.fround",
+          "lineNumber": 854
+        },
+        {
+          "caller": "set_position",
+          "callee": "this.#touch_position",
+          "lineNumber": 863
+        },
+        {
+          "caller": "set_radius",
+          "callee": "Math.fround",
+          "lineNumber": 869
+        },
+        {
+          "caller": "set_radius",
+          "callee": "this.#touch_radius",
+          "lineNumber": 872
+        },
+        {
+          "caller": "set_element",
+          "callee": "this.#touch_element",
+          "lineNumber": 885
+        },
+        {
+          "caller": "ensure_colors",
+          "callee": "this.#dirty_colors.clear",
+          "lineNumber": 899
+        },
+        {
+          "caller": "set_color",
+          "callee": "Math.fround",
+          "lineNumber": 913
+        },
+        {
+          "caller": "set_color",
+          "callee": "Math.fround",
+          "lineNumber": 913
+        },
+        {
+          "caller": "set_color",
+          "callee": "Math.fround",
+          "lineNumber": 913
+        },
+        {
+          "caller": "set_color",
+          "callee": "this.#touch_color",
+          "lineNumber": 918
+        },
+        {
+          "caller": "ensure_opacities",
+          "callee": "this.#opacities.fill",
+          "lineNumber": 942
+        },
+        {
+          "caller": "ensure_opacities",
+          "callee": "this.#dirty_opacities.clear",
+          "lineNumber": 945
+        },
+        {
+          "caller": "set_opacity",
+          "callee": "this.#opacities.fill",
+          "lineNumber": 955
+        },
+        {
+          "caller": "set_opacity",
+          "callee": "Math.fround",
+          "lineNumber": 957
+        },
+        {
+          "caller": "set_opacity",
+          "callee": "this.#touch_opacity",
+          "lineNumber": 960
+        },
+        {
+          "caller": "ensure_saturations",
+          "callee": "this.#saturations.fill",
+          "lineNumber": 984
+        },
+        {
+          "caller": "ensure_saturations",
+          "callee": "this.#dirty_saturations.clear",
+          "lineNumber": 987
+        },
+        {
+          "caller": "set_saturation",
+          "callee": "this.#saturations.fill",
+          "lineNumber": 997
+        },
+        {
+          "caller": "set_saturation",
+          "callee": "Math.fround",
+          "lineNumber": 999
+        },
+        {
+          "caller": "set_saturation",
+          "callee": "this.#touch_saturation",
+          "lineNumber": 1002
+        },
+        {
+          "caller": "find_slot_by_site_id",
+          "callee": "this.#site_id_to_slot.get",
+          "lineNumber": 1025
+        },
+        {
+          "caller": "find_slots_by_site_ids",
+          "callee": "this.find_slot_by_site_id",
+          "lineNumber": 1033
+        },
+        {
+          "caller": "clear",
+          "callee": "this.#site_id_to_slot.clear",
+          "lineNumber": 1057
+        },
+        {
+          "caller": "clear",
+          "callee": "this.#dirty_positions.clear",
+          "lineNumber": 1058
+        },
+        {
+          "caller": "clear",
+          "callee": "this.#dirty_radii.clear",
+          "lineNumber": 1059
+        },
+        {
+          "caller": "clear",
+          "callee": "this.#dirty_elements.clear",
+          "lineNumber": 1060
+        },
+        {
+          "caller": "clear",
+          "callee": "this.#dirty_colors.clear",
+          "lineNumber": 1061
+        },
+        {
+          "caller": "clear",
+          "callee": "this.#dirty_opacities.clear",
+          "lineNumber": 1062
+        },
+        {
+          "caller": "clear",
+          "callee": "this.#dirty_saturations.clear",
+          "lineNumber": 1063
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/structure/atoms/AtomManagerInstances.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 484,
+      "nonEmptyLines": 437,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/structure/atoms/feature-flag.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 28,
+      "nonEmptyLines": 28,
+      "exports": [
+        {
+          "name": "USE_NEW_ATOM_SYSTEM",
+          "line": 28,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1368,
+      "nonEmptyLines": 1273,
+      "functions": [
+        {
+          "name": "frame_cache_touch",
+          "startLine": 70,
+          "endLine": 73,
+          "params": [
+            "key",
+            "entry"
+          ]
+        },
+        {
+          "name": "frame_cache_set",
+          "startLine": 76,
+          "endLine": 84,
+          "params": [
+            "key",
+            "entry"
+          ]
+        },
+        {
+          "name": "clear_trajectory_bond_frame_cache",
+          "startLine": 96,
+          "endLine": 105,
+          "params": [
+            "bond_state"
+          ]
+        },
+        {
+          "name": "build_trajectory_overlay_structure",
+          "startLine": 120,
+          "endLine": 150,
+          "params": [
+            "structure",
+            "traj"
+          ]
+        },
+        {
+          "name": "invert_3x3",
+          "startLine": 155,
+          "endLine": 167,
+          "params": [
+            "m"
+          ]
+        },
+        {
+          "name": "create_bond_state",
+          "startLine": 173,
+          "endLine": 211,
+          "params": []
+        },
+        {
+          "name": "compute_bond_connectivity",
+          "startLine": 219,
+          "endLine": 391,
+          "params": [
+            "bond_state",
+            "bond_pairs_setter",
+            "structure",
+            "show_bonds",
+            "lattice",
+            "bonding_strategy",
+            "bonding_options",
+            "external_dragging"
+          ]
+        },
+        {
+          "name": "compute_bond_connectivity_for_frame",
+          "startLine": 423,
+          "endLine": 500,
+          "params": [
+            "bond_state",
+            "traj_positions",
+            "structure",
+            "show_bonds",
+            "lattice",
+            "bonding_strategy",
+            "bonding_options"
+          ]
+        },
+        {
+          "name": "dispatch_traj_async",
+          "startLine": 506,
+          "endLine": 583,
+          "params": [
+            "bond_state",
+            "frame_key",
+            "overlay_structure",
+            "base_structure",
+            "strategy_key",
+            "elem_fp",
+            "bonding_strategy",
+            "bonding_options"
+          ]
+        },
+        {
+          "name": "apply_jimage",
+          "startLine": 589,
+          "endLine": 604,
+          "params": [
+            "base",
+            "jimage",
+            "lattice_matrix"
+          ]
+        },
+        {
+          "name": "build_bond_pairs",
+          "startLine": 616,
+          "endLine": 663,
+          "params": [
+            "bond_connectivity",
+            "last_bond_structure",
+            "structure",
+            "realtime_position_overrides",
+            "external_dragging",
+            "selected_sites"
+          ]
+        },
+        {
+          "name": "build_trajectory_bond_pairs",
+          "startLine": 683,
+          "endLine": 783,
+          "params": [
+            "bond_connectivity",
+            "trajectory_frame_positions",
+            "overrides",
+            "atom_manager",
+            "lattice_matrix",
+            "sites",
+            "bond_tolerance"
+          ]
+        },
+        {
+          "name": "create_hbond_state",
+          "startLine": 789,
+          "endLine": 800,
+          "params": []
+        },
+        {
+          "name": "compute_hbond_connectivity",
+          "startLine": 806,
+          "endLine": 887,
+          "params": [
+            "hbond_state",
+            "show_hydrogen_bonds",
+            "structure",
+            "bond_pairs",
+            "bonding_strategy",
+            "bonding_options",
+            "hbond_distance_cutoff",
+            "hbond_angle_cutoff"
+          ]
+        },
+        {
+          "name": "build_hbond_pairs",
+          "startLine": 893,
+          "endLine": 943,
+          "params": [
+            "h_bond_connectivity",
+            "last_bond_structure",
+            "structure",
+            "realtime_position_overrides",
+            "external_dragging",
+            "selected_sites"
+          ]
+        },
+        {
+          "name": "apply_atom_delete_incremental",
+          "startLine": 961,
+          "endLine": 1051,
+          "params": [
+            "bond_state",
+            "deleted_site_ids",
+            "bond_manager",
+            "current_sites"
+          ]
+        },
+        {
+          "name": "__bond_key",
+          "startLine": 1087,
+          "endLine": 1089,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "__recompute_bonds_sync",
+          "startLine": 1095,
+          "endLine": 1111,
+          "params": [
+            "structure_with_sites",
+            "bonding_strategy",
+            "bonding_options"
+          ]
+        },
+        {
+          "name": "apply_atom_add_incremental",
+          "startLine": 1131,
+          "endLine": 1208,
+          "params": [
+            "bond_state",
+            "added",
+            "bond_manager",
+            "current_sites",
+            "current_structure",
+            "bonding_strategy",
+            "bonding_options"
+          ]
+        },
+        {
+          "name": "apply_atom_replace_incremental",
+          "startLine": 1222,
+          "endLine": 1247,
+          "params": [
+            "bond_state",
+            "replacements",
+            "bond_manager",
+            "current_sites",
+            "current_structure",
+            "bonding_strategy",
+            "bonding_options"
+          ]
+        },
+        {
+          "name": "apply_atom_move_incremental",
+          "startLine": 1262,
+          "endLine": 1287,
+          "params": [
+            "bond_state",
+            "moved",
+            "bond_manager",
+            "current_sites",
+            "current_structure",
+            "bonding_strategy",
+            "bonding_options"
+          ]
+        },
+        {
+          "name": "__apply_full_bond_diff",
+          "startLine": 1300,
+          "endLine": 1368,
+          "params": [
+            "bond_state",
+            "fresh",
+            "bond_manager",
+            "current_sites",
+            "structure_with_next_sites"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "clear_trajectory_bond_frame_cache",
+          "line": 96,
+          "isDefault": false
+        },
+        {
+          "name": "create_bond_state",
+          "line": 173,
+          "isDefault": false
+        },
+        {
+          "name": "compute_bond_connectivity",
+          "line": 219,
+          "isDefault": false
+        },
+        {
+          "name": "compute_bond_connectivity_for_frame",
+          "line": 423,
+          "isDefault": false
+        },
+        {
+          "name": "build_bond_pairs",
+          "line": 616,
+          "isDefault": false
+        },
+        {
+          "name": "build_trajectory_bond_pairs",
+          "line": 683,
+          "isDefault": false
+        },
+        {
+          "name": "create_hbond_state",
+          "line": 789,
+          "isDefault": false
+        },
+        {
+          "name": "compute_hbond_connectivity",
+          "line": 806,
+          "isDefault": false
+        },
+        {
+          "name": "build_hbond_pairs",
+          "line": 893,
+          "isDefault": false
+        },
+        {
+          "name": "apply_atom_delete_incremental",
+          "line": 961,
+          "isDefault": false
+        },
+        {
+          "name": "apply_atom_add_incremental",
+          "line": 1131,
+          "isDefault": false
+        },
+        {
+          "name": "apply_atom_replace_incremental",
+          "line": 1222,
+          "isDefault": false
+        },
+        {
+          "name": "apply_atom_move_incremental",
+          "line": 1262,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "frame_cache_touch",
+          "callee": "frame_conn_cache.delete",
+          "lineNumber": 71
+        },
+        {
+          "caller": "frame_cache_touch",
+          "callee": "frame_conn_cache.set",
+          "lineNumber": 72
+        },
+        {
+          "caller": "frame_cache_set",
+          "callee": "frame_conn_cache.has",
+          "lineNumber": 77
+        },
+        {
+          "caller": "frame_cache_set",
+          "callee": "frame_conn_cache.delete",
+          "lineNumber": 77
+        },
+        {
+          "caller": "frame_cache_set",
+          "callee": "frame_conn_cache.set",
+          "lineNumber": 78
+        },
+        {
+          "caller": "frame_cache_set",
+          "callee": "frame_conn_cache.keys().next",
+          "lineNumber": 80
+        },
+        {
+          "caller": "frame_cache_set",
+          "callee": "frame_conn_cache.keys",
+          "lineNumber": 80
+        },
+        {
+          "caller": "frame_cache_set",
+          "callee": "frame_conn_cache.delete",
+          "lineNumber": 82
+        },
+        {
+          "caller": "clear_trajectory_bond_frame_cache",
+          "callee": "frame_conn_cache.clear",
+          "lineNumber": 99
+        },
+        {
+          "caller": "build_trajectory_overlay_structure",
+          "callee": "Math.floor",
+          "lineNumber": 125
+        },
+        {
+          "caller": "build_trajectory_overlay_structure",
+          "callee": "invert_3x3",
+          "lineNumber": 128
+        },
+        {
+          "caller": "invert_3x3",
+          "callee": "Math.abs",
+          "lineNumber": 160
+        },
+        {
+          "caller": "create_bond_state",
+          "callee": "$state",
+          "lineNumber": 174
+        },
+        {
+          "caller": "create_bond_state",
+          "callee": "$state",
+          "lineNumber": 175
+        },
+        {
+          "caller": "create_bond_state",
+          "callee": "$state",
+          "lineNumber": 176
+        },
+        {
+          "caller": "create_bond_state",
+          "callee": "$state",
+          "lineNumber": 177
+        },
+        {
+          "caller": "create_bond_state",
+          "callee": "$state",
+          "lineNumber": 178
+        },
+        {
+          "caller": "create_bond_state",
+          "callee": "$state",
+          "lineNumber": 179
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "bond_pairs_setter",
+          "lineNumber": 231
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "should_show_bonds",
+          "lineNumber": 238
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "bond_pairs_setter",
+          "lineNumber": 243
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "JSON.stringify",
+          "lineNumber": 253
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "get_element_fingerprint",
+          "lineNumber": 256
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "get_position_hash(sites).toFixed",
+          "lineNumber": 264
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "get_position_hash",
+          "lineNumber": 264
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "bond_conn_cache.get",
+          "lineNumber": 274
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "compute_bonds_sync",
+          "lineNumber": 295
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "sync_bonds.map",
+          "lineNumber": 300
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "console.warn",
+          "lineNumber": 306
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "JSON.stringify",
+          "lineNumber": 307
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "bond_conn_cache.set",
+          "lineNumber": 324
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "compute_bonds_async(captured_structure, captured_strategy, captured_options as Record<string, number>)\r\n      .then((new_bonds) => {\r\n        if (gen !== bond_state.bond_computation_gen) {\r\n          bond_state.bond_worker_pending = false\r\n          return\r\n        }\r\n        bond_state.bond_connectivity = new_bonds.map(b => {\r\n          const ji = (b.jimage ?? [0, 0, 0]) as [number, number, number]\r\n          if (import.meta.env.DEV && lattice_pbc_async) {\r\n            for (let i = 0; i < 3; i++) {\r\n              if (lattice_pbc_async[i] === false && ji[i] !== 0) {\r\n                console.warn(\r\n                  `[bonds] jimage[${i}]=${ji[i]} on non-periodic axis (pbc=${JSON.stringify(lattice_pbc_async)})`,\r\n                  b,\r\n                )\r\n              }\r\n            }\r\n          }\r\n          return {\r\n            site_idx_1: b.site_idx_1,\r\n            site_idx_2: b.site_idx_2,\r\n            strength: b.strength,\r\n            jimage: ji,\r\n          }\r\n        })\r\n        bond_state.last_bond_structure = captured_structure\r\n        bond_state.last_bond_strategy = captured_strategy_key\r\n        bond_state.last_bond_fingerprint = captured_fingerprint\r\n        bond_state.last_elem_fingerprint = captured_elem_fp\r\n        bond_conn_cache.set(captured_structure as unknown as object, {\r\n          bond_connectivity: bond_state.bond_connectivity,\r\n          fingerprint: captured_fingerprint,\r\n          elem_fingerprint: captured_elem_fp,\r\n          strategy_key: captured_strategy_key,\r\n        })\r\n        bond_state.bond_worker_pending = false\r\n      })\r\n      .catch",
+          "lineNumber": 349
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "compute_bonds_async(captured_structure, captured_strategy, captured_options as Record<string, number>)\r\n      .then",
+          "lineNumber": 349
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "compute_bonds_async",
+          "lineNumber": 349
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "new_bonds.map",
+          "lineNumber": 355
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "console.warn",
+          "lineNumber": 360
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "JSON.stringify",
+          "lineNumber": 361
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "bond_conn_cache.set",
+          "lineNumber": 378
+        },
+        {
+          "caller": "compute_bond_connectivity",
+          "callee": "console.debug",
+          "lineNumber": 387
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "should_show_bonds",
+          "lineNumber": 434
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "JSON.stringify",
+          "lineNumber": 440
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "get_element_fingerprint",
+          "lineNumber": 441
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "frame_conn_cache.get",
+          "lineNumber": 444
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "frame_cache_touch",
+          "lineNumber": 450
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "build_trajectory_overlay_structure",
+          "lineNumber": 455
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "compute_bonds_sync",
+          "lineNumber": 459
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "sync_bonds.map",
+          "lineNumber": 463
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "frame_cache_set",
+          "lineNumber": 469
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "console.log",
+          "lineNumber": 476
+        },
+        {
+          "caller": "compute_bond_connectivity_for_frame",
+          "callee": "dispatch_traj_async",
+          "lineNumber": 486
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "console.log",
+          "lineNumber": 518
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "compute_bonds_async(overlay_structure, bonding_strategy, bonding_options as Record<string, number>)\r\n    .then((new_bonds) => {\r\n      // Stale generation — trajectory torn down, strategy changed, or another\r\n      // traj dispatch superseded this one. Drop the result and release slots\r\n      // so the next dispatch can proceed.\r\n      if (gen !== bond_state.traj_computation_gen) {\r\n        release_slots()\r\n        return\r\n      }\r\n\r\n      const new_conn = new_bonds.map(b => ({\r\n        site_idx_1: b.site_idx_1,\r\n        site_idx_2: b.site_idx_2,\r\n        strength: b.strength,\r\n        jimage: ((b.jimage ?? [0, 0, 0]) as [number, number, number]),\r\n      }))\r\n      // Always cache — even if the user has moved on, the entry will be\r\n      // useful on revisit (and bounded by the LRU cap).\r\n      frame_cache_set(frame_key, {\r\n        bond_connectivity: new_conn,\r\n        fingerprint: `${elem_fp}|frame`,\r\n        elem_fingerprint: elem_fp,\r\n        strategy_key,\r\n      })\r\n\r\n      const pending = bond_state.traj_pending_frame\r\n      if (pending === null) {\r\n        // No newer frame queued → the resolved frame is the latest visible.\r\n        // Reassigning bond_connectivity here is safe because we're in the\r\n        // promise resolve callback, NOT inside the trajectory $effect.pre body.\r\n        bond_state.bond_connectivity = new_conn\r\n        bond_state.last_bond_structure = base_structure\r\n        bond_state.last_bond_strategy = strategy_key\r\n        bond_state.last_elem_fingerprint = elem_fp\r\n        bond_state.last_bond_fingerprint = `${elem_fp}|frame`\r\n        bond_state.traj_in_flight_frame = null\r\n      } else {\r\n        // User moved on while async was running. Drain the latest-wins queue:\r\n        // dispatch detection for the pending frame. The resolved frame is\r\n        // already cached so a future revisit will hit O(1).\r\n        bond_state.traj_in_flight_frame = pending\r\n        bond_state.traj_pending_frame = null\r\n        const next_overlay = build_trajectory_overlay_structure(base_structure, pending)\r\n        dispatch_traj_async(\r\n          bond_state, pending, next_overlay, base_structure,\r\n          strategy_key, elem_fp, bonding_strategy, bonding_options,\r\n        )\r\n      }\r\n    })\r\n    .catch",
+          "lineNumber": 530
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "compute_bonds_async(overlay_structure, bonding_strategy, bonding_options as Record<string, number>)\r\n    .then",
+          "lineNumber": 530
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "compute_bonds_async",
+          "lineNumber": 530
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "release_slots",
+          "lineNumber": 536
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "new_bonds.map",
+          "lineNumber": 540
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "frame_cache_set",
+          "lineNumber": 548
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "build_trajectory_overlay_structure",
+          "lineNumber": 572
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "dispatch_traj_async",
+          "lineNumber": 573
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "console.debug",
+          "lineNumber": 580
+        },
+        {
+          "caller": "dispatch_traj_async",
+          "callee": "release_slots",
+          "lineNumber": 581
+        },
+        {
+          "caller": "build_bond_pairs",
+          "callee": "filter_bonds_during_drag",
+          "lineNumber": 634
+        },
+        {
+          "caller": "build_bond_pairs",
+          "callee": "bonds_to_render.map(conn => {\r\n    const base_pos_1 = pos_struct.sites[conn.site_idx_1]?.xyz\r\n    const base_pos_2 = pos_struct.sites[conn.site_idx_2]?.xyz\r\n    if (!base_pos_1 || !base_pos_2) return null\r\n\r\n    const pos_1 = realtime_position_overrides?.get(conn.site_idx_1) ?? base_pos_1\r\n    const pos_2 = realtime_position_overrides?.get(conn.site_idx_2) ?? base_pos_2\r\n\r\n    const jimage = conn.jimage ?? [0, 0, 0]\r\n    const b_eff = apply_jimage(pos_2, jimage, lattice_matrix)\r\n    const diff = math.subtract(b_eff, pos_1)\r\n    const bond_length = Math.hypot(diff[0], diff[1], diff[2])\r\n    const pair: BondPair = {\r\n      pos_1,\r\n      pos_2,\r\n      site_idx_1: conn.site_idx_1,\r\n      site_idx_2: conn.site_idx_2,\r\n      bond_length,\r\n      strength: conn.strength,\r\n      transform_matrix: compute_bond_transform(pos_1, b_eff),\r\n      jimage,\r\n    }\r\n    return pair\r\n  }).filter",
+          "lineNumber": 639
+        },
+        {
+          "caller": "build_bond_pairs",
+          "callee": "bonds_to_render.map",
+          "lineNumber": 639
+        },
+        {
+          "caller": "build_bond_pairs",
+          "callee": "realtime_position_overrides?.get",
+          "lineNumber": 644
+        },
+        {
+          "caller": "build_bond_pairs",
+          "callee": "realtime_position_overrides?.get",
+          "lineNumber": 645
+        },
+        {
+          "caller": "build_bond_pairs",
+          "callee": "apply_jimage",
+          "lineNumber": 648
+        },
+        {
+          "caller": "build_bond_pairs",
+          "callee": "math.subtract",
+          "lineNumber": 649
+        },
+        {
+          "caller": "build_bond_pairs",
+          "callee": "Math.hypot",
+          "lineNumber": 650
+        },
+        {
+          "caller": "build_bond_pairs",
+          "callee": "compute_bond_transform",
+          "lineNumber": 658
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "Math.floor",
+          "lineNumber": 699
+        },
+        {
+          "caller": "lookup_pos",
+          "callee": "overrides?.get",
+          "lineNumber": 701
+        },
+        {
+          "caller": "lookup_pos",
+          "callee": "atom_manager.find_slot_by_site_id",
+          "lineNumber": 712
+        },
+        {
+          "caller": "lookup_pos",
+          "callee": "atom_manager.get_x",
+          "lineNumber": 715
+        },
+        {
+          "caller": "lookup_pos",
+          "callee": "atom_manager.get_y",
+          "lineNumber": 716
+        },
+        {
+          "caller": "lookup_pos",
+          "callee": "atom_manager.get_z",
+          "lineNumber": 717
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "bond_connectivity.map(conn => {\r\n    const pos_1 = lookup_pos(conn.site_idx_1)\r\n    const pos_2 = lookup_pos(conn.site_idx_2)\r\n    if (pos_1 === null || pos_2 === null) return null\r\n    const jimage = conn.jimage ?? [0, 0, 0]\r\n    const b_eff = apply_jimage(pos_2, jimage, lat)\r\n    const dx = b_eff[0] - pos_1[0]\r\n    const dy = b_eff[1] - pos_1[1]\r\n    const dz = b_eff[2] - pos_1[2]\r\n    const bond_length = Math.hypot(dx, dy, dz)\r\n    // Stale-distance pre-filter (skipped silently when radii unavailable).\r\n    const r_a = covalent_radius_for(conn.site_idx_1)\r\n    const r_b = covalent_radius_for(conn.site_idx_2)\r\n    if (r_a !== null && r_b !== null) {\r\n      const max_dist = (r_a + r_b) * tol * STALE_DISTANCE_FACTOR\r\n      if (bond_length > max_dist) {\r\n        filtered_count++\r\n        return null\r\n      }\r\n    }\r\n    const pair: BondPair = {\r\n      pos_1,\r\n      pos_2,\r\n      site_idx_1: conn.site_idx_1,\r\n      site_idx_2: conn.site_idx_2,\r\n      bond_length,\r\n      strength: conn.strength,\r\n      transform_matrix: compute_bond_transform(pos_1, b_eff),\r\n      jimage,\r\n    }\r\n    return pair\r\n  }).filter",
+          "lineNumber": 747
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "bond_connectivity.map",
+          "lineNumber": 747
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "lookup_pos",
+          "lineNumber": 748
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "lookup_pos",
+          "lineNumber": 749
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "apply_jimage",
+          "lineNumber": 752
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "Math.hypot",
+          "lineNumber": 756
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "covalent_radius_for",
+          "lineNumber": 758
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "covalent_radius_for",
+          "lineNumber": 759
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "compute_bond_transform",
+          "lineNumber": 774
+        },
+        {
+          "caller": "build_trajectory_bond_pairs",
+          "callee": "console.log",
+          "lineNumber": 780
+        },
+        {
+          "caller": "create_hbond_state",
+          "callee": "$state",
+          "lineNumber": 790
+        },
+        {
+          "caller": "compute_hbond_connectivity",
+          "callee": "compute_bonds_sync",
+          "lineNumber": 833
+        },
+        {
+          "caller": "compute_hbond_connectivity",
+          "callee": "detect_hydrogen_bonds",
+          "lineNumber": 844
+        },
+        {
+          "caller": "compute_hbond_connectivity",
+          "callee": "js_hbonds.map",
+          "lineNumber": 846
+        },
+        {
+          "caller": "compute_hbond_connectivity",
+          "callee": "(async () => {\r\n    try {\r\n      const result = await compute_hbonds_worker(\r\n        current_structure,\r\n        captured_bonds,\r\n        hbond_options as Record<string, number>,\r\n      )\r\n      if (gen !== hbond_state.hbond_computation_gen || !result) return\r\n      const sites = current_structure.sites\r\n      const connectivity: HBondConnectivity[] = []\r\n      for (const hb of result) {\r\n        const h_or_donor_idx = hb.h_idx ?? hb.donor_idx\r\n        if (!sites[h_or_donor_idx]?.xyz || !sites[hb.acceptor_idx]?.xyz) continue\r\n        connectivity.push({\r\n          site_idx_1: h_or_donor_idx,\r\n          site_idx_2: hb.acceptor_idx,\r\n          strength: hb.strength,\r\n          donor_idx: hb.donor_idx,\r\n          hydrogen_idx: hb.h_idx ?? hb.donor_idx,\r\n          acceptor_idx: hb.acceptor_idx,\r\n        })\r\n      }\r\n      hbond_state.h_bond_connectivity = connectivity\r\n    } catch { /* Worker/WASM unavailable, JS result already set */ }\r\n  })",
+          "lineNumber": 862
+        },
+        {
+          "caller": "compute_hbond_connectivity",
+          "callee": "compute_hbonds_worker",
+          "lineNumber": 864
+        },
+        {
+          "caller": "compute_hbond_connectivity",
+          "callee": "connectivity.push",
+          "lineNumber": 875
+        },
+        {
+          "caller": "build_hbond_pairs",
+          "callee": "h_bond_connectivity.filter",
+          "lineNumber": 911
+        },
+        {
+          "caller": "build_hbond_pairs",
+          "callee": "selected_set.has",
+          "lineNumber": 912
+        },
+        {
+          "caller": "build_hbond_pairs",
+          "callee": "selected_set.has",
+          "lineNumber": 913
+        },
+        {
+          "caller": "build_hbond_pairs",
+          "callee": "conns_to_render.map(conn => {\r\n      const base_pos_1 = pos_struct.sites[conn.site_idx_1]?.xyz\r\n      const base_pos_2 = pos_struct.sites[conn.site_idx_2]?.xyz\r\n      if (!base_pos_1 || !base_pos_2) return null\r\n\r\n      const pos_1 = realtime_position_overrides?.get(conn.site_idx_1) ?? base_pos_1\r\n      const pos_2 = realtime_position_overrides?.get(conn.site_idx_2) ?? base_pos_2\r\n\r\n      const bond_length = Math.hypot(pos_2[0] - pos_1[0], pos_2[1] - pos_1[1], pos_2[2] - pos_1[2])\r\n      return {\r\n        pos_1,\r\n        pos_2,\r\n        site_idx_1: conn.site_idx_1,\r\n        site_idx_2: conn.site_idx_2,\r\n        bond_length,\r\n        strength: conn.strength,\r\n        transform_matrix: compute_bond_transform(pos_1, pos_2),\r\n        bond_type: `hydrogen` as const,\r\n        jimage: [0, 0, 0] as [number, number, number],\r\n      }\r\n    }).filter",
+          "lineNumber": 919
+        },
+        {
+          "caller": "build_hbond_pairs",
+          "callee": "conns_to_render.map",
+          "lineNumber": 919
+        },
+        {
+          "caller": "build_hbond_pairs",
+          "callee": "realtime_position_overrides?.get",
+          "lineNumber": 924
+        },
+        {
+          "caller": "build_hbond_pairs",
+          "callee": "realtime_position_overrides?.get",
+          "lineNumber": 925
+        },
+        {
+          "caller": "build_hbond_pairs",
+          "callee": "Math.hypot",
+          "lineNumber": 927
+        },
+        {
+          "caller": "build_hbond_pairs",
+          "callee": "compute_bond_transform",
+          "lineNumber": 935
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "performance.now",
+          "lineNumber": 967
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "deleted_set.add",
+          "lineNumber": 972
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "deleted_set.add",
+          "lineNumber": 975
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "console.log",
+          "lineNumber": 981
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "(performance.now() - t0).toFixed",
+          "lineNumber": 981
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "performance.now",
+          "lineNumber": 981
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "Array.from",
+          "lineNumber": 986
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "sorted_deleted.sort",
+          "lineNumber": 987
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "deleted_set.has",
+          "lineNumber": 1006
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "deleted_set.has",
+          "lineNumber": 1006
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "next.push",
+          "lineNumber": 1007
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "count_less_than",
+          "lineNumber": 1008
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "count_less_than",
+          "lineNumber": 1009
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "bond_manager.apply_atom_delete",
+          "lineNumber": 1018
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "get_element_fingerprint",
+          "lineNumber": 1023
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "get_position_hash(current_sites).toFixed",
+          "lineNumber": 1025
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "get_position_hash",
+          "lineNumber": 1025
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "console.log",
+          "lineNumber": 1049
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "(performance.now() - t0).toFixed",
+          "lineNumber": 1049
+        },
+        {
+          "caller": "apply_atom_delete_incremental",
+          "callee": "performance.now",
+          "lineNumber": 1049
+        },
+        {
+          "caller": "__recompute_bonds_sync",
+          "callee": "compute_bonds_sync",
+          "lineNumber": 1103
+        },
+        {
+          "caller": "__recompute_bonds_sync",
+          "callee": "result.map",
+          "lineNumber": 1105
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "performance.now",
+          "lineNumber": 1140
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "__recompute_bonds_sync",
+          "lineNumber": 1147
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "prev_keys.add",
+          "lineNumber": 1154
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "__bond_key",
+          "lineNumber": 1154
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "prev_keys.has",
+          "lineNumber": 1164
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "__bond_key",
+          "lineNumber": 1164
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "added_bonds.push",
+          "lineNumber": 1165
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "bond_manager.add_bonds",
+          "lineNumber": 1185
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "get_element_fingerprint",
+          "lineNumber": 1189
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "get_position_hash(current_sites).toFixed",
+          "lineNumber": 1191
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "get_position_hash",
+          "lineNumber": 1191
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "console.log",
+          "lineNumber": 1205
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "(performance.now() - t0).toFixed",
+          "lineNumber": 1205
+        },
+        {
+          "caller": "apply_atom_add_incremental",
+          "callee": "performance.now",
+          "lineNumber": 1205
+        },
+        {
+          "caller": "apply_atom_replace_incremental",
+          "callee": "performance.now",
+          "lineNumber": 1231
+        },
+        {
+          "caller": "apply_atom_replace_incremental",
+          "callee": "__recompute_bonds_sync",
+          "lineNumber": 1237
+        },
+        {
+          "caller": "apply_atom_replace_incremental",
+          "callee": "__apply_full_bond_diff",
+          "lineNumber": 1240
+        },
+        {
+          "caller": "apply_atom_replace_incremental",
+          "callee": "console.log",
+          "lineNumber": 1244
+        },
+        {
+          "caller": "apply_atom_replace_incremental",
+          "callee": "(performance.now() - t0).toFixed",
+          "lineNumber": 1244
+        },
+        {
+          "caller": "apply_atom_replace_incremental",
+          "callee": "performance.now",
+          "lineNumber": 1244
+        },
+        {
+          "caller": "apply_atom_move_incremental",
+          "callee": "performance.now",
+          "lineNumber": 1271
+        },
+        {
+          "caller": "apply_atom_move_incremental",
+          "callee": "__recompute_bonds_sync",
+          "lineNumber": 1277
+        },
+        {
+          "caller": "apply_atom_move_incremental",
+          "callee": "__apply_full_bond_diff",
+          "lineNumber": 1280
+        },
+        {
+          "caller": "apply_atom_move_incremental",
+          "callee": "console.log",
+          "lineNumber": 1284
+        },
+        {
+          "caller": "apply_atom_move_incremental",
+          "callee": "(performance.now() - t0).toFixed",
+          "lineNumber": 1284
+        },
+        {
+          "caller": "apply_atom_move_incremental",
+          "callee": "performance.now",
+          "lineNumber": 1284
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "fresh_keys.add",
+          "lineNumber": 1310
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "__bond_key",
+          "lineNumber": 1310
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "prev_keys.add",
+          "lineNumber": 1314
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "__bond_key",
+          "lineNumber": 1314
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "fresh_keys.has",
+          "lineNumber": 1332
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "__bond_key",
+          "lineNumber": 1332
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "slots_to_remove.push",
+          "lineNumber": 1332
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "bond_manager.remove_bonds",
+          "lineNumber": 1334
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "prev_keys.has",
+          "lineNumber": 1339
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "__bond_key",
+          "lineNumber": 1339
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "add_list.push",
+          "lineNumber": 1340
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "bond_manager.add_bonds",
+          "lineNumber": 1352
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "get_element_fingerprint",
+          "lineNumber": 1357
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "get_position_hash(current_sites).toFixed",
+          "lineNumber": 1359
+        },
+        {
+          "caller": "__apply_full_bond_diff",
+          "callee": "get_position_hash",
+          "lineNumber": 1359
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 13,
+        "functionCount": 22,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/Bond.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 267,
+      "nonEmptyLines": 231,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/structure/BondEditingIndicators.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 151,
+      "nonEmptyLines": 144,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/structure/bonding.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 581,
+      "nonEmptyLines": 499,
+      "functions": [
+        {
+          "name": "get_bond_key",
+          "startLine": 19,
+          "endLine": 32,
+          "params": [
+            "idx1",
+            "idx2",
+            "jimage"
+          ]
+        },
+        {
+          "name": "get_majority_species",
+          "startLine": 44,
+          "endLine": 49,
+          "params": [
+            "site"
+          ]
+        },
+        {
+          "name": "compute_bond_transform",
+          "startLine": 53,
+          "endLine": 108,
+          "params": [
+            "pos_1",
+            "pos_2"
+          ]
+        },
+        {
+          "name": "update_bond_positions",
+          "startLine": 112,
+          "endLine": 131,
+          "params": [
+            "existing_bonds",
+            "sites"
+          ]
+        },
+        {
+          "name": "build_spatial_grid",
+          "startLine": 134,
+          "endLine": 144,
+          "params": [
+            "sites",
+            "cell_size"
+          ]
+        },
+        {
+          "name": "get_neighbors_from_grid",
+          "startLine": 147,
+          "endLine": 167,
+          "params": [
+            "pos",
+            "grid",
+            "cell_size"
+          ]
+        },
+        {
+          "name": "setup_spatial_grid",
+          "startLine": 170,
+          "endLine": 173,
+          "params": [
+            "sites",
+            "cutoff"
+          ]
+        },
+        {
+          "name": "get_candidates",
+          "startLine": 176,
+          "endLine": 184,
+          "params": [
+            "pos",
+            "sites",
+            "spatial"
+          ]
+        },
+        {
+          "name": "electroneg_ratio",
+          "startLine": 194,
+          "endLine": 294,
+          "params": [
+            "structure",
+            "{\r\n    electronegativity_threshold = 1.7, // Max electronegativity difference for bonding\r\n    max_distance_ratio = 2.0, // Max distance as multiple of sum of covalent radii\r\n    min_bond_dist = 0.4, // Minimum bond distance in Angstroms\r\n    metal_metal_penalty = 0.7, // Strength penalty for metal-metal bonds\r\n    metal_nonmetal_bonus = 1.5, // Strength bonus for metal-nonmetal bonds\r\n    similar_electronegativity_bonus = 1.2, // Bonus for similar electronegativity\r\n    same_species_penalty = 0.75, // Penalty for bonds between same element (increased from 0.5 to better detect chains)\r\n    strength_threshold = 0.2, // Minimum bond strength to include in results (lowered from 0.3 for robustness)\r\n  }"
+          ]
+        },
+        {
+          "name": "solid_angle",
+          "startLine": 301,
+          "endLine": 362,
+          "params": [
+            "structure",
+            "{\r\n    min_solid_angle = 0.01,\r\n    min_face_area = 0.05,\r\n    max_distance = 5.0,\r\n    min_bond_dist = 0.4,\r\n    strength_threshold = 0.05,\r\n  }"
+          ]
+        },
+        {
+          "name": "atom_radii",
+          "startLine": 364,
+          "endLine": 425,
+          "params": [
+            "structure",
+            "{\r\n    max_distance = 5.0,\r\n    min_bond_dist = 0.4,\r\n    tolerance = 0.3, // Tolerance in Angstroms for bond distance (increased from 0.05 for better detection)\r\n  }"
+          ]
+        },
+        {
+          "name": "detect_hydrogen_bonds",
+          "startLine": 444,
+          "endLine": 581,
+          "params": [
+            "structure",
+            "covalent_bonds",
+            "{ max_ha_distance = 2.5, max_da_distance = 3.5, min_angle = 120 }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_bond_key",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "compute_bond_transform",
+          "line": 53,
+          "isDefault": false
+        },
+        {
+          "name": "update_bond_positions",
+          "line": 112,
+          "isDefault": false
+        },
+        {
+          "name": "BONDING_STRATEGIES",
+          "line": 186,
+          "isDefault": false
+        },
+        {
+          "name": "electroneg_ratio",
+          "line": 194,
+          "isDefault": false
+        },
+        {
+          "name": "solid_angle",
+          "line": 301,
+          "isDefault": false
+        },
+        {
+          "name": "atom_radii",
+          "line": 364,
+          "isDefault": false
+        },
+        {
+          "name": "detect_hydrogen_bonds",
+          "line": 444,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_bond_key",
+          "callee": "Math.min",
+          "lineNumber": 24
+        },
+        {
+          "caller": "get_bond_key",
+          "callee": "Math.max",
+          "lineNumber": 25
+        },
+        {
+          "caller": "get_majority_species",
+          "callee": "(site.species ?? []).reduce",
+          "lineNumber": 45
+        },
+        {
+          "caller": "compute_bond_transform",
+          "callee": "math.subtract",
+          "lineNumber": 54
+        },
+        {
+          "caller": "compute_bond_transform",
+          "callee": "Math.hypot",
+          "lineNumber": 55
+        },
+        {
+          "caller": "compute_bond_transform",
+          "callee": "Math.abs",
+          "lineNumber": 65
+        },
+        {
+          "caller": "compute_bond_transform",
+          "callee": "Math.abs",
+          "lineNumber": 67
+        },
+        {
+          "caller": "compute_bond_transform",
+          "callee": "Math.hypot",
+          "lineNumber": 74
+        },
+        {
+          "caller": "update_bond_positions",
+          "callee": "existing_bonds.map",
+          "lineNumber": 116
+        },
+        {
+          "caller": "update_bond_positions",
+          "callee": "math.subtract",
+          "lineNumber": 121
+        },
+        {
+          "caller": "update_bond_positions",
+          "callee": "Math.hypot",
+          "lineNumber": 122
+        },
+        {
+          "caller": "update_bond_positions",
+          "callee": "compute_bond_transform",
+          "lineNumber": 128
+        },
+        {
+          "caller": "build_spatial_grid",
+          "callee": "sites[idx].xyz.map",
+          "lineNumber": 137
+        },
+        {
+          "caller": "build_spatial_grid",
+          "callee": "Math.floor",
+          "lineNumber": 137
+        },
+        {
+          "caller": "build_spatial_grid",
+          "callee": "grid.get",
+          "lineNumber": 139
+        },
+        {
+          "caller": "build_spatial_grid",
+          "callee": "cell.push",
+          "lineNumber": 140
+        },
+        {
+          "caller": "build_spatial_grid",
+          "callee": "grid.set",
+          "lineNumber": 141
+        },
+        {
+          "caller": "get_neighbors_from_grid",
+          "callee": "Math.floor",
+          "lineNumber": 153
+        },
+        {
+          "caller": "get_neighbors_from_grid",
+          "callee": "Math.floor",
+          "lineNumber": 154
+        },
+        {
+          "caller": "get_neighbors_from_grid",
+          "callee": "Math.floor",
+          "lineNumber": 155
+        },
+        {
+          "caller": "get_neighbors_from_grid",
+          "callee": "grid.get",
+          "lineNumber": 161
+        },
+        {
+          "caller": "get_neighbors_from_grid",
+          "callee": "neighbors.push",
+          "lineNumber": 162
+        },
+        {
+          "caller": "setup_spatial_grid",
+          "callee": "build_spatial_grid",
+          "lineNumber": 172
+        },
+        {
+          "caller": "get_candidates",
+          "callee": "get_neighbors_from_grid",
+          "lineNumber": 182
+        },
+        {
+          "caller": "get_candidates",
+          "callee": "Array.from",
+          "lineNumber": 183
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "sites.map",
+          "lineNumber": 214
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "get_majority_species",
+          "lineNumber": 215
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "element_lookup.get",
+          "lineNumber": 217
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "covalent_radii.get",
+          "lineNumber": 223
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "covalent_radii.values",
+          "lineNumber": 228
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "setup_spatial_grid",
+          "lineNumber": 232
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "get_candidates",
+          "lineNumber": 238
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "Math.sqrt",
+          "lineNumber": 246
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "Math.abs",
+          "lineNumber": 253
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "Math.exp",
+          "lineNumber": 266
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "closest.get",
+          "lineNumber": 272
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "closest.get",
+          "lineNumber": 273
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "Math.exp",
+          "lineNumber": 274
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "Math.exp",
+          "lineNumber": 275
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "bonds.push",
+          "lineNumber": 278
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "compute_bond_transform",
+          "lineNumber": 285
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "closest.set",
+          "lineNumber": 288
+        },
+        {
+          "caller": "electroneg_ratio",
+          "callee": "closest.set",
+          "lineNumber": 289
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "setup_spatial_grid",
+          "lineNumber": 317
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "get_majority_species",
+          "lineNumber": 321
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "covalent_radii.get",
+          "lineNumber": 322
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "get_candidates",
+          "lineNumber": 324
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "get_majority_species",
+          "lineNumber": 328
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "covalent_radii.get",
+          "lineNumber": 329
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "Math.sqrt",
+          "lineNumber": 333
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "Math.exp",
+          "lineNumber": 343
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "Math.min",
+          "lineNumber": 344
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "bonds.push",
+          "lineNumber": 348
+        },
+        {
+          "caller": "solid_angle",
+          "callee": "compute_bond_transform",
+          "lineNumber": 355
+        },
+        {
+          "caller": "atom_radii",
+          "callee": "setup_spatial_grid",
+          "lineNumber": 378
+        },
+        {
+          "caller": "atom_radii",
+          "callee": "get_majority_species",
+          "lineNumber": 382
+        },
+        {
+          "caller": "atom_radii",
+          "callee": "get_candidates",
+          "lineNumber": 387
+        },
+        {
+          "caller": "atom_radii",
+          "callee": "get_majority_species",
+          "lineNumber": 391
+        },
+        {
+          "caller": "atom_radii",
+          "callee": "Math.sqrt",
+          "lineNumber": 401
+        },
+        {
+          "caller": "atom_radii",
+          "callee": "bonds.push",
+          "lineNumber": 411
+        },
+        {
+          "caller": "atom_radii",
+          "callee": "compute_bond_transform",
+          "lineNumber": 418
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "get_majority_species",
+          "lineNumber": 456
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "get_majority_species",
+          "lineNumber": 457
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "HBOND_ATOMS.has",
+          "lineNumber": 460
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "h_donor_map.get",
+          "lineNumber": 461
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "donors.push",
+          "lineNumber": 462
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "h_donor_map.set",
+          "lineNumber": 463
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "HBOND_ATOMS.has",
+          "lineNumber": 464
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "h_donor_map.get",
+          "lineNumber": 465
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "donors.push",
+          "lineNumber": 466
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "h_donor_map.set",
+          "lineNumber": 467
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "get_majority_species",
+          "lineNumber": 476
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "HBOND_ATOMS.has",
+          "lineNumber": 477
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "acceptor_indices.push",
+          "lineNumber": 477
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.floor",
+          "lineNumber": 489
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.floor",
+          "lineNumber": 489
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.floor",
+          "lineNumber": 489
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "grid.get",
+          "lineNumber": 490
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "cell.push",
+          "lineNumber": 491
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "grid.set",
+          "lineNumber": 492
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.floor",
+          "lineNumber": 508
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.floor",
+          "lineNumber": 509
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.floor",
+          "lineNumber": 510
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "grid.get",
+          "lineNumber": 515
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "donor_indices.includes",
+          "lineNumber": 520
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.sqrt",
+          "lineNumber": 543
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.sqrt",
+          "lineNumber": 544
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.acos",
+          "lineNumber": 548
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.max",
+          "lineNumber": 548
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.min",
+          "lineNumber": 548
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "seen.has",
+          "lineNumber": 555
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "seen.add",
+          "lineNumber": 556
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "Math.sqrt",
+          "lineNumber": 558
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "hbonds.push",
+          "lineNumber": 562
+        },
+        {
+          "caller": "detect_hydrogen_bonds",
+          "callee": "compute_bond_transform",
+          "lineNumber": 569
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 12,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/bonding/bond-instanced-renderer.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 936,
+      "nonEmptyLines": 851,
+      "classes": [
+        {
+          "name": "BondInstancedRenderer",
+          "startLine": 89,
+          "endLine": 936,
+          "methods": [
+            "constructor",
+            "sync",
+            "force_full_resync",
+            "dispose"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "BondInstancedRenderer",
+          "line": 89,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "constructor",
+          "callee": "attr.setUsage",
+          "lineNumber": 167
+        },
+        {
+          "caller": "constructor",
+          "callee": "mesh.geometry.setAttribute",
+          "lineNumber": 169
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#ensure_color_attrs",
+          "lineNumber": 176
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#ensure_opacity_attr",
+          "lineNumber": 177
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#get_image_atom_layout",
+          "lineNumber": 184
+        },
+        {
+          "caller": "sync",
+          "callee": "matrix_attr.clearUpdateRanges",
+          "lineNumber": 194
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#kind_attr.clearUpdateRanges",
+          "lineNumber": 195
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#color_start_attr?.clearUpdateRanges",
+          "lineNumber": 196
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#color_end_attr?.clearUpdateRanges",
+          "lineNumber": 197
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#opacity_attr?.clearUpdateRanges",
+          "lineNumber": 198
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#get_positions",
+          "lineNumber": 204
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#get_lattice",
+          "lineNumber": 206
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#get_incomplete_edge",
+          "lineNumber": 207
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#get_atom_colors",
+          "lineNumber": 212
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#write_slot",
+          "lineNumber": 217
+        },
+        {
+          "caller": "sync",
+          "callee": "matrix_attr.addUpdateRange",
+          "lineNumber": 219
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#kind_attr.addUpdateRange",
+          "lineNumber": 220
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#color_start_attr?.addUpdateRange",
+          "lineNumber": 221
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#color_end_attr?.addUpdateRange",
+          "lineNumber": 222
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#opacity_attr?.addUpdateRange",
+          "lineNumber": 223
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#collect_dirty_slots",
+          "lineNumber": 226
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#write_slot",
+          "lineNumber": 238
+        },
+        {
+          "caller": "sync",
+          "callee": "matrix_attr.addUpdateRange",
+          "lineNumber": 243
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#kind_attr.addUpdateRange",
+          "lineNumber": 244
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#color_start_attr?.addUpdateRange",
+          "lineNumber": 245
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#color_end_attr?.addUpdateRange",
+          "lineNumber": 246
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#opacity_attr?.addUpdateRange",
+          "lineNumber": 247
+        },
+        {
+          "caller": "sync",
+          "callee": "this.#write_decorators",
+          "lineNumber": 259
+        },
+        {
+          "caller": "sync",
+          "callee": "manager.clear_dirty",
+          "lineNumber": 272
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#ensure_color_attrs",
+          "lineNumber": 280
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#ensure_opacity_attr",
+          "lineNumber": 281
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#get_image_atom_layout",
+          "lineNumber": 288
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "matrix_attr.clearUpdateRanges",
+          "lineNumber": 298
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#kind_attr.clearUpdateRanges",
+          "lineNumber": 299
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#color_start_attr?.clearUpdateRanges",
+          "lineNumber": 300
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#color_end_attr?.clearUpdateRanges",
+          "lineNumber": 301
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#opacity_attr?.clearUpdateRanges",
+          "lineNumber": 302
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#get_positions",
+          "lineNumber": 307
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#get_lattice",
+          "lineNumber": 309
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#get_incomplete_edge",
+          "lineNumber": 310
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#get_atom_colors",
+          "lineNumber": 311
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#write_slot",
+          "lineNumber": 315
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "matrix_attr.addUpdateRange",
+          "lineNumber": 317
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#kind_attr.addUpdateRange",
+          "lineNumber": 318
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#color_start_attr?.addUpdateRange",
+          "lineNumber": 319
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#color_end_attr?.addUpdateRange",
+          "lineNumber": 320
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#opacity_attr?.addUpdateRange",
+          "lineNumber": 321
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "this.#write_decorators",
+          "lineNumber": 324
+        },
+        {
+          "caller": "force_full_resync",
+          "callee": "manager.clear_dirty",
+          "lineNumber": 337
+        },
+        {
+          "caller": "dispose",
+          "callee": "this.#mesh.geometry.deleteAttribute",
+          "lineNumber": 349
+        },
+        {
+          "caller": "dispose",
+          "callee": "this.#mesh.geometry.deleteAttribute",
+          "lineNumber": 350
+        },
+        {
+          "caller": "dispose",
+          "callee": "this.#mesh.geometry.deleteAttribute",
+          "lineNumber": 351
+        },
+        {
+          "caller": "dispose",
+          "callee": "this.#mesh.geometry.deleteAttribute",
+          "lineNumber": 352
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/structure/bonding/bond-manager.svelte.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1015,
+      "nonEmptyLines": 946,
+      "classes": [
+        {
+          "name": "BondManager",
+          "startLine": 48,
+          "endLine": 1015,
+          "methods": [
+            "constructor",
+            "version",
+            "count",
+            "capacity",
+            "pairs_buffer",
+            "kinds_buffer",
+            "jimages_buffer",
+            "dirty_all",
+            "dirty_slots",
+            "clear_dirty",
+            "reserve",
+            "shrink_to_fit",
+            "get_a",
+            "get_b",
+            "get_kind",
+            "get_jimage",
+            "set_jimage",
+            "find_slot_by_pair",
+            "find_slots_by_pairs",
+            "add_bond",
+            "add_bonds",
+            "remove_bond",
+            "remove_bonds",
+            "remove_where",
+            "apply_atom_delete",
+            "set_kind",
+            "set_pair",
+            "has_colors",
+            "colors_start_buffer",
+            "colors_end_buffer",
+            "ensure_colors",
+            "set_colors",
+            "begin_colors_batch",
+            "commit_colors_batch",
+            "has_opacity",
+            "opacity_buffer",
+            "ensure_opacity",
+            "set_opacity",
+            "begin_opacity_batch",
+            "commit_opacity_batch",
+            "replace_auto_bonds",
+            "clear"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "BOND_KIND",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "BOND_MANAGER_SCHEMA_VERSION",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "BondManager",
+          "line": 48,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "constructor",
+          "callee": "Math.max",
+          "lineNumber": 71
+        },
+        {
+          "caller": "clear_dirty",
+          "callee": "this.#dirty_slots.clear",
+          "lineNumber": 119
+        },
+        {
+          "caller": "reserve",
+          "callee": "this.#ensure_capacity",
+          "lineNumber": 183
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "Math.max",
+          "lineNumber": 188
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "Math.max",
+          "lineNumber": 188
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_pairs.set",
+          "lineNumber": 193
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#pairs.subarray",
+          "lineNumber": 193
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_kinds.set",
+          "lineNumber": 194
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#kinds.subarray",
+          "lineNumber": 194
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_jimages.set",
+          "lineNumber": 195
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#jimages.subarray",
+          "lineNumber": 195
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_colors_start.set",
+          "lineNumber": 201
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#colors_start.subarray",
+          "lineNumber": 201
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_colors_end.set",
+          "lineNumber": 206
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#colors_end.subarray",
+          "lineNumber": 206
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_opacity.fill",
+          "lineNumber": 211
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "new_opacity.set",
+          "lineNumber": 212
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#opacity_buffer.subarray",
+          "lineNumber": 212
+        },
+        {
+          "caller": "shrink_to_fit",
+          "callee": "this.#dirty_slots.clear",
+          "lineNumber": 217
+        },
+        {
+          "caller": "set_jimage",
+          "callee": "this.#touch",
+          "lineNumber": 259
+        },
+        {
+          "caller": "find_slots_by_pairs",
+          "callee": "this.find_slot_by_pair",
+          "lineNumber": 322
+        },
+        {
+          "caller": "add_bond",
+          "callee": "this.#ensure_capacity",
+          "lineNumber": 334
+        },
+        {
+          "caller": "add_bond",
+          "callee": "this.#touch",
+          "lineNumber": 350
+        },
+        {
+          "caller": "add_bonds",
+          "callee": "this.#ensure_capacity",
+          "lineNumber": 380
+        },
+        {
+          "caller": "add_bonds",
+          "callee": "this.#pairs.set",
+          "lineNumber": 382
+        },
+        {
+          "caller": "add_bonds",
+          "callee": "this.#kinds.set",
+          "lineNumber": 389
+        },
+        {
+          "caller": "add_bonds",
+          "callee": "this.#jimages.set",
+          "lineNumber": 397
+        },
+        {
+          "caller": "add_bonds",
+          "callee": "this.#jimages.fill",
+          "lineNumber": 406
+        },
+        {
+          "caller": "add_bonds",
+          "callee": "this.#touch_range",
+          "lineNumber": 409
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "this.#touch",
+          "lineNumber": 437
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "this.#dirty_slots.delete",
+          "lineNumber": 440
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "sorted.push",
+          "lineNumber": 448
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "sorted.sort",
+          "lineNumber": 449
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "this.#touch",
+          "lineNumber": 478
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "this.#dirty_slots.delete",
+          "lineNumber": 481
+        },
+        {
+          "caller": "remove_where",
+          "callee": "pred",
+          "lineNumber": 503
+        },
+        {
+          "caller": "remove_where",
+          "callee": "Math.min",
+          "lineNumber": 537
+        },
+        {
+          "caller": "remove_where",
+          "callee": "this.#touch_range",
+          "lineNumber": 539
+        },
+        {
+          "caller": "remove_where",
+          "callee": "this.#purge_dead_dirty_slots",
+          "lineNumber": 542
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "deleted_set.add",
+          "lineNumber": 565
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "deleted_set.add",
+          "lineNumber": 568
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "Array.from",
+          "lineNumber": 573
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "sorted_deleted.sort",
+          "lineNumber": 574
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "deleted_set.has",
+          "lineNumber": 603
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "deleted_set.has",
+          "lineNumber": 603
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "shift_for",
+          "lineNumber": 611
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "shift_for",
+          "lineNumber": 612
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "Math.min",
+          "lineNumber": 649
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#touch_range",
+          "lineNumber": 651
+        },
+        {
+          "caller": "apply_atom_delete",
+          "callee": "this.#purge_dead_dirty_slots",
+          "lineNumber": 654
+        },
+        {
+          "caller": "set_kind",
+          "callee": "this.#touch",
+          "lineNumber": 681
+        },
+        {
+          "caller": "set_pair",
+          "callee": "this.#touch",
+          "lineNumber": 692
+        },
+        {
+          "caller": "ensure_colors",
+          "callee": "this.#touch_range",
+          "lineNumber": 747
+        },
+        {
+          "caller": "set_colors",
+          "callee": "this.#touch",
+          "lineNumber": 794
+        },
+        {
+          "caller": "ensure_opacity",
+          "callee": "this.#opacity_buffer.fill",
+          "lineNumber": 849
+        },
+        {
+          "caller": "ensure_opacity",
+          "callee": "this.#touch_range",
+          "lineNumber": 851
+        },
+        {
+          "caller": "set_opacity",
+          "callee": "this.ensure_opacity",
+          "lineNumber": 867
+        },
+        {
+          "caller": "set_opacity",
+          "callee": "this.#touch",
+          "lineNumber": 871
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "Math.min",
+          "lineNumber": 973
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "this.#touch_range",
+          "lineNumber": 974
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "this.#purge_dead_dirty_slots",
+          "lineNumber": 976
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "this.#ensure_capacity",
+          "lineNumber": 981
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "this.#pairs.set",
+          "lineNumber": 983
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "pairs_src.subarray",
+          "lineNumber": 983
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "this.#kinds.fill",
+          "lineNumber": 989
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "this.#jimages.set",
+          "lineNumber": 992
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "jimages_src.subarray",
+          "lineNumber": 992
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "this.#jimages.fill",
+          "lineNumber": 999
+        },
+        {
+          "caller": "replace_auto_bonds",
+          "callee": "this.#touch_range",
+          "lineNumber": 1002
+        },
+        {
+          "caller": "clear",
+          "callee": "this.#dirty_slots.clear",
+          "lineNumber": 1012
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/structure/bonding/bond-undo-stack.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 378,
+      "nonEmptyLines": 349,
+      "functions": [
+        {
+          "name": "pair_kind_jimage_key",
+          "startLine": 77,
+          "endLine": 92,
+          "params": [
+            "a",
+            "b",
+            "k",
+            "dx",
+            "dy",
+            "dz"
+          ]
+        },
+        {
+          "name": "build_pair_kind_jimage_map",
+          "startLine": 94,
+          "endLine": 112,
+          "params": [
+            "pairs",
+            "kinds",
+            "jimages"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "BondUndoStack",
+          "startLine": 114,
+          "endLine": 378,
+          "methods": [
+            "constructor",
+            "schema_version",
+            "can_undo",
+            "can_redo",
+            "undo_depth",
+            "redo_depth",
+            "transaction",
+            "add_bond",
+            "add_bonds",
+            "remove_bond",
+            "remove_bonds",
+            "undo",
+            "redo",
+            "clear"
+          ],
+          "properties": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "BondUndoStack",
+          "line": 114,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "build_pair_kind_jimage_map",
+          "callee": "pair_kind_jimage_key",
+          "lineNumber": 101
+        },
+        {
+          "caller": "build_pair_kind_jimage_map",
+          "callee": "m.set",
+          "lineNumber": 109
+        },
+        {
+          "caller": "build_pair_kind_jimage_map",
+          "callee": "m.get",
+          "lineNumber": 109
+        },
+        {
+          "caller": "constructor",
+          "callee": "Math.max",
+          "lineNumber": 128
+        },
+        {
+          "caller": "transaction",
+          "callee": "fn",
+          "lineNumber": 169
+        },
+        {
+          "caller": "transaction",
+          "callee": "this.#tx_ops.splice",
+          "lineNumber": 173
+        },
+        {
+          "caller": "transaction",
+          "callee": "this.#push_to_undo",
+          "lineNumber": 175
+        },
+        {
+          "caller": "transaction",
+          "callee": "this.#push_to_undo",
+          "lineNumber": 177
+        },
+        {
+          "caller": "add_bond",
+          "callee": "this.#mgr.add_bond",
+          "lineNumber": 190
+        },
+        {
+          "caller": "add_bond",
+          "callee": "this.#record",
+          "lineNumber": 194
+        },
+        {
+          "caller": "add_bond",
+          "callee": "Uint32Array.of",
+          "lineNumber": 196
+        },
+        {
+          "caller": "add_bond",
+          "callee": "Uint8Array.of",
+          "lineNumber": 197
+        },
+        {
+          "caller": "add_bond",
+          "callee": "Int8Array.of",
+          "lineNumber": 198
+        },
+        {
+          "caller": "add_bonds",
+          "callee": "this.#mgr.add_bonds",
+          "lineNumber": 216
+        },
+        {
+          "caller": "add_bonds",
+          "callee": "this.#record",
+          "lineNumber": 228
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "this.#mgr.get_a",
+          "lineNumber": 240
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "this.#mgr.get_b",
+          "lineNumber": 241
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "this.#mgr.get_kind",
+          "lineNumber": 242
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "this.#mgr.get_jimage",
+          "lineNumber": 243
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "this.#mgr.remove_bond",
+          "lineNumber": 244
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "this.#record",
+          "lineNumber": 245
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "Uint32Array.of",
+          "lineNumber": 247
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "Uint8Array.of",
+          "lineNumber": 248
+        },
+        {
+          "caller": "remove_bond",
+          "callee": "Int8Array.of",
+          "lineNumber": 249
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "seen.has",
+          "lineNumber": 271
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "seen.add",
+          "lineNumber": 272
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "captured_pairs.push",
+          "lineNumber": 273
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "this.#mgr.get_a",
+          "lineNumber": 273
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "this.#mgr.get_b",
+          "lineNumber": 273
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "captured_kinds.push",
+          "lineNumber": 274
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "this.#mgr.get_kind",
+          "lineNumber": 274
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "this.#mgr.get_jimage",
+          "lineNumber": 275
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "captured_jimages.push",
+          "lineNumber": 276
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "this.#mgr.remove_bonds",
+          "lineNumber": 278
+        },
+        {
+          "caller": "remove_bonds",
+          "callee": "this.#record",
+          "lineNumber": 280
+        },
+        {
+          "caller": "undo",
+          "callee": "this.#undo_stack.pop",
+          "lineNumber": 291
+        },
+        {
+          "caller": "undo",
+          "callee": "this.#apply_inverse",
+          "lineNumber": 292
+        },
+        {
+          "caller": "undo",
+          "callee": "this.#redo_stack.push",
+          "lineNumber": 293
+        },
+        {
+          "caller": "redo",
+          "callee": "this.#redo_stack.pop",
+          "lineNumber": 300
+        },
+        {
+          "caller": "redo",
+          "callee": "this.#apply_inverse",
+          "lineNumber": 301
+        },
+        {
+          "caller": "redo",
+          "callee": "this.#undo_stack.push",
+          "lineNumber": 302
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/structure/bonding/BondManagerInstances.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 453,
+      "nonEmptyLines": 414,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/structure/bonding/image-atom-layout.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 147,
+      "nonEmptyLines": 135,
+      "functions": [
+        {
+          "name": "empty_image_atom_layout",
+          "startLine": 56,
+          "endLine": 58,
+          "params": []
+        },
+        {
+          "name": "build_image_atom_layout",
+          "startLine": 60,
+          "endLine": 133,
+          "params": [
+            "sites_to_draw",
+            "bond_manager"
+          ]
+        },
+        {
+          "name": "image_atom_decorator_instance_count",
+          "startLine": 143,
+          "endLine": 147,
+          "params": [
+            "layout"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "empty_image_atom_layout",
+          "line": 56,
+          "isDefault": false
+        },
+        {
+          "name": "build_image_atom_layout",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "image_atom_decorator_instance_count",
+          "line": 143,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "slots_by_atom.get",
+          "lineNumber": 73
+        },
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "slots_by_atom.set",
+          "lineNumber": 76
+        },
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "bucket_a.push",
+          "lineNumber": 78
+        },
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "slots_by_atom.get",
+          "lineNumber": 80
+        },
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "slots_by_atom.set",
+          "lineNumber": 83
+        },
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "bucket_b.push",
+          "lineNumber": 85
+        },
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "sites_to_draw.values",
+          "lineNumber": 91
+        },
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "slots_by_atom.get",
+          "lineNumber": 95
+        },
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "sites_to_draw.values",
+          "lineNumber": 108
+        },
+        {
+          "caller": "build_image_atom_layout",
+          "callee": "slots_by_atom.get",
+          "lineNumber": 116
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/BuildPane.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 78,
+      "nonEmptyLines": 71,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/structure/CanvasTooltip.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 45,
+      "nonEmptyLines": 41,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/structure/catrender/__tests__/atom-merge.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 75,
+      "nonEmptyLines": 67,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/catrender/__tests__/bond-merge.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 62,
+      "nonEmptyLines": 54,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/catrender/__tests__/catrender-state.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 67,
+      "nonEmptyLines": 60,
+      "functions": [
+        {
+          "name": "blank_knobs",
+          "startLine": 8,
+          "endLine": 14,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "blank_knobs",
+          "callee": "Object.keys",
+          "lineNumber": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/catrender/__tests__/pick-hit.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 84,
+      "nonEmptyLines": 70,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/catrender/atom-merge.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 53,
+      "nonEmptyLines": 50,
+      "functions": [
+        {
+          "name": "merge_atoms",
+          "startLine": 29,
+          "endLine": 45,
+          "params": [
+            "n_atoms",
+            "overrides"
+          ]
+        },
+        {
+          "name": "prune_atom_overrides",
+          "startLine": 48,
+          "endLine": 53,
+          "params": [
+            "overrides",
+            "n_atoms"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "merge_atoms",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "prune_atom_overrides",
+          "line": 48,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "merge_atoms",
+          "callee": "hidden.add",
+          "lineNumber": 38
+        },
+        {
+          "caller": "merge_atoms",
+          "callee": "recolor.set",
+          "lineNumber": 41
+        },
+        {
+          "caller": "prune_atom_overrides",
+          "callee": "overrides.filter",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/catrender/bond-merge.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 38,
+      "functions": [
+        {
+          "name": "key",
+          "startLine": 9,
+          "endLine": 11,
+          "params": [
+            "i",
+            "j"
+          ]
+        },
+        {
+          "name": "merge_bonds",
+          "startLine": 18,
+          "endLine": 35,
+          "params": [
+            "base",
+            "overrides"
+          ]
+        },
+        {
+          "name": "prune_overrides",
+          "startLine": 38,
+          "endLine": 43,
+          "params": [
+            "overrides",
+            "n_atoms"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "merge_bonds",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "prune_overrides",
+          "line": 38,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "merge_bonds",
+          "callee": "map.set",
+          "lineNumber": 20
+        },
+        {
+          "caller": "merge_bonds",
+          "callee": "key",
+          "lineNumber": 20
+        },
+        {
+          "caller": "merge_bonds",
+          "callee": "key",
+          "lineNumber": 23
+        },
+        {
+          "caller": "merge_bonds",
+          "callee": "map.delete",
+          "lineNumber": 25
+        },
+        {
+          "caller": "merge_bonds",
+          "callee": "map.get",
+          "lineNumber": 27
+        },
+        {
+          "caller": "merge_bonds",
+          "callee": "map.set",
+          "lineNumber": 31
+        },
+        {
+          "caller": "merge_bonds",
+          "callee": "map.values",
+          "lineNumber": 34
+        },
+        {
+          "caller": "prune_overrides",
+          "callee": "overrides.filter",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/catrender/catrender-state.svelte.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 193,
+      "nonEmptyLines": 175,
+      "functions": [
+        {
+          "name": "build_overrides",
+          "startLine": 62,
+          "endLine": 83,
+          "params": [
+            "knobs",
+            "advanced_json"
+          ]
+        },
+        {
+          "name": "prune_atom_idx",
+          "startLine": 86,
+          "endLine": 88,
+          "params": [
+            "idx",
+            "n"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "CatRenderState",
+          "startLine": 101,
+          "endLine": 190,
+          "methods": [
+            "overrides",
+            "reset_to_preset",
+            "reset_view"
+          ],
+          "properties": [
+            "preset",
+            "show_h",
+            "show_cell",
+            "pbc_wrap",
+            "perceive_orders",
+            "prune_long_bonds",
+            "hide_cross_cell_bonds",
+            "show_index",
+            "k_atom_scale",
+            "k_bond_width",
+            "k_atom_stroke_width",
+            "k_hue",
+            "k_light",
+            "k_sat",
+            "k_fog_strength",
+            "k_label_font_size",
+            "k_gradient",
+            "k_fog",
+            "k_bond_orders",
+            "k_bond_color_by_element",
+            "k_bond_gradient",
+            "k_atoms_above_bonds",
+            "k_bond_color",
+            "k_background",
+            "k_cell_color",
+            "advanced_json",
+            "bond_overrides",
+            "atom_overrides",
+            "drag_rot",
+            "mirror"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PRESETS",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "AXIS_COLORS",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "KNOB_KEYS",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "build_overrides",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "prune_atom_idx",
+          "line": 86,
+          "isDefault": false
+        },
+        {
+          "name": "catrender_state",
+          "line": 193,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "build_overrides",
+          "callee": "Object.keys",
+          "lineNumber": 68
+        },
+        {
+          "caller": "build_overrides",
+          "callee": "advanced_json.trim",
+          "lineNumber": 72
+        },
+        {
+          "caller": "build_overrides",
+          "callee": "JSON.parse",
+          "lineNumber": 74
+        },
+        {
+          "caller": "build_overrides",
+          "callee": "Array.isArray",
+          "lineNumber": 75
+        },
+        {
+          "caller": "build_overrides",
+          "callee": "Object.assign",
+          "lineNumber": 76
+        },
+        {
+          "caller": "build_overrides",
+          "callee": "String",
+          "lineNumber": 79
+        },
+        {
+          "caller": "prune_atom_idx",
+          "callee": "Number.isFinite",
+          "lineNumber": 87
+        },
+        {
+          "caller": "prune_atom_idx",
+          "callee": "Math.trunc",
+          "lineNumber": 87
+        },
+        {
+          "caller": "overrides",
+          "callee": "build_overrides",
+          "lineNumber": 154
+        },
+        {
+          "caller": "reset_to_preset",
+          "callee": "Object.keys",
+          "lineNumber": 180
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 6,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/structure/catrender/catrender-wasm.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 42,
+      "functions": [
+        {
+          "name": "ensure_ready",
+          "startLine": 20,
+          "endLine": 43,
+          "params": []
+        },
+        {
+          "name": "render_svg",
+          "startLine": 46,
+          "endLine": 49,
+          "params": [
+            "input_json"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "render_svg",
+          "line": 46,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ensure_ready",
+          "callee": "(async () => {\r\n    // @ts-ignore — generated WASM package\r\n    const mod = (await import(/* @vite-ignore */ `./catrender-wasm-pkg/catrender_wasm.js`)) as unknown as CatrenderWasmModule\r\n    const preloaded = (globalThis as unknown as {\r\n      __catgo_catrender_wasm?: ArrayBuffer | Uint8Array\r\n    }).__catgo_catrender_wasm\r\n    if (preloaded) {\r\n      await mod.default(preloaded)\r\n    } else {\r\n      const wasm_url_module = await import(\r\n        /* @vite-ignore */ `./catrender-wasm-pkg/catrender_wasm_bg.wasm?url`\r\n      )\r\n      await mod.default({ module_or_path: wasm_url_module.default as string })\r\n    }\r\n    _module = mod\r\n    return mod\r\n  })",
+          "lineNumber": 25
+        },
+        {
+          "caller": "ensure_ready",
+          "callee": "import",
+          "lineNumber": 27
+        },
+        {
+          "caller": "ensure_ready",
+          "callee": "mod.default",
+          "lineNumber": 32
+        },
+        {
+          "caller": "ensure_ready",
+          "callee": "import",
+          "lineNumber": 34
+        },
+        {
+          "caller": "ensure_ready",
+          "callee": "mod.default",
+          "lineNumber": 37
+        },
+        {
+          "caller": "render_svg",
+          "callee": "ensure_ready",
+          "lineNumber": 47
+        },
+        {
+          "caller": "render_svg",
+          "callee": "mod.render",
+          "lineNumber": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/structure/catrender/CatRenderParamsPane.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 221,
+      "nonEmptyLines": 214,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/structure/catrender/CatRenderViewPane.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 564,
+      "nonEmptyLines": 539,
+      "metrics": {}
+    }
+  ]
+}

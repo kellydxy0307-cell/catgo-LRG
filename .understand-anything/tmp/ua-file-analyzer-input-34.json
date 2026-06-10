@@ -1,0 +1,61 @@
+{
+    "projectRoot":  "D:/catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "server/catgo/tool_schema/analysis.json",
+                           "language":  "json",
+                           "sizeLines":  381,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "server/catgo/tool_schema/building.json",
+                           "language":  "json",
+                           "sizeLines":  282,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "server/catgo/tool_schema/optimization.json",
+                           "language":  "json",
+                           "sizeLines":  40,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "server/catgo/tool_schema/structure.json",
+                           "language":  "json",
+                           "sizeLines":  188,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "server/catgo/tool_schema/view.json",
+                           "language":  "json",
+                           "sizeLines":  82,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "server/catgo/tool_schema/workflow.json",
+                           "language":  "json",
+                           "sizeLines":  265,
+                           "fileCategory":  "config"
+                       }
+                   ],
+    "batchImportData":  {
+                            "server/catgo/tool_schema/analysis.json":  [
+
+                                                                       ],
+                            "server/catgo/tool_schema/building.json":  [
+
+                                                                       ],
+                            "server/catgo/tool_schema/optimization.json":  [
+
+                                                                           ],
+                            "server/catgo/tool_schema/structure.json":  [
+
+                                                                        ],
+                            "server/catgo/tool_schema/view.json":  [
+
+                                                                   ],
+                            "server/catgo/tool_schema/workflow.json":  [
+
+                                                                       ]
+                        }
+}

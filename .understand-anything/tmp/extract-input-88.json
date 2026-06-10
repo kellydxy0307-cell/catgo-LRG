@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/Icon.svelte",
+      "language": "svelte",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/icons.ts",
+      "language": "typescript",
+      "sizeLines": 589,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/index.ts",
+      "language": "typescript",
+      "sizeLines": 145,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/InfoCard.svelte",
+      "language": "svelte",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/io/decompress.ts",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/io/export.ts",
+      "language": "typescript",
+      "sizeLines": 903,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/io/fetch.ts",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/io/index.ts",
+      "language": "typescript",
+      "sizeLines": 130,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/io/tauri.ts",
+      "language": "typescript",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/io/vasp-input.ts",
+      "language": "typescript",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/labels.ts",
+      "language": "typescript",
+      "sizeLines": 301,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/math.ts",
+      "language": "typescript",
+      "sizeLines": 361,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/index.ts",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdAnalysisPane.svelte",
+      "language": "svelte",
+      "sizeLines": 381,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdCavitationPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 492,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdClusteringPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 1332,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdDensityPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 433,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdDynamicsPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 654,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdHbondsPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 597,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdMsdPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 338,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdOrientationPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 295,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdPlot.svelte",
+      "language": "svelte",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/MdRdfPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 678,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/plotly.d.ts",
+      "language": "typescript",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/md/types.ts",
+      "language": "typescript",
+      "sizeLines": 659,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/Icon.svelte": [],
+    "src/lib/icons.ts": [],
+    "src/lib/index.ts": [],
+    "src/lib/InfoCard.svelte": [],
+    "src/lib/io/decompress.ts": [],
+    "src/lib/io/export.ts": [],
+    "src/lib/io/fetch.ts": [],
+    "src/lib/io/index.ts": [],
+    "src/lib/io/tauri.ts": [],
+    "src/lib/io/vasp-input.ts": [],
+    "src/lib/labels.ts": [],
+    "src/lib/math.ts": [],
+    "src/lib/md/index.ts": [],
+    "src/lib/md/MdAnalysisPane.svelte": [],
+    "src/lib/md/MdCavitationPanel.svelte": [],
+    "src/lib/md/MdClusteringPanel.svelte": [],
+    "src/lib/md/MdDensityPanel.svelte": [],
+    "src/lib/md/MdDynamicsPanel.svelte": [],
+    "src/lib/md/MdHbondsPanel.svelte": [],
+    "src/lib/md/MdMsdPanel.svelte": [],
+    "src/lib/md/MdOrientationPanel.svelte": [],
+    "src/lib/md/MdPlot.svelte": [],
+    "src/lib/md/MdRdfPanel.svelte": [],
+    "src/lib/md/plotly.d.ts": [],
+    "src/lib/md/types.ts": []
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "nodes": [
+    {
+      "id": "document:server/catgo/workflow/skills/orca/freq/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/orca/freq/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/orca/freq/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/orca/neb_ts/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/orca/neb_ts/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/orca/neb_ts/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/orca/opt/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/orca/opt/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/orca/opt/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/orca/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/orca/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/orca/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/qe/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/qe/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/qe/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/siesta/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/siesta/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/siesta/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/adsorbate/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/adsorbate/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/adsorbate/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/atom_ops/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/atom_ops/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/atom_ops/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/cluster_ops/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/cluster_ops/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/cluster_ops/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/defect/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/defect/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/defect/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/doping/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/doping/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/doping/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/fetch/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/fetch/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/fetch/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/heterostructure/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/heterostructure/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/heterostructure/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/intercalation/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/intercalation/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/intercalation/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/moire/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/moire/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/moire/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/nanotube/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/nanotube/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/nanotube/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/slab/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/slab/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/slab/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/strain/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/strain/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/strain/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/structure/substitution/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/structure/substitution/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/structure/substitution/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/troubleshooting/cluster_config_test/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/troubleshooting/cluster_config_test/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/troubleshooting/cluster_config_test/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/troubleshooting/convergence_issues/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/troubleshooting/convergence_issues/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/troubleshooting/convergence_issues/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/troubleshooting/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/troubleshooting/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/troubleshooting/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/troubleshooting/vasp_errors/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/troubleshooting/vasp_errors/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/troubleshooting/vasp_errors/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    }
+  ],
+  "edges": []
+}

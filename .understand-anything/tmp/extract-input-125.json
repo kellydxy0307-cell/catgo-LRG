@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/structure/MonacoEditorPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 342,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/NanoscrollPane.svelte",
+      "language": "svelte",
+      "sizeLines": 323,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/NanotubePane.svelte",
+      "language": "svelte",
+      "sizeLines": 583,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/OptimadePreviewModal.svelte",
+      "language": "svelte",
+      "sizeLines": 482,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/OptimadeSearchModal.svelte",
+      "language": "svelte",
+      "sizeLines": 1427,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/OptimizationPane.svelte",
+      "language": "svelte",
+      "sizeLines": 1250,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/parsers/index.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/PasteContentModal.svelte",
+      "language": "svelte",
+      "sizeLines": 356,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/PathwayBuilderPane.svelte",
+      "language": "svelte",
+      "sizeLines": 629,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/PencilModeOverlay.svelte",
+      "language": "svelte",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/PluginHubPane.svelte",
+      "language": "svelte",
+      "sizeLines": 818,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/PluginResultPane.svelte",
+      "language": "svelte",
+      "sizeLines": 216,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/PseudoHydrogenPane.svelte",
+      "language": "svelte",
+      "sizeLines": 644,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/PubchemSearchModal.svelte",
+      "language": "svelte",
+      "sizeLines": 758,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/ReticularPane.svelte",
+      "language": "svelte",
+      "sizeLines": 558,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/ScaleBar.svelte",
+      "language": "svelte",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/SelectionHighlights.svelte",
+      "language": "svelte",
+      "sizeLines": 288,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/ServerPane.svelte",
+      "language": "svelte",
+      "sizeLines": 2514,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/SlabPreview.svelte",
+      "language": "svelte",
+      "sizeLines": 311,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/SlowGrowthPane.svelte",
+      "language": "svelte",
+      "sizeLines": 658,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/state/charge-labels-state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/StructureControls.svelte",
+      "language": "svelte",
+      "sizeLines": 1657,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/StructureInfoPane.svelte",
+      "language": "svelte",
+      "sizeLines": 437,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/StructureLegend.svelte",
+      "language": "svelte",
+      "sizeLines": 155,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/StructurePreview.svelte",
+      "language": "svelte",
+      "sizeLines": 173,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/structure/MonacoEditorPanel.svelte": [],
+    "src/lib/structure/NanoscrollPane.svelte": [],
+    "src/lib/structure/NanotubePane.svelte": [],
+    "src/lib/structure/OptimadePreviewModal.svelte": [],
+    "src/lib/structure/OptimadeSearchModal.svelte": [],
+    "src/lib/structure/OptimizationPane.svelte": [],
+    "src/lib/structure/parsers/index.ts": [],
+    "src/lib/structure/PasteContentModal.svelte": [],
+    "src/lib/structure/PathwayBuilderPane.svelte": [],
+    "src/lib/structure/PencilModeOverlay.svelte": [],
+    "src/lib/structure/PluginHubPane.svelte": [],
+    "src/lib/structure/PluginResultPane.svelte": [],
+    "src/lib/structure/PseudoHydrogenPane.svelte": [],
+    "src/lib/structure/PubchemSearchModal.svelte": [],
+    "src/lib/structure/ReticularPane.svelte": [],
+    "src/lib/structure/ScaleBar.svelte": [],
+    "src/lib/structure/SelectionHighlights.svelte": [],
+    "src/lib/structure/ServerPane.svelte": [],
+    "src/lib/structure/SlabPreview.svelte": [],
+    "src/lib/structure/SlowGrowthPane.svelte": [],
+    "src/lib/structure/state/charge-labels-state.svelte.ts": [],
+    "src/lib/structure/StructureControls.svelte": [],
+    "src/lib/structure/StructureInfoPane.svelte": [],
+    "src/lib/structure/StructureLegend.svelte": [],
+    "src/lib/structure/StructurePreview.svelte": []
+  }
+}

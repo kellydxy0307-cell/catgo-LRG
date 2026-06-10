@@ -1,0 +1,381 @@
+{
+  "nodes": [
+    {
+      "id": "document:.claude/skills/troubleshoot-convergence/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/troubleshoot-convergence/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/troubleshoot-convergence/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/troubleshoot-vasp/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/troubleshoot-vasp/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/troubleshoot-vasp/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/troubleshoot-workflow/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/troubleshoot-workflow/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/troubleshoot-workflow/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/vasp-band/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/vasp-band/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/vasp-band/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/vasp-dos/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/vasp-dos/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/vasp-dos/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/vasp-freq/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/vasp-freq/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/vasp-freq/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/vasp-md/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/vasp-md/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/vasp-md/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/vasp-relax/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/vasp-relax/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/vasp-relax/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/vasp-static/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/vasp-static/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/vasp-static/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/volcano-plot/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/volcano-plot/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/volcano-plot/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "config:.gemini/settings.json",
+      "type": "config",
+      "name": "settings.json",
+      "filePath": ".gemini/settings.json",
+      "summary": "settings.json 是 CatGo 项目中的配置文件，使用 json，位于 .gemini/settings.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "document:.gemini/skills/catgo/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".gemini/skills/catgo/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .gemini/skills/catgo/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "config:.github/ISSUE_TEMPLATE/bug_report.yml",
+      "type": "config",
+      "name": "bug_report.yml",
+      "filePath": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "summary": "bug_report.yml 是 CatGo 项目中的配置文件，使用 yaml，位于 .github/ISSUE_TEMPLATE/bug_report.yml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "language": "yaml",
+      "languageNotes": "此节点以中文概述，保留必要的 yaml 技术术语。"
+    },
+    {
+      "id": "config:.github/ISSUE_TEMPLATE/feature_request.yml",
+      "type": "config",
+      "name": "feature_request.yml",
+      "filePath": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "summary": "feature_request.yml 是 CatGo 项目中的配置文件，使用 yaml，位于 .github/ISSUE_TEMPLATE/feature_request.yml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "language": "yaml",
+      "languageNotes": "此节点以中文概述，保留必要的 yaml 技术术语。"
+    },
+    {
+      "id": "config:.github/release.yml",
+      "type": "config",
+      "name": "release.yml",
+      "filePath": ".github/release.yml",
+      "summary": "release.yml 是 CatGo 项目中的配置文件，使用 yaml，位于 .github/release.yml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "language": "yaml",
+      "languageNotes": "此节点以中文概述，保留必要的 yaml 技术术语。"
+    },
+    {
+      "id": "file:.gitmodules",
+      "type": "file",
+      "name": ".gitmodules",
+      "filePath": ".gitmodules",
+      "summary": ".gitmodules 是 CatGo 项目中的代码文件，使用 unknown，位于 .gitmodules，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:.npmrc",
+      "type": "file",
+      "name": ".npmrc",
+      "filePath": ".npmrc",
+      "summary": ".npmrc 是 CatGo 项目中的代码文件，使用 unknown，位于 .npmrc，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:.nvmrc",
+      "type": "file",
+      "name": ".nvmrc",
+      "filePath": ".nvmrc",
+      "summary": ".nvmrc 是 CatGo 项目中的代码文件，使用 unknown，位于 .nvmrc，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": ".understandignore 是 CatGo 项目中的代码文件，使用 unknown，位于 .understand-anything/.understandignore，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "config.json 是 CatGo 项目中的配置文件，使用 json，位于 .understand-anything/config.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "config:.understand-anything/tmp/extract-input-1.json",
+      "type": "config",
+      "name": "extract-input-1.json",
+      "filePath": ".understand-anything/tmp/extract-input-1.json",
+      "summary": "extract-input-1.json 是 CatGo 项目中的配置文件，使用 json，位于 .understand-anything/tmp/extract-input-1.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "moderate",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "config:.understand-anything/tmp/extract-output-1.json",
+      "type": "config",
+      "name": "extract-output-1.json",
+      "filePath": ".understand-anything/tmp/extract-output-1.json",
+      "summary": "extract-output-1.json 是 CatGo 项目中的配置文件，使用 json，位于 .understand-anything/tmp/extract-output-1.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "complex",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "config:catbot-plugin/.claude-plugin/plugin.json",
+      "type": "config",
+      "name": "plugin.json",
+      "filePath": "catbot-plugin/.claude-plugin/plugin.json",
+      "summary": "plugin.json 是 CatGo 项目中的配置文件，使用 json，位于 catbot-plugin/.claude-plugin/plugin.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "config:catbot-plugin/.mcp.json",
+      "type": "config",
+      "name": ".mcp.json",
+      "filePath": "catbot-plugin/.mcp.json",
+      "summary": ".mcp.json 是 CatGo 项目中的配置文件，使用 json，位于 catbot-plugin/.mcp.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "document:catbot-plugin/agents/catbot.md",
+      "type": "document",
+      "name": "catbot.md",
+      "filePath": "catbot-plugin/agents/catbot.md",
+      "summary": "catbot.md 是 CatGo 项目中的文档文件，使用 markdown，位于 catbot-plugin/agents/catbot.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    }
+  ],
+  "edges": []
+}

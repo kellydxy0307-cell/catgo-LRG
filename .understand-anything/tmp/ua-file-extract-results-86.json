@@ -1,0 +1,2638 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/lib/element/ElementStats.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 78,
+      "nonEmptyLines": 75,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/element/ElementTile.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 483,
+      "nonEmptyLines": 450,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/element/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 7,
+      "exports": [
+        {
+          "name": "BohrAtom",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "element_data",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ElementSymbol",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "ElementHeading",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "ElementStats",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "ElementTile",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "Nucleus",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/element/Nucleus.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 83,
+      "nonEmptyLines": 76,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/element/single_bond_covalent_radii.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 120,
+      "nonEmptyLines": 120,
+      "sections": [
+        {
+          "heading": "H",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "He",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "Li",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "Be",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "B",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "C",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "N",
+          "level": 1,
+          "line": 8
+        },
+        {
+          "heading": "O",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "F",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "Ne",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "Na",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "Mg",
+          "level": 1,
+          "line": 13
+        },
+        {
+          "heading": "Al",
+          "level": 1,
+          "line": 14
+        },
+        {
+          "heading": "Si",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "P",
+          "level": 1,
+          "line": 16
+        },
+        {
+          "heading": "S",
+          "level": 1,
+          "line": 17
+        },
+        {
+          "heading": "Cl",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "Ar",
+          "level": 1,
+          "line": 19
+        },
+        {
+          "heading": "K",
+          "level": 1,
+          "line": 20
+        },
+        {
+          "heading": "Ca",
+          "level": 1,
+          "line": 21
+        },
+        {
+          "heading": "Sc",
+          "level": 1,
+          "line": 22
+        },
+        {
+          "heading": "Ti",
+          "level": 1,
+          "line": 23
+        },
+        {
+          "heading": "V",
+          "level": 1,
+          "line": 24
+        },
+        {
+          "heading": "Cr",
+          "level": 1,
+          "line": 25
+        },
+        {
+          "heading": "Mn",
+          "level": 1,
+          "line": 26
+        },
+        {
+          "heading": "Fe",
+          "level": 1,
+          "line": 27
+        },
+        {
+          "heading": "Co",
+          "level": 1,
+          "line": 28
+        },
+        {
+          "heading": "Ni",
+          "level": 1,
+          "line": 29
+        },
+        {
+          "heading": "Cu",
+          "level": 1,
+          "line": 30
+        },
+        {
+          "heading": "Zn",
+          "level": 1,
+          "line": 31
+        },
+        {
+          "heading": "Ga",
+          "level": 1,
+          "line": 32
+        },
+        {
+          "heading": "Ge",
+          "level": 1,
+          "line": 33
+        },
+        {
+          "heading": "As",
+          "level": 1,
+          "line": 34
+        },
+        {
+          "heading": "Se",
+          "level": 1,
+          "line": 35
+        },
+        {
+          "heading": "Br",
+          "level": 1,
+          "line": 36
+        },
+        {
+          "heading": "Kr",
+          "level": 1,
+          "line": 37
+        },
+        {
+          "heading": "Rb",
+          "level": 1,
+          "line": 38
+        },
+        {
+          "heading": "Sr",
+          "level": 1,
+          "line": 39
+        },
+        {
+          "heading": "Y",
+          "level": 1,
+          "line": 40
+        },
+        {
+          "heading": "Zr",
+          "level": 1,
+          "line": 41
+        },
+        {
+          "heading": "Nb",
+          "level": 1,
+          "line": 42
+        },
+        {
+          "heading": "Mo",
+          "level": 1,
+          "line": 43
+        },
+        {
+          "heading": "Tc",
+          "level": 1,
+          "line": 44
+        },
+        {
+          "heading": "Ru",
+          "level": 1,
+          "line": 45
+        },
+        {
+          "heading": "Rh",
+          "level": 1,
+          "line": 46
+        },
+        {
+          "heading": "Pd",
+          "level": 1,
+          "line": 47
+        },
+        {
+          "heading": "Ag",
+          "level": 1,
+          "line": 48
+        },
+        {
+          "heading": "Cd",
+          "level": 1,
+          "line": 49
+        },
+        {
+          "heading": "In",
+          "level": 1,
+          "line": 50
+        },
+        {
+          "heading": "Sn",
+          "level": 1,
+          "line": 51
+        },
+        {
+          "heading": "Sb",
+          "level": 1,
+          "line": 52
+        },
+        {
+          "heading": "Te",
+          "level": 1,
+          "line": 53
+        },
+        {
+          "heading": "I",
+          "level": 1,
+          "line": 54
+        },
+        {
+          "heading": "Xe",
+          "level": 1,
+          "line": 55
+        },
+        {
+          "heading": "Cs",
+          "level": 1,
+          "line": 56
+        },
+        {
+          "heading": "Ba",
+          "level": 1,
+          "line": 57
+        },
+        {
+          "heading": "La",
+          "level": 1,
+          "line": 58
+        },
+        {
+          "heading": "Ce",
+          "level": 1,
+          "line": 59
+        },
+        {
+          "heading": "Pr",
+          "level": 1,
+          "line": 60
+        },
+        {
+          "heading": "Nd",
+          "level": 1,
+          "line": 61
+        },
+        {
+          "heading": "Pm",
+          "level": 1,
+          "line": 62
+        },
+        {
+          "heading": "Sm",
+          "level": 1,
+          "line": 63
+        },
+        {
+          "heading": "Eu",
+          "level": 1,
+          "line": 64
+        },
+        {
+          "heading": "Gd",
+          "level": 1,
+          "line": 65
+        },
+        {
+          "heading": "Tb",
+          "level": 1,
+          "line": 66
+        },
+        {
+          "heading": "Dy",
+          "level": 1,
+          "line": 67
+        },
+        {
+          "heading": "Ho",
+          "level": 1,
+          "line": 68
+        },
+        {
+          "heading": "Er",
+          "level": 1,
+          "line": 69
+        },
+        {
+          "heading": "Tm",
+          "level": 1,
+          "line": 70
+        },
+        {
+          "heading": "Yb",
+          "level": 1,
+          "line": 71
+        },
+        {
+          "heading": "Lu",
+          "level": 1,
+          "line": 72
+        },
+        {
+          "heading": "Hf",
+          "level": 1,
+          "line": 73
+        },
+        {
+          "heading": "Ta",
+          "level": 1,
+          "line": 74
+        },
+        {
+          "heading": "W",
+          "level": 1,
+          "line": 75
+        },
+        {
+          "heading": "Re",
+          "level": 1,
+          "line": 76
+        },
+        {
+          "heading": "Os",
+          "level": 1,
+          "line": 77
+        },
+        {
+          "heading": "Ir",
+          "level": 1,
+          "line": 78
+        },
+        {
+          "heading": "Pt",
+          "level": 1,
+          "line": 79
+        },
+        {
+          "heading": "Au",
+          "level": 1,
+          "line": 80
+        },
+        {
+          "heading": "Hg",
+          "level": 1,
+          "line": 81
+        },
+        {
+          "heading": "Tl",
+          "level": 1,
+          "line": 82
+        },
+        {
+          "heading": "Pb",
+          "level": 1,
+          "line": 83
+        },
+        {
+          "heading": "Bi",
+          "level": 1,
+          "line": 84
+        },
+        {
+          "heading": "Po",
+          "level": 1,
+          "line": 85
+        },
+        {
+          "heading": "At",
+          "level": 1,
+          "line": 86
+        },
+        {
+          "heading": "Rn",
+          "level": 1,
+          "line": 87
+        },
+        {
+          "heading": "Fr",
+          "level": 1,
+          "line": 88
+        },
+        {
+          "heading": "Ra",
+          "level": 1,
+          "line": 89
+        },
+        {
+          "heading": "Ac",
+          "level": 1,
+          "line": 90
+        },
+        {
+          "heading": "Th",
+          "level": 1,
+          "line": 91
+        },
+        {
+          "heading": "Pa",
+          "level": 1,
+          "line": 92
+        },
+        {
+          "heading": "U",
+          "level": 1,
+          "line": 93
+        },
+        {
+          "heading": "Np",
+          "level": 1,
+          "line": 94
+        },
+        {
+          "heading": "Pu",
+          "level": 1,
+          "line": 95
+        },
+        {
+          "heading": "Am",
+          "level": 1,
+          "line": 96
+        },
+        {
+          "heading": "Cm",
+          "level": 1,
+          "line": 97
+        },
+        {
+          "heading": "Bk",
+          "level": 1,
+          "line": 98
+        },
+        {
+          "heading": "Cf",
+          "level": 1,
+          "line": 99
+        },
+        {
+          "heading": "Es",
+          "level": 1,
+          "line": 100
+        },
+        {
+          "heading": "Fm",
+          "level": 1,
+          "line": 101
+        },
+        {
+          "heading": "Md",
+          "level": 1,
+          "line": 102
+        },
+        {
+          "heading": "No",
+          "level": 1,
+          "line": 103
+        },
+        {
+          "heading": "Lr",
+          "level": 1,
+          "line": 104
+        },
+        {
+          "heading": "Rf",
+          "level": 1,
+          "line": 105
+        },
+        {
+          "heading": "Db",
+          "level": 1,
+          "line": 106
+        },
+        {
+          "heading": "Sg",
+          "level": 1,
+          "line": 107
+        },
+        {
+          "heading": "Bh",
+          "level": 1,
+          "line": 108
+        },
+        {
+          "heading": "Hs",
+          "level": 1,
+          "line": 109
+        },
+        {
+          "heading": "Mt",
+          "level": 1,
+          "line": 110
+        },
+        {
+          "heading": "Ds",
+          "level": 1,
+          "line": 111
+        },
+        {
+          "heading": "Rg",
+          "level": 1,
+          "line": 112
+        },
+        {
+          "heading": "Cn",
+          "level": 1,
+          "line": 113
+        },
+        {
+          "heading": "Nh",
+          "level": 1,
+          "line": 114
+        },
+        {
+          "heading": "Fl",
+          "level": 1,
+          "line": 115
+        },
+        {
+          "heading": "Mc",
+          "level": 1,
+          "line": 116
+        },
+        {
+          "heading": "Lv",
+          "level": 1,
+          "line": 117
+        },
+        {
+          "heading": "Ts",
+          "level": 1,
+          "line": 118
+        },
+        {
+          "heading": "Og",
+          "level": 1,
+          "line": 119
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 118
+      }
+    },
+    {
+      "path": "src/lib/feedback/ClickFeedback.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 58,
+      "nonEmptyLines": 55,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/feedback/DragOverlay.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 42,
+      "nonEmptyLines": 39,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/feedback/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 4,
+      "nonEmptyLines": 4,
+      "exports": [
+        {
+          "name": "ClickFeedback",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "DragOverlay",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "Spinner",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "StatusMessage",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/feedback/Spinner.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 32,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/feedback/StatusMessage.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 57,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/FilePicker.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 279,
+      "nonEmptyLines": 261,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/gesture/__tests__/hand-tracker.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 57,
+      "nonEmptyLines": 50,
+      "functions": [
+        {
+          "name": "set_media_devices",
+          "startLine": 5,
+          "endLine": 11,
+          "params": [
+            "value"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "set_media_devices",
+          "callee": "Object.defineProperty",
+          "lineNumber": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/gesture/atom-art.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 125,
+      "nonEmptyLines": 111,
+      "functions": [
+        {
+          "name": "distance_3d",
+          "startLine": 117,
+          "endLine": 125,
+          "params": [
+            "a",
+            "b"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "AtomArt",
+          "startLine": 32,
+          "endLine": 115,
+          "methods": [
+            "constructor",
+            "set_trail_spacing",
+            "set_placement_depth",
+            "process_hand",
+            "get_trail",
+            "clear_trail",
+            "is_drawing"
+          ],
+          "properties": [
+            "api",
+            "state",
+            "placement_depth",
+            "trail_spacing"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AtomArt",
+          "line": 32,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "process_hand",
+          "callee": "this.api.get_camera_ray",
+          "lineNumber": 65
+        },
+        {
+          "caller": "process_hand",
+          "callee": "this.api.place_atom",
+          "lineNumber": 78
+        },
+        {
+          "caller": "process_hand",
+          "callee": "this.api.get_element",
+          "lineNumber": 78
+        },
+        {
+          "caller": "process_hand",
+          "callee": "distance_3d",
+          "lineNumber": 83
+        },
+        {
+          "caller": "process_hand",
+          "callee": "this.api.place_atom",
+          "lineNumber": 85
+        },
+        {
+          "caller": "process_hand",
+          "callee": "this.api.get_element",
+          "lineNumber": 85
+        },
+        {
+          "caller": "process_hand",
+          "callee": "this.state.trail_positions.push",
+          "lineNumber": 87
+        },
+        {
+          "caller": "distance_3d",
+          "callee": "Math.sqrt",
+          "lineNumber": 124
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/gesture/audio-pipeline.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 85,
+      "nonEmptyLines": 72,
+      "functions": [
+        {
+          "name": "create_audio_pipeline",
+          "startLine": 17,
+          "endLine": 85,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "create_audio_pipeline",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "navigator.mediaDevices.getUserMedia",
+          "lineNumber": 19
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "audio_ctx.createMediaStreamSource",
+          "lineNumber": 28
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "import",
+          "lineNumber": 35
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "loadRnnoise",
+          "lineNumber": 47
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "audio_ctx.audioWorklet.addModule",
+          "lineNumber": 54
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "source.connect",
+          "lineNumber": 57
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "console.info",
+          "lineNumber": 59
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "console.warn",
+          "lineNumber": 61
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "audio_ctx.createMediaStreamDestination",
+          "lineNumber": 66
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "output_node.connect",
+          "lineNumber": 67
+        },
+        {
+          "caller": "destroy",
+          "callee": "rnnoise_node.destroy",
+          "lineNumber": 71
+        },
+        {
+          "caller": "destroy",
+          "callee": "raw_stream.getTracks().forEach",
+          "lineNumber": 73
+        },
+        {
+          "caller": "destroy",
+          "callee": "raw_stream.getTracks",
+          "lineNumber": 73
+        },
+        {
+          "caller": "destroy",
+          "callee": "t.stop",
+          "lineNumber": 73
+        },
+        {
+          "caller": "destroy",
+          "callee": "audio_ctx.close().catch",
+          "lineNumber": 75
+        },
+        {
+          "caller": "destroy",
+          "callee": "audio_ctx.close",
+          "lineNumber": 75
+        },
+        {
+          "caller": "create_audio_pipeline",
+          "callee": "console.info",
+          "lineNumber": 78
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/gesture/audio-utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 49,
+      "nonEmptyLines": 42,
+      "functions": [
+        {
+          "name": "float32_to_wav",
+          "startLine": 6,
+          "endLine": 43,
+          "params": [
+            "samples",
+            "sample_rate"
+          ]
+        },
+        {
+          "name": "write_string",
+          "startLine": 45,
+          "endLine": 49,
+          "params": [
+            "view",
+            "offset",
+            "str"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "float32_to_wav",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "float32_to_wav",
+          "callee": "write_string",
+          "lineNumber": 16
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setUint32",
+          "lineNumber": 17
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "write_string",
+          "lineNumber": 18
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "write_string",
+          "lineNumber": 21
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setUint32",
+          "lineNumber": 22
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setUint16",
+          "lineNumber": 23
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setUint16",
+          "lineNumber": 24
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setUint32",
+          "lineNumber": 25
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setUint32",
+          "lineNumber": 26
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setUint16",
+          "lineNumber": 27
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setUint16",
+          "lineNumber": 28
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "write_string",
+          "lineNumber": 31
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setUint32",
+          "lineNumber": 32
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "Math.max",
+          "lineNumber": 37
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "Math.min",
+          "lineNumber": 37
+        },
+        {
+          "caller": "float32_to_wav",
+          "callee": "view.setInt16",
+          "lineNumber": 38
+        },
+        {
+          "caller": "write_string",
+          "callee": "view.setUint8",
+          "lineNumber": 47
+        },
+        {
+          "caller": "write_string",
+          "callee": "str.charCodeAt",
+          "lineNumber": 47
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/gesture/fuzzy-matcher.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 317,
+      "nonEmptyLines": 259,
+      "functions": [
+        {
+          "name": "is_cjk",
+          "startLine": 38,
+          "endLine": 40,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "build_index",
+          "startLine": 42,
+          "endLine": 72,
+          "params": [
+            "commands",
+            "element_map"
+          ]
+        },
+        {
+          "name": "reset_fuzzy_index",
+          "startLine": 75,
+          "endLine": 78,
+          "params": []
+        },
+        {
+          "name": "normalize",
+          "startLine": 86,
+          "endLine": 92,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "word_level_score",
+          "startLine": 103,
+          "endLine": 134,
+          "params": [
+            "input_words",
+            "entry"
+          ]
+        },
+        {
+          "name": "codes_match",
+          "startLine": 137,
+          "endLine": 140,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "levenshtein",
+          "startLine": 143,
+          "endLine": 167,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "phonetic_score",
+          "startLine": 176,
+          "endLine": 199,
+          "params": [
+            "input",
+            "entry"
+          ]
+        },
+        {
+          "name": "fuzzy_match_command",
+          "startLine": 207,
+          "endLine": 317,
+          "params": [
+            "text",
+            "commands",
+            "element_map",
+            "stt_confidence",
+            "ai_enabled"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "reset_fuzzy_index",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "fuzzy_match_command",
+          "line": 207,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "is_cjk",
+          "callee": "/[\\u4e00-\\u9fff\\u3040-\\u309f\\u30a0-\\u30ff\\uac00-\\ud7af]/.test",
+          "lineNumber": 39
+        },
+        {
+          "caller": "build_index",
+          "callee": "cached_entries.push",
+          "lineNumber": 47
+        },
+        {
+          "caller": "build_index",
+          "callee": "is_cjk",
+          "lineNumber": 50
+        },
+        {
+          "caller": "build_index",
+          "callee": "doubleMetaphone",
+          "lineNumber": 50
+        },
+        {
+          "caller": "build_index",
+          "callee": "pattern.split",
+          "lineNumber": 51
+        },
+        {
+          "caller": "build_index",
+          "callee": "Object.entries",
+          "lineNumber": 56
+        },
+        {
+          "caller": "build_index",
+          "callee": "cached_entries.push",
+          "lineNumber": 57
+        },
+        {
+          "caller": "build_index",
+          "callee": "is_cjk",
+          "lineNumber": 60
+        },
+        {
+          "caller": "build_index",
+          "callee": "doubleMetaphone",
+          "lineNumber": 60
+        },
+        {
+          "caller": "normalize",
+          "callee": "text\r\n    .replace(FILLER_PATTERN, ` `)\r\n    .replace(/['']/g, `'`)       // Smart quotes → ASCII\r\n    .replace(/\\s+/g, ` `)\r\n    .trim",
+          "lineNumber": 87
+        },
+        {
+          "caller": "normalize",
+          "callee": "text\r\n    .replace(FILLER_PATTERN, ` `)\r\n    .replace(/['']/g, `'`)       // Smart quotes → ASCII\r\n    .replace",
+          "lineNumber": 87
+        },
+        {
+          "caller": "normalize",
+          "callee": "text\r\n    .replace(FILLER_PATTERN, ` `)\r\n    .replace",
+          "lineNumber": 87
+        },
+        {
+          "caller": "normalize",
+          "callee": "text\r\n    .replace",
+          "lineNumber": 87
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "is_cjk",
+          "lineNumber": 109
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "input_words.some",
+          "lineNumber": 111
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "w.includes",
+          "lineNumber": 111
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "doubleMetaphone",
+          "lineNumber": 115
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "Math.max",
+          "lineNumber": 122
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "Math.floor",
+          "lineNumber": 122
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "levenshtein",
+          "lineNumber": 123
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "is_cjk",
+          "lineNumber": 126
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "doubleMetaphone",
+          "lineNumber": 127
+        },
+        {
+          "caller": "word_level_score",
+          "callee": "codes_match",
+          "lineNumber": 128
+        },
+        {
+          "caller": "levenshtein",
+          "callee": "Array.from",
+          "lineNumber": 149
+        },
+        {
+          "caller": "levenshtein",
+          "callee": "Math.min",
+          "lineNumber": 155
+        },
+        {
+          "caller": "phonetic_score",
+          "callee": "is_cjk",
+          "lineNumber": 178
+        },
+        {
+          "caller": "phonetic_score",
+          "callee": "doubleMetaphone",
+          "lineNumber": 180
+        },
+        {
+          "caller": "phonetic_score",
+          "callee": "codes_match",
+          "lineNumber": 184
+        },
+        {
+          "caller": "phonetic_score",
+          "callee": "ic.startsWith",
+          "lineNumber": 192
+        },
+        {
+          "caller": "phonetic_score",
+          "callee": "ec.slice",
+          "lineNumber": 192
+        },
+        {
+          "caller": "phonetic_score",
+          "callee": "ec.startsWith",
+          "lineNumber": 192
+        },
+        {
+          "caller": "phonetic_score",
+          "callee": "ic.slice",
+          "lineNumber": 192
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "text.toLowerCase().trim",
+          "lineNumber": 214
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "text.toLowerCase",
+          "lineNumber": 214
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "normalize",
+          "lineNumber": 218
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "Object.entries",
+          "lineNumber": 224
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "candidate.includes",
+          "lineNumber": 225
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "candidate.includes",
+          "lineNumber": 232
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "build_index",
+          "lineNumber": 240
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "fuse_index!.search",
+          "lineNumber": 244
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "lower.split",
+          "lineNumber": 258
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "word_level_score",
+          "lineNumber": 266
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "phonetic_score",
+          "lineNumber": 288
+        },
+        {
+          "caller": "fuzzy_match_command",
+          "callee": "lower.includes",
+          "lineNumber": 307
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/gesture/gesture-config-store.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "load_gesture_config",
+          "startLine": 12,
+          "endLine": 22,
+          "params": []
+        },
+        {
+          "name": "save_gesture_config",
+          "startLine": 25,
+          "endLine": 31,
+          "params": [
+            "config"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "load_gesture_config",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "save_gesture_config",
+          "line": 25,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "load_gesture_config",
+          "callee": "localStorage.getItem",
+          "lineNumber": 15
+        },
+        {
+          "caller": "load_gesture_config",
+          "callee": "JSON.parse",
+          "lineNumber": 17
+        },
+        {
+          "caller": "save_gesture_config",
+          "callee": "localStorage.setItem",
+          "lineNumber": 27
+        },
+        {
+          "caller": "save_gesture_config",
+          "callee": "JSON.stringify",
+          "lineNumber": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/gesture/gesture-recognizer.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 273,
+      "nonEmptyLines": 227,
+      "functions": [
+        {
+          "name": "dist",
+          "startLine": 13,
+          "endLine": 18,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "clamp01",
+          "startLine": 20,
+          "endLine": 22,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "finger_extension_ratio",
+          "startLine": 25,
+          "endLine": 31,
+          "params": [
+            "landmarks",
+            "tip",
+            "pip"
+          ]
+        },
+        {
+          "name": "finger_curl_ratio",
+          "startLine": 34,
+          "endLine": 40,
+          "params": [
+            "landmarks",
+            "tip",
+            "mcp"
+          ]
+        },
+        {
+          "name": "compute_gesture_strengths",
+          "startLine": 46,
+          "endLine": 143,
+          "params": [
+            "landmarks"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "GestureRecognizer",
+          "startLine": 167,
+          "endLine": 273,
+          "methods": [
+            "classify",
+            "current_strength",
+            "pinch_distance",
+            "palm_center",
+            "reset"
+          ],
+          "properties": [
+            "history",
+            "current",
+            "_current_strength",
+            "streak",
+            "streak_gesture",
+            "hold_start",
+            "hold_gesture"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "GestureRecognizer",
+          "line": 167,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "dist",
+          "callee": "Math.sqrt",
+          "lineNumber": 17
+        },
+        {
+          "caller": "finger_extension_ratio",
+          "callee": "dist",
+          "lineNumber": 27
+        },
+        {
+          "caller": "finger_extension_ratio",
+          "callee": "dist",
+          "lineNumber": 28
+        },
+        {
+          "caller": "finger_curl_ratio",
+          "callee": "dist",
+          "lineNumber": 36
+        },
+        {
+          "caller": "finger_curl_ratio",
+          "callee": "dist",
+          "lineNumber": 37
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "dist",
+          "lineNumber": 66
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "Math.max",
+          "lineNumber": 67
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "landmarks.map",
+          "lineNumber": 69
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "finger_extension_ratio",
+          "lineNumber": 76
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "finger_extension_ratio",
+          "lineNumber": 77
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "finger_extension_ratio",
+          "lineNumber": 78
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "finger_extension_ratio",
+          "lineNumber": 79
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "finger_curl_ratio",
+          "lineNumber": 82
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "finger_curl_ratio",
+          "lineNumber": 83
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "finger_curl_ratio",
+          "lineNumber": 84
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "finger_curl_ratio",
+          "lineNumber": 85
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "dist",
+          "lineNumber": 91
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "dist",
+          "lineNumber": 91
+        },
+        {
+          "caller": "ext_score",
+          "callee": "clamp01",
+          "lineNumber": 95
+        },
+        {
+          "caller": "curl_score",
+          "callee": "clamp01",
+          "lineNumber": 97
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "ext_score",
+          "lineNumber": 99
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "ext_score",
+          "lineNumber": 100
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "ext_score",
+          "lineNumber": 101
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "ext_score",
+          "lineNumber": 102
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "curl_score",
+          "lineNumber": 104
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "curl_score",
+          "lineNumber": 105
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "curl_score",
+          "lineNumber": 106
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "curl_score",
+          "lineNumber": 107
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "dist",
+          "lineNumber": 110
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "clamp01",
+          "lineNumber": 111
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "Math.min",
+          "lineNumber": 117
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "clamp01",
+          "lineNumber": 131
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "clamp01",
+          "lineNumber": 135
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "dist",
+          "lineNumber": 137
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "clamp01",
+          "lineNumber": 138
+        },
+        {
+          "caller": "compute_gesture_strengths",
+          "callee": "Math.min",
+          "lineNumber": 140
+        },
+        {
+          "caller": "classify",
+          "callee": "compute_gesture_strengths",
+          "lineNumber": 178
+        },
+        {
+          "caller": "classify",
+          "callee": "Object.keys",
+          "lineNumber": 197
+        },
+        {
+          "caller": "classify",
+          "callee": "performance.now",
+          "lineNumber": 218
+        },
+        {
+          "caller": "classify",
+          "callee": "performance.now",
+          "lineNumber": 221
+        },
+        {
+          "caller": "classify",
+          "callee": "this.history.push",
+          "lineNumber": 232
+        },
+        {
+          "caller": "classify",
+          "callee": "this.history.shift",
+          "lineNumber": 233
+        },
+        {
+          "caller": "pinch_distance",
+          "callee": "dist",
+          "lineNumber": 246
+        },
+        {
+          "caller": "palm_center",
+          "callee": "points.reduce",
+          "lineNumber": 259
+        },
+        {
+          "caller": "palm_center",
+          "callee": "points.reduce",
+          "lineNumber": 260
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/gesture/gesture-types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 169,
+      "nonEmptyLines": 149,
+      "functions": [
+        {
+          "name": "detect_voice_language",
+          "startLine": 142,
+          "endLine": 149,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "LANDMARK",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "HAND_CONNECTIONS",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "DEFAULT_GESTURE_CONFIG",
+          "line": 151,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "detect_voice_language",
+          "callee": "lang.startsWith",
+          "lineNumber": 146
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/gesture/GestureOverlay.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 509,
+      "nonEmptyLines": 448,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/gesture/GestureProvider.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 702,
+      "nonEmptyLines": 636,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/gesture/GestureSettingsPane.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 481,
+      "nonEmptyLines": 431,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/gesture/hand-tracker.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 282,
+      "nonEmptyLines": 244,
+      "classes": [
+        {
+          "name": "HandTracker",
+          "startLine": 14,
+          "endLine": 282,
+          "methods": [
+            "start",
+            "stop",
+            "video_element",
+            "is_running",
+            "create_landmarker",
+            "detect_loop"
+          ],
+          "properties": [
+            "video",
+            "stream",
+            "landmarker",
+            "raf_id",
+            "running",
+            "callback",
+            "on_error",
+            "recognizers",
+            "filter_banks",
+            "prev_gestures",
+            "prev_hand_count",
+            "error_count",
+            "MAX_ERRORS"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "HandTracker",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "start",
+          "callee": "navigator.mediaDevices.enumerateDevices",
+          "lineNumber": 56
+        },
+        {
+          "caller": "start",
+          "callee": "devices.some",
+          "lineNumber": 57
+        },
+        {
+          "caller": "start",
+          "callee": "e.message.startsWith",
+          "lineNumber": 61
+        },
+        {
+          "caller": "start",
+          "callee": "document.createElement",
+          "lineNumber": 69
+        },
+        {
+          "caller": "start",
+          "callee": "this.video.setAttribute",
+          "lineNumber": 70
+        },
+        {
+          "caller": "start",
+          "callee": "this.video.setAttribute",
+          "lineNumber": 71
+        },
+        {
+          "caller": "start",
+          "callee": "document.body.appendChild",
+          "lineNumber": 73
+        },
+        {
+          "caller": "start",
+          "callee": "navigator.mediaDevices.getUserMedia",
+          "lineNumber": 80
+        },
+        {
+          "caller": "start",
+          "callee": "Promise.race",
+          "lineNumber": 85
+        },
+        {
+          "caller": "start",
+          "callee": "setTimeout",
+          "lineNumber": 88
+        },
+        {
+          "caller": "start",
+          "callee": "reject",
+          "lineNumber": 88
+        },
+        {
+          "caller": "start",
+          "callee": "clearTimeout",
+          "lineNumber": 91
+        },
+        {
+          "caller": "start",
+          "callee": "gum.then(s => { if (this.stream !== s) s.getTracks().forEach(t => t.stop()) }).catch",
+          "lineNumber": 94
+        },
+        {
+          "caller": "start",
+          "callee": "gum.then",
+          "lineNumber": 94
+        },
+        {
+          "caller": "start",
+          "callee": "s.getTracks().forEach",
+          "lineNumber": 94
+        },
+        {
+          "caller": "start",
+          "callee": "s.getTracks",
+          "lineNumber": 94
+        },
+        {
+          "caller": "start",
+          "callee": "t.stop",
+          "lineNumber": 94
+        },
+        {
+          "caller": "start",
+          "callee": "e.message.startsWith",
+          "lineNumber": 98
+        },
+        {
+          "caller": "start",
+          "callee": "resolve",
+          "lineNumber": 108
+        },
+        {
+          "caller": "start",
+          "callee": "reject",
+          "lineNumber": 109
+        },
+        {
+          "caller": "start",
+          "callee": "setTimeout",
+          "lineNumber": 110
+        },
+        {
+          "caller": "start",
+          "callee": "reject",
+          "lineNumber": 110
+        },
+        {
+          "caller": "start",
+          "callee": "this.video.play",
+          "lineNumber": 112
+        },
+        {
+          "caller": "start",
+          "callee": "import",
+          "lineNumber": 115
+        },
+        {
+          "caller": "start",
+          "callee": "console.info",
+          "lineNumber": 125
+        },
+        {
+          "caller": "start",
+          "callee": "FilesetResolver.forVisionTasks",
+          "lineNumber": 126
+        },
+        {
+          "caller": "start",
+          "callee": "HandTracker.create_landmarker",
+          "lineNumber": 129
+        },
+        {
+          "caller": "start",
+          "callee": "this.detect_loop",
+          "lineNumber": 132
+        },
+        {
+          "caller": "stop",
+          "callee": "cancelAnimationFrame",
+          "lineNumber": 138
+        },
+        {
+          "caller": "stop",
+          "callee": "this.landmarker.close",
+          "lineNumber": 142
+        },
+        {
+          "caller": "stop",
+          "callee": "this.stream.getTracks().forEach",
+          "lineNumber": 146
+        },
+        {
+          "caller": "stop",
+          "callee": "this.stream.getTracks",
+          "lineNumber": 146
+        },
+        {
+          "caller": "stop",
+          "callee": "t.stop",
+          "lineNumber": 146
+        },
+        {
+          "caller": "stop",
+          "callee": "this.video.remove",
+          "lineNumber": 150
+        },
+        {
+          "caller": "stop",
+          "callee": "this.recognizers.forEach",
+          "lineNumber": 153
+        },
+        {
+          "caller": "stop",
+          "callee": "r.reset",
+          "lineNumber": 153
+        },
+        {
+          "caller": "stop",
+          "callee": "this.filter_banks.forEach",
+          "lineNumber": 154
+        },
+        {
+          "caller": "stop",
+          "callee": "b.reset",
+          "lineNumber": 154
+        },
+        {
+          "caller": "create_landmarker",
+          "callee": "HandLandmarker.createFromOptions",
+          "lineNumber": 185
+        },
+        {
+          "caller": "create_landmarker",
+          "callee": "console.info",
+          "lineNumber": 186
+        },
+        {
+          "caller": "create_landmarker",
+          "callee": "url.includes",
+          "lineNumber": 186
+        },
+        {
+          "caller": "create_landmarker",
+          "callee": "console.warn",
+          "lineNumber": 189
+        },
+        {
+          "caller": "create_landmarker",
+          "callee": "(err as Error)?.message?.slice",
+          "lineNumber": 189
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "performance.now",
+          "lineNumber": 203
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "this.landmarker.detectForVideo",
+          "lineNumber": 204
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "this.filter_banks[i].reset",
+          "lineNumber": 212
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "results.landmarks[i].map",
+          "lineNumber": 221
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "raw_landmarks.map",
+          "lineNumber": 228
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "bank.filter",
+          "lineNumber": 235
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "recognizer.classify",
+          "lineNumber": 238
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "recognizer.palm_center",
+          "lineNumber": 240
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "recognizer.pinch_distance",
+          "lineNumber": 241
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "hands.push",
+          "lineNumber": 252
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "this.callback",
+          "lineNumber": 266
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "console.error",
+          "lineNumber": 270
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "console.error",
+          "lineNumber": 273
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "this.on_error",
+          "lineNumber": 274
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "requestAnimationFrame",
+          "lineNumber": 280
+        },
+        {
+          "caller": "detect_loop",
+          "callee": "this.detect_loop",
+          "lineNumber": 280
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/gesture/local-whisper.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 215,
+      "nonEmptyLines": 178,
+      "functions": [
+        {
+          "name": "get_pipeline",
+          "startLine": 28,
+          "endLine": 77,
+          "params": [
+            "language",
+            "on_progress"
+          ]
+        },
+        {
+          "name": "preload_whisper_model",
+          "startLine": 80,
+          "endLine": 85,
+          "params": [
+            "language",
+            "on_progress"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "LocalWhisperEngine",
+          "startLine": 89,
+          "endLine": 215,
+          "methods": [
+            "constructor",
+            "is_supported",
+            "is_running",
+            "start",
+            "stop",
+            "set_language",
+            "transcribe_local"
+          ],
+          "properties": [
+            "callback",
+            "error_callback",
+            "running",
+            "language",
+            "ai_enabled",
+            "transcribing",
+            "pipeline",
+            "on_progress"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "preload_whisper_model",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "LocalWhisperEngine",
+          "line": 89,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_pipeline",
+          "callee": "on_progress",
+          "lineNumber": 43
+        },
+        {
+          "caller": "get_pipeline",
+          "callee": "(async () => {\r\n    const { pipeline, env } = await import(`@huggingface/transformers`)\r\n\r\n    // Prefer WebGPU, fall back to WASM\r\n    if (env.backends?.onnx?.wasm) {\r\n      env.backends.onnx.wasm.numThreads = 1\r\n    }\r\n\r\n    on_progress?.(`downloading`, 0)\r\n\r\n    const pipe = await pipeline(`automatic-speech-recognition`, model_id, {\r\n      dtype: `q8`,\r\n      device: `auto`,\r\n      progress_callback: (data: any) => {\r\n        if (data.status === `progress` && typeof data.progress === `number`) {\r\n          on_progress?.(`downloading`, data.progress)\r\n        }\r\n      },\r\n    })\r\n\r\n    on_progress?.(`ready`)\r\n    return pipe\r\n  })",
+          "lineNumber": 45
+        },
+        {
+          "caller": "get_pipeline",
+          "callee": "import",
+          "lineNumber": 46
+        },
+        {
+          "caller": "get_pipeline",
+          "callee": "on_progress",
+          "lineNumber": 53
+        },
+        {
+          "caller": "get_pipeline",
+          "callee": "pipeline",
+          "lineNumber": 55
+        },
+        {
+          "caller": "get_pipeline",
+          "callee": "on_progress",
+          "lineNumber": 60
+        },
+        {
+          "caller": "get_pipeline",
+          "callee": "on_progress",
+          "lineNumber": 65
+        },
+        {
+          "caller": "get_pipeline",
+          "callee": "on_progress",
+          "lineNumber": 74
+        },
+        {
+          "caller": "preload_whisper_model",
+          "callee": "get_pipeline",
+          "lineNumber": 84
+        },
+        {
+          "caller": "start",
+          "callee": "language.split",
+          "lineNumber": 122
+        },
+        {
+          "caller": "start",
+          "callee": "get_pipeline",
+          "lineNumber": 127
+        },
+        {
+          "caller": "start",
+          "callee": "import",
+          "lineNumber": 133
+        },
+        {
+          "caller": "start",
+          "callee": "create_audio_pipeline",
+          "lineNumber": 134
+        },
+        {
+          "caller": "start",
+          "callee": "console.warn",
+          "lineNumber": 137
+        },
+        {
+          "caller": "start",
+          "callee": "start_vad",
+          "lineNumber": 142
+        },
+        {
+          "caller": "start",
+          "callee": "this.transcribe_local",
+          "lineNumber": 144
+        },
+        {
+          "caller": "start",
+          "callee": "console.info",
+          "lineNumber": 150
+        },
+        {
+          "caller": "start",
+          "callee": "console.error",
+          "lineNumber": 152
+        },
+        {
+          "caller": "start",
+          "callee": "this.error_callback",
+          "lineNumber": 153
+        },
+        {
+          "caller": "stop",
+          "callee": "stop_vad",
+          "lineNumber": 160
+        },
+        {
+          "caller": "stop",
+          "callee": "this.pipeline.destroy",
+          "lineNumber": 162
+        },
+        {
+          "caller": "set_language",
+          "callee": "lang.split",
+          "lineNumber": 169
+        },
+        {
+          "caller": "set_language",
+          "callee": "console.info",
+          "lineNumber": 178
+        },
+        {
+          "caller": "transcribe_local",
+          "callee": "get_pipeline",
+          "lineNumber": 189
+        },
+        {
+          "caller": "transcribe_local",
+          "callee": "pipe",
+          "lineNumber": 191
+        },
+        {
+          "caller": "transcribe_local",
+          "callee": "(result as any)?.text?.trim",
+          "lineNumber": 196
+        },
+        {
+          "caller": "transcribe_local",
+          "callee": "match_command_with_score",
+          "lineNumber": 200
+        },
+        {
+          "caller": "transcribe_local",
+          "callee": "this.callback",
+          "lineNumber": 201
+        },
+        {
+          "caller": "transcribe_local",
+          "callee": "performance.now",
+          "lineNumber": 207
+        },
+        {
+          "caller": "transcribe_local",
+          "callee": "console.error",
+          "lineNumber": 210
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/gesture/one-euro-filter.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 124,
+      "nonEmptyLines": 103,
+      "classes": [
+        {
+          "name": "LowPassFilter",
+          "startLine": 14,
+          "endLine": 38,
+          "methods": [
+            "filter",
+            "reset",
+            "last"
+          ],
+          "properties": [
+            "y",
+            "s",
+            "initialized"
+          ]
+        },
+        {
+          "name": "OneEuroFilter",
+          "startLine": 42,
+          "endLine": 96,
+          "methods": [
+            "constructor",
+            "alpha",
+            "filter",
+            "reset"
+          ],
+          "properties": [
+            "min_cutoff",
+            "beta",
+            "d_cutoff",
+            "x_filter",
+            "dx_filter",
+            "last_t"
+          ]
+        },
+        {
+          "name": "LandmarkFilterBank",
+          "startLine": 103,
+          "endLine": 124,
+          "methods": [
+            "constructor",
+            "filter",
+            "reset"
+          ],
+          "properties": [
+            "filters"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "OneEuroFilter",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "LandmarkFilterBank",
+          "line": 103,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "filter",
+          "callee": "this.dx_filter.filter",
+          "lineNumber": 74
+        },
+        {
+          "caller": "filter",
+          "callee": "this.x_filter.filter",
+          "lineNumber": 75
+        },
+        {
+          "caller": "filter",
+          "callee": "Math.max",
+          "lineNumber": 78
+        },
+        {
+          "caller": "filter",
+          "callee": "this.dx_filter.filter",
+          "lineNumber": 83
+        },
+        {
+          "caller": "filter",
+          "callee": "OneEuroFilter.alpha",
+          "lineNumber": 83
+        },
+        {
+          "caller": "filter",
+          "callee": "Math.abs",
+          "lineNumber": 86
+        },
+        {
+          "caller": "filter",
+          "callee": "this.x_filter.filter",
+          "lineNumber": 88
+        },
+        {
+          "caller": "filter",
+          "callee": "OneEuroFilter.alpha",
+          "lineNumber": 88
+        },
+        {
+          "caller": "reset",
+          "callee": "this.x_filter.reset",
+          "lineNumber": 92
+        },
+        {
+          "caller": "reset",
+          "callee": "this.dx_filter.reset",
+          "lineNumber": 93
+        },
+        {
+          "caller": "constructor",
+          "callee": "Array.from",
+          "lineNumber": 107
+        },
+        {
+          "caller": "filter",
+          "callee": "landmarks.map",
+          "lineNumber": 114
+        },
+        {
+          "caller": "filter",
+          "callee": "this.filters[i * 3].filter",
+          "lineNumber": 115
+        },
+        {
+          "caller": "filter",
+          "callee": "this.filters[i * 3 + 1].filter",
+          "lineNumber": 116
+        },
+        {
+          "caller": "filter",
+          "callee": "this.filters[i * 3 + 2].filter",
+          "lineNumber": 117
+        },
+        {
+          "caller": "reset",
+          "callee": "f.reset",
+          "lineNumber": 122
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 3
+      }
+    }
+  ]
+}

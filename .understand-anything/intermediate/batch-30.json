@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "config:extensions/rust/Cargo.toml",
+      "type": "config",
+      "name": "Cargo.toml",
+      "filePath": "extensions/rust/Cargo.toml",
+      "summary": "Cargo.toml 控制项目中与 toml 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "toml",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "toml 文件；结构提取显示 95 行有效内容。"
+    },
+    {
+      "id": "config:extensions/rust/pyproject.toml",
+      "type": "config",
+      "name": "pyproject.toml",
+      "filePath": "extensions/rust/pyproject.toml",
+      "summary": "pyproject.toml 控制项目中与 toml 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "toml",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "toml 文件；结构提取显示 37 行有效内容。"
+    },
+    {
+      "id": "document:extensions/rust/readme.md",
+      "type": "document",
+      "name": "readme.md",
+      "filePath": "extensions/rust/readme.md",
+      "summary": "readme.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "markdown 文件；结构提取显示 38 行有效内容。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,422 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/modules/core/bonding.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 103,
+      "nonEmptyLines": 70,
+      "sections": [
+        {
+          "heading": "Bonding",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Bond Detection Strategies",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Key Functions",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Bond Calculation",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "Bond Geometry",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Coordination Analysis",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "Neighbor Lists",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "Bond Editing",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "Creating Bonds",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "Managing Bonds",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "Coordination Visualization",
+          "level": 2,
+          "line": 82
+        },
+        {
+          "heading": "Performance",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "Bond Data Structure",
+          "level": 2,
+          "line": 92
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "docs/modules/core/file-io.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 114,
+      "nonEmptyLines": 87,
+      "sections": [
+        {
+          "heading": "File I/O",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Supported Import Formats",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Compressed Files",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "Supported Export Formats",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "Key Functions",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "Parsing",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Exporting",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "File Handling",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "Loading Methods",
+          "level": 2,
+          "line": 83
+        },
+        {
+          "heading": "Data Format",
+          "level": 2,
+          "line": 94
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "docs/modules/core/lattice-cell.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 96,
+      "nonEmptyLines": 66,
+      "sections": [
+        {
+          "heading": "Lattice & Cell Operations",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Lattice Representation",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Key Functions",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Parameter Conversion",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Coordinate Transformations",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Cell Manipulation",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "Vacuum & Bounding Box",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "Periodic Boundary Conditions",
+          "level": 3,
+          "line": 69
+        },
+        {
+          "heading": "Interactive Lattice Editing",
+          "level": 2,
+          "line": 82
+        },
+        {
+          "heading": "Conventions",
+          "level": 2,
+          "line": 91
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "docs/modules/core/settings.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 131,
+      "nonEmptyLines": 98,
+      "sections": [
+        {
+          "heading": "Settings",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Settings by Category",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Atom Display",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "Bond Display",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Labels",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Camera",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Lattice / Cell",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "Lighting",
+          "level": 3,
+          "line": 60
+        },
+        {
+          "heading": "Controls",
+          "level": 3,
+          "line": 68
+        },
+        {
+          "heading": "Trajectory",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "Symmetry",
+          "level": 3,
+          "line": 84
+        },
+        {
+          "heading": "Atom Manipulation",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "Platform Contexts",
+          "level": 2,
+          "line": 98
+        },
+        {
+          "heading": "Settings Schema",
+          "level": 2,
+          "line": 109
+        },
+        {
+          "heading": "Persistence",
+          "level": 2,
+          "line": 126
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    },
+    {
+      "path": "docs/modules/core/structure-viewer.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 160,
+      "nonEmptyLines": 126,
+      "sections": [
+        {
+          "heading": "Structure Viewer",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Core",
+          "level": 3,
+          "line": 9
+        },
+        {
+          "heading": "Geometry Primitives",
+          "level": 3,
+          "line": 19
+        },
+        {
+          "heading": "Panes & Controls",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "Modals",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Rendering Architecture",
+          "level": 2,
+          "line": 51
+        },
+        {
+          "heading": "Camera & Controls",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "Atom Interaction",
+          "level": 2,
+          "line": 69
+        },
+        {
+          "heading": "Selection",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "Manipulation",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "Labels",
+          "level": 3,
+          "line": 84
+        },
+        {
+          "heading": "Charge Labels",
+          "level": 3,
+          "line": 90
+        },
+        {
+          "heading": "Display Modes",
+          "level": 2,
+          "line": 111
+        },
+        {
+          "heading": "Atom Coloring",
+          "level": 3,
+          "line": 113
+        },
+        {
+          "heading": "Lattice Display",
+          "level": 3,
+          "line": 120
+        },
+        {
+          "heading": "Key Functions",
+          "level": 2,
+          "line": 126
+        },
+        {
+          "heading": "Settings",
+          "level": 2,
+          "line": 145
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    }
+  ]
+}

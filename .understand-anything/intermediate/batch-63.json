@@ -1,0 +1,575 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/catgo/converters/quacc/recipe_map.py",
+      "type": "file",
+      "name": "recipe_map.py",
+      "filePath": "server/catgo/converters/quacc/recipe_map.py",
+      "summary": "recipe_map.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/converters/quacc/recipe_map.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/converters/quacc/templates.py",
+      "type": "file",
+      "name": "templates.py",
+      "filePath": "server/catgo/converters/quacc/templates.py",
+      "summary": "templates.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/converters/quacc/templates.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/mcp_tools/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/helpers.py",
+      "type": "file",
+      "name": "helpers.py",
+      "filePath": "server/catgo/mcp_tools/helpers.py",
+      "summary": "helpers.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/helpers.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/plugin_tools.py",
+      "type": "file",
+      "name": "plugin_tools.py",
+      "filePath": "server/catgo/mcp_tools/plugin_tools.py",
+      "summary": "plugin_tools.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/plugin_tools.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/server_claude_code.py",
+      "type": "file",
+      "name": "server_claude_code.py",
+      "filePath": "server/catgo/mcp_tools/server_claude_code.py",
+      "summary": "server_claude_code.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/server_claude_code.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/server.py",
+      "type": "file",
+      "name": "server.py",
+      "filePath": "server/catgo/mcp_tools/server.py",
+      "summary": "server.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/server.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/structure_tools.py",
+      "type": "file",
+      "name": "structure_tools.py",
+      "filePath": "server/catgo/mcp_tools/structure_tools.py",
+      "summary": "structure_tools.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/structure_tools.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tool_types.py",
+      "type": "file",
+      "name": "tool_types.py",
+      "filePath": "server/catgo/mcp_tools/tool_types.py",
+      "summary": "tool_types.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tool_types.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/mcp_tools/tools/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/adsorption.py",
+      "type": "file",
+      "name": "adsorption.py",
+      "filePath": "server/catgo/mcp_tools/tools/adsorption.py",
+      "summary": "adsorption.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/adsorption.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/analysis.py",
+      "type": "file",
+      "name": "analysis.py",
+      "filePath": "server/catgo/mcp_tools/tools/analysis.py",
+      "summary": "analysis.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/analysis.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/catalysis.py",
+      "type": "file",
+      "name": "catalysis.py",
+      "filePath": "server/catgo/mcp_tools/tools/catalysis.py",
+      "summary": "catalysis.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/catalysis.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/dft_input.py",
+      "type": "file",
+      "name": "dft_input.py",
+      "filePath": "server/catgo/mcp_tools/tools/dft_input.py",
+      "summary": "dft_input.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/dft_input.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/misc.py",
+      "type": "file",
+      "name": "misc.py",
+      "filePath": "server/catgo/mcp_tools/tools/misc.py",
+      "summary": "misc.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/misc.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/nanotube_moire.py",
+      "type": "file",
+      "name": "nanotube_moire.py",
+      "filePath": "server/catgo/mcp_tools/tools/nanotube_moire.py",
+      "summary": "nanotube_moire.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/nanotube_moire.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/optimization.py",
+      "type": "file",
+      "name": "optimization.py",
+      "filePath": "server/catgo/mcp_tools/tools/optimization.py",
+      "summary": "optimization.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/optimization.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/structure.py",
+      "type": "file",
+      "name": "structure.py",
+      "filePath": "server/catgo/mcp_tools/tools/structure.py",
+      "summary": "structure.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/structure.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/tools/view.py",
+      "type": "file",
+      "name": "view.py",
+      "filePath": "server/catgo/mcp_tools/tools/view.py",
+      "summary": "view.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/tools/view.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/mcp_tools/workflow_tools.py",
+      "type": "file",
+      "name": "workflow_tools.py",
+      "filePath": "server/catgo/mcp_tools/workflow_tools.py",
+      "summary": "workflow_tools.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/mcp_tools/workflow_tools.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/models/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/adsorbate.py",
+      "type": "file",
+      "name": "adsorbate.py",
+      "filePath": "server/catgo/models/adsorbate.py",
+      "summary": "adsorbate.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/adsorbate.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/adsorption.py",
+      "type": "file",
+      "name": "adsorption.py",
+      "filePath": "server/catgo/models/adsorption.py",
+      "summary": "adsorption.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/adsorption.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/bands.py",
+      "type": "file",
+      "name": "bands.py",
+      "filePath": "server/catgo/models/bands.py",
+      "summary": "bands.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/bands.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/cohp.py",
+      "type": "file",
+      "name": "cohp.py",
+      "filePath": "server/catgo/models/cohp.py",
+      "summary": "cohp.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/cohp.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/catgo/mcp_tools/__init__.py",
+      "target": "file:server/catgo/mcp_tools/server.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/plugin_tools.py",
+      "target": "file:server/catgo/mcp_tools/helpers.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/server_claude_code.py",
+      "target": "file:server/catgo/mcp_tools/helpers.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/server.py",
+      "target": "file:server/catgo/mcp_tools/helpers.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/server.py",
+      "target": "file:server/catgo/mcp_tools/plugin_tools.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/server.py",
+      "target": "file:server/catgo/mcp_tools/structure_tools.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/server.py",
+      "target": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/server.py",
+      "target": "file:server/catgo/mcp_tools/workflow_tools.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/server.py",
+      "target": "file:server/plugin_loader.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/structure_tools.py",
+      "target": "file:server/catgo/mcp_tools/helpers.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "target": "file:server/catgo/mcp_tools/tools/analysis.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "target": "file:server/catgo/mcp_tools/tools/catalysis.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "target": "file:server/catgo/mcp_tools/tools/dft_input.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "target": "file:server/catgo/mcp_tools/tools/misc.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "target": "file:server/catgo/mcp_tools/tools/nanotube_moire.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "target": "file:server/catgo/mcp_tools/tools/optimization.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "target": "file:server/catgo/mcp_tools/tools/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/tools/__init__.py",
+      "target": "file:server/catgo/mcp_tools/tools/view.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/tools/structure.py",
+      "target": "file:server/catgo/tool_schema/loader.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/mcp_tools/workflow_tools.py",
+      "target": "file:server/catgo/mcp_tools/helpers.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/__init__.py",
+      "target": "file:server/catgo/models/heterostructure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/__init__.py",
+      "target": "file:server/catgo/models/hpc.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/__init__.py",
+      "target": "file:server/catgo/models/moire.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/__init__.py",
+      "target": "file:server/catgo/models/nanotube.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/__init__.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/__init__.py",
+      "target": "file:server/catgo/models/water_layer.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/adsorbate.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/adsorption.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

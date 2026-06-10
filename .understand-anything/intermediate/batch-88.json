@@ -1,0 +1,2588 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/Icon.svelte",
+      "type": "file",
+      "name": "Icon.svelte",
+      "filePath": "src/lib/Icon.svelte",
+      "summary": "实现Svelte UI相关的 Icon.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/icons.ts",
+      "type": "file",
+      "name": "icons.ts",
+      "filePath": "src/lib/icons.ts",
+      "summary": "实现项目相关的 icons.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 3 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/index.ts:escape_html",
+      "type": "function",
+      "name": "escape_html",
+      "filePath": "src/lib/index.ts",
+      "lineRange": [
+        104,
+        111
+      ],
+      "summary": "封装项目模块中的 escape_html 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/index.ts:is_binary",
+      "type": "function",
+      "name": "is_binary",
+      "filePath": "src/lib/index.ts",
+      "lineRange": [
+        114,
+        122
+      ],
+      "summary": "封装项目模块中的 is_binary 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/index.ts:toggle_fullscreen",
+      "type": "function",
+      "name": "toggle_fullscreen",
+      "filePath": "src/lib/index.ts",
+      "lineRange": [
+        124,
+        138
+      ],
+      "summary": "封装项目模块中的 toggle_fullscreen 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/InfoCard.svelte",
+      "type": "file",
+      "name": "InfoCard.svelte",
+      "filePath": "src/lib/InfoCard.svelte",
+      "summary": "实现Svelte UI相关的 InfoCard.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/io/decompress.ts",
+      "type": "file",
+      "name": "decompress.ts",
+      "filePath": "src/lib/io/decompress.ts",
+      "summary": "实现项目相关的 decompress.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 3 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/io/decompress.ts:detect_compression_format",
+      "type": "function",
+      "name": "detect_compression_format",
+      "filePath": "src/lib/io/decompress.ts",
+      "lineRange": [
+        10,
+        18
+      ],
+      "summary": "封装项目模块中的 detect_compression_format 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/decompress.ts:decompress_data",
+      "type": "function",
+      "name": "decompress_data",
+      "filePath": "src/lib/io/decompress.ts",
+      "lineRange": [
+        20,
+        46
+      ],
+      "summary": "封装项目模块中的 decompress_data 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/decompress.ts:decompress_file",
+      "type": "function",
+      "name": "decompress_file",
+      "filePath": "src/lib/io/decompress.ts",
+      "lineRange": [
+        48,
+        79
+      ],
+      "summary": "封装项目模块中的 decompress_file 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/io/export.ts",
+      "type": "file",
+      "name": "export.ts",
+      "filePath": "src/lib/io/export.ts",
+      "summary": "实现项目相关的 export.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 16 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "export",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:render_and_read_pixels",
+      "type": "function",
+      "name": "render_and_read_pixels",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        18,
+        90
+      ],
+      "summary": "封装项目模块中的 render_and_read_pixels 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:pixels_to_image_blob",
+      "type": "function",
+      "name": "pixels_to_image_blob",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        93,
+        116
+      ],
+      "summary": "封装项目模块中的 pixels_to_image_blob 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:encode_tiff",
+      "type": "function",
+      "name": "encode_tiff",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        119,
+        190
+      ],
+      "summary": "封装项目模块中的 encode_tiff 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:encode_svg",
+      "type": "function",
+      "name": "encode_svg",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        196,
+        223
+      ],
+      "summary": "封装项目模块中的 encode_svg 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:encode_pdf",
+      "type": "function",
+      "name": "encode_pdf",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        228,
+        320
+      ],
+      "summary": "封装项目模块中的 encode_pdf 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:capture_canvas_as_png_blob",
+      "type": "function",
+      "name": "capture_canvas_as_png_blob",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        333,
+        371
+      ],
+      "summary": "封装项目模块中的 capture_canvas_as_png_blob 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:export_canvas_as_image",
+      "type": "function",
+      "name": "export_canvas_as_image",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        378,
+        470
+      ],
+      "summary": "封装项目模块中的 export_canvas_as_image 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:export_canvas_as_png",
+      "type": "function",
+      "name": "export_canvas_as_png",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        473,
+        482
+      ],
+      "summary": "封装项目模块中的 export_canvas_as_png 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:export_svg_as_svg",
+      "type": "function",
+      "name": "export_svg_as_svg",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        495,
+        530
+      ],
+      "summary": "封装项目模块中的 export_svg_as_svg 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:export_svg_as_png",
+      "type": "function",
+      "name": "export_svg_as_png",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        533,
+        611
+      ],
+      "summary": "封装项目模块中的 export_svg_as_png 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:get_ffmpeg_conversion_command",
+      "type": "function",
+      "name": "get_ffmpeg_conversion_command",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        614,
+        617
+      ],
+      "summary": "封装项目模块中的 get_ffmpeg_conversion_command 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:export_trajectory_video",
+      "type": "function",
+      "name": "export_trajectory_video",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        621,
+        765
+      ],
+      "summary": "封装项目模块中的 export_trajectory_video 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:parse_frame_spec",
+      "type": "function",
+      "name": "parse_frame_spec",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        770,
+        786
+      ],
+      "summary": "封装项目模块中的 parse_frame_spec 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/export.ts:export_trajectory_png_sequence",
+      "type": "function",
+      "name": "export_trajectory_png_sequence",
+      "filePath": "src/lib/io/export.ts",
+      "lineRange": [
+        788,
+        903
+      ],
+      "summary": "封装项目模块中的 export_trajectory_png_sequence 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/io/fetch.ts",
+      "type": "file",
+      "name": "fetch.ts",
+      "filePath": "src/lib/io/fetch.ts",
+      "summary": "实现项目相关的 fetch.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 5 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/io/fetch.ts:fetch_zipped",
+      "type": "function",
+      "name": "fetch_zipped",
+      "filePath": "src/lib/io/fetch.ts",
+      "lineRange": [
+        3,
+        16
+      ],
+      "summary": "封装项目模块中的 fetch_zipped 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/fetch.ts:save_with_dialog",
+      "type": "function",
+      "name": "save_with_dialog",
+      "filePath": "src/lib/io/fetch.ts",
+      "lineRange": [
+        35,
+        47
+      ],
+      "summary": "封装项目模块中的 save_with_dialog 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/fetch.ts:fallback_download",
+      "type": "function",
+      "name": "fallback_download",
+      "filePath": "src/lib/io/fetch.ts",
+      "lineRange": [
+        50,
+        60
+      ],
+      "summary": "封装项目模块中的 fallback_download 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/fetch.ts:default_download",
+      "type": "function",
+      "name": "default_download",
+      "filePath": "src/lib/io/fetch.ts",
+      "lineRange": [
+        63,
+        76
+      ],
+      "summary": "封装项目模块中的 default_download 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/fetch.ts:download",
+      "type": "function",
+      "name": "download",
+      "filePath": "src/lib/io/fetch.ts",
+      "lineRange": [
+        79,
+        99
+      ],
+      "summary": "封装项目模块中的 download 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/io/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/io/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/io/index.ts:handle_url_drop",
+      "type": "function",
+      "name": "handle_url_drop",
+      "filePath": "src/lib/io/index.ts",
+      "lineRange": [
+        9,
+        21
+      ],
+      "summary": "封装项目模块中的 handle_url_drop 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/index.ts:load_from_url",
+      "type": "function",
+      "name": "load_from_url",
+      "filePath": "src/lib/io/index.ts",
+      "lineRange": [
+        23,
+        130
+      ],
+      "summary": "封装项目模块中的 load_from_url 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/io/tauri.ts",
+      "type": "file",
+      "name": "tauri.ts",
+      "filePath": "src/lib/io/tauri.ts",
+      "summary": "实现项目相关的 tauri.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 11 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:check_tauri",
+      "type": "function",
+      "name": "check_tauri",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        7,
+        12
+      ],
+      "summary": "封装项目模块中的 check_tauri 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:init_tauri",
+      "type": "function",
+      "name": "init_tauri",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        15,
+        90
+      ],
+      "summary": "封装项目模块中的 init_tauri 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:read_one",
+      "type": "function",
+      "name": "read_one",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        107,
+        117
+      ],
+      "summary": "封装项目模块中的 read_one 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:open_file",
+      "type": "function",
+      "name": "open_file",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        120,
+        135
+      ],
+      "summary": "封装项目模块中的 open_file 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:open_files",
+      "type": "function",
+      "name": "open_files",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        138,
+        159
+      ],
+      "summary": "封装项目模块中的 open_files 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:walk_dir",
+      "type": "function",
+      "name": "walk_dir",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        162,
+        189
+      ],
+      "summary": "封装项目模块中的 walk_dir 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:read_paths",
+      "type": "function",
+      "name": "read_paths",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        191,
+        201
+      ],
+      "summary": "封装项目模块中的 read_paths 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:open_folder",
+      "type": "function",
+      "name": "open_folder",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        208,
+        228
+      ],
+      "summary": "封装项目模块中的 open_folder 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:pick_structure_paths",
+      "type": "function",
+      "name": "pick_structure_paths",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        235,
+        246
+      ],
+      "summary": "封装项目模块中的 pick_structure_paths 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:pick_folder_paths",
+      "type": "function",
+      "name": "pick_folder_paths",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        252,
+        269
+      ],
+      "summary": "封装项目模块中的 pick_folder_paths 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/tauri.ts:read_dropped_paths",
+      "type": "function",
+      "name": "read_dropped_paths",
+      "filePath": "src/lib/io/tauri.ts",
+      "lineRange": [
+        275,
+        301
+      ],
+      "summary": "封装项目模块中的 read_dropped_paths 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/io/vasp-input.ts",
+      "type": "file",
+      "name": "vasp-input.ts",
+      "filePath": "src/lib/io/vasp-input.ts",
+      "summary": "实现计算化学相关的 vasp-input.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 18 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "计算化学"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/io/vasp-input.ts:py_float",
+      "type": "function",
+      "name": "py_float",
+      "filePath": "src/lib/io/vasp-input.ts",
+      "lineRange": [
+        53,
+        63
+      ],
+      "summary": "封装计算化学模块中的 py_float 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/vasp-input.ts:format_incar",
+      "type": "function",
+      "name": "format_incar",
+      "filePath": "src/lib/io/vasp-input.ts",
+      "lineRange": [
+        87,
+        107
+      ],
+      "summary": "封装计算化学模块中的 format_incar 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/vasp-input.ts:build_incar_params",
+      "type": "function",
+      "name": "build_incar_params",
+      "filePath": "src/lib/io/vasp-input.ts",
+      "lineRange": [
+        113,
+        147
+      ],
+      "summary": "封装计算化学模块中的 build_incar_params 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/vasp-input.ts:generate_incar_str",
+      "type": "function",
+      "name": "generate_incar_str",
+      "filePath": "src/lib/io/vasp-input.ts",
+      "lineRange": [
+        149,
+        151
+      ],
+      "summary": "封装计算化学模块中的 generate_incar_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/vasp-input.ts:is_hexagonal",
+      "type": "function",
+      "name": "is_hexagonal",
+      "filePath": "src/lib/io/vasp-input.ts",
+      "lineRange": [
+        179,
+        185
+      ],
+      "summary": "封装计算化学模块中的 is_hexagonal 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/vasp-input.ts:automatic_density_by_vol",
+      "type": "function",
+      "name": "automatic_density_by_vol",
+      "filePath": "src/lib/io/vasp-input.ts",
+      "lineRange": [
+        194,
+        216
+      ],
+      "summary": "封装计算化学模块中的 automatic_density_by_vol 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/vasp-input.ts:generate_kpoints_str",
+      "type": "function",
+      "name": "generate_kpoints_str",
+      "filePath": "src/lib/io/vasp-input.ts",
+      "lineRange": [
+        253,
+        285
+      ],
+      "summary": "封装计算化学模块中的 generate_kpoints_str 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/io/vasp-input.ts:face_centered_from_symmetry",
+      "type": "function",
+      "name": "face_centered_from_symmetry",
+      "filePath": "src/lib/io/vasp-input.ts",
+      "lineRange": [
+        290,
+        295
+      ],
+      "summary": "封装计算化学模块中的 face_centered_from_symmetry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/labels.ts",
+      "type": "file",
+      "name": "labels.ts",
+      "filePath": "src/lib/labels.ts",
+      "summary": "实现项目相关的 labels.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 6 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/labels.ts:name_for_symbol",
+      "type": "function",
+      "name": "name_for_symbol",
+      "filePath": "src/lib/labels.ts",
+      "lineRange": [
+        14,
+        23
+      ],
+      "summary": "封装项目模块中的 name_for_symbol 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/labels.ts:format_value",
+      "type": "function",
+      "name": "format_value",
+      "filePath": "src/lib/labels.ts",
+      "lineRange": [
+        36,
+        65
+      ],
+      "summary": "封装项目模块中的 format_value 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/labels.ts:format_num",
+      "type": "function",
+      "name": "format_num",
+      "filePath": "src/lib/labels.ts",
+      "lineRange": [
+        133,
+        140
+      ],
+      "summary": "封装项目模块中的 format_num 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/labels.ts:format_fractional",
+      "type": "function",
+      "name": "format_fractional",
+      "filePath": "src/lib/labels.ts",
+      "lineRange": [
+        143,
+        155
+      ],
+      "summary": "封装项目模块中的 format_fractional 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/labels.ts:parse_si_float",
+      "type": "function",
+      "name": "parse_si_float",
+      "filePath": "src/lib/labels.ts",
+      "lineRange": [
+        157,
+        185
+      ],
+      "summary": "封装项目模块中的 parse_si_float 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/labels.ts:superscript_digits",
+      "type": "function",
+      "name": "superscript_digits",
+      "filePath": "src/lib/labels.ts",
+      "lineRange": [
+        245,
+        251
+      ],
+      "summary": "封装项目模块中的 superscript_digits 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/math.ts",
+      "type": "file",
+      "name": "math.ts",
+      "filePath": "src/lib/math.ts",
+      "summary": "实现项目相关的 math.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 23 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/math.ts:to_degrees",
+      "type": "function",
+      "name": "to_degrees",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        25,
+        25
+      ],
+      "summary": "封装项目模块中的 to_degrees 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:to_radians",
+      "type": "function",
+      "name": "to_radians",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        26,
+        26
+      ],
+      "summary": "封装项目模块中的 to_radians 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:calc_lattice_params",
+      "type": "function",
+      "name": "calc_lattice_params",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        29,
+        57
+      ],
+      "summary": "封装项目模块中的 calc_lattice_params 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:scale",
+      "type": "function",
+      "name": "scale",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        59,
+        61
+      ],
+      "summary": "封装项目模块中的 scale 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:euclidean_dist",
+      "type": "function",
+      "name": "euclidean_dist",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        63,
+        68
+      ],
+      "summary": "封装项目模块中的 euclidean_dist 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:norm",
+      "type": "function",
+      "name": "norm",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        71,
+        71
+      ],
+      "summary": "封装项目模块中的 norm 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:pbc_dist",
+      "type": "function",
+      "name": "pbc_dist",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        74,
+        96
+      ],
+      "summary": "封装项目模块中的 pbc_dist 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:matrix_inverse_3x3",
+      "type": "function",
+      "name": "matrix_inverse_3x3",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        98,
+        126
+      ],
+      "summary": "封装项目模块中的 matrix_inverse_3x3 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:mat3x3_vec3_multiply",
+      "type": "function",
+      "name": "mat3x3_vec3_multiply",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        129,
+        136
+      ],
+      "summary": "封装项目模块中的 mat3x3_vec3_multiply 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:add",
+      "type": "function",
+      "name": "add",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        138,
+        159
+      ],
+      "summary": "封装项目模块中的 add 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:subtract",
+      "type": "function",
+      "name": "subtract",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        161,
+        166
+      ],
+      "summary": "封装项目模块中的 subtract 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:dot",
+      "type": "function",
+      "name": "dot",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        168,
+        222
+      ],
+      "summary": "封装项目模块中的 dot 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/math.ts:to_voigt",
+      "type": "function",
+      "name": "to_voigt",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        228,
+        236
+      ],
+      "summary": "封装项目模块中的 to_voigt 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:from_voigt",
+      "type": "function",
+      "name": "from_voigt",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        239,
+        246
+      ],
+      "summary": "封装项目模块中的 from_voigt 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:vec9_to_mat3x3",
+      "type": "function",
+      "name": "vec9_to_mat3x3",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        249,
+        255
+      ],
+      "summary": "封装项目模块中的 vec9_to_mat3x3 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:tensor_to_flat_array",
+      "type": "function",
+      "name": "tensor_to_flat_array",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        258,
+        267
+      ],
+      "summary": "封装项目模块中的 tensor_to_flat_array 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:transpose_3x3_matrix",
+      "type": "function",
+      "name": "transpose_3x3_matrix",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        270,
+        274
+      ],
+      "summary": "封装项目模块中的 transpose_3x3_matrix 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:cell_to_lattice_matrix",
+      "type": "function",
+      "name": "cell_to_lattice_matrix",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        277,
+        313
+      ],
+      "summary": "封装项目模块中的 cell_to_lattice_matrix 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:det_3x3",
+      "type": "function",
+      "name": "det_3x3",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        315,
+        324
+      ],
+      "summary": "封装项目模块中的 det_3x3 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:get_coefficient_of_variation",
+      "type": "function",
+      "name": "get_coefficient_of_variation",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        326,
+        333
+      ],
+      "summary": "封装项目模块中的 get_coefficient_of_variation 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:det_4x4",
+      "type": "function",
+      "name": "det_4x4",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        336,
+        349
+      ],
+      "summary": "封装项目模块中的 det_4x4 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:cross_3d",
+      "type": "function",
+      "name": "cross_3d",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        352,
+        354
+      ],
+      "summary": "封装项目模块中的 cross_3d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/math.ts:is_square_matrix",
+      "type": "function",
+      "name": "is_square_matrix",
+      "filePath": "src/lib/math.ts",
+      "lineRange": [
+        357,
+        361
+      ],
+      "summary": "封装项目模块中的 is_square_matrix 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/md/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/md/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdAnalysisPane.svelte",
+      "type": "file",
+      "name": "MdAnalysisPane.svelte",
+      "filePath": "src/lib/md/MdAnalysisPane.svelte",
+      "summary": "实现Svelte UI相关的 MdAnalysisPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdCavitationPanel.svelte",
+      "type": "file",
+      "name": "MdCavitationPanel.svelte",
+      "filePath": "src/lib/md/MdCavitationPanel.svelte",
+      "summary": "实现Svelte UI相关的 MdCavitationPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdClusteringPanel.svelte",
+      "type": "file",
+      "name": "MdClusteringPanel.svelte",
+      "filePath": "src/lib/md/MdClusteringPanel.svelte",
+      "summary": "实现Svelte UI相关的 MdClusteringPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdDensityPanel.svelte",
+      "type": "file",
+      "name": "MdDensityPanel.svelte",
+      "filePath": "src/lib/md/MdDensityPanel.svelte",
+      "summary": "实现Svelte UI相关的 MdDensityPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdDynamicsPanel.svelte",
+      "type": "file",
+      "name": "MdDynamicsPanel.svelte",
+      "filePath": "src/lib/md/MdDynamicsPanel.svelte",
+      "summary": "实现Svelte UI相关的 MdDynamicsPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdHbondsPanel.svelte",
+      "type": "file",
+      "name": "MdHbondsPanel.svelte",
+      "filePath": "src/lib/md/MdHbondsPanel.svelte",
+      "summary": "实现Svelte UI相关的 MdHbondsPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdMsdPanel.svelte",
+      "type": "file",
+      "name": "MdMsdPanel.svelte",
+      "filePath": "src/lib/md/MdMsdPanel.svelte",
+      "summary": "实现Svelte UI相关的 MdMsdPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdOrientationPanel.svelte",
+      "type": "file",
+      "name": "MdOrientationPanel.svelte",
+      "filePath": "src/lib/md/MdOrientationPanel.svelte",
+      "summary": "实现Svelte UI相关的 MdOrientationPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdPlot.svelte",
+      "type": "file",
+      "name": "MdPlot.svelte",
+      "filePath": "src/lib/md/MdPlot.svelte",
+      "summary": "实现Svelte UI相关的 MdPlot.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/MdRdfPanel.svelte",
+      "type": "file",
+      "name": "MdRdfPanel.svelte",
+      "filePath": "src/lib/md/MdRdfPanel.svelte",
+      "summary": "实现Svelte UI相关的 MdRdfPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/plotly.d.ts",
+      "type": "file",
+      "name": "plotly.d.ts",
+      "filePath": "src/lib/md/plotly.d.ts",
+      "summary": "实现项目相关的 plotly.d.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/md/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "src/lib/md/types.ts",
+      "summary": "实现项目相关的 types.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/index.ts",
+      "target": "function:src/lib/index.ts:escape_html",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/index.ts",
+      "target": "function:src/lib/index.ts:is_binary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/index.ts",
+      "target": "function:src/lib/index.ts:toggle_fullscreen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/index.ts",
+      "target": "function:src/lib/index.ts:escape_html",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/index.ts",
+      "target": "function:src/lib/index.ts:is_binary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/index.ts",
+      "target": "function:src/lib/index.ts:toggle_fullscreen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/decompress.ts",
+      "target": "function:src/lib/io/decompress.ts:detect_compression_format",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/decompress.ts",
+      "target": "function:src/lib/io/decompress.ts:decompress_data",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/decompress.ts",
+      "target": "function:src/lib/io/decompress.ts:decompress_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/decompress.ts",
+      "target": "function:src/lib/io/decompress.ts:detect_compression_format",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/decompress.ts",
+      "target": "function:src/lib/io/decompress.ts:decompress_data",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/decompress.ts",
+      "target": "function:src/lib/io/decompress.ts:decompress_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:render_and_read_pixels",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:pixels_to_image_blob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:encode_tiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:encode_svg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:encode_pdf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:capture_canvas_as_png_blob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_canvas_as_image",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_canvas_as_png",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_svg_as_svg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_svg_as_png",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:get_ffmpeg_conversion_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_trajectory_video",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:parse_frame_spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_trajectory_png_sequence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:capture_canvas_as_png_blob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_canvas_as_image",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_canvas_as_png",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_svg_as_svg",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_svg_as_png",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:get_ffmpeg_conversion_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_trajectory_video",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:parse_frame_spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/export.ts",
+      "target": "function:src/lib/io/export.ts:export_trajectory_png_sequence",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/fetch.ts",
+      "target": "function:src/lib/io/fetch.ts:fetch_zipped",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/fetch.ts",
+      "target": "function:src/lib/io/fetch.ts:save_with_dialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/fetch.ts",
+      "target": "function:src/lib/io/fetch.ts:fallback_download",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/fetch.ts",
+      "target": "function:src/lib/io/fetch.ts:default_download",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/fetch.ts",
+      "target": "function:src/lib/io/fetch.ts:download",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/fetch.ts",
+      "target": "function:src/lib/io/fetch.ts:fetch_zipped",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/fetch.ts",
+      "target": "function:src/lib/io/fetch.ts:download",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/index.ts",
+      "target": "function:src/lib/io/index.ts:handle_url_drop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/index.ts",
+      "target": "function:src/lib/io/index.ts:load_from_url",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/index.ts",
+      "target": "function:src/lib/io/index.ts:handle_url_drop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/index.ts",
+      "target": "function:src/lib/io/index.ts:load_from_url",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:check_tauri",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:init_tauri",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:read_one",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:open_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:open_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:walk_dir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:read_paths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:open_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:pick_structure_paths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:pick_folder_paths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:read_dropped_paths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:check_tauri",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:init_tauri",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:open_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:open_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:open_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:pick_structure_paths",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:pick_folder_paths",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/tauri.ts",
+      "target": "function:src/lib/io/tauri.ts:read_dropped_paths",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:py_float",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:format_incar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:build_incar_params",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:generate_incar_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:is_hexagonal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:automatic_density_by_vol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:generate_kpoints_str",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:face_centered_from_symmetry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:py_float",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:format_incar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:build_incar_params",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:generate_incar_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:is_hexagonal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:automatic_density_by_vol",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:generate_kpoints_str",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/io/vasp-input.ts",
+      "target": "function:src/lib/io/vasp-input.ts:face_centered_from_symmetry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:name_for_symbol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:format_value",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:format_num",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:format_fractional",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:parse_si_float",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:superscript_digits",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:format_value",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:format_num",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:format_fractional",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:parse_si_float",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/labels.ts",
+      "target": "function:src/lib/labels.ts:superscript_digits",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:to_degrees",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:to_radians",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:calc_lattice_params",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:scale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:euclidean_dist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:norm",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:pbc_dist",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:matrix_inverse_3x3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:mat3x3_vec3_multiply",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:add",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:subtract",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:dot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:to_voigt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:from_voigt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:vec9_to_mat3x3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:tensor_to_flat_array",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:transpose_3x3_matrix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:cell_to_lattice_matrix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:det_3x3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:get_coefficient_of_variation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:det_4x4",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:cross_3d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:is_square_matrix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:to_degrees",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:to_radians",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:calc_lattice_params",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:scale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:euclidean_dist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:norm",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:pbc_dist",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:matrix_inverse_3x3",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:mat3x3_vec3_multiply",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:add",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:subtract",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:dot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:to_voigt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:from_voigt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:vec9_to_mat3x3",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:tensor_to_flat_array",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:transpose_3x3_matrix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:cell_to_lattice_matrix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:det_3x3",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:get_coefficient_of_variation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:det_4x4",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:cross_3d",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/math.ts",
+      "target": "function:src/lib/math.ts:is_square_matrix",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "server/catgo/models/dos.py",
+      "language": "python",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/heterostructure.py",
+      "language": "python",
+      "sizeLines": 459,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/hpc.py",
+      "language": "python",
+      "sizeLines": 457,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/mofdb.py",
+      "language": "python",
+      "sizeLines": 37,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/moire.py",
+      "language": "python",
+      "sizeLines": 215,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/nanotube.py",
+      "language": "python",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/paper.py",
+      "language": "python",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/pseudo_hydrogen.py",
+      "language": "python",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/reticular.py",
+      "language": "python",
+      "sizeLines": 219,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/structure.py",
+      "language": "python",
+      "sizeLines": 374,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/vasp.py",
+      "language": "python",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/water_layer.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/workflow_run.py",
+      "language": "python",
+      "sizeLines": 665,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/models/workflow.py",
+      "language": "python",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/plugins/__init__.py",
+      "language": "python",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/plugins/base.py",
+      "language": "python",
+      "sizeLines": 727,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/plugins/builtin_readers.py",
+      "language": "python",
+      "sizeLines": 200,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/plugins/discovery.py",
+      "language": "python",
+      "sizeLines": 276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/plugins/manager.py",
+      "language": "python",
+      "sizeLines": 613,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/plugins/sandbox.py",
+      "language": "python",
+      "sizeLines": 324,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/routers/__init__.py",
+      "language": "python",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/routers/adsorption.py",
+      "language": "python",
+      "sizeLines": 455,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/routers/atomate2.py",
+      "language": "python",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/routers/bands.py",
+      "language": "python",
+      "sizeLines": 468,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/routers/build.py",
+      "language": "python",
+      "sizeLines": 416,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/catgo/models/dos.py": [],
+    "server/catgo/models/heterostructure.py": [],
+    "server/catgo/models/hpc.py": [],
+    "server/catgo/models/mofdb.py": [],
+    "server/catgo/models/moire.py": [],
+    "server/catgo/models/nanotube.py": [],
+    "server/catgo/models/paper.py": [],
+    "server/catgo/models/pseudo_hydrogen.py": [],
+    "server/catgo/models/reticular.py": [],
+    "server/catgo/models/structure.py": [],
+    "server/catgo/models/vasp.py": [],
+    "server/catgo/models/water_layer.py": [],
+    "server/catgo/models/workflow_run.py": [],
+    "server/catgo/models/workflow.py": [],
+    "server/catgo/plugins/__init__.py": [],
+    "server/catgo/plugins/base.py": [],
+    "server/catgo/plugins/builtin_readers.py": [],
+    "server/catgo/plugins/discovery.py": [],
+    "server/catgo/plugins/manager.py": [],
+    "server/catgo/plugins/sandbox.py": [],
+    "server/catgo/routers/__init__.py": [],
+    "server/catgo/routers/adsorption.py": [],
+    "server/catgo/routers/atomate2.py": [],
+    "server/catgo/routers/bands.py": [],
+    "server/catgo/routers/build.py": []
+  }
+}

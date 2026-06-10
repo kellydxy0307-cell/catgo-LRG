@@ -1,0 +1,2853 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/lib/bands/Bands.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 364,
+      "nonEmptyLines": 319,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/bands/BandsAndDos.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 55,
+      "nonEmptyLines": 50,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/bands/BrillouinBandsDos.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 160,
+      "nonEmptyLines": 151,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/bands/Dos.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 221,
+      "nonEmptyLines": 200,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/bands/helpers.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 394,
+      "nonEmptyLines": 332,
+      "functions": [
+        {
+          "name": "pretty_sym_point",
+          "startLine": 21,
+          "endLine": 42,
+          "params": [
+            "symbol"
+          ]
+        },
+        {
+          "name": "get_segment_key",
+          "startLine": 45,
+          "endLine": 46,
+          "params": [
+            "start_label",
+            "end_label"
+          ]
+        },
+        {
+          "name": "get_ordered_segments",
+          "startLine": 49,
+          "endLine": 63,
+          "params": [
+            "band_struct",
+            "segments"
+          ]
+        },
+        {
+          "name": "get_band_xaxis_ticks",
+          "startLine": 66,
+          "endLine": 106,
+          "params": [
+            "band_struct",
+            "branches"
+          ]
+        },
+        {
+          "name": "convert_frequencies",
+          "startLine": 109,
+          "endLine": 128,
+          "params": [
+            "frequencies",
+            "unit"
+          ]
+        },
+        {
+          "name": "normalize_densities",
+          "startLine": 131,
+          "endLine": 158,
+          "params": [
+            "densities",
+            "freqs_or_energies",
+            "mode"
+          ]
+        },
+        {
+          "name": "apply_gaussian_smearing",
+          "startLine": 162,
+          "endLine": 194,
+          "params": [
+            "freqs_or_energies",
+            "densities",
+            "sigma"
+          ]
+        },
+        {
+          "name": "normalize_band_structure",
+          "startLine": 196,
+          "endLine": 228,
+          "params": [
+            "bs"
+          ]
+        },
+        {
+          "name": "normalize_dos",
+          "startLine": 231,
+          "endLine": 258,
+          "params": [
+            "dos"
+          ]
+        },
+        {
+          "name": "extract_k_path_points",
+          "startLine": 262,
+          "endLine": 280,
+          "params": [
+            "band_struct",
+            "recip_lattice_matrix"
+          ]
+        },
+        {
+          "name": "find_qpoint_at_distance",
+          "startLine": 283,
+          "endLine": 295,
+          "params": [
+            "band_struct",
+            "target"
+          ]
+        },
+        {
+          "name": "find_qpoint_at_rescaled_x",
+          "startLine": 299,
+          "endLine": 394,
+          "params": [
+            "band_struct",
+            "rescaled_x",
+            "x_positions"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "N_ACOUSTIC_MODES",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "pretty_sym_point",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "get_segment_key",
+          "line": 45,
+          "isDefault": false
+        },
+        {
+          "name": "get_ordered_segments",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "get_band_xaxis_ticks",
+          "line": 66,
+          "isDefault": false
+        },
+        {
+          "name": "convert_frequencies",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "normalize_densities",
+          "line": 131,
+          "isDefault": false
+        },
+        {
+          "name": "apply_gaussian_smearing",
+          "line": 162,
+          "isDefault": false
+        },
+        {
+          "name": "normalize_band_structure",
+          "line": 196,
+          "isDefault": false
+        },
+        {
+          "name": "normalize_dos",
+          "line": 231,
+          "isDefault": false
+        },
+        {
+          "name": "extract_k_path_points",
+          "line": 262,
+          "isDefault": false
+        },
+        {
+          "name": "find_qpoint_at_distance",
+          "line": 283,
+          "isDefault": false
+        },
+        {
+          "name": "find_qpoint_at_rescaled_x",
+          "line": 299,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "pretty_sym_point",
+          "callee": "symbol\r\n    .replace(/_/g, ``)\r\n    .replace(/GAMMA/gi, `Γ`)\r\n    .replace(/DELTA/gi, `Δ`)\r\n    .replace(/SIGMA/gi, `Σ`)\r\n    .replace(/LAMBDA/gi, `Λ`)\r\n    .replace",
+          "lineNumber": 28
+        },
+        {
+          "caller": "pretty_sym_point",
+          "callee": "symbol\r\n    .replace(/_/g, ``)\r\n    .replace(/GAMMA/gi, `Γ`)\r\n    .replace(/DELTA/gi, `Δ`)\r\n    .replace(/SIGMA/gi, `Σ`)\r\n    .replace",
+          "lineNumber": 28
+        },
+        {
+          "caller": "pretty_sym_point",
+          "callee": "symbol\r\n    .replace(/_/g, ``)\r\n    .replace(/GAMMA/gi, `Γ`)\r\n    .replace(/DELTA/gi, `Δ`)\r\n    .replace",
+          "lineNumber": 28
+        },
+        {
+          "caller": "pretty_sym_point",
+          "callee": "symbol\r\n    .replace(/_/g, ``)\r\n    .replace(/GAMMA/gi, `Γ`)\r\n    .replace",
+          "lineNumber": 28
+        },
+        {
+          "caller": "pretty_sym_point",
+          "callee": "symbol\r\n    .replace(/_/g, ``)\r\n    .replace",
+          "lineNumber": 28
+        },
+        {
+          "caller": "pretty_sym_point",
+          "callee": "symbol\r\n    .replace",
+          "lineNumber": 28
+        },
+        {
+          "caller": "pretty_sym_point",
+          "callee": "num.split(``).map((digit: string) =>\r\n          subscript_map[digit as keyof typeof subscript_map] ?? digit\r\n        ).join",
+          "lineNumber": 38
+        },
+        {
+          "caller": "pretty_sym_point",
+          "callee": "num.split(``).map",
+          "lineNumber": 38
+        },
+        {
+          "caller": "pretty_sym_point",
+          "callee": "num.split",
+          "lineNumber": 38
+        },
+        {
+          "caller": "get_ordered_segments",
+          "callee": "Array.from",
+          "lineNumber": 53
+        },
+        {
+          "caller": "get_ordered_segments",
+          "callee": "band_struct.branches.map",
+          "lineNumber": 55
+        },
+        {
+          "caller": "get_ordered_segments",
+          "callee": "get_segment_key",
+          "lineNumber": 56
+        },
+        {
+          "caller": "get_ordered_segments",
+          "callee": "Array.from(segments).filter",
+          "lineNumber": 61
+        },
+        {
+          "caller": "get_ordered_segments",
+          "callee": "Array.from",
+          "lineNumber": 61
+        },
+        {
+          "caller": "get_ordered_segments",
+          "callee": "ordered.includes",
+          "lineNumber": 61
+        },
+        {
+          "caller": "get_band_xaxis_ticks",
+          "callee": "Array.isArray",
+          "lineNumber": 76
+        },
+        {
+          "caller": "get_band_xaxis_ticks",
+          "callee": "band_struct.branches\r\n      .filter(\r\n        (branch) => branch.start_index <= idx && idx <= branch.end_index,\r\n      )\r\n      .map",
+          "lineNumber": 83
+        },
+        {
+          "caller": "get_band_xaxis_ticks",
+          "callee": "band_struct.branches\r\n      .filter",
+          "lineNumber": 83
+        },
+        {
+          "caller": "get_band_xaxis_ticks",
+          "callee": "branches_set.has",
+          "lineNumber": 95
+        },
+        {
+          "caller": "get_band_xaxis_ticks",
+          "callee": "tick_labels.push",
+          "lineNumber": 97
+        },
+        {
+          "caller": "get_band_xaxis_ticks",
+          "callee": "ticks_x_pos.push",
+          "lineNumber": 98
+        },
+        {
+          "caller": "get_band_xaxis_ticks",
+          "callee": "tick_labels.map",
+          "lineNumber": 105
+        },
+        {
+          "caller": "convert_frequencies",
+          "callee": "Object.keys(conversion_factors).join",
+          "lineNumber": 123
+        },
+        {
+          "caller": "convert_frequencies",
+          "callee": "Object.keys",
+          "lineNumber": 123
+        },
+        {
+          "caller": "convert_frequencies",
+          "callee": "frequencies.map",
+          "lineNumber": 127
+        },
+        {
+          "caller": "normalize_densities",
+          "callee": "Math.max",
+          "lineNumber": 141
+        },
+        {
+          "caller": "normalize_densities",
+          "callee": "normalized.map",
+          "lineNumber": 143
+        },
+        {
+          "caller": "normalize_densities",
+          "callee": "normalized.reduce",
+          "lineNumber": 145
+        },
+        {
+          "caller": "normalize_densities",
+          "callee": "normalized.map",
+          "lineNumber": 147
+        },
+        {
+          "caller": "normalize_densities",
+          "callee": "normalized.reduce",
+          "lineNumber": 152
+        },
+        {
+          "caller": "normalize_densities",
+          "callee": "normalized.map",
+          "lineNumber": 154
+        },
+        {
+          "caller": "apply_gaussian_smearing",
+          "callee": "densities.reduce",
+          "lineNumber": 167
+        },
+        {
+          "caller": "apply_gaussian_smearing",
+          "callee": "new Array(densities.length).fill",
+          "lineNumber": 170
+        },
+        {
+          "caller": "apply_gaussian_smearing",
+          "callee": "Math.abs",
+          "lineNumber": 179
+        },
+        {
+          "caller": "apply_gaussian_smearing",
+          "callee": "Math.exp",
+          "lineNumber": 184
+        },
+        {
+          "caller": "apply_gaussian_smearing",
+          "callee": "smeared.reduce",
+          "lineNumber": 190
+        },
+        {
+          "caller": "apply_gaussian_smearing",
+          "callee": "smeared.map",
+          "lineNumber": 193
+        },
+        {
+          "caller": "normalize_band_structure",
+          "callee": "Array.isArray",
+          "lineNumber": 206
+        },
+        {
+          "caller": "normalize_band_structure",
+          "callee": "Array.isArray",
+          "lineNumber": 207
+        },
+        {
+          "caller": "normalize_band_structure",
+          "callee": "Array.isArray",
+          "lineNumber": 208
+        },
+        {
+          "caller": "normalize_band_structure",
+          "callee": "Array.isArray",
+          "lineNumber": 209
+        },
+        {
+          "caller": "normalize_band_structure",
+          "callee": "bands.some",
+          "lineNumber": 216
+        },
+        {
+          "caller": "normalize_band_structure",
+          "callee": "Array.isArray",
+          "lineNumber": 216
+        },
+        {
+          "caller": "normalize_band_structure",
+          "callee": "branches.some",
+          "lineNumber": 217
+        },
+        {
+          "caller": "normalize_dos",
+          "callee": "Array.isArray",
+          "lineNumber": 238
+        },
+        {
+          "caller": "normalize_dos",
+          "callee": "Array.isArray",
+          "lineNumber": 241
+        },
+        {
+          "caller": "normalize_dos",
+          "callee": "Array.isArray",
+          "lineNumber": 247
+        },
+        {
+          "caller": "extract_k_path_points",
+          "callee": "recip_lattice_matrix.some",
+          "lineNumber": 270
+        },
+        {
+          "caller": "extract_k_path_points",
+          "callee": "band_struct.qpoints.map",
+          "lineNumber": 275
+        },
+        {
+          "caller": "find_qpoint_at_distance",
+          "callee": "distance.reduce",
+          "lineNumber": 290
+        },
+        {
+          "caller": "find_qpoint_at_distance",
+          "callee": "Math.abs",
+          "lineNumber": 292
+        },
+        {
+          "caller": "find_qpoint_at_distance",
+          "callee": "Math.abs",
+          "lineNumber": 292
+        },
+        {
+          "caller": "find_qpoint_at_rescaled_x",
+          "callee": "get_segment_key",
+          "lineNumber": 312
+        },
+        {
+          "caller": "find_qpoint_at_rescaled_x",
+          "callee": "Math.abs",
+          "lineNumber": 320
+        },
+        {
+          "caller": "find_qpoint_at_rescaled_x",
+          "callee": "Math.abs",
+          "lineNumber": 323
+        },
+        {
+          "caller": "find_qpoint_at_rescaled_x",
+          "callee": "band_struct.distance.slice",
+          "lineNumber": 332
+        },
+        {
+          "caller": "find_qpoint_at_rescaled_x",
+          "callee": "Math.abs",
+          "lineNumber": 349
+        },
+        {
+          "caller": "find_qpoint_at_rescaled_x",
+          "callee": "Math.abs",
+          "lineNumber": 352
+        },
+        {
+          "caller": "find_qpoint_at_rescaled_x",
+          "callee": "get_segment_key",
+          "lineNumber": 372
+        },
+        {
+          "caller": "find_qpoint_at_rescaled_x",
+          "callee": "Math.abs",
+          "lineNumber": 385
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 13,
+        "functionCount": 12,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/bands/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 8,
+      "nonEmptyLines": 7,
+      "exports": [
+        {
+          "name": "Bands",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "BandsAndDos",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "BrillouinBandsDos",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Dos",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/bands/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 72,
+      "nonEmptyLines": 64,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZone.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 490,
+      "nonEmptyLines": 464,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZoneControls.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 112,
+      "nonEmptyLines": 106,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZoneExportPane.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 158,
+      "nonEmptyLines": 145,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZoneInfoPane.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 144,
+      "nonEmptyLines": 132,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZoneScene.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 317,
+      "nonEmptyLines": 291,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/brillouin/compute.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 272,
+      "nonEmptyLines": 237,
+      "functions": [
+        {
+          "name": "normalize",
+          "startLine": 9,
+          "endLine": 12,
+          "params": [
+            "vec"
+          ]
+        },
+        {
+          "name": "reciprocal_lattice",
+          "startLine": 15,
+          "endLine": 19,
+          "params": [
+            "real_lattice"
+          ]
+        },
+        {
+          "name": "generate_k_space_grid",
+          "startLine": 22,
+          "endLine": 39,
+          "params": [
+            "k_lattice",
+            "order"
+          ]
+        },
+        {
+          "name": "intersect_planes",
+          "startLine": 80,
+          "endLine": 92,
+          "params": [
+            "p1",
+            "p2",
+            "p3"
+          ]
+        },
+        {
+          "name": "generate_bz_vertices",
+          "startLine": 95,
+          "endLine": 158,
+          "params": [
+            "k_lattice",
+            "order",
+            "max_planes_by_order"
+          ]
+        },
+        {
+          "name": "compute_convex_hull",
+          "startLine": 161,
+          "endLine": 235,
+          "params": [
+            "vertices",
+            "edge_sharp_angle_deg"
+          ]
+        },
+        {
+          "name": "compute_brillouin_zone",
+          "startLine": 238,
+          "endLine": 272,
+          "params": [
+            "k_lattice",
+            "order",
+            "edge_sharp_angle_deg",
+            "max_planes_by_order"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "VertexDeduplicator",
+          "startLine": 44,
+          "endLine": 77,
+          "methods": [
+            "constructor",
+            "has_duplicate",
+            "add"
+          ],
+          "properties": [
+            "grid",
+            "cell_size"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "reciprocal_lattice",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "generate_bz_vertices",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "compute_convex_hull",
+          "line": 161,
+          "isDefault": false
+        },
+        {
+          "name": "compute_brillouin_zone",
+          "line": 238,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "normalize",
+          "callee": "Math.hypot",
+          "lineNumber": 10
+        },
+        {
+          "caller": "reciprocal_lattice",
+          "callee": "math.matrix_inverse_3x3",
+          "lineNumber": 16
+        },
+        {
+          "caller": "reciprocal_lattice",
+          "callee": "math.transpose_3x3_matrix",
+          "lineNumber": 17
+        },
+        {
+          "caller": "reciprocal_lattice",
+          "callee": "transposed.map",
+          "lineNumber": 18
+        },
+        {
+          "caller": "reciprocal_lattice",
+          "callee": "math.scale",
+          "lineNumber": 18
+        },
+        {
+          "caller": "generate_k_space_grid",
+          "callee": "Math.max",
+          "lineNumber": 25
+        },
+        {
+          "caller": "generate_k_space_grid",
+          "callee": "math.add",
+          "lineNumber": 29
+        },
+        {
+          "caller": "generate_k_space_grid",
+          "callee": "math.scale",
+          "lineNumber": 30
+        },
+        {
+          "caller": "generate_k_space_grid",
+          "callee": "math.scale",
+          "lineNumber": 31
+        },
+        {
+          "caller": "generate_k_space_grid",
+          "callee": "math.scale",
+          "lineNumber": 32
+        },
+        {
+          "caller": "generate_k_space_grid",
+          "callee": "points.push",
+          "lineNumber": 34
+        },
+        {
+          "caller": "has_duplicate",
+          "callee": "vertex.map",
+          "lineNumber": 52
+        },
+        {
+          "caller": "has_duplicate",
+          "callee": "Math.floor",
+          "lineNumber": 52
+        },
+        {
+          "caller": "has_duplicate",
+          "callee": "this.grid.get",
+          "lineNumber": 57
+        },
+        {
+          "caller": "has_duplicate",
+          "callee": "neighbors?.some",
+          "lineNumber": 59
+        },
+        {
+          "caller": "has_duplicate",
+          "callee": "Math.abs",
+          "lineNumber": 60
+        },
+        {
+          "caller": "has_duplicate",
+          "callee": "Math.abs",
+          "lineNumber": 61
+        },
+        {
+          "caller": "has_duplicate",
+          "callee": "Math.abs",
+          "lineNumber": 62
+        },
+        {
+          "caller": "add",
+          "callee": "vertex.map((vert) => Math.floor(vert / this.cell_size)).join",
+          "lineNumber": 72
+        },
+        {
+          "caller": "add",
+          "callee": "vertex.map",
+          "lineNumber": 72
+        },
+        {
+          "caller": "add",
+          "callee": "Math.floor",
+          "lineNumber": 72
+        },
+        {
+          "caller": "add",
+          "callee": "this.grid.get",
+          "lineNumber": 73
+        },
+        {
+          "caller": "add",
+          "callee": "cell.push",
+          "lineNumber": 74
+        },
+        {
+          "caller": "add",
+          "callee": "this.grid.set",
+          "lineNumber": 75
+        },
+        {
+          "caller": "intersect_planes",
+          "callee": "math.mat3x3_vec3_multiply",
+          "lineNumber": 88
+        },
+        {
+          "caller": "intersect_planes",
+          "callee": "math.matrix_inverse_3x3",
+          "lineNumber": 88
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "generate_k_space_grid",
+          "lineNumber": 106
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "Math.floor",
+          "lineNumber": 107
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "k_points\r\n    .map((pt, idx) => {\r\n      if (idx === center_idx) return null\r\n      const dist_sq = pt[0] ** 2 + pt[1] ** 2 + pt[2] ** 2\r\n      return { normal: normalize(pt), dist: Math.sqrt(dist_sq) / 2, dist_sq }\r\n    })\r\n    .filter((p): p is NonNullable<typeof p> => p !== null)\r\n    .sort((a, b) => a.dist_sq - b.dist_sq)\r\n    .slice",
+          "lineNumber": 113
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "k_points\r\n    .map((pt, idx) => {\r\n      if (idx === center_idx) return null\r\n      const dist_sq = pt[0] ** 2 + pt[1] ** 2 + pt[2] ** 2\r\n      return { normal: normalize(pt), dist: Math.sqrt(dist_sq) / 2, dist_sq }\r\n    })\r\n    .filter((p): p is NonNullable<typeof p> => p !== null)\r\n    .sort",
+          "lineNumber": 113
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "k_points\r\n    .map((pt, idx) => {\r\n      if (idx === center_idx) return null\r\n      const dist_sq = pt[0] ** 2 + pt[1] ** 2 + pt[2] ** 2\r\n      return { normal: normalize(pt), dist: Math.sqrt(dist_sq) / 2, dist_sq }\r\n    })\r\n    .filter",
+          "lineNumber": 113
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "k_points\r\n    .map",
+          "lineNumber": 113
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "normalize",
+          "lineNumber": 117
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "Math.sqrt",
+          "lineNumber": 117
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "planes.map",
+          "lineNumber": 124
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "planes.map",
+          "lineNumber": 125
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "intersect_planes",
+          "lineNumber": 134
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "dedup.has_duplicate",
+          "lineNumber": 149
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "vertices.push",
+          "lineNumber": 150
+        },
+        {
+          "caller": "generate_bz_vertices",
+          "callee": "dedup.add",
+          "lineNumber": 151
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "vertices.map",
+          "lineNumber": 169
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "geometry.getAttribute",
+          "lineNumber": 170
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "pos.getX",
+          "lineNumber": 178
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "pos.getY",
+          "lineNumber": 178
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "pos.getZ",
+          "lineNumber": 178
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "unique_verts.findIndex",
+          "lineNumber": 179
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "Math.abs",
+          "lineNumber": 181
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "Math.abs",
+          "lineNumber": 181
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "Math.abs",
+          "lineNumber": 182
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "vert_map.set",
+          "lineNumber": 184
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "unique_verts.push",
+          "lineNumber": 186
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "idx.getX",
+          "lineNumber": 196
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "idx.getX",
+          "lineNumber": 196
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "idx.getX",
+          "lineNumber": 196
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "faces.push",
+          "lineNumber": 198
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "tri.map",
+          "lineNumber": 198
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "vert_map.get",
+          "lineNumber": 199
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "faces.map",
+          "lineNumber": 206
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "face.slice(0, 3).map",
+          "lineNumber": 207
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "face.slice",
+          "lineNumber": 207
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "normalize",
+          "lineNumber": 208
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "math.cross_3d",
+          "lineNumber": 208
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "math.subtract",
+          "lineNumber": 208
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "math.subtract",
+          "lineNumber": 208
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "faces.forEach",
+          "lineNumber": 212
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "face.forEach",
+          "lineNumber": 213
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "edge_to_faces.get",
+          "lineNumber": 216
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "adj.push",
+          "lineNumber": 217
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "edge_to_faces.set",
+          "lineNumber": 218
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "Math.cos",
+          "lineNumber": 223
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "math.dot",
+          "lineNumber": 229
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "edges.push",
+          "lineNumber": 230
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "key.split(`,`).map",
+          "lineNumber": 230
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "key.split",
+          "lineNumber": 230
+        },
+        {
+          "caller": "compute_convex_hull",
+          "callee": "geometry.dispose",
+          "lineNumber": 233
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "generate_bz_vertices",
+          "lineNumber": 244
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "compute_convex_hull",
+          "lineNumber": 249
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "Math.abs",
+          "lineNumber": 252
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "hull.faces.reduce",
+          "lineNumber": 253
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "face.slice(0, 3).map",
+          "lineNumber": 255
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "face.slice",
+          "lineNumber": 255
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "math.scale",
+          "lineNumber": 256
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "math.cross_3d",
+          "lineNumber": 257
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "math.subtract",
+          "lineNumber": 257
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "math.subtract",
+          "lineNumber": 257
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "math.dot",
+          "lineNumber": 260
+        },
+        {
+          "caller": "compute_brillouin_zone",
+          "callee": "hull.edges.map",
+          "lineNumber": 268
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 7,
+        "classCount": 1
+      }
+    },
+    {
+      "path": "src/lib/brillouin/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 7,
+      "nonEmptyLines": 7,
+      "exports": [
+        {
+          "name": "BrillouinZone",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "BrillouinZoneControls",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "BrillouinZoneExportPane",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "BrillouinZoneInfoPane",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "BrillouinZoneScene",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/brillouin/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 24,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/calculator.py",
+      "language": "python",
+      "fileCategory": "code",
+      "totalLines": 3,
+      "nonEmptyLines": 2,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/__tests__/client-llm.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 194,
+      "nonEmptyLines": 181,
+      "functions": [
+        {
+          "name": "sse",
+          "startLine": 5,
+          "endLine": 15,
+          "params": [
+            "lines"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sse",
+          "callee": "lines.map((l) => `data: ${l}\\n\\n`).join",
+          "lineNumber": 7
+        },
+        {
+          "caller": "sse",
+          "callee": "lines.map",
+          "lineNumber": 7
+        },
+        {
+          "caller": "start",
+          "callee": "c.enqueue",
+          "lineNumber": 10
+        },
+        {
+          "caller": "start",
+          "callee": "enc.encode",
+          "lineNumber": 10
+        },
+        {
+          "caller": "start",
+          "callee": "c.close",
+          "lineNumber": 11
+        },
+        {
+          "caller": "sse",
+          "callee": "stream.getReader",
+          "lineNumber": 14
+        },
+        {
+          "caller": "start",
+          "callee": "c.enqueue",
+          "lineNumber": 136
+        },
+        {
+          "caller": "start",
+          "callee": "enc.encode",
+          "lineNumber": 136
+        },
+        {
+          "caller": "start",
+          "callee": "c.close",
+          "lineNumber": 137
+        },
+        {
+          "caller": "start",
+          "callee": "c.enqueue",
+          "lineNumber": 173
+        },
+        {
+          "caller": "start",
+          "callee": "enc.encode",
+          "lineNumber": 173
+        },
+        {
+          "caller": "start",
+          "callee": "c.close",
+          "lineNumber": 173
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/__tests__/hetero-stash.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 73,
+      "nonEmptyLines": 67,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/__tests__/markdown.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 131,
+      "nonEmptyLines": 121,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/__tests__/provider-routing.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 17,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/__tests__/structure-tools.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 508,
+      "nonEmptyLines": 456,
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/__tests__/tool-loop.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 77,
+      "nonEmptyLines": 71,
+      "functions": [
+        {
+          "name": "gen",
+          "startLine": 5,
+          "endLine": 11,
+          "params": [
+            "...batches"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "transport",
+          "callee": "(async function* () {\r\n      yield { type: `tool_calls`, calls: [{ id: `x`, name: `get_structure_info`, arguments: {} }] } as LlmEvent\r\n      yield { type: `done` } as LlmEvent\r\n    })",
+          "lineNumber": 47
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/analysis-session-store.svelte.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 59,
+      "nonEmptyLines": 50,
+      "functions": [
+        {
+          "name": "register_analysis_session",
+          "startLine": 21,
+          "endLine": 26,
+          "params": [
+            "session"
+          ]
+        },
+        {
+          "name": "unregister_analysis_session",
+          "startLine": 28,
+          "endLine": 34,
+          "params": [
+            "type"
+          ]
+        },
+        {
+          "name": "get_analysis_session",
+          "startLine": 36,
+          "endLine": 38,
+          "params": [
+            "type"
+          ]
+        },
+        {
+          "name": "store_session_blob",
+          "startLine": 47,
+          "endLine": 49,
+          "params": [
+            "session_id",
+            "blob"
+          ]
+        },
+        {
+          "name": "get_session_blob",
+          "startLine": 52,
+          "endLine": 54,
+          "params": [
+            "session_id"
+          ]
+        },
+        {
+          "name": "remove_session_blob",
+          "startLine": 57,
+          "endLine": 59,
+          "params": [
+            "session_id"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "analysis_sessions",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "register_analysis_session",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "unregister_analysis_session",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "get_analysis_session",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "store_session_blob",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "get_session_blob",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "remove_session_blob",
+          "line": 57,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "register_analysis_session",
+          "callee": "analysis_sessions.findIndex",
+          "lineNumber": 23
+        },
+        {
+          "caller": "register_analysis_session",
+          "callee": "analysis_sessions.splice",
+          "lineNumber": 24
+        },
+        {
+          "caller": "register_analysis_session",
+          "callee": "analysis_sessions.push",
+          "lineNumber": 25
+        },
+        {
+          "caller": "unregister_analysis_session",
+          "callee": "analysis_sessions.findIndex",
+          "lineNumber": 29
+        },
+        {
+          "caller": "unregister_analysis_session",
+          "callee": "_blob_store.delete",
+          "lineNumber": 31
+        },
+        {
+          "caller": "unregister_analysis_session",
+          "callee": "analysis_sessions.splice",
+          "lineNumber": 32
+        },
+        {
+          "caller": "get_analysis_session",
+          "callee": "analysis_sessions.find",
+          "lineNumber": 37
+        },
+        {
+          "caller": "store_session_blob",
+          "callee": "_blob_store.set",
+          "lineNumber": 48
+        },
+        {
+          "caller": "get_session_blob",
+          "callee": "_blob_store.get",
+          "lineNumber": 53
+        },
+        {
+          "caller": "remove_session_blob",
+          "callee": "_blob_store.delete",
+          "lineNumber": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/attachment-utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 62,
+      "nonEmptyLines": 57,
+      "functions": [
+        {
+          "name": "copy_to_clipboard",
+          "startLine": 6,
+          "endLine": 14,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "_fallback_copy",
+          "startLine": 16,
+          "endLine": 25,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "handle_messages_click",
+          "startLine": 31,
+          "endLine": 62,
+          "params": [
+            "event"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "copy_to_clipboard",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "handle_messages_click",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "copy_to_clipboard",
+          "callee": "navigator.clipboard.writeText(text).catch",
+          "lineNumber": 8
+        },
+        {
+          "caller": "copy_to_clipboard",
+          "callee": "navigator.clipboard.writeText",
+          "lineNumber": 8
+        },
+        {
+          "caller": "copy_to_clipboard",
+          "callee": "_fallback_copy",
+          "lineNumber": 9
+        },
+        {
+          "caller": "copy_to_clipboard",
+          "callee": "_fallback_copy",
+          "lineNumber": 12
+        },
+        {
+          "caller": "copy_to_clipboard",
+          "callee": "Promise.resolve",
+          "lineNumber": 13
+        },
+        {
+          "caller": "_fallback_copy",
+          "callee": "document.createElement",
+          "lineNumber": 17
+        },
+        {
+          "caller": "_fallback_copy",
+          "callee": "document.body.appendChild",
+          "lineNumber": 21
+        },
+        {
+          "caller": "_fallback_copy",
+          "callee": "ta.select",
+          "lineNumber": 22
+        },
+        {
+          "caller": "_fallback_copy",
+          "callee": "document.execCommand",
+          "lineNumber": 23
+        },
+        {
+          "caller": "_fallback_copy",
+          "callee": "document.body.removeChild",
+          "lineNumber": 24
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "target.classList.contains",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "target.closest",
+          "lineNumber": 36
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "wrapper?.querySelector",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "wrapper?.querySelector",
+          "lineNumber": 38
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "copy_to_clipboard(full_el.textContent ?? ``).then",
+          "lineNumber": 40
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "copy_to_clipboard",
+          "lineNumber": 40
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "setTimeout",
+          "lineNumber": 42
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "target.classList.contains",
+          "lineNumber": 48
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "target.closest",
+          "lineNumber": 49
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "wrapper.querySelector",
+          "lineNumber": 51
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "wrapper.querySelector",
+          "lineNumber": 52
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "wrapper.getAttribute",
+          "lineNumber": 53
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "wrapper.setAttribute",
+          "lineNumber": 57
+        },
+        {
+          "caller": "handle_messages_click",
+          "callee": "wrapper.getAttribute",
+          "lineNumber": 58
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/chat-state.svelte.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 956,
+      "nonEmptyLines": 872,
+      "functions": [
+        {
+          "name": "load_from_storage",
+          "startLine": 47,
+          "endLine": 57,
+          "params": [
+            "key",
+            "fallback"
+          ]
+        },
+        {
+          "name": "save_to_storage",
+          "startLine": 59,
+          "endLine": 66,
+          "params": [
+            "key",
+            "value"
+          ]
+        },
+        {
+          "name": "init_username",
+          "startLine": 83,
+          "endLine": 89,
+          "params": []
+        },
+        {
+          "name": "persist_config",
+          "startLine": 93,
+          "endLine": 95,
+          "params": []
+        },
+        {
+          "name": "update_config",
+          "startLine": 97,
+          "endLine": 100,
+          "params": [
+            "updates"
+          ]
+        },
+        {
+          "name": "set_chat_position",
+          "startLine": 110,
+          "endLine": 113,
+          "params": [
+            "pos"
+          ]
+        },
+        {
+          "name": "set_agent_session",
+          "startLine": 118,
+          "endLine": 120,
+          "params": [
+            "agent",
+            "session_id"
+          ]
+        },
+        {
+          "name": "clear_agent_session",
+          "startLine": 122,
+          "endLine": 128,
+          "params": [
+            "agent"
+          ]
+        },
+        {
+          "name": "make_chat_slice",
+          "startLine": 187,
+          "endLine": 223,
+          "params": []
+        },
+        {
+          "name": "get_chat_slice",
+          "startLine": 246,
+          "endLine": 254,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "ensure_chat_slice",
+          "startLine": 260,
+          "endLine": 267,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "remove_chat_slice",
+          "startLine": 270,
+          "endLine": 280,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "import_paper",
+          "startLine": 285,
+          "endLine": 319,
+          "params": [
+            "file",
+            "tab_id"
+          ]
+        },
+        {
+          "name": "import_doi",
+          "startLine": 322,
+          "endLine": 346,
+          "params": [
+            "doi",
+            "tab_id"
+          ]
+        },
+        {
+          "name": "clear_paper",
+          "startLine": 349,
+          "endLine": 357,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "broadcast_chat_context",
+          "startLine": 372,
+          "endLine": 387,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "listen_chat_context",
+          "startLine": 401,
+          "endLine": 419,
+          "params": [
+            "tab_id",
+            "expected_source_tab_id",
+            "expected_source_id"
+          ]
+        },
+        {
+          "name": "update_last_message",
+          "startLine": 422,
+          "endLine": 431,
+          "params": [
+            "slice",
+            "text",
+            "blocks"
+          ]
+        },
+        {
+          "name": "send_message",
+          "startLine": 433,
+          "endLine": 766,
+          "params": [
+            "content",
+            "attachments",
+            "tab_id"
+          ]
+        },
+        {
+          "name": "finalize_stream_indicators",
+          "startLine": 793,
+          "endLine": 802,
+          "params": [
+            "slice"
+          ]
+        },
+        {
+          "name": "cancel_generation",
+          "startLine": 804,
+          "endLine": 820,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "persist_session_list",
+          "startLine": 831,
+          "endLine": 833,
+          "params": []
+        },
+        {
+          "name": "load_session_messages",
+          "startLine": 848,
+          "endLine": 852,
+          "params": [
+            "session_id"
+          ]
+        },
+        {
+          "name": "persist_session_messages",
+          "startLine": 854,
+          "endLine": 859,
+          "params": [
+            "session_id",
+            "messages"
+          ]
+        },
+        {
+          "name": "forget_session_messages",
+          "startLine": 861,
+          "endLine": 868,
+          "params": [
+            "session_id"
+          ]
+        },
+        {
+          "name": "record_session",
+          "startLine": 877,
+          "endLine": 909,
+          "params": [
+            "agent",
+            "session_id",
+            "topic",
+            "model"
+          ]
+        },
+        {
+          "name": "delete_session",
+          "startLine": 912,
+          "endLine": 916,
+          "params": [
+            "session_id"
+          ]
+        },
+        {
+          "name": "resume_session",
+          "startLine": 919,
+          "endLine": 931,
+          "params": [
+            "agent",
+            "session_id",
+            "messages",
+            "tab_id"
+          ]
+        },
+        {
+          "name": "new_session",
+          "startLine": 934,
+          "endLine": 946,
+          "params": [
+            "agent",
+            "tab_id"
+          ]
+        },
+        {
+          "name": "clear_chat_history",
+          "startLine": 948,
+          "endLine": 956,
+          "params": [
+            "tab_id"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "chat_config",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "chat_username",
+          "line": 91,
+          "isDefault": false
+        },
+        {
+          "name": "update_config",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "chat_position",
+          "line": 106,
+          "isDefault": false
+        },
+        {
+          "name": "set_chat_position",
+          "line": 110,
+          "isDefault": false
+        },
+        {
+          "name": "agent_sessions",
+          "line": 116,
+          "isDefault": false
+        },
+        {
+          "name": "set_agent_session",
+          "line": 118,
+          "isDefault": false
+        },
+        {
+          "name": "clear_agent_session",
+          "line": 122,
+          "isDefault": false
+        },
+        {
+          "name": "get_chat_slice",
+          "line": 246,
+          "isDefault": false
+        },
+        {
+          "name": "ensure_chat_slice",
+          "line": 260,
+          "isDefault": false
+        },
+        {
+          "name": "remove_chat_slice",
+          "line": 270,
+          "isDefault": false
+        },
+        {
+          "name": "import_paper",
+          "line": 285,
+          "isDefault": false
+        },
+        {
+          "name": "import_doi",
+          "line": 322,
+          "isDefault": false
+        },
+        {
+          "name": "clear_paper",
+          "line": 349,
+          "isDefault": false
+        },
+        {
+          "name": "WINDOW_SOURCE_ID",
+          "line": 367,
+          "isDefault": false
+        },
+        {
+          "name": "broadcast_chat_context",
+          "line": 372,
+          "isDefault": false
+        },
+        {
+          "name": "listen_chat_context",
+          "line": 401,
+          "isDefault": false
+        },
+        {
+          "name": "send_message",
+          "line": 433,
+          "isDefault": false
+        },
+        {
+          "name": "cancel_generation",
+          "line": 804,
+          "isDefault": false
+        },
+        {
+          "name": "session_list",
+          "line": 827,
+          "isDefault": false
+        },
+        {
+          "name": "load_session_messages",
+          "line": 848,
+          "isDefault": false
+        },
+        {
+          "name": "persist_session_messages",
+          "line": 854,
+          "isDefault": false
+        },
+        {
+          "name": "record_session",
+          "line": 877,
+          "isDefault": false
+        },
+        {
+          "name": "delete_session",
+          "line": 912,
+          "isDefault": false
+        },
+        {
+          "name": "resume_session",
+          "line": 919,
+          "isDefault": false
+        },
+        {
+          "name": "new_session",
+          "line": 934,
+          "isDefault": false
+        },
+        {
+          "name": "clear_chat_history",
+          "line": 948,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "load_from_storage",
+          "callee": "localStorage.getItem",
+          "lineNumber": 50
+        },
+        {
+          "caller": "load_from_storage",
+          "callee": "JSON.parse",
+          "lineNumber": 52
+        },
+        {
+          "caller": "load_from_storage",
+          "callee": "console.warn",
+          "lineNumber": 54
+        },
+        {
+          "caller": "save_to_storage",
+          "callee": "localStorage.setItem",
+          "lineNumber": 62
+        },
+        {
+          "caller": "save_to_storage",
+          "callee": "JSON.stringify",
+          "lineNumber": 62
+        },
+        {
+          "caller": "save_to_storage",
+          "callee": "console.warn",
+          "lineNumber": 64
+        },
+        {
+          "caller": "init_username",
+          "callee": "load_from_storage",
+          "lineNumber": 84
+        },
+        {
+          "caller": "init_username",
+          "callee": "Math.floor",
+          "lineNumber": 86
+        },
+        {
+          "caller": "init_username",
+          "callee": "Math.random",
+          "lineNumber": 86
+        },
+        {
+          "caller": "init_username",
+          "callee": "save_to_storage",
+          "lineNumber": 87
+        },
+        {
+          "caller": "persist_config",
+          "callee": "save_to_storage",
+          "lineNumber": 94
+        },
+        {
+          "caller": "update_config",
+          "callee": "Object.assign",
+          "lineNumber": 98
+        },
+        {
+          "caller": "update_config",
+          "callee": "persist_config",
+          "lineNumber": 99
+        },
+        {
+          "caller": "set_chat_position",
+          "callee": "save_to_storage",
+          "lineNumber": 112
+        },
+        {
+          "caller": "clear_agent_session",
+          "callee": "Object.keys",
+          "lineNumber": 126
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 194
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 195
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 196
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 197
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 198
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 199
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 200
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 201
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 202
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 205
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "import",
+          "lineNumber": 206
+        },
+        {
+          "caller": "make_chat_slice",
+          "callee": "$state",
+          "lineNumber": 208
+        },
+        {
+          "caller": "get_chat_slice",
+          "callee": "chat_slices.get",
+          "lineNumber": 247
+        },
+        {
+          "caller": "get_chat_slice",
+          "callee": "make_chat_slice",
+          "lineNumber": 249
+        },
+        {
+          "caller": "get_chat_slice",
+          "callee": "untrack",
+          "lineNumber": 251
+        },
+        {
+          "caller": "get_chat_slice",
+          "callee": "chat_slices.set",
+          "lineNumber": 251
+        },
+        {
+          "caller": "ensure_chat_slice",
+          "callee": "chat_slices.get",
+          "lineNumber": 261
+        },
+        {
+          "caller": "ensure_chat_slice",
+          "callee": "make_chat_slice",
+          "lineNumber": 263
+        },
+        {
+          "caller": "ensure_chat_slice",
+          "callee": "chat_slices.set",
+          "lineNumber": 264
+        },
+        {
+          "caller": "remove_chat_slice",
+          "callee": "chat_slices.get",
+          "lineNumber": 271
+        },
+        {
+          "caller": "remove_chat_slice",
+          "callee": "slice.abort_controller.abort",
+          "lineNumber": 277
+        },
+        {
+          "caller": "remove_chat_slice",
+          "callee": "chat_slices.delete",
+          "lineNumber": 279
+        },
+        {
+          "caller": "import_paper",
+          "callee": "get_chat_slice",
+          "lineNumber": 286
+        },
+        {
+          "caller": "import_paper",
+          "callee": "form_data.append",
+          "lineNumber": 288
+        },
+        {
+          "caller": "import_paper",
+          "callee": "fetch",
+          "lineNumber": 290
+        },
+        {
+          "caller": "import_paper",
+          "callee": "resp.text",
+          "lineNumber": 296
+        },
+        {
+          "caller": "import_paper",
+          "callee": "resp.json",
+          "lineNumber": 300
+        },
+        {
+          "caller": "import_paper",
+          "callee": "build_paper_context",
+          "lineNumber": 308
+        },
+        {
+          "caller": "import_paper",
+          "callee": "Date.now",
+          "lineNumber": 315
+        },
+        {
+          "caller": "import_doi",
+          "callee": "get_chat_slice",
+          "lineNumber": 323
+        },
+        {
+          "caller": "import_doi",
+          "callee": "fetch",
+          "lineNumber": 324
+        },
+        {
+          "caller": "import_doi",
+          "callee": "JSON.stringify",
+          "lineNumber": 327
+        },
+        {
+          "caller": "import_doi",
+          "callee": "resp.text",
+          "lineNumber": 331
+        },
+        {
+          "caller": "import_doi",
+          "callee": "resp.json",
+          "lineNumber": 335
+        },
+        {
+          "caller": "import_doi",
+          "callee": "build_paper_context_from_doi",
+          "lineNumber": 343
+        },
+        {
+          "caller": "clear_paper",
+          "callee": "get_chat_slice",
+          "lineNumber": 350
+        },
+        {
+          "caller": "broadcast_chat_context",
+          "callee": "get_chat_slice",
+          "lineNumber": 374
+        },
+        {
+          "caller": "broadcast_chat_context",
+          "callee": "bc.postMessage",
+          "lineNumber": 376
+        },
+        {
+          "caller": "broadcast_chat_context",
+          "callee": "bc.close",
+          "lineNumber": 383
+        },
+        {
+          "caller": "broadcast_chat_context",
+          "callee": "console.warn",
+          "lineNumber": 385
+        },
+        {
+          "caller": "listen_chat_context",
+          "callee": "get_chat_slice",
+          "lineNumber": 413
+        },
+        {
+          "caller": "listen_chat_context",
+          "callee": "bc.close",
+          "lineNumber": 418
+        },
+        {
+          "caller": "send_message",
+          "callee": "import",
+          "lineNumber": 435
+        },
+        {
+          "caller": "send_message",
+          "callee": "get_chat_slice",
+          "lineNumber": 438
+        },
+        {
+          "caller": "send_message",
+          "callee": "content.trim",
+          "lineNumber": 439
+        },
+        {
+          "caller": "send_message",
+          "callee": "content.trim",
+          "lineNumber": 444
+        },
+        {
+          "caller": "send_message",
+          "callee": "content.trim",
+          "lineNumber": 451
+        },
+        {
+          "caller": "send_message",
+          "callee": "Date.now",
+          "lineNumber": 452
+        },
+        {
+          "caller": "send_message",
+          "callee": "Date.now",
+          "lineNumber": 460
+        },
+        {
+          "caller": "send_message",
+          "callee": "agent_from_provider",
+          "lineNumber": 469
+        },
+        {
+          "caller": "send_message",
+          "callee": "[\r\n        slice.structure_context.value,\r\n        slice.workflow_context.value,\r\n        slice.paper_context.value,\r\n      ].filter(Boolean).join",
+          "lineNumber": 477
+        },
+        {
+          "caller": "send_message",
+          "callee": "[\r\n        slice.structure_context.value,\r\n        slice.workflow_context.value,\r\n        slice.paper_context.value,\r\n      ].filter",
+          "lineNumber": 477
+        },
+        {
+          "caller": "send_message",
+          "callee": "build_sdk_system_prompt",
+          "lineNumber": 482
+        },
+        {
+          "caller": "send_message",
+          "callee": "stream_sdk_agent",
+          "lineNumber": 484
+        },
+        {
+          "caller": "send_message",
+          "callee": "content.trim",
+          "lineNumber": 486
+        },
+        {
+          "caller": "send_message",
+          "callee": "update_last_message",
+          "lineNumber": 502
+        },
+        {
+          "caller": "send_message",
+          "callee": "resolved_tool_name.includes",
+          "lineNumber": 541
+        },
+        {
+          "caller": "send_message",
+          "callee": "result_str.includes",
+          "lineNumber": 541
+        },
+        {
+          "caller": "send_message",
+          "callee": "result_str.includes",
+          "lineNumber": 541
+        },
+        {
+          "caller": "send_message",
+          "callee": "get_workflow_slice",
+          "lineNumber": 544
+        },
+        {
+          "caller": "send_message",
+          "callee": "result_str.match",
+          "lineNumber": 545
+        },
+        {
+          "caller": "send_message",
+          "callee": "record_session",
+          "lineNumber": 570
+        },
+        {
+          "caller": "send_message",
+          "callee": "finalize_stream_indicators",
+          "lineNumber": 578
+        },
+        {
+          "caller": "send_message",
+          "callee": "is_client_direct",
+          "lineNumber": 582
+        },
+        {
+          "caller": "send_message",
+          "callee": "[\r\n        slice.structure_context.value,\r\n        slice.workflow_context.value,\r\n        slice.paper_context.value,\r\n      ].filter(Boolean).join",
+          "lineNumber": 590
+        },
+        {
+          "caller": "send_message",
+          "callee": "[\r\n        slice.structure_context.value,\r\n        slice.workflow_context.value,\r\n        slice.paper_context.value,\r\n      ].filter",
+          "lineNumber": 590
+        },
+        {
+          "caller": "send_message",
+          "callee": "build_sdk_system_prompt",
+          "lineNumber": 595
+        },
+        {
+          "caller": "send_message",
+          "callee": "slice.messages.list.slice",
+          "lineNumber": 602
+        },
+        {
+          "caller": "send_message",
+          "callee": "run_tool_loop",
+          "lineNumber": 611
+        },
+        {
+          "caller": "send_message",
+          "callee": "stream_client_llm",
+          "lineNumber": 612
+        },
+        {
+          "caller": "send_message",
+          "callee": "resolve",
+          "lineNumber": 623
+        },
+        {
+          "caller": "send_message",
+          "callee": "resolve",
+          "lineNumber": 628
+        },
+        {
+          "caller": "on_abort",
+          "callee": "resolve",
+          "lineNumber": 632
+        },
+        {
+          "caller": "send_message",
+          "callee": "signal?.addEventListener",
+          "lineNumber": 633
+        },
+        {
+          "caller": "send_message",
+          "callee": "signal?.removeEventListener",
+          "lineNumber": 642
+        },
+        {
+          "caller": "send_message",
+          "callee": "resolve",
+          "lineNumber": 643
+        },
+        {
+          "caller": "send_message",
+          "callee": "update_last_message",
+          "lineNumber": 651
+        },
+        {
+          "caller": "send_message",
+          "callee": "tool_inputs.set",
+          "lineNumber": 654
+        },
+        {
+          "caller": "send_message",
+          "callee": "history.push",
+          "lineNumber": 672
+        },
+        {
+          "caller": "send_message",
+          "callee": "tool_inputs.get",
+          "lineNumber": 674
+        },
+        {
+          "caller": "send_message",
+          "callee": "Date.now",
+          "lineNumber": 675
+        },
+        {
+          "caller": "send_message",
+          "callee": "history.push",
+          "lineNumber": 677
+        },
+        {
+          "caller": "send_message",
+          "callee": "Date.now",
+          "lineNumber": 680
+        },
+        {
+          "caller": "send_message",
+          "callee": "finalize_stream_indicators",
+          "lineNumber": 688
+        },
+        {
+          "caller": "send_message",
+          "callee": "retrieve",
+          "lineNumber": 696
+        },
+        {
+          "caller": "send_message",
+          "callee": "[\r\n        slice.structure_context.value,\r\n        slice.workflow_context.value,\r\n        slice.paper_context.value,\r\n      ].filter(Boolean).join",
+          "lineNumber": 697
+        },
+        {
+          "caller": "send_message",
+          "callee": "[\r\n        slice.structure_context.value,\r\n        slice.workflow_context.value,\r\n        slice.paper_context.value,\r\n      ].filter",
+          "lineNumber": 697
+        },
+        {
+          "caller": "send_message",
+          "callee": "stream_chat",
+          "lineNumber": 703
+        },
+        {
+          "caller": "send_message",
+          "callee": "slice.messages.list.slice",
+          "lineNumber": 704
+        },
+        {
+          "caller": "send_message",
+          "callee": "update_last_message",
+          "lineNumber": 714
+        },
+        {
+          "caller": "send_message",
+          "callee": "msg.includes",
+          "lineNumber": 724
+        },
+        {
+          "caller": "send_message",
+          "callee": "msg.includes",
+          "lineNumber": 725
+        },
+        {
+          "caller": "send_message",
+          "callee": "msg.includes",
+          "lineNumber": 726
+        },
+        {
+          "caller": "send_message",
+          "callee": "SDK_PROVIDERS.has",
+          "lineNumber": 727
+        },
+        {
+          "caller": "send_message",
+          "callee": "get_display_text",
+          "lineNumber": 734
+        },
+        {
+          "caller": "send_message",
+          "callee": "slice.messages.list.slice",
+          "lineNumber": 736
+        },
+        {
+          "caller": "send_message",
+          "callee": "finalize_stream_indicators",
+          "lineNumber": 745
+        },
+        {
+          "caller": "send_message",
+          "callee": "agent_from_provider",
+          "lineNumber": 753
+        },
+        {
+          "caller": "send_message",
+          "callee": "persist_session_messages",
+          "lineNumber": 755
+        },
+        {
+          "caller": "send_message",
+          "callee": "queueMicrotask",
+          "lineNumber": 763
+        },
+        {
+          "caller": "send_message",
+          "callee": "send_message",
+          "lineNumber": 763
+        },
+        {
+          "caller": "cancel_generation",
+          "callee": "get_chat_slice",
+          "lineNumber": 805
+        },
+        {
+          "caller": "cancel_generation",
+          "callee": "slice.abort_controller?.abort",
+          "lineNumber": 809
+        },
+        {
+          "caller": "cancel_generation",
+          "callee": "pb.resolve",
+          "lineNumber": 818
+        },
+        {
+          "caller": "persist_session_list",
+          "callee": "save_to_storage",
+          "lineNumber": 832
+        },
+        {
+          "caller": "load_session_messages",
+          "callee": "load_from_storage",
+          "lineNumber": 850
+        },
+        {
+          "caller": "load_session_messages",
+          "callee": "Array.isArray",
+          "lineNumber": 851
+        },
+        {
+          "caller": "persist_session_messages",
+          "callee": "load_from_storage",
+          "lineNumber": 856
+        },
+        {
+          "caller": "persist_session_messages",
+          "callee": "messages.slice",
+          "lineNumber": 857
+        },
+        {
+          "caller": "persist_session_messages",
+          "callee": "save_to_storage",
+          "lineNumber": 858
+        },
+        {
+          "caller": "forget_session_messages",
+          "callee": "load_from_storage",
+          "lineNumber": 863
+        },
+        {
+          "caller": "forget_session_messages",
+          "callee": "save_to_storage",
+          "lineNumber": 866
+        },
+        {
+          "caller": "record_session",
+          "callee": "Date.now",
+          "lineNumber": 880
+        },
+        {
+          "caller": "record_session",
+          "callee": "(topic ?? ``).trim().slice",
+          "lineNumber": 881
+        },
+        {
+          "caller": "record_session",
+          "callee": "(topic ?? ``).trim",
+          "lineNumber": 881
+        },
+        {
+          "caller": "record_session",
+          "callee": "session_list.list.findIndex",
+          "lineNumber": 882
+        },
+        {
+          "caller": "record_session",
+          "callee": "persist_session_list",
+          "lineNumber": 908
+        },
+        {
+          "caller": "delete_session",
+          "callee": "session_list.list.filter",
+          "lineNumber": 913
+        },
+        {
+          "caller": "delete_session",
+          "callee": "persist_session_list",
+          "lineNumber": 914
+        },
+        {
+          "caller": "delete_session",
+          "callee": "forget_session_messages",
+          "lineNumber": 915
+        },
+        {
+          "caller": "resume_session",
+          "callee": "get_chat_slice",
+          "lineNumber": 925
+        },
+        {
+          "caller": "resume_session",
+          "callee": "clear_workflow_events",
+          "lineNumber": 928
+        },
+        {
+          "caller": "new_session",
+          "callee": "get_chat_slice",
+          "lineNumber": 935
+        },
+        {
+          "caller": "new_session",
+          "callee": "clear_workflow_events",
+          "lineNumber": 940
+        },
+        {
+          "caller": "new_session",
+          "callee": "Object.keys",
+          "lineNumber": 944
+        },
+        {
+          "caller": "clear_chat_history",
+          "callee": "get_chat_slice",
+          "lineNumber": 949
+        },
+        {
+          "caller": "clear_chat_history",
+          "callee": "clear_workflow_events",
+          "lineNumber": 954
+        },
+        {
+          "caller": "clear_chat_history",
+          "callee": "clear_agent_session",
+          "lineNumber": 955
+        }
+      ],
+      "metrics": {
+        "importCount": 10,
+        "exportCount": 27,
+        "functionCount": 30,
+        "classCount": 0
+      }
+    }
+  ]
+}

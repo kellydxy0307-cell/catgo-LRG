@@ -1,0 +1,622 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/catgo/routers/md_distances.py",
+      "type": "file",
+      "name": "md_distances.py",
+      "filePath": "server/catgo/routers/md_distances.py",
+      "summary": "md_distances.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_distances.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/md_dynamics.py",
+      "type": "file",
+      "name": "md_dynamics.py",
+      "filePath": "server/catgo/routers/md_dynamics.py",
+      "summary": "md_dynamics.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_dynamics.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/md_hbonds.py",
+      "type": "file",
+      "name": "md_hbonds.py",
+      "filePath": "server/catgo/routers/md_hbonds.py",
+      "summary": "md_hbonds.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_hbonds.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/md_orientation.py",
+      "type": "file",
+      "name": "md_orientation.py",
+      "filePath": "server/catgo/routers/md_orientation.py",
+      "summary": "md_orientation.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_orientation.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/md_rmsd.py",
+      "type": "file",
+      "name": "md_rmsd.py",
+      "filePath": "server/catgo/routers/md_rmsd.py",
+      "summary": "md_rmsd.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_rmsd.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/md_utils.py",
+      "type": "file",
+      "name": "md_utils.py",
+      "filePath": "server/catgo/routers/md_utils.py",
+      "summary": "md_utils.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/md_utils.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/mofdb.py",
+      "type": "file",
+      "name": "mofdb.py",
+      "filePath": "server/catgo/routers/mofdb.py",
+      "summary": "mofdb.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/mofdb.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/moire.py",
+      "type": "file",
+      "name": "moire.py",
+      "filePath": "server/catgo/routers/moire.py",
+      "summary": "moire.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/moire.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/nanotube.py",
+      "type": "file",
+      "name": "nanotube.py",
+      "filePath": "server/catgo/routers/nanotube.py",
+      "summary": "nanotube.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/nanotube.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/optimade.py",
+      "type": "file",
+      "name": "optimade.py",
+      "filePath": "server/catgo/routers/optimade.py",
+      "summary": "optimade.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/optimade.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/optimize_ws.py",
+      "type": "file",
+      "name": "optimize_ws.py",
+      "filePath": "server/catgo/routers/optimize_ws.py",
+      "summary": "optimize_ws.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/optimize_ws.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/optimize.py",
+      "type": "file",
+      "name": "optimize.py",
+      "filePath": "server/catgo/routers/optimize.py",
+      "summary": "optimize.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/optimize.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/orca.py",
+      "type": "file",
+      "name": "orca.py",
+      "filePath": "server/catgo/routers/orca.py",
+      "summary": "orca.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/orca.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/paper.py",
+      "type": "file",
+      "name": "paper.py",
+      "filePath": "server/catgo/routers/paper.py",
+      "summary": "paper.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/paper.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/plugins.py",
+      "type": "file",
+      "name": "plugins.py",
+      "filePath": "server/catgo/routers/plugins.py",
+      "summary": "plugins.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/plugins.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/pseudo_hydrogen.py",
+      "type": "file",
+      "name": "pseudo_hydrogen.py",
+      "filePath": "server/catgo/routers/pseudo_hydrogen.py",
+      "summary": "pseudo_hydrogen.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/pseudo_hydrogen.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/pty.py",
+      "type": "file",
+      "name": "pty.py",
+      "filePath": "server/catgo/routers/pty.py",
+      "summary": "pty.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/pty.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/pubchem.py",
+      "type": "file",
+      "name": "pubchem.py",
+      "filePath": "server/catgo/routers/pubchem.py",
+      "summary": "pubchem.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/pubchem.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/qe.py",
+      "type": "file",
+      "name": "qe.py",
+      "filePath": "server/catgo/routers/qe.py",
+      "summary": "qe.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/qe.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/quacc.py",
+      "type": "file",
+      "name": "quacc.py",
+      "filePath": "server/catgo/routers/quacc.py",
+      "summary": "quacc.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/quacc.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/reticular.py",
+      "type": "file",
+      "name": "reticular.py",
+      "filePath": "server/catgo/routers/reticular.py",
+      "summary": "reticular.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/reticular.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/skills.py",
+      "type": "file",
+      "name": "skills.py",
+      "filePath": "server/catgo/routers/skills.py",
+      "summary": "skills.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/skills.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/structure_ops.py",
+      "type": "file",
+      "name": "structure_ops.py",
+      "filePath": "server/catgo/routers/structure_ops.py",
+      "summary": "structure_ops.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/structure_ops.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/system.py",
+      "type": "file",
+      "name": "system.py",
+      "filePath": "server/catgo/routers/system.py",
+      "summary": "system.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/system.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/tool_bridge.py",
+      "type": "file",
+      "name": "tool_bridge.py",
+      "filePath": "server/catgo/routers/tool_bridge.py",
+      "summary": "tool_bridge.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/tool_bridge.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/catgo/routers/md_distances.py",
+      "target": "file:server/catgo/routers/md_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/md_dynamics.py",
+      "target": "file:server/catgo/routers/md_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/md_hbonds.py",
+      "target": "file:server/catgo/routers/md_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/md_orientation.py",
+      "target": "file:server/catgo/routers/md_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/md_rmsd.py",
+      "target": "file:server/catgo/routers/md_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/mofdb.py",
+      "target": "file:server/catgo/models/mofdb.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/mofdb.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/mofdb.py",
+      "target": "file:server/catgo/utils/mofdb_search.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/moire.py",
+      "target": "file:server/catgo/models/moire.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/moire.py",
+      "target": "file:server/catgo/utils/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/moire.py",
+      "target": "file:server/catgo/utils/moire_algorithm.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/nanotube.py",
+      "target": "file:server/catgo/models/nanotube.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/nanotube.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/nanotube.py",
+      "target": "file:server/catgo/utils/nanotube_algorithm.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/optimize_ws.py",
+      "target": "file:server/catgo/calculators/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/optimize_ws.py",
+      "target": "file:server/catgo/models/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/optimize_ws.py",
+      "target": "file:server/catgo/utils/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/optimize.py",
+      "target": "file:server/catgo/calculators/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/optimize.py",
+      "target": "file:server/catgo/models/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/optimize.py",
+      "target": "file:server/catgo/utils/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/orca.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/orca.py",
+      "target": "file:server/catgo/utils/orca_input.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/paper.py",
+      "target": "file:server/catgo/models/paper.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/plugins.py",
+      "target": "file:server/catgo/plugins/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/plugins.py",
+      "target": "file:server/catgo/plugins/base.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/pseudo_hydrogen.py",
+      "target": "file:server/catgo/models/pseudo_hydrogen.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/pseudo_hydrogen.py",
+      "target": "file:server/catgo/utils/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/pseudo_hydrogen.py",
+      "target": "file:server/catgo/utils/pseudo_hydrogen.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/qe.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/quacc.py",
+      "target": "file:server/catgo/converters/quacc/converter.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/quacc.py",
+      "target": "file:server/catgo/converters/quacc/templates.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/reticular.py",
+      "target": "file:server/catgo/models/reticular.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/reticular.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/reticular.py",
+      "target": "file:server/catgo/utils/reticular_algorithm.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/tool_bridge.py",
+      "target": "file:server/catgo/utils/workflow_db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/tool_bridge.py",
+      "target": "file:server/workflow/node_sets.py",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

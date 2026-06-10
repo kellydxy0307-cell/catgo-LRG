@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "extensions/vsepr-rs/README.md",
+      "language": "markdown",
+      "sizeLines": 107,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "extensions/vsepr-rs/src/forcefield.rs",
+      "language": "rust",
+      "sizeLines": 298,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/vsepr-rs/src/lib.rs",
+      "language": "rust",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/vsepr-rs/src/math.rs",
+      "language": "rust",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/vsepr-rs/src/optimizer.rs",
+      "language": "rust",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/vsepr-rs/src/traits.rs",
+      "language": "rust",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/vsepr-rs/src/vsepr.rs",
+      "language": "rust",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "patches/@openai__codex-sdk@0.132.0-alpha.1.patch",
+      "language": "patch",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "patches/three@0.181.2.patch",
+      "language": "patch",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "playwright.config.ts",
+      "language": "typescript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/bond-histogram/catgo-tool.json",
+      "language": "json",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "plugins/bond-histogram/plugin.py",
+      "language": "python",
+      "sizeLines": 85,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/bond-histogram/tool.py",
+      "language": "python",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/cp2k-dos-reader/catgo-tool.json",
+      "language": "json",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "plugins/cp2k-dos-reader/plugin.py",
+      "language": "python",
+      "sizeLines": 252,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/cp2k-dos-reader/tool.py",
+      "language": "python",
+      "sizeLines": 256,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/lammps-workflow/catgo-tool.json",
+      "language": "json",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "plugins/lammps-workflow/plugin.py",
+      "language": "python",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/lammps-workflow/tool.py",
+      "language": "python",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/lennard-jones-calculator/catgo-tool.json",
+      "language": "json",
+      "sizeLines": 9,
+      "fileCategory": "config"
+    },
+    {
+      "path": "plugins/lennard-jones-calculator/plugin.py",
+      "language": "python",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/lennard-jones-calculator/tool.py",
+      "language": "python",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "plugins/README.md",
+      "language": "markdown",
+      "sizeLines": 172,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "scripts/agent-dev.mjs",
+      "language": "javascript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "extensions/vsepr-rs/README.md": [],
+    "extensions/vsepr-rs/src/forcefield.rs": [],
+    "extensions/vsepr-rs/src/lib.rs": [],
+    "extensions/vsepr-rs/src/math.rs": [],
+    "extensions/vsepr-rs/src/optimizer.rs": [],
+    "extensions/vsepr-rs/src/traits.rs": [],
+    "extensions/vsepr-rs/src/vsepr.rs": [],
+    "patches/@openai__codex-sdk@0.132.0-alpha.1.patch": [],
+    "patches/three@0.181.2.patch": [],
+    "playwright.config.ts": [],
+    "plugins/.gitkeep": [],
+    "plugins/bond-histogram/catgo-tool.json": [],
+    "plugins/bond-histogram/plugin.py": [],
+    "plugins/bond-histogram/tool.py": [],
+    "plugins/cp2k-dos-reader/catgo-tool.json": [],
+    "plugins/cp2k-dos-reader/plugin.py": [],
+    "plugins/cp2k-dos-reader/tool.py": [],
+    "plugins/lammps-workflow/catgo-tool.json": [],
+    "plugins/lammps-workflow/plugin.py": [],
+    "plugins/lammps-workflow/tool.py": [],
+    "plugins/lennard-jones-calculator/catgo-tool.json": [],
+    "plugins/lennard-jones-calculator/plugin.py": [],
+    "plugins/lennard-jones-calculator/tool.py": [],
+    "plugins/README.md": [],
+    "scripts/agent-dev.mjs": []
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/composition/BarChart.svelte",
+      "language": "svelte",
+      "sizeLines": 305,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/composition/BubbleChart.svelte",
+      "language": "svelte",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/composition/Composition.svelte",
+      "language": "svelte",
+      "sizeLines": 164,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/composition/Formula.svelte",
+      "language": "svelte",
+      "sizeLines": 225,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/composition/index.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/composition/parse.ts",
+      "language": "typescript",
+      "sizeLines": 408,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/composition/PieChart.svelte",
+      "language": "svelte",
+      "sizeLines": 283,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/ConnectDialog.svelte",
+      "language": "svelte",
+      "sizeLines": 1061,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/constants.ts",
+      "language": "typescript",
+      "sizeLines": 135,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/ContextMenu.svelte",
+      "language": "svelte",
+      "sizeLines": 255,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/coordination/calc-coordination.ts",
+      "language": "typescript",
+      "sizeLines": 99,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/coordination/CoordinationBarPlot.svelte",
+      "language": "svelte",
+      "sizeLines": 327,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/coordination/index.ts",
+      "language": "typescript",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/css-utils.ts",
+      "language": "typescript",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/api.ts",
+      "language": "typescript",
+      "sizeLines": 187,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/client.ts",
+      "language": "typescript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/CubeControls.svelte",
+      "language": "svelte",
+      "sizeLines": 522,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/CubeScene.svelte",
+      "language": "svelte",
+      "sizeLines": 131,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/CubeViewer.svelte",
+      "language": "svelte",
+      "sizeLines": 252,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/index.ts",
+      "language": "typescript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/IsosurfaceMesh.svelte",
+      "language": "svelte",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/marching-cubes.ts",
+      "language": "typescript",
+      "sizeLines": 730,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/marching-cubes.worker.ts",
+      "language": "typescript",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/parse-cube.ts",
+      "language": "typescript",
+      "sizeLines": 245,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/cube/slice.ts",
+      "language": "typescript",
+      "sizeLines": 477,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/composition/BarChart.svelte": [],
+    "src/lib/composition/BubbleChart.svelte": [],
+    "src/lib/composition/Composition.svelte": [],
+    "src/lib/composition/Formula.svelte": [],
+    "src/lib/composition/index.ts": [],
+    "src/lib/composition/parse.ts": [],
+    "src/lib/composition/PieChart.svelte": [],
+    "src/lib/ConnectDialog.svelte": [],
+    "src/lib/constants.ts": [],
+    "src/lib/ContextMenu.svelte": [],
+    "src/lib/coordination/calc-coordination.ts": [],
+    "src/lib/coordination/CoordinationBarPlot.svelte": [],
+    "src/lib/coordination/index.ts": [],
+    "src/lib/css-utils.ts": [],
+    "src/lib/cube/api.ts": [],
+    "src/lib/cube/client.ts": [],
+    "src/lib/cube/CubeControls.svelte": [],
+    "src/lib/cube/CubeScene.svelte": [],
+    "src/lib/cube/CubeViewer.svelte": [],
+    "src/lib/cube/index.ts": [],
+    "src/lib/cube/IsosurfaceMesh.svelte": [],
+    "src/lib/cube/marching-cubes.ts": [],
+    "src/lib/cube/marching-cubes.worker.ts": [],
+    "src/lib/cube/parse-cube.ts": [],
+    "src/lib/cube/slice.ts": []
+  }
+}

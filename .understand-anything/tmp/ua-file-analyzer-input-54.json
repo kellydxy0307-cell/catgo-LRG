@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "extensions/catrender-wasm/src/vdw.rs",
+      "language": "rust",
+      "sizeLines": 152,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/chgdiff-wasm/Cargo.toml",
+      "language": "toml",
+      "sizeLines": 17,
+      "fileCategory": "config"
+    },
+    {
+      "path": "extensions/chgdiff-wasm/src/lib.rs",
+      "language": "rust",
+      "sizeLines": 441,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/cohp-analysis/catgo_cohp/__init__.py",
+      "language": "python",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/cohp-analysis/catgo_cohp/analysis.py",
+      "language": "python",
+      "sizeLines": 396,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/cohp-analysis/catgo_cohp/io.py",
+      "language": "python",
+      "sizeLines": 524,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/cohp-analysis/README.md",
+      "language": "markdown",
+      "sizeLines": 13,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "extensions/dos-analysis/catgo_dos/__init__.py",
+      "language": "python",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/dos-analysis/catgo_dos/dband.py",
+      "language": "python",
+      "sizeLines": 403,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/dos-analysis/catgo_dos/io.py",
+      "language": "python",
+      "sizeLines": 485,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/dos-analysis/catgo_dos/orbital.py",
+      "language": "python",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/dos-analysis/catgo_dos/pdos.py",
+      "language": "python",
+      "sizeLines": 322,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/dos-analysis/catgo_dos/selection.py",
+      "language": "python",
+      "sizeLines": 180,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/dos-analysis/pyproject.toml",
+      "language": "toml",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": "extensions/dos-analysis/README.md",
+      "language": "markdown",
+      "sizeLines": 14,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "extensions/rust-wasm/package.json",
+      "language": "json",
+      "sizeLines": 25,
+      "fileCategory": "config"
+    },
+    {
+      "path": "extensions/rust/benches/matcher_bench.rs",
+      "language": "rust",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/python/ferrox/__init__.py",
+      "language": "python",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/adsorbate.rs",
+      "language": "rust",
+      "sizeLines": 1001,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/algorithms/enumerate.rs",
+      "language": "rust",
+      "sizeLines": 848,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/algorithms/ewald.rs",
+      "language": "rust",
+      "sizeLines": 1094,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/algorithms/mod.rs",
+      "language": "rust",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/alpha_shape.rs",
+      "language": "rust",
+      "sizeLines": 1605,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/atomic_scattering_params.json",
+      "language": "json",
+      "sizeLines": 101,
+      "fileCategory": "config"
+    },
+    {
+      "path": "extensions/rust/src/batch.rs",
+      "language": "rust",
+      "sizeLines": 839,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "extensions/catrender-wasm/src/vdw.rs": [],
+    "extensions/chgdiff-wasm/Cargo.toml": [],
+    "extensions/chgdiff-wasm/src/lib.rs": [],
+    "extensions/cohp-analysis/catgo_cohp/__init__.py": [],
+    "extensions/cohp-analysis/catgo_cohp/analysis.py": [],
+    "extensions/cohp-analysis/catgo_cohp/io.py": [],
+    "extensions/cohp-analysis/README.md": [],
+    "extensions/dos-analysis/catgo_dos/__init__.py": [],
+    "extensions/dos-analysis/catgo_dos/dband.py": [],
+    "extensions/dos-analysis/catgo_dos/io.py": [],
+    "extensions/dos-analysis/catgo_dos/orbital.py": [],
+    "extensions/dos-analysis/catgo_dos/pdos.py": [],
+    "extensions/dos-analysis/catgo_dos/selection.py": [],
+    "extensions/dos-analysis/pyproject.toml": [],
+    "extensions/dos-analysis/README.md": [],
+    "extensions/rust-wasm/package.json": [],
+    "extensions/rust/benches/matcher_bench.rs": [],
+    "extensions/rust/python/ferrox/__init__.py": [],
+    "extensions/rust/src/adsorbate.rs": [],
+    "extensions/rust/src/algorithms/enumerate.rs": [],
+    "extensions/rust/src/algorithms/ewald.rs": [],
+    "extensions/rust/src/algorithms/mod.rs": [],
+    "extensions/rust/src/alpha_shape.rs": [],
+    "extensions/rust/src/atomic_scattering_params.json": [],
+    "extensions/rust/src/batch.rs": []
+  }
+}

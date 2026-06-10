@@ -1,0 +1,232 @@
+{
+    "projectRoot":  "D:/catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  ".claude/skills/_shared/orca_opi.py",
+                           "language":  "python",
+                           "sizeLines":  198,
+                           "fileCategory":  "code"
+                       },
+                       {
+                           "path":  ".claude/skills/abinit/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  162,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/adsorption-energy/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  202,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/antechamber/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  151,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/charge-analysis/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  198,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/co2rr/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  263,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/cohp/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  199,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/convergence-test/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  200,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/cp2k-relax/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  206,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/cp2k-static/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  188,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/deepmd-inference/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  134,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/deepmd-train/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  174,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/dftbplus/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  159,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/dos-analysis/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  209,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/dpdata/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  156,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/energy-diagram/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  224,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/gaussian/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  141,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/gibbs/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  193,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/gpaw/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  139,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/her/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  233,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/knowledge-keeper/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  52,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/lammps-deepmd/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  147,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/lammps-reaxff/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  150,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/lammps-validate/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  151,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  ".claude/skills/lammps/SKILL.md",
+                           "language":  "markdown",
+                           "sizeLines":  55,
+                           "fileCategory":  "docs"
+                       }
+                   ],
+    "batchImportData":  {
+                            ".claude/skills/_shared/orca_opi.py":  [
+
+                                                                   ],
+                            ".claude/skills/abinit/SKILL.md":  [
+
+                                                               ],
+                            ".claude/skills/adsorption-energy/SKILL.md":  [
+
+                                                                          ],
+                            ".claude/skills/antechamber/SKILL.md":  [
+
+                                                                    ],
+                            ".claude/skills/charge-analysis/SKILL.md":  [
+
+                                                                        ],
+                            ".claude/skills/co2rr/SKILL.md":  [
+
+                                                              ],
+                            ".claude/skills/cohp/SKILL.md":  [
+
+                                                             ],
+                            ".claude/skills/convergence-test/SKILL.md":  [
+
+                                                                         ],
+                            ".claude/skills/cp2k-relax/SKILL.md":  [
+
+                                                                   ],
+                            ".claude/skills/cp2k-static/SKILL.md":  [
+
+                                                                    ],
+                            ".claude/skills/deepmd-inference/SKILL.md":  [
+
+                                                                         ],
+                            ".claude/skills/deepmd-train/SKILL.md":  [
+
+                                                                     ],
+                            ".claude/skills/dftbplus/SKILL.md":  [
+
+                                                                 ],
+                            ".claude/skills/dos-analysis/SKILL.md":  [
+
+                                                                     ],
+                            ".claude/skills/dpdata/SKILL.md":  [
+
+                                                               ],
+                            ".claude/skills/energy-diagram/SKILL.md":  [
+
+                                                                       ],
+                            ".claude/skills/gaussian/SKILL.md":  [
+
+                                                                 ],
+                            ".claude/skills/gibbs/SKILL.md":  [
+
+                                                              ],
+                            ".claude/skills/gpaw/SKILL.md":  [
+
+                                                             ],
+                            ".claude/skills/her/SKILL.md":  [
+
+                                                            ],
+                            ".claude/skills/knowledge-keeper/SKILL.md":  [
+
+                                                                         ],
+                            ".claude/skills/lammps-deepmd/SKILL.md":  [
+
+                                                                      ],
+                            ".claude/skills/lammps-reaxff/SKILL.md":  [
+
+                                                                      ],
+                            ".claude/skills/lammps-validate/SKILL.md":  [
+
+                                                                        ],
+                            ".claude/skills/lammps/SKILL.md":  [
+
+                                                               ]
+                        }
+}

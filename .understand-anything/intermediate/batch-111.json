@@ -1,0 +1,695 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/vitest/desktop/sidebar-utils.test.ts",
+      "type": "file",
+      "name": "sidebar-utils.test.ts",
+      "filePath": "tests/vitest/desktop/sidebar-utils.test.ts",
+      "summary": "sidebar-utils.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/desktop/sidebar-utils.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "前端",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/DraggablePane.test.svelte.ts",
+      "type": "file",
+      "name": "DraggablePane.test.svelte.ts",
+      "filePath": "tests/vitest/DraggablePane.test.svelte.ts",
+      "summary": "DraggablePane.test.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/DraggablePane.test.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/element/BohrAtom.test.ts",
+      "type": "file",
+      "name": "BohrAtom.test.ts",
+      "filePath": "tests/vitest/element/BohrAtom.test.ts",
+      "summary": "BohrAtom.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/element/BohrAtom.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/element/data.test.ts",
+      "type": "file",
+      "name": "data.test.ts",
+      "filePath": "tests/vitest/element/data.test.ts",
+      "summary": "data.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/element/data.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/element/ElementStats.test.ts",
+      "type": "file",
+      "name": "ElementStats.test.ts",
+      "filePath": "tests/vitest/element/ElementStats.test.ts",
+      "summary": "ElementStats.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/element/ElementStats.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/FilePicker.test.ts",
+      "type": "file",
+      "name": "FilePicker.test.ts",
+      "filePath": "tests/vitest/FilePicker.test.ts",
+      "summary": "FilePicker.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/FilePicker.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/fixtures/xrd/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "tests/vitest/fixtures/xrd/index.ts",
+      "summary": "index.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/fixtures/xrd/index.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/fixtures/xrd/structs_to_rxd.py",
+      "type": "file",
+      "name": "structs_to_rxd.py",
+      "filePath": "tests/vitest/fixtures/xrd/structs_to_rxd.py",
+      "summary": "structs_to_rxd.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/vitest/fixtures/xrd/structs_to_rxd.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/generate_bz_reference_data.py",
+      "type": "file",
+      "name": "generate_bz_reference_data.py",
+      "filePath": "tests/vitest/generate_bz_reference_data.py",
+      "summary": "generate_bz_reference_data.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/vitest/generate_bz_reference_data.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/index.test.ts",
+      "type": "file",
+      "name": "index.test.ts",
+      "filePath": "tests/vitest/index.test.ts",
+      "summary": "index.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/index.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/io/export.test.ts",
+      "type": "file",
+      "name": "export.test.ts",
+      "filePath": "tests/vitest/io/export.test.ts",
+      "summary": "export.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/io/export.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/io/fetch.test.ts",
+      "type": "file",
+      "name": "fetch.test.ts",
+      "filePath": "tests/vitest/io/fetch.test.ts",
+      "summary": "fetch.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/io/fetch.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/io/index.test.ts",
+      "type": "file",
+      "name": "index.test.ts",
+      "filePath": "tests/vitest/io/index.test.ts",
+      "summary": "index.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/io/index.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/io/vasp-input.test.ts",
+      "type": "file",
+      "name": "vasp-input.test.ts",
+      "filePath": "tests/vitest/io/vasp-input.test.ts",
+      "summary": "vasp-input.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/io/vasp-input.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/labels.test.ts",
+      "type": "file",
+      "name": "labels.test.ts",
+      "filePath": "tests/vitest/labels.test.ts",
+      "summary": "labels.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/labels.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/math.test.ts",
+      "type": "file",
+      "name": "math.test.ts",
+      "filePath": "tests/vitest/math.test.ts",
+      "summary": "math.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/math.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/Nav.test.ts",
+      "type": "file",
+      "name": "Nav.test.ts",
+      "filePath": "tests/vitest/Nav.test.ts",
+      "summary": "Nav.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/Nav.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/periodic-table/ElementTile.test.ts",
+      "type": "file",
+      "name": "ElementTile.test.ts",
+      "filePath": "tests/vitest/periodic-table/ElementTile.test.ts",
+      "summary": "ElementTile.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/periodic-table/ElementTile.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/periodic-table/PeriodicTable.test.svelte.ts",
+      "type": "file",
+      "name": "PeriodicTable.test.svelte.ts",
+      "filePath": "tests/vitest/periodic-table/PeriodicTable.test.svelte.ts",
+      "summary": "PeriodicTable.test.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/periodic-table/PeriodicTable.test.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/phase-diagram/barycentric-coords.test.ts",
+      "type": "file",
+      "name": "barycentric-coords.test.ts",
+      "filePath": "tests/vitest/phase-diagram/barycentric-coords.test.ts",
+      "summary": "barycentric-coords.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/phase-diagram/barycentric-coords.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/phase-diagram/helpers.test.ts",
+      "type": "file",
+      "name": "helpers.test.ts",
+      "filePath": "tests/vitest/phase-diagram/helpers.test.ts",
+      "summary": "helpers.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/phase-diagram/helpers.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/phase-diagram/thermodynamics.test.ts",
+      "type": "file",
+      "name": "thermodynamics.test.ts",
+      "filePath": "tests/vitest/phase-diagram/thermodynamics.test.ts",
+      "summary": "thermodynamics.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/phase-diagram/thermodynamics.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/phase-diagram/types.test.ts",
+      "type": "file",
+      "name": "types.test.ts",
+      "filePath": "tests/vitest/phase-diagram/types.test.ts",
+      "summary": "types.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/phase-diagram/types.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/BarPlot.test.ts",
+      "type": "file",
+      "name": "BarPlot.test.ts",
+      "filePath": "tests/vitest/plot/BarPlot.test.ts",
+      "summary": "BarPlot.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/BarPlot.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/ColorBar.test.ts",
+      "type": "file",
+      "name": "ColorBar.test.ts",
+      "filePath": "tests/vitest/plot/ColorBar.test.ts",
+      "summary": "ColorBar.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/ColorBar.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tests/vitest/desktop/sidebar-utils.test.ts",
+      "target": "file:desktop/sidebar-utils.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/DraggablePane.test.svelte.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/DraggablePane.test.svelte.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/element/BohrAtom.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/element/BohrAtom.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/element/data.test.ts",
+      "target": "file:src/lib/element/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/element/data.test.ts",
+      "target": "file:src/lib/labels.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/element/ElementStats.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/element/ElementStats.test.ts",
+      "target": "file:src/lib/labels.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/element/ElementStats.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/FilePicker.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/FilePicker.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/fixtures/xrd/index.ts",
+      "target": "file:src/lib/xrd/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/index.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/index.test.ts",
+      "target": "file:src/lib/labels.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/io/export.test.ts",
+      "target": "file:src/lib/io/export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/io/export.test.ts",
+      "target": "file:src/lib/io/fetch.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/io/export.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/io/fetch.test.ts",
+      "target": "file:src/lib/io/fetch.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/io/index.test.ts",
+      "target": "file:src/lib/io/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/io/vasp-input.test.ts",
+      "target": "file:src/lib/io/vasp-input.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/labels.test.ts",
+      "target": "file:src/lib/element/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/labels.test.ts",
+      "target": "file:src/lib/labels.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/math.test.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/Nav.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/Nav.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/periodic-table/ElementTile.test.ts",
+      "target": "file:src/lib/colors/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/periodic-table/ElementTile.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/periodic-table/ElementTile.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/periodic-table/PeriodicTable.test.svelte.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/periodic-table/PeriodicTable.test.svelte.ts",
+      "target": "file:src/lib/labels.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/periodic-table/PeriodicTable.test.svelte.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/barycentric-coords.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/barycentric-coords.test.ts",
+      "target": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/barycentric-coords.test.ts",
+      "target": "file:src/lib/phase-diagram/types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/helpers.test.ts",
+      "target": "file:src/lib/colors/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/helpers.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/helpers.test.ts",
+      "target": "file:src/lib/phase-diagram/helpers.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/helpers.test.ts",
+      "target": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/helpers.test.ts",
+      "target": "file:src/lib/phase-diagram/types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/thermodynamics.test.ts",
+      "target": "file:src/lib/phase-diagram/thermodynamics.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/thermodynamics.test.ts",
+      "target": "file:src/lib/phase-diagram/types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/phase-diagram/types.test.ts",
+      "target": "file:src/lib/phase-diagram/types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/BarPlot.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/BarPlot.test.ts",
+      "target": "file:src/lib/plot/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ColorBar.test.ts",
+      "target": "file:src/lib/colors/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ColorBar.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/plot/ColorBar.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

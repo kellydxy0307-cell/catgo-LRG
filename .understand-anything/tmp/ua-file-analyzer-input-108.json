@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "tests/fidelity/structures/ethylene.xyz",
+      "language": "xyz",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/fidelity/structures/ferrocene.xyz",
+      "language": "xyz",
+      "sizeLines": 23,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/fidelity/structures/mgo_slab.xyz",
+      "language": "xyz",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/fidelity/structures/water.xyz",
+      "language": "xyz",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/manual/test_phase3_api.py",
+      "language": "python",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/bands/bands-and-dos.test.ts",
+      "language": "typescript",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/bands/bands.test.ts",
+      "language": "typescript",
+      "sizeLines": 242,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/bands/brillouin-bands-dos.test.ts",
+      "language": "typescript",
+      "sizeLines": 344,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/bands/dos.test.ts",
+      "language": "typescript",
+      "sizeLines": 331,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/bohr-atoms.test.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/brillouin-zone.test.ts",
+      "language": "typescript",
+      "sizeLines": 247,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/constants.ts",
+      "language": "typescript",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/element-detail-pages.test.ts",
+      "language": "typescript",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/helpers.ts",
+      "language": "typescript",
+      "sizeLines": 81,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/helpers/project_to_pixel.test.ts",
+      "language": "typescript",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/helpers/project_to_pixel.ts",
+      "language": "typescript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/optimade.test.ts",
+      "language": "typescript",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/periodic-table.test.ts",
+      "language": "typescript",
+      "sizeLines": 346,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/phase-diagram/phase-diagram-2d.test.ts",
+      "language": "typescript",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/phase-diagram/phase-diagram-3d.test.ts",
+      "language": "typescript",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/phase-diagram/phase-diagram-4d.test.ts",
+      "language": "typescript",
+      "sizeLines": 361,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/phase-diagram/utils.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/plot/bar-plot.test.ts",
+      "language": "typescript",
+      "sizeLines": 442,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/plot/colorbar.test.ts",
+      "language": "typescript",
+      "sizeLines": 266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/playwright/plot/histogram.test.ts",
+      "language": "typescript",
+      "sizeLines": 1695,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "tests/fidelity/structures/ethylene.xyz": [],
+    "tests/fidelity/structures/ferrocene.xyz": [],
+    "tests/fidelity/structures/mgo_slab.xyz": [],
+    "tests/fidelity/structures/water.xyz": [],
+    "tests/manual/test_phase3_api.py": [],
+    "tests/playwright/bands/bands-and-dos.test.ts": [],
+    "tests/playwright/bands/bands.test.ts": [],
+    "tests/playwright/bands/brillouin-bands-dos.test.ts": [],
+    "tests/playwright/bands/dos.test.ts": [],
+    "tests/playwright/bohr-atoms.test.ts": [],
+    "tests/playwright/brillouin-zone.test.ts": [],
+    "tests/playwright/constants.ts": [],
+    "tests/playwright/element-detail-pages.test.ts": [],
+    "tests/playwright/helpers.ts": [],
+    "tests/playwright/helpers/project_to_pixel.test.ts": [],
+    "tests/playwright/helpers/project_to_pixel.ts": [],
+    "tests/playwright/optimade.test.ts": [],
+    "tests/playwright/periodic-table.test.ts": [],
+    "tests/playwright/phase-diagram/phase-diagram-2d.test.ts": [],
+    "tests/playwright/phase-diagram/phase-diagram-3d.test.ts": [],
+    "tests/playwright/phase-diagram/phase-diagram-4d.test.ts": [],
+    "tests/playwright/phase-diagram/utils.ts": [],
+    "tests/playwright/plot/bar-plot.test.ts": [],
+    "tests/playwright/plot/colorbar.test.ts": [],
+    "tests/playwright/plot/histogram.test.ts": []
+  }
+}

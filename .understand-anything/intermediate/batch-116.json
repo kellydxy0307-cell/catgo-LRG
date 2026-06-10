@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "file:tools/cube-processor/src/marching_cubes.rs",
+      "type": "file",
+      "name": "marching_cubes.rs",
+      "filePath": "tools/cube-processor/src/marching_cubes.rs",
+      "summary": "marching_cubes.rs 是 CatGo 项目中的代码文件，使用 rust，位于 tools/cube-processor/src/marching_cubes.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:tools/cube-processor/src/slice.rs",
+      "type": "file",
+      "name": "slice.rs",
+      "filePath": "tools/cube-processor/src/slice.rs",
+      "summary": "slice.rs 是 CatGo 项目中的代码文件，使用 rust，位于 tools/cube-processor/src/slice.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:vite-plugin-agent-bridge.ts",
+      "type": "file",
+      "name": "vite-plugin-agent-bridge.ts",
+      "filePath": "vite-plugin-agent-bridge.ts",
+      "summary": "vite-plugin-agent-bridge.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 vite-plugin-agent-bridge.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:vite.desktop.config.ts",
+      "type": "file",
+      "name": "vite.desktop.config.ts",
+      "filePath": "vite.desktop.config.ts",
+      "summary": "vite.desktop.config.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 vite.desktop.config.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:vite.shared.ts",
+      "type": "file",
+      "name": "vite.shared.ts",
+      "filePath": "vite.shared.ts",
+      "summary": "vite.shared.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 vite.shared.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:vitest.config.ts",
+      "type": "file",
+      "name": "vitest.config.ts",
+      "filePath": "vitest.config.ts",
+      "summary": "vitest.config.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 vitest.config.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "config:workers/cors-relay/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "workers/cors-relay/package.json",
+      "summary": "package.json 是 CatGo 项目中的配置文件，使用 json，位于 workers/cors-relay/package.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:workers/cors-relay/src/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "workers/cors-relay/src/index.ts",
+      "summary": "index.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 workers/cors-relay/src/index.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:workers/cors-relay/test/relay.test.ts",
+      "type": "file",
+      "name": "relay.test.ts",
+      "filePath": "workers/cors-relay/test/relay.test.ts",
+      "summary": "relay.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 workers/cors-relay/test/relay.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:workers/cors-relay/vitest.config.ts",
+      "type": "file",
+      "name": "vitest.config.ts",
+      "filePath": "workers/cors-relay/vitest.config.ts",
+      "summary": "vitest.config.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 workers/cors-relay/vitest.config.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "config:workers/cors-relay/wrangler.relay.toml",
+      "type": "config",
+      "name": "wrangler.relay.toml",
+      "filePath": "workers/cors-relay/wrangler.relay.toml",
+      "summary": "wrangler.relay.toml 是 CatGo 项目中的配置文件，使用 toml，位于 workers/cors-relay/wrangler.relay.toml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "toml"
+      ],
+      "complexity": "simple",
+      "language": "toml",
+      "languageNotes": "此节点以中文概述，保留必要的 toml 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tools/cube-processor/src/marching_cubes.rs",
+      "target": "file:tools/cube-processor/src/cube.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/slice.rs",
+      "target": "file:tools/cube-processor/src/cube.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:vite.desktop.config.ts",
+      "target": "file:vite-plugin-agent-bridge.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:vite.desktop.config.ts",
+      "target": "file:vite.shared.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:vitest.config.ts",
+      "target": "file:vite.shared.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:workers/cors-relay/test/relay.test.ts",
+      "target": "file:workers/cors-relay/src/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

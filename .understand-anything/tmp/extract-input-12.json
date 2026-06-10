@@ -1,0 +1,42 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "docs/guide/catbot.md",
+      "language": "markdown",
+      "sizeLines": 74,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/guide/gallery.md",
+      "language": "markdown",
+      "sizeLines": 126,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/guide/installation.md",
+      "language": "markdown",
+      "sizeLines": 158,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/guide/overview.md",
+      "language": "markdown",
+      "sizeLines": 138,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/guide/tips-and-tricks.md",
+      "language": "markdown",
+      "sizeLines": 201,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "docs/guide/catbot.md": [],
+    "docs/guide/gallery.md": [],
+    "docs/guide/installation.md": [],
+    "docs/guide/overview.md": [],
+    "docs/guide/tips-and-tricks.md": []
+  }
+}

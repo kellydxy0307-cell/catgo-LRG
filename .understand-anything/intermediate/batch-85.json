@@ -1,0 +1,434 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/cube/SlicePanel.svelte",
+      "type": "file",
+      "name": "SlicePanel.svelte",
+      "filePath": "src/lib/cube/SlicePanel.svelte",
+      "summary": "实现Svelte UI相关的 SlicePanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/cube/SlicePlane.svelte",
+      "type": "file",
+      "name": "SlicePlane.svelte",
+      "filePath": "src/lib/cube/SlicePlane.svelte",
+      "summary": "实现Svelte UI相关的 SlicePlane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/DiagnosticsPanel.svelte",
+      "type": "file",
+      "name": "DiagnosticsPanel.svelte",
+      "filePath": "src/lib/DiagnosticsPanel.svelte",
+      "summary": "实现Svelte UI相关的 DiagnosticsPanel.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/DraggablePane.svelte",
+      "type": "file",
+      "name": "DraggablePane.svelte",
+      "filePath": "src/lib/DraggablePane.svelte",
+      "summary": "实现Svelte UI相关的 DraggablePane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/band_types.ts",
+      "type": "file",
+      "name": "band_types.ts",
+      "filePath": "src/lib/electronic/band_types.ts",
+      "summary": "实现项目相关的 band_types.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/BandAnalysisPane.svelte",
+      "type": "file",
+      "name": "BandAnalysisPane.svelte",
+      "filePath": "src/lib/electronic/BandAnalysisPane.svelte",
+      "summary": "实现Svelte UI相关的 BandAnalysisPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/BandPlot.svelte",
+      "type": "file",
+      "name": "BandPlot.svelte",
+      "filePath": "src/lib/electronic/BandPlot.svelte",
+      "summary": "实现Svelte UI相关的 BandPlot.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/ChargeAnalysisPane.svelte",
+      "type": "file",
+      "name": "ChargeAnalysisPane.svelte",
+      "filePath": "src/lib/electronic/ChargeAnalysisPane.svelte",
+      "summary": "实现Svelte UI相关的 ChargeAnalysisPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/chgdiff-wasm.ts",
+      "type": "file",
+      "name": "chgdiff-wasm.ts",
+      "filePath": "src/lib/electronic/chgdiff-wasm.ts",
+      "summary": "实现项目相关的 chgdiff-wasm.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 3 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/electronic/chgdiff-wasm.ts:ensure_ready",
+      "type": "function",
+      "name": "ensure_ready",
+      "filePath": "src/lib/electronic/chgdiff-wasm.ts",
+      "lineRange": [
+        31,
+        62
+      ],
+      "summary": "封装项目模块中的 ensure_ready 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/electronic/chgdiff-wasm.ts:compute_chgdiff",
+      "type": "function",
+      "name": "compute_chgdiff",
+      "filePath": "src/lib/electronic/chgdiff-wasm.ts",
+      "lineRange": [
+        71,
+        78
+      ],
+      "summary": "封装项目模块中的 compute_chgdiff 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/electronic/chgdiff-wasm.ts:chgcar_to_cube",
+      "type": "function",
+      "name": "chgcar_to_cube",
+      "filePath": "src/lib/electronic/chgdiff-wasm.ts",
+      "lineRange": [
+        88,
+        91
+      ],
+      "summary": "封装项目模块中的 chgcar_to_cube 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/electronic/cohp_types.ts",
+      "type": "file",
+      "name": "cohp_types.ts",
+      "filePath": "src/lib/electronic/cohp_types.ts",
+      "summary": "实现项目相关的 cohp_types.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/CohpAnalysisPane.svelte",
+      "type": "file",
+      "name": "CohpAnalysisPane.svelte",
+      "filePath": "src/lib/electronic/CohpAnalysisPane.svelte",
+      "summary": "实现Svelte UI相关的 CohpAnalysisPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/CohpPlot.svelte",
+      "type": "file",
+      "name": "CohpPlot.svelte",
+      "filePath": "src/lib/electronic/CohpPlot.svelte",
+      "summary": "实现Svelte UI相关的 CohpPlot.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/DosAnalysisPane.svelte",
+      "type": "file",
+      "name": "DosAnalysisPane.svelte",
+      "filePath": "src/lib/electronic/DosAnalysisPane.svelte",
+      "summary": "实现Svelte UI相关的 DosAnalysisPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/DosPlot.svelte",
+      "type": "file",
+      "name": "DosPlot.svelte",
+      "filePath": "src/lib/electronic/DosPlot.svelte",
+      "summary": "实现Svelte UI相关的 DosPlot.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/DosPlotWindow.svelte",
+      "type": "file",
+      "name": "DosPlotWindow.svelte",
+      "filePath": "src/lib/electronic/DosPlotWindow.svelte",
+      "summary": "实现Svelte UI相关的 DosPlotWindow.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/FileSourceDialog.svelte",
+      "type": "file",
+      "name": "FileSourceDialog.svelte",
+      "filePath": "src/lib/electronic/FileSourceDialog.svelte",
+      "summary": "实现Svelte UI相关的 FileSourceDialog.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/FreqAnalysisPane.svelte",
+      "type": "file",
+      "name": "FreqAnalysisPane.svelte",
+      "filePath": "src/lib/electronic/FreqAnalysisPane.svelte",
+      "summary": "实现Svelte UI相关的 FreqAnalysisPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/electronic/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/plotly.d.ts",
+      "type": "file",
+      "name": "plotly.d.ts",
+      "filePath": "src/lib/electronic/plotly.d.ts",
+      "summary": "实现项目相关的 plotly.d.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/electronic/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "src/lib/electronic/types.ts",
+      "summary": "实现项目相关的 types.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/element/BohrAtom.svelte",
+      "type": "file",
+      "name": "BohrAtom.svelte",
+      "filePath": "src/lib/element/BohrAtom.svelte",
+      "summary": "实现Svelte UI相关的 BohrAtom.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "config:src/lib/element/bond_lengths.json",
+      "type": "config",
+      "name": "bond_lengths.json",
+      "filePath": "src/lib/element/bond_lengths.json",
+      "summary": "配置项目相关构建、运行或工具链参数，影响项目中对应模块的解析与执行方式。",
+      "tags": [
+        "configuration",
+        "build-system",
+        "项目"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/element/covalent_radii.d.ts",
+      "type": "file",
+      "name": "covalent_radii.d.ts",
+      "filePath": "src/lib/element/covalent_radii.d.ts",
+      "summary": "实现项目相关的 covalent_radii.d.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/element/data.ts",
+      "type": "file",
+      "name": "data.ts",
+      "filePath": "src/lib/element/data.ts",
+      "summary": "实现项目相关的 data.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/element/ElementHeading.svelte",
+      "type": "file",
+      "name": "ElementHeading.svelte",
+      "filePath": "src/lib/element/ElementHeading.svelte",
+      "summary": "实现Svelte UI相关的 ElementHeading.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/electronic/chgdiff-wasm.ts",
+      "target": "function:src/lib/electronic/chgdiff-wasm.ts:ensure_ready",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/electronic/chgdiff-wasm.ts",
+      "target": "function:src/lib/electronic/chgdiff-wasm.ts:compute_chgdiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/electronic/chgdiff-wasm.ts",
+      "target": "function:src/lib/electronic/chgdiff-wasm.ts:chgcar_to_cube",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/electronic/chgdiff-wasm.ts",
+      "target": "function:src/lib/electronic/chgdiff-wasm.ts:compute_chgdiff",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/electronic/chgdiff-wasm.ts",
+      "target": "function:src/lib/electronic/chgdiff-wasm.ts:chgcar_to_cube",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

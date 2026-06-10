@@ -1,0 +1,680 @@
+{
+  "nodes": [
+    {
+      "id": "file:extensions/uff-relax/src/math.rs",
+      "type": "file",
+      "name": "math.rs",
+      "filePath": "extensions/uff-relax/src/math.rs",
+      "summary": "math.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/uff-relax/src/math.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/uff-relax/src/optimizer.rs",
+      "type": "file",
+      "name": "optimizer.rs",
+      "filePath": "extensions/uff-relax/src/optimizer.rs",
+      "summary": "optimizer.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/uff-relax/src/optimizer.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/uff-relax/src/params/data.rs",
+      "type": "file",
+      "name": "data.rs",
+      "filePath": "extensions/uff-relax/src/params/data.rs",
+      "summary": "data.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/uff-relax/src/params/data.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/uff-relax/src/params/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "extensions/uff-relax/src/params/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/uff-relax/src/params/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/uff-relax/src/spatial.rs",
+      "type": "file",
+      "name": "spatial.rs",
+      "filePath": "extensions/uff-relax/src/spatial.rs",
+      "summary": "spatial.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/uff-relax/src/spatial.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/.vscodeignore",
+      "type": "file",
+      "name": ".vscodeignore",
+      "filePath": "extensions/vscode/.vscodeignore",
+      "summary": ".vscodeignore 是 CatGo 项目中的代码文件，使用 unknown，位于 extensions/vscode/.vscodeignore，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/scripts/package.sh",
+      "type": "file",
+      "name": "package.sh",
+      "filePath": "extensions/vscode/scripts/package.sh",
+      "summary": "package.sh 是 CatGo 项目中的脚本文件，使用 shell，位于 extensions/vscode/scripts/package.sh，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "script",
+        "shell",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "shell",
+      "languageNotes": "此节点以中文概述，保留必要的 shell 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/scripts/sync-config.ts",
+      "type": "file",
+      "name": "sync-config.ts",
+      "filePath": "extensions/vscode/scripts/sync-config.ts",
+      "summary": "sync-config.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/scripts/sync-config.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/src/extension.ts",
+      "type": "file",
+      "name": "extension.ts",
+      "filePath": "extensions/vscode/src/extension.ts",
+      "summary": "extension.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/src/extension.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/src/mocks/app-environment.ts",
+      "type": "file",
+      "name": "app-environment.ts",
+      "filePath": "extensions/vscode/src/mocks/app-environment.ts",
+      "summary": "app-environment.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/src/mocks/app-environment.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/src/node-io.ts",
+      "type": "file",
+      "name": "node-io.ts",
+      "filePath": "extensions/vscode/src/node-io.ts",
+      "summary": "node-io.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/src/node-io.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/src/optimade-backend.ts",
+      "type": "file",
+      "name": "optimade-backend.ts",
+      "filePath": "extensions/vscode/src/optimade-backend.ts",
+      "summary": "optimade-backend.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/src/optimade-backend.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/src/pubchem-backend.ts",
+      "type": "file",
+      "name": "pubchem-backend.ts",
+      "filePath": "extensions/vscode/src/pubchem-backend.ts",
+      "summary": "pubchem-backend.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/src/pubchem-backend.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/src/server.ts",
+      "type": "file",
+      "name": "server.ts",
+      "filePath": "extensions/vscode/src/server.ts",
+      "summary": "server.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/src/server.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/src/sidecar.ts",
+      "type": "file",
+      "name": "sidecar.ts",
+      "filePath": "extensions/vscode/src/sidecar.ts",
+      "summary": "sidecar.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/src/sidecar.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/src/webview/main.ts",
+      "type": "file",
+      "name": "main.ts",
+      "filePath": "extensions/vscode/src/webview/main.ts",
+      "summary": "main.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/src/webview/main.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/tests/extension.test.ts",
+      "type": "file",
+      "name": "extension.test.ts",
+      "filePath": "extensions/vscode/tests/extension.test.ts",
+      "summary": "extension.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/tests/extension.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/tests/vscode-mock.js",
+      "type": "file",
+      "name": "vscode-mock.js",
+      "filePath": "extensions/vscode/tests/vscode-mock.js",
+      "summary": "vscode-mock.js 是 CatGo 项目中的代码文件，使用 javascript，位于 extensions/vscode/tests/vscode-mock.js，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "javascript",
+        "桌面集成",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "javascript",
+      "languageNotes": "此节点以中文概述，保留必要的 javascript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/tests/webview.test.ts",
+      "type": "file",
+      "name": "webview.test.ts",
+      "filePath": "extensions/vscode/tests/webview.test.ts",
+      "summary": "webview.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/tests/webview.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/vite.config.mjs",
+      "type": "file",
+      "name": "vite.config.mjs",
+      "filePath": "extensions/vscode/vite.config.mjs",
+      "summary": "vite.config.mjs 是 CatGo 项目中的代码文件，使用 javascript，位于 extensions/vscode/vite.config.mjs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "javascript",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "javascript",
+      "languageNotes": "此节点以中文概述，保留必要的 javascript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/vite.webview.config.ts",
+      "type": "file",
+      "name": "vite.webview.config.ts",
+      "filePath": "extensions/vscode/vite.webview.config.ts",
+      "summary": "vite.webview.config.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/vite.webview.config.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:extensions/vscode/vitest.config.ts",
+      "type": "file",
+      "name": "vitest.config.ts",
+      "filePath": "extensions/vscode/vitest.config.ts",
+      "summary": "vitest.config.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 extensions/vscode/vitest.config.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "桌面集成",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "config:extensions/vsepr-rs/Cargo.toml",
+      "type": "config",
+      "name": "Cargo.toml",
+      "filePath": "extensions/vsepr-rs/Cargo.toml",
+      "summary": "Cargo.toml 是 CatGo 项目中的配置文件，使用 toml，位于 extensions/vsepr-rs/Cargo.toml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "toml",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "toml",
+      "languageNotes": "此节点以中文概述，保留必要的 toml 技术术语。"
+    },
+    {
+      "id": "file:extensions/vsepr-rs/LICENSE-APACHE",
+      "type": "file",
+      "name": "LICENSE-APACHE",
+      "filePath": "extensions/vsepr-rs/LICENSE-APACHE",
+      "summary": "LICENSE-APACHE 是 CatGo 项目中的代码文件，使用 unknown，位于 extensions/vsepr-rs/LICENSE-APACHE，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:extensions/vsepr-rs/LICENSE-MIT",
+      "type": "file",
+      "name": "LICENSE-MIT",
+      "filePath": "extensions/vsepr-rs/LICENSE-MIT",
+      "summary": "LICENSE-MIT 是 CatGo 项目中的代码文件，使用 unknown，位于 extensions/vsepr-rs/LICENSE-MIT，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:extensions/uff-relax/src/optimizer.rs",
+      "target": "file:extensions/uff-relax/src/forcefield/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/uff-relax/src/params/mod.rs",
+      "target": "file:extensions/uff-relax/src/atom/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/uff-relax/src/params/mod.rs",
+      "target": "file:extensions/uff-relax/src/params/data.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/uff-relax/src/spatial.rs",
+      "target": "file:extensions/uff-relax/src/cell.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "config:extensions/vscode/package.json",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:extensions/vscode/src/node-io.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:extensions/vscode/src/optimade-backend.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:extensions/vscode/src/pubchem-backend.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:extensions/vscode/src/server.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:src/lib/constants.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:src/lib/settings/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:src/lib/structure/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:src/lib/theme/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/extension.ts",
+      "target": "file:src/lib/trajectory/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/server.ts",
+      "target": "file:extensions/vscode/src/sidecar.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/sidecar.ts",
+      "target": "config:extensions/vscode/package.json",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/api/compute.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/api/config.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/api/materials-project.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/api/optimade.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/api/pubchem.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/app.css",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/constants.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/cube/parse-cube.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/electronic/chgdiff-wasm.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/i18n/index.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/io/decompress.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/settings/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/structure/ferrox-wasm.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/structure/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/structure/Structure.svelte",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/symmetry/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/theme/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/theme/themes.js",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/trajectory/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/src/webview/main.ts",
+      "target": "file:src/lib/trajectory/Trajectory.svelte",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/tests/extension.test.ts",
+      "target": "config:extensions/vscode/package.json",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/tests/extension.test.ts",
+      "target": "file:extensions/vscode/src/extension.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/tests/extension.test.ts",
+      "target": "file:extensions/vscode/src/webview/main.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/tests/extension.test.ts",
+      "target": "file:src/lib/theme/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/tests/extension.test.ts",
+      "target": "file:src/lib/trajectory/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/tests/webview.test.ts",
+      "target": "file:extensions/vscode/src/webview/main.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vscode/vite.config.mjs",
+      "target": "file:extensions/vscode/tests/vscode-mock.js",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

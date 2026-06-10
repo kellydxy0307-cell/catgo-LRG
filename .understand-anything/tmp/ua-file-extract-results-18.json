@@ -1,0 +1,220 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/modules/interaction/atom-art.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 43,
+      "nonEmptyLines": 25,
+      "sections": [
+        {
+          "heading": "Atom Art",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "atom-art.ts",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "structure-adapter.ts",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "Features",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Voice-Driven Placement",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "Gesture Positioning",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Fragment Building",
+          "level": 3,
+          "line": 35
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "docs/modules/interaction/gesture-tracking.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 56,
+      "nonEmptyLines": 35,
+      "sections": [
+        {
+          "heading": "Gesture Tracking",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "GestureProvider",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "HandTracker",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "GestureRecognizer",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "GestureOverlay",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "GestureSettingsPane",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Gesture Types",
+          "level": 2,
+          "line": 37
+        },
+        {
+          "heading": "Configuration",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "docs/modules/interaction/voice-control.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 57,
+      "nonEmptyLines": 35,
+      "sections": [
+        {
+          "heading": "Voice Control",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "VoiceEngine",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "WhisperVoiceEngine",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "TTSEngine",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "Voice Commands",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Structure Manipulation",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Atom Art",
+          "level": 3,
+          "line": 37
+        },
+        {
+          "heading": "Analysis",
+          "level": 3,
+          "line": 42
+        },
+        {
+          "heading": "Configuration",
+          "level": 2,
+          "line": 46
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 53
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    }
+  ]
+}

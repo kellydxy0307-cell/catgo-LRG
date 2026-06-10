@@ -1,0 +1,609 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/catgo/routers/tools.py",
+      "type": "file",
+      "name": "tools.py",
+      "filePath": "server/catgo/routers/tools.py",
+      "summary": "tools.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/tools.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/trajectory_edit.py",
+      "type": "file",
+      "name": "trajectory_edit.py",
+      "filePath": "server/catgo/routers/trajectory_edit.py",
+      "summary": "trajectory_edit.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/trajectory_edit.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/trajectory_stream.py",
+      "type": "file",
+      "name": "trajectory_stream.py",
+      "filePath": "server/catgo/routers/trajectory_stream.py",
+      "summary": "trajectory_stream.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/trajectory_stream.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/vasp.py",
+      "type": "file",
+      "name": "vasp.py",
+      "filePath": "server/catgo/routers/vasp.py",
+      "summary": "vasp.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/vasp.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/view_capture.py",
+      "type": "file",
+      "name": "view_capture.py",
+      "filePath": "server/catgo/routers/view_capture.py",
+      "summary": "view_capture.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/view_capture.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/view_state.py",
+      "type": "file",
+      "name": "view_state.py",
+      "filePath": "server/catgo/routers/view_state.py",
+      "summary": "view_state.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/view_state.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/water_layer.py",
+      "type": "file",
+      "name": "water_layer.py",
+      "filePath": "server/catgo/routers/water_layer.py",
+      "summary": "water_layer.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/water_layer.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/workflow_engine_tasks.py",
+      "type": "file",
+      "name": "workflow_engine_tasks.py",
+      "filePath": "server/catgo/routers/workflow_engine_tasks.py",
+      "summary": "workflow_engine_tasks.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/workflow_engine_tasks.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/workflow_engine.py",
+      "type": "file",
+      "name": "workflow_engine.py",
+      "filePath": "server/catgo/routers/workflow_engine.py",
+      "summary": "workflow_engine.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/workflow_engine.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/workflow.py",
+      "type": "file",
+      "name": "workflow.py",
+      "filePath": "server/catgo/routers/workflow.py",
+      "summary": "workflow.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/workflow.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/services/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/services/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/services/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/services/workflow_results.py",
+      "type": "file",
+      "name": "workflow_results.py",
+      "filePath": "server/catgo/services/workflow_results.py",
+      "summary": "workflow_results.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/services/workflow_results.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/services/workflow_service.py",
+      "type": "file",
+      "name": "workflow_service.py",
+      "filePath": "server/catgo/services/workflow_service.py",
+      "summary": "workflow_service.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/services/workflow_service.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tool_schema/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/tool_schema/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tool_schema/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tool_schema/loader.py",
+      "type": "file",
+      "name": "loader.py",
+      "filePath": "server/catgo/tool_schema/loader.py",
+      "summary": "loader.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tool_schema/loader.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/tools/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/builder.py",
+      "type": "file",
+      "name": "builder.py",
+      "filePath": "server/catgo/tools/builder.py",
+      "summary": "builder.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/builder.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/builtin/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/tools/builtin/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/builtin/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/builtin/vasp_readers.py",
+      "type": "file",
+      "name": "vasp_readers.py",
+      "filePath": "server/catgo/tools/builtin/vasp_readers.py",
+      "summary": "vasp_readers.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/builtin/vasp_readers.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/compat.py",
+      "type": "file",
+      "name": "compat.py",
+      "filePath": "server/catgo/tools/compat.py",
+      "summary": "compat.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/compat.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/discovery.py",
+      "type": "file",
+      "name": "discovery.py",
+      "filePath": "server/catgo/tools/discovery.py",
+      "summary": "discovery.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/discovery.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/executor.py",
+      "type": "file",
+      "name": "executor.py",
+      "filePath": "server/catgo/tools/executor.py",
+      "summary": "executor.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/executor.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/file_sandbox.py",
+      "type": "file",
+      "name": "file_sandbox.py",
+      "filePath": "server/catgo/tools/file_sandbox.py",
+      "summary": "file_sandbox.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/file_sandbox.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/models.py",
+      "type": "file",
+      "name": "models.py",
+      "filePath": "server/catgo/tools/models.py",
+      "summary": "models.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/models.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/tools/registry.py",
+      "type": "file",
+      "name": "registry.py",
+      "filePath": "server/catgo/tools/registry.py",
+      "summary": "registry.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/tools/registry.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/catgo/routers/tools.py",
+      "target": "file:server/catgo/tools/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/tools.py",
+      "target": "file:server/catgo/tools/executor.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/tools.py",
+      "target": "file:server/catgo/tools/models.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/tools.py",
+      "target": "file:server/catgo/tools/registry.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/vasp.py",
+      "target": "file:server/catgo/models/vasp.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/vasp.py",
+      "target": "file:server/catgo/utils/vasp_input.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/vasp.py",
+      "target": "file:server/catgo/utils/vasp_report.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/view_capture.py",
+      "target": "file:server/catgo/routers/view_state.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/water_layer.py",
+      "target": "file:server/catgo/models/water_layer.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/water_layer.py",
+      "target": "file:server/catgo/utils/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow_engine_tasks.py",
+      "target": "file:server/catgo/workflow/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow_engine_tasks.py",
+      "target": "file:server/catgo/workflow/engine/advancer.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow_engine_tasks.py",
+      "target": "file:server/catgo/workflow/service.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow_engine_tasks.py",
+      "target": "file:server/catgo/workflow/states.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow_engine.py",
+      "target": "file:server/catgo/workflow/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow_engine.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow_engine.py",
+      "target": "file:server/catgo/workflow/engine/broadcast.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow_engine.py",
+      "target": "file:server/catgo/workflow/graph_converter.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow_engine.py",
+      "target": "file:server/catgo/workflow/service.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow.py",
+      "target": "file:server/catgo/models/workflow_run.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow.py",
+      "target": "file:server/catgo/models/workflow.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow.py",
+      "target": "file:server/catgo/services/workflow_results.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow.py",
+      "target": "file:server/catgo/services/workflow_service.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/workflow.py",
+      "target": "file:server/catgo/utils/workflow_db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/tools/__init__.py",
+      "target": "file:server/catgo/tools/models.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/tools/__init__.py",
+      "target": "file:server/catgo/tools/registry.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/tools/builder.py",
+      "target": "file:server/catgo/tools/models.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/tools/builder.py",
+      "target": "file:server/catgo/tools/sandbox.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/tools/compat.py",
+      "target": "file:server/catgo/tools/models.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/tools/discovery.py",
+      "target": "file:server/catgo/tools/models.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/tools/executor.py",
+      "target": "file:server/catgo/tools/models.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/tools/file_sandbox.py",
+      "target": "file:server/catgo/tools/sandbox.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/tools/registry.py",
+      "target": "file:server/catgo/tools/models.py",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

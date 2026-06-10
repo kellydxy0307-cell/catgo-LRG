@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "server/workflow/hooks/cp2k_hooks.py",
+      "language": "python",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/hooks/kmc_hooks.py",
+      "language": "python",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/hooks/lammps_hooks.py",
+      "language": "python",
+      "sizeLines": 21,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/hooks/orca_hooks.py",
+      "language": "python",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/hooks/sella_hooks.py",
+      "language": "python",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/hooks/vasp_hooks.py",
+      "language": "python",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/node_sets.py",
+      "language": "python",
+      "sizeLines": 220,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/presets/__init__.py",
+      "language": "python",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/presets/templates.py",
+      "language": "python",
+      "sizeLines": 235,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/presets/vasp.py",
+      "language": "python",
+      "sizeLines": 255,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/templates/mlp/run_mlp.py.j2",
+      "language": "j2",
+      "sizeLines": 361,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/workflow/templates/xtb/run_xtb.py.j2",
+      "language": "j2",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/.cargo/config.toml",
+      "language": "toml",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src-tauri/binaries/.gitkeep",
+      "language": "unknown",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/build.rs",
+      "language": "rust",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/capabilities/default.json",
+      "language": "json",
+      "sizeLines": 60,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src-tauri/icons/document.icns",
+      "language": "icns",
+      "sizeLines": 1102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/icons/icon.icns",
+      "language": "icns",
+      "sizeLines": 7746,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/db/files.rs",
+      "language": "rust",
+      "sizeLines": 308,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/db/mod.rs",
+      "language": "rust",
+      "sizeLines": 469,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/db/results.rs",
+      "language": "rust",
+      "sizeLines": 598,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/db/util.rs",
+      "language": "rust",
+      "sizeLines": 220,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/db/workflow.rs",
+      "language": "rust",
+      "sizeLines": 1060,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/lib.rs",
+      "language": "rust",
+      "sizeLines": 672,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src-tauri/src/main.rs",
+      "language": "rust",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/workflow/hooks/cp2k_hooks.py": [],
+    "server/workflow/hooks/kmc_hooks.py": [],
+    "server/workflow/hooks/lammps_hooks.py": [],
+    "server/workflow/hooks/orca_hooks.py": [],
+    "server/workflow/hooks/sella_hooks.py": [],
+    "server/workflow/hooks/vasp_hooks.py": [],
+    "server/workflow/node_sets.py": [],
+    "server/workflow/presets/__init__.py": [],
+    "server/workflow/presets/templates.py": [],
+    "server/workflow/presets/vasp.py": [],
+    "server/workflow/templates/mlp/run_mlp.py.j2": [],
+    "server/workflow/templates/xtb/run_xtb.py.j2": [],
+    "src-tauri/.cargo/config.toml": [],
+    "src-tauri/binaries/.gitkeep": [],
+    "src-tauri/build.rs": [],
+    "src-tauri/capabilities/default.json": [],
+    "src-tauri/icons/document.icns": [],
+    "src-tauri/icons/icon.icns": [],
+    "src-tauri/src/db/files.rs": [],
+    "src-tauri/src/db/mod.rs": [],
+    "src-tauri/src/db/results.rs": [],
+    "src-tauri/src/db/util.rs": [],
+    "src-tauri/src/db/workflow.rs": [],
+    "src-tauri/src/lib.rs": [],
+    "src-tauri/src/main.rs": []
+  }
+}

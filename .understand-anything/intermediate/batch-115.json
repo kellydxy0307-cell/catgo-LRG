@@ -1,0 +1,707 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/vitest/symmetry/index.test.ts",
+      "type": "file",
+      "name": "index.test.ts",
+      "filePath": "tests/vitest/symmetry/index.test.ts",
+      "summary": "index.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/symmetry/index.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/symmetry/spacegroups.test.ts",
+      "type": "file",
+      "name": "spacegroups.test.ts",
+      "filePath": "tests/vitest/symmetry/spacegroups.test.ts",
+      "summary": "spacegroups.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/symmetry/spacegroups.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/symmetry/symmetry-utils.test.ts",
+      "type": "file",
+      "name": "symmetry-utils.test.ts",
+      "filePath": "tests/vitest/symmetry/symmetry-utils.test.ts",
+      "summary": "symmetry-utils.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/symmetry/symmetry-utils.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/symmetry/WyckoffTable.test.ts",
+      "type": "file",
+      "name": "WyckoffTable.test.ts",
+      "filePath": "tests/vitest/symmetry/WyckoffTable.test.ts",
+      "summary": "WyckoffTable.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/symmetry/WyckoffTable.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/theme/index.test.ts",
+      "type": "file",
+      "name": "index.test.ts",
+      "filePath": "tests/vitest/theme/index.test.ts",
+      "summary": "index.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/theme/index.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/theme/ThemeControl.test.ts",
+      "type": "file",
+      "name": "ThemeControl.test.ts",
+      "filePath": "tests/vitest/theme/ThemeControl.test.ts",
+      "summary": "ThemeControl.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/theme/ThemeControl.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/trajectory/bond-cache-invalidate.test.ts",
+      "type": "file",
+      "name": "bond-cache-invalidate.test.ts",
+      "filePath": "tests/vitest/trajectory/bond-cache-invalidate.test.ts",
+      "summary": "bond-cache-invalidate.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/trajectory/bond-cache-invalidate.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/trajectory/edit-apply.test.ts",
+      "type": "file",
+      "name": "edit-apply.test.ts",
+      "filePath": "tests/vitest/trajectory/edit-apply.test.ts",
+      "summary": "edit-apply.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/trajectory/edit-apply.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/trajectory/extract.test.ts",
+      "type": "file",
+      "name": "extract.test.ts",
+      "filePath": "tests/vitest/trajectory/extract.test.ts",
+      "summary": "extract.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/trajectory/extract.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/trajectory/index.test.ts",
+      "type": "file",
+      "name": "index.test.ts",
+      "filePath": "tests/vitest/trajectory/index.test.ts",
+      "summary": "index.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/trajectory/index.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/trajectory/parse.test.ts",
+      "type": "file",
+      "name": "parse.test.ts",
+      "filePath": "tests/vitest/trajectory/parse.test.ts",
+      "summary": "parse.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/trajectory/parse.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/trajectory/plotting.test.ts",
+      "type": "file",
+      "name": "plotting.test.ts",
+      "filePath": "tests/vitest/trajectory/plotting.test.ts",
+      "summary": "plotting.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/trajectory/plotting.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/trajectory/streaming.test.ts",
+      "type": "file",
+      "name": "streaming.test.ts",
+      "filePath": "tests/vitest/trajectory/streaming.test.ts",
+      "summary": "streaming.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/trajectory/streaming.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/utils.test.ts",
+      "type": "file",
+      "name": "utils.test.ts",
+      "filePath": "tests/vitest/utils.test.ts",
+      "summary": "utils.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/utils.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/workflow/graph-model.test.ts",
+      "type": "file",
+      "name": "graph-model.test.ts",
+      "filePath": "tests/vitest/workflow/graph-model.test.ts",
+      "summary": "graph-model.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/workflow/graph-model.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/xrd/calc-xrd.test.ts",
+      "type": "file",
+      "name": "calc-xrd.test.ts",
+      "filePath": "tests/vitest/xrd/calc-xrd.test.ts",
+      "summary": "calc-xrd.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/xrd/calc-xrd.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/xrd/index.test.ts",
+      "type": "file",
+      "name": "index.test.ts",
+      "filePath": "tests/vitest/xrd/index.test.ts",
+      "summary": "index.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/xrd/index.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/xrd/XrdPlot.test.ts",
+      "type": "file",
+      "name": "XrdPlot.test.ts",
+      "filePath": "tests/vitest/xrd/XrdPlot.test.ts",
+      "summary": "XrdPlot.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/xrd/XrdPlot.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "config:tools/cube-processor/Cargo.toml",
+      "type": "config",
+      "name": "Cargo.toml",
+      "filePath": "tools/cube-processor/Cargo.toml",
+      "summary": "Cargo.toml 是 CatGo 项目中的配置文件，使用 toml，位于 tools/cube-processor/Cargo.toml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "toml"
+      ],
+      "complexity": "simple",
+      "language": "toml",
+      "languageNotes": "此节点以中文概述，保留必要的 toml 技术术语。"
+    },
+    {
+      "id": "file:tools/cube-processor/src/chgcar.rs",
+      "type": "file",
+      "name": "chgcar.rs",
+      "filePath": "tools/cube-processor/src/chgcar.rs",
+      "summary": "chgcar.rs 是 CatGo 项目中的代码文件，使用 rust，位于 tools/cube-processor/src/chgcar.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:tools/cube-processor/src/cube.rs",
+      "type": "file",
+      "name": "cube.rs",
+      "filePath": "tools/cube-processor/src/cube.rs",
+      "summary": "cube.rs 是 CatGo 项目中的代码文件，使用 rust，位于 tools/cube-processor/src/cube.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:tools/cube-processor/src/export_glb.rs",
+      "type": "file",
+      "name": "export_glb.rs",
+      "filePath": "tools/cube-processor/src/export_glb.rs",
+      "summary": "export_glb.rs 是 CatGo 项目中的代码文件，使用 rust，位于 tools/cube-processor/src/export_glb.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:tools/cube-processor/src/export_obj.rs",
+      "type": "file",
+      "name": "export_obj.rs",
+      "filePath": "tools/cube-processor/src/export_obj.rs",
+      "summary": "export_obj.rs 是 CatGo 项目中的代码文件，使用 rust，位于 tools/cube-processor/src/export_obj.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:tools/cube-processor/src/lib.rs",
+      "type": "file",
+      "name": "lib.rs",
+      "filePath": "tools/cube-processor/src/lib.rs",
+      "summary": "lib.rs 是 CatGo 项目中的代码文件，使用 rust，位于 tools/cube-processor/src/lib.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:tools/cube-processor/src/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "tools/cube-processor/src/main.rs",
+      "summary": "main.rs 是 CatGo 项目中的代码文件，使用 rust，位于 tools/cube-processor/src/main.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tests/vitest/symmetry/index.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/symmetry/index.test.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/symmetry/index.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/symmetry/index.test.ts",
+      "target": "file:src/lib/symmetry/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/symmetry/spacegroups.test.ts",
+      "target": "file:src/lib/symmetry/spacegroups.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/symmetry/symmetry-utils.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/symmetry/symmetry-utils.test.ts",
+      "target": "file:src/lib/symmetry/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/symmetry/WyckoffTable.test.ts",
+      "target": "file:src/lib/symmetry/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/theme/index.test.ts",
+      "target": "file:src/lib/theme/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/theme/ThemeControl.test.ts",
+      "target": "file:src/lib/theme/ThemeControl.svelte",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/theme/ThemeControl.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/bond-cache-invalidate.test.ts",
+      "target": "file:src/lib/structure/trajectory-bond-cache.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/edit-apply.test.ts",
+      "target": "file:src/lib/trajectory/edit-apply.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/extract.test.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/extract.test.ts",
+      "target": "file:src/lib/trajectory/extract.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/extract.test.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/extract.test.ts",
+      "target": "file:src/lib/trajectory/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/index.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/index.test.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/parse.test.ts",
+      "target": "file:src/lib/trajectory/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/parse.test.ts",
+      "target": "file:src/lib/trajectory/parsers/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/parse.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/plotting.test.ts",
+      "target": "file:src/lib/plot/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/plotting.test.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/plotting.test.ts",
+      "target": "file:src/lib/trajectory/plotting.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/streaming.test.ts",
+      "target": "file:src/lib/labels.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/streaming.test.ts",
+      "target": "file:src/lib/trajectory/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/streaming.test.ts",
+      "target": "file:src/lib/trajectory/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/trajectory/streaming.test.ts",
+      "target": "file:src/lib/trajectory/plotting.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/utils.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/workflow/graph-model.test.ts",
+      "target": "file:src/lib/workflow/graph-model.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/calc-xrd.test.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/calc-xrd.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/calc-xrd.test.ts",
+      "target": "file:src/lib/structure/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/calc-xrd.test.ts",
+      "target": "file:src/lib/xrd/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/calc-xrd.test.ts",
+      "target": "file:tests/vitest/fixtures/xrd/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/index.test.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/index.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/index.test.ts",
+      "target": "file:src/lib/xrd/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/index.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/XrdPlot.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/xrd/XrdPlot.test.ts",
+      "target": "file:src/lib/xrd/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/chgcar.rs",
+      "target": "file:tools/cube-processor/src/cube.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/export_glb.rs",
+      "target": "file:tools/cube-processor/src/marching_cubes.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/export_obj.rs",
+      "target": "file:tools/cube-processor/src/marching_cubes.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/lib.rs",
+      "target": "file:tools/cube-processor/src/chgcar.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/lib.rs",
+      "target": "file:tools/cube-processor/src/cube.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/lib.rs",
+      "target": "file:tools/cube-processor/src/export_glb.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/lib.rs",
+      "target": "file:tools/cube-processor/src/export_obj.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/lib.rs",
+      "target": "file:tools/cube-processor/src/marching_cubes.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/cube-processor/src/lib.rs",
+      "target": "file:tools/cube-processor/src/slice.rs",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

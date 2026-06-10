@@ -1,0 +1,91 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "tests/vitest/fixtures/xrd/Bi2Zr2O8-Fm3m.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-1.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-10018-Ac1-cubic.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-1183089-Ac4Mg2-monoclinic.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-1204603.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-1207297-Ac2Br2O1-tetragonal.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-1229168.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-1234.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-12712.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-686119-Ag13Bi14I56-triclinic.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-756175.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "tests/vitest/fixtures/xrd/mp-862690-Ac4-hexagonal.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "tests/vitest/fixtures/xrd/Bi2Zr2O8-Fm3m.json": [],
+    "tests/vitest/fixtures/xrd/mp-1.json": [],
+    "tests/vitest/fixtures/xrd/mp-10018-Ac1-cubic.json": [],
+    "tests/vitest/fixtures/xrd/mp-1183089-Ac4Mg2-monoclinic.json": [],
+    "tests/vitest/fixtures/xrd/mp-1204603.json": [],
+    "tests/vitest/fixtures/xrd/mp-1207297-Ac2Br2O1-tetragonal.json": [],
+    "tests/vitest/fixtures/xrd/mp-1229168.json": [],
+    "tests/vitest/fixtures/xrd/mp-1234.json": [],
+    "tests/vitest/fixtures/xrd/mp-12712.json": [],
+    "tests/vitest/fixtures/xrd/mp-686119-Ag13Bi14I56-triclinic.json": [],
+    "tests/vitest/fixtures/xrd/mp-756175.json": [],
+    "tests/vitest/fixtures/xrd/mp-862690-Ac4-hexagonal.json": []
+  }
+}

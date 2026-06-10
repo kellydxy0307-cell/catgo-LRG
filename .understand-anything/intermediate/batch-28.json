@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "document:energy_diagram/energydiagram.egg-info/SOURCES.txt",
+      "type": "document",
+      "name": "SOURCES.txt",
+      "filePath": "energy_diagram/energydiagram.egg-info/SOURCES.txt",
+      "summary": "SOURCES.txt 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "txt",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "txt 文件；结构提取显示 8 行有效内容。"
+    },
+    {
+      "id": "document:energy_diagram/energydiagram.egg-info/dependency_links.txt",
+      "type": "document",
+      "name": "dependency_links.txt",
+      "filePath": "energy_diagram/energydiagram.egg-info/dependency_links.txt",
+      "summary": "dependency_links.txt 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "txt",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "txt 文件；结构提取显示 1 行有效内容。"
+    },
+    {
+      "id": "document:energy_diagram/energydiagram.egg-info/requires.txt",
+      "type": "document",
+      "name": "requires.txt",
+      "filePath": "energy_diagram/energydiagram.egg-info/requires.txt",
+      "summary": "requires.txt 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "txt",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "txt 文件；结构提取显示 3 行有效内容。"
+    },
+    {
+      "id": "document:energy_diagram/energydiagram.egg-info/top_level.txt",
+      "type": "document",
+      "name": "top_level.txt",
+      "filePath": "energy_diagram/energydiagram.egg-info/top_level.txt",
+      "summary": "top_level.txt 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "txt",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "txt 文件；结构提取显示 1 行有效内容。"
+    }
+  ],
+  "edges": []
+}

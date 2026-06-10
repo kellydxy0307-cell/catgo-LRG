@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/workflow/WorkflowListV2.svelte",
+      "language": "svelte",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/WulffPlot.svelte",
+      "language": "svelte",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/WulffShape3D.svelte",
+      "language": "svelte",
+      "sizeLines": 313,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/xrd/XrdPlot.svelte",
+      "language": "svelte",
+      "sizeLines": 297,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/scripts/update-site-screenshots.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/molecules/C2HO-scientific-notation.xyz",
+      "language": "xyz",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/molecules/C5-extra-data.xyz",
+      "language": "xyz",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/molecules/cyclohexane.xyz",
+      "language": "xyz",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/phase-diagrams/fetch-mp-pd-data.py",
+      "language": "python",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/plot-utils.ts",
+      "language": "typescript",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/aviary-CuF3K-triolith.poscar",
+      "language": "poscar",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/BaTiO3-tetragonal.poscar",
+      "language": "poscar",
+      "sizeLines": 13,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/ethanol2.mol2",
+      "language": "mol2",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/graphene-monolayer.poscar",
+      "language": "poscar",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/Li10GeP2S12.cif",
+      "language": "cif",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/Li4Fe3Mn1(PO4)4.cif",
+      "language": "cif",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/Li8Fe2NiCoO8.cif",
+      "language": "cif",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/LiFePO4.cif",
+      "language": "cif",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/MgNiF6.cif",
+      "language": "cif",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/mof-issue-127.cif",
+      "language": "cif",
+      "sizeLines": 237,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/NaCl-cubic.poscar",
+      "language": "poscar",
+      "sizeLines": 16,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/P24Ru4H252C296S24N16.cif",
+      "language": "cif",
+      "sizeLines": 698,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/PF-sd-1601634.cif",
+      "language": "cif",
+      "sizeLines": 166,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/structures/porphin.pdb",
+      "language": "pdb",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/workflow/WorkflowListV2.svelte": [],
+    "src/lib/workflow/WulffPlot.svelte": [],
+    "src/lib/workflow/WulffShape3D.svelte": [],
+    "src/lib/xrd/XrdPlot.svelte": [],
+    "src/scripts/update-site-screenshots.ts": [],
+    "src/site/molecules/C2HO-scientific-notation.xyz": [],
+    "src/site/molecules/C5-extra-data.xyz": [],
+    "src/site/molecules/cyclohexane.xyz": [],
+    "src/site/phase-diagrams/fetch-mp-pd-data.py": [],
+    "src/site/plot-utils.ts": [],
+    "src/site/state.svelte.ts": [],
+    "src/site/structures/aviary-CuF3K-triolith.poscar": [],
+    "src/site/structures/BaTiO3-tetragonal.poscar": [],
+    "src/site/structures/ethanol2.mol2": [],
+    "src/site/structures/graphene-monolayer.poscar": [],
+    "src/site/structures/Li10GeP2S12.cif": [],
+    "src/site/structures/Li4Fe3Mn1(PO4)4.cif": [],
+    "src/site/structures/Li8Fe2NiCoO8.cif": [],
+    "src/site/structures/LiFePO4.cif": [],
+    "src/site/structures/MgNiF6.cif": [],
+    "src/site/structures/mof-issue-127.cif": [],
+    "src/site/structures/NaCl-cubic.poscar": [],
+    "src/site/structures/P24Ru4H252C296S24N16.cif": [],
+    "src/site/structures/PF-sd-1601634.cif": [],
+    "src/site/structures/porphin.pdb": []
+  }
+}

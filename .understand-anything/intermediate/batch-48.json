@@ -1,0 +1,988 @@
+{
+  "nodes": [
+    {
+      "id": "file:crates/catgo-graph/src/graph/subgraph_validate.rs",
+      "type": "file",
+      "name": "subgraph_validate.rs",
+      "filePath": "crates/catgo-graph/src/graph/subgraph_validate.rs",
+      "summary": "subgraph_validate.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/graph/subgraph_validate.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/graph/template.rs",
+      "type": "file",
+      "name": "template.rs",
+      "filePath": "crates/catgo-graph/src/graph/template.rs",
+      "summary": "template.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/graph/template.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/graph/validate.rs",
+      "type": "file",
+      "name": "validate.rs",
+      "filePath": "crates/catgo-graph/src/graph/validate.rs",
+      "summary": "validate.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/graph/validate.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/lib.rs",
+      "type": "file",
+      "name": "lib.rs",
+      "filePath": "crates/catgo-graph/src/lib.rs",
+      "summary": "lib.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/lib.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/repair/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "crates/catgo-graph/src/repair/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/repair/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/repair/traits.rs",
+      "type": "file",
+      "name": "traits.rs",
+      "filePath": "crates/catgo-graph/src/repair/traits.rs",
+      "summary": "traits.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/repair/traits.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "type": "file",
+      "name": "engine.rs",
+      "filePath": "crates/catgo-graph/src/runtime/engine.rs",
+      "summary": "engine.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/runtime/engine.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "type": "file",
+      "name": "executor.rs",
+      "filePath": "crates/catgo-graph/src/runtime/executor.rs",
+      "summary": "executor.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/runtime/executor.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/runtime/lifecycle.rs",
+      "type": "file",
+      "name": "lifecycle.rs",
+      "filePath": "crates/catgo-graph/src/runtime/lifecycle.rs",
+      "summary": "lifecycle.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/runtime/lifecycle.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/runtime/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "crates/catgo-graph/src/runtime/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/runtime/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/runtime/scheduler.rs",
+      "type": "file",
+      "name": "scheduler.rs",
+      "filePath": "crates/catgo-graph/src/runtime/scheduler.rs",
+      "summary": "scheduler.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/runtime/scheduler.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/storage/catgo_store.rs",
+      "type": "file",
+      "name": "catgo_store.rs",
+      "filePath": "crates/catgo-graph/src/storage/catgo_store.rs",
+      "summary": "catgo_store.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/storage/catgo_store.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/storage/file_store.rs",
+      "type": "file",
+      "name": "file_store.rs",
+      "filePath": "crates/catgo-graph/src/storage/file_store.rs",
+      "summary": "file_store.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/storage/file_store.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/storage/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "crates/catgo-graph/src/storage/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/storage/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/storage/sqlite_store.rs",
+      "type": "file",
+      "name": "sqlite_store.rs",
+      "filePath": "crates/catgo-graph/src/storage/sqlite_store.rs",
+      "summary": "sqlite_store.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/storage/sqlite_store.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/storage/traits.rs",
+      "type": "file",
+      "name": "traits.rs",
+      "filePath": "crates/catgo-graph/src/storage/traits.rs",
+      "summary": "traits.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/storage/traits.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/file_writer.rs",
+      "type": "file",
+      "name": "file_writer.rs",
+      "filePath": "crates/catgo-graph/src/tools/file_writer.rs",
+      "summary": "file_writer.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/file_writer.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/http_bridge.rs",
+      "type": "file",
+      "name": "http_bridge.rs",
+      "filePath": "crates/catgo-graph/src/tools/http_bridge.rs",
+      "summary": "http_bridge.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/http_bridge.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/mock.rs",
+      "type": "file",
+      "name": "mock.rs",
+      "filePath": "crates/catgo-graph/src/tools/mock.rs",
+      "summary": "mock.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/mock.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "crates/catgo-graph/src/tools/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/control_flow.rs",
+      "type": "file",
+      "name": "control_flow.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/control_flow.rs",
+      "summary": "control_flow.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/control_flow.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/convergence.rs",
+      "type": "file",
+      "name": "convergence.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/convergence.rs",
+      "summary": "convergence.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/convergence.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/defect_gen.rs",
+      "type": "file",
+      "name": "defect_gen.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/defect_gen.rs",
+      "summary": "defect_gen.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/defect_gen.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/doping_gen.rs",
+      "type": "file",
+      "name": "doping_gen.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/doping_gen.rs",
+      "summary": "doping_gen.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/doping_gen.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:crates/catgo-graph/src/tools/native/energy_compare.rs",
+      "type": "file",
+      "name": "energy_compare.rs",
+      "filePath": "crates/catgo-graph/src/tools/native/energy_compare.rs",
+      "summary": "energy_compare.rs 是 CatGo 项目中的代码文件，使用 rust，位于 crates/catgo-graph/src/tools/native/energy_compare.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:crates/catgo-graph/src/graph/subgraph_validate.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/graph/subgraph_validate.rs",
+      "target": "file:crates/catgo-graph/src/graph/composer.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/graph/subgraph_validate.rs",
+      "target": "file:crates/catgo-graph/src/graph/template.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/graph/template.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/graph/validate.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/graph/validate.rs",
+      "target": "file:crates/catgo-graph/src/graph/template.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/lib.rs",
+      "target": "file:crates/catgo-graph/src/api/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/lib.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/lib.rs",
+      "target": "file:crates/catgo-graph/src/graph/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/lib.rs",
+      "target": "file:crates/catgo-graph/src/repair/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/lib.rs",
+      "target": "file:crates/catgo-graph/src/runtime/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/lib.rs",
+      "target": "file:crates/catgo-graph/src/storage/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/lib.rs",
+      "target": "file:crates/catgo-graph/src/tools/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/repair/mod.rs",
+      "target": "file:crates/catgo-graph/src/repair/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/repair/traits.rs",
+      "target": "file:crates/catgo-graph/src/core/errors.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/repair/traits.rs",
+      "target": "file:crates/catgo-graph/src/core/ids.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/repair/traits.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/api/graph_api.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/core/errors.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/core/state.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/graph/composer.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/graph/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/graph/template.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/repair/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/runtime/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/storage/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "target": "file:crates/catgo-graph/src/tools/registry.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/core/errors.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/core/ids.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/core/state.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/graph/composer.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/graph/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/graph/rewrite.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/graph/template.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/repair/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/runtime/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/storage/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/tools/registry.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/lifecycle.rs",
+      "target": "file:crates/catgo-graph/src/core/errors.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/lifecycle.rs",
+      "target": "file:crates/catgo-graph/src/core/state.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/lifecycle.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/mod.rs",
+      "target": "file:crates/catgo-graph/src/runtime/engine.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/mod.rs",
+      "target": "file:crates/catgo-graph/src/runtime/executor.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/mod.rs",
+      "target": "file:crates/catgo-graph/src/runtime/lifecycle.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/mod.rs",
+      "target": "file:crates/catgo-graph/src/runtime/scheduler.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/scheduler.rs",
+      "target": "file:crates/catgo-graph/src/core/ids.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/scheduler.rs",
+      "target": "file:crates/catgo-graph/src/core/state.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/scheduler.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/runtime/scheduler.rs",
+      "target": "file:crates/catgo-graph/src/graph/template.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/catgo_store.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/catgo_store.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/catgo_store.rs",
+      "target": "file:crates/catgo-graph/src/storage/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/file_store.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/file_store.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/file_store.rs",
+      "target": "file:crates/catgo-graph/src/storage/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/mod.rs",
+      "target": "file:crates/catgo-graph/src/storage/catgo_store.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/mod.rs",
+      "target": "file:crates/catgo-graph/src/storage/file_store.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/mod.rs",
+      "target": "file:crates/catgo-graph/src/storage/sqlite_store.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/mod.rs",
+      "target": "file:crates/catgo-graph/src/storage/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/sqlite_store.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/sqlite_store.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/sqlite_store.rs",
+      "target": "file:crates/catgo-graph/src/storage/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/traits.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/storage/traits.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/file_writer.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/file_writer.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/file_writer.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/http_bridge.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/http_bridge.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/http_bridge.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mock.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mock.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mock.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/file_writer.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/http_bridge.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/mock.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/registry.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/stats.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/mod.rs",
+      "target": "file:crates/catgo-graph/src/tools/vasp.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/control_flow.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/control_flow.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/control_flow.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/convergence.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/convergence.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/convergence.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/defect_gen.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/defect_gen.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/defect_gen.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/defect_gen.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/doping_gen.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/doping_gen.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/doping_gen.rs",
+      "target": "file:crates/catgo-graph/src/tools/native/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/doping_gen.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/energy_compare.rs",
+      "target": "file:crates/catgo-graph/src/core/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/energy_compare.rs",
+      "target": "file:crates/catgo-graph/src/graph/run.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:crates/catgo-graph/src/tools/native/energy_compare.rs",
+      "target": "file:crates/catgo-graph/src/tools/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

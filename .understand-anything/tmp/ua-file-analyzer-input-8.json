@@ -1,0 +1,43 @@
+{
+    "projectRoot":  "D:\\catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "deploy/web/INSTALL.md",
+                           "language":  "markdown",
+                           "sizeLines":  116,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "deploy/web/README.md",
+                           "language":  "markdown",
+                           "sizeLines":  140,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "deploy/web/install.sh",
+                           "language":  "shell",
+                           "sizeLines":  251,
+                           "fileCategory":  "script"
+                       },
+                       {
+                           "path":  "deploy/web/vercel.json",
+                           "language":  "json",
+                           "sizeLines":  6,
+                           "fileCategory":  "config"
+                       }
+                   ],
+    "batchImportData":  {
+                            "deploy/web/INSTALL.md":  [
+
+                                                      ],
+                            "deploy/web/README.md":  [
+
+                                                     ],
+                            "deploy/web/install.sh":  [
+
+                                                      ],
+                            "deploy/web/vercel.json":  [
+
+                                                       ]
+                        }
+}

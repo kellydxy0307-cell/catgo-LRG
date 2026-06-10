@@ -1,0 +1,34 @@
+{
+    "projectRoot":  "D:/catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "extensions/vscode/package.json",
+                           "language":  "json",
+                           "sizeLines":  1349,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "extensions/vscode/readme.md",
+                           "language":  "markdown",
+                           "sizeLines":  185,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "extensions/vscode/tsconfig.json",
+                           "language":  "json",
+                           "sizeLines":  19,
+                           "fileCategory":  "config"
+                       }
+                   ],
+    "batchImportData":  {
+                            "extensions/vscode/package.json":  [
+
+                                                               ],
+                            "extensions/vscode/readme.md":  [
+
+                                                            ],
+                            "extensions/vscode/tsconfig.json":  [
+
+                                                                ]
+                        }
+}

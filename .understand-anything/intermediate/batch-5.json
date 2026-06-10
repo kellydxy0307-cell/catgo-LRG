@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "config:.understand-anything/intermediate/batches.json",
+      "type": "config",
+      "name": "batches.json",
+      "filePath": ".understand-anything/intermediate/batches.json",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 schemaVersion、algorithm、totalFiles、totalBatches。",
+      "tags": [
+        "配置",
+        "json"
+      ],
+      "complexity": "complex",
+      "languageNotes": "json 文件，扫描到 73109 行；结构抽取识别出 6 个章节/顶层键。"
+    },
+    {
+      "id": "config:.understand-anything/intermediate/import-input.json",
+      "type": "config",
+      "name": "import-input.json",
+      "filePath": ".understand-anything/intermediate/import-input.json",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 projectRoot、files。",
+      "tags": [
+        "配置",
+        "json"
+      ],
+      "complexity": "complex",
+      "languageNotes": "json 文件，扫描到 10744 行；结构抽取识别出 2 个章节/顶层键。"
+    },
+    {
+      "id": "config:.understand-anything/intermediate/import-map.json",
+      "type": "config",
+      "name": "import-map.json",
+      "filePath": ".understand-anything/intermediate/import-map.json",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 scriptCompleted、stats、importMap。",
+      "tags": [
+        "配置",
+        "json"
+      ],
+      "complexity": "complex",
+      "languageNotes": "json 文件，扫描到 5198 行；结构抽取识别出 3 个章节/顶层键。"
+    },
+    {
+      "id": "config:.understand-anything/intermediate/scan-base.json",
+      "type": "config",
+      "name": "scan-base.json",
+      "filePath": ".understand-anything/intermediate/scan-base.json",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 scriptCompleted、files、totalFiles、filteredByIgnore。",
+      "tags": [
+        "配置",
+        "json"
+      ],
+      "complexity": "complex",
+      "languageNotes": "json 文件，扫描到 12950 行；结构抽取识别出 6 个章节/顶层键。"
+    },
+    {
+      "id": "config:.understand-anything/intermediate/scan-result.json",
+      "type": "config",
+      "name": "scan-result.json",
+      "filePath": ".understand-anything/intermediate/scan-result.json",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 scriptCompleted、files、totalFiles、filteredByIgnore。",
+      "tags": [
+        "配置",
+        "json"
+      ],
+      "complexity": "complex",
+      "languageNotes": "json 文件，扫描到 18206 行；结构抽取识别出 13 个章节/顶层键。"
+    }
+  ],
+  "edges": []
+}

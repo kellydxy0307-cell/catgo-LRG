@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "config:src-tauri/Cargo.toml",
+      "type": "config",
+      "name": "Cargo.toml",
+      "filePath": "src-tauri/Cargo.toml",
+      "summary": "Cargo.toml 控制项目中与 toml 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "toml",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "toml 文件；结构提取显示 80 行有效内容。"
+    },
+    {
+      "id": "config:src-tauri/Info.plist",
+      "type": "config",
+      "name": "Info.plist",
+      "filePath": "src-tauri/Info.plist",
+      "summary": "Info.plist 控制项目中与 xml 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "xml",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "xml 文件；结构提取显示 78 行有效内容。"
+    },
+    {
+      "id": "config:src-tauri/tauri.android.conf.json",
+      "type": "config",
+      "name": "tauri.android.conf.json",
+      "filePath": "src-tauri/tauri.android.conf.json",
+      "summary": "tauri.android.conf.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "json",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 6 行有效内容。"
+    },
+    {
+      "id": "config:src-tauri/tauri.conf.json",
+      "type": "config",
+      "name": "tauri.conf.json",
+      "filePath": "src-tauri/tauri.conf.json",
+      "summary": "tauri.conf.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "json",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 89 行有效内容。"
+    },
+    {
+      "id": "config:src-tauri/tauri.ios.conf.json",
+      "type": "config",
+      "name": "tauri.ios.conf.json",
+      "filePath": "src-tauri/tauri.ios.conf.json",
+      "summary": "tauri.ios.conf.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "json",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 6 行有效内容。"
+    }
+  ],
+  "edges": []
+}

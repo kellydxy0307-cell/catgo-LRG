@@ -1,0 +1,542 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/guide/catbot.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 74,
+      "nonEmptyLines": 53,
+      "sections": [
+        {
+          "heading": "CatBot — AI Chat Assistant",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Providers",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Tool Calls",
+          "level": 2,
+          "line": 37
+        },
+        {
+          "heading": "Configuration",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "API Keys",
+          "level": 2,
+          "line": 60
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 70
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "docs/guide/gallery.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 126,
+      "nonEmptyLines": 74,
+      "sections": [
+        {
+          "heading": "Gallery",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Crystal Structures",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Bulk Crystals",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "Complex Structures",
+          "level": 3,
+          "line": 14
+        },
+        {
+          "heading": "Surface Slabs",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Miller Index Surfaces",
+          "level": 3,
+          "line": 22
+        },
+        {
+          "heading": "Slab Cutter in Action",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "Spectroscopy & Analysis",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "Band Structure",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "X-Ray Diffraction",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Radial Distribution Function",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "Phase Diagrams",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "Binary Phase Diagram",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "Ternary Phase Diagram",
+          "level": 3,
+          "line": 55
+        },
+        {
+          "heading": "Quaternary Phase Diagram",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "Density Visualization",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "CUBE File Isosurfaces",
+          "level": 3,
+          "line": 65
+        },
+        {
+          "heading": "Trajectory Playback",
+          "level": 2,
+          "line": 71
+        },
+        {
+          "heading": "Molecular Dynamics",
+          "level": 3,
+          "line": 73
+        },
+        {
+          "heading": "Optimization Paths",
+          "level": 3,
+          "line": 78
+        },
+        {
+          "heading": "Composition & Periodic Table",
+          "level": 2,
+          "line": 83
+        },
+        {
+          "heading": "Composition Charts",
+          "level": 3,
+          "line": 85
+        },
+        {
+          "heading": "Interactive Periodic Table",
+          "level": 3,
+          "line": 90
+        },
+        {
+          "heading": "Multi-Platform",
+          "level": 2,
+          "line": 95
+        },
+        {
+          "heading": "Desktop App (Tauri)",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "VSCode Extension",
+          "level": 3,
+          "line": 102
+        },
+        {
+          "heading": "Jupyter Widget",
+          "level": 3,
+          "line": 106
+        },
+        {
+          "heading": "Display Modes",
+          "level": 2,
+          "line": 110
+        },
+        {
+          "heading": "Atom Coloring",
+          "level": 3,
+          "line": 112
+        },
+        {
+          "heading": "Visual Effects",
+          "level": 3,
+          "line": 118
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 30
+      }
+    },
+    {
+      "path": "docs/guide/installation.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 158,
+      "nonEmptyLines": 111,
+      "sections": [
+        {
+          "heading": "Installation",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Download a Pre-Built Installer",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Quick Start",
+          "level": 2,
+          "line": 37
+        },
+        {
+          "heading": "Development Commands",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Production Builds",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "VSCode Extension",
+          "level": 2,
+          "line": 90
+        },
+        {
+          "heading": "WASM Module (Optional)",
+          "level": 2,
+          "line": 100
+        },
+        {
+          "heading": "Running the Backend Alone",
+          "level": 2,
+          "line": 114
+        },
+        {
+          "heading": "Available Calculators",
+          "level": 3,
+          "line": 125
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 135
+        },
+        {
+          "heading": "General",
+          "level": 3,
+          "line": 137
+        },
+        {
+          "heading": "Windows",
+          "level": 3,
+          "line": 143
+        },
+        {
+          "heading": "Linux (`.AppImage`)",
+          "level": 3,
+          "line": 148
+        },
+        {
+          "heading": "macOS",
+          "level": 3,
+          "line": 155
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "docs/guide/overview.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 138,
+      "nonEmptyLines": 113,
+      "sections": [
+        {
+          "heading": "CatGo Documentation",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Key Features",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Architecture Overview",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Technology Stack",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "Modules",
+          "level": 2,
+          "line": 62
+        },
+        {
+          "heading": "Core",
+          "level": 3,
+          "line": 64
+        },
+        {
+          "heading": "Crystallography",
+          "level": 3,
+          "line": 73
+        },
+        {
+          "heading": "Dynamics & Optimization",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "Analysis & Spectroscopy",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "Integrations",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "Deployment Targets",
+          "level": 2,
+          "line": 105
+        },
+        {
+          "heading": "Tutorials",
+          "level": 2,
+          "line": 114
+        },
+        {
+          "heading": "Quick Links",
+          "level": 2,
+          "line": 127
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "docs/guide/tips-and-tricks.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 201,
+      "nonEmptyLines": 147,
+      "sections": [
+        {
+          "heading": "Tips and Tricks",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Keyboard Shortcuts Reference",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Camera",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "Selection & Editing",
+          "level": 3,
+          "line": 16
+        },
+        {
+          "heading": "Atom Manipulation",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "Interface",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Trajectory Playback",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Mouse Controls",
+          "level": 2,
+          "line": 60
+        },
+        {
+          "heading": "Performance Tips",
+          "level": 2,
+          "line": 72
+        },
+        {
+          "heading": "Large Structures (>1000 atoms)",
+          "level": 3,
+          "line": 74
+        },
+        {
+          "heading": "Large Trajectories",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "Rendering Quality vs. Speed",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "Customization",
+          "level": 2,
+          "line": 98
+        },
+        {
+          "heading": "Atom Colors",
+          "level": 3,
+          "line": 100
+        },
+        {
+          "heading": "Color by Property",
+          "level": 3,
+          "line": 115
+        },
+        {
+          "heading": "Background",
+          "level": 3,
+          "line": 125
+        },
+        {
+          "heading": "Labels",
+          "level": 3,
+          "line": 130
+        },
+        {
+          "heading": "Export Tips",
+          "level": 2,
+          "line": 136
+        },
+        {
+          "heading": "Publication-Quality Images",
+          "level": 3,
+          "line": 138
+        },
+        {
+          "heading": "VASP Workflow",
+          "level": 3,
+          "line": 146
+        },
+        {
+          "heading": "Batch Processing",
+          "level": 3,
+          "line": 153
+        },
+        {
+          "heading": "Common Workflows",
+          "level": 2,
+          "line": 160
+        },
+        {
+          "heading": "Surface Catalysis Setup",
+          "level": 3,
+          "line": 162
+        },
+        {
+          "heading": "Quick Structure Check",
+          "level": 3,
+          "line": 173
+        },
+        {
+          "heading": "Bonding Strategies",
+          "level": 2,
+          "line": 180
+        },
+        {
+          "heading": "Symmetry Algorithms",
+          "level": 2,
+          "line": 192
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 26
+      }
+    }
+  ]
+}

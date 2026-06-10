@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/gesture/structure-adapter.ts",
+      "language": "typescript",
+      "sizeLines": 141,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/gesture/tts-engine.ts",
+      "language": "typescript",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/gesture/vad.ts",
+      "language": "typescript",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/gesture/voice-engine.ts",
+      "language": "typescript",
+      "sizeLines": 242,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/gesture/whisper-voice-engine.ts",
+      "language": "typescript",
+      "sizeLines": 143,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/gesture/workflow-adapter.ts",
+      "language": "typescript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/hpc-sessions.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/en/app.ts",
+      "language": "typescript",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/en/chat.ts",
+      "language": "typescript",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/en/common.ts",
+      "language": "typescript",
+      "sizeLines": 196,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/en/mobile.ts",
+      "language": "typescript",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/en/sidebar.ts",
+      "language": "typescript",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/en/structure.ts",
+      "language": "typescript",
+      "sizeLines": 1614,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/en/workflow.ts",
+      "language": "typescript",
+      "sizeLines": 1246,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/index.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 202,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/locale-detect.ts",
+      "language": "typescript",
+      "sizeLines": 74,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/LocaleSwitch.svelte",
+      "language": "svelte",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/types.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/zh/app.ts",
+      "language": "typescript",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/zh/chat.ts",
+      "language": "typescript",
+      "sizeLines": 162,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/zh/common.ts",
+      "language": "typescript",
+      "sizeLines": 195,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/zh/mobile.ts",
+      "language": "typescript",
+      "sizeLines": 115,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/zh/sidebar.ts",
+      "language": "typescript",
+      "sizeLines": 46,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/zh/structure.ts",
+      "language": "typescript",
+      "sizeLines": 1614,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/i18n/zh/workflow.ts",
+      "language": "typescript",
+      "sizeLines": 1247,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/gesture/structure-adapter.ts": [],
+    "src/lib/gesture/tts-engine.ts": [],
+    "src/lib/gesture/vad.ts": [],
+    "src/lib/gesture/voice-engine.ts": [],
+    "src/lib/gesture/whisper-voice-engine.ts": [],
+    "src/lib/gesture/workflow-adapter.ts": [],
+    "src/lib/hpc-sessions.svelte.ts": [],
+    "src/lib/i18n/en/app.ts": [],
+    "src/lib/i18n/en/chat.ts": [],
+    "src/lib/i18n/en/common.ts": [],
+    "src/lib/i18n/en/mobile.ts": [],
+    "src/lib/i18n/en/sidebar.ts": [],
+    "src/lib/i18n/en/structure.ts": [],
+    "src/lib/i18n/en/workflow.ts": [],
+    "src/lib/i18n/index.svelte.ts": [],
+    "src/lib/i18n/locale-detect.ts": [],
+    "src/lib/i18n/LocaleSwitch.svelte": [],
+    "src/lib/i18n/types.ts": [],
+    "src/lib/i18n/zh/app.ts": [],
+    "src/lib/i18n/zh/chat.ts": [],
+    "src/lib/i18n/zh/common.ts": [],
+    "src/lib/i18n/zh/mobile.ts": [],
+    "src/lib/i18n/zh/sidebar.ts": [],
+    "src/lib/i18n/zh/structure.ts": [],
+    "src/lib/i18n/zh/workflow.ts": []
+  }
+}

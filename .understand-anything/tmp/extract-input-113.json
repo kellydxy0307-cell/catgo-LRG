@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "tests/vitest/structure/abacus-export.test.ts",
+      "language": "typescript",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/amber-export.test.ts",
+      "language": "typescript",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/atoms/apply-atom-delete.test.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 336,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/atoms/atom-manager.test.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 366,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/bond-manager.test.ts",
+      "language": "typescript",
+      "sizeLines": 249,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/bond-undo-stack.test.ts",
+      "language": "typescript",
+      "sizeLines": 123,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/bonding.test.ts",
+      "language": "typescript",
+      "sizeLines": 389,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/bonding/apply-atom-delete.test.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 369,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/bonding/apply-atom-mutation.test.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 415,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/bonding/image-atom-layout.test.ts",
+      "language": "typescript",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/controllers.test.ts",
+      "language": "typescript",
+      "sizeLines": 689,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/cp2k-export.test.ts",
+      "language": "typescript",
+      "sizeLines": 104,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/export-modules.test.ts",
+      "language": "typescript",
+      "sizeLines": 722,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/export.test.ts",
+      "language": "typescript",
+      "sizeLines": 1202,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gaussian-export.test.ts",
+      "language": "typescript",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/bond-compute-pack.test.ts",
+      "language": "typescript",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/bond-compute.test.ts",
+      "language": "typescript",
+      "sizeLines": 79,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/bond-compute.wgsl.test.ts",
+      "language": "typescript",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/bond-detect-reference.test.ts",
+      "language": "typescript",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/bond-grid.test.ts",
+      "language": "typescript",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/bond-rules.test.ts",
+      "language": "typescript",
+      "sizeLines": 66,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/camera-uniform.test.ts",
+      "language": "typescript",
+      "sizeLines": 63,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/frame-buffers.test.ts",
+      "language": "typescript",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/large-system-mode.test.ts",
+      "language": "typescript",
+      "sizeLines": 60,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/large-system-renderer.test.ts",
+      "language": "typescript",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "tests/vitest/structure/abacus-export.test.ts": [],
+    "tests/vitest/structure/amber-export.test.ts": [],
+    "tests/vitest/structure/atoms/apply-atom-delete.test.svelte.ts": [],
+    "tests/vitest/structure/atoms/atom-manager.test.svelte.ts": [],
+    "tests/vitest/structure/bond-manager.test.ts": [],
+    "tests/vitest/structure/bond-undo-stack.test.ts": [],
+    "tests/vitest/structure/bonding.test.ts": [],
+    "tests/vitest/structure/bonding/apply-atom-delete.test.svelte.ts": [],
+    "tests/vitest/structure/bonding/apply-atom-mutation.test.svelte.ts": [],
+    "tests/vitest/structure/bonding/image-atom-layout.test.ts": [],
+    "tests/vitest/structure/controllers.test.ts": [],
+    "tests/vitest/structure/cp2k-export.test.ts": [],
+    "tests/vitest/structure/export-modules.test.ts": [],
+    "tests/vitest/structure/export.test.ts": [],
+    "tests/vitest/structure/gaussian-export.test.ts": [],
+    "tests/vitest/structure/gpu/bond-compute-pack.test.ts": [],
+    "tests/vitest/structure/gpu/bond-compute.test.ts": [],
+    "tests/vitest/structure/gpu/bond-compute.wgsl.test.ts": [],
+    "tests/vitest/structure/gpu/bond-detect-reference.test.ts": [],
+    "tests/vitest/structure/gpu/bond-grid.test.ts": [],
+    "tests/vitest/structure/gpu/bond-rules.test.ts": [],
+    "tests/vitest/structure/gpu/camera-uniform.test.ts": [],
+    "tests/vitest/structure/gpu/frame-buffers.test.ts": [],
+    "tests/vitest/structure/gpu/large-system-mode.test.ts": [],
+    "tests/vitest/structure/gpu/large-system-renderer.test.ts": []
+  }
+}

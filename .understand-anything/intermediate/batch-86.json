@@ -1,0 +1,918 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/element/ElementStats.svelte",
+      "type": "file",
+      "name": "ElementStats.svelte",
+      "filePath": "src/lib/element/ElementStats.svelte",
+      "summary": "实现Svelte UI相关的 ElementStats.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/element/ElementTile.svelte",
+      "type": "file",
+      "name": "ElementTile.svelte",
+      "filePath": "src/lib/element/ElementTile.svelte",
+      "summary": "实现Svelte UI相关的 ElementTile.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/element/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/element/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/element/Nucleus.svelte",
+      "type": "file",
+      "name": "Nucleus.svelte",
+      "filePath": "src/lib/element/Nucleus.svelte",
+      "summary": "实现Svelte UI相关的 Nucleus.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "config:src/lib/element/single_bond_covalent_radii.json",
+      "type": "config",
+      "name": "single_bond_covalent_radii.json",
+      "filePath": "src/lib/element/single_bond_covalent_radii.json",
+      "summary": "配置项目相关构建、运行或工具链参数，影响项目中对应模块的解析与执行方式。",
+      "tags": [
+        "configuration",
+        "build-system",
+        "项目"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/feedback/ClickFeedback.svelte",
+      "type": "file",
+      "name": "ClickFeedback.svelte",
+      "filePath": "src/lib/feedback/ClickFeedback.svelte",
+      "summary": "实现Svelte UI相关的 ClickFeedback.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/feedback/DragOverlay.svelte",
+      "type": "file",
+      "name": "DragOverlay.svelte",
+      "filePath": "src/lib/feedback/DragOverlay.svelte",
+      "summary": "实现Svelte UI相关的 DragOverlay.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/feedback/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/feedback/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/feedback/Spinner.svelte",
+      "type": "file",
+      "name": "Spinner.svelte",
+      "filePath": "src/lib/feedback/Spinner.svelte",
+      "summary": "实现Svelte UI相关的 Spinner.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/feedback/StatusMessage.svelte",
+      "type": "file",
+      "name": "StatusMessage.svelte",
+      "filePath": "src/lib/feedback/StatusMessage.svelte",
+      "summary": "实现Svelte UI相关的 StatusMessage.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/FilePicker.svelte",
+      "type": "file",
+      "name": "FilePicker.svelte",
+      "filePath": "src/lib/FilePicker.svelte",
+      "summary": "实现Svelte UI相关的 FilePicker.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/gesture/__tests__/hand-tracker.test.ts",
+      "type": "file",
+      "name": "hand-tracker.test.ts",
+      "filePath": "src/lib/gesture/__tests__/hand-tracker.test.ts",
+      "summary": "覆盖测试相关行为的测试文件，验证 hand-tracker 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/gesture/atom-art.ts",
+      "type": "file",
+      "name": "atom-art.ts",
+      "filePath": "src/lib/gesture/atom-art.ts",
+      "summary": "实现项目相关的 atom-art.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:src/lib/gesture/atom-art.ts:AtomArt",
+      "type": "class",
+      "name": "AtomArt",
+      "filePath": "src/lib/gesture/atom-art.ts",
+      "lineRange": [
+        32,
+        115
+      ],
+      "summary": "定义项目模块中的 AtomArt 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/gesture/audio-pipeline.ts",
+      "type": "file",
+      "name": "audio-pipeline.ts",
+      "filePath": "src/lib/gesture/audio-pipeline.ts",
+      "summary": "实现项目相关的 audio-pipeline.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/gesture/audio-pipeline.ts:create_audio_pipeline",
+      "type": "function",
+      "name": "create_audio_pipeline",
+      "filePath": "src/lib/gesture/audio-pipeline.ts",
+      "lineRange": [
+        17,
+        85
+      ],
+      "summary": "封装项目模块中的 create_audio_pipeline 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/gesture/audio-utils.ts",
+      "type": "file",
+      "name": "audio-utils.ts",
+      "filePath": "src/lib/gesture/audio-utils.ts",
+      "summary": "实现项目相关的 audio-utils.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "utility",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/gesture/audio-utils.ts:float32_to_wav",
+      "type": "function",
+      "name": "float32_to_wav",
+      "filePath": "src/lib/gesture/audio-utils.ts",
+      "lineRange": [
+        6,
+        43
+      ],
+      "summary": "封装项目模块中的 float32_to_wav 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/gesture/fuzzy-matcher.ts",
+      "type": "file",
+      "name": "fuzzy-matcher.ts",
+      "filePath": "src/lib/gesture/fuzzy-matcher.ts",
+      "summary": "实现项目相关的 fuzzy-matcher.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 9 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/gesture/fuzzy-matcher.ts:build_index",
+      "type": "function",
+      "name": "build_index",
+      "filePath": "src/lib/gesture/fuzzy-matcher.ts",
+      "lineRange": [
+        42,
+        72
+      ],
+      "summary": "封装项目模块中的 build_index 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/gesture/fuzzy-matcher.ts:reset_fuzzy_index",
+      "type": "function",
+      "name": "reset_fuzzy_index",
+      "filePath": "src/lib/gesture/fuzzy-matcher.ts",
+      "lineRange": [
+        75,
+        78
+      ],
+      "summary": "封装项目模块中的 reset_fuzzy_index 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/gesture/fuzzy-matcher.ts:word_level_score",
+      "type": "function",
+      "name": "word_level_score",
+      "filePath": "src/lib/gesture/fuzzy-matcher.ts",
+      "lineRange": [
+        103,
+        134
+      ],
+      "summary": "封装项目模块中的 word_level_score 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/gesture/fuzzy-matcher.ts:levenshtein",
+      "type": "function",
+      "name": "levenshtein",
+      "filePath": "src/lib/gesture/fuzzy-matcher.ts",
+      "lineRange": [
+        143,
+        167
+      ],
+      "summary": "封装项目模块中的 levenshtein 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/gesture/fuzzy-matcher.ts:phonetic_score",
+      "type": "function",
+      "name": "phonetic_score",
+      "filePath": "src/lib/gesture/fuzzy-matcher.ts",
+      "lineRange": [
+        176,
+        199
+      ],
+      "summary": "封装项目模块中的 phonetic_score 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/gesture/fuzzy-matcher.ts:fuzzy_match_command",
+      "type": "function",
+      "name": "fuzzy_match_command",
+      "filePath": "src/lib/gesture/fuzzy-matcher.ts",
+      "lineRange": [
+        207,
+        317
+      ],
+      "summary": "封装项目模块中的 fuzzy_match_command 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/gesture/gesture-config-store.ts",
+      "type": "file",
+      "name": "gesture-config-store.ts",
+      "filePath": "src/lib/gesture/gesture-config-store.ts",
+      "summary": "实现项目相关的 gesture-config-store.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "state-management",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/gesture/gesture-config-store.ts:load_gesture_config",
+      "type": "function",
+      "name": "load_gesture_config",
+      "filePath": "src/lib/gesture/gesture-config-store.ts",
+      "lineRange": [
+        12,
+        22
+      ],
+      "summary": "封装项目模块中的 load_gesture_config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/gesture/gesture-config-store.ts:save_gesture_config",
+      "type": "function",
+      "name": "save_gesture_config",
+      "filePath": "src/lib/gesture/gesture-config-store.ts",
+      "lineRange": [
+        25,
+        31
+      ],
+      "summary": "封装项目模块中的 save_gesture_config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/gesture/gesture-recognizer.ts",
+      "type": "file",
+      "name": "gesture-recognizer.ts",
+      "filePath": "src/lib/gesture/gesture-recognizer.ts",
+      "summary": "实现项目相关的 gesture-recognizer.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 5 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/gesture/gesture-recognizer.ts:compute_gesture_strengths",
+      "type": "function",
+      "name": "compute_gesture_strengths",
+      "filePath": "src/lib/gesture/gesture-recognizer.ts",
+      "lineRange": [
+        46,
+        143
+      ],
+      "summary": "封装项目模块中的 compute_gesture_strengths 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:src/lib/gesture/gesture-recognizer.ts:GestureRecognizer",
+      "type": "class",
+      "name": "GestureRecognizer",
+      "filePath": "src/lib/gesture/gesture-recognizer.ts",
+      "lineRange": [
+        167,
+        273
+      ],
+      "summary": "定义项目模块中的 GestureRecognizer 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/gesture/gesture-types.ts",
+      "type": "file",
+      "name": "gesture-types.ts",
+      "filePath": "src/lib/gesture/gesture-types.ts",
+      "summary": "实现项目相关的 gesture-types.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/gesture/GestureOverlay.svelte",
+      "type": "file",
+      "name": "GestureOverlay.svelte",
+      "filePath": "src/lib/gesture/GestureOverlay.svelte",
+      "summary": "实现Svelte UI相关的 GestureOverlay.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/gesture/GestureProvider.svelte",
+      "type": "file",
+      "name": "GestureProvider.svelte",
+      "filePath": "src/lib/gesture/GestureProvider.svelte",
+      "summary": "实现Svelte UI相关的 GestureProvider.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/gesture/GestureSettingsPane.svelte",
+      "type": "file",
+      "name": "GestureSettingsPane.svelte",
+      "filePath": "src/lib/gesture/GestureSettingsPane.svelte",
+      "summary": "实现设置相关的 GestureSettingsPane.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "设置"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/gesture/hand-tracker.ts",
+      "type": "file",
+      "name": "hand-tracker.ts",
+      "filePath": "src/lib/gesture/hand-tracker.ts",
+      "summary": "实现项目相关的 hand-tracker.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:src/lib/gesture/hand-tracker.ts:HandTracker",
+      "type": "class",
+      "name": "HandTracker",
+      "filePath": "src/lib/gesture/hand-tracker.ts",
+      "lineRange": [
+        14,
+        282
+      ],
+      "summary": "定义项目模块中的 HandTracker 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src/lib/gesture/local-whisper.ts",
+      "type": "file",
+      "name": "local-whisper.ts",
+      "filePath": "src/lib/gesture/local-whisper.ts",
+      "summary": "实现项目相关的 local-whisper.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 1 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/gesture/local-whisper.ts:get_pipeline",
+      "type": "function",
+      "name": "get_pipeline",
+      "filePath": "src/lib/gesture/local-whisper.ts",
+      "lineRange": [
+        28,
+        77
+      ],
+      "summary": "封装项目模块中的 get_pipeline 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/gesture/local-whisper.ts:preload_whisper_model",
+      "type": "function",
+      "name": "preload_whisper_model",
+      "filePath": "src/lib/gesture/local-whisper.ts",
+      "lineRange": [
+        80,
+        85
+      ],
+      "summary": "封装项目模块中的 preload_whisper_model 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/lib/gesture/local-whisper.ts:LocalWhisperEngine",
+      "type": "class",
+      "name": "LocalWhisperEngine",
+      "filePath": "src/lib/gesture/local-whisper.ts",
+      "lineRange": [
+        89,
+        215
+      ],
+      "summary": "定义项目模块中的 LocalWhisperEngine 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/gesture/one-euro-filter.ts",
+      "type": "file",
+      "name": "one-euro-filter.ts",
+      "filePath": "src/lib/gesture/one-euro-filter.ts",
+      "summary": "实现项目相关的 one-euro-filter.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 3 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:src/lib/gesture/one-euro-filter.ts:LowPassFilter",
+      "type": "class",
+      "name": "LowPassFilter",
+      "filePath": "src/lib/gesture/one-euro-filter.ts",
+      "lineRange": [
+        14,
+        38
+      ],
+      "summary": "定义项目模块中的 LowPassFilter 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src/lib/gesture/one-euro-filter.ts:OneEuroFilter",
+      "type": "class",
+      "name": "OneEuroFilter",
+      "filePath": "src/lib/gesture/one-euro-filter.ts",
+      "lineRange": [
+        42,
+        96
+      ],
+      "summary": "定义项目模块中的 OneEuroFilter 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:src/lib/gesture/one-euro-filter.ts:LandmarkFilterBank",
+      "type": "class",
+      "name": "LandmarkFilterBank",
+      "filePath": "src/lib/gesture/one-euro-filter.ts",
+      "lineRange": [
+        103,
+        124
+      ],
+      "summary": "定义项目模块中的 LandmarkFilterBank 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/gesture/atom-art.ts",
+      "target": "class:src/lib/gesture/atom-art.ts:AtomArt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/atom-art.ts",
+      "target": "class:src/lib/gesture/atom-art.ts:AtomArt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/audio-pipeline.ts",
+      "target": "function:src/lib/gesture/audio-pipeline.ts:create_audio_pipeline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/audio-pipeline.ts",
+      "target": "function:src/lib/gesture/audio-pipeline.ts:create_audio_pipeline",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/audio-utils.ts",
+      "target": "function:src/lib/gesture/audio-utils.ts:float32_to_wav",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/audio-utils.ts",
+      "target": "function:src/lib/gesture/audio-utils.ts:float32_to_wav",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/fuzzy-matcher.ts",
+      "target": "function:src/lib/gesture/fuzzy-matcher.ts:build_index",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/fuzzy-matcher.ts",
+      "target": "function:src/lib/gesture/fuzzy-matcher.ts:reset_fuzzy_index",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/fuzzy-matcher.ts",
+      "target": "function:src/lib/gesture/fuzzy-matcher.ts:word_level_score",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/fuzzy-matcher.ts",
+      "target": "function:src/lib/gesture/fuzzy-matcher.ts:levenshtein",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/fuzzy-matcher.ts",
+      "target": "function:src/lib/gesture/fuzzy-matcher.ts:phonetic_score",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/fuzzy-matcher.ts",
+      "target": "function:src/lib/gesture/fuzzy-matcher.ts:fuzzy_match_command",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/fuzzy-matcher.ts",
+      "target": "function:src/lib/gesture/fuzzy-matcher.ts:reset_fuzzy_index",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/fuzzy-matcher.ts",
+      "target": "function:src/lib/gesture/fuzzy-matcher.ts:fuzzy_match_command",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/gesture-config-store.ts",
+      "target": "function:src/lib/gesture/gesture-config-store.ts:load_gesture_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/gesture-config-store.ts",
+      "target": "function:src/lib/gesture/gesture-config-store.ts:save_gesture_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/gesture-config-store.ts",
+      "target": "function:src/lib/gesture/gesture-config-store.ts:load_gesture_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/gesture-config-store.ts",
+      "target": "function:src/lib/gesture/gesture-config-store.ts:save_gesture_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/gesture-recognizer.ts",
+      "target": "function:src/lib/gesture/gesture-recognizer.ts:compute_gesture_strengths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/gesture-recognizer.ts",
+      "target": "class:src/lib/gesture/gesture-recognizer.ts:GestureRecognizer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/gesture-recognizer.ts",
+      "target": "class:src/lib/gesture/gesture-recognizer.ts:GestureRecognizer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/hand-tracker.ts",
+      "target": "class:src/lib/gesture/hand-tracker.ts:HandTracker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/hand-tracker.ts",
+      "target": "class:src/lib/gesture/hand-tracker.ts:HandTracker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/local-whisper.ts",
+      "target": "function:src/lib/gesture/local-whisper.ts:get_pipeline",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/local-whisper.ts",
+      "target": "function:src/lib/gesture/local-whisper.ts:preload_whisper_model",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/local-whisper.ts",
+      "target": "class:src/lib/gesture/local-whisper.ts:LocalWhisperEngine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/local-whisper.ts",
+      "target": "function:src/lib/gesture/local-whisper.ts:preload_whisper_model",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/local-whisper.ts",
+      "target": "class:src/lib/gesture/local-whisper.ts:LocalWhisperEngine",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/one-euro-filter.ts",
+      "target": "class:src/lib/gesture/one-euro-filter.ts:LowPassFilter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/one-euro-filter.ts",
+      "target": "class:src/lib/gesture/one-euro-filter.ts:OneEuroFilter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/one-euro-filter.ts",
+      "target": "class:src/lib/gesture/one-euro-filter.ts:LandmarkFilterBank",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/gesture/one-euro-filter.ts",
+      "target": "class:src/lib/gesture/one-euro-filter.ts:OneEuroFilter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/gesture/one-euro-filter.ts",
+      "target": "class:src/lib/gesture/one-euro-filter.ts:LandmarkFilterBank",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

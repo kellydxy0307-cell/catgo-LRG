@@ -1,0 +1,103 @@
+{
+  "nodes": [
+    {
+      "id": "document:server/templates/INTEGRATION_GUIDE.md",
+      "type": "document",
+      "name": "INTEGRATION_GUIDE.md",
+      "filePath": "server/templates/INTEGRATION_GUIDE.md",
+      "summary": "INTEGRATION_GUIDE.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件；结构提取显示 338 行有效内容。"
+    },
+    {
+      "id": "document:server/templates/QUICK_REFERENCE.md",
+      "type": "document",
+      "name": "QUICK_REFERENCE.md",
+      "filePath": "server/templates/QUICK_REFERENCE.md",
+      "summary": "QUICK_REFERENCE.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件；结构提取显示 211 行有效内容。"
+    },
+    {
+      "id": "document:server/templates/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "server/templates/README.md",
+      "summary": "README.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件；结构提取显示 244 行有效内容。"
+    },
+    {
+      "id": "document:server/templates/TEMPLATE_USAGE.md",
+      "type": "document",
+      "name": "TEMPLATE_USAGE.md",
+      "filePath": "server/templates/TEMPLATE_USAGE.md",
+      "summary": "TEMPLATE_USAGE.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件；结构提取显示 301 行有效内容。"
+    },
+    {
+      "id": "file:server/templates/orca_expanse.sh",
+      "type": "file",
+      "name": "orca_expanse.sh",
+      "filePath": "server/templates/orca_expanse.sh",
+      "summary": "orca_expanse.sh 是 代码文件，负责 项目模块 相关逻辑。",
+      "tags": [
+        "shell",
+        "模块",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "shell 文件；结构提取显示 36 行有效内容。"
+    },
+    {
+      "id": "file:server/templates/orca_generic.sh",
+      "type": "file",
+      "name": "orca_generic.sh",
+      "filePath": "server/templates/orca_generic.sh",
+      "summary": "orca_generic.sh 是 代码文件，负责 项目模块 相关逻辑。",
+      "tags": [
+        "shell",
+        "模块",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "shell 文件；结构提取显示 59 行有效内容。"
+    },
+    {
+      "id": "file:server/templates/orca_shaheen.sh",
+      "type": "file",
+      "name": "orca_shaheen.sh",
+      "filePath": "server/templates/orca_shaheen.sh",
+      "summary": "orca_shaheen.sh 是 代码文件，负责 项目模块 相关逻辑。",
+      "tags": [
+        "shell",
+        "模块",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "shell 文件；结构提取显示 37 行有效内容。"
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,500 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/reference/changelog.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 165,
+      "nonEmptyLines": 126,
+      "sections": [
+        {
+          "heading": "Changelog",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "[1.0.1] — 2026-05-12",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Added",
+          "level": 3,
+          "line": 7
+        },
+        {
+          "heading": "Fixed",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "Changed",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "[Unreleased]",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "Added",
+          "level": 3,
+          "line": 26
+        },
+        {
+          "heading": "Changed",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "Fixed",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "[0.3.2] - 2026-02-02",
+          "level": 2,
+          "line": 66
+        },
+        {
+          "heading": "Added",
+          "level": 3,
+          "line": 68
+        },
+        {
+          "heading": "Changed",
+          "level": 3,
+          "line": 73
+        },
+        {
+          "heading": "Fixed",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "[0.3.1] - 2026-02-02",
+          "level": 2,
+          "line": 82
+        },
+        {
+          "heading": "Added",
+          "level": 3,
+          "line": 84
+        },
+        {
+          "heading": "Fixed",
+          "level": 3,
+          "line": 89
+        },
+        {
+          "heading": "[0.3.0] - 2026-02-01",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "Added",
+          "level": 3,
+          "line": 98
+        },
+        {
+          "heading": "Fixed",
+          "level": 3,
+          "line": 102
+        },
+        {
+          "heading": "[0.2.3] - 2026-02-01",
+          "level": 2,
+          "line": 108
+        },
+        {
+          "heading": "Added",
+          "level": 3,
+          "line": 110
+        },
+        {
+          "heading": "Fixed",
+          "level": 3,
+          "line": 123
+        },
+        {
+          "heading": "[0.1.17] - 2026-01-26",
+          "level": 2,
+          "line": 128
+        },
+        {
+          "heading": "Changed",
+          "level": 3,
+          "line": 130
+        },
+        {
+          "heading": "Added",
+          "level": 3,
+          "line": 133
+        },
+        {
+          "heading": "[0.1.15] - 2026-01-26",
+          "level": 2,
+          "line": 138
+        },
+        {
+          "heading": "Added",
+          "level": 3,
+          "line": 140
+        },
+        {
+          "heading": "[0.1.13] - 2026-01-26",
+          "level": 2,
+          "line": 147
+        },
+        {
+          "heading": "Added",
+          "level": 3,
+          "line": 149
+        },
+        {
+          "heading": "Version History Summary",
+          "level": 2,
+          "line": 156
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 30
+      }
+    },
+    {
+      "path": "docs/reference/configuration.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 94,
+      "nonEmptyLines": 69,
+      "sections": [
+        {
+          "heading": "Configuration Reference",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "User Data Directory",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Environment Variables",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Application",
+          "level": 3,
+          "line": 24
+        },
+        {
+          "heading": "AI Providers (CatBot)",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "Materials Databases",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "HPC",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "Config Files",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Backend Endpoints",
+          "level": 2,
+          "line": 81
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "docs/reference/faq.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 269,
+      "nonEmptyLines": 166,
+      "sections": [
+        {
+          "heading": "Frequently Asked Questions",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "General",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "What is CatGo?",
+          "level": 3,
+          "line": 5
+        },
+        {
+          "heading": "What file formats are supported?",
+          "level": 3,
+          "line": 9
+        },
+        {
+          "heading": "Does CatGo require an internet connection?",
+          "level": 3,
+          "line": 15
+        },
+        {
+          "heading": "Is CatGo free and open source?",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Structure Viewer",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Why don't bonds appear?",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Why is the structure upside down after a slab cut?",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Why are atoms overlapping?",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "How do I change atom colors?",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "How do I freeze atoms for optimization?",
+          "level": 3,
+          "line": 57
+        },
+        {
+          "heading": "How do I undo changes?",
+          "level": 3,
+          "line": 64
+        },
+        {
+          "heading": "Desktop App",
+          "level": 2,
+          "line": 70
+        },
+        {
+          "heading": "How do I install the desktop app?",
+          "level": 3,
+          "line": 72
+        },
+        {
+          "heading": "Can I open files by double-clicking?",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "Does the desktop app include the Python server?",
+          "level": 3,
+          "line": 80
+        },
+        {
+          "heading": "Optimization",
+          "level": 2,
+          "line": 86
+        },
+        {
+          "heading": "Which calculator should I use?",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "Why is the server not detected?",
+          "level": 3,
+          "line": 99
+        },
+        {
+          "heading": "Why does optimization say \"element not supported\"?",
+          "level": 3,
+          "line": 106
+        },
+        {
+          "heading": "Can I optimize the cell shape?",
+          "level": 3,
+          "line": 115
+        },
+        {
+          "heading": "Database Search",
+          "level": 2,
+          "line": 121
+        },
+        {
+          "heading": "Why does database search fail?",
+          "level": 3,
+          "line": 123
+        },
+        {
+          "heading": "How do I get a Materials Project API key?",
+          "level": 3,
+          "line": 127
+        },
+        {
+          "heading": "What's the difference between OPTIMADE and PubChem?",
+          "level": 3,
+          "line": 134
+        },
+        {
+          "heading": "Trajectories",
+          "level": 2,
+          "line": 141
+        },
+        {
+          "heading": "Why isn't my trajectory loading?",
+          "level": 3,
+          "line": 143
+        },
+        {
+          "heading": "How do I control playback speed?",
+          "level": 3,
+          "line": 150
+        },
+        {
+          "heading": "Can I export a specific frame?",
+          "level": 3,
+          "line": 154
+        },
+        {
+          "heading": "WASM / Performance",
+          "level": 2,
+          "line": 160
+        },
+        {
+          "heading": "Why is WASM not loading?",
+          "level": 3,
+          "line": 162
+        },
+        {
+          "heading": "The viewer is slow with many atoms. What can I do?",
+          "level": 3,
+          "line": 169
+        },
+        {
+          "heading": "How much memory does CatGo use?",
+          "level": 3,
+          "line": 177
+        },
+        {
+          "heading": "Workflows {#workflows}",
+          "level": 2,
+          "line": 188
+        },
+        {
+          "heading": "What is the workflow engine?",
+          "level": 3,
+          "line": 190
+        },
+        {
+          "heading": "Do I need VASP installed?",
+          "level": 3,
+          "line": 194
+        },
+        {
+          "heading": "How do I connect to my HPC cluster?",
+          "level": 3,
+          "line": 198
+        },
+        {
+          "heading": "My workflow failed. How do I debug it?",
+          "level": 3,
+          "line": 205
+        },
+        {
+          "heading": "Can I resume a failed workflow?",
+          "level": 3,
+          "line": 216
+        },
+        {
+          "heading": "What is Custodian and should I enable it?",
+          "level": 3,
+          "line": 224
+        },
+        {
+          "heading": "How do I use a custom job script?",
+          "level": 3,
+          "line": 228
+        },
+        {
+          "heading": "Can I run workflows without an HPC cluster?",
+          "level": 3,
+          "line": 232
+        },
+        {
+          "heading": "Where are my results stored?",
+          "level": 3,
+          "line": 236
+        },
+        {
+          "heading": "How do I export workflow results?",
+          "level": 3,
+          "line": 240
+        },
+        {
+          "heading": "Can multiple workflows run at the same time?",
+          "level": 3,
+          "line": 247
+        },
+        {
+          "heading": "What happens if the server crashes during a workflow?",
+          "level": 3,
+          "line": 251
+        },
+        {
+          "heading": "Contributing",
+          "level": 2,
+          "line": 257
+        },
+        {
+          "heading": "How do I report a bug?",
+          "level": 3,
+          "line": 259
+        },
+        {
+          "heading": "How do I contribute code?",
+          "level": 3,
+          "line": 267
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 50
+      }
+    }
+  ]
+}

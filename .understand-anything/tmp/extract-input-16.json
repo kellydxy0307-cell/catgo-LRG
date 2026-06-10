@@ -1,0 +1,28 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "docs/modules/crystallography/supercells.md",
+      "language": "markdown",
+      "sizeLines": 54,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/modules/crystallography/surfaces-slabs.md",
+      "language": "markdown",
+      "sizeLines": 109,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/modules/crystallography/symmetry.md",
+      "language": "markdown",
+      "sizeLines": 93,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "docs/modules/crystallography/supercells.md": [],
+    "docs/modules/crystallography/surfaces-slabs.md": [],
+    "docs/modules/crystallography/symmetry.md": []
+  }
+}

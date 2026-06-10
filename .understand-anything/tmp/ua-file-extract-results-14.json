@@ -1,0 +1,251 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/modules/analysis/composition.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 48,
+      "nonEmptyLines": 33,
+      "sections": [
+        {
+          "heading": "Composition",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Key Functions",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Visualization Components",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Chart Features",
+          "level": 2,
+          "line": 43
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 5
+      }
+    },
+    {
+      "path": "docs/modules/analysis/periodic-table.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 53,
+      "nonEmptyLines": 41,
+      "sections": [
+        {
+          "heading": "Periodic Table",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Element Detail Components",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Element Database",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "Properties Available",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Features",
+          "level": 2,
+          "line": 46
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "docs/modules/analysis/phase-diagrams.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 70,
+      "nonEmptyLines": 51,
+      "sections": [
+        {
+          "heading": "Phase Diagrams",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Key Functions",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Diagram Types",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "Binary (2D)",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "Ternary (Triangle)",
+          "level": 3,
+          "line": 53
+        },
+        {
+          "heading": "3D / Quaternary",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "Features",
+          "level": 2,
+          "line": 64
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "docs/modules/analysis/spectroscopy.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 137,
+      "nonEmptyLines": 96,
+      "sections": [
+        {
+          "heading": "Spectroscopy & Electronic Structure",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "X-Ray Diffraction (XRD)",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Key Functions",
+          "level": 3,
+          "line": 11
+        },
+        {
+          "heading": "Radiation Sources",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "Component",
+          "level": 3,
+          "line": 30
+        },
+        {
+          "heading": "Radial Distribution Function (RDF)",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Key Functions",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Options",
+          "level": 3,
+          "line": 50
+        },
+        {
+          "heading": "Component",
+          "level": 3,
+          "line": 62
+        },
+        {
+          "heading": "Band Structure",
+          "level": 2,
+          "line": 68
+        },
+        {
+          "heading": "Components",
+          "level": 3,
+          "line": 72
+        },
+        {
+          "heading": "Data Format",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "Brillouin Zone",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "Key Functions",
+          "level": 3,
+          "line": 105
+        },
+        {
+          "heading": "Components",
+          "level": 3,
+          "line": 121
+        },
+        {
+          "heading": "Features",
+          "level": 3,
+          "line": 131
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 16
+      }
+    }
+  ]
+}

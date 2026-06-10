@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "server/catgo/cli/_extpath.py",
+      "language": "python",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/_legacy.py",
+      "language": "python",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/adapter.py",
+      "language": "python",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/hpc_link.py",
+      "language": "python",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/ir.py",
+      "language": "python",
+      "sizeLines": 206,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/ops_analyze.py",
+      "language": "python",
+      "sizeLines": 324,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/ops_build.py",
+      "language": "python",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/ops_convert.py",
+      "language": "python",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/ops_submit.py",
+      "language": "python",
+      "sizeLines": 238,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/ops_viewer.py",
+      "language": "python",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/ops.py",
+      "language": "python",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/pdos_groups.py",
+      "language": "python",
+      "sizeLines": 116,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/plotting.py",
+      "language": "python",
+      "sizeLines": 110,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/registry.py",
+      "language": "python",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/server_link.py",
+      "language": "python",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/session.py",
+      "language": "python",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/shell.py",
+      "language": "python",
+      "sizeLines": 122,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/vib.py",
+      "language": "python",
+      "sizeLines": 194,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/converters/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/converters/atomate2/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/converters/atomate2/converter.py",
+      "language": "python",
+      "sizeLines": 277,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/converters/atomate2/maker_map.py",
+      "language": "python",
+      "sizeLines": 993,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/converters/atomate2/templates.py",
+      "language": "python",
+      "sizeLines": 491,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/converters/quacc/__init__.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/converters/quacc/converter.py",
+      "language": "python",
+      "sizeLines": 648,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/catgo/cli/_extpath.py": [],
+    "server/catgo/cli/_legacy.py": [],
+    "server/catgo/cli/adapter.py": [],
+    "server/catgo/cli/hpc_link.py": [],
+    "server/catgo/cli/ir.py": [],
+    "server/catgo/cli/ops_analyze.py": [],
+    "server/catgo/cli/ops_build.py": [],
+    "server/catgo/cli/ops_convert.py": [],
+    "server/catgo/cli/ops_submit.py": [],
+    "server/catgo/cli/ops_viewer.py": [],
+    "server/catgo/cli/ops.py": [],
+    "server/catgo/cli/pdos_groups.py": [],
+    "server/catgo/cli/plotting.py": [],
+    "server/catgo/cli/registry.py": [],
+    "server/catgo/cli/server_link.py": [],
+    "server/catgo/cli/session.py": [],
+    "server/catgo/cli/shell.py": [],
+    "server/catgo/cli/vib.py": [],
+    "server/catgo/converters/__init__.py": [],
+    "server/catgo/converters/atomate2/__init__.py": [],
+    "server/catgo/converters/atomate2/converter.py": [],
+    "server/catgo/converters/atomate2/maker_map.py": [],
+    "server/catgo/converters/atomate2/templates.py": [],
+    "server/catgo/converters/quacc/__init__.py": [],
+    "server/catgo/converters/quacc/converter.py": []
+  }
+}

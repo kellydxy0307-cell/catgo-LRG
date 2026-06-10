@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "document:docs/tutorials/md-analysis/clustering-pca.md",
+      "type": "document",
+      "name": "clustering-pca.md",
+      "filePath": "docs/tutorials/md-analysis/clustering-pca.md",
+      "summary": "clustering-pca.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "markdown 文件；结构提取显示 33 行有效内容。"
+    },
+    {
+      "id": "document:docs/tutorials/md-analysis/hbond-detection.md",
+      "type": "document",
+      "name": "hbond-detection.md",
+      "filePath": "docs/tutorials/md-analysis/hbond-detection.md",
+      "summary": "hbond-detection.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "markdown 文件；结构提取显示 28 行有效内容。"
+    },
+    {
+      "id": "document:docs/tutorials/md-analysis/rdf-analysis.md",
+      "type": "document",
+      "name": "rdf-analysis.md",
+      "filePath": "docs/tutorials/md-analysis/rdf-analysis.md",
+      "summary": "rdf-analysis.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "markdown 文件；结构提取显示 33 行有效内容。"
+    },
+    {
+      "id": "document:docs/tutorials/md-analysis/rmsd-rmsf.md",
+      "type": "document",
+      "name": "rmsd-rmsf.md",
+      "filePath": "docs/tutorials/md-analysis/rmsd-rmsf.md",
+      "summary": "rmsd-rmsf.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "markdown 文件；结构提取显示 28 行有效内容。"
+    }
+  ],
+  "edges": []
+}

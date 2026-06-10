@@ -1,0 +1,187 @@
+{
+    "projectRoot":  "D:\\catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "docs/superpowers/specs/2026-03-10-claude-code-integration-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  401,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-03-11-tool-first-architecture-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  886,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-03-28-workflow-engine-refactor-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  791,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-03-29-agent-sdk-bridge-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  551,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-03-30-declarative-engine-framework-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  372,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-04-03-coordination-polyhedra-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  103,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-04-03-mof-frontend-clipping-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  94,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-04-03-mof-topology-rust-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  132,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-04-09-backend-binary-vscode-integration-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  141,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-04-09-cloudflare-pages-deployment-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  180,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-17-catbot-slash-commands-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  203,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-18-catrender-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  184,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-19-catgo-cli-analyze-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  258,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-19-catgo-cli-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  241,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-19-catgo-cli-hpc-submit-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  284,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-19-catgo-cli-ir-spectrum-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  214,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-19-catgo-cli-pdos-groups-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  190,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-19-catgo-cli-viewer-sync-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  293,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-21-selected-atom-rotation-fixed-screen-axes-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  120,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/superpowers/specs/2026-05-23-webgpu-large-trajectory-bonds-design.md",
+                           "language":  "markdown",
+                           "sizeLines":  98,
+                           "fileCategory":  "docs"
+                       }
+                   ],
+    "batchImportData":  {
+                            "docs/superpowers/specs/2026-03-10-claude-code-integration-design.md":  [
+
+                                                                                                    ],
+                            "docs/superpowers/specs/2026-03-11-tool-first-architecture-design.md":  [
+
+                                                                                                    ],
+                            "docs/superpowers/specs/2026-03-28-workflow-engine-refactor-design.md":  [
+
+                                                                                                     ],
+                            "docs/superpowers/specs/2026-03-29-agent-sdk-bridge-design.md":  [
+
+                                                                                             ],
+                            "docs/superpowers/specs/2026-03-30-declarative-engine-framework-design.md":  [
+
+                                                                                                         ],
+                            "docs/superpowers/specs/2026-04-03-coordination-polyhedra-design.md":  [
+
+                                                                                                   ],
+                            "docs/superpowers/specs/2026-04-03-mof-frontend-clipping-design.md":  [
+
+                                                                                                  ],
+                            "docs/superpowers/specs/2026-04-03-mof-topology-rust-design.md":  [
+
+                                                                                              ],
+                            "docs/superpowers/specs/2026-04-09-backend-binary-vscode-integration-design.md":  [
+
+                                                                                                              ],
+                            "docs/superpowers/specs/2026-04-09-cloudflare-pages-deployment-design.md":  [
+
+                                                                                                        ],
+                            "docs/superpowers/specs/2026-05-17-catbot-slash-commands-design.md":  [
+
+                                                                                                  ],
+                            "docs/superpowers/specs/2026-05-18-catrender-design.md":  [
+
+                                                                                      ],
+                            "docs/superpowers/specs/2026-05-19-catgo-cli-analyze-design.md":  [
+
+                                                                                              ],
+                            "docs/superpowers/specs/2026-05-19-catgo-cli-design.md":  [
+
+                                                                                      ],
+                            "docs/superpowers/specs/2026-05-19-catgo-cli-hpc-submit-design.md":  [
+
+                                                                                                 ],
+                            "docs/superpowers/specs/2026-05-19-catgo-cli-ir-spectrum-design.md":  [
+
+                                                                                                  ],
+                            "docs/superpowers/specs/2026-05-19-catgo-cli-pdos-groups-design.md":  [
+
+                                                                                                  ],
+                            "docs/superpowers/specs/2026-05-19-catgo-cli-viewer-sync-design.md":  [
+
+                                                                                                  ],
+                            "docs/superpowers/specs/2026-05-21-selected-atom-rotation-fixed-screen-axes-design.md":  [
+
+                                                                                                                     ],
+                            "docs/superpowers/specs/2026-05-23-webgpu-large-trajectory-bonds-design.md":  [
+
+                                                                                                          ]
+                        }
+}

@@ -1,0 +1,1333 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".claude/skills/troubleshoot-convergence/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 207,
+      "nonEmptyLines": 157,
+      "sections": [
+        {
+          "heading": "Convergence Issues Troubleshooting Skill",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Diagnostic Step",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "SCF (Electronic) Convergence",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Symptoms",
+          "level": 3,
+          "line": 35
+        },
+        {
+          "heading": "VASP SCF Fixes",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Fix 1: Change mixing algorithm (ALGO)",
+          "level": 4,
+          "line": 42
+        },
+        {
+          "heading": "Fix 2: Adjust charge density mixing (AMIX/BMIX)",
+          "level": 4,
+          "line": 60
+        },
+        {
+          "heading": "Fix 3: Increase maximum SCF steps (NELM)",
+          "level": 4,
+          "line": 80
+        },
+        {
+          "heading": "Fix 4: Correct ISMEAR for your system type",
+          "level": 4,
+          "line": 92
+        },
+        {
+          "heading": "Fix 5: Start from a converged WAVECAR",
+          "level": 4,
+          "line": 112
+        },
+        {
+          "heading": "ORCA SCF Fixes",
+          "level": 3,
+          "line": 117
+        },
+        {
+          "heading": "Ionic (Geometry) Convergence",
+          "level": 2,
+          "line": 139
+        },
+        {
+          "heading": "Symptoms",
+          "level": 3,
+          "line": 141
+        },
+        {
+          "heading": "Fix 1: Adjust force convergence (EDIFFG)",
+          "level": 3,
+          "line": 146
+        },
+        {
+          "heading": "Fix 2: Increase maximum ionic steps (NSW)",
+          "level": 3,
+          "line": 160
+        },
+        {
+          "heading": "Fix 3: Change ionic optimizer (IBRION)",
+          "level": 3,
+          "line": 170
+        },
+        {
+          "heading": "Fix 4: Reduce step size (POTIM)",
+          "level": 3,
+          "line": 188
+        },
+        {
+          "heading": "Common Mistakes",
+          "level": 2,
+          "line": 202
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 19
+      }
+    },
+    {
+      "path": ".claude/skills/troubleshoot-vasp/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 202,
+      "nonEmptyLines": 154,
+      "sections": [
+        {
+          "heading": "VASP Error Troubleshooting Skill",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Diagnostic Steps",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Step 1: Get the error message",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "Step 2: Match the error and apply fix",
+          "level": 3,
+          "line": 32
+        },
+        {
+          "heading": "Error Reference",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "ZBRENT: Fatal error in bracketing",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "BRMIX: Very serious problems",
+          "level": 3,
+          "line": 66
+        },
+        {
+          "heading": "EDDDAV: Sub-space rotation failed / warning",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "VERY BAD NEWS: Internal error in subroutine",
+          "level": 3,
+          "line": 107
+        },
+        {
+          "heading": "POTCAR mismatch / POTCAR not found",
+          "level": 3,
+          "line": 126
+        },
+        {
+          "heading": "Memory errors (SBROUTINE / segfault / killed by OOM)",
+          "level": 3,
+          "line": 143
+        },
+        {
+          "heading": "RSPHER: Internal error",
+          "level": 3,
+          "line": 167
+        },
+        {
+          "heading": "PRICEL: Internal error / symmetry detection",
+          "level": 3,
+          "line": 182
+        },
+        {
+          "heading": "General Recovery Pattern",
+          "level": 2,
+          "line": 197
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": ".claude/skills/troubleshoot-workflow/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 213,
+      "nonEmptyLines": 163,
+      "sections": [
+        {
+          "heading": "CatGo Workflow Engine Error Troubleshooting Skill",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Diagnostic Steps",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "Step 1: Check system status",
+          "level": 3,
+          "line": 22
+        },
+        {
+          "heading": "Step 2: Check workflow and task status",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Step 3: Get recent error logs",
+          "level": 3,
+          "line": 39
+        },
+        {
+          "heading": "Error Reference",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "No HPC Connection",
+          "level": 3,
+          "line": 49
+        },
+        {
+          "heading": "POTCAR Not Found",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "Task Stuck in READY",
+          "level": 3,
+          "line": 101
+        },
+        {
+          "heading": "REMOTE_ERROR",
+          "level": 3,
+          "line": 140
+        },
+        {
+          "heading": "Task Stuck in SUBMITTED / RUNNING",
+          "level": 3,
+          "line": 172
+        },
+        {
+          "heading": "Workflow Paused Unexpectedly",
+          "level": 3,
+          "line": 193
+        },
+        {
+          "heading": "Recovery Actions Summary",
+          "level": 2,
+          "line": 202
+        },
+        {
+          "heading": "When to Escalate",
+          "level": 2,
+          "line": 209
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": ".claude/skills/vasp-band/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 198,
+      "nonEmptyLines": 154,
+      "sections": [
+        {
+          "heading": "VASP Band Structure Calculation",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Why Two Steps?",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Full Band Structure Workflow",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "MCP Workflow",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "High-Symmetry K-Path",
+          "level": 2,
+          "line": 88
+        },
+        {
+          "heading": "Automatic Path Detection",
+          "level": 3,
+          "line": 90
+        },
+        {
+          "heading": "Manual K-Path",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "Common K-Paths by Crystal System",
+          "level": 3,
+          "line": 114
+        },
+        {
+          "heading": "Key Parameters",
+          "level": 2,
+          "line": 124
+        },
+        {
+          "heading": "Spin-Polarized Band Structure",
+          "level": 2,
+          "line": 135
+        },
+        {
+          "heading": "Hybrid Functional Band Structure (HSE06)",
+          "level": 2,
+          "line": 151
+        },
+        {
+          "heading": "Combined DOS + Band Structure",
+          "level": 2,
+          "line": 170
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 190
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": ".claude/skills/vasp-dos/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 169,
+      "nonEmptyLines": 129,
+      "sections": [
+        {
+          "heading": "VASP Density of States (DOS) Calculation",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Why Three Steps?",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Full DOS Workflow",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "MCP Workflow",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Key DOS Parameters",
+          "level": 2,
+          "line": 95
+        },
+        {
+          "heading": "ISMEAR=-5 Requirements",
+          "level": 2,
+          "line": 105
+        },
+        {
+          "heading": "d-Band Center Analysis",
+          "level": 2,
+          "line": 112
+        },
+        {
+          "heading": "Spin-Polarized DOS",
+          "level": 2,
+          "line": 122
+        },
+        {
+          "heading": "Partial DOS (PDOS) for Specific Atoms",
+          "level": 2,
+          "line": 134
+        },
+        {
+          "heading": "Skip Optimization (Pre-Optimized Structure)",
+          "level": 2,
+          "line": 142
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 155
+        },
+        {
+          "heading": "Output",
+          "level": 2,
+          "line": 165
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": ".claude/skills/vasp-freq/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 203,
+      "nonEmptyLines": 152,
+      "sections": [
+        {
+          "heading": "VASP Frequency Calculation",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Discussion Checkpoints",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Basic Frequency Calculation",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Frozen Atoms for Slab Systems",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "freeze_mode Options",
+          "level": 3,
+          "line": 71
+        },
+        {
+          "heading": "Recommended: Freeze by Layers",
+          "level": 3,
+          "line": 82
+        },
+        {
+          "heading": "Freeze by Z-range",
+          "level": 3,
+          "line": 101
+        },
+        {
+          "heading": "Chain: Optimization then Frequency then Gibbs Energy",
+          "level": 2,
+          "line": 112
+        },
+        {
+          "heading": "Gas-Phase Molecule Frequencies",
+          "level": 2,
+          "line": 141
+        },
+        {
+          "heading": "Key Parameters",
+          "level": 2,
+          "line": 161
+        },
+        {
+          "heading": "Analyzing Results",
+          "level": 2,
+          "line": 173
+        },
+        {
+          "heading": "Output",
+          "level": 2,
+          "line": 185
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 191
+        },
+        {
+          "heading": "Cost Estimate",
+          "level": 2,
+          "line": 201
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": ".claude/skills/vasp-md/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 189,
+      "nonEmptyLines": 146,
+      "sections": [
+        {
+          "heading": "VASP Ab Initio Molecular Dynamics (AIMD)",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Basic NVT Molecular Dynamics",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "MCP Workflow",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "Key Parameters",
+          "level": 2,
+          "line": 72
+        },
+        {
+          "heading": "Thermostat Selection (SMASS)",
+          "level": 2,
+          "line": 85
+        },
+        {
+          "heading": "Temperature Ramp (Heating/Cooling)",
+          "level": 2,
+          "line": 96
+        },
+        {
+          "heading": "Time Step Selection (POTIM)",
+          "level": 2,
+          "line": 110
+        },
+        {
+          "heading": "Performance Settings",
+          "level": 2,
+          "line": 121
+        },
+        {
+          "heading": "Supercell Size",
+          "level": 2,
+          "line": 143
+        },
+        {
+          "heading": "Output",
+          "level": 2,
+          "line": 156
+        },
+        {
+          "heading": "Monitoring a Running MD",
+          "level": 2,
+          "line": 162
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 172
+        },
+        {
+          "heading": "Typical Simulation Lengths",
+          "level": 2,
+          "line": 182
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": ".claude/skills/vasp-relax/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 202,
+      "nonEmptyLines": 156,
+      "sections": [
+        {
+          "heading": "VASP Geometry Optimization",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "Discussion Checkpoints",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Scenario 1: Bulk Relaxation",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "Scenario 2: Slab Relaxation (Clean Surface)",
+          "level": 2,
+          "line": 77
+        },
+        {
+          "heading": "Scenario 3: Adsorbate on Slab",
+          "level": 2,
+          "line": 105
+        },
+        {
+          "heading": "Confirmation Gate",
+          "level": 2,
+          "line": 126
+        },
+        {
+          "heading": "Visual Verification Steps",
+          "level": 2,
+          "line": 130
+        },
+        {
+          "heading": "Convergence Monitoring",
+          "level": 2,
+          "line": 148
+        },
+        {
+          "heading": "Common Chain: Relaxation then Frequency",
+          "level": 2,
+          "line": 160
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 185
+        },
+        {
+          "heading": "Parameter Defaults (inherited from config)",
+          "level": 2,
+          "line": 195
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": ".claude/skills/vasp-static/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 175,
+      "nonEmptyLines": 135,
+      "sections": [
+        {
+          "heading": "VASP Single Point Calculation",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "When to Use",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Discussion Checkpoints",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Basic Single Point",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "After Optimization",
+          "level": 2,
+          "line": 63
+        },
+        {
+          "heading": "Pre-DOS Single Point",
+          "level": 2,
+          "line": 76
+        },
+        {
+          "heading": "Pre-Band Structure Single Point",
+          "level": 2,
+          "line": 90
+        },
+        {
+          "heading": "Convergence Testing",
+          "level": 2,
+          "line": 101
+        },
+        {
+          "heading": "Key Parameters",
+          "level": 2,
+          "line": 138
+        },
+        {
+          "heading": "ISMEAR Guidance",
+          "level": 2,
+          "line": 151
+        },
+        {
+          "heading": "Output",
+          "level": 2,
+          "line": 162
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 168
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": ".claude/skills/volcano-plot/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 179,
+      "nonEmptyLines": 145,
+      "sections": [
+        {
+          "heading": "Volcano Plot Generation",
+          "level": 1,
+          "line": 10
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "MCP Tool: catgo_catalysis action=\"volcano\"",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Generate Volcano Plot Data",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "Custom Descriptor Axes",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Two-Descriptor Plot",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "Parameters",
+          "level": 2,
+          "line": 87
+        },
+        {
+          "heading": "Catalyst Result Dict Fields",
+          "level": 3,
+          "line": 96
+        },
+        {
+          "heading": "Return Format",
+          "level": 2,
+          "line": 106
+        },
+        {
+          "heading": "Complete Workflow: OER Catalyst Screening",
+          "level": 2,
+          "line": 130
+        },
+        {
+          "heading": "1. Compute overpotentials for each candidate",
+          "level": 3,
+          "line": 132
+        },
+        {
+          "heading": "2. Collect results",
+          "level": 3,
+          "line": 137
+        },
+        {
+          "heading": "3. Generate volcano plot",
+          "level": 3,
+          "line": 150
+        },
+        {
+          "heading": "Common Pitfalls",
+          "level": 2,
+          "line": 166
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 14
+      }
+    },
+    {
+      "path": ".gemini/settings.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 13,
+      "nonEmptyLines": 13,
+      "sections": [
+        {
+          "heading": "mcpServers",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": ".gemini/skills/catgo/SKILL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 29,
+      "nonEmptyLines": 18,
+      "sections": [
+        {
+          "heading": "CatBot",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "MCP Tools",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Structure: `catgo_add_atom`, `catgo_add_atoms`, `catgo_delete_atoms`, `catgo_replace_atom`, `catgo_move_atom`, `catgo_set_lattice`, `catgo_supercell`, `catgo_merge`, `catgo_generate_slab`, `catgo_selection`",
+          "level": 3,
+          "line": 14
+        },
+        {
+          "heading": "Building: `catgo_adsorption_sites`, `catgo_adsorption_place`, `catgo_water_layer`, `catgo_passivate`, `catgo_doping`, `catgo_substitution`, `catgo_intercalation`, `catgo_build_defect`, `catgo_build_strain`, `catgo_nanotube_build`, `catgo_moire_build`, `catgo_hetero_build`",
+          "level": 3,
+          "line": 16
+        },
+        {
+          "heading": "DFT/MD Inputs: `catgo_vasp_generate`, `catgo_qe_generate`, `catgo_lammps_generate`, `catgo_optimize`, `catgo_energy`",
+          "level": 3,
+          "line": 18
+        },
+        {
+          "heading": "Analysis: `catgo_dos_compute`, `catgo_bands_data`, `catgo_cohp_data`, `catgo_md_rdf`, `catgo_md_rmsd`, `catgo_md_hbonds`, `catgo_md_clustering`",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "Utilities: `catgo_structure_info`, `catgo_screenshot`, `catgo_providers`",
+          "level": 3,
+          "line": 22
+        },
+        {
+          "heading": "Workflow",
+          "level": 2,
+          "line": 24
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 8
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 21,
+      "nonEmptyLines": 20,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "labels",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "body",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 18,
+      "nonEmptyLines": 17,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "labels",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "body",
+          "level": 1,
+          "line": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": ".github/release.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 36,
+      "nonEmptyLines": 36,
+      "sections": [
+        {
+          "heading": "changelog",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": ".gitmodules",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {}
+    },
+    {
+      "path": ".npmrc",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".nvmrc",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 55,
+      "nonEmptyLines": 51,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 0
+      }
+    },
+    {
+      "path": ".understand-anything/tmp/extract-input-1.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 28,
+      "nonEmptyLines": 28,
+      "sections": [
+        {
+          "heading": "projectRoot",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "batchFiles",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "batchImportData",
+          "level": 1,
+          "line": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 3
+      }
+    },
+    {
+      "path": ".understand-anything/tmp/extract-output-1.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 14866,
+      "nonEmptyLines": 14866,
+      "sections": [
+        {
+          "heading": "scriptCompleted",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "filesAnalyzed",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "filesSkipped",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "results",
+          "level": 1,
+          "line": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": "catbot-plugin/.claude-plugin/plugin.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 19,
+      "nonEmptyLines": 19,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "author",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "repository",
+          "level": 1,
+          "line": 9
+        },
+        {
+          "heading": "keywords",
+          "level": 1,
+          "line": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 6
+      }
+    },
+    {
+      "path": "catbot-plugin/.mcp.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 11,
+      "nonEmptyLines": 11,
+      "sections": [
+        {
+          "heading": "mcpServers",
+          "level": 1,
+          "line": 2
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "catbot-plugin/agents/catbot.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 293,
+      "nonEmptyLines": 227,
+      "sections": [
+        {
+          "heading": "Rules",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "Tool Guidance",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Loading Structures",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Structure Editing",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "Slab Generation",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "DFT/MD Input Generation",
+          "level": 3,
+          "line": 42
+        },
+        {
+          "heading": "Electronic Structure",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Atom Art",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "Workflow Building",
+          "level": 2,
+          "line": 58
+        },
+        {
+          "heading": "Tool: `catgo_workflow`",
+          "level": 3,
+          "line": 62
+        },
+        {
+          "heading": "Workflow Building Pattern",
+          "level": 3,
+          "line": 86
+        },
+        {
+          "heading": "Node Types by Category",
+          "level": 3,
+          "line": 116
+        },
+        {
+          "heading": "Example Workflows",
+          "level": 3,
+          "line": 157
+        },
+        {
+          "heading": "C-N Coupling Reaction Network",
+          "level": 3,
+          "line": 194
+        },
+        {
+          "heading": "Electrochemical Interface Model Building",
+          "level": 3,
+          "line": 202
+        },
+        {
+          "heading": "Constant-Potential VASP (TPOT / CP-VASP)",
+          "level": 3,
+          "line": 219
+        },
+        {
+          "heading": "Research Planning Pattern",
+          "level": 3,
+          "line": 226
+        },
+        {
+          "heading": "Cation Effect Study Template",
+          "level": 3,
+          "line": 237
+        },
+        {
+          "heading": "Common Mistakes to Avoid",
+          "level": 3,
+          "line": 246
+        },
+        {
+          "heading": "Quick Start Example",
+          "level": 3,
+          "line": 257
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 20
+      }
+    }
+  ]
+}

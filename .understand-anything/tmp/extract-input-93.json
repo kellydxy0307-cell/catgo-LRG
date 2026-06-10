@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/structure/atoms/atom-instanced-renderer.ts",
+      "language": "typescript",
+      "sizeLines": 625,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/atoms/atom-manager.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 1066,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/atoms/AtomManagerInstances.svelte",
+      "language": "svelte",
+      "sizeLines": 484,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/atoms/feature-flag.ts",
+      "language": "typescript",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/bond-computation-controller.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 1368,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/Bond.svelte",
+      "language": "svelte",
+      "sizeLines": 267,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/BondEditingIndicators.svelte",
+      "language": "svelte",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/bonding.ts",
+      "language": "typescript",
+      "sizeLines": 581,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/bonding/bond-instanced-renderer.ts",
+      "language": "typescript",
+      "sizeLines": 936,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/bonding/bond-manager.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 1015,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/bonding/bond-undo-stack.ts",
+      "language": "typescript",
+      "sizeLines": 378,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/bonding/BondManagerInstances.svelte",
+      "language": "svelte",
+      "sizeLines": 453,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/bonding/image-atom-layout.ts",
+      "language": "typescript",
+      "sizeLines": 147,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/BuildPane.svelte",
+      "language": "svelte",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/CanvasTooltip.svelte",
+      "language": "svelte",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/__tests__/atom-merge.test.ts",
+      "language": "typescript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/__tests__/bond-merge.test.ts",
+      "language": "typescript",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/__tests__/catrender-state.test.ts",
+      "language": "typescript",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/__tests__/pick-hit.test.ts",
+      "language": "typescript",
+      "sizeLines": 84,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/atom-merge.ts",
+      "language": "typescript",
+      "sizeLines": 53,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/bond-merge.ts",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/catrender-state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 193,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/catrender-wasm.ts",
+      "language": "typescript",
+      "sizeLines": 49,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/CatRenderParamsPane.svelte",
+      "language": "svelte",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/catrender/CatRenderViewPane.svelte",
+      "language": "svelte",
+      "sizeLines": 564,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/structure/atoms/atom-instanced-renderer.ts": [],
+    "src/lib/structure/atoms/atom-manager.svelte.ts": [],
+    "src/lib/structure/atoms/AtomManagerInstances.svelte": [],
+    "src/lib/structure/atoms/feature-flag.ts": [],
+    "src/lib/structure/bond-computation-controller.svelte.ts": [],
+    "src/lib/structure/Bond.svelte": [],
+    "src/lib/structure/BondEditingIndicators.svelte": [],
+    "src/lib/structure/bonding.ts": [],
+    "src/lib/structure/bonding/bond-instanced-renderer.ts": [],
+    "src/lib/structure/bonding/bond-manager.svelte.ts": [],
+    "src/lib/structure/bonding/bond-undo-stack.ts": [],
+    "src/lib/structure/bonding/BondManagerInstances.svelte": [],
+    "src/lib/structure/bonding/image-atom-layout.ts": [],
+    "src/lib/structure/BuildPane.svelte": [],
+    "src/lib/structure/CanvasTooltip.svelte": [],
+    "src/lib/structure/catrender/__tests__/atom-merge.test.ts": [],
+    "src/lib/structure/catrender/__tests__/bond-merge.test.ts": [],
+    "src/lib/structure/catrender/__tests__/catrender-state.test.ts": [],
+    "src/lib/structure/catrender/__tests__/pick-hit.test.ts": [],
+    "src/lib/structure/catrender/atom-merge.ts": [],
+    "src/lib/structure/catrender/bond-merge.ts": [],
+    "src/lib/structure/catrender/catrender-state.svelte.ts": [],
+    "src/lib/structure/catrender/catrender-wasm.ts": [],
+    "src/lib/structure/catrender/CatRenderParamsPane.svelte": [],
+    "src/lib/structure/catrender/CatRenderViewPane.svelte": []
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/bands/Bands.svelte",
+      "language": "svelte",
+      "sizeLines": 364,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/bands/BandsAndDos.svelte",
+      "language": "svelte",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/bands/BrillouinBandsDos.svelte",
+      "language": "svelte",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/bands/Dos.svelte",
+      "language": "svelte",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/bands/helpers.ts",
+      "language": "typescript",
+      "sizeLines": 394,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/bands/index.ts",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/bands/types.ts",
+      "language": "typescript",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZone.svelte",
+      "language": "svelte",
+      "sizeLines": 490,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZoneControls.svelte",
+      "language": "svelte",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZoneExportPane.svelte",
+      "language": "svelte",
+      "sizeLines": 158,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZoneInfoPane.svelte",
+      "language": "svelte",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/brillouin/BrillouinZoneScene.svelte",
+      "language": "svelte",
+      "sizeLines": 317,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/brillouin/compute.ts",
+      "language": "typescript",
+      "sizeLines": 272,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/brillouin/index.ts",
+      "language": "typescript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/brillouin/types.ts",
+      "language": "typescript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/calculator.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/__tests__/client-llm.test.ts",
+      "language": "typescript",
+      "sizeLines": 194,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/__tests__/hetero-stash.test.ts",
+      "language": "typescript",
+      "sizeLines": 73,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/__tests__/markdown.test.ts",
+      "language": "typescript",
+      "sizeLines": 131,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/__tests__/provider-routing.test.ts",
+      "language": "typescript",
+      "sizeLines": 19,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/__tests__/structure-tools.test.ts",
+      "language": "typescript",
+      "sizeLines": 508,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/__tests__/tool-loop.test.ts",
+      "language": "typescript",
+      "sizeLines": 77,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/analysis-session-store.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/attachment-utils.ts",
+      "language": "typescript",
+      "sizeLines": 62,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/chat-state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 956,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/bands/Bands.svelte": [],
+    "src/lib/bands/BandsAndDos.svelte": [],
+    "src/lib/bands/BrillouinBandsDos.svelte": [],
+    "src/lib/bands/Dos.svelte": [],
+    "src/lib/bands/helpers.ts": [],
+    "src/lib/bands/index.ts": [],
+    "src/lib/bands/types.ts": [],
+    "src/lib/brillouin/BrillouinZone.svelte": [],
+    "src/lib/brillouin/BrillouinZoneControls.svelte": [],
+    "src/lib/brillouin/BrillouinZoneExportPane.svelte": [],
+    "src/lib/brillouin/BrillouinZoneInfoPane.svelte": [],
+    "src/lib/brillouin/BrillouinZoneScene.svelte": [],
+    "src/lib/brillouin/compute.ts": [],
+    "src/lib/brillouin/index.ts": [],
+    "src/lib/brillouin/types.ts": [],
+    "src/lib/calculator.py": [],
+    "src/lib/chat/__tests__/client-llm.test.ts": [],
+    "src/lib/chat/__tests__/hetero-stash.test.ts": [],
+    "src/lib/chat/__tests__/markdown.test.ts": [],
+    "src/lib/chat/__tests__/provider-routing.test.ts": [],
+    "src/lib/chat/__tests__/structure-tools.test.ts": [],
+    "src/lib/chat/__tests__/tool-loop.test.ts": [],
+    "src/lib/chat/analysis-session-store.svelte.ts": [],
+    "src/lib/chat/attachment-utils.ts": [],
+    "src/lib/chat/chat-state.svelte.ts": []
+  }
+}

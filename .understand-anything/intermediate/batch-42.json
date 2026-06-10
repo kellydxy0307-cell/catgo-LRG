@@ -1,0 +1,61 @@
+{
+  "nodes": [
+    {
+      "id": "config:tests/vitest/fixtures/find_image_atoms/mp-1.json",
+      "type": "config",
+      "name": "mp-1.json",
+      "filePath": "tests/vitest/fixtures/find_image_atoms/mp-1.json",
+      "summary": "mp-1.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "test",
+        "配置",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 12 行有效内容。"
+    },
+    {
+      "id": "config:tests/vitest/fixtures/find_image_atoms/mp-1234.json",
+      "type": "config",
+      "name": "mp-1234.json",
+      "filePath": "tests/vitest/fixtures/find_image_atoms/mp-1234.json",
+      "summary": "mp-1234.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "test",
+        "配置",
+        "json"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 50 行有效内容。"
+    },
+    {
+      "id": "config:tests/vitest/fixtures/find_image_atoms/mp-2.json",
+      "type": "config",
+      "name": "mp-2.json",
+      "filePath": "tests/vitest/fixtures/find_image_atoms/mp-2.json",
+      "summary": "mp-2.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "test",
+        "配置",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件；结构提取显示 38 行有效内容。"
+    },
+    {
+      "id": "config:tests/vitest/fixtures/find_image_atoms/mp-756175.json",
+      "type": "config",
+      "name": "mp-756175.json",
+      "filePath": "tests/vitest/fixtures/find_image_atoms/mp-756175.json",
+      "summary": "mp-756175.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "test",
+        "配置",
+        "json"
+      ],
+      "complexity": "complex",
+      "languageNotes": "json 文件；结构提取显示 362 行有效内容。"
+    }
+  ],
+  "edges": []
+}

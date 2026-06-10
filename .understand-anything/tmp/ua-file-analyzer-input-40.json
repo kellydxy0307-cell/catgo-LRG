@@ -1,0 +1,61 @@
+{
+    "projectRoot":  "D:/catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "src/lib/colors/alloy-colors.json",
+                           "language":  "json",
+                           "sizeLines":  111,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "src/lib/colors/dark-mode-colors.json",
+                           "language":  "json",
+                           "sizeLines":  111,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "src/lib/colors/jmol-colors.json",
+                           "language":  "json",
+                           "sizeLines":  111,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "src/lib/colors/muted-colors.json",
+                           "language":  "json",
+                           "sizeLines":  111,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "src/lib/colors/pastel-colors.json",
+                           "language":  "json",
+                           "sizeLines":  111,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "src/lib/colors/vesta-colors.json",
+                           "language":  "json",
+                           "sizeLines":  111,
+                           "fileCategory":  "config"
+                       }
+                   ],
+    "batchImportData":  {
+                            "src/lib/colors/alloy-colors.json":  [
+
+                                                                 ],
+                            "src/lib/colors/dark-mode-colors.json":  [
+
+                                                                     ],
+                            "src/lib/colors/jmol-colors.json":  [
+
+                                                                ],
+                            "src/lib/colors/muted-colors.json":  [
+
+                                                                 ],
+                            "src/lib/colors/pastel-colors.json":  [
+
+                                                                  ],
+                            "src/lib/colors/vesta-colors.json":  [
+
+                                                                 ]
+                        }
+}

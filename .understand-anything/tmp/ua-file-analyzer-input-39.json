@@ -1,0 +1,52 @@
+{
+    "projectRoot":  "D:/catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "src/lib/README.md",
+                           "language":  "markdown",
+                           "sizeLines":  47,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "src/lib/app.css",
+                           "language":  "css",
+                           "sizeLines":  243,
+                           "fileCategory":  "markup"
+                       },
+                       {
+                           "path":  "src/lib/dialog-shared.css",
+                           "language":  "css",
+                           "sizeLines":  291,
+                           "fileCategory":  "markup"
+                       },
+                       {
+                           "path":  "src/lib/element-image-urls.json",
+                           "language":  "json",
+                           "sizeLines":  113,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "src/lib/pane-shared.css",
+                           "language":  "css",
+                           "sizeLines":  202,
+                           "fileCategory":  "markup"
+                       }
+                   ],
+    "batchImportData":  {
+                            "src/lib/README.md":  [
+
+                                                  ],
+                            "src/lib/app.css":  [
+
+                                                ],
+                            "src/lib/dialog-shared.css":  [
+
+                                                          ],
+                            "src/lib/element-image-urls.json":  [
+
+                                                                ],
+                            "src/lib/pane-shared.css":  [
+
+                                                        ]
+                        }
+}

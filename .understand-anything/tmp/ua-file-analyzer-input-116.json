@@ -1,0 +1,84 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "tools/cube-processor/src/marching_cubes.rs",
+      "language": "rust",
+      "sizeLines": 691,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tools/cube-processor/src/slice.rs",
+      "language": "rust",
+      "sizeLines": 679,
+      "fileCategory": "code"
+    },
+    {
+      "path": "vite-plugin-agent-bridge.ts",
+      "language": "typescript",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "vite.desktop.config.ts",
+      "language": "typescript",
+      "sizeLines": 791,
+      "fileCategory": "code"
+    },
+    {
+      "path": "vite.shared.ts",
+      "language": "typescript",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "vitest.config.ts",
+      "language": "typescript",
+      "sizeLines": 34,
+      "fileCategory": "code"
+    },
+    {
+      "path": "workers/cors-relay/package.json",
+      "language": "json",
+      "sizeLines": 10,
+      "fileCategory": "config"
+    },
+    {
+      "path": "workers/cors-relay/src/index.ts",
+      "language": "typescript",
+      "sizeLines": 44,
+      "fileCategory": "code"
+    },
+    {
+      "path": "workers/cors-relay/test/relay.test.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "workers/cors-relay/vitest.config.ts",
+      "language": "typescript",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "workers/cors-relay/wrangler.relay.toml",
+      "language": "toml",
+      "sizeLines": 6,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "tools/cube-processor/src/marching_cubes.rs": [],
+    "tools/cube-processor/src/slice.rs": [],
+    "vite-plugin-agent-bridge.ts": [],
+    "vite.desktop.config.ts": [],
+    "vite.shared.ts": [],
+    "vitest.config.ts": [],
+    "workers/cors-relay/package.json": [],
+    "workers/cors-relay/src/index.ts": [],
+    "workers/cors-relay/test/relay.test.ts": [],
+    "workers/cors-relay/vitest.config.ts": [],
+    "workers/cors-relay/wrangler.relay.toml": []
+  }
+}

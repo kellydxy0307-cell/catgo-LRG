@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/tests/oer_results/oer_diagram.html",
+      "type": "file",
+      "name": "oer_diagram.html",
+      "filePath": "server/tests/oer_results/oer_diagram.html",
+      "summary": "oer_diagram.html 是 测试文件，负责 项目模块 相关逻辑。",
+      "tags": [
+        "test",
+        "html",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "html 文件；结构提取显示 21 行有效内容。"
+    },
+    {
+      "id": "config:server/tests/oer_results/oer_diagram.json",
+      "type": "config",
+      "name": "oer_diagram.json",
+      "filePath": "server/tests/oer_results/oer_diagram.json",
+      "summary": "oer_diagram.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "test",
+        "配置",
+        "json"
+      ],
+      "complexity": "complex",
+      "languageNotes": "json 文件；结构提取显示 312 行有效内容。"
+    },
+    {
+      "id": "file:server/tests/oer_results/oer_gibbs_diagram.html",
+      "type": "file",
+      "name": "oer_gibbs_diagram.html",
+      "filePath": "server/tests/oer_results/oer_gibbs_diagram.html",
+      "summary": "oer_gibbs_diagram.html 是 测试文件，负责 项目模块 相关逻辑。",
+      "tags": [
+        "test",
+        "html",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "html 文件；结构提取显示 31 行有效内容。"
+    },
+    {
+      "id": "config:server/tests/oer_results/oer_gibbs_diagram.json",
+      "type": "config",
+      "name": "oer_gibbs_diagram.json",
+      "filePath": "server/tests/oer_results/oer_gibbs_diagram.json",
+      "summary": "oer_gibbs_diagram.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "test",
+        "配置",
+        "json"
+      ],
+      "complexity": "complex",
+      "languageNotes": "json 文件；结构提取显示 442 行有效内容。"
+    },
+    {
+      "id": "config:server/tests/oer_results/oer_gibbs_results.json",
+      "type": "config",
+      "name": "oer_gibbs_results.json",
+      "filePath": "server/tests/oer_results/oer_gibbs_results.json",
+      "summary": "oer_gibbs_results.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "test",
+        "配置",
+        "json"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 81 行有效内容。"
+    },
+    {
+      "id": "config:server/tests/oer_results/oer_results.json",
+      "type": "config",
+      "name": "oer_results.json",
+      "filePath": "server/tests/oer_results/oer_results.json",
+      "summary": "oer_results.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "test",
+        "配置",
+        "json"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 60 行有效内容。"
+    }
+  ],
+  "edges": []
+}

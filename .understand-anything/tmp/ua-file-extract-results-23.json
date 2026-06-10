@@ -1,0 +1,2007 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 20,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/superpowers/specs/2026-03-10-claude-code-integration-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 401,
+      "nonEmptyLines": 332,
+      "sections": [
+        {
+          "heading": "Claude Code ↔ CatGo Deep Integration Design",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goal",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Architecture Overview",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Component 1: Consolidated MCP Server",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "Tool 1: `catgo_structure`",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "Tool 2: `catgo_fetch`",
+          "level": 3,
+          "line": 82
+        },
+        {
+          "heading": "Tool 3: `catgo_workflow`",
+          "level": 3,
+          "line": 113
+        },
+        {
+          "heading": "Tool 4: `catgo_analyze`",
+          "level": 3,
+          "line": 119
+        },
+        {
+          "heading": "Tool 5: `catgo_view` (NEW)",
+          "level": 3,
+          "line": 151
+        },
+        {
+          "heading": "Internal Routing",
+          "level": 3,
+          "line": 175
+        },
+        {
+          "heading": "Component 2: New Backend Endpoint",
+          "level": 2,
+          "line": 215
+        },
+        {
+          "heading": "`GET /api/view/state`",
+          "level": 3,
+          "line": 217
+        },
+        {
+          "heading": "Component 3: SessionStart Hook",
+          "level": 2,
+          "line": 254
+        },
+        {
+          "heading": "Script: `~/.claude/hooks/catgo-session-start.sh`",
+          "level": 3,
+          "line": 256
+        },
+        {
+          "heading": "Hook Configuration: `~/.claude/settings.json`",
+          "level": 3,
+          "line": 276
+        },
+        {
+          "heading": "Component 4: MCP Configuration",
+          "level": 2,
+          "line": 297
+        },
+        {
+          "heading": "`~/.claude/mcp.json`",
+          "level": 3,
+          "line": 299
+        },
+        {
+          "heading": "Component 5: CLAUDE.md Instructions",
+          "level": 2,
+          "line": 319
+        },
+        {
+          "heading": "Project-scoped: `/home/james/projects/catgo/CatGo/.claude/CLAUDE.md` (append)",
+          "level": 3,
+          "line": 321
+        },
+        {
+          "heading": "Token Budget Analysis",
+          "level": 2,
+          "line": 350
+        },
+        {
+          "heading": "Data Flow: Example Interaction",
+          "level": 2,
+          "line": 363
+        },
+        {
+          "heading": "Files to Create/Modify",
+          "level": 2,
+          "line": 385
+        },
+        {
+          "heading": "Non-Goals (Out of Scope)",
+          "level": 2,
+          "line": 396
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 23
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-03-11-tool-first-architecture-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 886,
+      "nonEmptyLines": 736,
+      "sections": [
+        {
+          "heading": "Tool-First Architecture Design",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Problem",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Goals",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Non-Goals",
+          "level": 2,
+          "line": 27
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "Core Abstraction: Everything is a Tool",
+          "level": 3,
+          "line": 37
+        },
+        {
+          "heading": "Specialized Tools (Categories)",
+          "level": 3,
+          "line": 104
+        },
+        {
+          "heading": "Unified Registry: ToolRegistry",
+          "level": 3,
+          "line": 222
+        },
+        {
+          "heading": "Reader Pipeline Integration",
+          "level": 3,
+          "line": 356
+        },
+        {
+          "heading": "CatBot Generation Flow",
+          "level": 3,
+          "line": 378
+        },
+        {
+          "heading": "Security Model: Tiered Trust",
+          "level": 3,
+          "line": 485
+        },
+        {
+          "heading": "Frontend Integration",
+          "level": 3,
+          "line": 514
+        },
+        {
+          "heading": "Disk Layout",
+          "level": 3,
+          "line": 585
+        },
+        {
+          "heading": "REST API",
+          "level": 3,
+          "line": 610
+        },
+        {
+          "heading": "Migration Strategy",
+          "level": 2,
+          "line": 633
+        },
+        {
+          "heading": "Existing Plugin Migration",
+          "level": 3,
+          "line": 635
+        },
+        {
+          "heading": "Builtin Readers Migration",
+          "level": 3,
+          "line": 644
+        },
+        {
+          "heading": "MCP Hot-Reload Plugins Migration",
+          "level": 3,
+          "line": 657
+        },
+        {
+          "heading": "Migration Example: bond-histogram",
+          "level": 3,
+          "line": 680
+        },
+        {
+          "heading": "Compatibility Layer",
+          "level": 3,
+          "line": 727
+        },
+        {
+          "heading": "Files to Create",
+          "level": 2,
+          "line": 850
+        },
+        {
+          "heading": "Files to Modify",
+          "level": 2,
+          "line": 864
+        },
+        {
+          "heading": "Files to Delete (after migration complete)",
+          "level": 2,
+          "line": 875
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 23
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-03-28-workflow-engine-refactor-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 791,
+      "nonEmptyLines": 647,
+      "sections": [
+        {
+          "heading": "CatGo Workflow Engine Refactor — Architecture Design",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Vision",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Architecture Overview",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Phase 1: Python API + DB Schema",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "1.1 Task Definition (`@task` decorator)",
+          "level": 3,
+          "line": 54
+        },
+        {
+          "heading": "1.2 Workflow Construction",
+          "level": 3,
+          "line": 85
+        },
+        {
+          "heading": "1.3 OutputReference",
+          "level": 3,
+          "line": 120
+        },
+        {
+          "heading": "1.4 DB Schema",
+          "level": 3,
+          "line": 141
+        },
+        {
+          "heading": "1.5 Built-in Task Types",
+          "level": 3,
+          "line": 237
+        },
+        {
+          "heading": "Phase 2: State Machine Engine",
+          "level": 2,
+          "line": 252
+        },
+        {
+          "heading": "2.1 Task States (14 states)",
+          "level": 3,
+          "line": 254
+        },
+        {
+          "heading": "2.2 Engine Scanner (the \"Runner\")",
+          "level": 3,
+          "line": 303
+        },
+        {
+          "heading": "2.3 Key Properties",
+          "level": 3,
+          "line": 412
+        },
+        {
+          "heading": "2.4 Local Task Execution",
+          "level": 3,
+          "line": 420
+        },
+        {
+          "heading": "2.5 Input Resolution",
+          "level": 3,
+          "line": 444
+        },
+        {
+          "heading": "Phase 3: Frontend Observer",
+          "level": 2,
+          "line": 464
+        },
+        {
+          "heading": "3.1 Role Change",
+          "level": 3,
+          "line": 466
+        },
+        {
+          "heading": "3.2 API Endpoints",
+          "level": 3,
+          "line": 481
+        },
+        {
+          "heading": "3.3 Frontend Rendering",
+          "level": 3,
+          "line": 503
+        },
+        {
+          "heading": "3.4 Backward Compatibility",
+          "level": 3,
+          "line": 514
+        },
+        {
+          "heading": "Phase 4: AI Agent Interface",
+          "level": 2,
+          "line": 526
+        },
+        {
+          "heading": "4.1 No Custom UI — Use Existing AI Tools",
+          "level": 3,
+          "line": 528
+        },
+        {
+          "heading": "4.2 MCP Tool Interface",
+          "level": 3,
+          "line": 535
+        },
+        {
+          "heading": "4.3 Agent Skills (CCAS-style)",
+          "level": 3,
+          "line": 555
+        },
+        {
+          "heading": "4.4 Multi-Agent Support",
+          "level": 3,
+          "line": 589
+        },
+        {
+          "heading": "Migration Strategy",
+          "level": 2,
+          "line": 599
+        },
+        {
+          "heading": "Phase 1 (Python API + DB): ~2 weeks",
+          "level": 3,
+          "line": 601
+        },
+        {
+          "heading": "Phase 2 (Engine): ~2 weeks",
+          "level": 3,
+          "line": 606
+        },
+        {
+          "heading": "Phase 3 (Frontend): ~1 week",
+          "level": 3,
+          "line": 611
+        },
+        {
+          "heading": "Phase 4 (AI): ~1 week",
+          "level": 3,
+          "line": 616
+        },
+        {
+          "heading": "Total: ~6 weeks, incremental, no big-bang rewrite",
+          "level": 3,
+          "line": 621
+        },
+        {
+          "heading": "Design Principles",
+          "level": 2,
+          "line": 625
+        },
+        {
+          "heading": "Configuration System",
+          "level": 2,
+          "line": 638
+        },
+        {
+          "heading": "Layered Config Resolution",
+          "level": 3,
+          "line": 640
+        },
+        {
+          "heading": "Config File: `~/.catgo/config.yaml`",
+          "level": 3,
+          "line": 648
+        },
+        {
+          "heading": "Config Loading in Python",
+          "level": 3,
+          "line": 744
+        },
+        {
+          "heading": "Per-Workflow Config Override",
+          "level": 3,
+          "line": 761
+        },
+        {
+          "heading": "Per-Task Parameter Override",
+          "level": 3,
+          "line": 770
+        },
+        {
+          "heading": "Resolution Order Example",
+          "level": 3,
+          "line": 782
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 39
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-03-29-agent-sdk-bridge-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 551,
+      "nonEmptyLines": 441,
+      "sections": [
+        {
+          "heading": "Agent SDK Bridge — Unified CLI Agent Integration",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Problem",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Solution",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Provider Simplification",
+          "level": 2,
+          "line": 66
+        },
+        {
+          "heading": "Before (12 providers, 4 modes)",
+          "level": 3,
+          "line": 68
+        },
+        {
+          "heading": "After (up to 9 providers, 2 modes)",
+          "level": 3,
+          "line": 77
+        },
+        {
+          "heading": "Unified Event Type",
+          "level": 2,
+          "line": 94
+        },
+        {
+          "heading": "Adapter Interface",
+          "level": 2,
+          "line": 125
+        },
+        {
+          "heading": "Adapter Responsibilities",
+          "level": 3,
+          "line": 148
+        },
+        {
+          "heading": "Permission Manager",
+          "level": 2,
+          "line": 171
+        },
+        {
+          "heading": "Permission Flow",
+          "level": 3,
+          "line": 185
+        },
+        {
+          "heading": "SvelteKit Server Routes",
+          "level": 2,
+          "line": 204
+        },
+        {
+          "heading": "POST /api/agent/stream",
+          "level": 3,
+          "line": 206
+        },
+        {
+          "heading": "POST /api/agent/permission",
+          "level": 3,
+          "line": 232
+        },
+        {
+          "heading": "Frontend Components",
+          "level": 2,
+          "line": 246
+        },
+        {
+          "heading": "PermissionCard.svelte",
+          "level": 3,
+          "line": 248
+        },
+        {
+          "heading": "ToolProgressBlock.svelte",
+          "level": 3,
+          "line": 278
+        },
+        {
+          "heading": "chat-state.svelte.ts Changes",
+          "level": 3,
+          "line": 301
+        },
+        {
+          "heading": "types.ts Changes",
+          "level": 3,
+          "line": 350
+        },
+        {
+          "heading": "Session Management",
+          "level": 2,
+          "line": 364
+        },
+        {
+          "heading": "MCP Server Configuration",
+          "level": 2,
+          "line": 380
+        },
+        {
+          "heading": "Code to Remove",
+          "level": 2,
+          "line": 395
+        },
+        {
+          "heading": "New Dependencies",
+          "level": 2,
+          "line": 412
+        },
+        {
+          "heading": "Multimodal Input",
+          "level": 2,
+          "line": 424
+        },
+        {
+          "heading": "Capability Matrix",
+          "level": 3,
+          "line": 426
+        },
+        {
+          "heading": "Stream Request with Attachments",
+          "level": 3,
+          "line": 436
+        },
+        {
+          "heading": "Adapter Attachment Handling",
+          "level": 3,
+          "line": 456
+        },
+        {
+          "heading": "Frontend Input UI",
+          "level": 3,
+          "line": 485
+        },
+        {
+          "heading": "Voice Input",
+          "level": 3,
+          "line": 522
+        },
+        {
+          "heading": "What Does NOT Change",
+          "level": 2,
+          "line": 533
+        },
+        {
+          "heading": "Migration Path",
+          "level": 2,
+          "line": 542
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 32
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-03-30-declarative-engine-framework-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 372,
+      "nonEmptyLines": 293,
+      "sections": [
+        {
+          "heading": "Declarative Engine Framework Design",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Problem",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Goals",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Design",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "1. YAML Engine Schema",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "Custom Command Node = Minimal YAML",
+          "level": 4,
+          "line": 96
+        },
+        {
+          "heading": "2. Backend Runtime",
+          "level": 3,
+          "line": 118
+        },
+        {
+          "heading": "Directory Structure",
+          "level": 4,
+          "line": 120
+        },
+        {
+          "heading": "engine_runtime.py",
+          "level": 4,
+          "line": 144
+        },
+        {
+          "heading": "Registry Bridge",
+          "level": 4,
+          "line": 188
+        },
+        {
+          "heading": "3. Frontend Auto-Derivation",
+          "level": 3,
+          "line": 207
+        },
+        {
+          "heading": "Backend API",
+          "level": 4,
+          "line": 209
+        },
+        {
+          "heading": "Dynamic Node Generation",
+          "level": 4,
+          "line": 233
+        },
+        {
+          "heading": "Custom Command UI",
+          "level": 4,
+          "line": 265
+        },
+        {
+          "heading": "AI Chat Integration",
+          "level": 4,
+          "line": 278
+        },
+        {
+          "heading": "4. Safety Mechanism",
+          "level": 3,
+          "line": 288
+        },
+        {
+          "heading": "5. Parser System",
+          "level": 3,
+          "line": 316
+        },
+        {
+          "heading": "6. Migration Strategy",
+          "level": 3,
+          "line": 351
+        },
+        {
+          "heading": "Design Principles",
+          "level": 2,
+          "line": 362
+        },
+        {
+          "heading": "Non-Goals",
+          "level": 2,
+          "line": 368
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 20
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-04-03-coordination-polyhedra-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 103,
+      "nonEmptyLines": 79,
+      "sections": [
+        {
+          "heading": "Coordination Polyhedra Rendering",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Summary",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Requirements",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "New Files",
+          "level": 3,
+          "line": 18
+        },
+        {
+          "heading": "Modified Files",
+          "level": 3,
+          "line": 37
+        },
+        {
+          "heading": "Data Flow",
+          "level": 3,
+          "line": 67
+        },
+        {
+          "heading": "Shader Design",
+          "level": 3,
+          "line": 84
+        },
+        {
+          "heading": "Dependencies",
+          "level": 3,
+          "line": 93
+        },
+        {
+          "heading": "Out of Scope",
+          "level": 3,
+          "line": 98
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-04-03-mof-frontend-clipping-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 94,
+      "nonEmptyLines": 68,
+      "sections": [
+        {
+          "heading": "MOF Frontend Integration + Sphere Clipping",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Summary",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Feature 1: MOF Frontend Integration",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "Data Flow",
+          "level": 3,
+          "line": 11
+        },
+        {
+          "heading": "TypeScript WASM Wrapper",
+          "level": 3,
+          "line": 26
+        },
+        {
+          "heading": "Node Isolator",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Files",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "Feature 2: Sphere Clipping",
+          "level": 2,
+          "line": 53
+        },
+        {
+          "heading": "Interaction",
+          "level": 3,
+          "line": 55
+        },
+        {
+          "heading": "Implementation",
+          "level": 3,
+          "line": 66
+        },
+        {
+          "heading": "Files",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "Shared: Right-Click Menu",
+          "level": 2,
+          "line": 84
+        },
+        {
+          "heading": "Out of Scope",
+          "level": 2,
+          "line": 90
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-04-03-mof-topology-rust-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 132,
+      "nonEmptyLines": 99,
+      "sections": [
+        {
+          "heading": "MOF Topology Analysis — Rust/WASM Port of CrystalNets Phase 1",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Summary",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Goal",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Algorithm (from CrystalNets.jl clustering.jl)",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Input",
+          "level": 3,
+          "line": 18
+        },
+        {
+          "heading": "Pipeline",
+          "level": 3,
+          "line": 22
+        },
+        {
+          "heading": "Output",
+          "level": 3,
+          "line": 59
+        },
+        {
+          "heading": "Rust Module Structure",
+          "level": 2,
+          "line": 74
+        },
+        {
+          "heading": "Dependencies (all already in Cargo.toml or std)",
+          "level": 2,
+          "line": 88
+        },
+        {
+          "heading": "WASM Interface",
+          "level": 2,
+          "line": 94
+        },
+        {
+          "heading": "Frontend Integration (later, not this spec)",
+          "level": 2,
+          "line": 107
+        },
+        {
+          "heading": "Test Structures",
+          "level": 2,
+          "line": 116
+        },
+        {
+          "heading": "Out of Scope (Phase 2+)",
+          "level": 2,
+          "line": 124
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-04-09-backend-binary-vscode-integration-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 141,
+      "nonEmptyLines": 104,
+      "sections": [
+        {
+          "heading": "CatGo Backend Binary + VS Code Extension Integration",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Part 1: PyInstaller Backend Binary",
+          "level": 2,
+          "line": 10
+        },
+        {
+          "heading": "Included Features (Slim Build)",
+          "level": 3,
+          "line": 12
+        },
+        {
+          "heading": "Excluded",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "Build Targets",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "Startup Protocol",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "catgo_server.spec Updates",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "Port 0 Support in main.py",
+          "level": 3,
+          "line": 52
+        },
+        {
+          "heading": "Part 2: VS Code Extension Integration",
+          "level": 2,
+          "line": 59
+        },
+        {
+          "heading": "Architecture",
+          "level": 3,
+          "line": 61
+        },
+        {
+          "heading": "package.json Changes",
+          "level": 3,
+          "line": 79
+        },
+        {
+          "heading": "Platform-Specific .vsix Packaging",
+          "level": 3,
+          "line": 88
+        },
+        {
+          "heading": "extension.ts New Logic (~100 lines)",
+          "level": 3,
+          "line": 97
+        },
+        {
+          "heading": "Webview Changes",
+          "level": 3,
+          "line": 121
+        },
+        {
+          "heading": ".vscodeignore Updates",
+          "level": 3,
+          "line": 128
+        },
+        {
+          "heading": "Implementation Order",
+          "level": 2,
+          "line": 132
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 17
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-04-09-cloudflare-pages-deployment-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 180,
+      "nonEmptyLines": 138,
+      "sections": [
+        {
+          "heading": "CatGo Static Web Deployment — Cloudflare Pages",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Context",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Deployment Architecture",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Build Setup",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Features Available in Static Deployment",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "Works 100% Client-Side",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Does NOT Work (Requires Backend)",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "Code Changes Required",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "1. Static deployment build mode",
+          "level": 3,
+          "line": 69
+        },
+        {
+          "heading": "2. UI adaptation for static mode",
+          "level": 3,
+          "line": 75
+        },
+        {
+          "heading": "3. Landing page / marketing content",
+          "level": 3,
+          "line": 91
+        },
+        {
+          "heading": "4. Build configuration",
+          "level": 3,
+          "line": 99
+        },
+        {
+          "heading": "5. Cloudflare Pages configuration",
+          "level": 3,
+          "line": 110
+        },
+        {
+          "heading": "File Changes Summary",
+          "level": 2,
+          "line": 133
+        },
+        {
+          "heading": "Deployment Workflow",
+          "level": 2,
+          "line": 143
+        },
+        {
+          "heading": "Cost",
+          "level": 2,
+          "line": 160
+        },
+        {
+          "heading": "Future Extensions",
+          "level": 2,
+          "line": 169
+        },
+        {
+          "heading": "Out of Scope",
+          "level": 2,
+          "line": 175
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-17-catbot-slash-commands-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 203,
+      "nonEmptyLines": 172,
+      "sections": [
+        {
+          "heading": "CatBot Slash Commands — Design",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Problem",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Goals",
+          "level": 2,
+          "line": 28
+        },
+        {
+          "heading": "Non-Goals (YAGNI)",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "Dispatch",
+          "level": 3,
+          "line": 81
+        },
+        {
+          "heading": "Command Set (first version)",
+          "level": 2,
+          "line": 95
+        },
+        {
+          "heading": "Security — /skip-permission",
+          "level": 2,
+          "line": 113
+        },
+        {
+          "heading": "Autocomplete",
+          "level": 2,
+          "line": 143
+        },
+        {
+          "heading": "Error Handling",
+          "level": 2,
+          "line": 170
+        },
+        {
+          "heading": "Testing",
+          "level": 2,
+          "line": 182
+        },
+        {
+          "heading": "Files (anticipated)",
+          "level": 2,
+          "line": 192
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-18-catrender-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 184,
+      "nonEmptyLines": 147,
+      "sections": [
+        {
+          "heading": "catrender — Faithful xyzrender Port (Design, REV2)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Why REV2",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Locked Decisions",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Module Map (Rust crate `extensions/catrender-wasm`)",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "Verbatim Constants (port these exactly)",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "CPK palette (Z→hex, `colors.py:191-206`; pad Z 106–119 = `#a0a0a0`)",
+          "level": 2,
+          "line": 65
+        },
+        {
+          "heading": "Color math (verbatim, HLS — Python colorsys order H,L,S; floor truncation)",
+          "level": 2,
+          "line": 92
+        },
+        {
+          "heading": "Radial gradient (atoms)",
+          "level": 2,
+          "line": 100
+        },
+        {
+          "heading": "Fog & DoF",
+          "level": 2,
+          "line": 109
+        },
+        {
+          "heading": "PCA auto-orient (`utils.py:61-128`, verbatim semantics)",
+          "level": 2,
+          "line": 117
+        },
+        {
+          "heading": "Bonds (`renderer.py:1028-1372`, `skeletal.py`; xyz2svg lineage)",
+          "level": 2,
+          "line": 122
+        },
+        {
+          "heading": "Cell / crystal",
+          "level": 2,
+          "line": 136
+        },
+        {
+          "heading": "SVG output",
+          "level": 2,
+          "line": 140
+        },
+        {
+          "heading": "13 presets — embed verbatim as data; merge onto `default.json`",
+          "level": 2,
+          "line": 144
+        },
+        {
+          "heading": "Frontend (`CatRenderPane.svelte` rework)",
+          "level": 2,
+          "line": 163
+        },
+        {
+          "heading": "Fidelity testing",
+          "level": 2,
+          "line": 173
+        },
+        {
+          "heading": "Non-Goals (v1 even at full parity)",
+          "level": 2,
+          "line": 180
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 17
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-19-catgo-cli-analyze-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 258,
+      "nonEmptyLines": 218,
+      "sections": [
+        {
+          "heading": "CatGO CLI — P2 `analyze` Group Design Spec",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goal",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Requirements (confirmed)",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Approach",
+          "level": 2,
+          "line": 34
+        },
+        {
+          "heading": "§1 Architecture & backend",
+          "level": 2,
+          "line": 52
+        },
+        {
+          "heading": "§2 Publication plotting + pylustrator edit (dos/band/cohp)",
+          "level": 2,
+          "line": 107
+        },
+        {
+          "heading": "§3 freq op — TS imaginary-mode animation + Gibbs correction",
+          "level": 2,
+          "line": 154
+        },
+        {
+          "heading": "§4 Output / error handling / testing",
+          "level": 2,
+          "line": 200
+        },
+        {
+          "heading": "Out of scope (YAGNI / later P2/P3)",
+          "level": 2,
+          "line": 251
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-19-catgo-cli-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 241,
+      "nonEmptyLines": 194,
+      "sections": [
+        {
+          "heading": "CatGO Interactive CLI — Design Spec",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goal",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Requirements (confirmed)",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Approach",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Backend access (key decision)",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 60
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 80
+        },
+        {
+          "heading": "Session (`server/catgo/cli/session.py`)",
+          "level": 3,
+          "line": 82
+        },
+        {
+          "heading": "OperationRegistry (`server/catgo/cli/registry.py`)",
+          "level": 3,
+          "line": 110
+        },
+        {
+          "heading": "InteractiveShell (`server/catgo/cli/shell.py`)",
+          "level": 3,
+          "line": 153
+        },
+        {
+          "heading": "Subcommand mapping (auto-generated from same registry)",
+          "level": 3,
+          "line": 181
+        },
+        {
+          "heading": "Error handling",
+          "level": 2,
+          "line": 200
+        },
+        {
+          "heading": "Testing (TDD, pytest, `server/tests/cli/`)",
+          "level": 2,
+          "line": 216
+        },
+        {
+          "heading": "Phasing",
+          "level": 2,
+          "line": 227
+        },
+        {
+          "heading": "Out of scope (YAGNI)",
+          "level": 2,
+          "line": 237
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-19-catgo-cli-hpc-submit-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 284,
+      "nonEmptyLines": 238,
+      "sections": [
+        {
+          "heading": "CatGO CLI — `catgo submit` (HPC input + SLURM submit)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goal",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Why this is its own slice (and how it relates to existing infra)",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Requirements",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 85
+        },
+        {
+          "heading": "`hpc_link.HpcLink` (new module)",
+          "level": 3,
+          "line": 94
+        },
+        {
+          "heading": "`ops_submit.submit(session, params) -> OpResult`",
+          "level": 3,
+          "line": 114
+        },
+        {
+          "heading": "Registry entry",
+          "level": 3,
+          "line": 133
+        },
+        {
+          "heading": "Input-deck generators (in-process adapter)",
+          "level": 3,
+          "line": 158
+        },
+        {
+          "heading": "SLURM script templates",
+          "level": 3,
+          "line": 184
+        },
+        {
+          "heading": "Why not call `POST /hpc/submit`",
+          "level": 3,
+          "line": 195
+        },
+        {
+          "heading": "Error handling",
+          "level": 2,
+          "line": 203
+        },
+        {
+          "heading": "Tests",
+          "level": 2,
+          "line": 221
+        },
+        {
+          "heading": "Out of scope (deferred)",
+          "level": 2,
+          "line": 248
+        },
+        {
+          "heading": "Autonomous design decisions (for later review)",
+          "level": 2,
+          "line": 257
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-19-catgo-cli-ir-spectrum-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 214,
+      "nonEmptyLines": 174,
+      "sections": [
+        {
+          "heading": "CatGO CLI — `freq --ir-spectrum` (Gaussian-broadened IR)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goal",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "Why this is its own slice",
+          "level": 2,
+          "line": 19
+        },
+        {
+          "heading": "Intensities — design decision",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "Spectrum construction",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "CLI surface",
+          "level": 2,
+          "line": 71
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 89
+        },
+        {
+          "heading": "`ir.py`",
+          "level": 3,
+          "line": 100
+        },
+        {
+          "heading": "`ops_analyze.freq` extension",
+          "level": 3,
+          "line": 123
+        },
+        {
+          "heading": "Tests",
+          "level": 2,
+          "line": 157
+        },
+        {
+          "heading": "Out of scope",
+          "level": 2,
+          "line": 183
+        },
+        {
+          "heading": "Autonomous design decisions",
+          "level": 2,
+          "line": 192
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-19-catgo-cli-pdos-groups-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 190,
+      "nonEmptyLines": 158,
+      "sections": [
+        {
+          "heading": "CatGO CLI — `dos --groups` (multi-group PDOS)",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goal",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "CLI surface",
+          "level": 2,
+          "line": 13
+        },
+        {
+          "heading": "Backward compat",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Architecture",
+          "level": 2,
+          "line": 53
+        },
+        {
+          "heading": "Parsing rules (in detail)",
+          "level": 3,
+          "line": 63
+        },
+        {
+          "heading": "`ops_analyze.dos` (extended)",
+          "level": 3,
+          "line": 86
+        },
+        {
+          "heading": "Group-dict shape passed to `compute_pdos_groups`",
+          "level": 3,
+          "line": 125
+        },
+        {
+          "heading": "Tests",
+          "level": 2,
+          "line": 133
+        },
+        {
+          "heading": "Out of scope",
+          "level": 2,
+          "line": 160
+        },
+        {
+          "heading": "Autonomous design decisions",
+          "level": 2,
+          "line": 170
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-19-catgo-cli-viewer-sync-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 293,
+      "nonEmptyLines": 236,
+      "sections": [
+        {
+          "heading": "CatGO CLI — P3a Viewer Sync + Auto-Start Design Spec",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Goal",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Requirements (confirmed)",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Approach",
+          "level": 2,
+          "line": 38
+        },
+        {
+          "heading": "§1 Architecture & port detection + ServerLink",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "`ServerLink` (new file `server/catgo/cli/server_link.py`)",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "`Session.link` ← `ServerLink | None`",
+          "level": 3,
+          "line": 89
+        },
+        {
+          "heading": "Auto-start (`server/catgo/cli/_autostart.py`)",
+          "level": 3,
+          "line": 96
+        },
+        {
+          "heading": "`_run_op` / shell hook",
+          "level": 3,
+          "line": 118
+        },
+        {
+          "heading": "File structure",
+          "level": 3,
+          "line": 135
+        },
+        {
+          "heading": "§2 `push` / `pull` op schemas",
+          "level": 2,
+          "line": 150
+        },
+        {
+          "heading": "`push` (`needs_server=True`, `mutates=False`)",
+          "level": 3,
+          "line": 152
+        },
+        {
+          "heading": "`pull` (`needs_server=True`, `mutates=True`)",
+          "level": 3,
+          "line": 171
+        },
+        {
+          "heading": "Registry",
+          "level": 3,
+          "line": 194
+        },
+        {
+          "heading": "§3 Error handling / testing",
+          "level": 2,
+          "line": 220
+        },
+        {
+          "heading": "Error table (extends P1/P2)",
+          "level": 3,
+          "line": 222
+        },
+        {
+          "heading": "Tests (TDD, pytest, `server/tests/cli/`)",
+          "level": 3,
+          "line": 238
+        },
+        {
+          "heading": "Out of scope (later P3 slices)",
+          "level": 2,
+          "line": 285
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 18
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-21-selected-atom-rotation-fixed-screen-axes-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 120,
+      "nonEmptyLines": 94,
+      "sections": [
+        {
+          "heading": "Selected-Atom Rotation — Fixed Screen-Aligned Axes",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Problem",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "Goal",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Coordinate Frame",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Input → Axis Mapping",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Angle Application",
+          "level": 2,
+          "line": 61
+        },
+        {
+          "heading": "Keyboard Path",
+          "level": 2,
+          "line": 80
+        },
+        {
+          "heading": "Out of Scope / Unchanged",
+          "level": 2,
+          "line": 92
+        },
+        {
+          "heading": "Testing",
+          "level": 2,
+          "line": 102
+        },
+        {
+          "heading": "Key Files",
+          "level": 2,
+          "line": 112
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "docs/superpowers/specs/2026-05-23-webgpu-large-trajectory-bonds-design.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 98,
+      "nonEmptyLines": 75,
+      "sections": [
+        {
+          "heading": "设计稿：超大轨迹 WebGPU 专用渲染路径",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "1. 背景与问题",
+          "level": 2,
+          "line": 6
+        },
+        {
+          "heading": "2. 目标",
+          "level": 2,
+          "line": 20
+        },
+        {
+          "heading": "3. 锁定决策（与用户对齐）",
+          "level": 2,
+          "line": 24
+        },
+        {
+          "heading": "4. 数据流（每帧）",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "5. 模块边界",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "6. 测试策略",
+          "level": 2,
+          "line": 73
+        },
+        {
+          "heading": "7. 风险与开放点",
+          "level": 2,
+          "line": 85
+        },
+        {
+          "heading": "8. 不在本 spec 范围",
+          "level": 2,
+          "line": 93
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    }
+  ]
+}

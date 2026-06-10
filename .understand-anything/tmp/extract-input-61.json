@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "scripts/build-agent-sidecar.mjs",
+      "language": "javascript",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/build-doc-chunks.js",
+      "language": "javascript",
+      "sizeLines": 98,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/cp2k_dos.py",
+      "language": "python",
+      "sizeLines": 441,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/generate_hub_index.py",
+      "language": "python",
+      "sizeLines": 207,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/generate-icons.js",
+      "language": "javascript",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/parse_gaussian.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/patch-linuxdeploy-sidecars.mjs",
+      "language": "javascript",
+      "sizeLines": 105,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/setup.mjs",
+      "language": "javascript",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/tauri-dev.mjs",
+      "language": "javascript",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/test_eos_surface_energy.py",
+      "language": "python",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/test_phase0.py",
+      "language": "python",
+      "sizeLines": 270,
+      "fileCategory": "code"
+    },
+    {
+      "path": "scripts/test_plugins_manual.py",
+      "language": "python",
+      "sizeLines": 527,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo_server.spec",
+      "language": "spec",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/__init__.py",
+      "language": "python",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/__main__.py",
+      "language": "python",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/calculators/__init__.py",
+      "language": "python",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/calculators/base.py",
+      "language": "python",
+      "sizeLines": 131,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/calculators/chgnet.py",
+      "language": "python",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/calculators/emt.py",
+      "language": "python",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/calculators/m3gnet.py",
+      "language": "python",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/calculators/mace.py",
+      "language": "python",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/calculators/xtb_cli.py",
+      "language": "python",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/calculators/xtb.py",
+      "language": "python",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/__init__.py",
+      "language": "python",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/cli/_autostart.py",
+      "language": "python",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "scripts/build-agent-sidecar.mjs": [],
+    "scripts/build-doc-chunks.js": [],
+    "scripts/cp2k_dos.py": [],
+    "scripts/generate_hub_index.py": [],
+    "scripts/generate-icons.js": [],
+    "scripts/parse_gaussian.py": [],
+    "scripts/patch-linuxdeploy-sidecars.mjs": [],
+    "scripts/setup.mjs": [],
+    "scripts/tauri-dev.mjs": [],
+    "scripts/test_eos_surface_energy.py": [],
+    "scripts/test_phase0.py": [],
+    "scripts/test_plugins_manual.py": [],
+    "server/catgo_server.spec": [],
+    "server/catgo/__init__.py": [],
+    "server/catgo/__main__.py": [],
+    "server/catgo/calculators/__init__.py": [],
+    "server/catgo/calculators/base.py": [],
+    "server/catgo/calculators/chgnet.py": [],
+    "server/catgo/calculators/emt.py": [],
+    "server/catgo/calculators/m3gnet.py": [],
+    "server/catgo/calculators/mace.py": [],
+    "server/catgo/calculators/xtb_cli.py": [],
+    "server/catgo/calculators/xtb.py": [],
+    "server/catgo/cli/__init__.py": [],
+    "server/catgo/cli/_autostart.py": []
+  }
+}

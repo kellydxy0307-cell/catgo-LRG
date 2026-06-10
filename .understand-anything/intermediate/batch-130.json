@@ -1,0 +1,382 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/site/structures/quartz-alpha.cif",
+      "type": "file",
+      "name": "quartz-alpha.cif",
+      "filePath": "src/site/structures/quartz-alpha.cif",
+      "summary": "quartz-alpha.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/quartz-alpha.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "simple",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/quartz.extxyz",
+      "type": "file",
+      "name": "quartz.extxyz",
+      "filePath": "src/site/structures/quartz.extxyz",
+      "summary": "quartz.extxyz 是 CatGo 项目中的代码文件，使用 extxyz，位于 src/site/structures/quartz.extxyz，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "extxyz"
+      ],
+      "complexity": "simple",
+      "language": "extxyz",
+      "languageNotes": "此节点以中文概述，保留必要的 extxyz 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/scientific-notation.poscar",
+      "type": "file",
+      "name": "scientific-notation.poscar",
+      "filePath": "src/site/structures/scientific-notation.poscar",
+      "summary": "scientific-notation.poscar 是 CatGo 项目中的代码文件，使用 poscar，位于 src/site/structures/scientific-notation.poscar，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "poscar"
+      ],
+      "complexity": "simple",
+      "language": "poscar",
+      "languageNotes": "此节点以中文概述，保留必要的 poscar 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/selective-dynamics.poscar",
+      "type": "file",
+      "name": "selective-dynamics.poscar",
+      "filePath": "src/site/structures/selective-dynamics.poscar",
+      "summary": "selective-dynamics.poscar 是 CatGo 项目中的代码文件，使用 poscar，位于 src/site/structures/selective-dynamics.poscar，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "poscar"
+      ],
+      "complexity": "simple",
+      "language": "poscar",
+      "languageNotes": "此节点以中文概述，保留必要的 poscar 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/TiO2.cif",
+      "type": "file",
+      "name": "TiO2.cif",
+      "filePath": "src/site/structures/TiO2.cif",
+      "summary": "TiO2.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/TiO2.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "simple",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/vasp4-format.poscar",
+      "type": "file",
+      "name": "vasp4-format.poscar",
+      "filePath": "src/site/structures/vasp4-format.poscar",
+      "summary": "vasp4-format.poscar 是 CatGo 项目中的代码文件，使用 poscar，位于 src/site/structures/vasp4-format.poscar，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "poscar"
+      ],
+      "complexity": "simple",
+      "language": "poscar",
+      "languageNotes": "此节点以中文概述，保留必要的 poscar 技术术语。"
+    },
+    {
+      "id": "file:src/site/trajectories/ase-LiMnO2-chgnet-relax.traj",
+      "type": "file",
+      "name": "ase-LiMnO2-chgnet-relax.traj",
+      "filePath": "src/site/trajectories/ase-LiMnO2-chgnet-relax.traj",
+      "summary": "ase-LiMnO2-chgnet-relax.traj 是 CatGo 项目中的代码文件，使用 traj，位于 src/site/trajectories/ase-LiMnO2-chgnet-relax.traj，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "traj"
+      ],
+      "complexity": "simple",
+      "language": "traj",
+      "languageNotes": "此节点以中文概述，保留必要的 traj 技术术语。"
+    },
+    {
+      "id": "file:src/site/trajectories/flame-gold-cluster-55-atoms.h5",
+      "type": "file",
+      "name": "flame-gold-cluster-55-atoms.h5",
+      "filePath": "src/site/trajectories/flame-gold-cluster-55-atoms.h5",
+      "summary": "flame-gold-cluster-55-atoms.h5 是 CatGo 项目中的代码文件，使用 h5，位于 src/site/trajectories/flame-gold-cluster-55-atoms.h5，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "h5"
+      ],
+      "complexity": "moderate",
+      "language": "h5",
+      "languageNotes": "此节点以中文概述，保留必要的 h5 技术术语。"
+    },
+    {
+      "id": "file:src/site/trajectories/flame-water-cluster-bad-file.h5",
+      "type": "file",
+      "name": "flame-water-cluster-bad-file.h5",
+      "filePath": "src/site/trajectories/flame-water-cluster-bad-file.h5",
+      "summary": "flame-water-cluster-bad-file.h5 是 CatGo 项目中的代码文件，使用 h5，位于 src/site/trajectories/flame-water-cluster-bad-file.h5，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "h5"
+      ],
+      "complexity": "complex",
+      "language": "h5",
+      "languageNotes": "此节点以中文概述，保留必要的 h5 技术术语。"
+    },
+    {
+      "id": "file:src/site/trajectories/gold-nanoparticle-md.h5",
+      "type": "file",
+      "name": "gold-nanoparticle-md.h5",
+      "filePath": "src/site/trajectories/gold-nanoparticle-md.h5",
+      "summary": "gold-nanoparticle-md.h5 是 CatGo 项目中的代码文件，使用 h5，位于 src/site/trajectories/gold-nanoparticle-md.h5，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "h5"
+      ],
+      "complexity": "complex",
+      "language": "h5",
+      "languageNotes": "此节点以中文概述，保留必要的 h5 技术术语。"
+    },
+    {
+      "id": "file:src/site/trajectories/mp-1184225.extxyz",
+      "type": "file",
+      "name": "mp-1184225.extxyz",
+      "filePath": "src/site/trajectories/mp-1184225.extxyz",
+      "summary": "mp-1184225.extxyz 是 CatGo 项目中的代码文件，使用 extxyz，位于 src/site/trajectories/mp-1184225.extxyz，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "extxyz"
+      ],
+      "complexity": "simple",
+      "language": "extxyz",
+      "languageNotes": "此节点以中文概述，保留必要的 extxyz 技术术语。"
+    },
+    {
+      "id": "file:src/site/trajectories/unsupported-binary-bad-file.bin",
+      "type": "file",
+      "name": "unsupported-binary-bad-file.bin",
+      "filePath": "src/site/trajectories/unsupported-binary-bad-file.bin",
+      "summary": "unsupported-binary-bad-file.bin 是 CatGo 项目中的代码文件，使用 bin，位于 src/site/trajectories/unsupported-binary-bad-file.bin，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "bin"
+      ],
+      "complexity": "simple",
+      "language": "bin",
+      "languageNotes": "此节点以中文概述，保留必要的 bin 技术术语。"
+    },
+    {
+      "id": "file:src/site/trajectories/V8Ta12W71Re8-mace-omat.xyz",
+      "type": "file",
+      "name": "V8Ta12W71Re8-mace-omat.xyz",
+      "filePath": "src/site/trajectories/V8Ta12W71Re8-mace-omat.xyz",
+      "summary": "V8Ta12W71Re8-mace-omat.xyz 是 CatGo 项目中的代码文件，使用 xyz，位于 src/site/trajectories/V8Ta12W71Re8-mace-omat.xyz，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "xyz"
+      ],
+      "complexity": "complex",
+      "language": "xyz",
+      "languageNotes": "此节点以中文概述，保留必要的 xyz 技术术语。"
+    },
+    {
+      "id": "file:src/sql-js.d.ts",
+      "type": "file",
+      "name": "sql-js.d.ts",
+      "filePath": "src/sql-js.d.ts",
+      "summary": "sql-js.d.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/sql-js.d.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:static/_redirects",
+      "type": "file",
+      "name": "_redirects",
+      "filePath": "static/_redirects",
+      "summary": "_redirects 是 CatGo 项目中的代码文件，使用 unknown，位于 static/_redirects，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:static/models/hand_landmarker.task",
+      "type": "file",
+      "name": "hand_landmarker.task",
+      "filePath": "static/models/hand_landmarker.task",
+      "summary": "hand_landmarker.task 是 CatGo 项目中的代码文件，使用 task，位于 static/models/hand_landmarker.task，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "task"
+      ],
+      "complexity": "complex",
+      "language": "task",
+      "languageNotes": "此节点以中文概述，保留必要的 task 技术术语。"
+    },
+    {
+      "id": "file:static/molecules",
+      "type": "file",
+      "name": "molecules",
+      "filePath": "static/molecules",
+      "summary": "molecules 是 CatGo 项目中的代码文件，使用 unknown，位于 static/molecules，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:static/prism-syntax-highlight-theme-aware.css",
+      "type": "file",
+      "name": "prism-syntax-highlight-theme-aware.css",
+      "filePath": "static/prism-syntax-highlight-theme-aware.css",
+      "summary": "prism-syntax-highlight-theme-aware.css 是 CatGo 项目中的标记/样式文件，使用 css，位于 static/prism-syntax-highlight-theme-aware.css，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "markup",
+        "css"
+      ],
+      "complexity": "complex",
+      "language": "css",
+      "languageNotes": "此节点以中文概述，保留必要的 css 技术术语。"
+    },
+    {
+      "id": "file:static/sql-wasm.wasm",
+      "type": "file",
+      "name": "sql-wasm.wasm",
+      "filePath": "static/sql-wasm.wasm",
+      "summary": "sql-wasm.wasm 是 CatGo 项目中的代码文件，使用 wasm，位于 static/sql-wasm.wasm，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "wasm"
+      ],
+      "complexity": "complex",
+      "language": "wasm",
+      "languageNotes": "此节点以中文概述，保留必要的 wasm 技术术语。"
+    },
+    {
+      "id": "file:static/structures",
+      "type": "file",
+      "name": "structures",
+      "filePath": "static/structures",
+      "summary": "structures 是 CatGo 项目中的代码文件，使用 unknown，位于 static/structures，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:static/themes.js",
+      "type": "file",
+      "name": "themes.js",
+      "filePath": "static/themes.js",
+      "summary": "themes.js 是 CatGo 项目中的代码文件，使用 javascript，位于 static/themes.js，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple",
+      "language": "javascript",
+      "languageNotes": "此节点以中文概述，保留必要的 javascript 技术术语。"
+    },
+    {
+      "id": "file:static/trajectories",
+      "type": "file",
+      "name": "trajectories",
+      "filePath": "static/trajectories",
+      "summary": "trajectories 是 CatGo 项目中的代码文件，使用 unknown，位于 static/trajectories，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "file:svelte.config.js",
+      "type": "file",
+      "name": "svelte.config.js",
+      "filePath": "svelte.config.js",
+      "summary": "svelte.config.js 是 CatGo 项目中的代码文件，使用 javascript，位于 svelte.config.js，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple",
+      "language": "javascript",
+      "languageNotes": "此节点以中文概述，保留必要的 javascript 技术术语。"
+    },
+    {
+      "id": "file:tests/conftest.py",
+      "type": "file",
+      "name": "conftest.py",
+      "filePath": "tests/conftest.py",
+      "summary": "conftest.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/conftest.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "document:tests/fidelity/REPORT.md",
+      "type": "document",
+      "name": "REPORT.md",
+      "filePath": "tests/fidelity/REPORT.md",
+      "summary": "REPORT.md 是 CatGo 项目中的文档文件，使用 markdown，位于 tests/fidelity/REPORT.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    }
+  ],
+  "edges": []
+}

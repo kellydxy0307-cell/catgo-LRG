@@ -1,0 +1,221 @@
+{
+  "nodes": [
+    {
+      "id": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "pipeline",
+      "name": "build-vscode-sidecars.yml",
+      "filePath": ".github/workflows/build-vscode-sidecars.yml",
+      "summary": "该基础设施文件负责自动化流水线相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、permissions、jobs。",
+      "tags": [
+        "ci-cd",
+        "workflow",
+        "yaml"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "yaml 文件，扫描到 112 行；结构抽取识别出 4 个章节/顶层键。"
+    },
+    {
+      "id": "pipeline:.github/workflows/deploy-cloudflare.yml",
+      "type": "pipeline",
+      "name": "deploy-cloudflare.yml",
+      "filePath": ".github/workflows/deploy-cloudflare.yml",
+      "summary": "该基础设施文件负责自动化流水线相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、concurrency、env。",
+      "tags": [
+        "ci-cd",
+        "workflow",
+        "部署",
+        "yaml"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "yaml 文件，扫描到 178 行；结构抽取识别出 5 个章节/顶层键。"
+    },
+    {
+      "id": "pipeline:.github/workflows/docker-publish.yml",
+      "type": "pipeline",
+      "name": "docker-publish.yml",
+      "filePath": ".github/workflows/docker-publish.yml",
+      "summary": "该基础设施文件负责容器构建与部署相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、env、jobs。",
+      "tags": [
+        "ci-cd",
+        "docker",
+        "workflow",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "languageNotes": "yaml 文件，扫描到 64 行；结构抽取识别出 4 个章节/顶层键。"
+    },
+    {
+      "id": "pipeline:.github/workflows/hpc-bundle.yml",
+      "type": "pipeline",
+      "name": "hpc-bundle.yml",
+      "filePath": ".github/workflows/hpc-bundle.yml",
+      "summary": "该基础设施文件负责HPC 部署与作业运行相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、env、jobs。",
+      "tags": [
+        "ci-cd",
+        "hpc",
+        "workflow",
+        "yaml"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "yaml 文件，扫描到 116 行；结构抽取识别出 4 个章节/顶层键。"
+    },
+    {
+      "id": "pipeline:.github/workflows/ios-build.yml",
+      "type": "pipeline",
+      "name": "ios-build.yml",
+      "filePath": ".github/workflows/ios-build.yml",
+      "summary": "该基础设施文件负责自动化流水线相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、jobs。",
+      "tags": [
+        "ci-cd",
+        "workflow",
+        "yaml"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "yaml 文件，扫描到 108 行；结构抽取识别出 3 个章节/顶层键。"
+    },
+    {
+      "id": "pipeline:.github/workflows/lint.yml",
+      "type": "pipeline",
+      "name": "lint.yml",
+      "filePath": ".github/workflows/lint.yml",
+      "summary": "该基础设施文件负责自动化流水线相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、jobs。",
+      "tags": [
+        "ci-cd",
+        "workflow",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "languageNotes": "yaml 文件，扫描到 30 行；结构抽取识别出 3 个章节/顶层键。"
+    },
+    {
+      "id": "pipeline:.github/workflows/tauri-build.yml",
+      "type": "pipeline",
+      "name": "tauri-build.yml",
+      "filePath": ".github/workflows/tauri-build.yml",
+      "summary": "该基础设施文件负责自动化流水线相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、env、jobs。",
+      "tags": [
+        "ci-cd",
+        "workflow",
+        "yaml"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "yaml 文件，扫描到 218 行；结构抽取识别出 4 个章节/顶层键。"
+    },
+    {
+      "id": "pipeline:.github/workflows/tauri-test-build.yml",
+      "type": "pipeline",
+      "name": "tauri-test-build.yml",
+      "filePath": ".github/workflows/tauri-test-build.yml",
+      "summary": "该基础设施文件负责自动化流水线相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、env、jobs。",
+      "tags": [
+        "ci-cd",
+        "workflow",
+        "测试",
+        "yaml"
+      ],
+      "complexity": "complex",
+      "languageNotes": "yaml 文件，扫描到 329 行；结构抽取识别出 4 个章节/顶层键。"
+    },
+    {
+      "id": "pipeline:.github/workflows/test.yml",
+      "type": "pipeline",
+      "name": "test.yml",
+      "filePath": ".github/workflows/test.yml",
+      "summary": "该基础设施文件负责自动化流水线相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、env、jobs。",
+      "tags": [
+        "ci-cd",
+        "workflow",
+        "测试",
+        "yaml"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "yaml 文件，扫描到 119 行；结构抽取识别出 4 个章节/顶层键。"
+    },
+    {
+      "id": "pipeline:.github/workflows/vsix-publish.yml",
+      "type": "pipeline",
+      "name": "vsix-publish.yml",
+      "filePath": ".github/workflows/vsix-publish.yml",
+      "summary": "该基础设施文件负责自动化流水线相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 name、on、env、jobs。",
+      "tags": [
+        "ci-cd",
+        "workflow",
+        "yaml"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "yaml 文件，扫描到 148 行；结构抽取识别出 4 个章节/顶层键。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "target": "pipeline:.github/workflows/deploy-cloudflare.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "pipeline:.github/workflows/deploy-cloudflare.yml",
+      "target": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "pipeline:.github/workflows/docker-publish.yml",
+      "target": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "pipeline:.github/workflows/hpc-bundle.yml",
+      "target": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "pipeline:.github/workflows/ios-build.yml",
+      "target": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "pipeline:.github/workflows/lint.yml",
+      "target": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "pipeline:.github/workflows/tauri-build.yml",
+      "target": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "pipeline:.github/workflows/tauri-test-build.yml",
+      "target": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "pipeline:.github/workflows/test.yml",
+      "target": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "pipeline:.github/workflows/vsix-publish.yml",
+      "target": "pipeline:.github/workflows/build-vscode-sidecars.yml",
+      "type": "triggers",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

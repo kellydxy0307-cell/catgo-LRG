@@ -1,0 +1,320 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/test_server_startup.py",
+      "type": "file",
+      "name": "test_server_startup.py",
+      "filePath": "tests/test_server_startup.py",
+      "summary": "test_server_startup.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/test_server_startup.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "document:tests/verification_log_20260303.md",
+      "type": "document",
+      "name": "verification_log_20260303.md",
+      "filePath": "tests/verification_log_20260303.md",
+      "summary": "verification_log_20260303.md 是 CatGo 项目中的文档文件，使用 markdown，位于 tests/verification_log_20260303.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/agent-bridge/claude-permission.test.ts",
+      "type": "file",
+      "name": "claude-permission.test.ts",
+      "filePath": "tests/vitest/agent-bridge/claude-permission.test.ts",
+      "summary": "claude-permission.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/agent-bridge/claude-permission.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "config:tests/vitest/bz_reference_data.json",
+      "type": "config",
+      "name": "bz_reference_data.json",
+      "filePath": "tests/vitest/bz_reference_data.json",
+      "summary": "bz_reference_data.json 是 CatGo 项目中的配置文件，使用 json，位于 tests/vitest/bz_reference_data.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/fixtures/xrd/structs_to_rxd.py",
+      "type": "file",
+      "name": "structs_to_rxd.py",
+      "filePath": "tests/vitest/fixtures/xrd/structs_to_rxd.py",
+      "summary": "structs_to_rxd.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/vitest/fixtures/xrd/structs_to_rxd.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/generate_bz_reference_data.py",
+      "type": "file",
+      "name": "generate_bz_reference_data.py",
+      "filePath": "tests/vitest/generate_bz_reference_data.py",
+      "summary": "generate_bz_reference_data.py 是 CatGo 项目中的代码文件，使用 python，位于 tests/vitest/generate_bz_reference_data.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/plot/interactions.test.ts",
+      "type": "file",
+      "name": "interactions.test.ts",
+      "filePath": "tests/vitest/plot/interactions.test.ts",
+      "summary": "interactions.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/plot/interactions.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/site/plot-utils.test.ts",
+      "type": "file",
+      "name": "plot-utils.test.ts",
+      "filePath": "tests/vitest/site/plot-utils.test.ts",
+      "summary": "plot-utils.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/site/plot-utils.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/site/state.test.ts",
+      "type": "file",
+      "name": "state.test.ts",
+      "filePath": "tests/vitest/site/state.test.ts",
+      "summary": "state.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/site/state.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/amber-export.test.ts",
+      "type": "file",
+      "name": "amber-export.test.ts",
+      "filePath": "tests/vitest/structure/amber-export.test.ts",
+      "summary": "amber-export.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/amber-export.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/camera-uniform.test.ts",
+      "type": "file",
+      "name": "camera-uniform.test.ts",
+      "filePath": "tests/vitest/structure/gpu/camera-uniform.test.ts",
+      "summary": "camera-uniform.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/camera-uniform.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/symmetry/spacegroups.test.ts",
+      "type": "file",
+      "name": "spacegroups.test.ts",
+      "filePath": "tests/vitest/symmetry/spacegroups.test.ts",
+      "summary": "spacegroups.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/symmetry/spacegroups.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/trajectory/edit-apply.test.ts",
+      "type": "file",
+      "name": "edit-apply.test.ts",
+      "filePath": "tests/vitest/trajectory/edit-apply.test.ts",
+      "summary": "edit-apply.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/trajectory/edit-apply.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "config:tools/cube-processor/Cargo.toml",
+      "type": "config",
+      "name": "Cargo.toml",
+      "filePath": "tools/cube-processor/Cargo.toml",
+      "summary": "Cargo.toml 是 CatGo 项目中的配置文件，使用 toml，位于 tools/cube-processor/Cargo.toml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "toml"
+      ],
+      "complexity": "simple",
+      "language": "toml",
+      "languageNotes": "此节点以中文概述，保留必要的 toml 技术术语。"
+    },
+    {
+      "id": "file:tools/cube-processor/src/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "tools/cube-processor/src/main.rs",
+      "summary": "main.rs 是 CatGo 项目中的代码文件，使用 rust，位于 tools/cube-processor/src/main.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "config:workers/cors-relay/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "workers/cors-relay/package.json",
+      "summary": "package.json 是 CatGo 项目中的配置文件，使用 json，位于 workers/cors-relay/package.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:workers/cors-relay/src/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "workers/cors-relay/src/index.ts",
+      "summary": "index.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 workers/cors-relay/src/index.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:workers/cors-relay/test/relay.test.ts",
+      "type": "file",
+      "name": "relay.test.ts",
+      "filePath": "workers/cors-relay/test/relay.test.ts",
+      "summary": "relay.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 workers/cors-relay/test/relay.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:workers/cors-relay/vitest.config.ts",
+      "type": "file",
+      "name": "vitest.config.ts",
+      "filePath": "workers/cors-relay/vitest.config.ts",
+      "summary": "vitest.config.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 workers/cors-relay/vitest.config.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "config:workers/cors-relay/wrangler.relay.toml",
+      "type": "config",
+      "name": "wrangler.relay.toml",
+      "filePath": "workers/cors-relay/wrangler.relay.toml",
+      "summary": "wrangler.relay.toml 是 CatGo 项目中的配置文件，使用 toml，位于 workers/cors-relay/wrangler.relay.toml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "toml"
+      ],
+      "complexity": "simple",
+      "language": "toml",
+      "languageNotes": "此节点以中文概述，保留必要的 toml 技术术语。"
+    }
+  ],
+  "edges": []
+}

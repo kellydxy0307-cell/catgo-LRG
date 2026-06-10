@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "service:.dockerignore",
+      "type": "service",
+      "name": ".dockerignore",
+      "filePath": ".dockerignore",
+      "summary": "该基础设施文件负责容器构建与部署相关的构建、发布或运行编排，是项目交付链路的一部分。",
+      "tags": [
+        "部署",
+        "docker",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "languageNotes": "unknown 文件，扫描到 36 行；结构抽取识别出 0 个章节/顶层键。"
+    },
+    {
+      "id": "service:docker-compose.yml",
+      "type": "service",
+      "name": "docker-compose.yml",
+      "filePath": "docker-compose.yml",
+      "summary": "该基础设施文件负责容器构建与部署相关的构建、发布或运行编排，是项目交付链路的一部分。主要章节/键包括 services、volumes。",
+      "tags": [
+        "部署",
+        "docker",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "languageNotes": "yaml 文件，扫描到 40 行；结构抽取识别出 2 个章节/顶层键。"
+    },
+    {
+      "id": "service:Dockerfile",
+      "type": "service",
+      "name": "Dockerfile",
+      "filePath": "Dockerfile",
+      "summary": "该基础设施文件负责容器构建与部署相关的构建、发布或运行编排，是项目交付链路的一部分。",
+      "tags": [
+        "部署",
+        "docker",
+        "dockerfile"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "dockerfile 文件，扫描到 120 行；结构抽取识别出 0 个章节/顶层键。"
+    }
+  ],
+  "edges": []
+}

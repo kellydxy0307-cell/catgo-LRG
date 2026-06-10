@@ -1,6 +1,7 @@
 // deno-lint-ignore-file no-await-in-loop
 import type { XyObj } from '../constants'
 import { expect, type Locator, type Page, test } from '@playwright/test'
+import { project_to_pixel } from '../helpers/project_to_pixel'
 
 // Cached atom position to avoid repeated searches
 let cached_atom_position: XyObj | null = null
@@ -87,6 +88,28 @@ function setup_console_monitoring(page: Page): string[] {
     }
   })
   return console_errors
+}
+
+async function read_rotation_probe(page: Page) {
+  return await page.evaluate(() => {
+    const probe = (globalThis as any).__catgo_probe
+    return {
+      pivot: probe?.get_rotation_pivot?.() ?? null,
+      target: probe?.get_orbit_target?.() ?? null,
+      matrices: probe?.get_camera_matrices?.() ?? null,
+    }
+  })
+}
+
+function pixel_distance(
+  a: { x: number; y: number },
+  b: { x: number; y: number },
+): number {
+  return Math.hypot(a.x - b.x, a.y - b.y)
+}
+
+function vector_length(v: [number, number, number]): number {
+  return Math.hypot(v[0], v[1], v[2])
 }
 
 test.describe(`StructureScene Component Tests`, () => {
@@ -258,8 +281,8 @@ test.describe(`StructureScene Component Tests`, () => {
 
     // Test rotation
     await canvas.dragTo(canvas, {
-      sourcePosition: { x: box.width / 2 - 50, y: box.height / 2 },
-      targetPosition: { x: box.width / 2 + 50, y: box.height / 2 },
+      sourcePosition: { x: 40, y: box.height / 2 },
+      targetPosition: { x: box.width - 40, y: box.height / 2 + 30 },
     })
     let after_screenshot = await canvas.screenshot()
     expect(initial_screenshot.equals(after_screenshot)).toBe(false)
@@ -275,12 +298,12 @@ test.describe(`StructureScene Component Tests`, () => {
 
     // Test pan
     await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2)
-    await page.mouse.down({ button: `right` })
+    await page.mouse.down({ button: `middle` })
     await page.mouse.move(
       box.x + box.width / 2 + 50,
       box.y + box.height / 2 + 30,
     )
-    await page.mouse.up({ button: `right` })
+    await page.mouse.up({ button: `middle` })
     after_screenshot = await canvas.screenshot()
     expect(initial_screenshot.equals(after_screenshot)).toBe(false)
   })
@@ -1050,8 +1073,8 @@ test.describe(`StructureScene Component Tests`, () => {
 
       // Perform rotation drag
       await canvas.dragTo(canvas, {
-        sourcePosition: { x: box.width / 2 - 50, y: box.height / 2 },
-        targetPosition: { x: box.width / 2 + 50, y: box.height / 2 },
+        sourcePosition: { x: 40, y: box.height / 2 },
+        targetPosition: { x: box.width - 40, y: box.height / 2 + 30 },
       })
 
       const rotated_screenshot = await canvas.screenshot()
@@ -1061,6 +1084,86 @@ test.describe(`StructureScene Component Tests`, () => {
       expect(rotated_screenshot.length).toBeGreaterThan(1000)
     }
 
+    expect(console_errors).toHaveLength(0)
+  })
+
+  test(`molecular rotation pivot is refreshed after load-time alignment`, async ({ page }) => {
+    const console_errors = setup_console_monitoring(page)
+    await page.goto(`/test/structure?data_url=/structures/H2.json`, {
+      waitUntil: `networkidle`,
+    })
+    await page.locator(`#test-structure canvas`).waitFor({
+      state: `visible`,
+      timeout: 5000,
+    })
+
+    await page.waitForFunction(() => {
+      const probe = (globalThis as any).__catgo_probe
+      return Boolean(probe?.get_rotation_pivot?.())
+    })
+
+    await expect.poll(async () => {
+      const pivot = await page.evaluate(() => {
+        const probe = (globalThis as any).__catgo_probe
+        return probe?.get_rotation_pivot?.() ?? null
+      })
+      return pivot ? vector_length(pivot as [number, number, number]) : Infinity
+    }, { timeout: 5000 }).toBeLessThan(1e-3)
+
+    const align_fires = await page.evaluate(() => {
+      const probe = (globalThis as any).__catgo_probe
+      return probe?.align_on_load_fires ?? 0
+    })
+    expect(align_fires).toBeGreaterThan(0)
+    expect(console_errors).toHaveLength(0)
+  })
+
+  test(`rotation pivot stays fixed on screen after panning`, async ({ page }) => {
+    const canvas = page.locator(`#test-structure canvas`)
+    const console_errors = setup_console_monitoring(page)
+
+    await page.waitForFunction(() => {
+      const probe = (globalThis as any).__catgo_probe
+      return Boolean(probe?.get_rotation_pivot?.() && probe?.get_camera_matrices?.())
+    })
+
+    const box = await canvas.boundingBox()
+    if (!box) throw new Error(`Canvas bounding box unavailable`)
+
+    const before = await read_rotation_probe(page)
+    expect(before.pivot).not.toBeNull()
+    const pivot = before.pivot as [number, number, number]
+    const pivot_before_pan = project_to_pixel(before.matrices, pivot)
+    if (!pivot_before_pan) throw new Error(`Rotation pivot was not projectable before pan`)
+
+    await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2)
+    await page.mouse.down({ button: `middle` })
+    await page.mouse.move(box.x + box.width / 2 + 110, box.y + box.height / 2 + 55)
+    await page.mouse.up({ button: `middle` })
+
+    await expect.poll(async () => {
+      const after_pan = await read_rotation_probe(page)
+      const px = project_to_pixel(after_pan.matrices, pivot)
+      return px ? pixel_distance(px, pivot_before_pan) : 0
+    }).toBeGreaterThan(20)
+
+    const after_pan = await read_rotation_probe(page)
+    const pivot_after_pan = project_to_pixel(after_pan.matrices, pivot)
+    if (!pivot_after_pan) throw new Error(`Rotation pivot was not projectable after pan`)
+    const panned_screenshot = await canvas.screenshot()
+
+    await page.mouse.move(box.x + 40, box.y + box.height / 2)
+    await page.mouse.down({ button: `left` })
+    await page.mouse.move(box.x + box.width - 40, box.y + box.height / 2 + 30)
+    await page.mouse.up({ button: `left` })
+
+    const after_rotate = await read_rotation_probe(page)
+    const pivot_after_rotate = project_to_pixel(after_rotate.matrices, pivot)
+    if (!pivot_after_rotate) throw new Error(`Rotation pivot was not projectable after rotate`)
+    const rotated_screenshot = await canvas.screenshot()
+
+    expect(panned_screenshot.equals(rotated_screenshot)).toBe(false)
+    expect(pixel_distance(pivot_after_rotate, pivot_after_pan)).toBeLessThan(6)
     expect(console_errors).toHaveLength(0)
   })
 })

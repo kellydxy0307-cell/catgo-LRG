@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": ".claude/skills/troubleshoot-convergence/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 207,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/troubleshoot-vasp/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 202,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/troubleshoot-workflow/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 213,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vasp-band/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 198,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vasp-dos/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 169,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vasp-freq/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 203,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vasp-md/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 189,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vasp-relax/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 202,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/vasp-static/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 175,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/volcano-plot/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 179,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".gemini/settings.json",
+      "language": "json",
+      "sizeLines": 13,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".gemini/skills/catgo/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 29,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "language": "yaml",
+      "sizeLines": 21,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "language": "yaml",
+      "sizeLines": 18,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".github/release.yml",
+      "language": "yaml",
+      "sizeLines": 36,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".gitmodules",
+      "language": "unknown",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".npmrc",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".nvmrc",
+      "language": "unknown",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".understand-anything/tmp/extract-input-1.json",
+      "language": "json",
+      "sizeLines": 348,
+      "fileCategory": "config"
+    },
+    {
+      "path": ".understand-anything/tmp/extract-output-1.json",
+      "language": "json",
+      "sizeLines": 14865,
+      "fileCategory": "config"
+    },
+    {
+      "path": "catbot-plugin/.claude-plugin/plugin.json",
+      "language": "json",
+      "sizeLines": 19,
+      "fileCategory": "config"
+    },
+    {
+      "path": "catbot-plugin/.mcp.json",
+      "language": "json",
+      "sizeLines": 11,
+      "fileCategory": "config"
+    },
+    {
+      "path": "catbot-plugin/agents/catbot.md",
+      "language": "markdown",
+      "sizeLines": 293,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    ".claude/skills/troubleshoot-convergence/SKILL.md": [],
+    ".claude/skills/troubleshoot-vasp/SKILL.md": [],
+    ".claude/skills/troubleshoot-workflow/SKILL.md": [],
+    ".claude/skills/vasp-band/SKILL.md": [],
+    ".claude/skills/vasp-dos/SKILL.md": [],
+    ".claude/skills/vasp-freq/SKILL.md": [],
+    ".claude/skills/vasp-md/SKILL.md": [],
+    ".claude/skills/vasp-relax/SKILL.md": [],
+    ".claude/skills/vasp-static/SKILL.md": [],
+    ".claude/skills/volcano-plot/SKILL.md": [],
+    ".gemini/settings.json": [],
+    ".gemini/skills/catgo/SKILL.md": [],
+    ".github/ISSUE_TEMPLATE/bug_report.yml": [],
+    ".github/ISSUE_TEMPLATE/feature_request.yml": [],
+    ".github/release.yml": [],
+    ".gitmodules": [],
+    ".npmrc": [],
+    ".nvmrc": [],
+    ".understand-anything/.understandignore": [],
+    ".understand-anything/config.json": [],
+    ".understand-anything/tmp/extract-input-1.json": [],
+    ".understand-anything/tmp/extract-output-1.json": [],
+    "catbot-plugin/.claude-plugin/plugin.json": [],
+    "catbot-plugin/.mcp.json": [],
+    "catbot-plugin/agents/catbot.md": []
+  }
+}

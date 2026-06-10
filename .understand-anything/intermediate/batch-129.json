@@ -1,0 +1,387 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/workflow/WorkflowListV2.svelte",
+      "type": "file",
+      "name": "WorkflowListV2.svelte",
+      "filePath": "src/lib/workflow/WorkflowListV2.svelte",
+      "summary": "WorkflowListV2.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/WorkflowListV2.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/WulffPlot.svelte",
+      "type": "file",
+      "name": "WulffPlot.svelte",
+      "filePath": "src/lib/workflow/WulffPlot.svelte",
+      "summary": "WulffPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/WulffPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/WulffShape3D.svelte",
+      "type": "file",
+      "name": "WulffShape3D.svelte",
+      "filePath": "src/lib/workflow/WulffShape3D.svelte",
+      "summary": "WulffShape3D.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/WulffShape3D.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/xrd/XrdPlot.svelte",
+      "type": "file",
+      "name": "XrdPlot.svelte",
+      "filePath": "src/lib/xrd/XrdPlot.svelte",
+      "summary": "XrdPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/xrd/XrdPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/scripts/update-site-screenshots.ts",
+      "type": "file",
+      "name": "update-site-screenshots.ts",
+      "filePath": "src/scripts/update-site-screenshots.ts",
+      "summary": "update-site-screenshots.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/scripts/update-site-screenshots.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/site/molecules/C2HO-scientific-notation.xyz",
+      "type": "file",
+      "name": "C2HO-scientific-notation.xyz",
+      "filePath": "src/site/molecules/C2HO-scientific-notation.xyz",
+      "summary": "C2HO-scientific-notation.xyz 是 CatGo 项目中的代码文件，使用 xyz，位于 src/site/molecules/C2HO-scientific-notation.xyz，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "xyz"
+      ],
+      "complexity": "simple",
+      "language": "xyz",
+      "languageNotes": "此节点以中文概述，保留必要的 xyz 技术术语。"
+    },
+    {
+      "id": "file:src/site/molecules/C5-extra-data.xyz",
+      "type": "file",
+      "name": "C5-extra-data.xyz",
+      "filePath": "src/site/molecules/C5-extra-data.xyz",
+      "summary": "C5-extra-data.xyz 是 CatGo 项目中的代码文件，使用 xyz，位于 src/site/molecules/C5-extra-data.xyz，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "xyz"
+      ],
+      "complexity": "simple",
+      "language": "xyz",
+      "languageNotes": "此节点以中文概述，保留必要的 xyz 技术术语。"
+    },
+    {
+      "id": "file:src/site/molecules/cyclohexane.xyz",
+      "type": "file",
+      "name": "cyclohexane.xyz",
+      "filePath": "src/site/molecules/cyclohexane.xyz",
+      "summary": "cyclohexane.xyz 是 CatGo 项目中的代码文件，使用 xyz，位于 src/site/molecules/cyclohexane.xyz，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "xyz"
+      ],
+      "complexity": "simple",
+      "language": "xyz",
+      "languageNotes": "此节点以中文概述，保留必要的 xyz 技术术语。"
+    },
+    {
+      "id": "file:src/site/phase-diagrams/fetch-mp-pd-data.py",
+      "type": "file",
+      "name": "fetch-mp-pd-data.py",
+      "filePath": "src/site/phase-diagrams/fetch-mp-pd-data.py",
+      "summary": "fetch-mp-pd-data.py 是 CatGo 项目中的代码文件，使用 python，位于 src/site/phase-diagrams/fetch-mp-pd-data.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:src/site/plot-utils.ts",
+      "type": "file",
+      "name": "plot-utils.ts",
+      "filePath": "src/site/plot-utils.ts",
+      "summary": "plot-utils.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/site/plot-utils.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/site/state.svelte.ts",
+      "type": "file",
+      "name": "state.svelte.ts",
+      "filePath": "src/site/state.svelte.ts",
+      "summary": "state.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/site/state.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/aviary-CuF3K-triolith.poscar",
+      "type": "file",
+      "name": "aviary-CuF3K-triolith.poscar",
+      "filePath": "src/site/structures/aviary-CuF3K-triolith.poscar",
+      "summary": "aviary-CuF3K-triolith.poscar 是 CatGo 项目中的代码文件，使用 poscar，位于 src/site/structures/aviary-CuF3K-triolith.poscar，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "poscar"
+      ],
+      "complexity": "simple",
+      "language": "poscar",
+      "languageNotes": "此节点以中文概述，保留必要的 poscar 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/BaTiO3-tetragonal.poscar",
+      "type": "file",
+      "name": "BaTiO3-tetragonal.poscar",
+      "filePath": "src/site/structures/BaTiO3-tetragonal.poscar",
+      "summary": "BaTiO3-tetragonal.poscar 是 CatGo 项目中的代码文件，使用 poscar，位于 src/site/structures/BaTiO3-tetragonal.poscar，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "poscar"
+      ],
+      "complexity": "simple",
+      "language": "poscar",
+      "languageNotes": "此节点以中文概述，保留必要的 poscar 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/ethanol2.mol2",
+      "type": "file",
+      "name": "ethanol2.mol2",
+      "filePath": "src/site/structures/ethanol2.mol2",
+      "summary": "ethanol2.mol2 是 CatGo 项目中的代码文件，使用 mol2，位于 src/site/structures/ethanol2.mol2，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "mol2"
+      ],
+      "complexity": "simple",
+      "language": "mol2",
+      "languageNotes": "此节点以中文概述，保留必要的 mol2 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/graphene-monolayer.poscar",
+      "type": "file",
+      "name": "graphene-monolayer.poscar",
+      "filePath": "src/site/structures/graphene-monolayer.poscar",
+      "summary": "graphene-monolayer.poscar 是 CatGo 项目中的代码文件，使用 poscar，位于 src/site/structures/graphene-monolayer.poscar，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "poscar"
+      ],
+      "complexity": "simple",
+      "language": "poscar",
+      "languageNotes": "此节点以中文概述，保留必要的 poscar 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/Li10GeP2S12.cif",
+      "type": "file",
+      "name": "Li10GeP2S12.cif",
+      "filePath": "src/site/structures/Li10GeP2S12.cif",
+      "summary": "Li10GeP2S12.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/Li10GeP2S12.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "simple",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/Li4Fe3Mn1(PO4)4.cif",
+      "type": "file",
+      "name": "Li4Fe3Mn1(PO4)4.cif",
+      "filePath": "src/site/structures/Li4Fe3Mn1(PO4)4.cif",
+      "summary": "Li4Fe3Mn1(PO4)4.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/Li4Fe3Mn1(PO4)4.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "simple",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/Li8Fe2NiCoO8.cif",
+      "type": "file",
+      "name": "Li8Fe2NiCoO8.cif",
+      "filePath": "src/site/structures/Li8Fe2NiCoO8.cif",
+      "summary": "Li8Fe2NiCoO8.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/Li8Fe2NiCoO8.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "simple",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/LiFePO4.cif",
+      "type": "file",
+      "name": "LiFePO4.cif",
+      "filePath": "src/site/structures/LiFePO4.cif",
+      "summary": "LiFePO4.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/LiFePO4.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "simple",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/MgNiF6.cif",
+      "type": "file",
+      "name": "MgNiF6.cif",
+      "filePath": "src/site/structures/MgNiF6.cif",
+      "summary": "MgNiF6.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/MgNiF6.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "simple",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/mof-issue-127.cif",
+      "type": "file",
+      "name": "mof-issue-127.cif",
+      "filePath": "src/site/structures/mof-issue-127.cif",
+      "summary": "mof-issue-127.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/mof-issue-127.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "moderate",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/NaCl-cubic.poscar",
+      "type": "file",
+      "name": "NaCl-cubic.poscar",
+      "filePath": "src/site/structures/NaCl-cubic.poscar",
+      "summary": "NaCl-cubic.poscar 是 CatGo 项目中的代码文件，使用 poscar，位于 src/site/structures/NaCl-cubic.poscar，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "poscar"
+      ],
+      "complexity": "simple",
+      "language": "poscar",
+      "languageNotes": "此节点以中文概述，保留必要的 poscar 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/P24Ru4H252C296S24N16.cif",
+      "type": "file",
+      "name": "P24Ru4H252C296S24N16.cif",
+      "filePath": "src/site/structures/P24Ru4H252C296S24N16.cif",
+      "summary": "P24Ru4H252C296S24N16.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/P24Ru4H252C296S24N16.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "complex",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/PF-sd-1601634.cif",
+      "type": "file",
+      "name": "PF-sd-1601634.cif",
+      "filePath": "src/site/structures/PF-sd-1601634.cif",
+      "summary": "PF-sd-1601634.cif 是 CatGo 项目中的代码文件，使用 cif，位于 src/site/structures/PF-sd-1601634.cif，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "cif"
+      ],
+      "complexity": "moderate",
+      "language": "cif",
+      "languageNotes": "此节点以中文概述，保留必要的 cif 技术术语。"
+    },
+    {
+      "id": "file:src/site/structures/porphin.pdb",
+      "type": "file",
+      "name": "porphin.pdb",
+      "filePath": "src/site/structures/porphin.pdb",
+      "summary": "porphin.pdb 是 CatGo 项目中的代码文件，使用 pdb，位于 src/site/structures/porphin.pdb，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "pdb"
+      ],
+      "complexity": "simple",
+      "language": "pdb",
+      "languageNotes": "此节点以中文概述，保留必要的 pdb 技术术语。"
+    }
+  ],
+  "edges": []
+}

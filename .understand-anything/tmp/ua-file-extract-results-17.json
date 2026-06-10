@@ -1,0 +1,240 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/modules/electronic/band-structure.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 65,
+      "nonEmptyLines": 40,
+      "sections": [
+        {
+          "heading": "Band Structure",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "BandPlot",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "BandAnalysisPane",
+          "level": 3,
+          "line": 26
+        },
+        {
+          "heading": "Data Format",
+          "level": 2,
+          "line": 30
+        },
+        {
+          "heading": "Band Data Structure",
+          "level": 3,
+          "line": 32
+        },
+        {
+          "heading": "Features",
+          "level": 2,
+          "line": 41
+        },
+        {
+          "heading": "Orbital Projections (Fat Bands)",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "D-Band Analysis",
+          "level": 3,
+          "line": 47
+        },
+        {
+          "heading": "Band Gap Detection",
+          "level": 3,
+          "line": 51
+        },
+        {
+          "heading": "Server API",
+          "level": 2,
+          "line": 55
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 61
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "docs/modules/electronic/cohp.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 53,
+      "nonEmptyLines": 31,
+      "sections": [
+        {
+          "heading": "COHP",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "CohpPlot",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "CohpAnalysisPane",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "Data Format",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Features",
+          "level": 2,
+          "line": 32
+        },
+        {
+          "heading": "Bond Pair Selection",
+          "level": 3,
+          "line": 34
+        },
+        {
+          "heading": "Integrated COHP (ICOHP)",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "Multi-Pair Comparison",
+          "level": 3,
+          "line": 42
+        },
+        {
+          "heading": "Server API",
+          "level": 2,
+          "line": 46
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 50
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    },
+    {
+      "path": "docs/modules/electronic/dos.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 56,
+      "nonEmptyLines": 34,
+      "sections": [
+        {
+          "heading": "Density of States",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "DosPlot",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "DosAnalysisPane",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "DosPlotWindow",
+          "level": 3,
+          "line": 25
+        },
+        {
+          "heading": "Data Format",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Features",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Projection Types",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "Integration",
+          "level": 3,
+          "line": 45
+        },
+        {
+          "heading": "Server API",
+          "level": 2,
+          "line": 49
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 53
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 12
+      }
+    }
+  ]
+}

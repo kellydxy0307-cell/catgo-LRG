@@ -1,0 +1,70 @@
+{
+    "projectRoot":  "D:/catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "scripts/README.md",
+                           "language":  "markdown",
+                           "sizeLines":  39,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "scripts/build-backend.ps1",
+                           "language":  "powershell",
+                           "sizeLines":  65,
+                           "fileCategory":  "script"
+                       },
+                       {
+                           "path":  "scripts/build-backend.sh",
+                           "language":  "shell",
+                           "sizeLines":  107,
+                           "fileCategory":  "script"
+                       },
+                       {
+                           "path":  "scripts/build-server.sh",
+                           "language":  "shell",
+                           "sizeLines":  82,
+                           "fileCategory":  "script"
+                       },
+                       {
+                           "path":  "scripts/catgo-session-start.sh",
+                           "language":  "shell",
+                           "sizeLines":  15,
+                           "fileCategory":  "script"
+                       },
+                       {
+                           "path":  "scripts/migrate-to-rust-dag.sh",
+                           "language":  "shell",
+                           "sizeLines":  32,
+                           "fileCategory":  "script"
+                       },
+                       {
+                           "path":  "scripts/setup-claude-code.sh",
+                           "language":  "shell",
+                           "sizeLines":  168,
+                           "fileCategory":  "script"
+                       }
+                   ],
+    "batchImportData":  {
+                            "scripts/README.md":  [
+
+                                                  ],
+                            "scripts/build-backend.ps1":  [
+
+                                                          ],
+                            "scripts/build-backend.sh":  [
+
+                                                         ],
+                            "scripts/build-server.sh":  [
+
+                                                        ],
+                            "scripts/catgo-session-start.sh":  [
+
+                                                               ],
+                            "scripts/migrate-to-rust-dag.sh":  [
+
+                                                               ],
+                            "scripts/setup-claude-code.sh":  [
+
+                                                             ]
+                        }
+}

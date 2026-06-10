@@ -1,0 +1,160 @@
+{
+    "projectRoot":  "D:\\catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "docs/DEBUG_LOG_2026-03-02.md",
+                           "language":  "markdown",
+                           "sizeLines":  192,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/DEBUG_LOG_2026-05-15.md",
+                           "language":  "markdown",
+                           "sizeLines":  27,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/DEVELOPMENT_GUIDE.md",
+                           "language":  "markdown",
+                           "sizeLines":  118,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/catgo-learning-guide.md",
+                           "language":  "markdown",
+                           "sizeLines":  1706,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/catgo_graph_kernel_stability.md",
+                           "language":  "markdown",
+                           "sizeLines":  151,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/catgo_graph_vision.md",
+                           "language":  "markdown",
+                           "sizeLines":  268,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/catgo_recipe_catalog.md",
+                           "language":  "markdown",
+                           "sizeLines":  307,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/catgo_runtime_requirements.md",
+                           "language":  "markdown",
+                           "sizeLines":  478,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/catgo_rust_runtime_architecture.md",
+                           "language":  "markdown",
+                           "sizeLines":  1252,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/catgo_student_usage_guide.md",
+                           "language":  "markdown",
+                           "sizeLines":  170,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/catgo_unified_workflow_architecture.md",
+                           "language":  "markdown",
+                           "sizeLines":  129,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/catgo_workflow_capabilities.md",
+                           "language":  "markdown",
+                           "sizeLines":  117,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/claude_prompt_enhanced.txt",
+                           "language":  "txt",
+                           "sizeLines":  67,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/claude_prompt_standard.txt",
+                           "language":  "txt",
+                           "sizeLines":  41,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/index.md",
+                           "language":  "markdown",
+                           "sizeLines":  55,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/oer_graph_example.yaml",
+                           "language":  "yaml",
+                           "sizeLines":  233,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "docs/rendering-code-review-2026-03.md",
+                           "language":  "markdown",
+                           "sizeLines":  138,
+                           "fileCategory":  "docs"
+                       }
+                   ],
+    "batchImportData":  {
+                            "docs/DEBUG_LOG_2026-03-02.md":  [
+
+                                                             ],
+                            "docs/DEBUG_LOG_2026-05-15.md":  [
+
+                                                             ],
+                            "docs/DEVELOPMENT_GUIDE.md":  [
+
+                                                          ],
+                            "docs/catgo-learning-guide.md":  [
+
+                                                             ],
+                            "docs/catgo_graph_kernel_stability.md":  [
+
+                                                                     ],
+                            "docs/catgo_graph_vision.md":  [
+
+                                                           ],
+                            "docs/catgo_recipe_catalog.md":  [
+
+                                                             ],
+                            "docs/catgo_runtime_requirements.md":  [
+
+                                                                   ],
+                            "docs/catgo_rust_runtime_architecture.md":  [
+
+                                                                        ],
+                            "docs/catgo_student_usage_guide.md":  [
+
+                                                                  ],
+                            "docs/catgo_unified_workflow_architecture.md":  [
+
+                                                                            ],
+                            "docs/catgo_workflow_capabilities.md":  [
+
+                                                                    ],
+                            "docs/claude_prompt_enhanced.txt":  [
+
+                                                                ],
+                            "docs/claude_prompt_standard.txt":  [
+
+                                                                ],
+                            "docs/index.md":  [
+
+                                              ],
+                            "docs/oer_graph_example.yaml":  [
+
+                                                            ],
+                            "docs/rendering-code-review-2026-03.md":  [
+
+                                                                      ]
+                        }
+}

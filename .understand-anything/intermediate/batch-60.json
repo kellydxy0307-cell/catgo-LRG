@@ -1,0 +1,470 @@
+{
+  "nodes": [
+    {
+      "id": "document:extensions/vsepr-rs/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "extensions/vsepr-rs/README.md",
+      "summary": "README.md 是 CatGo 项目中的文档文件，使用 markdown，位于 extensions/vsepr-rs/README.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "file:extensions/vsepr-rs/src/forcefield.rs",
+      "type": "file",
+      "name": "forcefield.rs",
+      "filePath": "extensions/vsepr-rs/src/forcefield.rs",
+      "summary": "forcefield.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/vsepr-rs/src/forcefield.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/vsepr-rs/src/lib.rs",
+      "type": "file",
+      "name": "lib.rs",
+      "filePath": "extensions/vsepr-rs/src/lib.rs",
+      "summary": "lib.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/vsepr-rs/src/lib.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "前端",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/vsepr-rs/src/math.rs",
+      "type": "file",
+      "name": "math.rs",
+      "filePath": "extensions/vsepr-rs/src/math.rs",
+      "summary": "math.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/vsepr-rs/src/math.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/vsepr-rs/src/optimizer.rs",
+      "type": "file",
+      "name": "optimizer.rs",
+      "filePath": "extensions/vsepr-rs/src/optimizer.rs",
+      "summary": "optimizer.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/vsepr-rs/src/optimizer.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/vsepr-rs/src/traits.rs",
+      "type": "file",
+      "name": "traits.rs",
+      "filePath": "extensions/vsepr-rs/src/traits.rs",
+      "summary": "traits.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/vsepr-rs/src/traits.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/vsepr-rs/src/vsepr.rs",
+      "type": "file",
+      "name": "vsepr.rs",
+      "filePath": "extensions/vsepr-rs/src/vsepr.rs",
+      "summary": "vsepr.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/vsepr-rs/src/vsepr.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:patches/@openai__codex-sdk@0.132.0-alpha.1.patch",
+      "type": "file",
+      "name": "@openai__codex-sdk@0.132.0-alpha.1.patch",
+      "filePath": "patches/@openai__codex-sdk@0.132.0-alpha.1.patch",
+      "summary": "@openai__codex-sdk@0.132.0-alpha.1.patch 是 CatGo 项目中的代码文件，使用 patch，位于 patches/@openai__codex-sdk@0.132.0-alpha.1.patch，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "patch"
+      ],
+      "complexity": "simple",
+      "language": "patch",
+      "languageNotes": "此节点以中文概述，保留必要的 patch 技术术语。"
+    },
+    {
+      "id": "file:patches/three@0.181.2.patch",
+      "type": "file",
+      "name": "three@0.181.2.patch",
+      "filePath": "patches/three@0.181.2.patch",
+      "summary": "three@0.181.2.patch 是 CatGo 项目中的代码文件，使用 patch，位于 patches/three@0.181.2.patch，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "patch"
+      ],
+      "complexity": "simple",
+      "language": "patch",
+      "languageNotes": "此节点以中文概述，保留必要的 patch 技术术语。"
+    },
+    {
+      "id": "file:playwright.config.ts",
+      "type": "file",
+      "name": "playwright.config.ts",
+      "filePath": "playwright.config.ts",
+      "summary": "playwright.config.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 playwright.config.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:plugins/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "plugins/.gitkeep",
+      "summary": ".gitkeep 是 CatGo 项目中的代码文件，使用 unknown，位于 plugins/.gitkeep，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "unknown"
+      ],
+      "complexity": "simple",
+      "language": "unknown",
+      "languageNotes": "此节点以中文概述，保留必要的 unknown 技术术语。"
+    },
+    {
+      "id": "config:plugins/bond-histogram/catgo-tool.json",
+      "type": "config",
+      "name": "catgo-tool.json",
+      "filePath": "plugins/bond-histogram/catgo-tool.json",
+      "summary": "catgo-tool.json 是 CatGo 项目中的配置文件，使用 json，位于 plugins/bond-histogram/catgo-tool.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:plugins/bond-histogram/plugin.py",
+      "type": "file",
+      "name": "plugin.py",
+      "filePath": "plugins/bond-histogram/plugin.py",
+      "summary": "plugin.py 是 CatGo 项目中的代码文件，使用 python，位于 plugins/bond-histogram/plugin.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:plugins/bond-histogram/tool.py",
+      "type": "file",
+      "name": "tool.py",
+      "filePath": "plugins/bond-histogram/tool.py",
+      "summary": "tool.py 是 CatGo 项目中的代码文件，使用 python，位于 plugins/bond-histogram/tool.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "config:plugins/cp2k-dos-reader/catgo-tool.json",
+      "type": "config",
+      "name": "catgo-tool.json",
+      "filePath": "plugins/cp2k-dos-reader/catgo-tool.json",
+      "summary": "catgo-tool.json 是 CatGo 项目中的配置文件，使用 json，位于 plugins/cp2k-dos-reader/catgo-tool.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:plugins/cp2k-dos-reader/plugin.py",
+      "type": "file",
+      "name": "plugin.py",
+      "filePath": "plugins/cp2k-dos-reader/plugin.py",
+      "summary": "plugin.py 是 CatGo 项目中的代码文件，使用 python，位于 plugins/cp2k-dos-reader/plugin.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:plugins/cp2k-dos-reader/tool.py",
+      "type": "file",
+      "name": "tool.py",
+      "filePath": "plugins/cp2k-dos-reader/tool.py",
+      "summary": "tool.py 是 CatGo 项目中的代码文件，使用 python，位于 plugins/cp2k-dos-reader/tool.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "config:plugins/lammps-workflow/catgo-tool.json",
+      "type": "config",
+      "name": "catgo-tool.json",
+      "filePath": "plugins/lammps-workflow/catgo-tool.json",
+      "summary": "catgo-tool.json 是 CatGo 项目中的配置文件，使用 json，位于 plugins/lammps-workflow/catgo-tool.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json",
+        "工作流"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:plugins/lammps-workflow/plugin.py",
+      "type": "file",
+      "name": "plugin.py",
+      "filePath": "plugins/lammps-workflow/plugin.py",
+      "summary": "plugin.py 是 CatGo 项目中的代码文件，使用 python，位于 plugins/lammps-workflow/plugin.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:plugins/lammps-workflow/tool.py",
+      "type": "file",
+      "name": "tool.py",
+      "filePath": "plugins/lammps-workflow/tool.py",
+      "summary": "tool.py 是 CatGo 项目中的代码文件，使用 python，位于 plugins/lammps-workflow/tool.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "config:plugins/lennard-jones-calculator/catgo-tool.json",
+      "type": "config",
+      "name": "catgo-tool.json",
+      "filePath": "plugins/lennard-jones-calculator/catgo-tool.json",
+      "summary": "catgo-tool.json 是 CatGo 项目中的配置文件，使用 json，位于 plugins/lennard-jones-calculator/catgo-tool.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:plugins/lennard-jones-calculator/plugin.py",
+      "type": "file",
+      "name": "plugin.py",
+      "filePath": "plugins/lennard-jones-calculator/plugin.py",
+      "summary": "plugin.py 是 CatGo 项目中的代码文件，使用 python，位于 plugins/lennard-jones-calculator/plugin.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:plugins/lennard-jones-calculator/tool.py",
+      "type": "file",
+      "name": "tool.py",
+      "filePath": "plugins/lennard-jones-calculator/tool.py",
+      "summary": "tool.py 是 CatGo 项目中的代码文件，使用 python，位于 plugins/lennard-jones-calculator/tool.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "document:plugins/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "plugins/README.md",
+      "summary": "README.md 是 CatGo 项目中的文档文件，使用 markdown，位于 plugins/README.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "file:scripts/agent-dev.mjs",
+      "type": "file",
+      "name": "agent-dev.mjs",
+      "filePath": "scripts/agent-dev.mjs",
+      "summary": "agent-dev.mjs 是 CatGo 项目中的代码文件，使用 javascript，位于 scripts/agent-dev.mjs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple",
+      "language": "javascript",
+      "languageNotes": "此节点以中文概述，保留必要的 javascript 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:extensions/vsepr-rs/src/forcefield.rs",
+      "target": "file:extensions/vsepr-rs/src/math.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/forcefield.rs",
+      "target": "file:extensions/vsepr-rs/src/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/forcefield.rs",
+      "target": "file:extensions/vsepr-rs/src/vsepr.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/lib.rs",
+      "target": "file:extensions/vsepr-rs/src/forcefield.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/lib.rs",
+      "target": "file:extensions/vsepr-rs/src/math.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/lib.rs",
+      "target": "file:extensions/vsepr-rs/src/optimizer.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/lib.rs",
+      "target": "file:extensions/vsepr-rs/src/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/lib.rs",
+      "target": "file:extensions/vsepr-rs/src/vsepr.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/optimizer.rs",
+      "target": "file:extensions/vsepr-rs/src/forcefield.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/optimizer.rs",
+      "target": "file:extensions/vsepr-rs/src/math.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/optimizer.rs",
+      "target": "file:extensions/vsepr-rs/src/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/optimizer.rs",
+      "target": "file:extensions/vsepr-rs/src/vsepr.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/vsepr-rs/src/vsepr.rs",
+      "target": "file:extensions/vsepr-rs/src/traits.rs",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

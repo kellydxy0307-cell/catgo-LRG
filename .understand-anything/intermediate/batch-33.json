@@ -1,0 +1,75 @@
+{
+  "nodes": [
+    {
+      "id": "document:server/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "server/README.md",
+      "summary": "README.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "markdown 文件；结构提取显示 44 行有效内容。"
+    },
+    {
+      "id": "document:server/VISUALIZE_VASP.md",
+      "type": "document",
+      "name": "VISUALIZE_VASP.md",
+      "filePath": "server/VISUALIZE_VASP.md",
+      "summary": "VISUALIZE_VASP.md 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "markdown",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "markdown 文件；结构提取显示 114 行有效内容。"
+    },
+    {
+      "id": "config:server/pyproject.toml",
+      "type": "config",
+      "name": "pyproject.toml",
+      "filePath": "server/pyproject.toml",
+      "summary": "pyproject.toml 控制项目中与 toml 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "toml",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "toml 文件；结构提取显示 54 行有效内容。"
+    },
+    {
+      "id": "config:server/pytest.ini",
+      "type": "config",
+      "name": "pytest.ini",
+      "filePath": "server/pytest.ini",
+      "summary": "pytest.ini 控制项目中与 config 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "test",
+        "配置",
+        "config"
+      ],
+      "complexity": "simple",
+      "languageNotes": "config 文件；结构提取显示 5 行有效内容。"
+    },
+    {
+      "id": "document:server/requirements.txt",
+      "type": "document",
+      "name": "requirements.txt",
+      "filePath": "server/requirements.txt",
+      "summary": "requirements.txt 提供项目文档内容，说明相关功能、用法或开发背景。",
+      "tags": [
+        "文档",
+        "txt",
+        "项目内部"
+      ],
+      "complexity": "simple",
+      "languageNotes": "txt 文件；结构提取显示 39 行有效内容。"
+    }
+  ],
+  "edges": []
+}

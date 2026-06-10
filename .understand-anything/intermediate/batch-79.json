@@ -1,0 +1,3607 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/workflow/hooks/cp2k_hooks.py",
+      "type": "file",
+      "name": "cp2k_hooks.py",
+      "filePath": "server/workflow/hooks/cp2k_hooks.py",
+      "summary": "实现工作流相关的 cp2k_hooks.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/workflow/hooks/cp2k_hooks.py:generate_inputs",
+      "type": "function",
+      "name": "generate_inputs",
+      "filePath": "server/workflow/hooks/cp2k_hooks.py",
+      "lineRange": [
+        10,
+        21
+      ],
+      "summary": "封装工作流模块中的 generate_inputs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/workflow/hooks/kmc_hooks.py",
+      "type": "file",
+      "name": "kmc_hooks.py",
+      "filePath": "server/workflow/hooks/kmc_hooks.py",
+      "summary": "实现工作流相关的 kmc_hooks.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/workflow/hooks/kmc_hooks.py:generate_inputs",
+      "type": "function",
+      "name": "generate_inputs",
+      "filePath": "server/workflow/hooks/kmc_hooks.py",
+      "lineRange": [
+        11,
+        29
+      ],
+      "summary": "封装工作流模块中的 generate_inputs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/workflow/hooks/lammps_hooks.py",
+      "type": "file",
+      "name": "lammps_hooks.py",
+      "filePath": "server/workflow/hooks/lammps_hooks.py",
+      "summary": "实现工作流相关的 lammps_hooks.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/workflow/hooks/lammps_hooks.py:generate_inputs",
+      "type": "function",
+      "name": "generate_inputs",
+      "filePath": "server/workflow/hooks/lammps_hooks.py",
+      "lineRange": [
+        10,
+        21
+      ],
+      "summary": "封装工作流模块中的 generate_inputs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/workflow/hooks/orca_hooks.py",
+      "type": "file",
+      "name": "orca_hooks.py",
+      "filePath": "server/workflow/hooks/orca_hooks.py",
+      "summary": "实现工作流相关的 orca_hooks.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/workflow/hooks/orca_hooks.py:generate_inputs",
+      "type": "function",
+      "name": "generate_inputs",
+      "filePath": "server/workflow/hooks/orca_hooks.py",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "封装工作流模块中的 generate_inputs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/workflow/hooks/sella_hooks.py",
+      "type": "file",
+      "name": "sella_hooks.py",
+      "filePath": "server/workflow/hooks/sella_hooks.py",
+      "summary": "实现工作流相关的 sella_hooks.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/workflow/hooks/sella_hooks.py:generate_inputs",
+      "type": "function",
+      "name": "generate_inputs",
+      "filePath": "server/workflow/hooks/sella_hooks.py",
+      "lineRange": [
+        10,
+        19
+      ],
+      "summary": "封装工作流模块中的 generate_inputs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/workflow/hooks/vasp_hooks.py",
+      "type": "file",
+      "name": "vasp_hooks.py",
+      "filePath": "server/workflow/hooks/vasp_hooks.py",
+      "summary": "实现工作流相关的 vasp_hooks.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/workflow/hooks/vasp_hooks.py:generate_inputs",
+      "type": "function",
+      "name": "generate_inputs",
+      "filePath": "server/workflow/hooks/vasp_hooks.py",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "封装工作流模块中的 generate_inputs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/workflow/node_sets.py",
+      "type": "file",
+      "name": "node_sets.py",
+      "filePath": "server/workflow/node_sets.py",
+      "summary": "实现工作流相关的 node_sets.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 2 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/workflow/node_sets.py:_resolve_software",
+      "type": "function",
+      "name": "_resolve_software",
+      "filePath": "server/workflow/node_sets.py",
+      "lineRange": [
+        115,
+        174
+      ],
+      "summary": "封装工作流模块中的 _resolve_software 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/workflow/node_sets.py:get_engine_for_node",
+      "type": "function",
+      "name": "get_engine_for_node",
+      "filePath": "server/workflow/node_sets.py",
+      "lineRange": [
+        177,
+        220
+      ],
+      "summary": "封装工作流模块中的 get_engine_for_node 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/workflow/presets/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/workflow/presets/__init__.py",
+      "summary": "实现工作流相关的 __init__.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:server/workflow/presets/templates.py",
+      "type": "file",
+      "name": "templates.py",
+      "filePath": "server/workflow/presets/templates.py",
+      "summary": "实现工作流相关的 templates.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 3 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/workflow/presets/templates.py:_electrochemical_slow_growth_graph",
+      "type": "function",
+      "name": "_electrochemical_slow_growth_graph",
+      "filePath": "server/workflow/presets/templates.py",
+      "lineRange": [
+        19,
+        93
+      ],
+      "summary": "封装工作流模块中的 _electrochemical_slow_growth_graph 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/workflow/presets/templates.py:_no3rr_cu111_dft_graph",
+      "type": "function",
+      "name": "_no3rr_cu111_dft_graph",
+      "filePath": "server/workflow/presets/templates.py",
+      "lineRange": [
+        96,
+        189
+      ],
+      "summary": "封装工作流模块中的 _no3rr_cu111_dft_graph 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/workflow/presets/templates.py:seed_builtin_templates",
+      "type": "function",
+      "name": "seed_builtin_templates",
+      "filePath": "server/workflow/presets/templates.py",
+      "lineRange": [
+        222,
+        235
+      ],
+      "summary": "封装工作流模块中的 seed_builtin_templates 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/workflow/presets/vasp.py",
+      "type": "file",
+      "name": "vasp.py",
+      "filePath": "server/workflow/presets/vasp.py",
+      "summary": "实现工作流相关的 vasp.py 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 4 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/workflow/presets/vasp.py:get_preset",
+      "type": "function",
+      "name": "get_preset",
+      "filePath": "server/workflow/presets/vasp.py",
+      "lineRange": [
+        227,
+        229
+      ],
+      "summary": "封装工作流模块中的 get_preset 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/workflow/presets/vasp.py:get_sub_presets",
+      "type": "function",
+      "name": "get_sub_presets",
+      "filePath": "server/workflow/presets/vasp.py",
+      "lineRange": [
+        232,
+        237
+      ],
+      "summary": "封装工作流模块中的 get_sub_presets 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/workflow/presets/vasp.py:get_sub_preset",
+      "type": "function",
+      "name": "get_sub_preset",
+      "filePath": "server/workflow/presets/vasp.py",
+      "lineRange": [
+        240,
+        245
+      ],
+      "summary": "封装工作流模块中的 get_sub_preset 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/workflow/presets/vasp.py:apply_preset",
+      "type": "function",
+      "name": "apply_preset",
+      "filePath": "server/workflow/presets/vasp.py",
+      "lineRange": [
+        248,
+        255
+      ],
+      "summary": "封装工作流模块中的 apply_preset 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/workflow/templates/mlp/run_mlp.py.j2",
+      "type": "file",
+      "name": "run_mlp.py.j2",
+      "filePath": "server/workflow/templates/mlp/run_mlp.py.j2",
+      "summary": "实现工作流相关的 run_mlp.py.j2 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/workflow/templates/xtb/run_xtb.py.j2",
+      "type": "file",
+      "name": "run_xtb.py.j2",
+      "filePath": "server/workflow/templates/xtb/run_xtb.py.j2",
+      "summary": "实现工作流相关的 run_xtb.py.j2 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:src-tauri/.cargo/config.toml",
+      "type": "config",
+      "name": "config.toml",
+      "filePath": "src-tauri/.cargo/config.toml",
+      "summary": "配置项目相关构建、运行或工具链参数，影响项目中对应模块的解析与执行方式。",
+      "tags": [
+        "configuration",
+        "build-system",
+        "项目"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src-tauri/binaries/.gitkeep",
+      "type": "file",
+      "name": ".gitkeep",
+      "filePath": "src-tauri/binaries/.gitkeep",
+      "summary": "实现项目相关的 .gitkeep 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src-tauri/build.rs",
+      "type": "file",
+      "name": "build.rs",
+      "filePath": "src-tauri/build.rs",
+      "summary": "实现项目相关的 build.rs 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 rust 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "config:src-tauri/capabilities/default.json",
+      "type": "config",
+      "name": "default.json",
+      "filePath": "src-tauri/capabilities/default.json",
+      "summary": "配置项目相关构建、运行或工具链参数，影响项目中对应模块的解析与执行方式。",
+      "tags": [
+        "configuration",
+        "build-system",
+        "项目"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src-tauri/icons/document.icns",
+      "type": "file",
+      "name": "document.icns",
+      "filePath": "src-tauri/icons/document.icns",
+      "summary": "实现项目相关的 document.icns 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src-tauri/icons/icon.icns",
+      "type": "file",
+      "name": "icon.icns",
+      "filePath": "src-tauri/icons/icon.icns",
+      "summary": "实现项目相关的 icon.icns 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src-tauri/src/db/files.rs",
+      "type": "file",
+      "name": "files.rs",
+      "filePath": "src-tauri/src/db/files.rs",
+      "summary": "实现项目相关的 files.rs 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 11 个函数和 7 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 rust 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:strip_windows_verbatim_prefix",
+      "type": "function",
+      "name": "strip_windows_verbatim_prefix",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        65,
+        75
+      ],
+      "summary": "封装项目模块中的 strip_windows_verbatim_prefix 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:db_browse_directory",
+      "type": "function",
+      "name": "db_browse_directory",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        98,
+        164
+      ],
+      "summary": "封装项目模块中的 db_browse_directory 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:db_browse_files",
+      "type": "function",
+      "name": "db_browse_files",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        171,
+        214
+      ],
+      "summary": "封装项目模块中的 db_browse_files 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:db_read_file",
+      "type": "function",
+      "name": "db_read_file",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        217,
+        229
+      ],
+      "summary": "封装项目模块中的 db_read_file 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:db_write_file",
+      "type": "function",
+      "name": "db_write_file",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        232,
+        246
+      ],
+      "summary": "封装项目模块中的 db_write_file 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:db_fs_mkdir",
+      "type": "function",
+      "name": "db_fs_mkdir",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        253,
+        260
+      ],
+      "summary": "封装项目模块中的 db_fs_mkdir 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:db_fs_delete",
+      "type": "function",
+      "name": "db_fs_delete",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        263,
+        275
+      ],
+      "summary": "封装项目模块中的 db_fs_delete 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:db_fs_rename",
+      "type": "function",
+      "name": "db_fs_rename",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        278,
+        286
+      ],
+      "summary": "封装项目模块中的 db_fs_rename 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:db_fs_copy",
+      "type": "function",
+      "name": "db_fs_copy",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        289,
+        297
+      ],
+      "summary": "封装项目模块中的 db_fs_copy 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/files.rs:db_fs_move",
+      "type": "function",
+      "name": "db_fs_move",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        300,
+        308
+      ],
+      "summary": "封装项目模块中的 db_fs_move 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/files.rs:BrowseItem",
+      "type": "class",
+      "name": "BrowseItem",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        13,
+        18
+      ],
+      "summary": "定义项目模块中的 BrowseItem 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/files.rs:BrowseResult",
+      "type": "class",
+      "name": "BrowseResult",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        21,
+        25
+      ],
+      "summary": "定义项目模块中的 BrowseResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/files.rs:FileBrowseItem",
+      "type": "class",
+      "name": "FileBrowseItem",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        28,
+        33
+      ],
+      "summary": "定义项目模块中的 FileBrowseItem 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/files.rs:FileBrowseResult",
+      "type": "class",
+      "name": "FileBrowseResult",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        36,
+        40
+      ],
+      "summary": "定义项目模块中的 FileBrowseResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/files.rs:FileReadResult",
+      "type": "class",
+      "name": "FileReadResult",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        43,
+        47
+      ],
+      "summary": "定义项目模块中的 FileReadResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/files.rs:FileWriteResult",
+      "type": "class",
+      "name": "FileWriteResult",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        50,
+        53
+      ],
+      "summary": "定义项目模块中的 FileWriteResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/files.rs:FileOpResult",
+      "type": "class",
+      "name": "FileOpResult",
+      "filePath": "src-tauri/src/db/files.rs",
+      "lineRange": [
+        56,
+        59
+      ],
+      "summary": "定义项目模块中的 FileOpResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src-tauri/src/db/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "summary": "实现项目相关的 mod.rs 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 12 个函数和 2 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 rust 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:resolve_path",
+      "type": "function",
+      "name": "resolve_path",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        39,
+        46
+      ],
+      "summary": "封装项目模块中的 resolve_path 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:read_last_db_path",
+      "type": "function",
+      "name": "read_last_db_path",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        57,
+        70
+      ],
+      "summary": "封装项目模块中的 read_last_db_path 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:save_active_path_pointer",
+      "type": "function",
+      "name": "save_active_path_pointer",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        74,
+        83
+      ],
+      "summary": "封装项目模块中的 save_active_path_pointer 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:resolve_default_path",
+      "type": "function",
+      "name": "resolve_default_path",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        100,
+        149
+      ],
+      "summary": "封装项目模块中的 resolve_default_path 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:get_conn",
+      "type": "function",
+      "name": "get_conn",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        151,
+        172
+      ],
+      "summary": "封装项目模块中的 get_conn 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:ensure_tables",
+      "type": "function",
+      "name": "ensure_tables",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        178,
+        339
+      ],
+      "summary": "封装项目模块中的 ensure_tables 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:db_get_current",
+      "type": "function",
+      "name": "db_get_current",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        356,
+        370
+      ],
+      "summary": "封装项目模块中的 db_get_current 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:db_new",
+      "type": "function",
+      "name": "db_new",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        373,
+        404
+      ],
+      "summary": "封装项目模块中的 db_new 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:db_open",
+      "type": "function",
+      "name": "db_open",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        407,
+        430
+      ],
+      "summary": "封装项目模块中的 db_open 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/mod.rs:db_save_as",
+      "type": "function",
+      "name": "db_save_as",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        433,
+        469
+      ],
+      "summary": "封装项目模块中的 db_save_as 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/mod.rs:DbState",
+      "type": "class",
+      "name": "DbState",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        24,
+        27
+      ],
+      "summary": "定义项目模块中的 DbState 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/mod.rs:DbInfo",
+      "type": "class",
+      "name": "DbInfo",
+      "filePath": "src-tauri/src/db/mod.rs",
+      "lineRange": [
+        346,
+        349
+      ],
+      "summary": "定义项目模块中的 DbInfo 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src-tauri/src/db/results.rs",
+      "type": "file",
+      "name": "results.rs",
+      "filePath": "src-tauri/src/db/results.rs",
+      "summary": "实现项目相关的 results.rs 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 9 个函数和 6 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 rust 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src-tauri/src/db/results.rs:db_query_results",
+      "type": "function",
+      "name": "db_query_results",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        68,
+        122
+      ],
+      "summary": "封装项目模块中的 db_query_results 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/results.rs:db_update_result_label",
+      "type": "function",
+      "name": "db_update_result_label",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        129,
+        166
+      ],
+      "summary": "封装项目模块中的 db_update_result_label 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/results.rs:db_delete_result",
+      "type": "function",
+      "name": "db_delete_result",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        169,
+        186
+      ],
+      "summary": "封装项目模块中的 db_delete_result 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/results.rs:db_move_or_copy_result",
+      "type": "function",
+      "name": "db_move_or_copy_result",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        189,
+        229
+      ],
+      "summary": "封装项目模块中的 db_move_or_copy_result 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/results.rs:copy_system_row",
+      "type": "function",
+      "name": "copy_system_row",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        232,
+        323
+      ],
+      "summary": "封装项目模块中的 copy_system_row 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/results.rs:db_get_result_structure",
+      "type": "function",
+      "name": "db_get_result_structure",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        330,
+        442
+      ],
+      "summary": "封装项目模块中的 db_get_result_structure 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/results.rs:db_save_structure",
+      "type": "function",
+      "name": "db_save_structure",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        449,
+        580
+      ],
+      "summary": "封装项目模块中的 db_save_structure 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/results.rs:db_export_structure",
+      "type": "function",
+      "name": "db_export_structure",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        583,
+        590
+      ],
+      "summary": "封装项目模块中的 db_export_structure 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/results.rs:db_serialize_structure",
+      "type": "function",
+      "name": "db_serialize_structure",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        593,
+        598
+      ],
+      "summary": "封装项目模块中的 db_serialize_structure 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/results.rs:ResultRow",
+      "type": "class",
+      "name": "ResultRow",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        20,
+        29
+      ],
+      "summary": "定义项目模块中的 ResultRow 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/results.rs:ResultsResponse",
+      "type": "class",
+      "name": "ResultsResponse",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        32,
+        35
+      ],
+      "summary": "定义项目模块中的 ResultsResponse 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/results.rs:MoveOrCopyResult",
+      "type": "class",
+      "name": "MoveOrCopyResult",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        38,
+        42
+      ],
+      "summary": "定义项目模块中的 MoveOrCopyResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/results.rs:SaveStructureResult",
+      "type": "class",
+      "name": "SaveStructureResult",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        45,
+        48
+      ],
+      "summary": "定义项目模块中的 SaveStructureResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/results.rs:ExportStructureResult",
+      "type": "class",
+      "name": "ExportStructureResult",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        51,
+        55
+      ],
+      "summary": "定义项目模块中的 ExportStructureResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/results.rs:SerializeStructureResult",
+      "type": "class",
+      "name": "SerializeStructureResult",
+      "filePath": "src-tauri/src/db/results.rs",
+      "lineRange": [
+        58,
+        61
+      ],
+      "summary": "定义项目模块中的 SerializeStructureResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src-tauri/src/db/util.rs",
+      "type": "file",
+      "name": "util.rs",
+      "filePath": "src-tauri/src/db/util.rs",
+      "summary": "实现项目相关的 util.rs 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 12 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "utility",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 rust 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:element_to_z",
+      "type": "function",
+      "name": "element_to_z",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        25,
+        30
+      ],
+      "summary": "封装项目模块中的 element_to_z 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:formula_from_species",
+      "type": "function",
+      "name": "formula_from_species",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        33,
+        86
+      ],
+      "summary": "封装项目模块中的 formula_from_species 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:invert_3x3",
+      "type": "function",
+      "name": "invert_3x3",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        94,
+        119
+      ],
+      "summary": "封装项目模块中的 invert_3x3 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:mat_vec_mul",
+      "type": "function",
+      "name": "mat_vec_mul",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        121,
+        127
+      ],
+      "summary": "封装项目模块中的 mat_vec_mul 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:cell_params",
+      "type": "function",
+      "name": "cell_params",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        129,
+        151
+      ],
+      "summary": "封装项目模块中的 cell_params 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:parse_numbers_blob",
+      "type": "function",
+      "name": "parse_numbers_blob",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        158,
+        162
+      ],
+      "summary": "封装项目模块中的 parse_numbers_blob 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:parse_f64_blob",
+      "type": "function",
+      "name": "parse_f64_blob",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        165,
+        171
+      ],
+      "summary": "封装项目模块中的 parse_f64_blob 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:pack_i32_blob",
+      "type": "function",
+      "name": "pack_i32_blob",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        174,
+        176
+      ],
+      "summary": "封装项目模块中的 pack_i32_blob 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:pack_f64_blob",
+      "type": "function",
+      "name": "pack_f64_blob",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        179,
+        181
+      ],
+      "summary": "封装项目模块中的 pack_f64_blob 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:expand_tilde",
+      "type": "function",
+      "name": "expand_tilde",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        187,
+        195
+      ],
+      "summary": "封装项目模块中的 expand_tilde 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:normalize_windows_drive_path",
+      "type": "function",
+      "name": "normalize_windows_drive_path",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        197,
+        210
+      ],
+      "summary": "封装项目模块中的 normalize_windows_drive_path 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/util.rs:get_text_kv",
+      "type": "function",
+      "name": "get_text_kv",
+      "filePath": "src-tauri/src/db/util.rs",
+      "lineRange": [
+        213,
+        220
+      ],
+      "summary": "封装项目模块中的 get_text_kv 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src-tauri/src/db/workflow.rs",
+      "type": "file",
+      "name": "workflow.rs",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "summary": "实现工作流相关的 workflow.rs 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 22 个函数和 11 个类/类型。",
+      "tags": [
+        "code",
+        "工作流"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 rust 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_list_projects",
+      "type": "function",
+      "name": "db_list_projects",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        143,
+        171
+      ],
+      "summary": "封装工作流模块中的 db_list_projects 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_create_project",
+      "type": "function",
+      "name": "db_create_project",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        174,
+        210
+      ],
+      "summary": "封装工作流模块中的 db_create_project 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_update_project",
+      "type": "function",
+      "name": "db_update_project",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        213,
+        274
+      ],
+      "summary": "封装工作流模块中的 db_update_project 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_delete_project",
+      "type": "function",
+      "name": "db_delete_project",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        277,
+        312
+      ],
+      "summary": "封装工作流模块中的 db_delete_project 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_get_project",
+      "type": "function",
+      "name": "db_get_project",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        315,
+        371
+      ],
+      "summary": "封装工作流模块中的 db_get_project 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_get_enriched_results",
+      "type": "function",
+      "name": "db_get_enriched_results",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        374,
+        471
+      ],
+      "summary": "封装工作流模块中的 db_get_enriched_results 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_assign_workflow_to_project",
+      "type": "function",
+      "name": "db_assign_workflow_to_project",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        474,
+        486
+      ],
+      "summary": "封装工作流模块中的 db_assign_workflow_to_project 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_list_workflow_folders",
+      "type": "function",
+      "name": "db_list_workflow_folders",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        493,
+        517
+      ],
+      "summary": "封装工作流模块中的 db_list_workflow_folders 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_create_workflow_folder",
+      "type": "function",
+      "name": "db_create_workflow_folder",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        520,
+        545
+      ],
+      "summary": "封装工作流模块中的 db_create_workflow_folder 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_get_workflow_folder",
+      "type": "function",
+      "name": "db_get_workflow_folder",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        548,
+        603
+      ],
+      "summary": "封装工作流模块中的 db_get_workflow_folder 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_update_workflow_folder",
+      "type": "function",
+      "name": "db_update_workflow_folder",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        606,
+        663
+      ],
+      "summary": "封装工作流模块中的 db_update_workflow_folder 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_delete_workflow_folder",
+      "type": "function",
+      "name": "db_delete_workflow_folder",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        666,
+        701
+      ],
+      "summary": "封装工作流模块中的 db_delete_workflow_folder 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_assign_workflow_to_folder",
+      "type": "function",
+      "name": "db_assign_workflow_to_folder",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        704,
+        717
+      ],
+      "summary": "封装工作流模块中的 db_assign_workflow_to_folder 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_unassign_workflow_from_folder",
+      "type": "function",
+      "name": "db_unassign_workflow_from_folder",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        720,
+        732
+      ],
+      "summary": "封装工作流模块中的 db_unassign_workflow_from_folder 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_list_workflows",
+      "type": "function",
+      "name": "db_list_workflows",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        739,
+        772
+      ],
+      "summary": "封装工作流模块中的 db_list_workflows 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_create_workflow",
+      "type": "function",
+      "name": "db_create_workflow",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        775,
+        810
+      ],
+      "summary": "封装工作流模块中的 db_create_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_get_workflow_detail",
+      "type": "function",
+      "name": "db_get_workflow_detail",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        813,
+        850
+      ],
+      "summary": "封装工作流模块中的 db_get_workflow_detail 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_update_workflow",
+      "type": "function",
+      "name": "db_update_workflow",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        853,
+        911
+      ],
+      "summary": "封装工作流模块中的 db_update_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_delete_workflow",
+      "type": "function",
+      "name": "db_delete_workflow",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        914,
+        931
+      ],
+      "summary": "封装工作流模块中的 db_delete_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_list_steps",
+      "type": "function",
+      "name": "db_list_steps",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        934,
+        959
+      ],
+      "summary": "封装工作流模块中的 db_list_steps 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:sync_steps_from_graph",
+      "type": "function",
+      "name": "sync_steps_from_graph",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        962,
+        1005
+      ],
+      "summary": "封装工作流模块中的 sync_steps_from_graph 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/db/workflow.rs:db_get_run_status",
+      "type": "function",
+      "name": "db_get_run_status",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        1012,
+        1060
+      ],
+      "summary": "封装工作流模块中的 db_get_run_status 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:ProjectSummary",
+      "type": "class",
+      "name": "ProjectSummary",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        15,
+        24
+      ],
+      "summary": "定义工作流模块中的 ProjectSummary 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:WorkflowSummary",
+      "type": "class",
+      "name": "WorkflowSummary",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        27,
+        38
+      ],
+      "summary": "定义工作流模块中的 WorkflowSummary 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:WorkflowFolderSummary",
+      "type": "class",
+      "name": "WorkflowFolderSummary",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        41,
+        48
+      ],
+      "summary": "定义工作流模块中的 WorkflowFolderSummary 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:ProjectDetail",
+      "type": "class",
+      "name": "ProjectDetail",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        51,
+        60
+      ],
+      "summary": "定义工作流模块中的 ProjectDetail 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:ProjectWorkflowEntry",
+      "type": "class",
+      "name": "ProjectWorkflowEntry",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        63,
+        70
+      ],
+      "summary": "定义工作流模块中的 ProjectWorkflowEntry 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:WorkflowFolderDetail",
+      "type": "class",
+      "name": "WorkflowFolderDetail",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        73,
+        81
+      ],
+      "summary": "定义工作流模块中的 WorkflowFolderDetail 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:WorkflowFolderWorkflow",
+      "type": "class",
+      "name": "WorkflowFolderWorkflow",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        84,
+        90
+      ],
+      "summary": "定义工作流模块中的 WorkflowFolderWorkflow 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:WorkflowDetail",
+      "type": "class",
+      "name": "WorkflowDetail",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        93,
+        106
+      ],
+      "summary": "定义工作流模块中的 WorkflowDetail 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:StepInfo",
+      "type": "class",
+      "name": "StepInfo",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        109,
+        116
+      ],
+      "summary": "定义工作流模块中的 StepInfo 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:StepStatusInfo",
+      "type": "class",
+      "name": "StepStatusInfo",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        119,
+        128
+      ],
+      "summary": "定义工作流模块中的 StepStatusInfo 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:src-tauri/src/db/workflow.rs:WorkflowRunStatusResult",
+      "type": "class",
+      "name": "WorkflowRunStatusResult",
+      "filePath": "src-tauri/src/db/workflow.rs",
+      "lineRange": [
+        131,
+        136
+      ],
+      "summary": "定义工作流模块中的 WorkflowRunStatusResult 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src-tauri/src/lib.rs",
+      "type": "file",
+      "name": "lib.rs",
+      "filePath": "src-tauri/src/lib.rs",
+      "summary": "实现项目相关的 lib.rs 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 5 个函数和 3 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 rust 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src-tauri/src/lib.rs:optimize_webview_for_webgl",
+      "type": "function",
+      "name": "optimize_webview_for_webgl",
+      "filePath": "src-tauri/src/lib.rs",
+      "lineRange": [
+        10,
+        55
+      ],
+      "summary": "封装项目模块中的 optimize_webview_for_webgl 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/lib.rs:configure_webkitgtk",
+      "type": "function",
+      "name": "configure_webkitgtk",
+      "filePath": "src-tauri/src/lib.rs",
+      "lineRange": [
+        62,
+        90
+      ],
+      "summary": "封装项目模块中的 configure_webkitgtk 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/lib.rs:buffer_file_args",
+      "type": "function",
+      "name": "buffer_file_args",
+      "filePath": "src-tauri/src/lib.rs",
+      "lineRange": [
+        142,
+        174
+      ],
+      "summary": "封装项目模块中的 buffer_file_args 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src-tauri/src/lib.rs:run",
+      "type": "function",
+      "name": "run",
+      "filePath": "src-tauri/src/lib.rs",
+      "lineRange": [
+        177,
+        672
+      ],
+      "summary": "封装项目模块中的 run 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:src-tauri/src/main.rs",
+      "type": "file",
+      "name": "main.rs",
+      "filePath": "src-tauri/src/main.rs",
+      "summary": "实现项目相关的 main.rs 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 rust 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/workflow/hooks/cp2k_hooks.py",
+      "target": "function:server/workflow/hooks/cp2k_hooks.py:generate_inputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/hooks/cp2k_hooks.py",
+      "target": "function:server/workflow/hooks/cp2k_hooks.py:generate_inputs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/hooks/kmc_hooks.py",
+      "target": "function:server/workflow/hooks/kmc_hooks.py:generate_inputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/hooks/kmc_hooks.py",
+      "target": "function:server/workflow/hooks/kmc_hooks.py:generate_inputs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/hooks/lammps_hooks.py",
+      "target": "function:server/workflow/hooks/lammps_hooks.py:generate_inputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/hooks/lammps_hooks.py",
+      "target": "function:server/workflow/hooks/lammps_hooks.py:generate_inputs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/hooks/orca_hooks.py",
+      "target": "function:server/workflow/hooks/orca_hooks.py:generate_inputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/hooks/orca_hooks.py",
+      "target": "function:server/workflow/hooks/orca_hooks.py:generate_inputs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/hooks/sella_hooks.py",
+      "target": "function:server/workflow/hooks/sella_hooks.py:generate_inputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/hooks/sella_hooks.py",
+      "target": "function:server/workflow/hooks/sella_hooks.py:generate_inputs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/hooks/vasp_hooks.py",
+      "target": "function:server/workflow/hooks/vasp_hooks.py:generate_inputs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/hooks/vasp_hooks.py",
+      "target": "function:server/workflow/hooks/vasp_hooks.py:generate_inputs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/node_sets.py",
+      "target": "function:server/workflow/node_sets.py:_resolve_software",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/node_sets.py",
+      "target": "function:server/workflow/node_sets.py:get_engine_for_node",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/node_sets.py",
+      "target": "function:server/workflow/node_sets.py:_resolve_software",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/node_sets.py",
+      "target": "function:server/workflow/node_sets.py:get_engine_for_node",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/presets/templates.py",
+      "target": "function:server/workflow/presets/templates.py:_electrochemical_slow_growth_graph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/presets/templates.py",
+      "target": "function:server/workflow/presets/templates.py:_no3rr_cu111_dft_graph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/presets/templates.py",
+      "target": "function:server/workflow/presets/templates.py:seed_builtin_templates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/presets/templates.py",
+      "target": "function:server/workflow/presets/templates.py:_electrochemical_slow_growth_graph",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/presets/templates.py",
+      "target": "function:server/workflow/presets/templates.py:_no3rr_cu111_dft_graph",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/presets/templates.py",
+      "target": "function:server/workflow/presets/templates.py:seed_builtin_templates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/presets/vasp.py",
+      "target": "function:server/workflow/presets/vasp.py:get_preset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/presets/vasp.py",
+      "target": "function:server/workflow/presets/vasp.py:get_sub_presets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/presets/vasp.py",
+      "target": "function:server/workflow/presets/vasp.py:get_sub_preset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/presets/vasp.py",
+      "target": "function:server/workflow/presets/vasp.py:apply_preset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/workflow/presets/vasp.py",
+      "target": "function:server/workflow/presets/vasp.py:get_preset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/presets/vasp.py",
+      "target": "function:server/workflow/presets/vasp.py:get_sub_presets",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/presets/vasp.py",
+      "target": "function:server/workflow/presets/vasp.py:get_sub_preset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/workflow/presets/vasp.py",
+      "target": "function:server/workflow/presets/vasp.py:apply_preset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:strip_windows_verbatim_prefix",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_browse_directory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_browse_files",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_read_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_write_file",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_mkdir",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_delete",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_rename",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_copy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_move",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:BrowseItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:BrowseResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileBrowseItem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileBrowseResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileReadResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileWriteResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileOpResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_browse_directory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_browse_files",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_read_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_write_file",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_mkdir",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_delete",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_rename",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_copy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "function:src-tauri/src/db/files.rs:db_fs_move",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:BrowseItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:BrowseResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileBrowseItem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileBrowseResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileReadResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileWriteResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/files.rs",
+      "target": "class:src-tauri/src/db/files.rs:FileOpResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:resolve_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:read_last_db_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:save_active_path_pointer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:resolve_default_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:get_conn",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:ensure_tables",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:db_get_current",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:db_new",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:db_open",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:db_save_as",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "class:src-tauri/src/db/mod.rs:DbState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "class:src-tauri/src/db/mod.rs:DbInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:resolve_path",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:save_active_path_pointer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:get_conn",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:db_get_current",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:db_new",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:db_open",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "function:src-tauri/src/db/mod.rs:db_save_as",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "class:src-tauri/src/db/mod.rs:DbState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/mod.rs",
+      "target": "class:src-tauri/src/db/mod.rs:DbInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_query_results",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_update_result_label",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_delete_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_move_or_copy_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:copy_system_row",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_get_result_structure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_save_structure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_export_structure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_serialize_structure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:ResultRow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:ResultsResponse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:MoveOrCopyResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:SaveStructureResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:ExportStructureResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:SerializeStructureResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_query_results",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_update_result_label",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_delete_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_move_or_copy_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_get_result_structure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_save_structure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_export_structure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "function:src-tauri/src/db/results.rs:db_serialize_structure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:ResultRow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:ResultsResponse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:MoveOrCopyResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:SaveStructureResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:ExportStructureResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/results.rs",
+      "target": "class:src-tauri/src/db/results.rs:SerializeStructureResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:element_to_z",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:formula_from_species",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:invert_3x3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:mat_vec_mul",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:cell_params",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:parse_numbers_blob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:parse_f64_blob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:pack_i32_blob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:pack_f64_blob",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:expand_tilde",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:normalize_windows_drive_path",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:get_text_kv",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:element_to_z",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:formula_from_species",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:invert_3x3",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:mat_vec_mul",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:cell_params",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:parse_numbers_blob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:parse_f64_blob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:pack_i32_blob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:pack_f64_blob",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:expand_tilde",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/util.rs",
+      "target": "function:src-tauri/src/db/util.rs:get_text_kv",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_list_projects",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_create_project",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_update_project",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_delete_project",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_project",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_enriched_results",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_assign_workflow_to_project",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_list_workflow_folders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_create_workflow_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_workflow_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_update_workflow_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_delete_workflow_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_assign_workflow_to_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_unassign_workflow_from_folder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_list_workflows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_create_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_workflow_detail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_update_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_delete_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_list_steps",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:sync_steps_from_graph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_run_status",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:ProjectSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowFolderSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:ProjectDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:ProjectWorkflowEntry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowFolderDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowFolderWorkflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:StepInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:StepStatusInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowRunStatusResult",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_list_projects",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_create_project",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_update_project",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_delete_project",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_project",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_enriched_results",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_assign_workflow_to_project",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_list_workflow_folders",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_create_workflow_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_workflow_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_update_workflow_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_delete_workflow_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_assign_workflow_to_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_unassign_workflow_from_folder",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_list_workflows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_create_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_workflow_detail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_update_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_delete_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_list_steps",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "function:src-tauri/src/db/workflow.rs:db_get_run_status",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:ProjectSummary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowSummary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowFolderSummary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:ProjectDetail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:ProjectWorkflowEntry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowFolderDetail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowFolderWorkflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowDetail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:StepInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:StepStatusInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/db/workflow.rs",
+      "target": "class:src-tauri/src/db/workflow.rs:WorkflowRunStatusResult",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src-tauri/src/lib.rs",
+      "target": "function:src-tauri/src/lib.rs:optimize_webview_for_webgl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/lib.rs",
+      "target": "function:src-tauri/src/lib.rs:configure_webkitgtk",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/lib.rs",
+      "target": "function:src-tauri/src/lib.rs:buffer_file_args",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/lib.rs",
+      "target": "function:src-tauri/src/lib.rs:run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src-tauri/src/lib.rs",
+      "target": "function:src-tauri/src/lib.rs:run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

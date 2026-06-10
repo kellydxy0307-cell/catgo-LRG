@@ -1,0 +1,534 @@
+{
+  "nodes": [
+    {
+      "id": "config:energy_diagram/energydiagram/SETTINGS.yaml",
+      "type": "config",
+      "name": "SETTINGS.yaml",
+      "filePath": "energy_diagram/energydiagram/SETTINGS.yaml",
+      "summary": "SETTINGS.yaml 是 CatGo 项目中的配置文件，使用 yaml，位于 energy_diagram/energydiagram/SETTINGS.yaml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "language": "yaml",
+      "languageNotes": "此节点以中文概述，保留必要的 yaml 技术术语。"
+    },
+    {
+      "id": "file:energy_diagram/examples/energy_info.xlsx",
+      "type": "file",
+      "name": "energy_info.xlsx",
+      "filePath": "energy_diagram/examples/energy_info.xlsx",
+      "summary": "energy_info.xlsx 是 CatGo 项目中的代码文件，使用 xlsx，位于 energy_diagram/examples/energy_info.xlsx，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "xlsx"
+      ],
+      "complexity": "simple",
+      "language": "xlsx",
+      "languageNotes": "此节点以中文概述，保留必要的 xlsx 技术术语。"
+    },
+    {
+      "id": "file:energy_diagram/examples/keyboard_demo.py",
+      "type": "file",
+      "name": "keyboard_demo.py",
+      "filePath": "energy_diagram/examples/keyboard_demo.py",
+      "summary": "keyboard_demo.py 是 CatGo 项目中的代码文件，使用 python，位于 energy_diagram/examples/keyboard_demo.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:energy_diagram/examples/save_poscar2db.py",
+      "type": "file",
+      "name": "save_poscar2db.py",
+      "filePath": "energy_diagram/examples/save_poscar2db.py",
+      "summary": "save_poscar2db.py 是 CatGo 项目中的代码文件，使用 python，位于 energy_diagram/examples/save_poscar2db.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:energy_diagram/examples/test.py",
+      "type": "file",
+      "name": "test.py",
+      "filePath": "energy_diagram/examples/test.py",
+      "summary": "test.py 是 CatGo 项目中的代码文件，使用 python，位于 energy_diagram/examples/test.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:energy_diagram/setup.py",
+      "type": "file",
+      "name": "setup.py",
+      "filePath": "energy_diagram/setup.py",
+      "summary": "setup.py 是 CatGo 项目中的代码文件，使用 python，位于 energy_diagram/setup.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:eslint.config.js",
+      "type": "file",
+      "name": "eslint.config.js",
+      "filePath": "eslint.config.js",
+      "summary": "eslint.config.js 是 CatGo 项目中的代码文件，使用 javascript，位于 eslint.config.js，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "javascript"
+      ],
+      "complexity": "simple",
+      "language": "javascript",
+      "languageNotes": "此节点以中文概述，保留必要的 javascript 技术术语。"
+    },
+    {
+      "id": "config:examples/plugins/charge-coloring/catgo-plugin.json",
+      "type": "config",
+      "name": "catgo-plugin.json",
+      "filePath": "examples/plugins/charge-coloring/catgo-plugin.json",
+      "summary": "catgo-plugin.json 是 CatGo 项目中的配置文件，使用 json，位于 examples/plugins/charge-coloring/catgo-plugin.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "config:examples/plugins/lennard-jones-calculator/catgo-plugin.json",
+      "type": "config",
+      "name": "catgo-plugin.json",
+      "filePath": "examples/plugins/lennard-jones-calculator/catgo-plugin.json",
+      "summary": "catgo-plugin.json 是 CatGo 项目中的配置文件，使用 json，位于 examples/plugins/lennard-jones-calculator/catgo-plugin.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:examples/plugins/lennard-jones-calculator/plugin.py",
+      "type": "file",
+      "name": "plugin.py",
+      "filePath": "examples/plugins/lennard-jones-calculator/plugin.py",
+      "summary": "plugin.py 是 CatGo 项目中的代码文件，使用 python，位于 examples/plugins/lennard-jones-calculator/plugin.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "document:examples/plugins/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "examples/plugins/README.md",
+      "summary": "README.md 是 CatGo 项目中的文档文件，使用 markdown，位于 examples/plugins/README.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "file:examples/quickbuild_demo.py",
+      "type": "file",
+      "name": "quickbuild_demo.py",
+      "filePath": "examples/quickbuild_demo.py",
+      "summary": "quickbuild_demo.py 是 CatGo 项目中的代码文件，使用 python，位于 examples/quickbuild_demo.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "config:extensions/catrender-wasm/Cargo.toml",
+      "type": "config",
+      "name": "Cargo.toml",
+      "filePath": "extensions/catrender-wasm/Cargo.toml",
+      "summary": "Cargo.toml 是 CatGo 项目中的配置文件，使用 toml，位于 extensions/catrender-wasm/Cargo.toml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "toml",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "toml",
+      "languageNotes": "此节点以中文概述，保留必要的 toml 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/bin/catrender.rs",
+      "type": "file",
+      "name": "catrender.rs",
+      "filePath": "extensions/catrender-wasm/src/bin/catrender.rs",
+      "summary": "catrender.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/bin/catrender.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/bonds.rs",
+      "type": "file",
+      "name": "bonds.rs",
+      "filePath": "extensions/catrender-wasm/src/bonds.rs",
+      "summary": "bonds.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/bonds.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/color.rs",
+      "type": "file",
+      "name": "color.rs",
+      "filePath": "extensions/catrender-wasm/src/color.rs",
+      "summary": "color.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/color.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/fog.rs",
+      "type": "file",
+      "name": "fog.rs",
+      "filePath": "extensions/catrender-wasm/src/fog.rs",
+      "summary": "fog.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/fog.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/geom.rs",
+      "type": "file",
+      "name": "geom.rs",
+      "filePath": "extensions/catrender-wasm/src/geom.rs",
+      "summary": "geom.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/geom.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/lib.rs",
+      "type": "file",
+      "name": "lib.rs",
+      "filePath": "extensions/catrender-wasm/src/lib.rs",
+      "summary": "lib.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/lib.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "前端",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/orient.rs",
+      "type": "file",
+      "name": "orient.rs",
+      "filePath": "extensions/catrender-wasm/src/orient.rs",
+      "summary": "orient.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/orient.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/palette.rs",
+      "type": "file",
+      "name": "palette.rs",
+      "filePath": "extensions/catrender-wasm/src/palette.rs",
+      "summary": "palette.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/palette.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/perceive.rs",
+      "type": "file",
+      "name": "perceive.rs",
+      "filePath": "extensions/catrender-wasm/src/perceive.rs",
+      "summary": "perceive.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/perceive.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/preset.rs",
+      "type": "file",
+      "name": "preset.rs",
+      "filePath": "extensions/catrender-wasm/src/preset.rs",
+      "summary": "preset.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/preset.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/svg.rs",
+      "type": "file",
+      "name": "svg.rs",
+      "filePath": "extensions/catrender-wasm/src/svg.rs",
+      "summary": "svg.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/svg.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/catrender-wasm/src/types.rs",
+      "type": "file",
+      "name": "types.rs",
+      "filePath": "extensions/catrender-wasm/src/types.rs",
+      "summary": "types.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/types.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:energy_diagram/examples/keyboard_demo.py",
+      "target": "file:energy_diagram/energydiagram/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:energy_diagram/examples/save_poscar2db.py",
+      "target": "file:energy_diagram/energydiagram/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:energy_diagram/examples/test.py",
+      "target": "file:energy_diagram/energydiagram/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/bonds.rs",
+      "target": "file:extensions/catrender-wasm/src/types.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/bonds.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/color.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/fog.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/geom.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/orient.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/palette.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/perceive.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/preset.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/svg.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/types.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/lib.rs",
+      "target": "file:extensions/catrender-wasm/src/vdw.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/preset.rs",
+      "target": "file:extensions/catrender-wasm/src/palette.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/svg.rs",
+      "target": "file:extensions/catrender-wasm/src/color.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/svg.rs",
+      "target": "file:extensions/catrender-wasm/src/geom.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/svg.rs",
+      "target": "file:extensions/catrender-wasm/src/orient.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/svg.rs",
+      "target": "file:extensions/catrender-wasm/src/palette.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/svg.rs",
+      "target": "file:extensions/catrender-wasm/src/preset.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/svg.rs",
+      "target": "file:extensions/catrender-wasm/src/types.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/catrender-wasm/src/svg.rs",
+      "target": "file:extensions/catrender-wasm/src/vdw.rs",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

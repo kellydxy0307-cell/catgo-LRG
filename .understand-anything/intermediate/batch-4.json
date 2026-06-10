@@ -1,0 +1,299 @@
+{
+  "nodes": [
+    {
+      "id": "config:.pnpm-approve-builds.yaml",
+      "type": "config",
+      "name": ".pnpm-approve-builds.yaml",
+      "filePath": ".pnpm-approve-builds.yaml",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 onlyBuiltDependencies。",
+      "tags": [
+        "配置",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "languageNotes": "yaml 文件，扫描到 1 行；结构抽取识别出 1 个章节/顶层键。"
+    },
+    {
+      "id": "config:.pre-commit-config.yaml",
+      "type": "config",
+      "name": ".pre-commit-config.yaml",
+      "filePath": ".pre-commit-config.yaml",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 default_stages、default_install_hook_types、repos。",
+      "tags": [
+        "配置",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "languageNotes": "yaml 文件，扫描到 71 行；结构抽取识别出 3 个章节/顶层键。"
+    },
+    {
+      "id": "document:CHANGELOG.md",
+      "type": "document",
+      "name": "CHANGELOG.md",
+      "filePath": "CHANGELOG.md",
+      "summary": "这份文档围绕版本变更记录展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Changelog、[1.1.4] - 2026-05-30、Added、Fixed。",
+      "tags": [
+        "文档",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "markdown 文件，扫描到 108 行；结构抽取识别出 21 个章节/顶层键。"
+    },
+    {
+      "id": "document:contributing.md",
+      "type": "document",
+      "name": "contributing.md",
+      "filePath": "contributing.md",
+      "summary": "这份文档围绕协作开发指南展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 CatGo Contributing Guide、1. Development Setup、2. Repository Layout、3. Tests & Checks。",
+      "tags": [
+        "文档",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "markdown 文件，扫描到 142 行；结构抽取识别出 10 个章节/顶层键。"
+    },
+    {
+      "id": "document:contributing.zh.md",
+      "type": "document",
+      "name": "contributing.zh.md",
+      "filePath": "contributing.zh.md",
+      "summary": "这份文档围绕协作开发指南展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 CatGo 协作开发指南、1. 开发环境、2. 仓库结构、3. 测试 & 检查。",
+      "tags": [
+        "文档",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "markdown 文件，扫描到 138 行；结构抽取识别出 10 个章节/顶层键。"
+    },
+    {
+      "id": "config:deno.json",
+      "type": "config",
+      "name": "deno.json",
+      "filePath": "deno.json",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 imports。",
+      "tags": [
+        "配置",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件，扫描到 10 行；结构抽取识别出 1 个章节/顶层键。"
+    },
+    {
+      "id": "config:deno.jsonc",
+      "type": "config",
+      "name": "deno.jsonc",
+      "filePath": "deno.jsonc",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 tasks、lock、imports、lint。",
+      "tags": [
+        "配置",
+        "jsonc"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "jsonc 文件，扫描到 106 行；结构抽取识别出 8 个章节/顶层键。"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 name、description、homepage、repository。",
+      "tags": [
+        "配置",
+        "json"
+      ],
+      "complexity": "complex",
+      "languageNotes": "json 文件，扫描到 256 行；结构抽取识别出 18 个章节/顶层键。"
+    },
+    {
+      "id": "config:pnpm-workspace.yaml",
+      "type": "config",
+      "name": "pnpm-workspace.yaml",
+      "filePath": "pnpm-workspace.yaml",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 packages、approveBuilds。",
+      "tags": [
+        "配置",
+        "yaml"
+      ],
+      "complexity": "simple",
+      "languageNotes": "yaml 文件，扫描到 3 行；结构抽取识别出 2 个章节/顶层键。"
+    },
+    {
+      "id": "document:readme.md",
+      "type": "document",
+      "name": "readme.md",
+      "filePath": "readme.md",
+      "summary": "这份文档围绕项目总览展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 🔗 Links、Community、✨ Features、🔧 Capabilities in detail。",
+      "tags": [
+        "文档",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 429 行；结构抽取识别出 34 个章节/顶层键。"
+    },
+    {
+      "id": "document:readme.zh.md",
+      "type": "document",
+      "name": "readme.zh.md",
+      "filePath": "readme.zh.md",
+      "summary": "这份文档围绕项目总览展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 🔗 链接、社区、✨ 主要功能、🔧 能力详解。",
+      "tags": [
+        "文档",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 416 行；结构抽取识别出 34 个章节/顶层键。"
+    },
+    {
+      "id": "config:tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "tsconfig.json",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 extends、compilerOptions、include、exclude。",
+      "tags": [
+        "配置",
+        "json"
+      ],
+      "complexity": "simple",
+      "languageNotes": "json 文件，扫描到 36 行；结构抽取识别出 4 个章节/顶层键。"
+    },
+    {
+      "id": "config:wrangler.app.toml",
+      "type": "config",
+      "name": "wrangler.app.toml",
+      "filePath": "wrangler.app.toml",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 assets。",
+      "tags": [
+        "配置",
+        "toml"
+      ],
+      "complexity": "simple",
+      "languageNotes": "toml 文件，扫描到 14 行；结构抽取识别出 1 个章节/顶层键。"
+    },
+    {
+      "id": "config:wrangler.docs.toml",
+      "type": "config",
+      "name": "wrangler.docs.toml",
+      "filePath": "wrangler.docs.toml",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 assets。",
+      "tags": [
+        "配置",
+        "toml"
+      ],
+      "complexity": "simple",
+      "languageNotes": "toml 文件，扫描到 12 行；结构抽取识别出 1 个章节/顶层键。"
+    },
+    {
+      "id": "config:wrangler.toml",
+      "type": "config",
+      "name": "wrangler.toml",
+      "filePath": "wrangler.toml",
+      "summary": "该配置文件定义项目支持资料相关的工具、依赖、构建或运行参数，影响项目的开发与发布行为。主要章节/键包括 assets。",
+      "tags": [
+        "配置",
+        "toml"
+      ],
+      "complexity": "simple",
+      "languageNotes": "toml 文件，扫描到 8 行；结构抽取识别出 1 个章节/顶层键。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:CHANGELOG.md",
+      "target": "document:contributing.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:contributing.md",
+      "target": "document:contributing.zh.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:contributing.zh.md",
+      "target": "document:readme.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:readme.md",
+      "target": "document:readme.zh.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "config:.pnpm-approve-builds.yaml",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:.pre-commit-config.yaml",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:deno.json",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:deno.jsonc",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:package.json",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:pnpm-workspace.yaml",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:tsconfig.json",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:wrangler.app.toml",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:wrangler.docs.toml",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:wrangler.toml",
+      "target": "document:CHANGELOG.md",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

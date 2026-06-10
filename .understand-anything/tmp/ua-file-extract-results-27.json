@@ -1,0 +1,320 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/tutorials/structures/building-slabs.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 104,
+      "nonEmptyLines": 64,
+      "sections": [
+        {
+          "heading": "Building Surface Slabs",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Opening the Slab Cutter",
+          "level": 2,
+          "line": 9
+        },
+        {
+          "heading": "Step 1: Set Miller Indices",
+          "level": 2,
+          "line": 17
+        },
+        {
+          "heading": "Step 2: Adjust Thickness and Vacuum",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Step 3: Preview the Cut",
+          "level": 2,
+          "line": 38
+        },
+        {
+          "heading": "Step 4: Apply the Slab",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Conventions",
+          "level": 2,
+          "line": 54
+        },
+        {
+          "heading": "After Cutting: Common Next Steps",
+          "level": 2,
+          "line": 60
+        },
+        {
+          "heading": "Add Vacuum",
+          "level": 3,
+          "line": 62
+        },
+        {
+          "heading": "Build a Supercell",
+          "level": 3,
+          "line": 66
+        },
+        {
+          "heading": "Find Adsorption Sites",
+          "level": 3,
+          "line": 70
+        },
+        {
+          "heading": "Freeze Bottom Layers",
+          "level": 3,
+          "line": 80
+        },
+        {
+          "heading": "Two Code Paths",
+          "level": 2,
+          "line": 84
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 95
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 15
+      }
+    },
+    {
+      "path": "docs/tutorials/structures/database-search.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 114,
+      "nonEmptyLines": 75,
+      "sections": [
+        {
+          "heading": "Searching Structure Databases",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "OPTIMADE Search",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Opening the Search",
+          "level": 3,
+          "line": 9
+        },
+        {
+          "heading": "Searching by Formula",
+          "level": 3,
+          "line": 13
+        },
+        {
+          "heading": "Searching by Elements",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "Using the Periodic Table",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "Choosing a Provider",
+          "level": 3,
+          "line": 33
+        },
+        {
+          "heading": "Materials Project Enrichment",
+          "level": 3,
+          "line": 42
+        },
+        {
+          "heading": "Importing a Structure",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "PubChem Search",
+          "level": 2,
+          "line": 60
+        },
+        {
+          "heading": "PubChem Search Details",
+          "level": 3,
+          "line": 64
+        },
+        {
+          "heading": "Searching",
+          "level": 3,
+          "line": 68
+        },
+        {
+          "heading": "Results",
+          "level": 3,
+          "line": 76
+        },
+        {
+          "heading": "Importing",
+          "level": 3,
+          "line": 85
+        },
+        {
+          "heading": "Key Differences",
+          "level": 2,
+          "line": 89
+        },
+        {
+          "heading": "Server Requirement",
+          "level": 2,
+          "line": 100
+        },
+        {
+          "heading": "Tips",
+          "level": 2,
+          "line": 109
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 17
+      }
+    },
+    {
+      "path": "docs/tutorials/structures/optimization.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 218,
+      "nonEmptyLines": 151,
+      "sections": [
+        {
+          "heading": "Structure Optimization",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Local Optimization (UFF)",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Steps",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "Server Optimization (ML Potentials)",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "Server Setup",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "Available Calculators",
+          "level": 3,
+          "line": 55
+        },
+        {
+          "heading": "xTB Methods",
+          "level": 3,
+          "line": 65
+        },
+        {
+          "heading": "MACE Models",
+          "level": 3,
+          "line": 77
+        },
+        {
+          "heading": "Optimization Steps",
+          "level": 3,
+          "line": 89
+        },
+        {
+          "heading": "Real-Time Progress",
+          "level": 2,
+          "line": 106
+        },
+        {
+          "heading": "Selective Dynamics (Freezing Atoms)",
+          "level": 2,
+          "line": 118
+        },
+        {
+          "heading": "Fragment Extraction",
+          "level": 3,
+          "line": 132
+        },
+        {
+          "heading": "Transition State Search with Sella",
+          "level": 2,
+          "line": 138
+        },
+        {
+          "heading": "Installing Sella",
+          "level": 3,
+          "line": 142
+        },
+        {
+          "heading": "Finding a Transition State",
+          "level": 3,
+          "line": 153
+        },
+        {
+          "heading": "Tracing the Reaction Path (IRC)",
+          "level": 3,
+          "line": 167
+        },
+        {
+          "heading": "Sella Parameters",
+          "level": 3,
+          "line": 178
+        },
+        {
+          "heading": "Exporting Results",
+          "level": 2,
+          "line": 183
+        },
+        {
+          "heading": "Cancellation",
+          "level": 2,
+          "line": 192
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 196
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 21
+      }
+    }
+  ]
+}

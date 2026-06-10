@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "crates/catgo-graph/src/tools/native/mod.rs",
+      "language": "rust",
+      "sizeLines": 47,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/tools/native/strain_deform.rs",
+      "language": "rust",
+      "sizeLines": 255,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/tools/native/structure_input.rs",
+      "language": "rust",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/tools/native/structure.rs",
+      "language": "rust",
+      "sizeLines": 440,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/tools/native/supercell_gen.rs",
+      "language": "rust",
+      "sizeLines": 198,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/tools/registry.rs",
+      "language": "rust",
+      "sizeLines": 80,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/tools/stats.rs",
+      "language": "rust",
+      "sizeLines": 258,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/tools/traits.rs",
+      "language": "rust",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/tools/vasp.rs",
+      "language": "rust",
+      "sizeLines": 395,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/helpers/mod.rs",
+      "language": "rust",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/integration.rs",
+      "language": "rust",
+      "sizeLines": 2632,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/rewrite_edge_cases.rs",
+      "language": "rust",
+      "sizeLines": 423,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/rewrite_tests.rs",
+      "language": "rust",
+      "sizeLines": 1137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/stabilization_tests.rs",
+      "language": "rust",
+      "sizeLines": 322,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/subgraph_edge_cases.rs",
+      "language": "rust",
+      "sizeLines": 674,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/subgraph_monitoring_tests.rs",
+      "language": "rust",
+      "sizeLines": 527,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/subgraph_tests.rs",
+      "language": "rust",
+      "sizeLines": 983,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/subgraph_validation_tests.rs",
+      "language": "rust",
+      "sizeLines": 421,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/tests/subgraph_versioning_tests.rs",
+      "language": "rust",
+      "sizeLines": 334,
+      "fileCategory": "code"
+    },
+    {
+      "path": "deploy/android/README.md",
+      "language": "markdown",
+      "sizeLines": 276,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "deploy/hpc/bundle/build.sh",
+      "language": "shell",
+      "sizeLines": 101,
+      "fileCategory": "script"
+    },
+    {
+      "path": "deploy/hpc/bundle/catgo-expanse.def",
+      "language": "def",
+      "sizeLines": 106,
+      "fileCategory": "code"
+    },
+    {
+      "path": "deploy/hpc/bundle/catgo-job.sh",
+      "language": "shell",
+      "sizeLines": 170,
+      "fileCategory": "script"
+    },
+    {
+      "path": "deploy/hpc/catgo.def",
+      "language": "def",
+      "sizeLines": 334,
+      "fileCategory": "code"
+    },
+    {
+      "path": "deploy/hpc/conda/catgo-job.sh",
+      "language": "shell",
+      "sizeLines": 116,
+      "fileCategory": "script"
+    }
+  ],
+  "batchImportData": {
+    "crates/catgo-graph/src/tools/native/mod.rs": [],
+    "crates/catgo-graph/src/tools/native/strain_deform.rs": [],
+    "crates/catgo-graph/src/tools/native/structure_input.rs": [],
+    "crates/catgo-graph/src/tools/native/structure.rs": [],
+    "crates/catgo-graph/src/tools/native/supercell_gen.rs": [],
+    "crates/catgo-graph/src/tools/registry.rs": [],
+    "crates/catgo-graph/src/tools/stats.rs": [],
+    "crates/catgo-graph/src/tools/traits.rs": [],
+    "crates/catgo-graph/src/tools/vasp.rs": [],
+    "crates/catgo-graph/tests/helpers/mod.rs": [],
+    "crates/catgo-graph/tests/integration.rs": [],
+    "crates/catgo-graph/tests/rewrite_edge_cases.rs": [],
+    "crates/catgo-graph/tests/rewrite_tests.rs": [],
+    "crates/catgo-graph/tests/stabilization_tests.rs": [],
+    "crates/catgo-graph/tests/subgraph_edge_cases.rs": [],
+    "crates/catgo-graph/tests/subgraph_monitoring_tests.rs": [],
+    "crates/catgo-graph/tests/subgraph_tests.rs": [],
+    "crates/catgo-graph/tests/subgraph_validation_tests.rs": [],
+    "crates/catgo-graph/tests/subgraph_versioning_tests.rs": [],
+    "deploy/android/README.md": [],
+    "deploy/hpc/bundle/build.sh": [],
+    "deploy/hpc/bundle/catgo-expanse.def": [],
+    "deploy/hpc/bundle/catgo-job.sh": [],
+    "deploy/hpc/catgo.def": [],
+    "deploy/hpc/conda/catgo-job.sh": []
+  }
+}

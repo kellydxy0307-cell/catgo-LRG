@@ -1,0 +1,52 @@
+{
+    "projectRoot":  "D:\\catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "docs/modules/core/bonding.md",
+                           "language":  "markdown",
+                           "sizeLines":  103,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/modules/core/file-io.md",
+                           "language":  "markdown",
+                           "sizeLines":  114,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/modules/core/lattice-cell.md",
+                           "language":  "markdown",
+                           "sizeLines":  96,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/modules/core/settings.md",
+                           "language":  "markdown",
+                           "sizeLines":  131,
+                           "fileCategory":  "docs"
+                       },
+                       {
+                           "path":  "docs/modules/core/structure-viewer.md",
+                           "language":  "markdown",
+                           "sizeLines":  160,
+                           "fileCategory":  "docs"
+                       }
+                   ],
+    "batchImportData":  {
+                            "docs/modules/core/bonding.md":  [
+
+                                                             ],
+                            "docs/modules/core/file-io.md":  [
+
+                                                             ],
+                            "docs/modules/core/lattice-cell.md":  [
+
+                                                                  ],
+                            "docs/modules/core/settings.md":  [
+
+                                                              ],
+                            "docs/modules/core/structure-viewer.md":  [
+
+                                                                      ]
+                        }
+}

@@ -1,0 +1,701 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/workflow/IrcPathPlot.svelte",
+      "type": "file",
+      "name": "IrcPathPlot.svelte",
+      "filePath": "src/lib/workflow/IrcPathPlot.svelte",
+      "summary": "IrcPathPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/IrcPathPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/job-script-store.svelte.ts",
+      "type": "file",
+      "name": "job-script-store.svelte.ts",
+      "filePath": "src/lib/workflow/job-script-store.svelte.ts",
+      "summary": "job-script-store.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/job-script-store.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/JobScriptWorkplace.svelte",
+      "type": "file",
+      "name": "JobScriptWorkplace.svelte",
+      "filePath": "src/lib/workflow/JobScriptWorkplace.svelte",
+      "summary": "JobScriptWorkplace.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/JobScriptWorkplace.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/monitor-series.ts",
+      "type": "file",
+      "name": "monitor-series.ts",
+      "filePath": "src/lib/workflow/monitor-series.ts",
+      "summary": "monitor-series.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/monitor-series.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/MultiStructurePreview.svelte",
+      "type": "file",
+      "name": "MultiStructurePreview.svelte",
+      "filePath": "src/lib/workflow/MultiStructurePreview.svelte",
+      "summary": "MultiStructurePreview.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/MultiStructurePreview.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/NEBPathPlot.svelte",
+      "type": "file",
+      "name": "NEBPathPlot.svelte",
+      "filePath": "src/lib/workflow/NEBPathPlot.svelte",
+      "summary": "NEBPathPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/NEBPathPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-definitions.ts",
+      "type": "file",
+      "name": "node-definitions.ts",
+      "filePath": "src/lib/workflow/node-definitions.ts",
+      "summary": "node-definitions.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-definitions.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/adsorption-energy.ts",
+      "type": "file",
+      "name": "adsorption-energy.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/adsorption-energy.ts",
+      "summary": "adsorption-energy.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/adsorption-energy.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/charge-analysis.ts",
+      "type": "file",
+      "name": "charge-analysis.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/charge-analysis.ts",
+      "summary": "charge-analysis.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/charge-analysis.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/cohp-analysis.ts",
+      "type": "file",
+      "name": "cohp-analysis.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/cohp-analysis.ts",
+      "summary": "cohp-analysis.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/cohp-analysis.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/coverage-analysis.ts",
+      "type": "file",
+      "name": "coverage-analysis.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/coverage-analysis.ts",
+      "summary": "coverage-analysis.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/coverage-analysis.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/dos-analysis.ts",
+      "type": "file",
+      "name": "dos-analysis.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/dos-analysis.ts",
+      "summary": "dos-analysis.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/dos-analysis.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/elastic-analysis.ts",
+      "type": "file",
+      "name": "elastic-analysis.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/elastic-analysis.ts",
+      "summary": "elastic-analysis.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/elastic-analysis.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/electronic.ts",
+      "type": "file",
+      "name": "electronic.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/electronic.ts",
+      "summary": "electronic.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/electronic.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/eos-analysis.ts",
+      "type": "file",
+      "name": "eos-analysis.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/eos-analysis.ts",
+      "summary": "eos-analysis.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/eos-analysis.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/free-energy.ts",
+      "type": "file",
+      "name": "free-energy.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/free-energy.ts",
+      "summary": "free-energy.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/free-energy.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/gibbs-energy.ts",
+      "type": "file",
+      "name": "gibbs-energy.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/gibbs-energy.ts",
+      "summary": "gibbs-energy.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/gibbs-energy.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/index.ts",
+      "summary": "index.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/index.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/md-analysis.ts",
+      "type": "file",
+      "name": "md-analysis.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/md-analysis.ts",
+      "summary": "md-analysis.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/md-analysis.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/phonon-analysis.ts",
+      "type": "file",
+      "name": "phonon-analysis.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/phonon-analysis.ts",
+      "summary": "phonon-analysis.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/phonon-analysis.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/surface-energy.ts",
+      "type": "file",
+      "name": "surface-energy.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/surface-energy.ts",
+      "summary": "surface-energy.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/surface-energy.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/analysis/wulff-construction.ts",
+      "type": "file",
+      "name": "wulff-construction.ts",
+      "filePath": "src/lib/workflow/node-defs/analysis/wulff-construction.ts",
+      "summary": "wulff-construction.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/analysis/wulff-construction.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/calculation.ts",
+      "type": "file",
+      "name": "calculation.ts",
+      "filePath": "src/lib/workflow/node-defs/calculation.ts",
+      "summary": "calculation.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/calculation.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/calculation/cell-opt.ts",
+      "type": "file",
+      "name": "cell-opt.ts",
+      "filePath": "src/lib/workflow/node-defs/calculation/cell-opt.ts",
+      "summary": "cell-opt.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/calculation/cell-opt.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/node-defs/calculation/freq.ts",
+      "type": "file",
+      "name": "freq.ts",
+      "filePath": "src/lib/workflow/node-defs/calculation/freq.ts",
+      "summary": "freq.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/node-defs/calculation/freq.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/workflow/job-script-store.svelte.ts",
+      "target": "file:src/lib/api/config.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/job-script-store.svelte.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/monitor-series.ts",
+      "target": "file:src/lib/api/workflow.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/monitor-series.ts",
+      "target": "file:src/lib/workflow/plotly-utils.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-definitions.ts",
+      "target": "file:src/lib/i18n/index.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-definitions.ts",
+      "target": "file:src/lib/workflow/node-defs/calculation/md-minimize.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-definitions.ts",
+      "target": "file:src/lib/workflow/node-defs/calculation/uvvis.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-definitions.ts",
+      "target": "file:src/lib/workflow/node-defs/utility/adsorbate-place.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-definitions.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/adsorption-energy.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/charge-analysis.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/cohp-analysis.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/coverage-analysis.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/dos-analysis.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/elastic-analysis.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/electronic.ts",
+      "target": "file:src/lib/workflow/node-defs/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/electronic.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/eos-analysis.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/free-energy.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/gibbs-energy.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/adsorption-energy.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/charge-analysis.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/cohp-analysis.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/coverage-analysis.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/dos-analysis.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/elastic-analysis.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/electronic.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/eos-analysis.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/free-energy.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/gibbs-energy.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/md-analysis.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/phonon-analysis.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/surface-energy.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/node-defs/analysis/wulff-construction.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/index.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/md-analysis.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/phonon-analysis.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/surface-energy.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/analysis/wulff-construction.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/calculation.ts",
+      "target": "file:src/lib/workflow/node-defs/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/calculation.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/calculation/cell-opt.ts",
+      "target": "file:src/lib/workflow/node-defs/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/calculation/cell-opt.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/calculation/freq.ts",
+      "target": "file:src/lib/workflow/node-defs/common.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:src/lib/workflow/node-defs/calculation/freq.ts",
+      "target": "file:src/lib/workflow/workflow-types.ts",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

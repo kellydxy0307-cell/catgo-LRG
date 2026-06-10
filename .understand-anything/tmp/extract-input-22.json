@@ -1,0 +1,112 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "docs/superpowers/plans/2026-05-17-catbot-slash-commands.md",
+      "language": "markdown",
+      "sizeLines": 1015,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-18-catrender-report.md",
+      "language": "markdown",
+      "sizeLines": 401,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-18-catrender.md",
+      "language": "markdown",
+      "sizeLines": 1628,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-19-catgo-cli-analyze.md",
+      "language": "markdown",
+      "sizeLines": 1678,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-19-catgo-cli-hpc-submit.md",
+      "language": "markdown",
+      "sizeLines": 245,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-19-catgo-cli-ir-spectrum.md",
+      "language": "markdown",
+      "sizeLines": 200,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-19-catgo-cli-p1.md",
+      "language": "markdown",
+      "sizeLines": 1466,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-19-catgo-cli-pdos-groups.md",
+      "language": "markdown",
+      "sizeLines": 122,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-19-catgo-cli-viewer-sync.md",
+      "language": "markdown",
+      "sizeLines": 1168,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-21-catrender-ob-bond-perception.md",
+      "language": "markdown",
+      "sizeLines": 1289,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-21-selected-atom-rotation-fixed-screen-axes.md",
+      "language": "markdown",
+      "sizeLines": 608,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-23-webgpu-large-trajectory-bonds.md",
+      "language": "markdown",
+      "sizeLines": 1082,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-25-reticular-mof-builder.md",
+      "language": "markdown",
+      "sizeLines": 1654,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-26-catbot-client-side-tools.md",
+      "language": "markdown",
+      "sizeLines": 1351,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-05-26-mof-search.md",
+      "language": "markdown",
+      "sizeLines": 882,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "docs/superpowers/plans/2026-05-17-catbot-slash-commands.md": [],
+    "docs/superpowers/plans/2026-05-18-catrender-report.md": [],
+    "docs/superpowers/plans/2026-05-18-catrender.md": [],
+    "docs/superpowers/plans/2026-05-19-catgo-cli-analyze.md": [],
+    "docs/superpowers/plans/2026-05-19-catgo-cli-hpc-submit.md": [],
+    "docs/superpowers/plans/2026-05-19-catgo-cli-ir-spectrum.md": [],
+    "docs/superpowers/plans/2026-05-19-catgo-cli-p1.md": [],
+    "docs/superpowers/plans/2026-05-19-catgo-cli-pdos-groups.md": [],
+    "docs/superpowers/plans/2026-05-19-catgo-cli-viewer-sync.md": [],
+    "docs/superpowers/plans/2026-05-21-catrender-ob-bond-perception.md": [],
+    "docs/superpowers/plans/2026-05-21-selected-atom-rotation-fixed-screen-axes.md": [],
+    "docs/superpowers/plans/2026-05-23-webgpu-large-trajectory-bonds.md": [],
+    "docs/superpowers/plans/2026-05-25-reticular-mof-builder.md": [],
+    "docs/superpowers/plans/2026-05-26-catbot-client-side-tools.md": [],
+    "docs/superpowers/plans/2026-05-26-mof-search.md": []
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "server/catgo/workflow/skills/orca/freq/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 175,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/orca/neb_ts/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 188,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/orca/opt/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 194,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/orca/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 148,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/qe/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 140,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/siesta/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 140,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 180,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/adsorbate/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 352,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/atom_ops/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 98,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/cluster_ops/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 142,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/defect/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 193,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/doping/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 241,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/fetch/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 173,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/heterostructure/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 225,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/intercalation/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 174,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/moire/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 154,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/nanotube/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 149,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 146,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/slab/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 247,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/strain/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 188,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/structure/substitution/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 165,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/troubleshooting/cluster_config_test/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 85,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/troubleshooting/convergence_issues/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 207,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/troubleshooting/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 145,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/troubleshooting/vasp_errors/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 202,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "server/catgo/workflow/skills/orca/freq/SKILL.md": [],
+    "server/catgo/workflow/skills/orca/neb_ts/SKILL.md": [],
+    "server/catgo/workflow/skills/orca/opt/SKILL.md": [],
+    "server/catgo/workflow/skills/orca/SKILL.md": [],
+    "server/catgo/workflow/skills/qe/SKILL.md": [],
+    "server/catgo/workflow/skills/siesta/SKILL.md": [],
+    "server/catgo/workflow/skills/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/adsorbate/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/atom_ops/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/cluster_ops/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/defect/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/doping/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/fetch/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/heterostructure/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/intercalation/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/moire/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/nanotube/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/slab/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/strain/SKILL.md": [],
+    "server/catgo/workflow/skills/structure/substitution/SKILL.md": [],
+    "server/catgo/workflow/skills/troubleshooting/cluster_config_test/SKILL.md": [],
+    "server/catgo/workflow/skills/troubleshooting/convergence_issues/SKILL.md": [],
+    "server/catgo/workflow/skills/troubleshooting/SKILL.md": [],
+    "server/catgo/workflow/skills/troubleshooting/vasp_errors/SKILL.md": []
+  }
+}

@@ -1,0 +1,569 @@
+{
+  "nodes": [
+    {
+      "id": "file:extensions/catrender-wasm/src/vdw.rs",
+      "type": "file",
+      "name": "vdw.rs",
+      "filePath": "extensions/catrender-wasm/src/vdw.rs",
+      "summary": "vdw.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/catrender-wasm/src/vdw.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "config:extensions/chgdiff-wasm/Cargo.toml",
+      "type": "config",
+      "name": "Cargo.toml",
+      "filePath": "extensions/chgdiff-wasm/Cargo.toml",
+      "summary": "Cargo.toml 是 CatGo 项目中的配置文件，使用 toml，位于 extensions/chgdiff-wasm/Cargo.toml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "toml",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "toml",
+      "languageNotes": "此节点以中文概述，保留必要的 toml 技术术语。"
+    },
+    {
+      "id": "file:extensions/chgdiff-wasm/src/lib.rs",
+      "type": "file",
+      "name": "lib.rs",
+      "filePath": "extensions/chgdiff-wasm/src/lib.rs",
+      "summary": "lib.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/chgdiff-wasm/src/lib.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "前端",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/cohp-analysis/catgo_cohp/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "extensions/cohp-analysis/catgo_cohp/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/cohp-analysis/catgo_cohp/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:extensions/cohp-analysis/catgo_cohp/analysis.py",
+      "type": "file",
+      "name": "analysis.py",
+      "filePath": "extensions/cohp-analysis/catgo_cohp/analysis.py",
+      "summary": "analysis.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/cohp-analysis/catgo_cohp/analysis.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:extensions/cohp-analysis/catgo_cohp/io.py",
+      "type": "file",
+      "name": "io.py",
+      "filePath": "extensions/cohp-analysis/catgo_cohp/io.py",
+      "summary": "io.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/cohp-analysis/catgo_cohp/io.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "document:extensions/cohp-analysis/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "extensions/cohp-analysis/README.md",
+      "summary": "README.md 是 CatGo 项目中的文档文件，使用 markdown，位于 extensions/cohp-analysis/README.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "file:extensions/dos-analysis/catgo_dos/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "extensions/dos-analysis/catgo_dos/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/dos-analysis/catgo_dos/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:extensions/dos-analysis/catgo_dos/dband.py",
+      "type": "file",
+      "name": "dband.py",
+      "filePath": "extensions/dos-analysis/catgo_dos/dband.py",
+      "summary": "dband.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/dos-analysis/catgo_dos/dband.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:extensions/dos-analysis/catgo_dos/io.py",
+      "type": "file",
+      "name": "io.py",
+      "filePath": "extensions/dos-analysis/catgo_dos/io.py",
+      "summary": "io.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/dos-analysis/catgo_dos/io.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:extensions/dos-analysis/catgo_dos/orbital.py",
+      "type": "file",
+      "name": "orbital.py",
+      "filePath": "extensions/dos-analysis/catgo_dos/orbital.py",
+      "summary": "orbital.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/dos-analysis/catgo_dos/orbital.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:extensions/dos-analysis/catgo_dos/pdos.py",
+      "type": "file",
+      "name": "pdos.py",
+      "filePath": "extensions/dos-analysis/catgo_dos/pdos.py",
+      "summary": "pdos.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/dos-analysis/catgo_dos/pdos.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:extensions/dos-analysis/catgo_dos/selection.py",
+      "type": "file",
+      "name": "selection.py",
+      "filePath": "extensions/dos-analysis/catgo_dos/selection.py",
+      "summary": "selection.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/dos-analysis/catgo_dos/selection.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "config:extensions/dos-analysis/pyproject.toml",
+      "type": "config",
+      "name": "pyproject.toml",
+      "filePath": "extensions/dos-analysis/pyproject.toml",
+      "summary": "pyproject.toml 是 CatGo 项目中的配置文件，使用 toml，位于 extensions/dos-analysis/pyproject.toml，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "toml",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "toml",
+      "languageNotes": "此节点以中文概述，保留必要的 toml 技术术语。"
+    },
+    {
+      "id": "document:extensions/dos-analysis/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "extensions/dos-analysis/README.md",
+      "summary": "README.md 是 CatGo 项目中的文档文件，使用 markdown，位于 extensions/dos-analysis/README.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "config:extensions/rust-wasm/package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "extensions/rust-wasm/package.json",
+      "summary": "package.json 是 CatGo 项目中的配置文件，使用 json，位于 extensions/rust-wasm/package.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/benches/matcher_bench.rs",
+      "type": "file",
+      "name": "matcher_bench.rs",
+      "filePath": "extensions/rust/benches/matcher_bench.rs",
+      "summary": "matcher_bench.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/benches/matcher_bench.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/python/ferrox/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "extensions/rust/python/ferrox/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 extensions/rust/python/ferrox/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/adsorbate.rs",
+      "type": "file",
+      "name": "adsorbate.rs",
+      "filePath": "extensions/rust/src/adsorbate.rs",
+      "summary": "adsorbate.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/adsorbate.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/algorithms/enumerate.rs",
+      "type": "file",
+      "name": "enumerate.rs",
+      "filePath": "extensions/rust/src/algorithms/enumerate.rs",
+      "summary": "enumerate.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/algorithms/enumerate.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/algorithms/ewald.rs",
+      "type": "file",
+      "name": "ewald.rs",
+      "filePath": "extensions/rust/src/algorithms/ewald.rs",
+      "summary": "ewald.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/algorithms/ewald.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/algorithms/mod.rs",
+      "type": "file",
+      "name": "mod.rs",
+      "filePath": "extensions/rust/src/algorithms/mod.rs",
+      "summary": "mod.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/algorithms/mod.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/alpha_shape.rs",
+      "type": "file",
+      "name": "alpha_shape.rs",
+      "filePath": "extensions/rust/src/alpha_shape.rs",
+      "summary": "alpha_shape.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/alpha_shape.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    },
+    {
+      "id": "config:extensions/rust/src/atomic_scattering_params.json",
+      "type": "config",
+      "name": "atomic_scattering_params.json",
+      "filePath": "extensions/rust/src/atomic_scattering_params.json",
+      "summary": "atomic_scattering_params.json 是 CatGo 项目中的配置文件，使用 json，位于 extensions/rust/src/atomic_scattering_params.json，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "config",
+        "json",
+        "桌面集成"
+      ],
+      "complexity": "simple",
+      "language": "json",
+      "languageNotes": "此节点以中文概述，保留必要的 json 技术术语。"
+    },
+    {
+      "id": "file:extensions/rust/src/batch.rs",
+      "type": "file",
+      "name": "batch.rs",
+      "filePath": "extensions/rust/src/batch.rs",
+      "summary": "batch.rs 是 CatGo 项目中的代码文件，使用 rust，位于 extensions/rust/src/batch.rs，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "rust",
+        "桌面集成"
+      ],
+      "complexity": "complex",
+      "language": "rust",
+      "languageNotes": "此节点以中文概述，保留必要的 rust 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:extensions/cohp-analysis/catgo_cohp/__init__.py",
+      "target": "file:extensions/cohp-analysis/catgo_cohp/analysis.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/cohp-analysis/catgo_cohp/__init__.py",
+      "target": "file:extensions/cohp-analysis/catgo_cohp/io.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/cohp-analysis/catgo_cohp/analysis.py",
+      "target": "file:extensions/cohp-analysis/catgo_cohp/io.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/dos-analysis/catgo_dos/__init__.py",
+      "target": "file:extensions/dos-analysis/catgo_dos/dband.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/dos-analysis/catgo_dos/__init__.py",
+      "target": "file:extensions/dos-analysis/catgo_dos/io.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/dos-analysis/catgo_dos/__init__.py",
+      "target": "file:extensions/dos-analysis/catgo_dos/orbital.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/dos-analysis/catgo_dos/__init__.py",
+      "target": "file:extensions/dos-analysis/catgo_dos/pdos.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/dos-analysis/catgo_dos/__init__.py",
+      "target": "file:extensions/dos-analysis/catgo_dos/selection.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/dos-analysis/catgo_dos/dband.py",
+      "target": "file:extensions/dos-analysis/catgo_dos/io.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/dos-analysis/catgo_dos/dband.py",
+      "target": "file:extensions/dos-analysis/catgo_dos/orbital.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/dos-analysis/catgo_dos/pdos.py",
+      "target": "file:extensions/dos-analysis/catgo_dos/io.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/dos-analysis/catgo_dos/pdos.py",
+      "target": "file:extensions/dos-analysis/catgo_dos/orbital.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/adsorbate.rs",
+      "target": "file:extensions/rust/src/element.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/adsorbate.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/algorithms/enumerate.rs",
+      "target": "file:extensions/rust/src/error.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/algorithms/enumerate.rs",
+      "target": "file:extensions/rust/src/species.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/algorithms/enumerate.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/algorithms/enumerate.rs",
+      "target": "file:extensions/rust/src/transformations/mod.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/algorithms/ewald.rs",
+      "target": "file:extensions/rust/src/error.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/algorithms/ewald.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/algorithms/mod.rs",
+      "target": "file:extensions/rust/src/algorithms/enumerate.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/algorithms/mod.rs",
+      "target": "file:extensions/rust/src/algorithms/ewald.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/alpha_shape.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/batch.rs",
+      "target": "file:extensions/rust/src/error.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/batch.rs",
+      "target": "file:extensions/rust/src/io.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/batch.rs",
+      "target": "file:extensions/rust/src/structure_matcher.rs",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:extensions/rust/src/batch.rs",
+      "target": "file:extensions/rust/src/structure.rs",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

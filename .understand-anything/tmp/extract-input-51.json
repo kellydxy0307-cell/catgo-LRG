@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "desktop/settings.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/sidebar-data.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/sidebar-utils.ts",
+      "language": "typescript",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/Sidebar.svelte",
+      "language": "svelte",
+      "sizeLines": 2777,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/sidebar/cwd-sync.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 39,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/sidebar/fs-browser.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 334,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/sidebar/hpc-browser.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 337,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/sidebar/rename-save-dialogs.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/sidebar/sidebar-context-menus.ts",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/state/export-state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/state/index.ts",
+      "language": "typescript",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/state/modal-state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/state/sidebar-state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/state/terminal-state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/StructureLibrary.svelte",
+      "language": "svelte",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/svelte.config.js",
+      "language": "javascript",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/TabBar.svelte",
+      "language": "svelte",
+      "sizeLines": 505,
+      "fileCategory": "code"
+    },
+    {
+      "path": "desktop/tsconfig.json",
+      "language": "json",
+      "sizeLines": 39,
+      "fileCategory": "config"
+    },
+    {
+      "path": "desktop/WorkflowView.svelte",
+      "language": "svelte",
+      "sizeLines": 951,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docker/Caddyfile",
+      "language": "unknown",
+      "sizeLines": 25,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docker/start.sh",
+      "language": "shell",
+      "sizeLines": 33,
+      "fileCategory": "script"
+    },
+    {
+      "path": "docs/.vitepress/config.ts",
+      "language": "typescript",
+      "sizeLines": 463,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docs/.vitepress/theme/custom.css",
+      "language": "css",
+      "sizeLines": 200,
+      "fileCategory": "markup"
+    },
+    {
+      "path": "docs/.vitepress/theme/index.ts",
+      "language": "typescript",
+      "sizeLines": 8,
+      "fileCategory": "code"
+    },
+    {
+      "path": "docs/modules/dynamics/optimization.md",
+      "language": "markdown",
+      "sizeLines": 164,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "desktop/settings.ts": [],
+    "desktop/sidebar-data.ts": [],
+    "desktop/sidebar-utils.ts": [],
+    "desktop/Sidebar.svelte": [],
+    "desktop/sidebar/cwd-sync.svelte.ts": [],
+    "desktop/sidebar/fs-browser.svelte.ts": [],
+    "desktop/sidebar/hpc-browser.svelte.ts": [],
+    "desktop/sidebar/rename-save-dialogs.svelte.ts": [],
+    "desktop/sidebar/sidebar-context-menus.ts": [],
+    "desktop/state/export-state.svelte.ts": [],
+    "desktop/state/index.ts": [],
+    "desktop/state/modal-state.svelte.ts": [],
+    "desktop/state/sidebar-state.svelte.ts": [],
+    "desktop/state/terminal-state.svelte.ts": [],
+    "desktop/StructureLibrary.svelte": [],
+    "desktop/svelte.config.js": [],
+    "desktop/TabBar.svelte": [],
+    "desktop/tsconfig.json": [],
+    "desktop/WorkflowView.svelte": [],
+    "docker/Caddyfile": [],
+    "docker/start.sh": [],
+    "docs/.vitepress/config.ts": [],
+    "docs/.vitepress/theme/custom.css": [],
+    "docs/.vitepress/theme/index.ts": [],
+    "docs/modules/dynamics/optimization.md": []
+  }
+}

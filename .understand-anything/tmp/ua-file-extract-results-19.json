@@ -1,0 +1,387 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/modules/md-analysis/clustering.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 52,
+      "nonEmptyLines": 29,
+      "sections": [
+        {
+          "heading": "Clustering & PCA",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "MdClusteringPanel",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "Algorithms",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "K-Means",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "DBSCAN",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "Hierarchical",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "PCA",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "Principal Component Analysis",
+          "level": 3,
+          "line": 37
+        },
+        {
+          "heading": "Visualization",
+          "level": 3,
+          "line": 41
+        },
+        {
+          "heading": "Server API",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 49
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "docs/modules/md-analysis/density-profile.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 42,
+      "nonEmptyLines": 24,
+      "sections": [
+        {
+          "heading": "Density Profile",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "MdDensityPanel",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "Features",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Axis Selection",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Element Filtering",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "Multi-Frame Averaging",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Server API",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 39
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "docs/modules/md-analysis/dynamics.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 48,
+      "nonEmptyLines": 28,
+      "sections": [
+        {
+          "heading": "Dynamics (RMSD/RMSF)",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "MdDynamicsPanel",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "MdAnalysisPane",
+          "level": 3,
+          "line": 21
+        },
+        {
+          "heading": "Metrics",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "RMSD",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "RMSF",
+          "level": 3,
+          "line": 31
+        },
+        {
+          "heading": "Server API",
+          "level": 2,
+          "line": 35
+        },
+        {
+          "heading": "Parameters",
+          "level": 2,
+          "line": 39
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 45
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "docs/modules/md-analysis/hbonds.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 54,
+      "nonEmptyLines": 31,
+      "sections": [
+        {
+          "heading": "Hydrogen Bonds",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "MdHbondsPanel",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "Detection Criteria",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Geometric Parameters",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Element Configuration",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "Features",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Time Series",
+          "level": 3,
+          "line": 35
+        },
+        {
+          "heading": "Pair Statistics",
+          "level": 3,
+          "line": 39
+        },
+        {
+          "heading": "Lifetime Analysis",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "Server API",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "docs/modules/md-analysis/rdf.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 55,
+      "nonEmptyLines": 32,
+      "sections": [
+        {
+          "heading": "Radial Distribution Function",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Overview",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Components",
+          "level": 2,
+          "line": 15
+        },
+        {
+          "heading": "RdfPlot",
+          "level": 3,
+          "line": 17
+        },
+        {
+          "heading": "Computation",
+          "level": 2,
+          "line": 21
+        },
+        {
+          "heading": "Client-Side (calc-rdf.ts)",
+          "level": 3,
+          "line": 23
+        },
+        {
+          "heading": "Server-Side",
+          "level": 3,
+          "line": 27
+        },
+        {
+          "heading": "Parameters",
+          "level": 2,
+          "line": 31
+        },
+        {
+          "heading": "Features",
+          "level": 2,
+          "line": 38
+        },
+        {
+          "heading": "Multi-Frame Averaging",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Coordination Number",
+          "level": 3,
+          "line": 44
+        },
+        {
+          "heading": "Peak Analysis",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    }
+  ]
+}

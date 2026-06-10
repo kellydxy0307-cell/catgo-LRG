@@ -1,0 +1,34 @@
+{
+    "projectRoot":  "D:/catgo-LRG",
+    "batchFiles":  [
+                       {
+                           "path":  "extensions/rust/Cargo.toml",
+                           "language":  "toml",
+                           "sizeLines":  112,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "extensions/rust/pyproject.toml",
+                           "language":  "toml",
+                           "sizeLines":  41,
+                           "fileCategory":  "config"
+                       },
+                       {
+                           "path":  "extensions/rust/readme.md",
+                           "language":  "markdown",
+                           "sizeLines":  54,
+                           "fileCategory":  "docs"
+                       }
+                   ],
+    "batchImportData":  {
+                            "extensions/rust/Cargo.toml":  [
+
+                                                           ],
+                            "extensions/rust/pyproject.toml":  [
+
+                                                               ],
+                            "extensions/rust/readme.md":  [
+
+                                                          ]
+                        }
+}

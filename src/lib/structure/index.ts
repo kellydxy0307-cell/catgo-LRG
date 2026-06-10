@@ -303,6 +303,49 @@ export function get_center_of_mass(
   return math.scale(center, 1 / n)
 }
 
+function site_mass(site: Site): number {
+  let mass = 0
+  let occu_sum = 0
+  for (const spec of site.species) {
+    occu_sum += spec.occu
+    const atomic_mass = atomic_weights.get(spec.element as ElementSymbol)
+    if (atomic_mass !== undefined) mass += atomic_mass * spec.occu
+  }
+  return mass > 0 ? mass : (occu_sum > 0 ? occu_sum : 1)
+}
+
+function get_molecular_rotation_center(
+  struct_or_mol: AnyStructure,
+  max_sites?: number,
+): Vec3 {
+  if (!struct_or_mol.sites || struct_or_mol.sites.length === 0) {
+    return [0, 0, 0]
+  }
+  const n = max_sites !== undefined
+    ? Math.min(max_sites, struct_or_mol.sites.length)
+    : struct_or_mol.sites.length
+  if (n === 0) return [0, 0, 0]
+
+  let weighted_sum: Vec3 = [0, 0, 0]
+  let total_mass = 0
+  for (let i = 0; i < n; i++) {
+    const site = struct_or_mol.sites[i]
+    const mass = site_mass(site)
+    weighted_sum = math.add(weighted_sum, math.scale(site.xyz, mass))
+    total_mass += mass
+  }
+
+  return total_mass > 0
+    ? math.scale(weighted_sum, 1 / total_mass)
+    : get_center_of_mass(struct_or_mol, max_sites)
+}
+
+function has_periodic_lattice(struct_or_mol: AnyStructure): struct_or_mol is PymatgenStructure {
+  if (!(`lattice` in struct_or_mol) || !struct_or_mol.lattice?.matrix) return false
+  const pbc = struct_or_mol.lattice.pbc
+  return !pbc || pbc.some(Boolean)
+}
+
 /**
  * Camera orbit pivot — the point the 3D scene rotates around.
  *
@@ -315,8 +358,9 @@ export function get_center_of_mass(
  *   origin (0,0,0). The atom centroid IS the origin, which is the corner of the lattice
  *   box — rotating around a corner looks wrong even though it's technically correct.
  *
- * Non-periodic (molecules):  atom centroid (delegates to get_center_of_mass)
- *   No lattice box exists, so the geometric center of the atoms is the natural pivot.
+ * Non-periodic (molecules):  mass-weighted molecular center of mass.
+ *   No periodic lattice box exists, so use sum(m_i * r_i) / sum(m_i).
+ *   H2 pivots at the bond midpoint; H2O pivots near the heavier oxygen atom.
  *
  * Consumers:
  *  - StructureScene.svelte: rotation_target $derived → orbit_controls.target
@@ -326,11 +370,11 @@ export function get_rotation_center(
   struct_or_mol: AnyStructure,
   max_sites?: number,
 ): Vec3 {
-  if (`lattice` in struct_or_mol && struct_or_mol.lattice?.matrix) {
+  if (has_periodic_lattice(struct_or_mol)) {
     const [a, b, c] = struct_or_mol.lattice.matrix
     return math.scale(math.add(a, b, c), 0.5)
   }
-  return get_center_of_mass(struct_or_mol, max_sites)
+  return get_molecular_rotation_center(struct_or_mol, max_sites)
 }
 
 export interface StructureHandlerData {

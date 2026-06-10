@@ -1,0 +1,540 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/catgo/models/dos.py",
+      "type": "file",
+      "name": "dos.py",
+      "filePath": "server/catgo/models/dos.py",
+      "summary": "dos.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/dos.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/heterostructure.py",
+      "type": "file",
+      "name": "heterostructure.py",
+      "filePath": "server/catgo/models/heterostructure.py",
+      "summary": "heterostructure.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/heterostructure.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/hpc.py",
+      "type": "file",
+      "name": "hpc.py",
+      "filePath": "server/catgo/models/hpc.py",
+      "summary": "hpc.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/hpc.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/mofdb.py",
+      "type": "file",
+      "name": "mofdb.py",
+      "filePath": "server/catgo/models/mofdb.py",
+      "summary": "mofdb.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/mofdb.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/moire.py",
+      "type": "file",
+      "name": "moire.py",
+      "filePath": "server/catgo/models/moire.py",
+      "summary": "moire.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/moire.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/nanotube.py",
+      "type": "file",
+      "name": "nanotube.py",
+      "filePath": "server/catgo/models/nanotube.py",
+      "summary": "nanotube.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/nanotube.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/paper.py",
+      "type": "file",
+      "name": "paper.py",
+      "filePath": "server/catgo/models/paper.py",
+      "summary": "paper.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/paper.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/pseudo_hydrogen.py",
+      "type": "file",
+      "name": "pseudo_hydrogen.py",
+      "filePath": "server/catgo/models/pseudo_hydrogen.py",
+      "summary": "pseudo_hydrogen.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/pseudo_hydrogen.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/reticular.py",
+      "type": "file",
+      "name": "reticular.py",
+      "filePath": "server/catgo/models/reticular.py",
+      "summary": "reticular.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/reticular.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/structure.py",
+      "type": "file",
+      "name": "structure.py",
+      "filePath": "server/catgo/models/structure.py",
+      "summary": "structure.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/structure.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/vasp.py",
+      "type": "file",
+      "name": "vasp.py",
+      "filePath": "server/catgo/models/vasp.py",
+      "summary": "vasp.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/vasp.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/water_layer.py",
+      "type": "file",
+      "name": "water_layer.py",
+      "filePath": "server/catgo/models/water_layer.py",
+      "summary": "water_layer.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/water_layer.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/workflow_run.py",
+      "type": "file",
+      "name": "workflow_run.py",
+      "filePath": "server/catgo/models/workflow_run.py",
+      "summary": "workflow_run.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/workflow_run.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/models/workflow.py",
+      "type": "file",
+      "name": "workflow.py",
+      "filePath": "server/catgo/models/workflow.py",
+      "summary": "workflow.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/models/workflow.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/plugins/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/plugins/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/plugins/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/plugins/base.py",
+      "type": "file",
+      "name": "base.py",
+      "filePath": "server/catgo/plugins/base.py",
+      "summary": "base.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/plugins/base.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/plugins/builtin_readers.py",
+      "type": "file",
+      "name": "builtin_readers.py",
+      "filePath": "server/catgo/plugins/builtin_readers.py",
+      "summary": "builtin_readers.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/plugins/builtin_readers.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/plugins/discovery.py",
+      "type": "file",
+      "name": "discovery.py",
+      "filePath": "server/catgo/plugins/discovery.py",
+      "summary": "discovery.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/plugins/discovery.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/plugins/manager.py",
+      "type": "file",
+      "name": "manager.py",
+      "filePath": "server/catgo/plugins/manager.py",
+      "summary": "manager.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/plugins/manager.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/plugins/sandbox.py",
+      "type": "file",
+      "name": "sandbox.py",
+      "filePath": "server/catgo/plugins/sandbox.py",
+      "summary": "sandbox.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/plugins/sandbox.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/__init__.py",
+      "type": "file",
+      "name": "__init__.py",
+      "filePath": "server/catgo/routers/__init__.py",
+      "summary": "__init__.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/__init__.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/adsorption.py",
+      "type": "file",
+      "name": "adsorption.py",
+      "filePath": "server/catgo/routers/adsorption.py",
+      "summary": "adsorption.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/adsorption.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/atomate2.py",
+      "type": "file",
+      "name": "atomate2.py",
+      "filePath": "server/catgo/routers/atomate2.py",
+      "summary": "atomate2.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/atomate2.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/bands.py",
+      "type": "file",
+      "name": "bands.py",
+      "filePath": "server/catgo/routers/bands.py",
+      "summary": "bands.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/bands.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/routers/build.py",
+      "type": "file",
+      "name": "build.py",
+      "filePath": "server/catgo/routers/build.py",
+      "summary": "build.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/routers/build.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/catgo/models/heterostructure.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/mofdb.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/moire.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/nanotube.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/pseudo_hydrogen.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/reticular.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/vasp.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/models/water_layer.py",
+      "target": "file:server/catgo/models/structure.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/plugins/__init__.py",
+      "target": "file:server/catgo/plugins/base.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/plugins/__init__.py",
+      "target": "file:server/catgo/plugins/discovery.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/plugins/__init__.py",
+      "target": "file:server/catgo/plugins/manager.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/plugins/builtin_readers.py",
+      "target": "file:server/catgo/plugins/base.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/plugins/discovery.py",
+      "target": "file:server/catgo/plugins/base.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/plugins/manager.py",
+      "target": "file:server/catgo/plugins/base.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/plugins/manager.py",
+      "target": "file:server/catgo/plugins/discovery.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/adsorption.py",
+      "target": "file:server/catgo/models/adsorbate.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/adsorption.py",
+      "target": "file:server/catgo/models/adsorption.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/adsorption.py",
+      "target": "file:server/catgo/utils/__init__.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/adsorption.py",
+      "target": "file:server/catgo/utils/adsorbate_placement.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/atomate2.py",
+      "target": "file:server/catgo/converters/atomate2/converter.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/atomate2.py",
+      "target": "file:server/catgo/converters/atomate2/templates.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/routers/bands.py",
+      "target": "file:server/catgo/models/bands.py",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

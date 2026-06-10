@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "server/catgo/tools/sandbox.py",
+      "language": "python",
+      "sizeLines": 278,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/__init__.py",
+      "language": "python",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/adsorbate_placement.py",
+      "language": "python",
+      "sizeLines": 525,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/ase_db.py",
+      "language": "python",
+      "sizeLines": 440,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/batch_db.py",
+      "language": "python",
+      "sizeLines": 383,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/cn_coupling.py",
+      "language": "python",
+      "sizeLines": 275,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/connection_pool.py",
+      "language": "python",
+      "sizeLines": 717,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/converter.py",
+      "language": "python",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/gibbs_calculator.py",
+      "language": "python",
+      "sizeLines": 553,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/heterostructure_algorithm.py",
+      "language": "python",
+      "sizeLines": 1658,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/hpc_client.py",
+      "language": "python",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/hpc_connection.py",
+      "language": "python",
+      "sizeLines": 377,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/job_parser.py",
+      "language": "python",
+      "sizeLines": 1955,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/kmc_runner.py",
+      "language": "python",
+      "sizeLines": 341,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/local_connection.py",
+      "language": "python",
+      "sizeLines": 294,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/mofdb_search.py",
+      "language": "python",
+      "sizeLines": 117,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/moire_algorithm.py",
+      "language": "python",
+      "sizeLines": 605,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/nanotube_algorithm.py",
+      "language": "python",
+      "sizeLines": 549,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/orca_input.py",
+      "language": "python",
+      "sizeLines": 838,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/orca_output.py",
+      "language": "python",
+      "sizeLines": 1045,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/orca_results_file.py",
+      "language": "python",
+      "sizeLines": 236,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/pbs.py",
+      "language": "python",
+      "sizeLines": 182,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/pseudo_hydrogen.py",
+      "language": "python",
+      "sizeLines": 802,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/reticular_algorithm.py",
+      "language": "python",
+      "sizeLines": 165,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/utils/scheduler_base.py",
+      "language": "python",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/catgo/tools/sandbox.py": [],
+    "server/catgo/utils/__init__.py": [],
+    "server/catgo/utils/adsorbate_placement.py": [],
+    "server/catgo/utils/ase_db.py": [],
+    "server/catgo/utils/batch_db.py": [],
+    "server/catgo/utils/cn_coupling.py": [],
+    "server/catgo/utils/connection_pool.py": [],
+    "server/catgo/utils/converter.py": [],
+    "server/catgo/utils/gibbs_calculator.py": [],
+    "server/catgo/utils/heterostructure_algorithm.py": [],
+    "server/catgo/utils/hpc_client.py": [],
+    "server/catgo/utils/hpc_connection.py": [],
+    "server/catgo/utils/job_parser.py": [],
+    "server/catgo/utils/kmc_runner.py": [],
+    "server/catgo/utils/local_connection.py": [],
+    "server/catgo/utils/mofdb_search.py": [],
+    "server/catgo/utils/moire_algorithm.py": [],
+    "server/catgo/utils/nanotube_algorithm.py": [],
+    "server/catgo/utils/orca_input.py": [],
+    "server/catgo/utils/orca_output.py": [],
+    "server/catgo/utils/orca_results_file.py": [],
+    "server/catgo/utils/pbs.py": [],
+    "server/catgo/utils/pseudo_hydrogen.py": [],
+    "server/catgo/utils/reticular_algorithm.py": [],
+    "server/catgo/utils/scheduler_base.py": []
+  }
+}

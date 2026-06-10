@@ -1,0 +1,430 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/workflow/NodeConfigPanel.svelte",
+      "type": "file",
+      "name": "NodeConfigPanel.svelte",
+      "filePath": "src/lib/workflow/NodeConfigPanel.svelte",
+      "summary": "NodeConfigPanel.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/NodeConfigPanel.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/NodeStatusPanel.svelte",
+      "type": "file",
+      "name": "NodeStatusPanel.svelte",
+      "filePath": "src/lib/workflow/NodeStatusPanel.svelte",
+      "summary": "NodeStatusPanel.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/NodeStatusPanel.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/ParityPlot.svelte",
+      "type": "file",
+      "name": "ParityPlot.svelte",
+      "filePath": "src/lib/workflow/ParityPlot.svelte",
+      "summary": "ParityPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/ParityPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/ProjectDashboard.svelte",
+      "type": "file",
+      "name": "ProjectDashboard.svelte",
+      "filePath": "src/lib/workflow/ProjectDashboard.svelte",
+      "summary": "ProjectDashboard.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/ProjectDashboard.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/ProjectListView.svelte",
+      "type": "file",
+      "name": "ProjectListView.svelte",
+      "filePath": "src/lib/workflow/ProjectListView.svelte",
+      "summary": "ProjectListView.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/ProjectListView.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/ResultsPlot.svelte",
+      "type": "file",
+      "name": "ResultsPlot.svelte",
+      "filePath": "src/lib/workflow/ResultsPlot.svelte",
+      "summary": "ResultsPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/ResultsPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/ResultsTable.svelte",
+      "type": "file",
+      "name": "ResultsTable.svelte",
+      "filePath": "src/lib/workflow/ResultsTable.svelte",
+      "summary": "ResultsTable.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/ResultsTable.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/RunConfigDialog.svelte",
+      "type": "file",
+      "name": "RunConfigDialog.svelte",
+      "filePath": "src/lib/workflow/RunConfigDialog.svelte",
+      "summary": "RunConfigDialog.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/RunConfigDialog.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/ScalingRelationsPlot.svelte",
+      "type": "file",
+      "name": "ScalingRelationsPlot.svelte",
+      "filePath": "src/lib/workflow/ScalingRelationsPlot.svelte",
+      "summary": "ScalingRelationsPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/ScalingRelationsPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/SlabGenPreview.svelte",
+      "type": "file",
+      "name": "SlabGenPreview.svelte",
+      "filePath": "src/lib/workflow/SlabGenPreview.svelte",
+      "summary": "SlabGenPreview.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/SlabGenPreview.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/status-sync.svelte.ts",
+      "type": "file",
+      "name": "status-sync.svelte.ts",
+      "filePath": "src/lib/workflow/status-sync.svelte.ts",
+      "summary": "status-sync.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/status-sync.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/StatusPopout.svelte",
+      "type": "file",
+      "name": "StatusPopout.svelte",
+      "filePath": "src/lib/workflow/StatusPopout.svelte",
+      "summary": "StatusPopout.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/StatusPopout.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/StepFileTree.svelte",
+      "type": "file",
+      "name": "StepFileTree.svelte",
+      "filePath": "src/lib/workflow/StepFileTree.svelte",
+      "summary": "StepFileTree.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/StepFileTree.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/StructureInputDialog.svelte",
+      "type": "file",
+      "name": "StructureInputDialog.svelte",
+      "filePath": "src/lib/workflow/StructureInputDialog.svelte",
+      "summary": "StructureInputDialog.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/StructureInputDialog.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/StructureInputPanel.svelte",
+      "type": "file",
+      "name": "StructureInputPanel.svelte",
+      "filePath": "src/lib/workflow/StructureInputPanel.svelte",
+      "summary": "StructureInputPanel.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/StructureInputPanel.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/StructureListInputPanel.svelte",
+      "type": "file",
+      "name": "StructureListInputPanel.svelte",
+      "filePath": "src/lib/workflow/StructureListInputPanel.svelte",
+      "summary": "StructureListInputPanel.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/StructureListInputPanel.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/SurfaceEnergyPlot.svelte",
+      "type": "file",
+      "name": "SurfaceEnergyPlot.svelte",
+      "filePath": "src/lib/workflow/SurfaceEnergyPlot.svelte",
+      "summary": "SurfaceEnergyPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/SurfaceEnergyPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/use-resize-panel.ts",
+      "type": "file",
+      "name": "use-resize-panel.ts",
+      "filePath": "src/lib/workflow/use-resize-panel.ts",
+      "summary": "use-resize-panel.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/use-resize-panel.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/UvVisPlot.svelte",
+      "type": "file",
+      "name": "UvVisPlot.svelte",
+      "filePath": "src/lib/workflow/UvVisPlot.svelte",
+      "summary": "UvVisPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/UvVisPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/VaspMonitorPlot.svelte",
+      "type": "file",
+      "name": "VaspMonitorPlot.svelte",
+      "filePath": "src/lib/workflow/VaspMonitorPlot.svelte",
+      "summary": "VaspMonitorPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/VaspMonitorPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/VibrationModeSelector.svelte",
+      "type": "file",
+      "name": "VibrationModeSelector.svelte",
+      "filePath": "src/lib/workflow/VibrationModeSelector.svelte",
+      "summary": "VibrationModeSelector.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/VibrationModeSelector.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/VolcanoPlot.svelte",
+      "type": "file",
+      "name": "VolcanoPlot.svelte",
+      "filePath": "src/lib/workflow/VolcanoPlot.svelte",
+      "summary": "VolcanoPlot.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/VolcanoPlot.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "moderate",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/workflow-change-detection.svelte.ts",
+      "type": "file",
+      "name": "workflow-change-detection.svelte.ts",
+      "filePath": "src/lib/workflow/workflow-change-detection.svelte.ts",
+      "summary": "workflow-change-detection.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 src/lib/workflow/workflow-change-detection.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/WorkflowDAGViewer.svelte",
+      "type": "file",
+      "name": "WorkflowDAGViewer.svelte",
+      "filePath": "src/lib/workflow/WorkflowDAGViewer.svelte",
+      "summary": "WorkflowDAGViewer.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/WorkflowDAGViewer.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    },
+    {
+      "id": "file:src/lib/workflow/WorkflowEditor.svelte",
+      "type": "file",
+      "name": "WorkflowEditor.svelte",
+      "filePath": "src/lib/workflow/WorkflowEditor.svelte",
+      "summary": "WorkflowEditor.svelte 是 CatGo 项目中的代码文件，使用 svelte，位于 src/lib/workflow/WorkflowEditor.svelte，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "svelte",
+        "工作流",
+        "前端"
+      ],
+      "complexity": "complex",
+      "language": "svelte",
+      "languageNotes": "此节点以中文概述，保留必要的 svelte 技术术语。"
+    }
+  ],
+  "edges": []
+}

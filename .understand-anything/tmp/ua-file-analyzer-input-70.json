@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "server/catgo/workflow/engine/lifecycle.py",
+      "language": "python",
+      "sizeLines": 303,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/engine/poller.py",
+      "language": "python",
+      "sizeLines": 321,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/engine/resolver.py",
+      "language": "python",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/engine/result_collector.py",
+      "language": "python",
+      "sizeLines": 657,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/engine/result_handler.py",
+      "language": "python",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/engine/scanner.py",
+      "language": "python",
+      "sizeLines": 1086,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/engine/smart_recovery.py",
+      "language": "python",
+      "sizeLines": 121,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/engine/submitter.py",
+      "language": "python",
+      "sizeLines": 499,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/engine/v1_monitor.py",
+      "language": "python",
+      "sizeLines": 139,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/graph_converter.py",
+      "language": "python",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/mcp_tools.py",
+      "language": "python",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/provenance.py",
+      "language": "python",
+      "sizeLines": 194,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/reference.py",
+      "language": "python",
+      "sizeLines": 36,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/service.py",
+      "language": "python",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/catgo/workflow/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 99,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/abinit/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 162,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/analysis/adsorption/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 202,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/analysis/charge/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 198,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/analysis/co2rr/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 263,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/analysis/cohp/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 199,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/analysis/convergence/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 200,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/analysis/dos_analysis/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 209,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/analysis/energy_diagram/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 224,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/analysis/gibbs/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 193,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "server/catgo/workflow/skills/analysis/her/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 233,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    "server/catgo/workflow/engine/lifecycle.py": [],
+    "server/catgo/workflow/engine/poller.py": [],
+    "server/catgo/workflow/engine/resolver.py": [],
+    "server/catgo/workflow/engine/result_collector.py": [],
+    "server/catgo/workflow/engine/result_handler.py": [],
+    "server/catgo/workflow/engine/scanner.py": [],
+    "server/catgo/workflow/engine/smart_recovery.py": [],
+    "server/catgo/workflow/engine/submitter.py": [],
+    "server/catgo/workflow/engine/v1_monitor.py": [],
+    "server/catgo/workflow/graph_converter.py": [],
+    "server/catgo/workflow/mcp_tools.py": [],
+    "server/catgo/workflow/provenance.py": [],
+    "server/catgo/workflow/reference.py": [],
+    "server/catgo/workflow/service.py": [],
+    "server/catgo/workflow/SKILL.md": [],
+    "server/catgo/workflow/skills/abinit/SKILL.md": [],
+    "server/catgo/workflow/skills/analysis/adsorption/SKILL.md": [],
+    "server/catgo/workflow/skills/analysis/charge/SKILL.md": [],
+    "server/catgo/workflow/skills/analysis/co2rr/SKILL.md": [],
+    "server/catgo/workflow/skills/analysis/cohp/SKILL.md": [],
+    "server/catgo/workflow/skills/analysis/convergence/SKILL.md": [],
+    "server/catgo/workflow/skills/analysis/dos_analysis/SKILL.md": [],
+    "server/catgo/workflow/skills/analysis/energy_diagram/SKILL.md": [],
+    "server/catgo/workflow/skills/analysis/gibbs/SKILL.md": [],
+    "server/catgo/workflow/skills/analysis/her/SKILL.md": []
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": "config:src/lib/colors/alloy-colors.json",
+      "type": "config",
+      "name": "alloy-colors.json",
+      "filePath": "src/lib/colors/alloy-colors.json",
+      "summary": "alloy-colors.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "json",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 111 行有效内容。"
+    },
+    {
+      "id": "config:src/lib/colors/dark-mode-colors.json",
+      "type": "config",
+      "name": "dark-mode-colors.json",
+      "filePath": "src/lib/colors/dark-mode-colors.json",
+      "summary": "dark-mode-colors.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "json",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 111 行有效内容。"
+    },
+    {
+      "id": "config:src/lib/colors/jmol-colors.json",
+      "type": "config",
+      "name": "jmol-colors.json",
+      "filePath": "src/lib/colors/jmol-colors.json",
+      "summary": "jmol-colors.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "json",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 111 行有效内容。"
+    },
+    {
+      "id": "config:src/lib/colors/muted-colors.json",
+      "type": "config",
+      "name": "muted-colors.json",
+      "filePath": "src/lib/colors/muted-colors.json",
+      "summary": "muted-colors.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "json",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 111 行有效内容。"
+    },
+    {
+      "id": "config:src/lib/colors/pastel-colors.json",
+      "type": "config",
+      "name": "pastel-colors.json",
+      "filePath": "src/lib/colors/pastel-colors.json",
+      "summary": "pastel-colors.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "json",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 111 行有效内容。"
+    },
+    {
+      "id": "config:src/lib/colors/vesta-colors.json",
+      "type": "config",
+      "name": "vesta-colors.json",
+      "filePath": "src/lib/colors/vesta-colors.json",
+      "summary": "vesta-colors.json 控制项目中与 json 相关的配置，支持构建、工具链或运行时约定。",
+      "tags": [
+        "配置",
+        "json",
+        "项目内部"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "json 文件；结构提取显示 111 行有效内容。"
+    }
+  ],
+  "edges": []
+}

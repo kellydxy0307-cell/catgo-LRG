@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": ".claude/skills/nrr/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 272,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/oer/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 223,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/openbabel/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 149,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/orca-freq/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 307,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/orca-irc/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 443,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/orca-neb-ts/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 283,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/orca-opt/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 265,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/orca-uv-vis/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 311,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/packmol/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 165,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/phonopy/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 193,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/qe/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 140,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/rdkit/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 146,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/reacnetgen/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 142,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/siesta/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 140,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-adsorbate/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 352,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-defect/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 193,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-doping/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 241,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-fetch/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 173,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-heterostructure/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 225,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-intercalation/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 174,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-moire/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 154,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-nanotube/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 149,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-slab/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 247,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-strain/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 188,
+      "fileCategory": "docs"
+    },
+    {
+      "path": ".claude/skills/structure-substitution/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 165,
+      "fileCategory": "docs"
+    }
+  ],
+  "batchImportData": {
+    ".claude/skills/nrr/SKILL.md": [],
+    ".claude/skills/oer/SKILL.md": [],
+    ".claude/skills/openbabel/SKILL.md": [],
+    ".claude/skills/orca-freq/SKILL.md": [],
+    ".claude/skills/orca-irc/SKILL.md": [],
+    ".claude/skills/orca-neb-ts/SKILL.md": [],
+    ".claude/skills/orca-opt/SKILL.md": [],
+    ".claude/skills/orca-uv-vis/SKILL.md": [],
+    ".claude/skills/packmol/SKILL.md": [],
+    ".claude/skills/phonopy/SKILL.md": [],
+    ".claude/skills/qe/SKILL.md": [],
+    ".claude/skills/rdkit/SKILL.md": [],
+    ".claude/skills/reacnetgen/SKILL.md": [],
+    ".claude/skills/siesta/SKILL.md": [],
+    ".claude/skills/structure-adsorbate/SKILL.md": [],
+    ".claude/skills/structure-defect/SKILL.md": [],
+    ".claude/skills/structure-doping/SKILL.md": [],
+    ".claude/skills/structure-fetch/SKILL.md": [],
+    ".claude/skills/structure-heterostructure/SKILL.md": [],
+    ".claude/skills/structure-intercalation/SKILL.md": [],
+    ".claude/skills/structure-moire/SKILL.md": [],
+    ".claude/skills/structure-nanotube/SKILL.md": [],
+    ".claude/skills/structure-slab/SKILL.md": [],
+    ".claude/skills/structure-strain/SKILL.md": [],
+    ".claude/skills/structure-substitution/SKILL.md": []
+  }
+}

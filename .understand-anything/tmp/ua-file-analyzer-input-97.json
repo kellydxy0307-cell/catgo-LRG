@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/structure/gpu/frame-buffers.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/gpu/large-system-mode.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 55,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/gpu/large-system-renderer.ts",
+      "language": "typescript",
+      "sizeLines": 2600,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/gpu/LargeSystemOverlay.svelte",
+      "language": "svelte",
+      "sizeLines": 1167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/gpu/radius-lut.ts",
+      "language": "typescript",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/gpu/webgpu-context.ts",
+      "language": "typescript",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/HeterostructurePane.svelte",
+      "language": "svelte",
+      "sizeLines": 1662,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/index.ts",
+      "language": "typescript",
+      "sizeLines": 578,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/interaction-handlers.ts",
+      "language": "typescript",
+      "sizeLines": 213,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/IOPane.svelte",
+      "language": "svelte",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/JobDetailPane.svelte",
+      "language": "svelte",
+      "sizeLines": 1157,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/lattice-ops.ts",
+      "language": "typescript",
+      "sizeLines": 886,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/Lattice.svelte",
+      "language": "svelte",
+      "sizeLines": 201,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/LatticePane.svelte",
+      "language": "svelte",
+      "sizeLines": 740,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/manipulation.ts",
+      "language": "typescript",
+      "sizeLines": 82,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/measure.ts",
+      "language": "typescript",
+      "sizeLines": 134,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/miller-slab.ts",
+      "language": "typescript",
+      "sizeLines": 1803,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/MillerSlabCutterPane.svelte",
+      "language": "svelte",
+      "sizeLines": 1802,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/MobileTerminalKeyBar.svelte",
+      "language": "svelte",
+      "sizeLines": 171,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/mof-analysis.ts",
+      "language": "typescript",
+      "sizeLines": 304,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/MoirePane.svelte",
+      "language": "svelte",
+      "sizeLines": 769,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/MonacoEditorPanel.svelte",
+      "language": "svelte",
+      "sizeLines": 342,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/NanoscrollPane.svelte",
+      "language": "svelte",
+      "sizeLines": 323,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/NanotubePane.svelte",
+      "language": "svelte",
+      "sizeLines": 583,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/structure/OptimadePreviewModal.svelte",
+      "language": "svelte",
+      "sizeLines": 482,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/structure/gpu/frame-buffers.ts": [],
+    "src/lib/structure/gpu/large-system-mode.svelte.ts": [],
+    "src/lib/structure/gpu/large-system-renderer.ts": [],
+    "src/lib/structure/gpu/LargeSystemOverlay.svelte": [],
+    "src/lib/structure/gpu/radius-lut.ts": [],
+    "src/lib/structure/gpu/webgpu-context.ts": [],
+    "src/lib/structure/HeterostructurePane.svelte": [],
+    "src/lib/structure/index.ts": [],
+    "src/lib/structure/interaction-handlers.ts": [],
+    "src/lib/structure/IOPane.svelte": [],
+    "src/lib/structure/JobDetailPane.svelte": [],
+    "src/lib/structure/lattice-ops.ts": [],
+    "src/lib/structure/Lattice.svelte": [],
+    "src/lib/structure/LatticePane.svelte": [],
+    "src/lib/structure/manipulation.ts": [],
+    "src/lib/structure/measure.ts": [],
+    "src/lib/structure/miller-slab.ts": [],
+    "src/lib/structure/MillerSlabCutterPane.svelte": [],
+    "src/lib/structure/MobileTerminalKeyBar.svelte": [],
+    "src/lib/structure/mof-analysis.ts": [],
+    "src/lib/structure/MoirePane.svelte": [],
+    "src/lib/structure/MonacoEditorPanel.svelte": [],
+    "src/lib/structure/NanoscrollPane.svelte": [],
+    "src/lib/structure/NanotubePane.svelte": [],
+    "src/lib/structure/OptimadePreviewModal.svelte": []
+  }
+}

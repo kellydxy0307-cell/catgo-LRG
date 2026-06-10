@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "server/tests/test_ase_opt_log_parser.py",
+      "language": "python",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_batch_db.py",
+      "language": "python",
+      "sizeLines": 67,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_batch_submit.py",
+      "language": "python",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_batch_vasp_shaheen.py",
+      "language": "python",
+      "sizeLines": 387,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_broadcast.py",
+      "language": "python",
+      "sizeLines": 54,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_build.py",
+      "language": "python",
+      "sizeLines": 126,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_builtins_execution.py",
+      "language": "python",
+      "sizeLines": 131,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_catalysis.py",
+      "language": "python",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_claude_code_mcp.py",
+      "language": "python",
+      "sizeLines": 325,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_conditional.py",
+      "language": "python",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_config.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_cp2k_engine_def.py",
+      "language": "python",
+      "sizeLines": 247,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "language": "python",
+      "sizeLines": 440,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_db.py",
+      "language": "python",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_declarative_engine_functional.py",
+      "language": "python",
+      "sizeLines": 1276,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_engine_advancer.py",
+      "language": "python",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_engine_defs_schema.py",
+      "language": "python",
+      "sizeLines": 144,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_engine_error_handler.py",
+      "language": "python",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_engine_features_shaheen.py",
+      "language": "python",
+      "sizeLines": 600,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_engine_lifecycle.py",
+      "language": "python",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_engine_merge.py",
+      "language": "python",
+      "sizeLines": 114,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_engine_resolver.py",
+      "language": "python",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_engine_scanner.py",
+      "language": "python",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_engine_task_monitoring.py",
+      "language": "python",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_expanse_e2e.py",
+      "language": "python",
+      "sizeLines": 188,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/tests/test_ase_opt_log_parser.py": [],
+    "server/tests/test_batch_db.py": [],
+    "server/tests/test_batch_submit.py": [],
+    "server/tests/test_batch_vasp_shaheen.py": [],
+    "server/tests/test_broadcast.py": [],
+    "server/tests/test_build.py": [],
+    "server/tests/test_builtins_execution.py": [],
+    "server/tests/test_catalysis.py": [],
+    "server/tests/test_claude_code_mcp.py": [],
+    "server/tests/test_conditional.py": [],
+    "server/tests/test_config.py": [],
+    "server/tests/test_cp2k_engine_def.py": [],
+    "server/tests/test_cp2k_shaheen_comprehensive.py": [],
+    "server/tests/test_db.py": [],
+    "server/tests/test_declarative_engine_functional.py": [],
+    "server/tests/test_engine_advancer.py": [],
+    "server/tests/test_engine_defs_schema.py": [],
+    "server/tests/test_engine_error_handler.py": [],
+    "server/tests/test_engine_features_shaheen.py": [],
+    "server/tests/test_engine_lifecycle.py": [],
+    "server/tests/test_engine_merge.py": [],
+    "server/tests/test_engine_resolver.py": [],
+    "server/tests/test_engine_scanner.py": [],
+    "server/tests/test_engine_task_monitoring.py": [],
+    "server/tests/test_expanse_e2e.py": []
+  }
+}

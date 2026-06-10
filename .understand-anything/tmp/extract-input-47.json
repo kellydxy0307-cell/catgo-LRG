@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "catbot-plugin/server/mcp_server.py",
+      "language": "python",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "catbot-plugin/settings.json",
+      "language": "json",
+      "sizeLines": 3,
+      "fileCategory": "config"
+    },
+    {
+      "path": "catbot-plugin/skills/computational-input/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 84,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "catbot-plugin/skills/electronic-analysis/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 86,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "catbot-plugin/skills/structure-builder/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 73,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "catbot-plugin/skills/surface-catalysis/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 69,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "catbot-plugin/skills/workflow/SKILL.md",
+      "language": "markdown",
+      "sizeLines": 104,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "citation.cff",
+      "language": "cff",
+      "sizeLines": 15,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/Cargo.toml",
+      "language": "toml",
+      "sizeLines": 38,
+      "fileCategory": "config"
+    },
+    {
+      "path": "crates/catgo-graph/src/api/dto.rs",
+      "language": "rust",
+      "sizeLines": 509,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/api/graph_api.rs",
+      "language": "rust",
+      "sizeLines": 987,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/api/mod.rs",
+      "language": "rust",
+      "sizeLines": 3,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/api/svelteflow.rs",
+      "language": "rust",
+      "sizeLines": 513,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/bin/catgo_run.rs",
+      "language": "rust",
+      "sizeLines": 240,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/core/errors.rs",
+      "language": "rust",
+      "sizeLines": 83,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/core/ids.rs",
+      "language": "rust",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/core/mod.rs",
+      "language": "rust",
+      "sizeLines": 11,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/core/state.rs",
+      "language": "rust",
+      "sizeLines": 289,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/core/time.rs",
+      "language": "rust",
+      "sizeLines": 5,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/core/types.rs",
+      "language": "rust",
+      "sizeLines": 18,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/graph/composer.rs",
+      "language": "rust",
+      "sizeLines": 1343,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/graph/mod.rs",
+      "language": "rust",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/graph/resolver.rs",
+      "language": "rust",
+      "sizeLines": 603,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/graph/rewrite.rs",
+      "language": "rust",
+      "sizeLines": 886,
+      "fileCategory": "code"
+    },
+    {
+      "path": "crates/catgo-graph/src/graph/run.rs",
+      "language": "rust",
+      "sizeLines": 119,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "catbot-plugin/server/mcp_server.py": [],
+    "catbot-plugin/settings.json": [],
+    "catbot-plugin/skills/computational-input/SKILL.md": [],
+    "catbot-plugin/skills/electronic-analysis/SKILL.md": [],
+    "catbot-plugin/skills/structure-builder/SKILL.md": [],
+    "catbot-plugin/skills/surface-catalysis/SKILL.md": [],
+    "catbot-plugin/skills/workflow/SKILL.md": [],
+    "citation.cff": [],
+    "crates/catgo-graph/Cargo.toml": [],
+    "crates/catgo-graph/src/api/dto.rs": [],
+    "crates/catgo-graph/src/api/graph_api.rs": [],
+    "crates/catgo-graph/src/api/mod.rs": [],
+    "crates/catgo-graph/src/api/svelteflow.rs": [],
+    "crates/catgo-graph/src/bin/catgo_run.rs": [],
+    "crates/catgo-graph/src/core/errors.rs": [],
+    "crates/catgo-graph/src/core/ids.rs": [],
+    "crates/catgo-graph/src/core/mod.rs": [],
+    "crates/catgo-graph/src/core/state.rs": [],
+    "crates/catgo-graph/src/core/time.rs": [],
+    "crates/catgo-graph/src/core/types.rs": [],
+    "crates/catgo-graph/src/graph/composer.rs": [],
+    "crates/catgo-graph/src/graph/mod.rs": [],
+    "crates/catgo-graph/src/graph/resolver.rs": [],
+    "crates/catgo-graph/src/graph/rewrite.rs": [],
+    "crates/catgo-graph/src/graph/run.rs": []
+  }
+}

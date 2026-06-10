@@ -1,0 +1,4325 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/tests/test_ase_opt_log_parser.py",
+      "type": "file",
+      "name": "test_ase_opt_log_parser.py",
+      "filePath": "server/tests/test_ase_opt_log_parser.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_ase_opt_log_parser.py 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 4 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "parsing",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_ase_opt_log_parser.py:_write",
+      "type": "function",
+      "name": "_write",
+      "filePath": "server/tests/test_ase_opt_log_parser.py",
+      "lineRange": [
+        11,
+        14
+      ],
+      "summary": "封装测试模块中的 _write 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_ase_opt_log_parser.py:TestHappyPath",
+      "type": "class",
+      "name": "TestHappyPath",
+      "filePath": "server/tests/test_ase_opt_log_parser.py",
+      "lineRange": [
+        17,
+        51
+      ],
+      "summary": "定义测试模块中的 TestHappyPath 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_ase_opt_log_parser.py:TestScientificNotation",
+      "type": "class",
+      "name": "TestScientificNotation",
+      "filePath": "server/tests/test_ase_opt_log_parser.py",
+      "lineRange": [
+        54,
+        87
+      ],
+      "summary": "定义测试模块中的 TestScientificNotation 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_ase_opt_log_parser.py:TestEdgeCases",
+      "type": "class",
+      "name": "TestEdgeCases",
+      "filePath": "server/tests/test_ase_opt_log_parser.py",
+      "lineRange": [
+        90,
+        132
+      ],
+      "summary": "定义测试模块中的 TestEdgeCases 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_ase_opt_log_parser.py:TestFmaxTarget",
+      "type": "class",
+      "name": "TestFmaxTarget",
+      "filePath": "server/tests/test_ase_opt_log_parser.py",
+      "lineRange": [
+        135,
+        149
+      ],
+      "summary": "定义测试模块中的 TestFmaxTarget 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_batch_db.py",
+      "type": "file",
+      "name": "test_batch_db.py",
+      "filePath": "server/tests/test_batch_db.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_batch_db.py 场景中的核心逻辑与边界情况。结构提取发现 6 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_batch_db.py:_use_temp_db",
+      "type": "function",
+      "name": "_use_temp_db",
+      "filePath": "server/tests/test_batch_db.py",
+      "lineRange": [
+        12,
+        18
+      ],
+      "summary": "封装测试模块中的 _use_temp_db 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_db.py:batch_setup",
+      "type": "function",
+      "name": "batch_setup",
+      "filePath": "server/tests/test_batch_db.py",
+      "lineRange": [
+        22,
+        27
+      ],
+      "summary": "封装测试模块中的 batch_setup 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_db.py:test_insert_and_summary",
+      "type": "function",
+      "name": "test_insert_and_summary",
+      "filePath": "server/tests/test_batch_db.py",
+      "lineRange": [
+        30,
+        37
+      ],
+      "summary": "封装测试模块中的 test_insert_and_summary 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_db.py:test_update_statuses",
+      "type": "function",
+      "name": "test_update_statuses",
+      "filePath": "server/tests/test_batch_db.py",
+      "lineRange": [
+        40,
+        48
+      ],
+      "summary": "封装测试模块中的 test_update_statuses 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_db.py:test_pagination",
+      "type": "function",
+      "name": "test_pagination",
+      "filePath": "server/tests/test_batch_db.py",
+      "lineRange": [
+        51,
+        57
+      ],
+      "summary": "封装测试模块中的 test_pagination 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_db.py:test_failed_indices",
+      "type": "function",
+      "name": "test_failed_indices",
+      "filePath": "server/tests/test_batch_db.py",
+      "lineRange": [
+        60,
+        67
+      ],
+      "summary": "封装测试模块中的 test_failed_indices 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_batch_submit.py",
+      "type": "file",
+      "name": "test_batch_submit.py",
+      "filePath": "server/tests/test_batch_submit.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_batch_submit.py 场景中的核心逻辑与边界情况。结构提取发现 12 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:_run",
+      "type": "function",
+      "name": "_run",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        17,
+        22
+      ],
+      "summary": "封装测试模块中的 _run 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:db",
+      "type": "function",
+      "name": "db",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        26,
+        29
+      ],
+      "summary": "封装测试模块中的 db 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:workflow_id",
+      "type": "function",
+      "name": "workflow_id",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        33,
+        34
+      ],
+      "summary": "封装测试模块中的 workflow_id 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:config",
+      "type": "function",
+      "name": "config",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        38,
+        50
+      ],
+      "summary": "封装测试模块中的 config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:_make_tasks",
+      "type": "function",
+      "name": "_make_tasks",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        53,
+        64
+      ],
+      "summary": "封装测试模块中的 _make_tasks 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:_mock_hpc",
+      "type": "function",
+      "name": "_mock_hpc",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        67,
+        74
+      ],
+      "summary": "封装测试模块中的 _mock_hpc 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:test_batch_creates_array_script",
+      "type": "function",
+      "name": "test_batch_creates_array_script",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        77,
+        104
+      ],
+      "summary": "封装测试模块中的 test_batch_creates_array_script 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:test_batch_updates_all_tasks",
+      "type": "function",
+      "name": "test_batch_updates_all_tasks",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        107,
+        125
+      ],
+      "summary": "封装测试模块中的 test_batch_updates_all_tasks 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:test_batch_returns_none_on_empty",
+      "type": "function",
+      "name": "test_batch_returns_none_on_empty",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        128,
+        131
+      ],
+      "summary": "封装测试模块中的 test_batch_returns_none_on_empty 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:test_batch_returns_none_when_no_hpc",
+      "type": "function",
+      "name": "test_batch_returns_none_when_no_hpc",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        134,
+        142
+      ],
+      "summary": "封装测试模块中的 test_batch_returns_none_when_no_hpc 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:test_batch_marks_tasks_error_on_sbatch_failure",
+      "type": "function",
+      "name": "test_batch_marks_tasks_error_on_sbatch_failure",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        145,
+        163
+      ],
+      "summary": "封装测试模块中的 test_batch_marks_tasks_error_on_sbatch_failure 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_submit.py:test_array_job_threshold",
+      "type": "function",
+      "name": "test_array_job_threshold",
+      "filePath": "server/tests/test_batch_submit.py",
+      "lineRange": [
+        166,
+        169
+      ],
+      "summary": "封装测试模块中的 test_array_job_threshold 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_batch_vasp_shaheen.py",
+      "type": "file",
+      "name": "test_batch_vasp_shaheen.py",
+      "filePath": "server/tests/test_batch_vasp_shaheen.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_batch_vasp_shaheen.py 场景中的核心逻辑与边界情况。结构提取发现 5 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_batch_vasp_shaheen.py:uid",
+      "type": "function",
+      "name": "uid",
+      "filePath": "server/tests/test_batch_vasp_shaheen.py",
+      "lineRange": [
+        62,
+        63
+      ],
+      "summary": "封装测试模块中的 uid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_vasp_shaheen.py:check_backend",
+      "type": "function",
+      "name": "check_backend",
+      "filePath": "server/tests/test_batch_vasp_shaheen.py",
+      "lineRange": [
+        66,
+        71
+      ],
+      "summary": "封装测试模块中的 check_backend 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_vasp_shaheen.py:check_shaheen",
+      "type": "function",
+      "name": "check_shaheen",
+      "filePath": "server/tests/test_batch_vasp_shaheen.py",
+      "lineRange": [
+        74,
+        86
+      ],
+      "summary": "封装测试模块中的 check_shaheen 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_batch_vasp_shaheen.py:shaheen_run_config",
+      "type": "function",
+      "name": "shaheen_run_config",
+      "filePath": "server/tests/test_batch_vasp_shaheen.py",
+      "lineRange": [
+        89,
+        149
+      ],
+      "summary": "封装测试模块中的 shaheen_run_config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_batch_vasp_shaheen.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "server/tests/test_batch_vasp_shaheen.py",
+      "lineRange": [
+        168,
+        383
+      ],
+      "summary": "封装测试模块中的 main 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/tests/test_broadcast.py",
+      "type": "file",
+      "name": "test_broadcast.py",
+      "filePath": "server/tests/test_broadcast.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_broadcast.py 场景中的核心逻辑与边界情况。结构提取发现 6 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_broadcast.py:_clear_listeners",
+      "type": "function",
+      "name": "_clear_listeners",
+      "filePath": "server/tests/test_broadcast.py",
+      "lineRange": [
+        12,
+        17
+      ],
+      "summary": "封装测试模块中的 _clear_listeners 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_broadcast.py:_run",
+      "type": "function",
+      "name": "_run",
+      "filePath": "server/tests/test_broadcast.py",
+      "lineRange": [
+        20,
+        25
+      ],
+      "summary": "封装测试模块中的 _run 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_broadcast.py:test_add_and_remove_listener",
+      "type": "function",
+      "name": "test_add_and_remove_listener",
+      "filePath": "server/tests/test_broadcast.py",
+      "lineRange": [
+        28,
+        32
+      ],
+      "summary": "封装测试模块中的 test_add_and_remove_listener 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_broadcast.py:test_broadcast_delivers_message",
+      "type": "function",
+      "name": "test_broadcast_delivers_message",
+      "filePath": "server/tests/test_broadcast.py",
+      "lineRange": [
+        35,
+        40
+      ],
+      "summary": "封装测试模块中的 test_broadcast_delivers_message 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_broadcast.py:test_broadcast_ignores_other_workflows",
+      "type": "function",
+      "name": "test_broadcast_ignores_other_workflows",
+      "filePath": "server/tests/test_broadcast.py",
+      "lineRange": [
+        43,
+        46
+      ],
+      "summary": "封装测试模块中的 test_broadcast_ignores_other_workflows 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_broadcast.py:test_broadcast_drops_when_full",
+      "type": "function",
+      "name": "test_broadcast_drops_when_full",
+      "filePath": "server/tests/test_broadcast.py",
+      "lineRange": [
+        49,
+        54
+      ],
+      "summary": "封装测试模块中的 test_broadcast_drops_when_full 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_build.py",
+      "type": "file",
+      "name": "test_build.py",
+      "filePath": "server/tests/test_build.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_build.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 2 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_build.py:TestDefect",
+      "type": "class",
+      "name": "TestDefect",
+      "filePath": "server/tests/test_build.py",
+      "lineRange": [
+        10,
+        53
+      ],
+      "summary": "定义测试模块中的 TestDefect 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_build.py:TestStrain",
+      "type": "class",
+      "name": "TestStrain",
+      "filePath": "server/tests/test_build.py",
+      "lineRange": [
+        56,
+        126
+      ],
+      "summary": "定义测试模块中的 TestStrain 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_builtins_execution.py",
+      "type": "file",
+      "name": "test_builtins_execution.py",
+      "filePath": "server/tests/test_builtins_execution.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_builtins_execution.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 5 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_builtins_execution.py:TestStructureInput",
+      "type": "class",
+      "name": "TestStructureInput",
+      "filePath": "server/tests/test_builtins_execution.py",
+      "lineRange": [
+        15,
+        33
+      ],
+      "summary": "定义测试模块中的 TestStructureInput 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_builtins_execution.py:TestGibbsEnergy",
+      "type": "class",
+      "name": "TestGibbsEnergy",
+      "filePath": "server/tests/test_builtins_execution.py",
+      "lineRange": [
+        36,
+        75
+      ],
+      "summary": "定义测试模块中的 TestGibbsEnergy 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_builtins_execution.py:TestSlabGen",
+      "type": "class",
+      "name": "TestSlabGen",
+      "filePath": "server/tests/test_builtins_execution.py",
+      "lineRange": [
+        78,
+        93
+      ],
+      "summary": "定义测试模块中的 TestSlabGen 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_builtins_execution.py:TestAdsorbatePlace",
+      "type": "class",
+      "name": "TestAdsorbatePlace",
+      "filePath": "server/tests/test_builtins_execution.py",
+      "lineRange": [
+        96,
+        109
+      ],
+      "summary": "定义测试模块中的 TestAdsorbatePlace 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_builtins_execution.py:TestStubTasks",
+      "type": "class",
+      "name": "TestStubTasks",
+      "filePath": "server/tests/test_builtins_execution.py",
+      "lineRange": [
+        112,
+        131
+      ],
+      "summary": "定义测试模块中的 TestStubTasks 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_catalysis.py",
+      "type": "file",
+      "name": "test_catalysis.py",
+      "filePath": "server/tests/test_catalysis.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_catalysis.py 场景中的核心逻辑与边界情况。结构提取发现 8 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_catalysis.py:test_gibbs_free_energy_basic",
+      "type": "function",
+      "name": "test_gibbs_free_energy_basic",
+      "filePath": "server/tests/test_catalysis.py",
+      "lineRange": [
+        5,
+        12
+      ],
+      "summary": "封装测试模块中的 test_gibbs_free_energy_basic 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_catalysis.py:test_gibbs_ignores_imaginary_frequencies",
+      "type": "function",
+      "name": "test_gibbs_ignores_imaginary_frequencies",
+      "filePath": "server/tests/test_catalysis.py",
+      "lineRange": [
+        15,
+        19
+      ],
+      "summary": "封装测试模块中的 test_gibbs_ignores_imaginary_frequencies 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_catalysis.py:test_oer_overpotential",
+      "type": "function",
+      "name": "test_oer_overpotential",
+      "filePath": "server/tests/test_catalysis.py",
+      "lineRange": [
+        22,
+        30
+      ],
+      "summary": "封装测试模块中的 test_oer_overpotential 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_catalysis.py:test_oer_ideal_catalyst",
+      "type": "function",
+      "name": "test_oer_ideal_catalyst",
+      "filePath": "server/tests/test_catalysis.py",
+      "lineRange": [
+        33,
+        38
+      ],
+      "summary": "封装测试模块中的 test_oer_ideal_catalyst 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_catalysis.py:test_co2rr_limiting_potential",
+      "type": "function",
+      "name": "test_co2rr_limiting_potential",
+      "filePath": "server/tests/test_catalysis.py",
+      "lineRange": [
+        41,
+        46
+      ],
+      "summary": "封装测试模块中的 test_co2rr_limiting_potential 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_catalysis.py:test_nrr_overpotential",
+      "type": "function",
+      "name": "test_nrr_overpotential",
+      "filePath": "server/tests/test_catalysis.py",
+      "lineRange": [
+        49,
+        52
+      ],
+      "summary": "封装测试模块中的 test_nrr_overpotential 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_catalysis.py:test_volcano_data_generation",
+      "type": "function",
+      "name": "test_volcano_data_generation",
+      "filePath": "server/tests/test_catalysis.py",
+      "lineRange": [
+        55,
+        63
+      ],
+      "summary": "封装测试模块中的 test_volcano_data_generation 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_catalysis.py:test_scaling_relation",
+      "type": "function",
+      "name": "test_scaling_relation",
+      "filePath": "server/tests/test_catalysis.py",
+      "lineRange": [
+        66,
+        69
+      ],
+      "summary": "封装测试模块中的 test_scaling_relation 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_claude_code_mcp.py",
+      "type": "file",
+      "name": "test_claude_code_mcp.py",
+      "filePath": "server/tests/test_claude_code_mcp.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_claude_code_mcp.py 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_claude_code_mcp.py:_get_tools",
+      "type": "function",
+      "name": "_get_tools",
+      "filePath": "server/tests/test_claude_code_mcp.py",
+      "lineRange": [
+        16,
+        22
+      ],
+      "summary": "封装测试模块中的 _get_tools 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_claude_code_mcp.py:TestClaudeCodeToolDefinitions",
+      "type": "class",
+      "name": "TestClaudeCodeToolDefinitions",
+      "filePath": "server/tests/test_claude_code_mcp.py",
+      "lineRange": [
+        25,
+        325
+      ],
+      "summary": "定义测试模块中的 TestClaudeCodeToolDefinitions 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:server/tests/test_conditional.py",
+      "type": "file",
+      "name": "test_conditional.py",
+      "filePath": "server/tests/test_conditional.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_conditional.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 3 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_conditional.py:TestSkippedState",
+      "type": "class",
+      "name": "TestSkippedState",
+      "filePath": "server/tests/test_conditional.py",
+      "lineRange": [
+        12,
+        20
+      ],
+      "summary": "定义测试模块中的 TestSkippedState 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_conditional.py:TestConditionalExecution",
+      "type": "class",
+      "name": "TestConditionalExecution",
+      "filePath": "server/tests/test_conditional.py",
+      "lineRange": [
+        23,
+        118
+      ],
+      "summary": "定义测试模块中的 TestConditionalExecution 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_conditional.py:TestDBSchemaExtensions",
+      "type": "class",
+      "name": "TestDBSchemaExtensions",
+      "filePath": "server/tests/test_conditional.py",
+      "lineRange": [
+        121,
+        169
+      ],
+      "summary": "定义测试模块中的 TestDBSchemaExtensions 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_config.py",
+      "type": "file",
+      "name": "test_config.py",
+      "filePath": "server/tests/test_config.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_config.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_config.py:TestConfig",
+      "type": "class",
+      "name": "TestConfig",
+      "filePath": "server/tests/test_config.py",
+      "lineRange": [
+        7,
+        57
+      ],
+      "summary": "定义测试模块中的 TestConfig 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_cp2k_engine_def.py",
+      "type": "file",
+      "name": "test_cp2k_engine_def.py",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_cp2k_engine_def.py 场景中的核心逻辑与边界情况。结构提取发现 2 个函数和 8 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_engine_def.py:raw_spec",
+      "type": "function",
+      "name": "raw_spec",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        20,
+        22
+      ],
+      "summary": "封装测试模块中的 raw_spec 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_engine_def.py:spec",
+      "type": "function",
+      "name": "spec",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        26,
+        28
+      ],
+      "summary": "封装测试模块中的 spec 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_cp2k_engine_def.py:TestCp2kYamlLoads",
+      "type": "class",
+      "name": "TestCp2kYamlLoads",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        31,
+        39
+      ],
+      "summary": "定义测试模块中的 TestCp2kYamlLoads 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_cp2k_engine_def.py:TestCp2kEngineIdentity",
+      "type": "class",
+      "name": "TestCp2kEngineIdentity",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        42,
+        50
+      ],
+      "summary": "定义测试模块中的 TestCp2kEngineIdentity 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_cp2k_engine_def.py:TestCp2kCalcTypes",
+      "type": "class",
+      "name": "TestCp2kCalcTypes",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        53,
+        82
+      ],
+      "summary": "定义测试模块中的 TestCp2kCalcTypes 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_cp2k_engine_def.py:TestCp2kParams",
+      "type": "class",
+      "name": "TestCp2kParams",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        85,
+        194
+      ],
+      "summary": "定义测试模块中的 TestCp2kParams 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "class:server/tests/test_cp2k_engine_def.py:TestCp2kInputFiles",
+      "type": "class",
+      "name": "TestCp2kInputFiles",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        197,
+        211
+      ],
+      "summary": "定义测试模块中的 TestCp2kInputFiles 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_cp2k_engine_def.py:TestCp2kRunAndOutput",
+      "type": "class",
+      "name": "TestCp2kRunAndOutput",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        214,
+        231
+      ],
+      "summary": "定义测试模块中的 TestCp2kRunAndOutput 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_cp2k_engine_def.py:TestCp2kHooks",
+      "type": "class",
+      "name": "TestCp2kHooks",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        234,
+        242
+      ],
+      "summary": "定义测试模块中的 TestCp2kHooks 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_cp2k_engine_def.py:TestCp2kSafety",
+      "type": "class",
+      "name": "TestCp2kSafety",
+      "filePath": "server/tests/test_cp2k_engine_def.py",
+      "lineRange": [
+        245,
+        247
+      ],
+      "summary": "定义测试模块中的 TestCp2kSafety 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "type": "file",
+      "name": "test_cp2k_shaheen_comprehensive.py",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_cp2k_shaheen_comprehensive.py 场景中的核心逻辑与边界情况。结构提取发现 11 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:uid",
+      "type": "function",
+      "name": "uid",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        55,
+        56
+      ],
+      "summary": "封装测试模块中的 uid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:check_prereqs",
+      "type": "function",
+      "name": "check_prereqs",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        59,
+        78
+      ],
+      "summary": "封装测试模块中的 check_prereqs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:shaheen_cp2k_config",
+      "type": "function",
+      "name": "shaheen_cp2k_config",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        81,
+        124
+      ],
+      "summary": "封装测试模块中的 shaheen_cp2k_config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:create_engine_workflow",
+      "type": "function",
+      "name": "create_engine_workflow",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        127,
+        141
+      ],
+      "summary": "封装测试模块中的 create_engine_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:submit_engine_workflow",
+      "type": "function",
+      "name": "submit_engine_workflow",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        144,
+        150
+      ],
+      "summary": "封装测试模块中的 submit_engine_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:poll_engine_workflow",
+      "type": "function",
+      "name": "poll_engine_workflow",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        153,
+        198
+      ],
+      "summary": "封装测试模块中的 poll_engine_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:get_task_result",
+      "type": "function",
+      "name": "get_task_result",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        201,
+        205
+      ],
+      "summary": "封装测试模块中的 get_task_result 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:test_cp2k_single_point",
+      "type": "function",
+      "name": "test_cp2k_single_point",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        211,
+        268
+      ],
+      "summary": "封装测试模块中的 test_cp2k_single_point 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:test_cp2k_single_point_mgo",
+      "type": "function",
+      "name": "test_cp2k_single_point_mgo",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        274,
+        328
+      ],
+      "summary": "封装测试模块中的 test_cp2k_single_point_mgo 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:test_cp2k_geo_opt",
+      "type": "function",
+      "name": "test_cp2k_geo_opt",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        334,
+        393
+      ],
+      "summary": "封装测试模块中的 test_cp2k_geo_opt 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_cp2k_shaheen_comprehensive.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "server/tests/test_cp2k_shaheen_comprehensive.py",
+      "lineRange": [
+        399,
+        436
+      ],
+      "summary": "封装测试模块中的 main 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_db.py",
+      "type": "file",
+      "name": "test_db.py",
+      "filePath": "server/tests/test_db.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_db.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_db.py:TestDB",
+      "type": "class",
+      "name": "TestDB",
+      "filePath": "server/tests/test_db.py",
+      "lineRange": [
+        6,
+        72
+      ],
+      "summary": "定义测试模块中的 TestDB 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_declarative_engine_functional.py",
+      "type": "file",
+      "name": "test_declarative_engine_functional.py",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_declarative_engine_functional.py 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 11 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_declarative_engine_functional.py:_load_fresh",
+      "type": "function",
+      "name": "_load_fresh",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        88,
+        91
+      ],
+      "summary": "封装测试模块中的 _load_fresh 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestEngineLoading",
+      "type": "class",
+      "name": "TestEngineLoading",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        98,
+        165
+      ],
+      "summary": "定义测试模块中的 TestEngineLoading 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestCalcTypeResolution",
+      "type": "class",
+      "name": "TestCalcTypeResolution",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        172,
+        300
+      ],
+      "summary": "定义测试模块中的 TestCalcTypeResolution 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestTemplateRendering",
+      "type": "class",
+      "name": "TestTemplateRendering",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        307,
+        458
+      ],
+      "summary": "定义测试模块中的 TestTemplateRendering 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestHookSystem",
+      "type": "class",
+      "name": "TestHookSystem",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        465,
+        624
+      ],
+      "summary": "定义测试模块中的 TestHookSystem 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestFrontendParamExport",
+      "type": "class",
+      "name": "TestFrontendParamExport",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        631,
+        727
+      ],
+      "summary": "定义测试模块中的 TestFrontendParamExport 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestSafetyAssessment",
+      "type": "class",
+      "name": "TestSafetyAssessment",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        734,
+        804
+      ],
+      "summary": "定义测试模块中的 TestSafetyAssessment 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestCustomEngineCreation",
+      "type": "class",
+      "name": "TestCustomEngineCreation",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        811,
+        888
+      ],
+      "summary": "定义测试模块中的 TestCustomEngineCreation 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestRegistryBridge",
+      "type": "class",
+      "name": "TestRegistryBridge",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        895,
+        964
+      ],
+      "summary": "定义测试模块中的 TestRegistryBridge 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestSerialization",
+      "type": "class",
+      "name": "TestSerialization",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        971,
+        1032
+      ],
+      "summary": "定义测试模块中的 TestSerialization 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestEdgeCases",
+      "type": "class",
+      "name": "TestEdgeCases",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        1039,
+        1186
+      ],
+      "summary": "定义测试模块中的 TestEdgeCases 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_declarative_engine_functional.py:TestFullIntegration",
+      "type": "class",
+      "name": "TestFullIntegration",
+      "filePath": "server/tests/test_declarative_engine_functional.py",
+      "lineRange": [
+        1193,
+        1276
+      ],
+      "summary": "定义测试模块中的 TestFullIntegration 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_engine_advancer.py",
+      "type": "file",
+      "name": "test_engine_advancer.py",
+      "filePath": "server/tests/test_engine_advancer.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_engine_advancer.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_engine_advancer.py:TestAdvancer",
+      "type": "class",
+      "name": "TestAdvancer",
+      "filePath": "server/tests/test_engine_advancer.py",
+      "lineRange": [
+        7,
+        61
+      ],
+      "summary": "定义测试模块中的 TestAdvancer 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_engine_defs_schema.py",
+      "type": "file",
+      "name": "test_engine_defs_schema.py",
+      "filePath": "server/tests/test_engine_defs_schema.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_engine_defs_schema.py 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 4 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_engine_defs_schema.py:_minimal_raw",
+      "type": "function",
+      "name": "_minimal_raw",
+      "filePath": "server/tests/test_engine_defs_schema.py",
+      "lineRange": [
+        14,
+        26
+      ],
+      "summary": "封装测试模块中的 _minimal_raw 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_engine_defs_schema.py:TestValidateEngineSpecHappyPath",
+      "type": "class",
+      "name": "TestValidateEngineSpecHappyPath",
+      "filePath": "server/tests/test_engine_defs_schema.py",
+      "lineRange": [
+        29,
+        51
+      ],
+      "summary": "定义测试模块中的 TestValidateEngineSpecHappyPath 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_engine_defs_schema.py:TestMissingRequiredFields",
+      "type": "class",
+      "name": "TestMissingRequiredFields",
+      "filePath": "server/tests/test_engine_defs_schema.py",
+      "lineRange": [
+        54,
+        66
+      ],
+      "summary": "定义测试模块中的 TestMissingRequiredFields 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_engine_defs_schema.py:TestTypeErrorConvertedToValueError",
+      "type": "class",
+      "name": "TestTypeErrorConvertedToValueError",
+      "filePath": "server/tests/test_engine_defs_schema.py",
+      "lineRange": [
+        69,
+        113
+      ],
+      "summary": "定义测试模块中的 TestTypeErrorConvertedToValueError 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_engine_defs_schema.py:TestInvalidSafetyValue",
+      "type": "class",
+      "name": "TestInvalidSafetyValue",
+      "filePath": "server/tests/test_engine_defs_schema.py",
+      "lineRange": [
+        116,
+        144
+      ],
+      "summary": "定义测试模块中的 TestInvalidSafetyValue 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_engine_error_handler.py",
+      "type": "file",
+      "name": "test_engine_error_handler.py",
+      "filePath": "server/tests/test_engine_error_handler.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_engine_error_handler.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_engine_error_handler.py:TestErrorHandler",
+      "type": "class",
+      "name": "TestErrorHandler",
+      "filePath": "server/tests/test_engine_error_handler.py",
+      "lineRange": [
+        8,
+        41
+      ],
+      "summary": "定义测试模块中的 TestErrorHandler 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_engine_features_shaheen.py",
+      "type": "file",
+      "name": "test_engine_features_shaheen.py",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_engine_features_shaheen.py 场景中的核心逻辑与边界情况。结构提取发现 10 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:uid",
+      "type": "function",
+      "name": "uid",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        38,
+        39
+      ],
+      "summary": "封装测试模块中的 uid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:vasp_config",
+      "type": "function",
+      "name": "vasp_config",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        42,
+        102
+      ],
+      "summary": "封装测试模块中的 vasp_config 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:check_prereqs",
+      "type": "function",
+      "name": "check_prereqs",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        105,
+        124
+      ],
+      "summary": "封装测试模块中的 check_prereqs 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:make_sp_graph",
+      "type": "function",
+      "name": "make_sp_graph",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        127,
+        143
+      ],
+      "summary": "封装测试模块中的 make_sp_graph 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:test_convert_and_list",
+      "type": "function",
+      "name": "test_convert_and_list",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        149,
+        194
+      ],
+      "summary": "封装测试模块中的 test_convert_and_list 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:test_submit_pause_resume",
+      "type": "function",
+      "name": "test_submit_pause_resume",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        200,
+        279
+      ],
+      "summary": "封装测试模块中的 test_submit_pause_resume 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:test_reset",
+      "type": "function",
+      "name": "test_reset",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        285,
+        362
+      ],
+      "summary": "封装测试模块中的 test_reset 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:test_sequential_chain",
+      "type": "function",
+      "name": "test_sequential_chain",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        368,
+        495
+      ],
+      "summary": "封装测试模块中的 test_sequential_chain 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:test_task_level_api",
+      "type": "function",
+      "name": "test_task_level_api",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        501,
+        551
+      ],
+      "summary": "封装测试模块中的 test_task_level_api 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_engine_features_shaheen.py:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "server/tests/test_engine_features_shaheen.py",
+      "lineRange": [
+        557,
+        596
+      ],
+      "summary": "封装测试模块中的 main 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_engine_lifecycle.py",
+      "type": "file",
+      "name": "test_engine_lifecycle.py",
+      "filePath": "server/tests/test_engine_lifecycle.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_engine_lifecycle.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 3 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_engine_lifecycle.py:TestLifecycle",
+      "type": "class",
+      "name": "TestLifecycle",
+      "filePath": "server/tests/test_engine_lifecycle.py",
+      "lineRange": [
+        11,
+        79
+      ],
+      "summary": "定义测试模块中的 TestLifecycle 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_engine_lifecycle.py:TestWorkflowStateDerivation",
+      "type": "class",
+      "name": "TestWorkflowStateDerivation",
+      "filePath": "server/tests/test_engine_lifecycle.py",
+      "lineRange": [
+        82,
+        107
+      ],
+      "summary": "定义测试模块中的 TestWorkflowStateDerivation 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_engine_lifecycle.py:TestScannerDraftGuard",
+      "type": "class",
+      "name": "TestScannerDraftGuard",
+      "filePath": "server/tests/test_engine_lifecycle.py",
+      "lineRange": [
+        110,
+        149
+      ],
+      "summary": "定义测试模块中的 TestScannerDraftGuard 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_engine_merge.py",
+      "type": "file",
+      "name": "test_engine_merge.py",
+      "filePath": "server/tests/test_engine_merge.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_engine_merge.py 场景中的核心逻辑与边界情况。结构提取发现 7 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_engine_merge.py:_make_db",
+      "type": "function",
+      "name": "_make_db",
+      "filePath": "server/tests/test_engine_merge.py",
+      "lineRange": [
+        16,
+        19
+      ],
+      "summary": "封装测试模块中的 _make_db 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_merge.py:_sample_graph",
+      "type": "function",
+      "name": "_sample_graph",
+      "filePath": "server/tests/test_engine_merge.py",
+      "lineRange": [
+        22,
+        31
+      ],
+      "summary": "封装测试模块中的 _sample_graph 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_merge.py:test_convert_preserves_ids",
+      "type": "function",
+      "name": "test_convert_preserves_ids",
+      "filePath": "server/tests/test_engine_merge.py",
+      "lineRange": [
+        34,
+        41
+      ],
+      "summary": "封装测试模块中的 test_convert_preserves_ids 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_merge.py:test_v1_compat_after_submit",
+      "type": "function",
+      "name": "test_v1_compat_after_submit",
+      "filePath": "server/tests/test_engine_merge.py",
+      "lineRange": [
+        44,
+        57
+      ],
+      "summary": "封装测试模块中的 test_v1_compat_after_submit 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_merge.py:test_pause_resume_reset_cycle",
+      "type": "function",
+      "name": "test_pause_resume_reset_cycle",
+      "filePath": "server/tests/test_engine_merge.py",
+      "lineRange": [
+        60,
+        78
+      ],
+      "summary": "封装测试模块中的 test_pause_resume_reset_cycle 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_merge.py:test_local_task_executes_in_scan",
+      "type": "function",
+      "name": "test_local_task_executes_in_scan",
+      "filePath": "server/tests/test_engine_merge.py",
+      "lineRange": [
+        81,
+        101
+      ],
+      "summary": "封装测试模块中的 test_local_task_executes_in_scan 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:server/tests/test_engine_merge.py:test_explicit_workflow_id",
+      "type": "function",
+      "name": "test_explicit_workflow_id",
+      "filePath": "server/tests/test_engine_merge.py",
+      "lineRange": [
+        104,
+        114
+      ],
+      "summary": "封装测试模块中的 test_explicit_workflow_id 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_engine_resolver.py",
+      "type": "file",
+      "name": "test_engine_resolver.py",
+      "filePath": "server/tests/test_engine_resolver.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_engine_resolver.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_engine_resolver.py:TestResolver",
+      "type": "class",
+      "name": "TestResolver",
+      "filePath": "server/tests/test_engine_resolver.py",
+      "lineRange": [
+        8,
+        101
+      ],
+      "summary": "定义测试模块中的 TestResolver 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_engine_scanner.py",
+      "type": "file",
+      "name": "test_engine_scanner.py",
+      "filePath": "server/tests/test_engine_scanner.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_engine_scanner.py 场景中的核心逻辑与边界情况。结构提取发现 0 个函数和 1 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "class:server/tests/test_engine_scanner.py:TestScanner",
+      "type": "class",
+      "name": "TestScanner",
+      "filePath": "server/tests/test_engine_scanner.py",
+      "lineRange": [
+        11,
+        68
+      ],
+      "summary": "定义测试模块中的 TestScanner 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:server/tests/test_engine_task_monitoring.py",
+      "type": "file",
+      "name": "test_engine_task_monitoring.py",
+      "filePath": "server/tests/test_engine_task_monitoring.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_engine_task_monitoring.py 场景中的核心逻辑与边界情况。结构提取发现 1 个函数和 6 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_engine_task_monitoring.py:_make_app",
+      "type": "function",
+      "name": "_make_app",
+      "filePath": "server/tests/test_engine_task_monitoring.py",
+      "lineRange": [
+        18,
+        21
+      ],
+      "summary": "封装测试模块中的 _make_app 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_engine_task_monitoring.py:FakeDB",
+      "type": "class",
+      "name": "FakeDB",
+      "filePath": "server/tests/test_engine_task_monitoring.py",
+      "lineRange": [
+        24,
+        37
+      ],
+      "summary": "定义测试模块中的 FakeDB 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskFiles",
+      "type": "class",
+      "name": "TestGetTaskFiles",
+      "filePath": "server/tests/test_engine_task_monitoring.py",
+      "lineRange": [
+        51,
+        92
+      ],
+      "summary": "定义测试模块中的 TestGetTaskFiles 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskConvergence",
+      "type": "class",
+      "name": "TestGetTaskConvergence",
+      "filePath": "server/tests/test_engine_task_monitoring.py",
+      "lineRange": [
+        95,
+        127
+      ],
+      "summary": "定义测试模块中的 TestGetTaskConvergence 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskFileContent",
+      "type": "class",
+      "name": "TestGetTaskFileContent",
+      "filePath": "server/tests/test_engine_task_monitoring.py",
+      "lineRange": [
+        130,
+        164
+      ],
+      "summary": "定义测试模块中的 TestGetTaskFileContent 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_engine_task_monitoring.py:TestPutTaskFileContent",
+      "type": "class",
+      "name": "TestPutTaskFileContent",
+      "filePath": "server/tests/test_engine_task_monitoring.py",
+      "lineRange": [
+        167,
+        189
+      ],
+      "summary": "定义测试模块中的 TestPutTaskFileContent 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskFrequencies",
+      "type": "class",
+      "name": "TestGetTaskFrequencies",
+      "filePath": "server/tests/test_engine_task_monitoring.py",
+      "lineRange": [
+        192,
+        222
+      ],
+      "summary": "定义测试模块中的 TestGetTaskFrequencies 类型，集中组织相关状态、方法或数据结构。",
+      "tags": [
+        "data-model",
+        "class",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:server/tests/test_expanse_e2e.py",
+      "type": "file",
+      "name": "test_expanse_e2e.py",
+      "filePath": "server/tests/test_expanse_e2e.py",
+      "summary": "覆盖测试相关行为的测试文件，验证 test_expanse_e2e.py 场景中的核心逻辑与边界情况。结构提取发现 3 个函数和 0 个类/类型。",
+      "tags": [
+        "test",
+        "code",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 python 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:server/tests/test_expanse_e2e.py:test_local_workflow",
+      "type": "function",
+      "name": "test_local_workflow",
+      "filePath": "server/tests/test_expanse_e2e.py",
+      "lineRange": [
+        31,
+        80
+      ],
+      "summary": "封装测试模块中的 test_local_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_expanse_e2e.py:test_chained_workflow",
+      "type": "function",
+      "name": "test_chained_workflow",
+      "filePath": "server/tests/test_expanse_e2e.py",
+      "lineRange": [
+        83,
+        133
+      ],
+      "summary": "封装测试模块中的 test_chained_workflow 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:server/tests/test_expanse_e2e.py:test_graph_converter",
+      "type": "function",
+      "name": "test_graph_converter",
+      "filePath": "server/tests/test_expanse_e2e.py",
+      "lineRange": [
+        136,
+        181
+      ],
+      "summary": "封装测试模块中的 test_graph_converter 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "test",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "function:server/tests/test_ase_opt_log_parser.py:_write",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "class:server/tests/test_ase_opt_log_parser.py:TestHappyPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "class:server/tests/test_ase_opt_log_parser.py:TestScientificNotation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "class:server/tests/test_ase_opt_log_parser.py:TestEdgeCases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "class:server/tests/test_ase_opt_log_parser.py:TestFmaxTarget",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "function:server/tests/test_ase_opt_log_parser.py:_write",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "class:server/tests/test_ase_opt_log_parser.py:TestHappyPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "class:server/tests/test_ase_opt_log_parser.py:TestScientificNotation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "class:server/tests/test_ase_opt_log_parser.py:TestEdgeCases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_ase_opt_log_parser.py",
+      "target": "class:server/tests/test_ase_opt_log_parser.py:TestFmaxTarget",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:_use_temp_db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:batch_setup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:test_insert_and_summary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:test_update_statuses",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:test_pagination",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:test_failed_indices",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:_use_temp_db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:batch_setup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:test_insert_and_summary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:test_update_statuses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:test_pagination",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_db.py",
+      "target": "function:server/tests/test_batch_db.py:test_failed_indices",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:workflow_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:_make_tasks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:_mock_hpc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_creates_array_script",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_updates_all_tasks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_returns_none_on_empty",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_returns_none_when_no_hpc",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_marks_tasks_error_on_sbatch_failure",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_array_job_threshold",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:workflow_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:_make_tasks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:_mock_hpc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_creates_array_script",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_updates_all_tasks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_returns_none_on_empty",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_returns_none_when_no_hpc",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_batch_marks_tasks_error_on_sbatch_failure",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_submit.py",
+      "target": "function:server/tests/test_batch_submit.py:test_array_job_threshold",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:uid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:check_backend",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:check_shaheen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:shaheen_run_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:uid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:check_backend",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:check_shaheen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:shaheen_run_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_batch_vasp_shaheen.py",
+      "target": "function:server/tests/test_batch_vasp_shaheen.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:_clear_listeners",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:_run",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:test_add_and_remove_listener",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:test_broadcast_delivers_message",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:test_broadcast_ignores_other_workflows",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:test_broadcast_drops_when_full",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:_clear_listeners",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:_run",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:test_add_and_remove_listener",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:test_broadcast_delivers_message",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:test_broadcast_ignores_other_workflows",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_broadcast.py",
+      "target": "function:server/tests/test_broadcast.py:test_broadcast_drops_when_full",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_build.py",
+      "target": "class:server/tests/test_build.py:TestDefect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_build.py",
+      "target": "class:server/tests/test_build.py:TestStrain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_build.py",
+      "target": "class:server/tests/test_build.py:TestDefect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_build.py",
+      "target": "class:server/tests/test_build.py:TestStrain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestStructureInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestGibbsEnergy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestSlabGen",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestAdsorbatePlace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestStubTasks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestStructureInput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestGibbsEnergy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestSlabGen",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestAdsorbatePlace",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_builtins_execution.py",
+      "target": "class:server/tests/test_builtins_execution.py:TestStubTasks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_gibbs_free_energy_basic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_gibbs_ignores_imaginary_frequencies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_oer_overpotential",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_oer_ideal_catalyst",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_co2rr_limiting_potential",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_nrr_overpotential",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_volcano_data_generation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_scaling_relation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_gibbs_free_energy_basic",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_gibbs_ignores_imaginary_frequencies",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_oer_overpotential",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_oer_ideal_catalyst",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_co2rr_limiting_potential",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_nrr_overpotential",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_volcano_data_generation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_catalysis.py",
+      "target": "function:server/tests/test_catalysis.py:test_scaling_relation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_claude_code_mcp.py",
+      "target": "function:server/tests/test_claude_code_mcp.py:_get_tools",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_claude_code_mcp.py",
+      "target": "class:server/tests/test_claude_code_mcp.py:TestClaudeCodeToolDefinitions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_claude_code_mcp.py",
+      "target": "function:server/tests/test_claude_code_mcp.py:_get_tools",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_claude_code_mcp.py",
+      "target": "class:server/tests/test_claude_code_mcp.py:TestClaudeCodeToolDefinitions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_conditional.py",
+      "target": "class:server/tests/test_conditional.py:TestSkippedState",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_conditional.py",
+      "target": "class:server/tests/test_conditional.py:TestConditionalExecution",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_conditional.py",
+      "target": "class:server/tests/test_conditional.py:TestDBSchemaExtensions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_conditional.py",
+      "target": "class:server/tests/test_conditional.py:TestSkippedState",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_conditional.py",
+      "target": "class:server/tests/test_conditional.py:TestConditionalExecution",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_conditional.py",
+      "target": "class:server/tests/test_conditional.py:TestDBSchemaExtensions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_config.py",
+      "target": "class:server/tests/test_config.py:TestConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_config.py",
+      "target": "class:server/tests/test_config.py:TestConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "function:server/tests/test_cp2k_engine_def.py:raw_spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "function:server/tests/test_cp2k_engine_def.py:spec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kYamlLoads",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kEngineIdentity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kCalcTypes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kInputFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kRunAndOutput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kHooks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kSafety",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "function:server/tests/test_cp2k_engine_def.py:raw_spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "function:server/tests/test_cp2k_engine_def.py:spec",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kYamlLoads",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kEngineIdentity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kCalcTypes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kInputFiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kRunAndOutput",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kHooks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_engine_def.py",
+      "target": "class:server/tests/test_cp2k_engine_def.py:TestCp2kSafety",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:uid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:check_prereqs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:shaheen_cp2k_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:create_engine_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:submit_engine_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:poll_engine_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:get_task_result",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:test_cp2k_single_point",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:test_cp2k_single_point_mgo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:test_cp2k_geo_opt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:uid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:check_prereqs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:shaheen_cp2k_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:create_engine_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:submit_engine_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:poll_engine_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:get_task_result",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:test_cp2k_single_point",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:test_cp2k_single_point_mgo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:test_cp2k_geo_opt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_cp2k_shaheen_comprehensive.py",
+      "target": "function:server/tests/test_cp2k_shaheen_comprehensive.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_db.py",
+      "target": "class:server/tests/test_db.py:TestDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_db.py",
+      "target": "class:server/tests/test_db.py:TestDB",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "function:server/tests/test_declarative_engine_functional.py:_load_fresh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestEngineLoading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestCalcTypeResolution",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestTemplateRendering",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestHookSystem",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestFrontendParamExport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestSafetyAssessment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestCustomEngineCreation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestRegistryBridge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestSerialization",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestEdgeCases",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestFullIntegration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "function:server/tests/test_declarative_engine_functional.py:_load_fresh",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestEngineLoading",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestCalcTypeResolution",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestTemplateRendering",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestHookSystem",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestFrontendParamExport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestSafetyAssessment",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestCustomEngineCreation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestRegistryBridge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestSerialization",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestEdgeCases",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_declarative_engine_functional.py",
+      "target": "class:server/tests/test_declarative_engine_functional.py:TestFullIntegration",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_advancer.py",
+      "target": "class:server/tests/test_engine_advancer.py:TestAdvancer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_advancer.py",
+      "target": "class:server/tests/test_engine_advancer.py:TestAdvancer",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "function:server/tests/test_engine_defs_schema.py:_minimal_raw",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "class:server/tests/test_engine_defs_schema.py:TestValidateEngineSpecHappyPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "class:server/tests/test_engine_defs_schema.py:TestMissingRequiredFields",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "class:server/tests/test_engine_defs_schema.py:TestTypeErrorConvertedToValueError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "class:server/tests/test_engine_defs_schema.py:TestInvalidSafetyValue",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "function:server/tests/test_engine_defs_schema.py:_minimal_raw",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "class:server/tests/test_engine_defs_schema.py:TestValidateEngineSpecHappyPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "class:server/tests/test_engine_defs_schema.py:TestMissingRequiredFields",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "class:server/tests/test_engine_defs_schema.py:TestTypeErrorConvertedToValueError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_defs_schema.py",
+      "target": "class:server/tests/test_engine_defs_schema.py:TestInvalidSafetyValue",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_error_handler.py",
+      "target": "class:server/tests/test_engine_error_handler.py:TestErrorHandler",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_error_handler.py",
+      "target": "class:server/tests/test_engine_error_handler.py:TestErrorHandler",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:uid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:vasp_config",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:check_prereqs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:make_sp_graph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_convert_and_list",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_submit_pause_resume",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_reset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_sequential_chain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_task_level_api",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:uid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:vasp_config",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:check_prereqs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:make_sp_graph",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_convert_and_list",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_submit_pause_resume",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_reset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_sequential_chain",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:test_task_level_api",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_features_shaheen.py",
+      "target": "function:server/tests/test_engine_features_shaheen.py:main",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_lifecycle.py",
+      "target": "class:server/tests/test_engine_lifecycle.py:TestLifecycle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_lifecycle.py",
+      "target": "class:server/tests/test_engine_lifecycle.py:TestWorkflowStateDerivation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_lifecycle.py",
+      "target": "class:server/tests/test_engine_lifecycle.py:TestScannerDraftGuard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_lifecycle.py",
+      "target": "class:server/tests/test_engine_lifecycle.py:TestLifecycle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_lifecycle.py",
+      "target": "class:server/tests/test_engine_lifecycle.py:TestWorkflowStateDerivation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_lifecycle.py",
+      "target": "class:server/tests/test_engine_lifecycle.py:TestScannerDraftGuard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:_make_db",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:_sample_graph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_convert_preserves_ids",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_v1_compat_after_submit",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_pause_resume_reset_cycle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_local_task_executes_in_scan",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_explicit_workflow_id",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:_make_db",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:_sample_graph",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_convert_preserves_ids",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_v1_compat_after_submit",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_pause_resume_reset_cycle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_local_task_executes_in_scan",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_merge.py",
+      "target": "function:server/tests/test_engine_merge.py:test_explicit_workflow_id",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_resolver.py",
+      "target": "class:server/tests/test_engine_resolver.py:TestResolver",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_resolver.py",
+      "target": "class:server/tests/test_engine_resolver.py:TestResolver",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_scanner.py",
+      "target": "class:server/tests/test_engine_scanner.py:TestScanner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_scanner.py",
+      "target": "class:server/tests/test_engine_scanner.py:TestScanner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "function:server/tests/test_engine_task_monitoring.py:_make_app",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:FakeDB",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskConvergence",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskFileContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestPutTaskFileContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskFrequencies",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "function:server/tests/test_engine_task_monitoring.py:_make_app",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:FakeDB",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskFiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskConvergence",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskFileContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestPutTaskFileContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_engine_task_monitoring.py",
+      "target": "class:server/tests/test_engine_task_monitoring.py:TestGetTaskFrequencies",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_expanse_e2e.py",
+      "target": "function:server/tests/test_expanse_e2e.py:test_local_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_expanse_e2e.py",
+      "target": "function:server/tests/test_expanse_e2e.py:test_chained_workflow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_expanse_e2e.py",
+      "target": "function:server/tests/test_expanse_e2e.py:test_graph_converter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:server/tests/test_expanse_e2e.py",
+      "target": "function:server/tests/test_expanse_e2e.py:test_local_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_expanse_e2e.py",
+      "target": "function:server/tests/test_expanse_e2e.py:test_chained_workflow",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:server/tests/test_expanse_e2e.py",
+      "target": "function:server/tests/test_expanse_e2e.py:test_graph_converter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

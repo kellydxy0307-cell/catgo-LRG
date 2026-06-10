@@ -1,0 +1,5758 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/lib/chat/ChatPane.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 3182,
+      "nonEmptyLines": 3029,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/chat/client-llm.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 192,
+      "nonEmptyLines": 180,
+      "functions": [
+        {
+          "name": "to_openai_message",
+          "startLine": 156,
+          "endLine": 192,
+          "params": [
+            "m"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "PROVIDER_BASE_URLS",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "to_openai_message",
+          "line": 156,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "to_openai_message",
+          "callee": "m.content.find",
+          "lineNumber": 160
+        },
+        {
+          "caller": "to_openai_message",
+          "callee": "JSON.stringify",
+          "lineNumber": 164
+        },
+        {
+          "caller": "to_openai_message",
+          "callee": "m.content.filter",
+          "lineNumber": 169
+        },
+        {
+          "caller": "to_openai_message",
+          "callee": "use_blocks.find",
+          "lineNumber": 173
+        },
+        {
+          "caller": "to_openai_message",
+          "callee": "use_blocks.map",
+          "lineNumber": 178
+        },
+        {
+          "caller": "to_openai_message",
+          "callee": "JSON.stringify",
+          "lineNumber": 181
+        },
+        {
+          "caller": "to_openai_message",
+          "callee": "m.content\r\n    .filter((b): b is import('./types').TextBlock => b.type === `text`)\r\n    .map((b) => b.text)\r\n    .join",
+          "lineNumber": 187
+        },
+        {
+          "caller": "to_openai_message",
+          "callee": "m.content\r\n    .filter((b): b is import('./types').TextBlock => b.type === `text`)\r\n    .map",
+          "lineNumber": 187
+        },
+        {
+          "caller": "to_openai_message",
+          "callee": "m.content\r\n    .filter",
+          "lineNumber": 187
+        },
+        {
+          "caller": "to_openai_message",
+          "callee": "import",
+          "lineNumber": 188
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/context.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 278,
+      "nonEmptyLines": 248,
+      "functions": [
+        {
+          "name": "strip_html",
+          "startLine": 19,
+          "endLine": 21,
+          "params": [
+            "html"
+          ]
+        },
+        {
+          "name": "get_composition",
+          "startLine": 24,
+          "endLine": 32,
+          "params": [
+            "structure"
+          ]
+        },
+        {
+          "name": "fmt",
+          "startLine": 35,
+          "endLine": 37,
+          "params": [
+            "n",
+            "digits"
+          ]
+        },
+        {
+          "name": "build_structure_context",
+          "startLine": 39,
+          "endLine": 147,
+          "params": [
+            "ctx"
+          ]
+        },
+        {
+          "name": "build_workflow_context",
+          "startLine": 150,
+          "endLine": 199,
+          "params": [
+            "wf"
+          ]
+        },
+        {
+          "name": "build_paper_context",
+          "startLine": 202,
+          "endLine": 252,
+          "params": [
+            "data"
+          ]
+        },
+        {
+          "name": "build_paper_context_from_doi",
+          "startLine": 255,
+          "endLine": 278,
+          "params": [
+            "data"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "build_structure_context",
+          "line": 39,
+          "isDefault": false
+        },
+        {
+          "name": "build_workflow_context",
+          "line": 150,
+          "isDefault": false
+        },
+        {
+          "name": "build_paper_context",
+          "line": 202,
+          "isDefault": false
+        },
+        {
+          "name": "build_paper_context_from_doi",
+          "line": 255,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "strip_html",
+          "callee": "html.replace",
+          "lineNumber": 20
+        },
+        {
+          "caller": "fmt",
+          "callee": "Number(n.toFixed(digits)).toString",
+          "lineNumber": 36
+        },
+        {
+          "caller": "fmt",
+          "callee": "Number",
+          "lineNumber": 36
+        },
+        {
+          "caller": "fmt",
+          "callee": "n.toFixed",
+          "lineNumber": 36
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 44
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "strip_html",
+          "lineNumber": 47
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "electro_neg_formula",
+          "lineNumber": 47
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 48
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 49
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "get_composition",
+          "lineNumber": 52
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Object.entries(comp)\r\n    .map(([el, n]) => `${el}: ${n % 1 === 0 ? n : fmt(n)}`)\r\n    .join",
+          "lineNumber": 53
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Object.entries(comp)\r\n    .map",
+          "lineNumber": 53
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Object.entries",
+          "lineNumber": 53
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 54
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 56
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 60
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 66
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 66
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 66
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 66
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 66
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 66
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 66
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 69
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 69
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "get_density",
+          "lineNumber": 71
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "isFinite",
+          "lineNumber": 72
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 73
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 73
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lat.pbc?.map((p) => (p ? `T` : `F`)).join",
+          "lineNumber": 75
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lat.pbc?.map",
+          "lineNumber": 75
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 76
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 81
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 86
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 87
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 89
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 91
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "wyckoff_counts[wp].includes",
+          "lineNumber": 100
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "wyckoff_counts[wp].push",
+          "lineNumber": 100
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Object.entries(wyckoff_counts)\r\n        .map(([wp, elems]) => `${wp}(${elems.join(`,`)})`)\r\n        .join",
+          "lineNumber": 102
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Object.entries(wyckoff_counts)\r\n        .map",
+          "lineNumber": 102
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Object.entries",
+          "lineNumber": 102
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "elems.join",
+          "lineNumber": 103
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 105
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 111
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "selected_sites.slice",
+          "lineNumber": 113
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "site.xyz.map((v) => fmt(v)).join",
+          "lineNumber": 118
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "site.xyz.map",
+          "lineNumber": 118
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 118
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 119
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 122
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Object.keys",
+          "lineNumber": 128
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Object.keys",
+          "lineNumber": 129
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 130
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 131
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "prop_keys.join",
+          "lineNumber": 131
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "structure.sites\r\n        .map((s) => s.properties?.forces as number[] | undefined)\r\n        .filter",
+          "lineNumber": 135
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "structure.sites\r\n        .map",
+          "lineNumber": 135
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "forces.map",
+          "lineNumber": 139
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Math.sqrt",
+          "lineNumber": 139
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "Math.max",
+          "lineNumber": 140
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.push",
+          "lineNumber": 141
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "fmt",
+          "lineNumber": 141
+        },
+        {
+          "caller": "build_structure_context",
+          "callee": "lines.join",
+          "lineNumber": 146
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 154
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 155
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 156
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 157
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 160
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "Object.entries(node.params)\r\n        .slice(0, 5)\r\n        .map(([k, v]) => `${k}=${JSON.stringify(v)}`)\r\n        .join",
+          "lineNumber": 164
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "Object.entries(node.params)\r\n        .slice(0, 5)\r\n        .map",
+          "lineNumber": 164
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "Object.entries(node.params)\r\n        .slice",
+          "lineNumber": 164
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "Object.entries",
+          "lineNumber": 164
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "JSON.stringify",
+          "lineNumber": 166
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 169
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 174
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "wf.nodes.find",
+          "lineNumber": 176
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "wf.nodes.find",
+          "lineNumber": 177
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 178
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "Object.entries(wf.node_statuses)\r\n    .filter",
+          "lineNumber": 183
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "Object.entries",
+          "lineNumber": 183
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 186
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "wf.nodes.find",
+          "lineNumber": 188
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 189
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 194
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.push",
+          "lineNumber": 195
+        },
+        {
+          "caller": "build_workflow_context",
+          "callee": "lines.join",
+          "lineNumber": 198
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 211
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 212
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 213
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "data.authors.join",
+          "lineNumber": 213
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 214
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 215
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 216
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 219
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 220
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 221
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "text.search",
+          "lineNumber": 227
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "text.slice",
+          "lineNumber": 231
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "Math.min",
+          "lineNumber": 231
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "text.slice",
+          "lineNumber": 232
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "text.slice",
+          "lineNumber": 233
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 234
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 235
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 236
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 237
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 238
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 239
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 241
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 242
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "text.slice",
+          "lineNumber": 242
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 243
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 244
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "text.slice",
+          "lineNumber": 244
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 247
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.push",
+          "lineNumber": 248
+        },
+        {
+          "caller": "build_paper_context",
+          "callee": "lines.join",
+          "lineNumber": 251
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 264
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 265
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 266
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "data.authors.join",
+          "lineNumber": 266
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 267
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 268
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 269
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 271
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 272
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 273
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 275
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.push",
+          "lineNumber": 276
+        },
+        {
+          "caller": "build_paper_context_from_doi",
+          "callee": "lines.join",
+          "lineNumber": 277
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/FileProposalRenderer.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 272,
+      "nonEmptyLines": 236,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/chat/hetero-stash.svelte.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 64,
+      "nonEmptyLines": 54,
+      "functions": [
+        {
+          "name": "set_film_stash",
+          "startLine": 26,
+          "endLine": 28,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "get_film_stash",
+          "startLine": 31,
+          "endLine": 33,
+          "params": []
+        },
+        {
+          "name": "set_hetero_matches",
+          "startLine": 36,
+          "endLine": 38,
+          "params": [
+            "m"
+          ]
+        },
+        {
+          "name": "get_hetero_matches",
+          "startLine": 41,
+          "endLine": 43,
+          "params": []
+        },
+        {
+          "name": "set_lateral_matches",
+          "startLine": 46,
+          "endLine": 48,
+          "params": [
+            "m"
+          ]
+        },
+        {
+          "name": "get_lateral_matches",
+          "startLine": 51,
+          "endLine": 53,
+          "params": []
+        },
+        {
+          "name": "set_bulk_stash",
+          "startLine": 57,
+          "endLine": 59,
+          "params": [
+            "s"
+          ]
+        },
+        {
+          "name": "get_bulk_stash",
+          "startLine": 62,
+          "endLine": 64,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "set_film_stash",
+          "line": 26,
+          "isDefault": false
+        },
+        {
+          "name": "get_film_stash",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "set_hetero_matches",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "get_hetero_matches",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "set_lateral_matches",
+          "line": 46,
+          "isDefault": false
+        },
+        {
+          "name": "get_lateral_matches",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "set_bulk_stash",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "get_bulk_stash",
+          "line": 62,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 31,
+      "exports": [
+        {
+          "name": "ChatPane",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "AgentType",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "Attachment",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ChatConfig",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ChatMessage",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ContentBlock",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "DocChunk",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "LLMProvider",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ProviderMode",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ProviderInfoResponse",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "SessionSummary",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "TextBlock",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ToolUseBlock",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "ToolResultBlock",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "SDK_PROVIDERS",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "agent_from_provider",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "default_mode_for",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "get_display_text",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "get_tool_uses",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "ToolDefinition",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "TOOL_DEFINITIONS",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "WorkflowActionHandler",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "register_workflow_action_handler",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "unregister_workflow_action_handler",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "ChatPosition",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "ChatSlice",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "PaperSession",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "ToolEntry",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "PermissionEntry",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "chat_config",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "chat_username",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "chat_position",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "set_chat_position",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "broadcast_chat_context",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "listen_chat_context",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "get_chat_slice",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "remove_chat_slice",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "agent_sessions",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "cancel_generation",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "clear_chat_history",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "clear_paper",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "import_doi",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "import_paper",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "send_message",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "update_config",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "session_list",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "resume_session",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "new_session",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "delete_session",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "build_structure_context",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "build_workflow_context",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "build_paper_context",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "build_paper_context_from_doi",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 53,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/llm-client.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 221,
+      "nonEmptyLines": 185,
+      "functions": [
+        {
+          "name": "build_sdk_system_prompt",
+          "startLine": 9,
+          "endLine": 41,
+          "params": [
+            "provider",
+            "structure_context",
+            "has_session"
+          ]
+        },
+        {
+          "name": "estimate_tokens",
+          "startLine": 44,
+          "endLine": 46,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "build_system_message",
+          "startLine": 51,
+          "endLine": 77,
+          "params": [
+            "rag_context",
+            "structure_context"
+          ]
+        },
+        {
+          "name": "has_paper_context",
+          "startLine": 80,
+          "endLine": 82,
+          "params": [
+            "context"
+          ]
+        },
+        {
+          "name": "fetch_providers",
+          "startLine": 189,
+          "endLine": 202,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "build_sdk_system_prompt",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "has_paper_context",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "fetch_providers",
+          "line": 189,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "estimate_tokens",
+          "callee": "Math.ceil",
+          "lineNumber": 45
+        },
+        {
+          "caller": "build_system_message",
+          "callee": "parts.push",
+          "lineNumber": 55
+        },
+        {
+          "caller": "build_system_message",
+          "callee": "estimate_tokens",
+          "lineNumber": 60
+        },
+        {
+          "caller": "build_system_message",
+          "callee": "parts.join",
+          "lineNumber": 60
+        },
+        {
+          "caller": "build_system_message",
+          "callee": "estimate_tokens",
+          "lineNumber": 66
+        },
+        {
+          "caller": "build_system_message",
+          "callee": "rag_parts.push",
+          "lineNumber": 68
+        },
+        {
+          "caller": "build_system_message",
+          "callee": "parts.push",
+          "lineNumber": 72
+        },
+        {
+          "caller": "build_system_message",
+          "callee": "rag_parts.join",
+          "lineNumber": 72
+        },
+        {
+          "caller": "build_system_message",
+          "callee": "parts.join",
+          "lineNumber": 76
+        },
+        {
+          "caller": "has_paper_context",
+          "callee": "context.includes",
+          "lineNumber": 81
+        },
+        {
+          "caller": "fetch_providers",
+          "callee": "fetch",
+          "lineNumber": 191
+        },
+        {
+          "caller": "fetch_providers",
+          "callee": "console.warn",
+          "lineNumber": 193
+        },
+        {
+          "caller": "fetch_providers",
+          "callee": "response.json",
+          "lineNumber": 196
+        },
+        {
+          "caller": "fetch_providers",
+          "callee": "console.warn",
+          "lineNumber": 199
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/markdown.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 386,
+      "nonEmptyLines": 353,
+      "functions": [
+        {
+          "name": "esc",
+          "startLine": 42,
+          "endLine": 48,
+          "params": [
+            "str"
+          ]
+        },
+        {
+          "name": "html_unescape",
+          "startLine": 51,
+          "endLine": 57,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "render_math",
+          "startLine": 60,
+          "endLine": 66,
+          "params": [
+            "tex",
+            "display_mode"
+          ]
+        },
+        {
+          "name": "render_inline",
+          "startLine": 69,
+          "endLine": 94,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "highlight_code",
+          "startLine": 97,
+          "endLine": 106,
+          "params": [
+            "code",
+            "lang"
+          ]
+        },
+        {
+          "name": "markdown_to_html",
+          "startLine": 118,
+          "endLine": 386,
+          "params": [
+            "md"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "markdown_to_html",
+          "line": 118,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "esc",
+          "callee": "str\r\n    .replace(/&/g, `&amp;`)\r\n    .replace(/</g, `&lt;`)\r\n    .replace(/>/g, `&gt;`)\r\n    .replace",
+          "lineNumber": 43
+        },
+        {
+          "caller": "esc",
+          "callee": "str\r\n    .replace(/&/g, `&amp;`)\r\n    .replace(/</g, `&lt;`)\r\n    .replace",
+          "lineNumber": 43
+        },
+        {
+          "caller": "esc",
+          "callee": "str\r\n    .replace(/&/g, `&amp;`)\r\n    .replace",
+          "lineNumber": 43
+        },
+        {
+          "caller": "esc",
+          "callee": "str\r\n    .replace",
+          "lineNumber": 43
+        },
+        {
+          "caller": "html_unescape",
+          "callee": "text\r\n    .replace(/&amp;/g, `&`)\r\n    .replace(/&lt;/g, `<`)\r\n    .replace(/&gt;/g, `>`)\r\n    .replace",
+          "lineNumber": 52
+        },
+        {
+          "caller": "html_unescape",
+          "callee": "text\r\n    .replace(/&amp;/g, `&`)\r\n    .replace(/&lt;/g, `<`)\r\n    .replace",
+          "lineNumber": 52
+        },
+        {
+          "caller": "html_unescape",
+          "callee": "text\r\n    .replace(/&amp;/g, `&`)\r\n    .replace",
+          "lineNumber": 52
+        },
+        {
+          "caller": "html_unescape",
+          "callee": "text\r\n    .replace",
+          "lineNumber": 52
+        },
+        {
+          "caller": "render_math",
+          "callee": "katex.renderToString",
+          "lineNumber": 62
+        },
+        {
+          "caller": "render_math",
+          "callee": "esc",
+          "lineNumber": 64
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace(/\\$\\$(.+?)\\$\\$/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // inline math $...$ (not preceded/followed by $, content not empty/whitespace-only)\r\n    .replace(/(?<!\\$)\\$(?!\\s)([^$\\n]+?)(?<!\\s)\\$(?!\\$)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\(...\\) inline math\r\n    .replace(/\\\\\\((.+?)\\\\\\)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\[...\\] display math (single-line)\r\n    .replace(/\\\\\\[(.+?)\\\\\\]/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // Markdown backslash escapes: \\* \\_ \\\\ \\` \\[ \\] \\( \\) \\# \\+ \\- \\. \\! \\|\r\n    // Convert to HTML entities so they render as literal chars and don't trigger markdown syntax\r\n    .replace(/\\\\([\\\\*_`\\[\\]()#+\\-.!|])/g, (_, ch) => `&#${ch.charCodeAt(0)};`)\r\n    // bold+italic\r\n    .replace(/\\*\\*\\*(.+?)\\*\\*\\*/g, `<strong><em>$1</em></strong>`)\r\n    // bold\r\n    .replace(/\\*\\*(.+?)\\*\\*/g, `<strong>$1</strong>`)\r\n    // italic\r\n    .replace(/\\*(.+?)\\*/g, `<em>$1</em>`)\r\n    // images (must come before links to avoid `![alt](url)` being parsed as `!` + link)\r\n    .replace(/!\\[([^\\]]*)\\]\\(([^)]+)\\)/g, `<img src=\"$2\" alt=\"$1\" loading=\"lazy\" />`)\r\n    // links\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace(/\\$\\$(.+?)\\$\\$/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // inline math $...$ (not preceded/followed by $, content not empty/whitespace-only)\r\n    .replace(/(?<!\\$)\\$(?!\\s)([^$\\n]+?)(?<!\\s)\\$(?!\\$)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\(...\\) inline math\r\n    .replace(/\\\\\\((.+?)\\\\\\)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\[...\\] display math (single-line)\r\n    .replace(/\\\\\\[(.+?)\\\\\\]/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // Markdown backslash escapes: \\* \\_ \\\\ \\` \\[ \\] \\( \\) \\# \\+ \\- \\. \\! \\|\r\n    // Convert to HTML entities so they render as literal chars and don't trigger markdown syntax\r\n    .replace(/\\\\([\\\\*_`\\[\\]()#+\\-.!|])/g, (_, ch) => `&#${ch.charCodeAt(0)};`)\r\n    // bold+italic\r\n    .replace(/\\*\\*\\*(.+?)\\*\\*\\*/g, `<strong><em>$1</em></strong>`)\r\n    // bold\r\n    .replace(/\\*\\*(.+?)\\*\\*/g, `<strong>$1</strong>`)\r\n    // italic\r\n    .replace(/\\*(.+?)\\*/g, `<em>$1</em>`)\r\n    // images (must come before links to avoid `![alt](url)` being parsed as `!` + link)\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace(/\\$\\$(.+?)\\$\\$/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // inline math $...$ (not preceded/followed by $, content not empty/whitespace-only)\r\n    .replace(/(?<!\\$)\\$(?!\\s)([^$\\n]+?)(?<!\\s)\\$(?!\\$)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\(...\\) inline math\r\n    .replace(/\\\\\\((.+?)\\\\\\)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\[...\\] display math (single-line)\r\n    .replace(/\\\\\\[(.+?)\\\\\\]/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // Markdown backslash escapes: \\* \\_ \\\\ \\` \\[ \\] \\( \\) \\# \\+ \\- \\. \\! \\|\r\n    // Convert to HTML entities so they render as literal chars and don't trigger markdown syntax\r\n    .replace(/\\\\([\\\\*_`\\[\\]()#+\\-.!|])/g, (_, ch) => `&#${ch.charCodeAt(0)};`)\r\n    // bold+italic\r\n    .replace(/\\*\\*\\*(.+?)\\*\\*\\*/g, `<strong><em>$1</em></strong>`)\r\n    // bold\r\n    .replace(/\\*\\*(.+?)\\*\\*/g, `<strong>$1</strong>`)\r\n    // italic\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace(/\\$\\$(.+?)\\$\\$/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // inline math $...$ (not preceded/followed by $, content not empty/whitespace-only)\r\n    .replace(/(?<!\\$)\\$(?!\\s)([^$\\n]+?)(?<!\\s)\\$(?!\\$)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\(...\\) inline math\r\n    .replace(/\\\\\\((.+?)\\\\\\)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\[...\\] display math (single-line)\r\n    .replace(/\\\\\\[(.+?)\\\\\\]/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // Markdown backslash escapes: \\* \\_ \\\\ \\` \\[ \\] \\( \\) \\# \\+ \\- \\. \\! \\|\r\n    // Convert to HTML entities so they render as literal chars and don't trigger markdown syntax\r\n    .replace(/\\\\([\\\\*_`\\[\\]()#+\\-.!|])/g, (_, ch) => `&#${ch.charCodeAt(0)};`)\r\n    // bold+italic\r\n    .replace(/\\*\\*\\*(.+?)\\*\\*\\*/g, `<strong><em>$1</em></strong>`)\r\n    // bold\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace(/\\$\\$(.+?)\\$\\$/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // inline math $...$ (not preceded/followed by $, content not empty/whitespace-only)\r\n    .replace(/(?<!\\$)\\$(?!\\s)([^$\\n]+?)(?<!\\s)\\$(?!\\$)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\(...\\) inline math\r\n    .replace(/\\\\\\((.+?)\\\\\\)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\[...\\] display math (single-line)\r\n    .replace(/\\\\\\[(.+?)\\\\\\]/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // Markdown backslash escapes: \\* \\_ \\\\ \\` \\[ \\] \\( \\) \\# \\+ \\- \\. \\! \\|\r\n    // Convert to HTML entities so they render as literal chars and don't trigger markdown syntax\r\n    .replace(/\\\\([\\\\*_`\\[\\]()#+\\-.!|])/g, (_, ch) => `&#${ch.charCodeAt(0)};`)\r\n    // bold+italic\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace(/\\$\\$(.+?)\\$\\$/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // inline math $...$ (not preceded/followed by $, content not empty/whitespace-only)\r\n    .replace(/(?<!\\$)\\$(?!\\s)([^$\\n]+?)(?<!\\s)\\$(?!\\$)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\(...\\) inline math\r\n    .replace(/\\\\\\((.+?)\\\\\\)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\[...\\] display math (single-line)\r\n    .replace(/\\\\\\[(.+?)\\\\\\]/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // Markdown backslash escapes: \\* \\_ \\\\ \\` \\[ \\] \\( \\) \\# \\+ \\- \\. \\! \\|\r\n    // Convert to HTML entities so they render as literal chars and don't trigger markdown syntax\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace(/\\$\\$(.+?)\\$\\$/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // inline math $...$ (not preceded/followed by $, content not empty/whitespace-only)\r\n    .replace(/(?<!\\$)\\$(?!\\s)([^$\\n]+?)(?<!\\s)\\$(?!\\$)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\(...\\) inline math\r\n    .replace(/\\\\\\((.+?)\\\\\\)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\[...\\] display math (single-line)\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace(/\\$\\$(.+?)\\$\\$/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // inline math $...$ (not preceded/followed by $, content not empty/whitespace-only)\r\n    .replace(/(?<!\\$)\\$(?!\\s)([^$\\n]+?)(?<!\\s)\\$(?!\\$)/g, (_, tex) => render_math(html_unescape(tex), false))\r\n    // \\(...\\) inline math\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace(/\\$\\$(.+?)\\$\\$/g, (_, tex) => render_math(html_unescape(tex), true))\r\n    // inline math $...$ (not preceded/followed by $, content not empty/whitespace-only)\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace(/`([^`]+)`/g, `<code>$1</code>`)\r\n    // display math $$...$$ (before inline $ to avoid partial match)\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "text\r\n    // inline code (must come first to protect contents from math/bold)\r\n    .replace",
+          "lineNumber": 70
+        },
+        {
+          "caller": "render_inline",
+          "callee": "render_math",
+          "lineNumber": 74
+        },
+        {
+          "caller": "render_inline",
+          "callee": "html_unescape",
+          "lineNumber": 74
+        },
+        {
+          "caller": "render_inline",
+          "callee": "render_math",
+          "lineNumber": 76
+        },
+        {
+          "caller": "render_inline",
+          "callee": "html_unescape",
+          "lineNumber": 76
+        },
+        {
+          "caller": "render_inline",
+          "callee": "render_math",
+          "lineNumber": 78
+        },
+        {
+          "caller": "render_inline",
+          "callee": "html_unescape",
+          "lineNumber": 78
+        },
+        {
+          "caller": "render_inline",
+          "callee": "render_math",
+          "lineNumber": 80
+        },
+        {
+          "caller": "render_inline",
+          "callee": "html_unescape",
+          "lineNumber": 80
+        },
+        {
+          "caller": "render_inline",
+          "callee": "ch.charCodeAt",
+          "lineNumber": 83
+        },
+        {
+          "caller": "highlight_code",
+          "callee": "hljs.getLanguage",
+          "lineNumber": 98
+        },
+        {
+          "caller": "highlight_code",
+          "callee": "hljs.highlight",
+          "lineNumber": 100
+        },
+        {
+          "caller": "highlight_code",
+          "callee": "esc",
+          "lineNumber": 105
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "md.replace",
+          "lineNumber": 122
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "code_blocks.push",
+          "lineNumber": 123
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "protected_md\r\n    // Remove \"> Calling `tool`...\" patterns (shown in activity bar instead)\r\n    .replace(/>?\\s*Calling\\s+`?\\w+`?\\s*\\.\\.\\.\\s*/g, ``)\r\n    // Remove backtick-wrapped decorative lines: `─────────────` → empty\r\n    .replace(/`[─━═╌╍┄┅┈┉╴╶╸╺│┃┆┇┊┋╎╏\\s]{3,}`/g, ``)\r\n    // Convert backtick-wrapped insight headers: `★ Insight ─────` → ★ Insight\r\n    .replace(/`([★☆]\\s*\\w[\\w\\s]*?)\\s*[─━═]*\\s*`/g, `\\n$1\\n`)\r\n    // Remove remaining decorative box-drawing runs (5+ consecutive chars)\r\n    // but NOT on lines that look like DAG/tree diagrams\r\n    .split(`\\n`).map(l => DAG_LINE_RE.test(l) ? l : l.replace(/[─━═╌╍┄┅┈┉╴╶╸╺│┃┆┇┊┋╎╏]{5,}/g, ``)).join",
+          "lineNumber": 129
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "protected_md\r\n    // Remove \"> Calling `tool`...\" patterns (shown in activity bar instead)\r\n    .replace(/>?\\s*Calling\\s+`?\\w+`?\\s*\\.\\.\\.\\s*/g, ``)\r\n    // Remove backtick-wrapped decorative lines: `─────────────` → empty\r\n    .replace(/`[─━═╌╍┄┅┈┉╴╶╸╺│┃┆┇┊┋╎╏\\s]{3,}`/g, ``)\r\n    // Convert backtick-wrapped insight headers: `★ Insight ─────` → ★ Insight\r\n    .replace(/`([★☆]\\s*\\w[\\w\\s]*?)\\s*[─━═]*\\s*`/g, `\\n$1\\n`)\r\n    // Remove remaining decorative box-drawing runs (5+ consecutive chars)\r\n    // but NOT on lines that look like DAG/tree diagrams\r\n    .split(`\\n`).map",
+          "lineNumber": 129
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "protected_md\r\n    // Remove \"> Calling `tool`...\" patterns (shown in activity bar instead)\r\n    .replace(/>?\\s*Calling\\s+`?\\w+`?\\s*\\.\\.\\.\\s*/g, ``)\r\n    // Remove backtick-wrapped decorative lines: `─────────────` → empty\r\n    .replace(/`[─━═╌╍┄┅┈┉╴╶╸╺│┃┆┇┊┋╎╏\\s]{3,}`/g, ``)\r\n    // Convert backtick-wrapped insight headers: `★ Insight ─────` → ★ Insight\r\n    .replace(/`([★☆]\\s*\\w[\\w\\s]*?)\\s*[─━═]*\\s*`/g, `\\n$1\\n`)\r\n    // Remove remaining decorative box-drawing runs (5+ consecutive chars)\r\n    // but NOT on lines that look like DAG/tree diagrams\r\n    .split",
+          "lineNumber": 129
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "protected_md\r\n    // Remove \"> Calling `tool`...\" patterns (shown in activity bar instead)\r\n    .replace(/>?\\s*Calling\\s+`?\\w+`?\\s*\\.\\.\\.\\s*/g, ``)\r\n    // Remove backtick-wrapped decorative lines: `─────────────` → empty\r\n    .replace(/`[─━═╌╍┄┅┈┉╴╶╸╺│┃┆┇┊┋╎╏\\s]{3,}`/g, ``)\r\n    // Convert backtick-wrapped insight headers: `★ Insight ─────` → ★ Insight\r\n    .replace",
+          "lineNumber": 129
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "protected_md\r\n    // Remove \"> Calling `tool`...\" patterns (shown in activity bar instead)\r\n    .replace(/>?\\s*Calling\\s+`?\\w+`?\\s*\\.\\.\\.\\s*/g, ``)\r\n    // Remove backtick-wrapped decorative lines: `─────────────` → empty\r\n    .replace",
+          "lineNumber": 129
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "protected_md\r\n    // Remove \"> Calling `tool`...\" patterns (shown in activity bar instead)\r\n    .replace",
+          "lineNumber": 129
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "DAG_LINE_RE.test",
+          "lineNumber": 138
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "l.replace",
+          "lineNumber": 138
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "cleaned.replace",
+          "lineNumber": 141
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "Number",
+          "lineNumber": 141
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "cleaned.split",
+          "lineNumber": 143
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 160
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 160
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "DECORATIVE_LINE_RE.test",
+          "lineNumber": 171
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.trim",
+          "lineNumber": 171
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.trim",
+          "lineNumber": 171
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.match",
+          "lineNumber": 178
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "insight_match[1].trim",
+          "lineNumber": 179
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 180
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "insight_match[1].trim().replace(/</g, `&lt;`).replace",
+          "lineNumber": 180
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "insight_match[1].trim().replace",
+          "lineNumber": 180
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "insight_match[1].trim",
+          "lineNumber": 180
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.startsWith",
+          "lineNumber": 186
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.match",
+          "lineNumber": 187
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 189
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_math",
+          "lineNumber": 189
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "single_line[1].trim",
+          "lineNumber": 189
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].startsWith",
+          "lineNumber": 196
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "math_lines.push",
+          "lineNumber": 197
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 201
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_math",
+          "lineNumber": 201
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "math_lines.join",
+          "lineNumber": 201
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.trimEnd",
+          "lineNumber": 206
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trimEnd",
+          "lineNumber": 209
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "math_lines.push",
+          "lineNumber": 210
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 214
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_math",
+          "lineNumber": 214
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "math_lines.join",
+          "lineNumber": 214
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "DAG_LINE_RE.test",
+          "lineNumber": 220
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "DAG_LINE_RE.test",
+          "lineNumber": 222
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "DECORATIVE_LINE_RE.test",
+          "lineNumber": 222
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trim",
+          "lineNumber": 222
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trim",
+          "lineNumber": 222
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "dag_lines.push",
+          "lineNumber": 223
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].replace(/</g, `&lt;`).replace",
+          "lineNumber": 223
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].replace",
+          "lineNumber": 223
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out[out.length - 1].replace",
+          "lineNumber": 229
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "/[|│┃]\\s*$/.test",
+          "lineNumber": 230
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "/^<p>[^<]*<\\/p>$/.test",
+          "lineNumber": 231
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "/^[└├│┌]/.test",
+          "lineNumber": 231
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "dag_lines[0].replace(/&lt;/g, `<`).replace(/&gt;/g, `>`).trim",
+          "lineNumber": 231
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "dag_lines[0].replace(/&lt;/g, `<`).replace",
+          "lineNumber": 231
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "dag_lines[0].replace",
+          "lineNumber": 231
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.pop",
+          "lineNumber": 233
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "prev.replace(/<[^>]*>/g, ``).replace(/&lt;/g, `<`).replace",
+          "lineNumber": 234
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "prev.replace(/<[^>]*>/g, ``).replace",
+          "lineNumber": 234
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "prev.replace",
+          "lineNumber": 234
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "dag_lines.unshift",
+          "lineNumber": 235
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "prev_text.replace(/</g, `&lt;`).replace",
+          "lineNumber": 235
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "prev_text.replace",
+          "lineNumber": 235
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 238
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "dag_lines.join",
+          "lineNumber": 238
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.match",
+          "lineNumber": 243
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].startsWith",
+          "lineNumber": 248
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "code_lines.push",
+          "lineNumber": 249
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 253
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 254
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "highlight_code",
+          "lineNumber": 259
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "code_lines.slice(0, CODE_PREVIEW_LINES).join",
+          "lineNumber": 259
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "code_lines.slice",
+          "lineNumber": 259
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "highlight_code",
+          "lineNumber": 260
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "code_lines.join",
+          "lineNumber": 260
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 261
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "highlight_code",
+          "lineNumber": 270
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "code_lines.join",
+          "lineNumber": 270
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 271
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.startsWith",
+          "lineNumber": 280
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].startsWith",
+          "lineNumber": 282
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "quote_lines.push",
+          "lineNumber": 283
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_inline",
+          "lineNumber": 283
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 283
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].slice",
+          "lineNumber": 283
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 286
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "quote_lines.join",
+          "lineNumber": 286
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.includes",
+          "lineNumber": 291
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.trim().startsWith",
+          "lineNumber": 291
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.trim",
+          "lineNumber": 291
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].includes",
+          "lineNumber": 293
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trim().startsWith",
+          "lineNumber": 293
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trim",
+          "lineNumber": 293
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "table_lines.push",
+          "lineNumber": 294
+        },
+        {
+          "caller": "parse_row",
+          "callee": "row.split(`|`).slice(1, -1).map",
+          "lineNumber": 298
+        },
+        {
+          "caller": "parse_row",
+          "callee": "row.split(`|`).slice",
+          "lineNumber": 298
+        },
+        {
+          "caller": "parse_row",
+          "callee": "row.split",
+          "lineNumber": 298
+        },
+        {
+          "caller": "parse_row",
+          "callee": "c.trim",
+          "lineNumber": 298
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "parse_row",
+          "lineNumber": 299
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "table_lines[1].match",
+          "lineNumber": 300
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "table_lines.slice(data_start).map",
+          "lineNumber": 301
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "table_lines.slice",
+          "lineNumber": 301
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "headers.map((h) => `<th>${render_inline(esc(h))}</th>`).join",
+          "lineNumber": 303
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "headers.map",
+          "lineNumber": 303
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_inline",
+          "lineNumber": 303
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 303
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "row.map((c) => `<td>${render_inline(esc(c))}</td>`).join",
+          "lineNumber": 305
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "row.map",
+          "lineNumber": 305
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_inline",
+          "lineNumber": 305
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 305
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 308
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 316
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_inline",
+          "lineNumber": 316
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 316
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "table_lines.join",
+          "lineNumber": 316
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.match",
+          "lineNumber": 321
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 324
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_inline",
+          "lineNumber": 324
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 324
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.match",
+          "lineNumber": 330
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].match",
+          "lineNumber": 332
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "items.push",
+          "lineNumber": 333
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_inline",
+          "lineNumber": 333
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 333
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].replace",
+          "lineNumber": 333
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 336
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "items.map((i) => `<li>${i}</li>`).join",
+          "lineNumber": 336
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "items.map",
+          "lineNumber": 336
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.match",
+          "lineNumber": 341
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].match",
+          "lineNumber": 343
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "items.push",
+          "lineNumber": 344
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_inline",
+          "lineNumber": 344
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 344
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].replace",
+          "lineNumber": 344
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 347
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "items.map((i) => `<li>${i}</li>`).join",
+          "lineNumber": 347
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "items.map",
+          "lineNumber": 347
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.match",
+          "lineNumber": 352
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 353
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "line.trim",
+          "lineNumber": 359
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trim",
+          "lineNumber": 368
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].startsWith",
+          "lineNumber": 369
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].match",
+          "lineNumber": 370
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].match",
+          "lineNumber": 371
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].match",
+          "lineNumber": 372
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].match",
+          "lineNumber": 373
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].startsWith",
+          "lineNumber": 374
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].includes",
+          "lineNumber": 375
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trim().startsWith",
+          "lineNumber": 375
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trim",
+          "lineNumber": 375
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "DAG_LINE_RE.test",
+          "lineNumber": 376
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "DECORATIVE_LINE_RE.test",
+          "lineNumber": 377
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trim",
+          "lineNumber": 377
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "lines[idx].trim",
+          "lineNumber": 377
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "para_lines.push",
+          "lineNumber": 379
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.push",
+          "lineNumber": 382
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "render_inline",
+          "lineNumber": 382
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "esc",
+          "lineNumber": 382
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "para_lines.join",
+          "lineNumber": 382
+        },
+        {
+          "caller": "markdown_to_html",
+          "callee": "out.join",
+          "lineNumber": 385
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/message-utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 186,
+      "nonEmptyLines": 167,
+      "functions": [
+        {
+          "name": "get_models",
+          "startLine": 95,
+          "endLine": 105,
+          "params": [
+            "provider",
+            "providers",
+            "fetched_models"
+          ]
+        },
+        {
+          "name": "is_available",
+          "startLine": 108,
+          "endLine": 111,
+          "params": [
+            "provider_id",
+            "providers"
+          ]
+        },
+        {
+          "name": "format_workflow_event",
+          "startLine": 114,
+          "endLine": 125,
+          "params": [
+            "event"
+          ]
+        },
+        {
+          "name": "format_time_ago",
+          "startLine": 128,
+          "endLine": 137,
+          "params": [
+            "ts"
+          ]
+        },
+        {
+          "name": "friendly_error",
+          "startLine": 140,
+          "endLine": 160,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "detect_language",
+          "startLine": 163,
+          "endLine": 171,
+          "params": [
+            "text",
+            "default_lang"
+          ]
+        },
+        {
+          "name": "is_tool_result_msg",
+          "startLine": 174,
+          "endLine": 177,
+          "params": [
+            "msg"
+          ]
+        },
+        {
+          "name": "extract_current_action",
+          "startLine": 180,
+          "endLine": 186,
+          "params": [
+            "text"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "FALLBACK_MODELS",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "CLI_INSTALL_INFO",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "PROVIDER_META",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "AGENT_LABELS",
+          "line": 55,
+          "isDefault": false
+        },
+        {
+          "name": "VOICE_LANGUAGES",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "BASE_CHIPS",
+          "line": 71,
+          "isDefault": false
+        },
+        {
+          "name": "WORKFLOW_CHIPS",
+          "line": 78,
+          "isDefault": false
+        },
+        {
+          "name": "PAPER_CHIPS",
+          "line": 85,
+          "isDefault": false
+        },
+        {
+          "name": "get_models",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "is_available",
+          "line": 108,
+          "isDefault": false
+        },
+        {
+          "name": "format_workflow_event",
+          "line": 114,
+          "isDefault": false
+        },
+        {
+          "name": "format_time_ago",
+          "line": 128,
+          "isDefault": false
+        },
+        {
+          "name": "friendly_error",
+          "line": 140,
+          "isDefault": false
+        },
+        {
+          "name": "detect_language",
+          "line": 163,
+          "isDefault": false
+        },
+        {
+          "name": "is_tool_result_msg",
+          "line": 174,
+          "isDefault": false
+        },
+        {
+          "name": "extract_current_action",
+          "line": 180,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_models",
+          "callee": "providers.find",
+          "lineNumber": 102
+        },
+        {
+          "caller": "is_available",
+          "callee": "providers.find",
+          "lineNumber": 109
+        },
+        {
+          "caller": "format_time_ago",
+          "callee": "Date.now",
+          "lineNumber": 129
+        },
+        {
+          "caller": "format_time_ago",
+          "callee": "Math.floor",
+          "lineNumber": 133
+        },
+        {
+          "caller": "format_time_ago",
+          "callee": "Math.floor",
+          "lineNumber": 134
+        },
+        {
+          "caller": "format_time_ago",
+          "callee": "Math.floor",
+          "lineNumber": 135
+        },
+        {
+          "caller": "format_time_ago",
+          "callee": "new Date(ms).toLocaleDateString",
+          "lineNumber": 136
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 141
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 141
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 143
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 143
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 145
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 145
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 147
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 147
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 149
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 149
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 151
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 151
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 153
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 153
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 155
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 155
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.toLowerCase().includes",
+          "lineNumber": 157
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.toLowerCase",
+          "lineNumber": 157
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.toLowerCase().includes",
+          "lineNumber": 157
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.toLowerCase",
+          "lineNumber": 157
+        },
+        {
+          "caller": "friendly_error",
+          "callee": "raw.includes",
+          "lineNumber": 157
+        },
+        {
+          "caller": "detect_language",
+          "callee": "text.match",
+          "lineNumber": 164
+        },
+        {
+          "caller": "detect_language",
+          "callee": "text.match",
+          "lineNumber": 166
+        },
+        {
+          "caller": "detect_language",
+          "callee": "text.match",
+          "lineNumber": 168
+        },
+        {
+          "caller": "is_tool_result_msg",
+          "callee": "msg.content.every",
+          "lineNumber": 176
+        },
+        {
+          "caller": "extract_current_action",
+          "callee": "text.match",
+          "lineNumber": 181
+        },
+        {
+          "caller": "extract_current_action",
+          "callee": "last_match.match",
+          "lineNumber": 184
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 16,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/PermissionCard.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 493,
+      "nonEmptyLines": 439,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/chat/provider-routing.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 61,
+      "nonEmptyLines": 55,
+      "functions": [
+        {
+          "name": "needs_relay",
+          "startLine": 20,
+          "endLine": 26,
+          "params": [
+            "url"
+          ]
+        },
+        {
+          "name": "relay_url",
+          "startLine": 28,
+          "endLine": 30,
+          "params": [
+            "url"
+          ]
+        },
+        {
+          "name": "relay_fetch",
+          "startLine": 33,
+          "endLine": 49,
+          "params": [
+            "url",
+            "init"
+          ]
+        },
+        {
+          "name": "is_client_direct",
+          "startLine": 52,
+          "endLine": 61,
+          "params": [
+            "config"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "RELAY_URL",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "needs_relay",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "relay_url",
+          "line": 28,
+          "isDefault": false
+        },
+        {
+          "name": "relay_fetch",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "is_client_direct",
+          "line": 52,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "needs_relay",
+          "callee": "RELAY_HOSTS.has",
+          "lineNumber": 22
+        },
+        {
+          "caller": "relay_url",
+          "callee": "encodeURIComponent",
+          "lineNumber": 29
+        },
+        {
+          "caller": "relay_fetch",
+          "callee": "isMobile",
+          "lineNumber": 38
+        },
+        {
+          "caller": "relay_fetch",
+          "callee": "import",
+          "lineNumber": 40
+        },
+        {
+          "caller": "relay_fetch",
+          "callee": "tauriFetch",
+          "lineNumber": 41
+        },
+        {
+          "caller": "relay_fetch",
+          "callee": "console.warn",
+          "lineNumber": 44
+        },
+        {
+          "caller": "relay_fetch",
+          "callee": "fetch",
+          "lineNumber": 48
+        },
+        {
+          "caller": "relay_fetch",
+          "callee": "needs_relay",
+          "lineNumber": 48
+        },
+        {
+          "caller": "relay_fetch",
+          "callee": "relay_url",
+          "lineNumber": 48
+        },
+        {
+          "caller": "is_client_direct",
+          "callee": "SDK_PROVIDERS.has",
+          "lineNumber": 53
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/rag.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 132,
+      "nonEmptyLines": 112,
+      "functions": [
+        {
+          "name": "tokenize",
+          "startLine": 8,
+          "endLine": 10,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "term_freq",
+          "startLine": 13,
+          "endLine": 19,
+          "params": [
+            "tokens"
+          ]
+        },
+        {
+          "name": "expand_query",
+          "startLine": 41,
+          "endLine": 50,
+          "params": [
+            "tokens"
+          ]
+        },
+        {
+          "name": "get_idf",
+          "startLine": 53,
+          "endLine": 76,
+          "params": []
+        },
+        {
+          "name": "score_chunk",
+          "startLine": 79,
+          "endLine": 104,
+          "params": [
+            "query_tokens",
+            "chunk"
+          ]
+        },
+        {
+          "name": "load_chunks",
+          "startLine": 107,
+          "endLine": 112,
+          "params": []
+        },
+        {
+          "name": "retrieve",
+          "startLine": 115,
+          "endLine": 132,
+          "params": [
+            "query",
+            "top_k"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "load_chunks",
+          "line": 107,
+          "isDefault": false
+        },
+        {
+          "name": "retrieve",
+          "line": 115,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "tokenize",
+          "callee": "text.toLowerCase().match",
+          "lineNumber": 9
+        },
+        {
+          "caller": "tokenize",
+          "callee": "text.toLowerCase",
+          "lineNumber": 9
+        },
+        {
+          "caller": "term_freq",
+          "callee": "tf.set",
+          "lineNumber": 16
+        },
+        {
+          "caller": "term_freq",
+          "callee": "tf.get",
+          "lineNumber": 16
+        },
+        {
+          "caller": "expand_query",
+          "callee": "expanded.add",
+          "lineNumber": 46
+        },
+        {
+          "caller": "expand_query",
+          "callee": "Array.from",
+          "lineNumber": 49
+        },
+        {
+          "caller": "get_idf",
+          "callee": "tokenize",
+          "lineNumber": 61
+        },
+        {
+          "caller": "get_idf",
+          "callee": "doc_freq.set",
+          "lineNumber": 65
+        },
+        {
+          "caller": "get_idf",
+          "callee": "doc_freq.get",
+          "lineNumber": 65
+        },
+        {
+          "caller": "get_idf",
+          "callee": "idf_cache.set",
+          "lineNumber": 73
+        },
+        {
+          "caller": "get_idf",
+          "callee": "Math.log",
+          "lineNumber": 73
+        },
+        {
+          "caller": "score_chunk",
+          "callee": "get_idf",
+          "lineNumber": 80
+        },
+        {
+          "caller": "score_chunk",
+          "callee": "tokenize",
+          "lineNumber": 81
+        },
+        {
+          "caller": "score_chunk",
+          "callee": "term_freq",
+          "lineNumber": 82
+        },
+        {
+          "caller": "score_chunk",
+          "callee": "tf.get",
+          "lineNumber": 89
+        },
+        {
+          "caller": "score_chunk",
+          "callee": "idf.get",
+          "lineNumber": 91
+        },
+        {
+          "caller": "score_chunk",
+          "callee": "tokenize",
+          "lineNumber": 97
+        },
+        {
+          "caller": "score_chunk",
+          "callee": "heading_tokens.has",
+          "lineNumber": 99
+        },
+        {
+          "caller": "load_chunks",
+          "callee": "import",
+          "lineNumber": 109
+        },
+        {
+          "caller": "retrieve",
+          "callee": "load_chunks",
+          "lineNumber": 116
+        },
+        {
+          "caller": "retrieve",
+          "callee": "tokenize",
+          "lineNumber": 119
+        },
+        {
+          "caller": "retrieve",
+          "callee": "expand_query",
+          "lineNumber": 123
+        },
+        {
+          "caller": "retrieve",
+          "callee": "chunks.map",
+          "lineNumber": 125
+        },
+        {
+          "caller": "retrieve",
+          "callee": "score_chunk",
+          "lineNumber": 127
+        },
+        {
+          "caller": "retrieve",
+          "callee": "scored.sort",
+          "lineNumber": 130
+        },
+        {
+          "caller": "retrieve",
+          "callee": "scored.slice(0, top_k).filter((s) => s.score > 0).map",
+          "lineNumber": 131
+        },
+        {
+          "caller": "retrieve",
+          "callee": "scored.slice(0, top_k).filter",
+          "lineNumber": 131
+        },
+        {
+          "caller": "retrieve",
+          "callee": "scored.slice",
+          "lineNumber": 131
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/sdk-stream.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 127,
+      "nonEmptyLines": 112,
+      "functions": [
+        {
+          "name": "getAgentBase",
+          "startLine": 13,
+          "endLine": 20,
+          "params": []
+        },
+        {
+          "name": "resolve_permission",
+          "startLine": 113,
+          "endLine": 127,
+          "params": [
+            "permissionId",
+            "behavior",
+            "suggestions",
+            "updatedInput"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "resolve_permission",
+          "line": 113,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "resolve_permission",
+          "callee": "fetch",
+          "lineNumber": 119
+        },
+        {
+          "caller": "resolve_permission",
+          "callee": "getAgentBase",
+          "lineNumber": 119
+        },
+        {
+          "caller": "resolve_permission",
+          "callee": "JSON.stringify",
+          "lineNumber": 122
+        },
+        {
+          "caller": "resolve_permission",
+          "callee": "resp.json",
+          "lineNumber": 125
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/slash-commands.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 203,
+      "nonEmptyLines": 186,
+      "functions": [
+        {
+          "name": "find",
+          "startLine": 36,
+          "endLine": 39,
+          "params": [
+            "token"
+          ]
+        },
+        {
+          "name": "match_slash",
+          "startLine": 44,
+          "endLine": 54,
+          "params": [
+            "raw"
+          ]
+        },
+        {
+          "name": "run_slash",
+          "startLine": 59,
+          "endLine": 74,
+          "params": [
+            "raw",
+            "ctx"
+          ]
+        },
+        {
+          "name": "rel_time",
+          "startLine": 104,
+          "endLine": 112,
+          "params": [
+            "ms"
+          ]
+        },
+        {
+          "name": "snippet",
+          "startLine": 114,
+          "endLine": 125,
+          "params": [
+            "ctx",
+            "s"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "SessionSummary",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "SLASH_COMMANDS",
+          "line": 34,
+          "isDefault": false
+        },
+        {
+          "name": "match_slash",
+          "line": 44,
+          "isDefault": false
+        },
+        {
+          "name": "run_slash",
+          "line": 59,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "find",
+          "callee": "token.toLowerCase",
+          "lineNumber": 37
+        },
+        {
+          "caller": "find",
+          "callee": "SLASH_COMMANDS.find",
+          "lineNumber": 38
+        },
+        {
+          "caller": "find",
+          "callee": "c.aliases?.includes",
+          "lineNumber": 38
+        },
+        {
+          "caller": "match_slash",
+          "callee": "raw.trimStart",
+          "lineNumber": 45
+        },
+        {
+          "caller": "match_slash",
+          "callee": "s.startsWith",
+          "lineNumber": 46
+        },
+        {
+          "caller": "match_slash",
+          "callee": "s.slice",
+          "lineNumber": 47
+        },
+        {
+          "caller": "match_slash",
+          "callee": "body.search",
+          "lineNumber": 48
+        },
+        {
+          "caller": "match_slash",
+          "callee": "body.slice",
+          "lineNumber": 49
+        },
+        {
+          "caller": "match_slash",
+          "callee": "body.slice(sp + 1).trim",
+          "lineNumber": 50
+        },
+        {
+          "caller": "match_slash",
+          "callee": "body.slice",
+          "lineNumber": 50
+        },
+        {
+          "caller": "match_slash",
+          "callee": "find",
+          "lineNumber": 52
+        },
+        {
+          "caller": "run_slash",
+          "callee": "raw.trimStart",
+          "lineNumber": 60
+        },
+        {
+          "caller": "run_slash",
+          "callee": "s.startsWith",
+          "lineNumber": 61
+        },
+        {
+          "caller": "run_slash",
+          "callee": "match_slash",
+          "lineNumber": 63
+        },
+        {
+          "caller": "run_slash",
+          "callee": "ctx.emit",
+          "lineNumber": 65
+        },
+        {
+          "caller": "run_slash",
+          "callee": "t",
+          "lineNumber": 65
+        },
+        {
+          "caller": "run_slash",
+          "callee": "m.cmd.run",
+          "lineNumber": 69
+        },
+        {
+          "caller": "run_slash",
+          "callee": "ctx.emit",
+          "lineNumber": 71
+        },
+        {
+          "caller": "run_slash",
+          "callee": "t",
+          "lineNumber": 71
+        },
+        {
+          "caller": "run_slash",
+          "callee": "String",
+          "lineNumber": 71
+        },
+        {
+          "caller": "summary",
+          "callee": "t",
+          "lineNumber": 79
+        },
+        {
+          "caller": "run",
+          "callee": "SLASH_COMMANDS\r\n      .slice()\r\n      .sort((a, b) => a.name.localeCompare(b.name))\r\n      .map",
+          "lineNumber": 81
+        },
+        {
+          "caller": "run",
+          "callee": "SLASH_COMMANDS\r\n      .slice()\r\n      .sort",
+          "lineNumber": 81
+        },
+        {
+          "caller": "run",
+          "callee": "SLASH_COMMANDS\r\n      .slice",
+          "lineNumber": 81
+        },
+        {
+          "caller": "run",
+          "callee": "a.name.localeCompare",
+          "lineNumber": 83
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.emit",
+          "lineNumber": 85
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 85
+        },
+        {
+          "caller": "run",
+          "callee": "lines.join",
+          "lineNumber": 85
+        },
+        {
+          "caller": "summary",
+          "callee": "t",
+          "lineNumber": 91
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.new_session",
+          "lineNumber": 92
+        },
+        {
+          "caller": "summary",
+          "callee": "t",
+          "lineNumber": 95
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.clear_chat_history",
+          "lineNumber": 96
+        },
+        {
+          "caller": "summary",
+          "callee": "t",
+          "lineNumber": 99
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.cancel_generation",
+          "lineNumber": 100
+        },
+        {
+          "caller": "rel_time",
+          "callee": "Date.now",
+          "lineNumber": 105
+        },
+        {
+          "caller": "rel_time",
+          "callee": "Math.round",
+          "lineNumber": 106
+        },
+        {
+          "caller": "rel_time",
+          "callee": "t",
+          "lineNumber": 107
+        },
+        {
+          "caller": "rel_time",
+          "callee": "t",
+          "lineNumber": 108
+        },
+        {
+          "caller": "rel_time",
+          "callee": "Math.round",
+          "lineNumber": 109
+        },
+        {
+          "caller": "rel_time",
+          "callee": "t",
+          "lineNumber": 110
+        },
+        {
+          "caller": "rel_time",
+          "callee": "t",
+          "lineNumber": 111
+        },
+        {
+          "caller": "rel_time",
+          "callee": "Math.round",
+          "lineNumber": 111
+        },
+        {
+          "caller": "snippet",
+          "callee": "ctx.load_session_messages",
+          "lineNumber": 115
+        },
+        {
+          "caller": "snippet",
+          "callee": "get_display_text",
+          "lineNumber": 116
+        },
+        {
+          "caller": "snippet",
+          "callee": "(s.topic ?? '').replace(/\\s+/g, ' ').trim",
+          "lineNumber": 117
+        },
+        {
+          "caller": "snippet",
+          "callee": "(s.topic ?? '').replace",
+          "lineNumber": 117
+        },
+        {
+          "caller": "snippet",
+          "callee": "last.replace(/\\s+/g, ' ').trim",
+          "lineNumber": 118
+        },
+        {
+          "caller": "snippet",
+          "callee": "last.replace",
+          "lineNumber": 118
+        },
+        {
+          "caller": "snippet",
+          "callee": "t",
+          "lineNumber": 123
+        },
+        {
+          "caller": "snippet",
+          "callee": "text.slice",
+          "lineNumber": 124
+        },
+        {
+          "caller": "summary",
+          "callee": "t",
+          "lineNumber": 130
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.list_sessions().slice().sort",
+          "lineNumber": 132
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.list_sessions().slice",
+          "lineNumber": 132
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.list_sessions",
+          "lineNumber": 132
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.emit",
+          "lineNumber": 133
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 133
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.args.trim",
+          "lineNumber": 134
+        },
+        {
+          "caller": "run",
+          "callee": "sorted.map",
+          "lineNumber": 135
+        },
+        {
+          "caller": "run",
+          "callee": "snippet",
+          "lineNumber": 136
+        },
+        {
+          "caller": "run",
+          "callee": "rel_time",
+          "lineNumber": 136
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.emit",
+          "lineNumber": 137
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 137
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 137
+        },
+        {
+          "caller": "run",
+          "callee": "lines.join",
+          "lineNumber": 137
+        },
+        {
+          "caller": "run",
+          "callee": "Number.parseInt",
+          "lineNumber": 140
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.args.trim",
+          "lineNumber": 140
+        },
+        {
+          "caller": "run",
+          "callee": "Number.isInteger",
+          "lineNumber": 141
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.emit",
+          "lineNumber": 142
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 142
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.load_session_messages",
+          "lineNumber": 146
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.resume_session",
+          "lineNumber": 147
+        },
+        {
+          "caller": "summary",
+          "callee": "t",
+          "lineNumber": 162
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.args.trim",
+          "lineNumber": 164
+        },
+        {
+          "caller": "run",
+          "callee": "/^mp-\\d+$/i.test",
+          "lineNumber": 165
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.emit",
+          "lineNumber": 166
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 166
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.run_quickbuild",
+          "lineNumber": 169
+        },
+        {
+          "caller": "summary",
+          "callee": "t",
+          "lineNumber": 177
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.inject_structure",
+          "lineNumber": 178
+        },
+        {
+          "caller": "summary",
+          "callee": "t",
+          "lineNumber": 184
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.args.trim().toLowerCase",
+          "lineNumber": 186
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.args.trim",
+          "lineNumber": 186
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.emit",
+          "lineNumber": 188
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 188
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.get_skip_permission",
+          "lineNumber": 188
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.set_skip_permission",
+          "lineNumber": 192
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.emit",
+          "lineNumber": 193
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 193
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.set_skip_permission",
+          "lineNumber": 197
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.emit",
+          "lineNumber": 198
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 198
+        },
+        {
+          "caller": "run",
+          "callee": "ctx.emit",
+          "lineNumber": 201
+        },
+        {
+          "caller": "run",
+          "callee": "t",
+          "lineNumber": 201
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/structure-tools.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1107,
+      "nonEmptyLines": 1049,
+      "functions": [
+        {
+          "name": "clone_structure",
+          "startLine": 65,
+          "endLine": 67,
+          "params": []
+        },
+        {
+          "name": "register",
+          "startLine": 86,
+          "endLine": 89,
+          "params": [
+            "def",
+            "run"
+          ]
+        },
+        {
+          "name": "require_structure",
+          "startLine": 92,
+          "endLine": 96,
+          "params": []
+        },
+        {
+          "name": "plain_formula",
+          "startLine": 100,
+          "endLine": 111,
+          "params": [
+            "structure"
+          ]
+        },
+        {
+          "name": "current_elements",
+          "startLine": 114,
+          "endLine": 123,
+          "params": []
+        },
+        {
+          "name": "resolve_workflow_id",
+          "startLine": 1012,
+          "endLine": 1020,
+          "params": [
+            "arg"
+          ]
+        },
+        {
+          "name": "tool_kind",
+          "startLine": 1087,
+          "endLine": 1089,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "execute_tool",
+          "startLine": 1092,
+          "endLine": 1104,
+          "params": [
+            "name",
+            "input"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "CLIENT_TOOLS",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "tool_kind",
+          "line": 1087,
+          "isDefault": false
+        },
+        {
+          "name": "execute_tool",
+          "line": 1092,
+          "isDefault": false
+        },
+        {
+          "name": "set_current_structure",
+          "line": 1107,
+          "isDefault": false
+        },
+        {
+          "name": "register",
+          "line": 1107,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "clone_structure",
+          "callee": "JSON.parse",
+          "lineNumber": 66
+        },
+        {
+          "caller": "clone_structure",
+          "callee": "JSON.stringify",
+          "lineNumber": 66
+        },
+        {
+          "caller": "clone_structure",
+          "callee": "require_structure",
+          "lineNumber": 66
+        },
+        {
+          "caller": "register",
+          "callee": "REGISTRY.set",
+          "lineNumber": 87
+        },
+        {
+          "caller": "register",
+          "callee": "CLIENT_TOOLS.some",
+          "lineNumber": 88
+        },
+        {
+          "caller": "register",
+          "callee": "CLIENT_TOOLS.push",
+          "lineNumber": 88
+        },
+        {
+          "caller": "require_structure",
+          "callee": "get_current_structure",
+          "lineNumber": 93
+        },
+        {
+          "caller": "plain_formula",
+          "callee": "counts.set",
+          "lineNumber": 105
+        },
+        {
+          "caller": "plain_formula",
+          "callee": "counts.get",
+          "lineNumber": 105
+        },
+        {
+          "caller": "plain_formula",
+          "callee": "[...counts.entries()]\r\n    .sort(([a], [b]) => a.localeCompare(b))\r\n    .map(([el, n]) => (n === 1 ? el : `${el}${n}`))\r\n    .join",
+          "lineNumber": 107
+        },
+        {
+          "caller": "plain_formula",
+          "callee": "[...counts.entries()]\r\n    .sort(([a], [b]) => a.localeCompare(b))\r\n    .map",
+          "lineNumber": 107
+        },
+        {
+          "caller": "plain_formula",
+          "callee": "[...counts.entries()]\r\n    .sort",
+          "lineNumber": 107
+        },
+        {
+          "caller": "plain_formula",
+          "callee": "counts.entries",
+          "lineNumber": 107
+        },
+        {
+          "caller": "plain_formula",
+          "callee": "a.localeCompare",
+          "lineNumber": 108
+        },
+        {
+          "caller": "current_elements",
+          "callee": "get_current_structure",
+          "lineNumber": 115
+        },
+        {
+          "caller": "current_elements",
+          "callee": "set.add",
+          "lineNumber": 120
+        },
+        {
+          "caller": "resolve_workflow_id",
+          "callee": "arg.trim",
+          "lineNumber": 1013
+        },
+        {
+          "caller": "resolve_workflow_id",
+          "callee": "iter_workflow_slices",
+          "lineNumber": 1015
+        },
+        {
+          "caller": "tool_kind",
+          "callee": "REGISTRY.get",
+          "lineNumber": 1088
+        },
+        {
+          "caller": "execute_tool",
+          "callee": "REGISTRY.get",
+          "lineNumber": 1096
+        },
+        {
+          "caller": "execute_tool",
+          "callee": "JSON.stringify",
+          "lineNumber": 1097
+        },
+        {
+          "caller": "execute_tool",
+          "callee": "entry.run",
+          "lineNumber": 1099
+        },
+        {
+          "caller": "execute_tool",
+          "callee": "JSON.stringify",
+          "lineNumber": 1100
+        },
+        {
+          "caller": "execute_tool",
+          "callee": "JSON.stringify",
+          "lineNumber": 1102
+        },
+        {
+          "caller": "execute_tool",
+          "callee": "String",
+          "lineNumber": 1102
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 5,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/ThinkingSummary.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 142,
+      "nonEmptyLines": 133,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/chat/tool-execution.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 31,
+      "functions": [
+        {
+          "name": "get_tool_results_for",
+          "startLine": 10,
+          "endLine": 14,
+          "params": [
+            "messages",
+            "idx"
+          ]
+        },
+        {
+          "name": "is_streaming",
+          "startLine": 17,
+          "endLine": 27,
+          "params": [
+            "idx",
+            "messages",
+            "loading"
+          ]
+        },
+        {
+          "name": "get_visible_messages",
+          "startLine": 30,
+          "endLine": 35,
+          "params": [
+            "messages",
+            "is_tool_result_msg"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "get_tool_results_for",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "is_streaming",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "get_visible_messages",
+          "line": 30,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_tool_results_for",
+          "callee": "next.content.filter",
+          "lineNumber": 13
+        },
+        {
+          "caller": "get_visible_messages",
+          "callee": "messages.filter",
+          "lineNumber": 34
+        },
+        {
+          "caller": "get_visible_messages",
+          "callee": "is_tool_result_msg",
+          "lineNumber": 34
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/tool-loop.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 69,
+      "nonEmptyLines": 64,
+      "functions": [
+        {
+          "name": "is_error_result",
+          "startLine": 23,
+          "endLine": 31,
+          "params": [
+            "result"
+          ]
+        },
+        {
+          "name": "run_tool_loop",
+          "startLine": 34,
+          "endLine": 69,
+          "params": [
+            "deps"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "run_tool_loop",
+          "line": 34,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "is_error_result",
+          "callee": "JSON.parse",
+          "lineNumber": 25
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.on_event",
+          "lineNumber": 37
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.transport",
+          "lineNumber": 45
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.on_event",
+          "lineNumber": 46
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.on_event",
+          "lineNumber": 48
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.on_event",
+          "lineNumber": 50
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.kind_of",
+          "lineNumber": 53
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.on_event",
+          "lineNumber": 55
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.request_permission",
+          "lineNumber": 56
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.on_event",
+          "lineNumber": 58
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.on_event",
+          "lineNumber": 62
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.execute",
+          "lineNumber": 63
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "is_error_result",
+          "lineNumber": 64
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.on_event",
+          "lineNumber": 65
+        },
+        {
+          "caller": "run_tool_loop",
+          "callee": "deps.on_event",
+          "lineNumber": 68
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/ToolProgressBlock.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 225,
+      "nonEmptyLines": 196,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/chat/ToolResultRenderer.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 151,
+      "nonEmptyLines": 143,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/chat/tools.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 184,
+      "nonEmptyLines": 182,
+      "exports": [
+        {
+          "name": "TOOL_DEFINITIONS",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/types.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 150,
+      "nonEmptyLines": 129,
+      "functions": [
+        {
+          "name": "default_mode_for",
+          "startLine": 82,
+          "endLine": 85,
+          "params": [
+            "provider"
+          ]
+        },
+        {
+          "name": "get_display_text",
+          "startLine": 95,
+          "endLine": 101,
+          "params": [
+            "content"
+          ]
+        },
+        {
+          "name": "get_tool_uses",
+          "startLine": 115,
+          "endLine": 118,
+          "params": [
+            "content"
+          ]
+        },
+        {
+          "name": "agent_from_provider",
+          "startLine": 129,
+          "endLine": 134,
+          "params": [
+            "provider"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "SDK_PROVIDERS",
+          "line": 79,
+          "isDefault": false
+        },
+        {
+          "name": "default_mode_for",
+          "line": 82,
+          "isDefault": false
+        },
+        {
+          "name": "get_display_text",
+          "line": 95,
+          "isDefault": false
+        },
+        {
+          "name": "get_tool_uses",
+          "line": 115,
+          "isDefault": false
+        },
+        {
+          "name": "agent_from_provider",
+          "line": 129,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "default_mode_for",
+          "callee": "SDK_PROVIDERS.has",
+          "lineNumber": 83
+        },
+        {
+          "caller": "get_display_text",
+          "callee": "content\r\n    .filter((b): b is TextBlock => b.type === `text`)\r\n    .map((b) => b.text)\r\n    .join",
+          "lineNumber": 97
+        },
+        {
+          "caller": "get_display_text",
+          "callee": "content\r\n    .filter((b): b is TextBlock => b.type === `text`)\r\n    .map",
+          "lineNumber": 97
+        },
+        {
+          "caller": "get_display_text",
+          "callee": "content\r\n    .filter",
+          "lineNumber": 97
+        },
+        {
+          "caller": "get_tool_uses",
+          "callee": "content.filter",
+          "lineNumber": 117
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/workflow-tool-executor.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 732,
+      "nonEmptyLines": 636,
+      "functions": [
+        {
+          "name": "register_workflow_action_handler",
+          "startLine": 36,
+          "endLine": 41,
+          "params": [
+            "tab_id",
+            "handler"
+          ]
+        },
+        {
+          "name": "unregister_workflow_action_handler",
+          "startLine": 43,
+          "endLine": 45,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "get_workflow_action_handler",
+          "startLine": 47,
+          "endLine": 49,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "is_workflow_tool",
+          "startLine": 52,
+          "endLine": 54,
+          "params": [
+            "name"
+          ]
+        },
+        {
+          "name": "execute_workflow_tool",
+          "startLine": 57,
+          "endLine": 137,
+          "params": [
+            "name",
+            "input",
+            "tab_id"
+          ]
+        },
+        {
+          "name": "handle_list_workflows",
+          "startLine": 139,
+          "endLine": 150,
+          "params": []
+        },
+        {
+          "name": "handle_get_workflow_status",
+          "startLine": 152,
+          "endLine": 178,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "handle_get_step_error",
+          "startLine": 180,
+          "endLine": 219,
+          "params": [
+            "tab_id",
+            "step_id"
+          ]
+        },
+        {
+          "name": "handle_suggest_params",
+          "startLine": 221,
+          "endLine": 264,
+          "params": [
+            "tab_id",
+            "node_type",
+            "node_id"
+          ]
+        },
+        {
+          "name": "handle_get_node_definitions",
+          "startLine": 266,
+          "endLine": 301,
+          "params": [
+            "category"
+          ]
+        },
+        {
+          "name": "handle_get_workflow_templates",
+          "startLine": 303,
+          "endLine": 318,
+          "params": []
+        },
+        {
+          "name": "handle_validate_workflow",
+          "startLine": 320,
+          "endLine": 395,
+          "params": [
+            "tab_id"
+          ]
+        },
+        {
+          "name": "handle_create_workflow",
+          "startLine": 397,
+          "endLine": 451,
+          "params": [
+            "tab_id",
+            "name",
+            "template_id"
+          ]
+        },
+        {
+          "name": "handle_mutation",
+          "startLine": 453,
+          "endLine": 486,
+          "params": [
+            "tab_id",
+            "name",
+            "input"
+          ]
+        },
+        {
+          "name": "handle_retry_step",
+          "startLine": 490,
+          "endLine": 505,
+          "params": [
+            "workflow_id",
+            "step_id"
+          ]
+        },
+        {
+          "name": "handle_get_batch_status",
+          "startLine": 507,
+          "endLine": 526,
+          "params": [
+            "workflow_id",
+            "step_id"
+          ]
+        },
+        {
+          "name": "handle_get_calculation_guidelines",
+          "startLine": 530,
+          "endLine": 554,
+          "params": [
+            "task_type"
+          ]
+        },
+        {
+          "name": "handle_compute_oer_overpotential",
+          "startLine": 558,
+          "endLine": 588,
+          "params": [
+            "dG_OH",
+            "dG_O",
+            "dG_OOH"
+          ]
+        },
+        {
+          "name": "handle_compute_free_energy",
+          "startLine": 590,
+          "endLine": 629,
+          "params": [
+            "e_dft",
+            "frequencies_cm",
+            "temperature"
+          ]
+        },
+        {
+          "name": "handle_list_vasp_presets",
+          "startLine": 631,
+          "endLine": 651,
+          "params": []
+        },
+        {
+          "name": "handle_import_template",
+          "startLine": 655,
+          "endLine": 684,
+          "params": [
+            "tab_id",
+            "source",
+            "template_id"
+          ]
+        },
+        {
+          "name": "handle_create_screening_workflow",
+          "startLine": 686,
+          "endLine": 715,
+          "params": [
+            "tab_id",
+            "input"
+          ]
+        },
+        {
+          "name": "format_hardcoded_vasp_presets",
+          "startLine": 717,
+          "endLine": 732,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "register_workflow_action_handler",
+          "line": 36,
+          "isDefault": false
+        },
+        {
+          "name": "unregister_workflow_action_handler",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "get_workflow_action_handler",
+          "line": 47,
+          "isDefault": false
+        },
+        {
+          "name": "is_workflow_tool",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "execute_workflow_tool",
+          "line": 57,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "register_workflow_action_handler",
+          "callee": "action_handlers.set",
+          "lineNumber": 40
+        },
+        {
+          "caller": "unregister_workflow_action_handler",
+          "callee": "action_handlers.delete",
+          "lineNumber": 44
+        },
+        {
+          "caller": "get_workflow_action_handler",
+          "callee": "action_handlers.get",
+          "lineNumber": 48
+        },
+        {
+          "caller": "is_workflow_tool",
+          "callee": "WORKFLOW_TOOL_NAMES.has",
+          "lineNumber": 53
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_get_calculation_guidelines",
+          "lineNumber": 65
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_list_workflows",
+          "lineNumber": 69
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_get_workflow_status",
+          "lineNumber": 72
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_get_step_error",
+          "lineNumber": 75
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_suggest_params",
+          "lineNumber": 78
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_get_node_definitions",
+          "lineNumber": 81
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_get_workflow_templates",
+          "lineNumber": 84
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_validate_workflow",
+          "lineNumber": 87
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_retry_step",
+          "lineNumber": 90
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_get_batch_status",
+          "lineNumber": 93
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_compute_oer_overpotential",
+          "lineNumber": 96
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_compute_free_energy",
+          "lineNumber": 103
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_list_vasp_presets",
+          "lineNumber": 110
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_import_template",
+          "lineNumber": 114
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_import_template",
+          "lineNumber": 117
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_create_screening_workflow",
+          "lineNumber": 120
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_create_workflow",
+          "lineNumber": 124
+        },
+        {
+          "caller": "execute_workflow_tool",
+          "callee": "handle_mutation",
+          "lineNumber": 132
+        },
+        {
+          "caller": "handle_list_workflows",
+          "callee": "workflow_api.list_workflows",
+          "lineNumber": 141
+        },
+        {
+          "caller": "handle_list_workflows",
+          "callee": "workflows.map",
+          "lineNumber": 143
+        },
+        {
+          "caller": "handle_list_workflows",
+          "callee": "lines.join",
+          "lineNumber": 146
+        },
+        {
+          "caller": "handle_list_workflows",
+          "callee": "String",
+          "lineNumber": 148
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "get_workflow_slice",
+          "lineNumber": 153
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "lines.push",
+          "lineNumber": 161
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "lines.push",
+          "lineNumber": 164
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "Object.values(active_workflow.node_statuses).filter",
+          "lineNumber": 168
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "Object.values",
+          "lineNumber": 168
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "Object.values(active_workflow.node_statuses).filter",
+          "lineNumber": 169
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "Object.values",
+          "lineNumber": 169
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "lines.push",
+          "lineNumber": 171
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "lines.push",
+          "lineNumber": 174
+        },
+        {
+          "caller": "handle_get_workflow_status",
+          "callee": "lines.join",
+          "lineNumber": 177
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "get_workflow_slice",
+          "lineNumber": 181
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "workflow_api.list_steps",
+          "lineNumber": 187
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "steps.find",
+          "lineNumber": 188
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "lines.push",
+          "lineNumber": 199
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "workflow_api.get_step_files",
+          "lineNumber": 204
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "files.files.filter",
+          "lineNumber": 205
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "/\\.(out|err|log)$/i.test",
+          "lineNumber": 206
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "lines.push",
+          "lineNumber": 209
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "relevant.map(f => f.name).join",
+          "lineNumber": 209
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "relevant.map",
+          "lineNumber": 209
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "lines.join",
+          "lineNumber": 215
+        },
+        {
+          "caller": "handle_get_step_error",
+          "callee": "String",
+          "lineNumber": 217
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "Object.keys(NODE_DEFINITIONS).join",
+          "lineNumber": 224
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "Object.keys",
+          "lineNumber": 224
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "lines.push",
+          "lineNumber": 235
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "p.options.map(o => `${o.label}`).join",
+          "lineNumber": 242
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "p.options.map",
+          "lineNumber": 242
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "lines.push",
+          "lineNumber": 244
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "JSON.stringify",
+          "lineNumber": 244
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "lines.push",
+          "lineNumber": 245
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "lines.push",
+          "lineNumber": 248
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "JSON.stringify",
+          "lineNumber": 248
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "get_workflow_slice",
+          "lineNumber": 253
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "active_workflow.nodes.find",
+          "lineNumber": 254
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "lines.push",
+          "lineNumber": 256
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "Object.entries",
+          "lineNumber": 257
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "lines.push",
+          "lineNumber": 258
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "JSON.stringify",
+          "lineNumber": 258
+        },
+        {
+          "caller": "handle_suggest_params",
+          "callee": "lines.join",
+          "lineNumber": 263
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "Object.entries",
+          "lineNumber": 267
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "entries.filter",
+          "lineNumber": 269
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "def.category?.toUpperCase",
+          "lineNumber": 269
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "category.toUpperCase",
+          "lineNumber": 269
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "Object.values(NODE_DEFINITIONS).map(d => d.category).filter",
+          "lineNumber": 273
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "Object.values(NODE_DEFINITIONS).map",
+          "lineNumber": 273
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "Object.values",
+          "lineNumber": 273
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "categories.join",
+          "lineNumber": 274
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "by_category[cat].push",
+          "lineNumber": 283
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "Object.entries",
+          "lineNumber": 286
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "lines.push",
+          "lineNumber": 287
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "lines.push",
+          "lineNumber": 289
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "def.param_schema.slice(0, 8).map(p =>\r\n          `${p.key}=${JSON.stringify(p.default)}`,\r\n        ).join",
+          "lineNumber": 291
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "def.param_schema.slice(0, 8).map",
+          "lineNumber": 291
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "def.param_schema.slice",
+          "lineNumber": 291
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "JSON.stringify",
+          "lineNumber": 292
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "lines.push",
+          "lineNumber": 294
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "lines.push",
+          "lineNumber": 297
+        },
+        {
+          "caller": "handle_get_node_definitions",
+          "callee": "lines.join",
+          "lineNumber": 300
+        },
+        {
+          "caller": "handle_get_workflow_templates",
+          "callee": "workflow_api.list_templates",
+          "lineNumber": 305
+        },
+        {
+          "caller": "handle_get_workflow_templates",
+          "callee": "lines.push",
+          "lineNumber": 311
+        },
+        {
+          "caller": "handle_get_workflow_templates",
+          "callee": "lines.push",
+          "lineNumber": 313
+        },
+        {
+          "caller": "handle_get_workflow_templates",
+          "callee": "lines.join",
+          "lineNumber": 314
+        },
+        {
+          "caller": "handle_get_workflow_templates",
+          "callee": "String",
+          "lineNumber": 316
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "get_workflow_slice",
+          "lineNumber": 321
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "edges.map",
+          "lineNumber": 337
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "input_types.has",
+          "lineNumber": 339
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "nodes_with_incoming.has",
+          "lineNumber": 339
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "errors.push",
+          "lineNumber": 340
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "edges.map",
+          "lineNumber": 346
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "edges.map",
+          "lineNumber": 347
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "nodes_with_edges.has",
+          "lineNumber": 350
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "warnings.push",
+          "lineNumber": 351
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "adj[edge.from].push",
+          "lineNumber": 363
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "Object.keys(in_degree).filter",
+          "lineNumber": 366
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "Object.keys",
+          "lineNumber": 366
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "queue.shift",
+          "lineNumber": 369
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "queue.push",
+          "lineNumber": 373
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "errors.push",
+          "lineNumber": 377
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "lines.push",
+          "lineNumber": 387
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "lines.push",
+          "lineNumber": 388
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "lines.push",
+          "lineNumber": 391
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "lines.push",
+          "lineNumber": 392
+        },
+        {
+          "caller": "handle_validate_workflow",
+          "callee": "lines.join",
+          "lineNumber": 394
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "workflow_api.create_from_template",
+          "lineNumber": 401
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "Date.now",
+          "lineNumber": 410
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "Math.random().toString(36).slice",
+          "lineNumber": 410
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "Math.random().toString",
+          "lineNumber": 410
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "Math.random",
+          "lineNumber": 410
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "fetch",
+          "lineNumber": 413
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "encodeURIComponent",
+          "lineNumber": 414
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "r.json",
+          "lineNumber": 417
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "Object.keys",
+          "lineNumber": 418
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "JSON.stringify",
+          "lineNumber": 419
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "workflow_api.create_workflow",
+          "lineNumber": 431
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "JSON.stringify",
+          "lineNumber": 431
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "project_api.assign_workflow_to_project",
+          "lineNumber": 438
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "get_workflow_slice",
+          "lineNumber": 444
+        },
+        {
+          "caller": "handle_create_workflow",
+          "callee": "String",
+          "lineNumber": 449
+        },
+        {
+          "caller": "handle_mutation",
+          "callee": "get_workflow_action_handler",
+          "lineNumber": 455
+        },
+        {
+          "caller": "handle_mutation",
+          "callee": "setTimeout",
+          "lineNumber": 458
+        },
+        {
+          "caller": "handle_mutation",
+          "callee": "get_workflow_action_handler",
+          "lineNumber": 459
+        },
+        {
+          "caller": "handle_mutation",
+          "callee": "handler",
+          "lineNumber": 482
+        },
+        {
+          "caller": "handle_mutation",
+          "callee": "String",
+          "lineNumber": 484
+        },
+        {
+          "caller": "handle_retry_step",
+          "callee": "fetch",
+          "lineNumber": 492
+        },
+        {
+          "caller": "handle_retry_step",
+          "callee": "response.json().catch",
+          "lineNumber": 496
+        },
+        {
+          "caller": "handle_retry_step",
+          "callee": "response.json",
+          "lineNumber": 496
+        },
+        {
+          "caller": "handle_retry_step",
+          "callee": "response.json",
+          "lineNumber": 499
+        },
+        {
+          "caller": "handle_retry_step",
+          "callee": "String",
+          "lineNumber": 503
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "fetch",
+          "lineNumber": 509
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "response.json().catch",
+          "lineNumber": 511
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "response.json",
+          "lineNumber": 511
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "response.json",
+          "lineNumber": 514
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "lines.push",
+          "lineNumber": 520
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "s.energy_stats.min?.toFixed",
+          "lineNumber": 520
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "s.energy_stats.max?.toFixed",
+          "lineNumber": 520
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "s.energy_stats.mean?.toFixed",
+          "lineNumber": 520
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "lines.join",
+          "lineNumber": 522
+        },
+        {
+          "caller": "handle_get_batch_status",
+          "callee": "String",
+          "lineNumber": 524
+        },
+        {
+          "caller": "handle_get_calculation_guidelines",
+          "callee": "fetch",
+          "lineNumber": 537
+        },
+        {
+          "caller": "handle_get_calculation_guidelines",
+          "callee": "res.json",
+          "lineNumber": 541
+        },
+        {
+          "caller": "handle_get_calculation_guidelines",
+          "callee": "content.match",
+          "lineNumber": 545
+        },
+        {
+          "caller": "handle_get_calculation_guidelines",
+          "callee": "String",
+          "lineNumber": 552
+        },
+        {
+          "caller": "handle_compute_oer_overpotential",
+          "callee": "steps.reduce",
+          "lineNumber": 575
+        },
+        {
+          "caller": "handle_compute_oer_overpotential",
+          "callee": "steps.map",
+          "lineNumber": 582
+        },
+        {
+          "caller": "handle_compute_oer_overpotential",
+          "callee": "s.dG.toFixed",
+          "lineNumber": 582
+        },
+        {
+          "caller": "handle_compute_oer_overpotential",
+          "callee": "max_step.dG.toFixed",
+          "lineNumber": 584
+        },
+        {
+          "caller": "handle_compute_oer_overpotential",
+          "callee": "overpotential.toFixed",
+          "lineNumber": 585
+        },
+        {
+          "caller": "handle_compute_oer_overpotential",
+          "callee": "lines.join",
+          "lineNumber": 587
+        },
+        {
+          "caller": "handle_compute_free_energy",
+          "callee": "Math.exp",
+          "lineNumber": 612
+        },
+        {
+          "caller": "handle_compute_free_energy",
+          "callee": "Math.log",
+          "lineNumber": 612
+        },
+        {
+          "caller": "handle_compute_free_energy",
+          "callee": "Math.exp",
+          "lineNumber": 612
+        },
+        {
+          "caller": "handle_compute_free_energy",
+          "callee": "e_dft.toFixed",
+          "lineNumber": 622
+        },
+        {
+          "caller": "handle_compute_free_energy",
+          "callee": "zpe.toFixed",
+          "lineNumber": 623
+        },
+        {
+          "caller": "handle_compute_free_energy",
+          "callee": "(-ts_vib).toFixed",
+          "lineNumber": 624
+        },
+        {
+          "caller": "handle_compute_free_energy",
+          "callee": "G.toFixed",
+          "lineNumber": 626
+        },
+        {
+          "caller": "handle_compute_free_energy",
+          "callee": "lines.join",
+          "lineNumber": 628
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "fetch",
+          "lineNumber": 633
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "format_hardcoded_vasp_presets",
+          "lineNumber": 636
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "response.json",
+          "lineNumber": 638
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "lines.push",
+          "lineNumber": 641
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "Object.entries(p.incar).map(([k, v]) => `${k}=${v}`).join",
+          "lineNumber": 643
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "Object.entries(p.incar).map",
+          "lineNumber": 643
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "Object.entries",
+          "lineNumber": 643
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "lines.push",
+          "lineNumber": 644
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "lines.join",
+          "lineNumber": 647
+        },
+        {
+          "caller": "handle_list_vasp_presets",
+          "callee": "format_hardcoded_vasp_presets",
+          "lineNumber": 649
+        },
+        {
+          "caller": "handle_import_template",
+          "callee": "fetch",
+          "lineNumber": 659
+        },
+        {
+          "caller": "handle_import_template",
+          "callee": "JSON.stringify",
+          "lineNumber": 662
+        },
+        {
+          "caller": "handle_import_template",
+          "callee": "workflow_api.create_from_template",
+          "lineNumber": 668
+        },
+        {
+          "caller": "handle_import_template",
+          "callee": "get_workflow_slice",
+          "lineNumber": 669
+        },
+        {
+          "caller": "handle_import_template",
+          "callee": "String",
+          "lineNumber": 672
+        },
+        {
+          "caller": "handle_import_template",
+          "callee": "response.json",
+          "lineNumber": 676
+        },
+        {
+          "caller": "handle_import_template",
+          "callee": "get_workflow_slice",
+          "lineNumber": 678
+        },
+        {
+          "caller": "handle_import_template",
+          "callee": "String",
+          "lineNumber": 682
+        },
+        {
+          "caller": "handle_create_screening_workflow",
+          "callee": "fetch",
+          "lineNumber": 695
+        },
+        {
+          "caller": "handle_create_screening_workflow",
+          "callee": "JSON.stringify",
+          "lineNumber": 698
+        },
+        {
+          "caller": "handle_create_screening_workflow",
+          "callee": "response.json().catch",
+          "lineNumber": 703
+        },
+        {
+          "caller": "handle_create_screening_workflow",
+          "callee": "response.json",
+          "lineNumber": 703
+        },
+        {
+          "caller": "handle_create_screening_workflow",
+          "callee": "response.json",
+          "lineNumber": 707
+        },
+        {
+          "caller": "handle_create_screening_workflow",
+          "callee": "get_workflow_slice",
+          "lineNumber": 709
+        },
+        {
+          "caller": "handle_create_screening_workflow",
+          "callee": "String",
+          "lineNumber": 713
+        },
+        {
+          "caller": "format_hardcoded_vasp_presets",
+          "callee": "lines.push",
+          "lineNumber": 728
+        },
+        {
+          "caller": "format_hardcoded_vasp_presets",
+          "callee": "lines.push",
+          "lineNumber": 729
+        },
+        {
+          "caller": "format_hardcoded_vasp_presets",
+          "callee": "lines.join",
+          "lineNumber": 731
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 5,
+        "functionCount": 23,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/chat/workflow-tools.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 407,
+      "nonEmptyLines": 394,
+      "exports": [
+        {
+          "name": "TASK_TYPE_TO_SKILL",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "REACTION_TYPE_TO_SKILL",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "WORKFLOW_TOOL_DEFINITIONS",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "WORKFLOW_TOOL_NAMES",
+          "line": 407,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/colors/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 138,
+      "nonEmptyLines": 121,
+      "functions": [
+        {
+          "name": "rgb_scheme_to_hex",
+          "startLine": 50,
+          "endLine": 55,
+          "params": [
+            "obj"
+          ]
+        },
+        {
+          "name": "is_color",
+          "startLine": 77,
+          "endLine": 85,
+          "params": [
+            "val"
+          ]
+        },
+        {
+          "name": "luminance",
+          "startLine": 102,
+          "endLine": 106,
+          "params": [
+            "clr"
+          ]
+        },
+        {
+          "name": "get_bg_color",
+          "startLine": 109,
+          "endLine": 121,
+          "params": [
+            "elem",
+            "bg_color"
+          ]
+        },
+        {
+          "name": "pick_contrast_color",
+          "startLine": 129,
+          "endLine": 133,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "contrast_color",
+          "startLine": 136,
+          "endLine": 138,
+          "params": [
+            "options"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "COLOR_SCALE_TYPES",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "default_category_colors",
+          "line": 22,
+          "isDefault": false
+        },
+        {
+          "name": "axis_colors",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "neg_axis_colors",
+          "line": 41,
+          "isDefault": false
+        },
+        {
+          "name": "vesta_hex",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "jmol_hex",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "alloy_hex",
+          "line": 59,
+          "isDefault": false
+        },
+        {
+          "name": "pastel_hex",
+          "line": 60,
+          "isDefault": false
+        },
+        {
+          "name": "muted_hex",
+          "line": 61,
+          "isDefault": false
+        },
+        {
+          "name": "dark_mode_hex",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "element_color_schemes",
+          "line": 64,
+          "isDefault": false
+        },
+        {
+          "name": "default_element_colors",
+          "line": 74,
+          "isDefault": false
+        },
+        {
+          "name": "is_color",
+          "line": 77,
+          "isDefault": false
+        },
+        {
+          "name": "PLOT_COLORS",
+          "line": 87,
+          "isDefault": false
+        },
+        {
+          "name": "plot_colors",
+          "line": 99,
+          "isDefault": false
+        },
+        {
+          "name": "luminance",
+          "line": 102,
+          "isDefault": false
+        },
+        {
+          "name": "get_bg_color",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "pick_contrast_color",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "contrast_color",
+          "line": 136,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "rgb_scheme_to_hex",
+          "callee": "Object.fromEntries",
+          "lineNumber": 51
+        },
+        {
+          "caller": "rgb_scheme_to_hex",
+          "callee": "Object.entries(obj)\r\n      .filter(([, val]) => val.length >= 3)\r\n      .map",
+          "lineNumber": 52
+        },
+        {
+          "caller": "rgb_scheme_to_hex",
+          "callee": "Object.entries(obj)\r\n      .filter",
+          "lineNumber": 52
+        },
+        {
+          "caller": "rgb_scheme_to_hex",
+          "callee": "Object.entries",
+          "lineNumber": 52
+        },
+        {
+          "caller": "rgb_scheme_to_hex",
+          "callee": "rgb(val[0], val[1], val[2]).formatHex",
+          "lineNumber": 54
+        },
+        {
+          "caller": "rgb_scheme_to_hex",
+          "callee": "rgb",
+          "lineNumber": 54
+        },
+        {
+          "caller": "is_color",
+          "callee": "/^(#[0-9a-f]{3,8}|rgba?\\([^)]+\\)|hsla?\\([^)]+\\)|color\\([^)]+\\)|var\\([^)]+\\)|(?!rgb$|hsl$|var$|color$)[a-z]+)$/i\r\n    .test",
+          "lineNumber": 81
+        },
+        {
+          "caller": "is_color",
+          "callee": "val.toString().trim",
+          "lineNumber": 83
+        },
+        {
+          "caller": "is_color",
+          "callee": "val.toString",
+          "lineNumber": 83
+        },
+        {
+          "caller": "luminance",
+          "callee": "rgb",
+          "lineNumber": 103
+        },
+        {
+          "caller": "get_bg_color",
+          "callee": "getComputedStyle",
+          "lineNumber": 118
+        },
+        {
+          "caller": "get_bg_color",
+          "callee": "get_bg_color",
+          "lineNumber": 120
+        },
+        {
+          "caller": "pick_contrast_color",
+          "callee": "luminance",
+          "lineNumber": 131
+        },
+        {
+          "caller": "contrast_color",
+          "callee": "pick_contrast_color",
+          "lineNumber": 137
+        },
+        {
+          "caller": "contrast_color",
+          "callee": "get_bg_color",
+          "lineNumber": 137
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 19,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    }
+  ]
+}

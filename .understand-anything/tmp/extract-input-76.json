@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "server/tests/test_graph_converter_ids.py",
+      "language": "python",
+      "sizeLines": 113,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_graph_converter.py",
+      "language": "python",
+      "sizeLines": 68,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_hpc_dry_run.py",
+      "language": "python",
+      "sizeLines": 305,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_integration_local.py",
+      "language": "python",
+      "sizeLines": 71,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_job_script.py",
+      "language": "python",
+      "sizeLines": 94,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_lammps_engine_def.py",
+      "language": "python",
+      "sizeLines": 149,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_lateral_hetero_mcp.py",
+      "language": "python",
+      "sizeLines": 223,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_local_calculations_e2e.py",
+      "language": "python",
+      "sizeLines": 562,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_mace_ni_benchmark.py",
+      "language": "python",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_mace_relax_local.py",
+      "language": "python",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_mace_surface_energy.py",
+      "language": "python",
+      "sizeLines": 180,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_map.py",
+      "language": "python",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_mcp_tools.py",
+      "language": "python",
+      "sizeLines": 140,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_mcp_workflow.py",
+      "language": "python",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_md_paper_features.py",
+      "language": "python",
+      "sizeLines": 169,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_mlp_neb.py",
+      "language": "python",
+      "sizeLines": 197,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_mlp_single_point.py",
+      "language": "python",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_mlp_vibrations.py",
+      "language": "python",
+      "sizeLines": 259,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_mofdb.py",
+      "language": "python",
+      "sizeLines": 200,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_oer_shaheen_gibbs.py",
+      "language": "python",
+      "sizeLines": 653,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_oer_shaheen.py",
+      "language": "python",
+      "sizeLines": 605,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_orca_engine_def.py",
+      "language": "python",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_orca_results_e2e.py",
+      "language": "python",
+      "sizeLines": 240,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_provenance.py",
+      "language": "python",
+      "sizeLines": 217,
+      "fileCategory": "code"
+    },
+    {
+      "path": "server/tests/test_reference.py",
+      "language": "python",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "server/tests/test_graph_converter_ids.py": [],
+    "server/tests/test_graph_converter.py": [],
+    "server/tests/test_hpc_dry_run.py": [],
+    "server/tests/test_integration_local.py": [],
+    "server/tests/test_job_script.py": [],
+    "server/tests/test_lammps_engine_def.py": [],
+    "server/tests/test_lateral_hetero_mcp.py": [],
+    "server/tests/test_local_calculations_e2e.py": [],
+    "server/tests/test_mace_ni_benchmark.py": [],
+    "server/tests/test_mace_relax_local.py": [],
+    "server/tests/test_mace_surface_energy.py": [],
+    "server/tests/test_map.py": [],
+    "server/tests/test_mcp_tools.py": [],
+    "server/tests/test_mcp_workflow.py": [],
+    "server/tests/test_md_paper_features.py": [],
+    "server/tests/test_mlp_neb.py": [],
+    "server/tests/test_mlp_single_point.py": [],
+    "server/tests/test_mlp_vibrations.py": [],
+    "server/tests/test_mofdb.py": [],
+    "server/tests/test_oer_shaheen_gibbs.py": [],
+    "server/tests/test_oer_shaheen.py": [],
+    "server/tests/test_orca_engine_def.py": [],
+    "server/tests/test_orca_results_e2e.py": [],
+    "server/tests/test_provenance.py": [],
+    "server/tests/test_reference.py": []
+  }
+}

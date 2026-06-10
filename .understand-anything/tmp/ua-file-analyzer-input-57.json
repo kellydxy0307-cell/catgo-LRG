@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "extensions/rust/src/python/mod.rs",
+      "language": "rust",
+      "sizeLines": 78,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/neighbors.rs",
+      "language": "rust",
+      "sizeLines": 102,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/order_params.rs",
+      "language": "rust",
+      "sizeLines": 59,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/oxidation.rs",
+      "language": "rust",
+      "sizeLines": 232,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/potentials.rs",
+      "language": "rust",
+      "sizeLines": 213,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/rdf.rs",
+      "language": "rust",
+      "sizeLines": 112,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/structure.rs",
+      "language": "rust",
+      "sizeLines": 538,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/surfaces.rs",
+      "language": "rust",
+      "sizeLines": 245,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/symmetry.rs",
+      "language": "rust",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/trajectory.rs",
+      "language": "rust",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/python/xrd.rs",
+      "language": "rust",
+      "sizeLines": 90,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/rdf.rs",
+      "language": "rust",
+      "sizeLines": 756,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/slab.rs",
+      "language": "rust",
+      "sizeLines": 1233,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/species.rs",
+      "language": "rust",
+      "sizeLines": 797,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/structure_matcher.rs",
+      "language": "rust",
+      "sizeLines": 2257,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/structure.rs",
+      "language": "rust",
+      "sizeLines": 6498,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/surfaces.rs",
+      "language": "rust",
+      "sizeLines": 1275,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/trajectory.rs",
+      "language": "rust",
+      "sizeLines": 1063,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/transformations/mod.rs",
+      "language": "rust",
+      "sizeLines": 185,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/transformations/order_disordered.rs",
+      "language": "rust",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/transformations/ordering.rs",
+      "language": "rust",
+      "sizeLines": 1063,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/transformations/partial_remove.rs",
+      "language": "rust",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/transformations/site.rs",
+      "language": "rust",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/transformations/standard.rs",
+      "language": "rust",
+      "sizeLines": 1,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/transformations/supercell.rs",
+      "language": "rust",
+      "sizeLines": 0,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "extensions/rust/src/python/mod.rs": [],
+    "extensions/rust/src/python/neighbors.rs": [],
+    "extensions/rust/src/python/order_params.rs": [],
+    "extensions/rust/src/python/oxidation.rs": [],
+    "extensions/rust/src/python/potentials.rs": [],
+    "extensions/rust/src/python/rdf.rs": [],
+    "extensions/rust/src/python/structure.rs": [],
+    "extensions/rust/src/python/surfaces.rs": [],
+    "extensions/rust/src/python/symmetry.rs": [],
+    "extensions/rust/src/python/trajectory.rs": [],
+    "extensions/rust/src/python/xrd.rs": [],
+    "extensions/rust/src/rdf.rs": [],
+    "extensions/rust/src/slab.rs": [],
+    "extensions/rust/src/species.rs": [],
+    "extensions/rust/src/structure_matcher.rs": [],
+    "extensions/rust/src/structure.rs": [],
+    "extensions/rust/src/surfaces.rs": [],
+    "extensions/rust/src/trajectory.rs": [],
+    "extensions/rust/src/transformations/mod.rs": [],
+    "extensions/rust/src/transformations/order_disordered.rs": [],
+    "extensions/rust/src/transformations/ordering.rs": [],
+    "extensions/rust/src/transformations/partial_remove.rs": [],
+    "extensions/rust/src/transformations/site.rs": [],
+    "extensions/rust/src/transformations/standard.rs": [],
+    "extensions/rust/src/transformations/supercell.rs": []
+  }
+}

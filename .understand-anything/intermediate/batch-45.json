@@ -1,0 +1,380 @@
+{
+  "nodes": [
+    {
+      "id": "document:.claude/skills/nrr/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/nrr/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/nrr/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/oer/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/oer/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/oer/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/openbabel/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/openbabel/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/openbabel/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/orca-freq/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/orca-freq/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/orca-freq/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/orca-irc/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/orca-irc/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/orca-irc/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/orca-neb-ts/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/orca-neb-ts/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/orca-neb-ts/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/orca-opt/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/orca-opt/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/orca-opt/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/orca-uv-vis/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/orca-uv-vis/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/orca-uv-vis/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/packmol/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/packmol/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/packmol/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/phonopy/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/phonopy/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/phonopy/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/qe/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/qe/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/qe/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/rdkit/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/rdkit/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/rdkit/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/reacnetgen/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/reacnetgen/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/reacnetgen/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/siesta/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/siesta/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/siesta/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-adsorbate/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-adsorbate/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-adsorbate/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-defect/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-defect/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-defect/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-doping/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-doping/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-doping/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-fetch/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-fetch/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-fetch/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-heterostructure/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-heterostructure/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-heterostructure/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-intercalation/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-intercalation/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-intercalation/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-moire/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-moire/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-moire/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-nanotube/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-nanotube/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-nanotube/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-slab/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-slab/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-slab/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-strain/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-strain/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-strain/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:.claude/skills/structure-substitution/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": ".claude/skills/structure-substitution/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 .claude/skills/structure-substitution/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    }
+  ],
+  "edges": []
+}

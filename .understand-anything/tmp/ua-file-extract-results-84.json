@@ -1,0 +1,3028 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src/lib/composition/BarChart.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 305,
+      "nonEmptyLines": 285,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/composition/BubbleChart.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 211,
+      "nonEmptyLines": 194,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/composition/Composition.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 164,
+      "nonEmptyLines": 149,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/composition/Formula.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 225,
+      "nonEmptyLines": 213,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/composition/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 35,
+      "nonEmptyLines": 30,
+      "functions": [
+        {
+          "name": "get_chart_font_scale",
+          "startLine": 23,
+          "endLine": 35,
+          "params": [
+            "base_scale",
+            "label_text",
+            "available_space",
+            "min_scale_factor",
+            "base_font_size"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BarChart",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "BubbleChart",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "Composition",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Formula",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "PieChart",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "get_chart_font_scale",
+          "line": 23,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "get_chart_font_scale",
+          "callee": "Math.max",
+          "lineNumber": 33
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/composition/parse.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 408,
+      "nonEmptyLines": 365,
+      "functions": [
+        {
+          "name": "is_atomic_number_composition",
+          "startLine": 28,
+          "endLine": 32,
+          "params": [
+            "obj"
+          ]
+        },
+        {
+          "name": "atomic_num_to_symbols",
+          "startLine": 35,
+          "endLine": 45,
+          "params": [
+            "atomic_composition"
+          ]
+        },
+        {
+          "name": "atomic_symbol_to_num",
+          "startLine": 48,
+          "endLine": 60,
+          "params": [
+            "symbol_composition"
+          ]
+        },
+        {
+          "name": "expand_parentheses",
+          "startLine": 63,
+          "endLine": 77,
+          "params": [
+            "formula"
+          ]
+        },
+        {
+          "name": "parse_formula",
+          "startLine": 80,
+          "endLine": 94,
+          "params": [
+            "formula"
+          ]
+        },
+        {
+          "name": "normalize_composition",
+          "startLine": 97,
+          "endLine": 113,
+          "params": [
+            "composition"
+          ]
+        },
+        {
+          "name": "fractional_composition",
+          "startLine": 115,
+          "endLine": 153,
+          "params": [
+            "composition",
+            "by_weight"
+          ]
+        },
+        {
+          "name": "get_total_atoms",
+          "startLine": 156,
+          "endLine": 157,
+          "params": [
+            "composition"
+          ]
+        },
+        {
+          "name": "parse_composition",
+          "startLine": 160,
+          "endLine": 178,
+          "params": [
+            "input"
+          ]
+        },
+        {
+          "name": "structure_to_composition",
+          "startLine": 181,
+          "endLine": 199,
+          "params": [
+            "structure"
+          ]
+        },
+        {
+          "name": "format_composition_formula",
+          "startLine": 202,
+          "endLine": 222,
+          "params": [
+            "composition",
+            "sort_fn",
+            "plain_text",
+            "delim",
+            "amount_format"
+          ]
+        },
+        {
+          "name": "format_formula_generic",
+          "startLine": 225,
+          "endLine": 250,
+          "params": [
+            "input",
+            "sort_fn",
+            "plain_text",
+            "delim",
+            "amount_format"
+          ]
+        },
+        {
+          "name": "get_alphabetical_formula",
+          "startLine": 253,
+          "endLine": 265,
+          "params": [
+            "input",
+            "plain_text",
+            "delim",
+            "amount_format"
+          ]
+        },
+        {
+          "name": "sort_by_electronegativity",
+          "startLine": 267,
+          "endLine": 272,
+          "params": [
+            "symbols"
+          ]
+        },
+        {
+          "name": "sort_by_hill_notation",
+          "startLine": 276,
+          "endLine": 291,
+          "params": [
+            "symbols"
+          ]
+        },
+        {
+          "name": "get_electro_neg_formula",
+          "startLine": 294,
+          "endLine": 306,
+          "params": [
+            "input",
+            "plain_text",
+            "delim",
+            "amount_format"
+          ]
+        },
+        {
+          "name": "parse_oxidation_state",
+          "startLine": 323,
+          "endLine": 335,
+          "params": [
+            "oxidation_str"
+          ]
+        },
+        {
+          "name": "parse_formula_with_oxidation",
+          "startLine": 341,
+          "endLine": 389,
+          "params": [
+            "formula"
+          ]
+        },
+        {
+          "name": "composition_with_oxidation_to_elements",
+          "startLine": 393,
+          "endLine": 402,
+          "params": [
+            "composition"
+          ]
+        },
+        {
+          "name": "format_oxi_state",
+          "startLine": 404,
+          "endLine": 408,
+          "params": [
+            "oxidation"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "atomic_number_to_symbol",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "symbol_to_atomic_number",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "ATOMIC_NUMBER_TO_SYMBOL",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "SYMBOL_TO_ATOMIC_NUMBER",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "atomic_weights",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "element_electronegativity_map",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "elem_name_to_symbol",
+          "line": 13,
+          "isDefault": false
+        },
+        {
+          "name": "elem_symbol_to_name",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "atomic_num_to_symbols",
+          "line": 35,
+          "isDefault": false
+        },
+        {
+          "name": "atomic_symbol_to_num",
+          "line": 48,
+          "isDefault": false
+        },
+        {
+          "name": "parse_formula",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "normalize_composition",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "fractional_composition",
+          "line": 115,
+          "isDefault": false
+        },
+        {
+          "name": "get_total_atoms",
+          "line": 156,
+          "isDefault": false
+        },
+        {
+          "name": "parse_composition",
+          "line": 160,
+          "isDefault": false
+        },
+        {
+          "name": "format_composition_formula",
+          "line": 202,
+          "isDefault": false
+        },
+        {
+          "name": "get_alphabetical_formula",
+          "line": 253,
+          "isDefault": false
+        },
+        {
+          "name": "sort_by_electronegativity",
+          "line": 267,
+          "isDefault": false
+        },
+        {
+          "name": "sort_by_hill_notation",
+          "line": 276,
+          "isDefault": false
+        },
+        {
+          "name": "get_electro_neg_formula",
+          "line": 294,
+          "isDefault": false
+        },
+        {
+          "name": "parse_formula_with_oxidation",
+          "line": 341,
+          "isDefault": false
+        },
+        {
+          "name": "composition_with_oxidation_to_elements",
+          "line": 393,
+          "isDefault": false
+        },
+        {
+          "name": "format_oxi_state",
+          "line": 404,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "is_atomic_number_composition",
+          "callee": "Object.keys",
+          "lineNumber": 29
+        },
+        {
+          "caller": "is_atomic_number_composition",
+          "callee": "keys.map(Number).every",
+          "lineNumber": 31
+        },
+        {
+          "caller": "is_atomic_number_composition",
+          "callee": "keys.map",
+          "lineNumber": 31
+        },
+        {
+          "caller": "is_atomic_number_composition",
+          "callee": "Number.isInteger",
+          "lineNumber": 31
+        },
+        {
+          "caller": "atomic_num_to_symbols",
+          "callee": "Object.entries",
+          "lineNumber": 39
+        },
+        {
+          "caller": "atomic_num_to_symbols",
+          "callee": "Number",
+          "lineNumber": 40
+        },
+        {
+          "caller": "atomic_symbol_to_num",
+          "callee": "Object.entries",
+          "lineNumber": 52
+        },
+        {
+          "caller": "expand_parentheses",
+          "callee": "formula.includes",
+          "lineNumber": 64
+        },
+        {
+          "caller": "expand_parentheses",
+          "callee": "formula.replace",
+          "lineNumber": 65
+        },
+        {
+          "caller": "expand_parentheses",
+          "callee": "parseInt",
+          "lineNumber": 66
+        },
+        {
+          "caller": "expand_parentheses",
+          "callee": "group.replace",
+          "lineNumber": 67
+        },
+        {
+          "caller": "expand_parentheses",
+          "callee": "parseInt",
+          "lineNumber": 70
+        },
+        {
+          "caller": "parse_formula",
+          "callee": "expand_parentheses",
+          "lineNumber": 82
+        },
+        {
+          "caller": "parse_formula",
+          "callee": "formula.replace",
+          "lineNumber": 82
+        },
+        {
+          "caller": "parse_formula",
+          "callee": "cleaned_formula.matchAll",
+          "lineNumber": 84
+        },
+        {
+          "caller": "parse_formula",
+          "callee": "parseInt",
+          "lineNumber": 86
+        },
+        {
+          "caller": "parse_formula",
+          "callee": "elem_symbols.includes",
+          "lineNumber": 88
+        },
+        {
+          "caller": "normalize_composition",
+          "callee": "is_atomic_number_composition",
+          "lineNumber": 100
+        },
+        {
+          "caller": "normalize_composition",
+          "callee": "normalize_composition",
+          "lineNumber": 101
+        },
+        {
+          "caller": "normalize_composition",
+          "callee": "atomic_num_to_symbols",
+          "lineNumber": 102
+        },
+        {
+          "caller": "normalize_composition",
+          "callee": "Object.entries",
+          "lineNumber": 107
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.fromEntries",
+          "lineNumber": 120
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.entries(composition)\r\n        .filter(([, amount]) => amount > 0)\r\n        .map",
+          "lineNumber": 121
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.entries(composition)\r\n        .filter",
+          "lineNumber": 121
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.entries",
+          "lineNumber": 121
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "atomic_weights.get",
+          "lineNumber": 124
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.values(element_weights).reduce",
+          "lineNumber": 130
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.values",
+          "lineNumber": 130
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.fromEntries",
+          "lineNumber": 136
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.entries(element_weights).map",
+          "lineNumber": 137
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.entries",
+          "lineNumber": 137
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.values(composition).reduce",
+          "lineNumber": 144
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.values",
+          "lineNumber": 144
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.fromEntries",
+          "lineNumber": 147
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.entries(composition).map",
+          "lineNumber": 148
+        },
+        {
+          "caller": "fractional_composition",
+          "callee": "Object.entries",
+          "lineNumber": 148
+        },
+        {
+          "caller": "get_total_atoms",
+          "callee": "Object.values(composition).reduce",
+          "lineNumber": 157
+        },
+        {
+          "caller": "get_total_atoms",
+          "callee": "Object.values",
+          "lineNumber": 157
+        },
+        {
+          "caller": "parse_composition",
+          "callee": "input.trim().startsWith",
+          "lineNumber": 168
+        },
+        {
+          "caller": "parse_composition",
+          "callee": "input.trim",
+          "lineNumber": 168
+        },
+        {
+          "caller": "parse_composition",
+          "callee": "input.trim().endsWith",
+          "lineNumber": 168
+        },
+        {
+          "caller": "parse_composition",
+          "callee": "input.trim",
+          "lineNumber": 168
+        },
+        {
+          "caller": "parse_composition",
+          "callee": "normalize_composition",
+          "lineNumber": 170
+        },
+        {
+          "caller": "parse_composition",
+          "callee": "JSON.parse",
+          "lineNumber": 170
+        },
+        {
+          "caller": "parse_composition",
+          "callee": "normalize_composition",
+          "lineNumber": 175
+        },
+        {
+          "caller": "parse_composition",
+          "callee": "parse_formula",
+          "lineNumber": 175
+        },
+        {
+          "caller": "parse_composition",
+          "callee": "normalize_composition",
+          "lineNumber": 177
+        },
+        {
+          "caller": "structure_to_composition",
+          "callee": "Array.isArray",
+          "lineNumber": 184
+        },
+        {
+          "caller": "structure_to_composition",
+          "callee": "Array.isArray",
+          "lineNumber": 190
+        },
+        {
+          "caller": "format_composition_formula",
+          "callee": "Object.keys",
+          "lineNumber": 209
+        },
+        {
+          "caller": "format_composition_formula",
+          "callee": "sort_fn(symbols)\r\n    .filter((el) => composition[el] && composition[el] > 0)\r\n    .map((el) => {\r\n      const amount = composition[el]\r\n      if (amount === 1) return el\r\n      const formatted_amount = format_num(Number(amount), amount_format)\r\n      return plain_text\r\n        ? `${el}${formatted_amount}`\r\n        : `${el}<sub>${formatted_amount}</sub>`\r\n    })\r\n    .join",
+          "lineNumber": 211
+        },
+        {
+          "caller": "format_composition_formula",
+          "callee": "sort_fn(symbols)\r\n    .filter((el) => composition[el] && composition[el] > 0)\r\n    .map",
+          "lineNumber": 211
+        },
+        {
+          "caller": "format_composition_formula",
+          "callee": "sort_fn(symbols)\r\n    .filter",
+          "lineNumber": 211
+        },
+        {
+          "caller": "format_composition_formula",
+          "callee": "sort_fn",
+          "lineNumber": 211
+        },
+        {
+          "caller": "format_composition_formula",
+          "callee": "format_num",
+          "lineNumber": 216
+        },
+        {
+          "caller": "format_composition_formula",
+          "callee": "Number",
+          "lineNumber": 216
+        },
+        {
+          "caller": "format_formula_generic",
+          "callee": "parse_composition",
+          "lineNumber": 235
+        },
+        {
+          "caller": "format_formula_generic",
+          "callee": "structure_to_composition",
+          "lineNumber": 237
+        },
+        {
+          "caller": "format_formula_generic",
+          "callee": "format_composition_formula",
+          "lineNumber": 240
+        },
+        {
+          "caller": "get_alphabetical_formula",
+          "callee": "format_formula_generic",
+          "lineNumber": 259
+        },
+        {
+          "caller": "get_alphabetical_formula",
+          "callee": "symbols.sort",
+          "lineNumber": 261
+        },
+        {
+          "caller": "sort_by_electronegativity",
+          "callee": "symbols.sort",
+          "lineNumber": 268
+        },
+        {
+          "caller": "sort_by_electronegativity",
+          "callee": "element_electronegativity_map.get",
+          "lineNumber": 269
+        },
+        {
+          "caller": "sort_by_electronegativity",
+          "callee": "element_electronegativity_map.get",
+          "lineNumber": 270
+        },
+        {
+          "caller": "sort_by_electronegativity",
+          "callee": "el1.localeCompare",
+          "lineNumber": 271
+        },
+        {
+          "caller": "sort_by_hill_notation",
+          "callee": "symbols.includes",
+          "lineNumber": 277
+        },
+        {
+          "caller": "sort_by_hill_notation",
+          "callee": "symbols.sort",
+          "lineNumber": 278
+        },
+        {
+          "caller": "sort_by_hill_notation",
+          "callee": "el_a.localeCompare",
+          "lineNumber": 289
+        },
+        {
+          "caller": "get_electro_neg_formula",
+          "callee": "format_formula_generic",
+          "lineNumber": 300
+        },
+        {
+          "caller": "parse_oxidation_state",
+          "callee": "oxidation_str.match",
+          "lineNumber": 329
+        },
+        {
+          "caller": "parse_oxidation_state",
+          "callee": "parseInt",
+          "lineNumber": 334
+        },
+        {
+          "caller": "parse_oxidation_state",
+          "callee": "parseInt",
+          "lineNumber": 334
+        },
+        {
+          "caller": "parse_formula_with_oxidation",
+          "callee": "expand_parentheses",
+          "lineNumber": 345
+        },
+        {
+          "caller": "parse_formula_with_oxidation",
+          "callee": "formula.replace",
+          "lineNumber": 345
+        },
+        {
+          "caller": "parse_formula_with_oxidation",
+          "callee": "regex.exec",
+          "lineNumber": 357
+        },
+        {
+          "caller": "parse_formula_with_oxidation",
+          "callee": "parseInt",
+          "lineNumber": 360
+        },
+        {
+          "caller": "parse_formula_with_oxidation",
+          "callee": "elem_symbols.includes",
+          "lineNumber": 362
+        },
+        {
+          "caller": "parse_formula_with_oxidation",
+          "callee": "parse_oxidation_state",
+          "lineNumber": 367
+        },
+        {
+          "caller": "parse_formula_with_oxidation",
+          "callee": "elements.find",
+          "lineNumber": 371
+        },
+        {
+          "caller": "parse_formula_with_oxidation",
+          "callee": "elements.push",
+          "lineNumber": 379
+        },
+        {
+          "caller": "composition_with_oxidation_to_elements",
+          "callee": "Object.entries(composition).map",
+          "lineNumber": 396
+        },
+        {
+          "caller": "composition_with_oxidation_to_elements",
+          "callee": "Object.entries",
+          "lineNumber": 396
+        },
+        {
+          "caller": "format_oxi_state",
+          "callee": "Math.abs",
+          "lineNumber": 407
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 23,
+        "functionCount": 20,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/composition/PieChart.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 283,
+      "nonEmptyLines": 260,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/ConnectDialog.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 1061,
+      "nonEmptyLines": 958,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/constants.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 135,
+      "nonEmptyLines": 123,
+      "exports": [
+        {
+          "name": "COMPRESSION_FORMATS",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "COMPRESSION_EXTENSIONS",
+          "line": 14,
+          "isDefault": false
+        },
+        {
+          "name": "TRAJ_KEYWORDS",
+          "line": 19,
+          "isDefault": false
+        },
+        {
+          "name": "STRUCT_KEYWORDS",
+          "line": 33,
+          "isDefault": false
+        },
+        {
+          "name": "STRUCT_KEYWORDS_STRICT",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "TRAJ_KEYWORDS_REGEX",
+          "line": 68,
+          "isDefault": false
+        },
+        {
+          "name": "STRUCT_KEYWORDS_REGEX",
+          "line": 73,
+          "isDefault": false
+        },
+        {
+          "name": "STRUCT_KEYWORDS_STRICT_REGEX",
+          "line": 75,
+          "isDefault": false
+        },
+        {
+          "name": "TRAJ_KEYWORDS_SIMPLE_REGEX",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "TRAJ_EXTENSIONS",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "TRAJ_EXTENSIONS_REGEX",
+          "line": 84,
+          "isDefault": false
+        },
+        {
+          "name": "STRUCTURE_EXTENSIONS",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "STRUCTURE_EXTENSIONS_REGEX",
+          "line": 105,
+          "isDefault": false
+        },
+        {
+          "name": "TRAJ_FALLBACK_EXTENSIONS",
+          "line": 109,
+          "isDefault": false
+        },
+        {
+          "name": "TRAJ_FALLBACK_EXTENSIONS_REGEX",
+          "line": 116,
+          "isDefault": false
+        },
+        {
+          "name": "VASP_FILES_REGEX",
+          "line": 122,
+          "isDefault": false
+        },
+        {
+          "name": "XDATCAR_REGEX",
+          "line": 124,
+          "isDefault": false
+        },
+        {
+          "name": "CONFIG_DIRS_REGEX",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "MD_SIM_EXCLUDE_REGEX",
+          "line": 127,
+          "isDefault": false
+        },
+        {
+          "name": "XYZ_EXTXYZ_REGEX",
+          "line": 129,
+          "isDefault": false
+        },
+        {
+          "name": "COMPRESSION_EXTENSIONS_REGEX",
+          "line": 132,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 21,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/ContextMenu.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 255,
+      "nonEmptyLines": 244,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/coordination/calc-coordination.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 99,
+      "nonEmptyLines": 86,
+      "functions": [
+        {
+          "name": "calc_coordination_nums",
+          "startLine": 30,
+          "endLine": 99,
+          "params": [
+            "structure",
+            "strategy"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "calc_coordination_nums",
+          "line": 30,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "BONDING_STRATEGIES[strategy]",
+          "lineNumber": 35
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "neighbor_counts.has",
+          "lineNumber": 43
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "neighbor_counts.set",
+          "lineNumber": 44
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "neighbor_counts.has",
+          "lineNumber": 46
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "neighbor_counts.set",
+          "lineNumber": 47
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "neighbor_counts.get",
+          "lineNumber": 49
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "neighbor_counts.get",
+          "lineNumber": 50
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "neighbors_1.add",
+          "lineNumber": 51
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "neighbors_2.add",
+          "lineNumber": 52
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "sites.entries",
+          "lineNumber": 61
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "neighbor_counts.get",
+          "lineNumber": 63
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "Array.from(neighbors_set).map",
+          "lineNumber": 67
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "Array.from",
+          "lineNumber": 67
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "coordination_sites.push",
+          "lineNumber": 71
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "cn_by_element.get",
+          "lineNumber": 74
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "element_array.push",
+          "lineNumber": 75
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "cn_by_element.set",
+          "lineNumber": 76
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "cn_histogram.set",
+          "lineNumber": 79
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "cn_histogram.get",
+          "lineNumber": 81
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "cn_histogram_by_element.get",
+          "lineNumber": 85
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "element_histogram.set",
+          "lineNumber": 86
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "element_histogram.get",
+          "lineNumber": 88
+        },
+        {
+          "caller": "calc_coordination_nums",
+          "callee": "cn_histogram_by_element.set",
+          "lineNumber": 90
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/coordination/CoordinationBarPlot.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 327,
+      "nonEmptyLines": 299,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/coordination/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 9,
+      "exports": [
+        {
+          "name": "SPLIT_MODES",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/css-utils.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "functions": [
+        {
+          "name": "resolve_css_var",
+          "startLine": 1,
+          "endLine": 6,
+          "params": [
+            "var_name",
+            "fallback"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "resolve_css_var",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "resolve_css_var",
+          "callee": "getComputedStyle",
+          "lineNumber": 3
+        },
+        {
+          "caller": "resolve_css_var",
+          "callee": "computed.getPropertyValue(var_name).trim",
+          "lineNumber": 4
+        },
+        {
+          "caller": "resolve_css_var",
+          "callee": "computed.getPropertyValue",
+          "lineNumber": 4
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/cube/api.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 187,
+      "nonEmptyLines": 169,
+      "functions": [
+        {
+          "name": "setCubeApiBase",
+          "startLine": 10,
+          "endLine": 12,
+          "params": [
+            "base"
+          ]
+        },
+        {
+          "name": "uploadCubeFile",
+          "startLine": 101,
+          "endLine": 113,
+          "params": [
+            "file"
+          ]
+        },
+        {
+          "name": "extractIsosurface",
+          "startLine": 119,
+          "endLine": 130,
+          "params": [
+            "params"
+          ]
+        },
+        {
+          "name": "downloadIsosurface",
+          "startLine": 135,
+          "endLine": 146,
+          "params": [
+            "params",
+            "format"
+          ]
+        },
+        {
+          "name": "extractSlicePng",
+          "startLine": 151,
+          "endLine": 159,
+          "params": [
+            "params"
+          ]
+        },
+        {
+          "name": "extractPlaneSlice",
+          "startLine": 164,
+          "endLine": 175,
+          "params": [
+            "params"
+          ]
+        },
+        {
+          "name": "listCachedFiles",
+          "startLine": 180,
+          "endLine": 187,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "setCubeApiBase",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "uploadCubeFile",
+          "line": 101,
+          "isDefault": false
+        },
+        {
+          "name": "extractIsosurface",
+          "line": 119,
+          "isDefault": false
+        },
+        {
+          "name": "downloadIsosurface",
+          "line": 135,
+          "isDefault": false
+        },
+        {
+          "name": "extractSlicePng",
+          "line": 151,
+          "isDefault": false
+        },
+        {
+          "name": "extractPlaneSlice",
+          "line": 164,
+          "isDefault": false
+        },
+        {
+          "name": "listCachedFiles",
+          "line": 180,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "uploadCubeFile",
+          "callee": "formData.append",
+          "lineNumber": 103
+        },
+        {
+          "caller": "uploadCubeFile",
+          "callee": "fetch",
+          "lineNumber": 104
+        },
+        {
+          "caller": "uploadCubeFile",
+          "callee": "response.json().catch",
+          "lineNumber": 109
+        },
+        {
+          "caller": "uploadCubeFile",
+          "callee": "response.json",
+          "lineNumber": 109
+        },
+        {
+          "caller": "uploadCubeFile",
+          "callee": "response.json",
+          "lineNumber": 112
+        },
+        {
+          "caller": "extractIsosurface",
+          "callee": "fetch",
+          "lineNumber": 120
+        },
+        {
+          "caller": "extractIsosurface",
+          "callee": "JSON.stringify",
+          "lineNumber": 123
+        },
+        {
+          "caller": "extractIsosurface",
+          "callee": "response.json().catch",
+          "lineNumber": 126
+        },
+        {
+          "caller": "extractIsosurface",
+          "callee": "response.json",
+          "lineNumber": 126
+        },
+        {
+          "caller": "extractIsosurface",
+          "callee": "response.json",
+          "lineNumber": 129
+        },
+        {
+          "caller": "downloadIsosurface",
+          "callee": "fetch",
+          "lineNumber": 139
+        },
+        {
+          "caller": "downloadIsosurface",
+          "callee": "JSON.stringify",
+          "lineNumber": 142
+        },
+        {
+          "caller": "downloadIsosurface",
+          "callee": "response.blob",
+          "lineNumber": 145
+        },
+        {
+          "caller": "extractSlicePng",
+          "callee": "fetch",
+          "lineNumber": 152
+        },
+        {
+          "caller": "extractSlicePng",
+          "callee": "JSON.stringify",
+          "lineNumber": 155
+        },
+        {
+          "caller": "extractSlicePng",
+          "callee": "response.blob",
+          "lineNumber": 158
+        },
+        {
+          "caller": "extractPlaneSlice",
+          "callee": "fetch",
+          "lineNumber": 165
+        },
+        {
+          "caller": "extractPlaneSlice",
+          "callee": "JSON.stringify",
+          "lineNumber": 168
+        },
+        {
+          "caller": "extractPlaneSlice",
+          "callee": "response.json().catch",
+          "lineNumber": 171
+        },
+        {
+          "caller": "extractPlaneSlice",
+          "callee": "response.json",
+          "lineNumber": 171
+        },
+        {
+          "caller": "extractPlaneSlice",
+          "callee": "response.blob",
+          "lineNumber": 174
+        },
+        {
+          "caller": "listCachedFiles",
+          "callee": "fetch",
+          "lineNumber": 183
+        },
+        {
+          "caller": "listCachedFiles",
+          "callee": "response.json",
+          "lineNumber": 185
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/cube/client.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 110,
+      "nonEmptyLines": 97,
+      "functions": [
+        {
+          "name": "get_worker",
+          "startLine": 18,
+          "endLine": 23,
+          "params": []
+        },
+        {
+          "name": "extract_isosurface_client",
+          "startLine": 29,
+          "endLine": 96,
+          "params": [
+            "grid",
+            "isovalue",
+            "dual"
+          ]
+        },
+        {
+          "name": "cancel_extraction",
+          "startLine": 99,
+          "endLine": 101,
+          "params": []
+        },
+        {
+          "name": "dispose_worker",
+          "startLine": 104,
+          "endLine": 110,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "extract_isosurface_client",
+          "line": 29,
+          "isDefault": false
+        },
+        {
+          "name": "cancel_extraction",
+          "line": 99,
+          "isDefault": false
+        },
+        {
+          "name": "dispose_worker",
+          "line": 104,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "extract_isosurface_client",
+          "callee": "get_worker",
+          "lineNumber": 35
+        },
+        {
+          "caller": "onmessage",
+          "callee": "w.removeEventListener",
+          "lineNumber": 53
+        },
+        {
+          "caller": "onmessage",
+          "callee": "w.removeEventListener",
+          "lineNumber": 54
+        },
+        {
+          "caller": "onmessage",
+          "callee": "resolve",
+          "lineNumber": 60
+        },
+        {
+          "caller": "onerror",
+          "callee": "w.removeEventListener",
+          "lineNumber": 82
+        },
+        {
+          "caller": "onerror",
+          "callee": "w.removeEventListener",
+          "lineNumber": 83
+        },
+        {
+          "caller": "onerror",
+          "callee": "reject",
+          "lineNumber": 84
+        },
+        {
+          "caller": "extract_isosurface_client",
+          "callee": "w.addEventListener",
+          "lineNumber": 87
+        },
+        {
+          "caller": "extract_isosurface_client",
+          "callee": "w.addEventListener",
+          "lineNumber": 88
+        },
+        {
+          "caller": "extract_isosurface_client",
+          "callee": "w.postMessage",
+          "lineNumber": 91
+        },
+        {
+          "caller": "dispose_worker",
+          "callee": "worker.terminate",
+          "lineNumber": 106
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 3,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/cube/CubeControls.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 522,
+      "nonEmptyLines": 479,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/cube/CubeScene.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 131,
+      "nonEmptyLines": 119,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/cube/CubeViewer.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 252,
+      "nonEmptyLines": 231,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/cube/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 24,
+      "exports": [
+        {
+          "name": "CubeViewer",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "CubeScene",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "IsosurfaceMesh",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "CubeControls",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "SlicePlane",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "SlicePanel",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "SliceResult",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "AtomSliceInfo",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "ColormapName",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "COLORMAPS",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "COLORMAP_NAMES",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "colormap_css_gradient",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "cross",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "normalize",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "in_plane_basis",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "rodrigues_rotate",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "sample_plane_slice",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "render_slice_to_canvas",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "project_atoms_to_plane",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "render_atoms_to_canvas",
+          "line": 9,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 20,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/cube/IsosurfaceMesh.svelte",
+      "language": "svelte",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 78,
+      "metrics": {}
+    },
+    {
+      "path": "src/lib/cube/marching-cubes.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 730,
+      "nonEmptyLines": 679,
+      "functions": [
+        {
+          "name": "get_voxel",
+          "startLine": 22,
+          "endLine": 30,
+          "params": [
+            "data",
+            "dims",
+            "ix",
+            "iy",
+            "iz"
+          ]
+        },
+        {
+          "name": "grid_to_cart",
+          "startLine": 33,
+          "endLine": 49,
+          "params": [
+            "origin",
+            "voxel_axes",
+            "ix",
+            "iy",
+            "iz"
+          ]
+        },
+        {
+          "name": "compute_gradient",
+          "startLine": 52,
+          "endLine": 90,
+          "params": [
+            "data",
+            "dims",
+            "ix",
+            "iy",
+            "iz"
+          ]
+        },
+        {
+          "name": "quantize",
+          "startLine": 95,
+          "endLine": 97,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "vertex_key",
+          "startLine": 100,
+          "endLine": 102,
+          "params": [
+            "x",
+            "y",
+            "z"
+          ]
+        },
+        {
+          "name": "add_vertex_welded",
+          "startLine": 105,
+          "endLine": 132,
+          "params": [
+            "x",
+            "y",
+            "z",
+            "nx",
+            "ny",
+            "nz",
+            "positions",
+            "normals",
+            "vertex_map"
+          ]
+        },
+        {
+          "name": "compute_inv_transpose",
+          "startLine": 154,
+          "endLine": 193,
+          "params": [
+            "voxel_axes"
+          ]
+        },
+        {
+          "name": "smooth_mesh",
+          "startLine": 202,
+          "endLine": 231,
+          "params": [
+            "positions",
+            "indices",
+            "iterations"
+          ]
+        },
+        {
+          "name": "laplacian_pass",
+          "startLine": 233,
+          "endLine": 257,
+          "params": [
+            "positions",
+            "neighbors",
+            "n_verts",
+            "factor",
+            "temp"
+          ]
+        },
+        {
+          "name": "recompute_normals",
+          "startLine": 263,
+          "endLine": 293,
+          "params": [
+            "positions",
+            "indices",
+            "normals"
+          ]
+        },
+        {
+          "name": "extract_isosurface",
+          "startLine": 300,
+          "endLine": 440,
+          "params": [
+            "grid",
+            "isovalue"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "extract_isosurface",
+          "line": 300,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 63
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 63
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 65
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 65
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 67
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 67
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 72
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 72
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 74
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 74
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 76
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 76
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 81
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 81
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 83
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 83
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 85
+        },
+        {
+          "caller": "compute_gradient",
+          "callee": "get_voxel",
+          "lineNumber": 85
+        },
+        {
+          "caller": "quantize",
+          "callee": "Math.round",
+          "lineNumber": 96
+        },
+        {
+          "caller": "vertex_key",
+          "callee": "quantize",
+          "lineNumber": 101
+        },
+        {
+          "caller": "vertex_key",
+          "callee": "quantize",
+          "lineNumber": 101
+        },
+        {
+          "caller": "vertex_key",
+          "callee": "quantize",
+          "lineNumber": 101
+        },
+        {
+          "caller": "add_vertex_welded",
+          "callee": "vertex_key",
+          "lineNumber": 116
+        },
+        {
+          "caller": "add_vertex_welded",
+          "callee": "vertex_map.get",
+          "lineNumber": 117
+        },
+        {
+          "caller": "add_vertex_welded",
+          "callee": "positions.push",
+          "lineNumber": 128
+        },
+        {
+          "caller": "add_vertex_welded",
+          "callee": "normals.push",
+          "lineNumber": 129
+        },
+        {
+          "caller": "add_vertex_welded",
+          "callee": "vertex_map.set",
+          "lineNumber": 130
+        },
+        {
+          "caller": "compute_inv_transpose",
+          "callee": "Math.abs",
+          "lineNumber": 165
+        },
+        {
+          "caller": "smooth_mesh",
+          "callee": "neighbors[a].add",
+          "lineNumber": 215
+        },
+        {
+          "caller": "smooth_mesh",
+          "callee": "neighbors[a].add",
+          "lineNumber": 215
+        },
+        {
+          "caller": "smooth_mesh",
+          "callee": "neighbors[b].add",
+          "lineNumber": 216
+        },
+        {
+          "caller": "smooth_mesh",
+          "callee": "neighbors[b].add",
+          "lineNumber": 216
+        },
+        {
+          "caller": "smooth_mesh",
+          "callee": "neighbors[c].add",
+          "lineNumber": 217
+        },
+        {
+          "caller": "smooth_mesh",
+          "callee": "neighbors[c].add",
+          "lineNumber": 217
+        },
+        {
+          "caller": "smooth_mesh",
+          "callee": "laplacian_pass",
+          "lineNumber": 227
+        },
+        {
+          "caller": "smooth_mesh",
+          "callee": "laplacian_pass",
+          "lineNumber": 229
+        },
+        {
+          "caller": "laplacian_pass",
+          "callee": "temp.set",
+          "lineNumber": 240
+        },
+        {
+          "caller": "recompute_normals",
+          "callee": "normals.fill",
+          "lineNumber": 268
+        },
+        {
+          "caller": "recompute_normals",
+          "callee": "Math.sqrt",
+          "lineNumber": 288
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "compute_inv_transpose",
+          "lineNumber": 305
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "get_voxel",
+          "lineNumber": 320
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "compute_gradient",
+          "lineNumber": 352
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "new Array(12).fill",
+          "lineNumber": 356
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "Math.abs",
+          "lineNumber": 366
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "Math.max",
+          "lineNumber": 366
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "Math.min",
+          "lineNumber": 366
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "grid_to_cart",
+          "lineNumber": 374
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "Math.sqrt",
+          "lineNumber": 387
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "add_vertex_welded",
+          "lineNumber": 398
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "indices.push",
+          "lineNumber": 415
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "indices.push",
+          "lineNumber": 416
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "indices.push",
+          "lineNumber": 417
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "smooth_mesh",
+          "lineNumber": 429
+        },
+        {
+          "caller": "extract_isosurface",
+          "callee": "recompute_normals",
+          "lineNumber": 433
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 11,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/cube/marching-cubes.worker.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 54,
+      "nonEmptyLines": 45,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/cube/parse-cube.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 245,
+      "nonEmptyLines": 217,
+      "functions": [
+        {
+          "name": "parse_cube_header",
+          "startLine": 49,
+          "endLine": 94,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "grid_to_cart",
+          "startLine": 100,
+          "endLine": 116,
+          "params": [
+            "origin",
+            "voxel_axes",
+            "ix",
+            "iy",
+            "iz"
+          ]
+        },
+        {
+          "name": "parse_cube_full",
+          "startLine": 122,
+          "endLine": 222,
+          "params": [
+            "text"
+          ]
+        },
+        {
+          "name": "cube_atoms_to_molecule",
+          "startLine": 227,
+          "endLine": 245,
+          "params": [
+            "header"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "parse_cube_header",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "grid_to_cart",
+          "line": 100,
+          "isDefault": false
+        },
+        {
+          "name": "parse_cube_full",
+          "line": 122,
+          "isDefault": false
+        },
+        {
+          "name": "cube_atoms_to_molecule",
+          "line": 227,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parse_cube_header",
+          "callee": "text.split",
+          "lineNumber": 50
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "lines[2].trim().split",
+          "lineNumber": 55
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "lines[2].trim",
+          "lineNumber": 55
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseInt",
+          "lineNumber": 56
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "Math.abs",
+          "lineNumber": 58
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseFloat",
+          "lineNumber": 63
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseFloat",
+          "lineNumber": 64
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseFloat",
+          "lineNumber": 65
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "lines[3 + i].trim().split",
+          "lineNumber": 71
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "lines[3 + i].trim",
+          "lineNumber": 71
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseInt",
+          "lineNumber": 72
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "lines[line_idx].trim().split",
+          "lineNumber": 80
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "lines[line_idx].trim",
+          "lineNumber": 80
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "atoms.push",
+          "lineNumber": 82
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseInt",
+          "lineNumber": 83
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseFloat",
+          "lineNumber": 84
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseFloat",
+          "lineNumber": 86
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseFloat",
+          "lineNumber": 87
+        },
+        {
+          "caller": "parse_cube_header",
+          "callee": "parseFloat",
+          "lineNumber": 88
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "text.split",
+          "lineNumber": 123
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "lines[0].trim",
+          "lineNumber": 127
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "lines[1].trim",
+          "lineNumber": 128
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "lines[2].trim().split",
+          "lineNumber": 131
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "lines[2].trim",
+          "lineNumber": 131
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseInt",
+          "lineNumber": 132
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "Math.abs",
+          "lineNumber": 134
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 138
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 139
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 140
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "lines[3 + i].trim().split",
+          "lineNumber": 155
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "lines[3 + i].trim",
+          "lineNumber": 155
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseInt",
+          "lineNumber": 156
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 158
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 159
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 160
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "lines[line_idx].trim().split",
+          "lineNumber": 170
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "lines[line_idx].trim",
+          "lineNumber": 170
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "atoms.push",
+          "lineNumber": 172
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseInt",
+          "lineNumber": 173
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 174
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 176
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 177
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 178
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "line.trim",
+          "lineNumber": 193
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "line.trim().split",
+          "lineNumber": 194
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "line.trim",
+          "lineNumber": 194
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "parseFloat",
+          "lineNumber": 196
+        },
+        {
+          "caller": "parse_cube_full",
+          "callee": "isNaN",
+          "lineNumber": 197
+        },
+        {
+          "caller": "cube_atoms_to_molecule",
+          "callee": "header.atoms.map",
+          "lineNumber": 228
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "src/lib/cube/slice.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 477,
+      "nonEmptyLines": 415,
+      "functions": [
+        {
+          "name": "sample_colormap",
+          "startLine": 92,
+          "endLine": 110,
+          "params": [
+            "stops",
+            "t"
+          ]
+        },
+        {
+          "name": "colormap_css_gradient",
+          "startLine": 113,
+          "endLine": 117,
+          "params": [
+            "name",
+            "direction"
+          ]
+        },
+        {
+          "name": "dot",
+          "startLine": 121,
+          "endLine": 123,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "cross",
+          "startLine": 125,
+          "endLine": 131,
+          "params": [
+            "a",
+            "b"
+          ]
+        },
+        {
+          "name": "normalize",
+          "startLine": 133,
+          "endLine": 136,
+          "params": [
+            "v"
+          ]
+        },
+        {
+          "name": "in_plane_basis",
+          "startLine": 139,
+          "endLine": 152,
+          "params": [
+            "normal"
+          ]
+        },
+        {
+          "name": "rodrigues_rotate",
+          "startLine": 155,
+          "endLine": 165,
+          "params": [
+            "vec",
+            "axis",
+            "angle_rad"
+          ]
+        },
+        {
+          "name": "invert3",
+          "startLine": 168,
+          "endLine": 179,
+          "params": [
+            "m"
+          ]
+        },
+        {
+          "name": "trilinear",
+          "startLine": 183,
+          "endLine": 221,
+          "params": [
+            "data",
+            "dims",
+            "gx",
+            "gy",
+            "gz"
+          ]
+        },
+        {
+          "name": "sample_plane_slice",
+          "startLine": 229,
+          "endLine": 306,
+          "params": [
+            "grid",
+            "normal",
+            "center"
+          ]
+        },
+        {
+          "name": "render_slice_to_canvas",
+          "startLine": 314,
+          "endLine": 367,
+          "params": [
+            "canvas",
+            "slice",
+            "colormap",
+            "max_canvas_size"
+          ]
+        },
+        {
+          "name": "project_atoms_to_plane",
+          "startLine": 375,
+          "endLine": 400,
+          "params": [
+            "atoms",
+            "normal",
+            "center",
+            "u_vec",
+            "v_vec",
+            "distance_threshold",
+            "radii"
+          ]
+        },
+        {
+          "name": "hex_to_rgb",
+          "startLine": 403,
+          "endLine": 410,
+          "params": [
+            "hex"
+          ]
+        },
+        {
+          "name": "render_atoms_to_canvas",
+          "startLine": 416,
+          "endLine": 477,
+          "params": [
+            "canvas",
+            "slice",
+            "atoms",
+            "element_colors",
+            "colormap",
+            "max_canvas_size"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "COLORMAPS",
+          "line": 43,
+          "isDefault": false
+        },
+        {
+          "name": "COLORMAP_NAMES",
+          "line": 89,
+          "isDefault": false
+        },
+        {
+          "name": "colormap_css_gradient",
+          "line": 113,
+          "isDefault": false
+        },
+        {
+          "name": "dot",
+          "line": 121,
+          "isDefault": false
+        },
+        {
+          "name": "cross",
+          "line": 125,
+          "isDefault": false
+        },
+        {
+          "name": "normalize",
+          "line": 133,
+          "isDefault": false
+        },
+        {
+          "name": "in_plane_basis",
+          "line": 139,
+          "isDefault": false
+        },
+        {
+          "name": "rodrigues_rotate",
+          "line": 155,
+          "isDefault": false
+        },
+        {
+          "name": "sample_plane_slice",
+          "line": 229,
+          "isDefault": false
+        },
+        {
+          "name": "render_slice_to_canvas",
+          "line": 314,
+          "isDefault": false
+        },
+        {
+          "name": "project_atoms_to_plane",
+          "line": 375,
+          "isDefault": false
+        },
+        {
+          "name": "render_atoms_to_canvas",
+          "line": 416,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sample_colormap",
+          "callee": "Math.round",
+          "lineNumber": 102
+        },
+        {
+          "caller": "sample_colormap",
+          "callee": "Math.round",
+          "lineNumber": 103
+        },
+        {
+          "caller": "sample_colormap",
+          "callee": "Math.round",
+          "lineNumber": 104
+        },
+        {
+          "caller": "colormap_css_gradient",
+          "callee": "stops.map",
+          "lineNumber": 115
+        },
+        {
+          "caller": "colormap_css_gradient",
+          "callee": "(t * 100).toFixed",
+          "lineNumber": 115
+        },
+        {
+          "caller": "colormap_css_gradient",
+          "callee": "parts.join",
+          "lineNumber": 116
+        },
+        {
+          "caller": "normalize",
+          "callee": "Math.hypot",
+          "lineNumber": 134
+        },
+        {
+          "caller": "in_plane_basis",
+          "callee": "Math.abs",
+          "lineNumber": 141
+        },
+        {
+          "caller": "in_plane_basis",
+          "callee": "dot",
+          "lineNumber": 143
+        },
+        {
+          "caller": "in_plane_basis",
+          "callee": "normalize",
+          "lineNumber": 149
+        },
+        {
+          "caller": "in_plane_basis",
+          "callee": "cross",
+          "lineNumber": 150
+        },
+        {
+          "caller": "rodrigues_rotate",
+          "callee": "Math.cos",
+          "lineNumber": 156
+        },
+        {
+          "caller": "rodrigues_rotate",
+          "callee": "Math.sin",
+          "lineNumber": 157
+        },
+        {
+          "caller": "rodrigues_rotate",
+          "callee": "dot",
+          "lineNumber": 158
+        },
+        {
+          "caller": "rodrigues_rotate",
+          "callee": "cross",
+          "lineNumber": 159
+        },
+        {
+          "caller": "invert3",
+          "callee": "Math.abs",
+          "lineNumber": 172
+        },
+        {
+          "caller": "trilinear",
+          "callee": "Math.min",
+          "lineNumber": 194
+        },
+        {
+          "caller": "trilinear",
+          "callee": "Math.floor",
+          "lineNumber": 194
+        },
+        {
+          "caller": "trilinear",
+          "callee": "Math.min",
+          "lineNumber": 195
+        },
+        {
+          "caller": "trilinear",
+          "callee": "Math.floor",
+          "lineNumber": 195
+        },
+        {
+          "caller": "trilinear",
+          "callee": "Math.min",
+          "lineNumber": 196
+        },
+        {
+          "caller": "trilinear",
+          "callee": "Math.floor",
+          "lineNumber": 196
+        },
+        {
+          "caller": "sample_plane_slice",
+          "callee": "normalize",
+          "lineNumber": 234
+        },
+        {
+          "caller": "sample_plane_slice",
+          "callee": "in_plane_basis",
+          "lineNumber": 235
+        },
+        {
+          "caller": "sample_plane_slice",
+          "callee": "invert3",
+          "lineNumber": 246
+        },
+        {
+          "caller": "sample_plane_slice",
+          "callee": "Math.max",
+          "lineNumber": 268
+        },
+        {
+          "caller": "sample_plane_slice",
+          "callee": "trilinear",
+          "lineNumber": 293
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "Math.min",
+          "lineNumber": 323
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "Math.round",
+          "lineNumber": 324
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "Math.round",
+          "lineNumber": 325
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "canvas.getContext",
+          "lineNumber": 329
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "ctx.createImageData",
+          "lineNumber": 332
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "sample_colormap",
+          "lineNumber": 346
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "Math.round",
+          "lineNumber": 349
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "Math.round",
+          "lineNumber": 350
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "Math.round",
+          "lineNumber": 351
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "Math.round",
+          "lineNumber": 352
+        },
+        {
+          "caller": "render_slice_to_canvas",
+          "callee": "ctx.putImageData",
+          "lineNumber": 365
+        },
+        {
+          "caller": "project_atoms_to_plane",
+          "callee": "Math.abs",
+          "lineNumber": 390
+        },
+        {
+          "caller": "project_atoms_to_plane",
+          "callee": "results.push",
+          "lineNumber": 393
+        },
+        {
+          "caller": "hex_to_rgb",
+          "callee": "hex.replace",
+          "lineNumber": 404
+        },
+        {
+          "caller": "hex_to_rgb",
+          "callee": "parseInt",
+          "lineNumber": 406
+        },
+        {
+          "caller": "hex_to_rgb",
+          "callee": "h.substring",
+          "lineNumber": 406
+        },
+        {
+          "caller": "hex_to_rgb",
+          "callee": "parseInt",
+          "lineNumber": 407
+        },
+        {
+          "caller": "hex_to_rgb",
+          "callee": "h.substring",
+          "lineNumber": 407
+        },
+        {
+          "caller": "hex_to_rgb",
+          "callee": "parseInt",
+          "lineNumber": 408
+        },
+        {
+          "caller": "hex_to_rgb",
+          "callee": "h.substring",
+          "lineNumber": 408
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "render_slice_to_canvas",
+          "lineNumber": 425
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "canvas.getContext",
+          "lineNumber": 427
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "[...atoms].sort",
+          "lineNumber": 439
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "Math.abs",
+          "lineNumber": 439
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "Math.abs",
+          "lineNumber": 439
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "u_to_px",
+          "lineNumber": 442
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "v_to_py",
+          "lineNumber": 443
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "Math.max",
+          "lineNumber": 447
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "hex_to_rgb",
+          "lineNumber": 449
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "Math.max",
+          "lineNumber": 452
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "Math.abs",
+          "lineNumber": 452
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "ctx.createRadialGradient",
+          "lineNumber": 455
+        },
+        {
+          "caller": "lighten",
+          "callee": "Math.min",
+          "lineNumber": 459
+        },
+        {
+          "caller": "lighten",
+          "callee": "Math.round",
+          "lineNumber": 459
+        },
+        {
+          "caller": "darken",
+          "callee": "Math.round",
+          "lineNumber": 460
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "grad.addColorStop",
+          "lineNumber": 461
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "lighten",
+          "lineNumber": 461
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "lighten",
+          "lineNumber": 461
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "lighten",
+          "lineNumber": 461
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "grad.addColorStop",
+          "lineNumber": 462
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "grad.addColorStop",
+          "lineNumber": 463
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "darken",
+          "lineNumber": 463
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "darken",
+          "lineNumber": 463
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "darken",
+          "lineNumber": 463
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "ctx.beginPath",
+          "lineNumber": 465
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "ctx.arc",
+          "lineNumber": 466
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "ctx.fill",
+          "lineNumber": 468
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "Math.max",
+          "lineNumber": 472
+        },
+        {
+          "caller": "render_atoms_to_canvas",
+          "callee": "ctx.stroke",
+          "lineNumber": 473
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 12,
+        "functionCount": 14,
+        "classCount": 0
+      }
+    }
+  ]
+}

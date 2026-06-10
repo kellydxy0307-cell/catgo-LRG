@@ -1,0 +1,317 @@
+{
+  "nodes": [
+    {
+      "id": "document:docs/superpowers/plans/2026-05-17-catbot-slash-commands.md",
+      "type": "document",
+      "name": "2026-05-17-catbot-slash-commands.md",
+      "filePath": "docs/superpowers/plans/2026-05-17-catbot-slash-commands.md",
+      "summary": "这份文档围绕CatBot 与 AI 工作流展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 CatBot Slash Commands Implementation Plan、Task 1: Registry module — types, `match_slash`, `run_slash`, `/help`、Task 2: Session-control commands `/new` `/clear` `/stop`、Task 3: `/resume` with readable session list。",
+      "tags": [
+        "文档",
+        "ai",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 1015 行；结构抽取识别出 11 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-18-catrender-report.md",
+      "type": "document",
+      "name": "2026-05-18-catrender-report.md",
+      "filePath": "docs/superpowers/plans/2026-05-18-catrender-report.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 catrender Faithful-Port Implementation Plan (REV2)、File Structure、Task RT1: vdw.rs — VdW radius table、Task RT2: palette.rs — CPK + named colors。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 401 行；结构抽取识别出 17 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-18-catrender.md",
+      "type": "document",
+      "name": "2026-05-18-catrender.md",
+      "filePath": "docs/superpowers/plans/2026-05-18-catrender.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 catrender Implementation Plan、File Structure、Task 1: Rust crate scaffold + geometry core、Task 2: Preset table + SVG assembly + render entrypoint。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 1628 行；结构抽取识别出 10 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-19-catgo-cli-analyze.md",
+      "type": "document",
+      "name": "2026-05-19-catgo-cli-analyze.md",
+      "filePath": "docs/superpowers/plans/2026-05-19-catgo-cli-analyze.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 CatGO CLI — P2 `analyze` Group Implementation Plan、File Structure、Task 1: Dependencies + extension-path bootstrap、Task 2: `PlotSpec` + static publication `render`。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 1678 行；结构抽取识别出 14 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-19-catgo-cli-hpc-submit.md",
+      "type": "document",
+      "name": "2026-05-19-catgo-cli-hpc-submit.md",
+      "filePath": "docs/superpowers/plans/2026-05-19-catgo-cli-hpc-submit.md",
+      "summary": "这份文档围绕HPC 部署与作业运行展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Plan: catgo submit (Slice D)、Task D1 — `HpcLink.__init__` + auth validation、Task D2 — `HpcLink._ssh_argv` / `_scp_argv` helpers、Task D3 — `HpcLink.preflight` + `mkdir_p`。",
+      "tags": [
+        "文档",
+        "hpc",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "markdown 文件，扫描到 245 行；结构抽取识别出 15 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-19-catgo-cli-ir-spectrum.md",
+      "type": "document",
+      "name": "2026-05-19-catgo-cli-ir-spectrum.md",
+      "filePath": "docs/superpowers/plans/2026-05-19-catgo-cli-ir-spectrum.md",
+      "summary": "这份文档围绕谱学与电子结构分析展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Plan: freq --ir-spectrum (Slice E)、Task E1 — `FreqData.eigenvectors_for_real()`、Task E2 — `parse_born_charges`、Task E3 — `compute_ir_spectrum` (uniform branch)。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "markdown 文件，扫描到 200 行；结构抽取识别出 12 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-19-catgo-cli-p1.md",
+      "type": "document",
+      "name": "2026-05-19-catgo-cli-p1.md",
+      "filePath": "docs/superpowers/plans/2026-05-19-catgo-cli-p1.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 CatGO Interactive CLI — P1 Implementation Plan、File Structure、Task 1: Migrate `catgo.cli` module → package (no behavior change)、Task 2: `Session` — active structure + undo + file IO。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 1466 行；结构抽取识别出 12 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-19-catgo-cli-pdos-groups.md",
+      "type": "document",
+      "name": "2026-05-19-catgo-cli-pdos-groups.md",
+      "filePath": "docs/superpowers/plans/2026-05-19-catgo-cli-pdos-groups.md",
+      "summary": "这份文档围绕谱学与电子结构分析展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Plan: dos --groups multi-group PDOS (Slice F)、Task F1 — atom-spec parser、Task F2 — group-spec parser、Task F3 — dos --groups single-group code path。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "markdown 文件，扫描到 122 行；结构抽取识别出 7 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-19-catgo-cli-viewer-sync.md",
+      "type": "document",
+      "name": "2026-05-19-catgo-cli-viewer-sync.md",
+      "filePath": "docs/superpowers/plans/2026-05-19-catgo-cli-viewer-sync.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 CatGO CLI — P3a Viewer Sync + Auto-Start Implementation Plan、File Structure、Task 1: `ServerLink.discover` + `_ping`、Task 2: `ServerLink.push_structure` (multipart POST)。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 1168 行；结构抽取识别出 15 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-21-catrender-ob-bond-perception.md",
+      "type": "document",
+      "name": "2026-05-21-catrender-ob-bond-perception.md",
+      "filePath": "docs/superpowers/plans/2026-05-21-catrender-ob-bond-perception.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 catrender OpenBabel-style Bond-Order Perception (Rust port) + Atom Index Display Implementation Plan、File Structure、Task 1: Element data tables (covalent radius, max bonds, Pauling electronegativity)、Task 2: Geometry helpers — bond angle and torsion。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 1289 行；结构抽取识别出 14 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-21-selected-atom-rotation-fixed-screen-axes.md",
+      "type": "document",
+      "name": "2026-05-21-selected-atom-rotation-fixed-screen-axes.md",
+      "filePath": "docs/superpowers/plans/2026-05-21-selected-atom-rotation-fixed-screen-axes.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Selected-Atom Rotation — Fixed Screen-Aligned Axes Implementation Plan、File Structure、Task 1: Screen frame from camera quaternion、Task 2: Axis-lock decision with dead zone。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 608 行；结构抽取识别出 12 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-23-webgpu-large-trajectory-bonds.md",
+      "type": "document",
+      "name": "2026-05-23-webgpu-large-trajectory-bonds.md",
+      "filePath": "docs/superpowers/plans/2026-05-23-webgpu-large-trajectory-bonds.md",
+      "summary": "这份文档围绕分子动力学轨迹分析展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 WebGPU Large-Trajectory Bond Rendering — Implementation Plan、File Structure、Task 1: WebGPU context & capability detection、Task 2: Element covalent-radius LUT。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 1082 行；结构抽取识别出 14 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-25-reticular-mof-builder.md",
+      "type": "document",
+      "name": "2026-05-25-reticular-mof-builder.md",
+      "filePath": "docs/superpowers/plans/2026-05-25-reticular-mof-builder.md",
+      "summary": "这份文档围绕MOF 构建与检索展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Reticular (MOF/COF) Builder — P1 Implementation Plan、File Structure、Phase 0 — Vendor PORMAKE, eliminate jax, add dep、Task 0.1: Vendor the upstream source + data。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 1654 行；结构抽取识别出 27 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-26-catbot-client-side-tools.md",
+      "type": "document",
+      "name": "2026-05-26-catbot-client-side-tools.md",
+      "filePath": "docs/superpowers/plans/2026-05-26-catbot-client-side-tools.md",
+      "summary": "这份文档围绕CatBot 与 AI 工作流展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 CatBot Client-Side Tool-Calling Implementation Plan、File Structure、Task 1: ChatConfig flag + provider routing helpers、Task 2: structure-tools registry skeleton + first read tool。",
+      "tags": [
+        "文档",
+        "ai",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 1351 行；结构抽取识别出 13 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/superpowers/plans/2026-05-26-mof-search.md",
+      "type": "document",
+      "name": "2026-05-26-mof-search.md",
+      "filePath": "docs/superpowers/plans/2026-05-26-mof-search.md",
+      "summary": "这份文档围绕MOF 构建与检索展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 MOF Database Search (MOFX-DB) Implementation Plan、File Structure、Task 0: Add the optional `mofsearch` dependency + install it、Task 1: Pydantic models。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "complex",
+      "languageNotes": "markdown 文件，扫描到 882 行；结构抽取识别出 11 个章节/顶层键。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:docs/superpowers/plans/2026-05-17-catbot-slash-commands.md",
+      "target": "document:docs/superpowers/plans/2026-05-18-catrender-report.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-18-catrender-report.md",
+      "target": "document:docs/superpowers/plans/2026-05-18-catrender.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-18-catrender.md",
+      "target": "document:docs/superpowers/plans/2026-05-19-catgo-cli-analyze.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-19-catgo-cli-analyze.md",
+      "target": "document:docs/superpowers/plans/2026-05-19-catgo-cli-hpc-submit.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-19-catgo-cli-hpc-submit.md",
+      "target": "document:docs/superpowers/plans/2026-05-19-catgo-cli-ir-spectrum.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-19-catgo-cli-ir-spectrum.md",
+      "target": "document:docs/superpowers/plans/2026-05-19-catgo-cli-p1.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-19-catgo-cli-p1.md",
+      "target": "document:docs/superpowers/plans/2026-05-19-catgo-cli-pdos-groups.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-19-catgo-cli-pdos-groups.md",
+      "target": "document:docs/superpowers/plans/2026-05-19-catgo-cli-viewer-sync.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-19-catgo-cli-viewer-sync.md",
+      "target": "document:docs/superpowers/plans/2026-05-21-catrender-ob-bond-perception.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-21-catrender-ob-bond-perception.md",
+      "target": "document:docs/superpowers/plans/2026-05-21-selected-atom-rotation-fixed-screen-axes.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-21-selected-atom-rotation-fixed-screen-axes.md",
+      "target": "document:docs/superpowers/plans/2026-05-23-webgpu-large-trajectory-bonds.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-23-webgpu-large-trajectory-bonds.md",
+      "target": "document:docs/superpowers/plans/2026-05-25-reticular-mof-builder.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-25-reticular-mof-builder.md",
+      "target": "document:docs/superpowers/plans/2026-05-26-catbot-client-side-tools.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/superpowers/plans/2026-05-26-catbot-client-side-tools.md",
+      "target": "document:docs/superpowers/plans/2026-05-26-mof-search.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

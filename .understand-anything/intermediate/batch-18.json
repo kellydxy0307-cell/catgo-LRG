@@ -1,0 +1,62 @@
+{
+  "nodes": [
+    {
+      "id": "document:docs/modules/interaction/atom-art.md",
+      "type": "document",
+      "name": "atom-art.md",
+      "filePath": "docs/modules/interaction/atom-art.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Atom Art、Overview、Architecture、atom-art.ts。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "languageNotes": "markdown 文件，扫描到 43 行；结构抽取识别出 10 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/modules/interaction/gesture-tracking.md",
+      "type": "document",
+      "name": "gesture-tracking.md",
+      "filePath": "docs/modules/interaction/gesture-tracking.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Gesture Tracking、Overview、Architecture、GestureProvider。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "languageNotes": "markdown 文件，扫描到 56 行；结构抽取识别出 11 个章节/顶层键。"
+    },
+    {
+      "id": "document:docs/modules/interaction/voice-control.md",
+      "type": "document",
+      "name": "voice-control.md",
+      "filePath": "docs/modules/interaction/voice-control.md",
+      "summary": "这份文档围绕项目支持资料展开，为 CatGo 的功能、设计或使用流程提供背景说明。主要章节/键包括 Voice Control、Overview、Architecture、VoiceEngine。",
+      "tags": [
+        "文档",
+        "知识库",
+        "markdown"
+      ],
+      "complexity": "simple",
+      "languageNotes": "markdown 文件，扫描到 57 行；结构抽取识别出 12 个章节/顶层键。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:docs/modules/interaction/atom-art.md",
+      "target": "document:docs/modules/interaction/gesture-tracking.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "document:docs/modules/interaction/gesture-tracking.md",
+      "target": "document:docs/modules/interaction/voice-control.md",
+      "type": "related",
+      "direction": "forward",
+      "weight": 0.5
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/chat/ChatPane.svelte",
+      "language": "svelte",
+      "sizeLines": 3182,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/client-llm.ts",
+      "language": "typescript",
+      "sizeLines": 192,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/context.ts",
+      "language": "typescript",
+      "sizeLines": 278,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/FileProposalRenderer.svelte",
+      "language": "svelte",
+      "sizeLines": 272,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/hetero-stash.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 64,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/index.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/llm-client.ts",
+      "language": "typescript",
+      "sizeLines": 221,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/markdown.ts",
+      "language": "typescript",
+      "sizeLines": 386,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/message-utils.ts",
+      "language": "typescript",
+      "sizeLines": 186,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/PermissionCard.svelte",
+      "language": "svelte",
+      "sizeLines": 493,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/provider-routing.ts",
+      "language": "typescript",
+      "sizeLines": 61,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/rag.ts",
+      "language": "typescript",
+      "sizeLines": 132,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/sdk-stream.ts",
+      "language": "typescript",
+      "sizeLines": 127,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/slash-commands.ts",
+      "language": "typescript",
+      "sizeLines": 203,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/structure-tools.ts",
+      "language": "typescript",
+      "sizeLines": 1107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/ThinkingSummary.svelte",
+      "language": "svelte",
+      "sizeLines": 142,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/tool-execution.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/tool-loop.ts",
+      "language": "typescript",
+      "sizeLines": 69,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/ToolProgressBlock.svelte",
+      "language": "svelte",
+      "sizeLines": 225,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/ToolResultRenderer.svelte",
+      "language": "svelte",
+      "sizeLines": 151,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/tools.ts",
+      "language": "typescript",
+      "sizeLines": 184,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/types.ts",
+      "language": "typescript",
+      "sizeLines": 150,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/workflow-tool-executor.ts",
+      "language": "typescript",
+      "sizeLines": 732,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/chat/workflow-tools.ts",
+      "language": "typescript",
+      "sizeLines": 407,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/colors/index.ts",
+      "language": "typescript",
+      "sizeLines": 138,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/chat/ChatPane.svelte": [],
+    "src/lib/chat/client-llm.ts": [],
+    "src/lib/chat/context.ts": [],
+    "src/lib/chat/FileProposalRenderer.svelte": [],
+    "src/lib/chat/hetero-stash.svelte.ts": [],
+    "src/lib/chat/index.ts": [],
+    "src/lib/chat/llm-client.ts": [],
+    "src/lib/chat/markdown.ts": [],
+    "src/lib/chat/message-utils.ts": [],
+    "src/lib/chat/PermissionCard.svelte": [],
+    "src/lib/chat/provider-routing.ts": [],
+    "src/lib/chat/rag.ts": [],
+    "src/lib/chat/sdk-stream.ts": [],
+    "src/lib/chat/slash-commands.ts": [],
+    "src/lib/chat/structure-tools.ts": [],
+    "src/lib/chat/ThinkingSummary.svelte": [],
+    "src/lib/chat/tool-execution.ts": [],
+    "src/lib/chat/tool-loop.ts": [],
+    "src/lib/chat/ToolProgressBlock.svelte": [],
+    "src/lib/chat/ToolResultRenderer.svelte": [],
+    "src/lib/chat/tools.ts": [],
+    "src/lib/chat/types.ts": [],
+    "src/lib/chat/workflow-tool-executor.ts": [],
+    "src/lib/chat/workflow-tools.ts": [],
+    "src/lib/colors/index.ts": []
+  }
+}

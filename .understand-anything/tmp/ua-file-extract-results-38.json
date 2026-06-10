@@ -1,0 +1,169 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "src-tauri/Cargo.toml",
+      "language": "toml",
+      "fileCategory": "config",
+      "totalLines": 87,
+      "nonEmptyLines": 80,
+      "sections": [
+        {
+          "heading": "package",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "lib",
+          "level": 1,
+          "line": 11
+        },
+        {
+          "heading": "build-dependencies",
+          "level": 1,
+          "line": 15
+        },
+        {
+          "heading": "dependencies",
+          "level": 1,
+          "line": 18
+        },
+        {
+          "heading": "target.'cfg(target_os = \"macos\")'.dependencies",
+          "level": 3,
+          "line": 65
+        },
+        {
+          "heading": "target.'cfg(target_os = \"linux\")'.dependencies",
+          "level": 3,
+          "line": 68
+        },
+        {
+          "heading": "target.'cfg(not(any(target_os = \"android\", target_os = \"ios\")))'.dependencies",
+          "level": 3,
+          "line": 85
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "src-tauri/Info.plist",
+      "language": "xml",
+      "fileCategory": "config",
+      "totalLines": 78,
+      "nonEmptyLines": 78,
+      "metrics": {}
+    },
+    {
+      "path": "src-tauri/tauri.android.conf.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "$schema",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "bundle",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    },
+    {
+      "path": "src-tauri/tauri.conf.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 89,
+      "nonEmptyLines": 89,
+      "sections": [
+        {
+          "heading": "$schema",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "productName",
+          "level": 1,
+          "line": 3
+        },
+        {
+          "heading": "version",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "identifier",
+          "level": 1,
+          "line": 5
+        },
+        {
+          "heading": "build",
+          "level": 1,
+          "line": 6
+        },
+        {
+          "heading": "app",
+          "level": 1,
+          "line": 12
+        },
+        {
+          "heading": "bundle",
+          "level": 1,
+          "line": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": "src-tauri/tauri.ios.conf.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "$schema",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "bundle",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

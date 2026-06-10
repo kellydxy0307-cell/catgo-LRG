@@ -1,0 +1,1516 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/mobile/connections.ts",
+      "type": "file",
+      "name": "connections.ts",
+      "filePath": "src/lib/mobile/connections.ts",
+      "summary": "实现项目相关的 connections.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 8 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/mobile/connections.ts:connectionId",
+      "type": "function",
+      "name": "connectionId",
+      "filePath": "src/lib/mobile/connections.ts",
+      "lineRange": [
+        36,
+        43
+      ],
+      "summary": "封装项目模块中的 connectionId 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/connections.ts:connectionLabel",
+      "type": "function",
+      "name": "connectionLabel",
+      "filePath": "src/lib/mobile/connections.ts",
+      "lineRange": [
+        46,
+        49
+      ],
+      "summary": "封装项目模块中的 connectionLabel 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/connections.ts:readRaw",
+      "type": "function",
+      "name": "readRaw",
+      "filePath": "src/lib/mobile/connections.ts",
+      "lineRange": [
+        51,
+        62
+      ],
+      "summary": "封装项目模块中的 readRaw 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/connections.ts:migrateLegacy",
+      "type": "function",
+      "name": "migrateLegacy",
+      "filePath": "src/lib/mobile/connections.ts",
+      "lineRange": [
+        64,
+        95
+      ],
+      "summary": "封装项目模块中的 migrateLegacy 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/connections.ts:loadConnections",
+      "type": "function",
+      "name": "loadConnections",
+      "filePath": "src/lib/mobile/connections.ts",
+      "lineRange": [
+        98,
+        125
+      ],
+      "summary": "封装项目模块中的 loadConnections 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/connections.ts:upsertConnection",
+      "type": "function",
+      "name": "upsertConnection",
+      "filePath": "src/lib/mobile/connections.ts",
+      "lineRange": [
+        139,
+        158
+      ],
+      "summary": "封装项目模块中的 upsertConnection 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/connections.ts:removeConnection",
+      "type": "function",
+      "name": "removeConnection",
+      "filePath": "src/lib/mobile/connections.ts",
+      "lineRange": [
+        161,
+        167
+      ],
+      "summary": "封装项目模块中的 removeConnection 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/mobile/files-util.ts",
+      "type": "file",
+      "name": "files-util.ts",
+      "filePath": "src/lib/mobile/files-util.ts",
+      "summary": "实现项目相关的 files-util.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 5 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "utility",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/mobile/files-util.ts:humanSize",
+      "type": "function",
+      "name": "humanSize",
+      "filePath": "src/lib/mobile/files-util.ts",
+      "lineRange": [
+        8,
+        19
+      ],
+      "summary": "封装项目模块中的 humanSize 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/files-util.ts:joinPath",
+      "type": "function",
+      "name": "joinPath",
+      "filePath": "src/lib/mobile/files-util.ts",
+      "lineRange": [
+        22,
+        25
+      ],
+      "summary": "封装项目模块中的 joinPath 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/files-util.ts:parentPath",
+      "type": "function",
+      "name": "parentPath",
+      "filePath": "src/lib/mobile/files-util.ts",
+      "lineRange": [
+        28,
+        34
+      ],
+      "summary": "封装项目模块中的 parentPath 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/files-util.ts:isBinaryName",
+      "type": "function",
+      "name": "isBinaryName",
+      "filePath": "src/lib/mobile/files-util.ts",
+      "lineRange": [
+        51,
+        56
+      ],
+      "summary": "封装项目模块中的 isBinaryName 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/files-util.ts:isStructureName",
+      "type": "function",
+      "name": "isStructureName",
+      "filePath": "src/lib/mobile/files-util.ts",
+      "lineRange": [
+        66,
+        72
+      ],
+      "summary": "封装项目模块中的 isStructureName 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/mobile/KeySetup.svelte",
+      "type": "file",
+      "name": "KeySetup.svelte",
+      "filePath": "src/lib/mobile/KeySetup.svelte",
+      "summary": "实现Svelte UI相关的 KeySetup.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/mobile/MobileConnect.svelte",
+      "type": "file",
+      "name": "MobileConnect.svelte",
+      "filePath": "src/lib/mobile/MobileConnect.svelte",
+      "summary": "实现Svelte UI相关的 MobileConnect.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/mobile/MobileFiles.svelte",
+      "type": "file",
+      "name": "MobileFiles.svelte",
+      "filePath": "src/lib/mobile/MobileFiles.svelte",
+      "summary": "实现Svelte UI相关的 MobileFiles.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/mobile/MobileFileViewer.svelte",
+      "type": "file",
+      "name": "MobileFileViewer.svelte",
+      "filePath": "src/lib/mobile/MobileFileViewer.svelte",
+      "summary": "实现Svelte UI相关的 MobileFileViewer.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/mobile/MobileJobs.svelte",
+      "type": "file",
+      "name": "MobileJobs.svelte",
+      "filePath": "src/lib/mobile/MobileJobs.svelte",
+      "summary": "实现Svelte UI相关的 MobileJobs.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/mobile/MobileTerminal.svelte",
+      "type": "file",
+      "name": "MobileTerminal.svelte",
+      "filePath": "src/lib/mobile/MobileTerminal.svelte",
+      "summary": "实现Svelte UI相关的 MobileTerminal.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/mobile/MobileWorkspace.svelte",
+      "type": "file",
+      "name": "MobileWorkspace.svelte",
+      "filePath": "src/lib/mobile/MobileWorkspace.svelte",
+      "summary": "实现Svelte UI相关的 MobileWorkspace.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/mobile/OtpDialog.svelte",
+      "type": "file",
+      "name": "OtpDialog.svelte",
+      "filePath": "src/lib/mobile/OtpDialog.svelte",
+      "summary": "实现Svelte UI相关的 OtpDialog.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/mobile/sessions.ts",
+      "type": "file",
+      "name": "sessions.ts",
+      "filePath": "src/lib/mobile/sessions.ts",
+      "summary": "实现项目相关的 sessions.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 4 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/mobile/sessions.ts:endpointKey",
+      "type": "function",
+      "name": "endpointKey",
+      "filePath": "src/lib/mobile/sessions.ts",
+      "lineRange": [
+        21,
+        23
+      ],
+      "summary": "封装项目模块中的 endpointKey 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/sessions.ts:rememberSession",
+      "type": "function",
+      "name": "rememberSession",
+      "filePath": "src/lib/mobile/sessions.ts",
+      "lineRange": [
+        26,
+        28
+      ],
+      "summary": "封装项目模块中的 rememberSession 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/sessions.ts:forgetSession",
+      "type": "function",
+      "name": "forgetSession",
+      "filePath": "src/lib/mobile/sessions.ts",
+      "lineRange": [
+        31,
+        33
+      ],
+      "summary": "封装项目模块中的 forgetSession 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/mobile/sessions.ts:reuseSession",
+      "type": "function",
+      "name": "reuseSession",
+      "filePath": "src/lib/mobile/sessions.ts",
+      "lineRange": [
+        40,
+        51
+      ],
+      "summary": "封装项目模块中的 reuseSession 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/mocks/environment.ts",
+      "type": "file",
+      "name": "environment.ts",
+      "filePath": "src/lib/mocks/environment.ts",
+      "summary": "实现项目相关的 environment.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/Nav.svelte",
+      "type": "file",
+      "name": "Nav.svelte",
+      "filePath": "src/lib/Nav.svelte",
+      "summary": "实现Svelte UI相关的 Nav.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/periodic-table/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/periodic-table/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/periodic-table/PeriodicTable.svelte",
+      "type": "file",
+      "name": "PeriodicTable.svelte",
+      "filePath": "src/lib/periodic-table/PeriodicTable.svelte",
+      "summary": "实现Svelte UI相关的 PeriodicTable.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/periodic-table/PeriodicTableControls.svelte",
+      "type": "file",
+      "name": "PeriodicTableControls.svelte",
+      "filePath": "src/lib/periodic-table/PeriodicTableControls.svelte",
+      "summary": "实现Svelte UI相关的 PeriodicTableControls.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/periodic-table/PropertySelect.svelte",
+      "type": "file",
+      "name": "PropertySelect.svelte",
+      "filePath": "src/lib/periodic-table/PropertySelect.svelte",
+      "summary": "实现Svelte UI相关的 PropertySelect.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/periodic-table/TableInset.svelte",
+      "type": "file",
+      "name": "TableInset.svelte",
+      "filePath": "src/lib/periodic-table/TableInset.svelte",
+      "summary": "实现Svelte UI相关的 TableInset.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "type": "file",
+      "name": "barycentric-coords.ts",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "summary": "实现项目相关的 barycentric-coords.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 12 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:composition_to_barycentric_3d",
+      "type": "function",
+      "name": "composition_to_barycentric_3d",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        15,
+        31
+      ],
+      "summary": "封装项目模块中的 composition_to_barycentric_3d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:barycentric_to_ternary_xy",
+      "type": "function",
+      "name": "barycentric_to_ternary_xy",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        34,
+        40
+      ],
+      "summary": "封装项目模块中的 barycentric_to_ternary_xy 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:barycentric_to_ternary_xyz",
+      "type": "function",
+      "name": "barycentric_to_ternary_xyz",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        43,
+        49
+      ],
+      "summary": "封装项目模块中的 barycentric_to_ternary_xyz 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:get_triangle_centroid",
+      "type": "function",
+      "name": "get_triangle_centroid",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        51,
+        56
+      ],
+      "summary": "封装项目模块中的 get_triangle_centroid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:calculate_face_normal",
+      "type": "function",
+      "name": "calculate_face_normal",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        58,
+        67
+      ],
+      "summary": "封装项目模块中的 calculate_face_normal 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:calculate_face_centroid",
+      "type": "function",
+      "name": "calculate_face_centroid",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        69,
+        75
+      ],
+      "summary": "封装项目模块中的 calculate_face_centroid 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:get_ternary_3d_coordinates",
+      "type": "function",
+      "name": "get_ternary_3d_coordinates",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        77,
+        137
+      ],
+      "summary": "封装项目模块中的 get_ternary_3d_coordinates 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:get_triangle_edges",
+      "type": "function",
+      "name": "get_triangle_edges",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        139,
+        142
+      ],
+      "summary": "封装项目模块中的 get_triangle_edges 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:get_triangle_vertical_edges",
+      "type": "function",
+      "name": "get_triangle_vertical_edges",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        144,
+        150
+      ],
+      "summary": "封装项目模块中的 get_triangle_vertical_edges 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:composition_to_barycentric_4d",
+      "type": "function",
+      "name": "composition_to_barycentric_4d",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        160,
+        175
+      ],
+      "summary": "封装项目模块中的 composition_to_barycentric_4d 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:barycentric_to_tetrahedral",
+      "type": "function",
+      "name": "barycentric_to_tetrahedral",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        178,
+        191
+      ],
+      "summary": "封装项目模块中的 barycentric_to_tetrahedral 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/barycentric-coords.ts:compute_4d_coords",
+      "type": "function",
+      "name": "compute_4d_coords",
+      "filePath": "src/lib/phase-diagram/barycentric-coords.ts",
+      "lineRange": [
+        193,
+        214
+      ],
+      "summary": "封装项目模块中的 compute_4d_coords 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/helpers.ts",
+      "type": "file",
+      "name": "helpers.ts",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "summary": "实现项目相关的 helpers.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 10 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "utility",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:get_energy_color_scale",
+      "type": "function",
+      "name": "get_energy_color_scale",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        11,
+        28
+      ],
+      "summary": "封装项目模块中的 get_energy_color_scale 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:get_point_color_for_entry",
+      "type": "function",
+      "name": "get_point_color_for_entry",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        31,
+        44
+      ],
+      "summary": "封装项目模块中的 get_point_color_for_entry 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:parse_pd_entries_from_drop",
+      "type": "function",
+      "name": "parse_pd_entries_from_drop",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        47,
+        62
+      ],
+      "summary": "封装项目模块中的 parse_pd_entries_from_drop 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:calc_max_hull_dist_in_data",
+      "type": "function",
+      "name": "calc_max_hull_dist_in_data",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        65,
+        74
+      ],
+      "summary": "封装项目模块中的 calc_max_hull_dist_in_data 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:build_entry_tooltip_text",
+      "type": "function",
+      "name": "build_entry_tooltip_text",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        77,
+        113
+      ],
+      "summary": "封装项目模块中的 build_entry_tooltip_text 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:find_pd_entry_at_mouse",
+      "type": "function",
+      "name": "find_pd_entry_at_mouse",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        116,
+        146
+      ],
+      "summary": "封装项目模块中的 find_pd_entry_at_mouse 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:calculate_modal_side",
+      "type": "function",
+      "name": "calculate_modal_side",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        149,
+        156
+      ],
+      "summary": "封装项目模块中的 calculate_modal_side 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:setup_fullscreen_effect",
+      "type": "function",
+      "name": "setup_fullscreen_effect",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        159,
+        173
+      ],
+      "summary": "封装项目模块中的 setup_fullscreen_effect 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:compute_energy_mode_info",
+      "type": "function",
+      "name": "compute_energy_mode_info",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        177,
+        213
+      ],
+      "summary": "封装项目模块中的 compute_energy_mode_info 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/phase-diagram/helpers.ts:get_effective_entries",
+      "type": "function",
+      "name": "get_effective_entries",
+      "filePath": "src/lib/phase-diagram/helpers.ts",
+      "lineRange": [
+        217,
+        233
+      ],
+      "summary": "封装项目模块中的 get_effective_entries 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/phase-diagram/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/PhaseDiagram2D.svelte",
+      "type": "file",
+      "name": "PhaseDiagram2D.svelte",
+      "filePath": "src/lib/phase-diagram/PhaseDiagram2D.svelte",
+      "summary": "实现Svelte UI相关的 PhaseDiagram2D.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/PhaseDiagram3D.svelte",
+      "type": "file",
+      "name": "PhaseDiagram3D.svelte",
+      "filePath": "src/lib/phase-diagram/PhaseDiagram3D.svelte",
+      "summary": "实现Svelte UI相关的 PhaseDiagram3D.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/PhaseDiagram4D.svelte",
+      "type": "file",
+      "name": "PhaseDiagram4D.svelte",
+      "filePath": "src/lib/phase-diagram/PhaseDiagram4D.svelte",
+      "summary": "实现Svelte UI相关的 PhaseDiagram4D.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/phase-diagram/PhaseDiagramControls.svelte",
+      "type": "file",
+      "name": "PhaseDiagramControls.svelte",
+      "filePath": "src/lib/phase-diagram/PhaseDiagramControls.svelte",
+      "summary": "实现Svelte UI相关的 PhaseDiagramControls.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:connectionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:connectionLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:readRaw",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:migrateLegacy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:loadConnections",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:upsertConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:removeConnection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:connectionId",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:connectionLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:loadConnections",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:upsertConnection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/connections.ts",
+      "target": "function:src/lib/mobile/connections.ts:removeConnection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:humanSize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:joinPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:parentPath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:isBinaryName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:isStructureName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:humanSize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:joinPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:parentPath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:isBinaryName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/files-util.ts",
+      "target": "function:src/lib/mobile/files-util.ts:isStructureName",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/sessions.ts",
+      "target": "function:src/lib/mobile/sessions.ts:endpointKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/sessions.ts",
+      "target": "function:src/lib/mobile/sessions.ts:rememberSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/sessions.ts",
+      "target": "function:src/lib/mobile/sessions.ts:forgetSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/sessions.ts",
+      "target": "function:src/lib/mobile/sessions.ts:reuseSession",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/mobile/sessions.ts",
+      "target": "function:src/lib/mobile/sessions.ts:endpointKey",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/sessions.ts",
+      "target": "function:src/lib/mobile/sessions.ts:rememberSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/sessions.ts",
+      "target": "function:src/lib/mobile/sessions.ts:forgetSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/mobile/sessions.ts",
+      "target": "function:src/lib/mobile/sessions.ts:reuseSession",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:composition_to_barycentric_3d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:barycentric_to_ternary_xy",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:barycentric_to_ternary_xyz",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:get_triangle_centroid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:calculate_face_normal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:calculate_face_centroid",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:get_ternary_3d_coordinates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:get_triangle_edges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:get_triangle_vertical_edges",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:composition_to_barycentric_4d",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:barycentric_to_tetrahedral",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:compute_4d_coords",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:composition_to_barycentric_3d",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:barycentric_to_ternary_xy",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:barycentric_to_ternary_xyz",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:get_triangle_centroid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:calculate_face_normal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:calculate_face_centroid",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:get_ternary_3d_coordinates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:get_triangle_edges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:get_triangle_vertical_edges",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:composition_to_barycentric_4d",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:barycentric_to_tetrahedral",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/barycentric-coords.ts",
+      "target": "function:src/lib/phase-diagram/barycentric-coords.ts:compute_4d_coords",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:get_energy_color_scale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:get_point_color_for_entry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:parse_pd_entries_from_drop",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:calc_max_hull_dist_in_data",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:build_entry_tooltip_text",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:find_pd_entry_at_mouse",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:calculate_modal_side",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:setup_fullscreen_effect",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:compute_energy_mode_info",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:get_effective_entries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:get_energy_color_scale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:get_point_color_for_entry",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:parse_pd_entries_from_drop",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:calc_max_hull_dist_in_data",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:build_entry_tooltip_text",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:find_pd_entry_at_mouse",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:calculate_modal_side",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:setup_fullscreen_effect",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:compute_energy_mode_info",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/phase-diagram/helpers.ts",
+      "target": "function:src/lib/phase-diagram/helpers.ts:get_effective_entries",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

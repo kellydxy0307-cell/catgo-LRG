@@ -1,0 +1,2020 @@
+{
+  "nodes": [
+    {
+      "id": "file:src/lib/composition/BarChart.svelte",
+      "type": "file",
+      "name": "BarChart.svelte",
+      "filePath": "src/lib/composition/BarChart.svelte",
+      "summary": "实现Svelte UI相关的 BarChart.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/composition/BubbleChart.svelte",
+      "type": "file",
+      "name": "BubbleChart.svelte",
+      "filePath": "src/lib/composition/BubbleChart.svelte",
+      "summary": "实现Svelte UI相关的 BubbleChart.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/composition/Composition.svelte",
+      "type": "file",
+      "name": "Composition.svelte",
+      "filePath": "src/lib/composition/Composition.svelte",
+      "summary": "实现Svelte UI相关的 Composition.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/composition/Formula.svelte",
+      "type": "file",
+      "name": "Formula.svelte",
+      "filePath": "src/lib/composition/Formula.svelte",
+      "summary": "实现Svelte UI相关的 Formula.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/composition/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/composition/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/composition/index.ts:get_chart_font_scale",
+      "type": "function",
+      "name": "get_chart_font_scale",
+      "filePath": "src/lib/composition/index.ts",
+      "lineRange": [
+        23,
+        35
+      ],
+      "summary": "封装项目模块中的 get_chart_font_scale 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/composition/parse.ts",
+      "type": "file",
+      "name": "parse.ts",
+      "filePath": "src/lib/composition/parse.ts",
+      "summary": "实现项目相关的 parse.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 20 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "parsing",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:atomic_num_to_symbols",
+      "type": "function",
+      "name": "atomic_num_to_symbols",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        35,
+        45
+      ],
+      "summary": "封装项目模块中的 atomic_num_to_symbols 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:atomic_symbol_to_num",
+      "type": "function",
+      "name": "atomic_symbol_to_num",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        48,
+        60
+      ],
+      "summary": "封装项目模块中的 atomic_symbol_to_num 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:expand_parentheses",
+      "type": "function",
+      "name": "expand_parentheses",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        63,
+        77
+      ],
+      "summary": "封装项目模块中的 expand_parentheses 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:parse_formula",
+      "type": "function",
+      "name": "parse_formula",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        80,
+        94
+      ],
+      "summary": "封装项目模块中的 parse_formula 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:normalize_composition",
+      "type": "function",
+      "name": "normalize_composition",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        97,
+        113
+      ],
+      "summary": "封装项目模块中的 normalize_composition 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:fractional_composition",
+      "type": "function",
+      "name": "fractional_composition",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        115,
+        153
+      ],
+      "summary": "封装项目模块中的 fractional_composition 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:get_total_atoms",
+      "type": "function",
+      "name": "get_total_atoms",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        156,
+        157
+      ],
+      "summary": "封装项目模块中的 get_total_atoms 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:parse_composition",
+      "type": "function",
+      "name": "parse_composition",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        160,
+        178
+      ],
+      "summary": "封装项目模块中的 parse_composition 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:structure_to_composition",
+      "type": "function",
+      "name": "structure_to_composition",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        181,
+        199
+      ],
+      "summary": "封装项目模块中的 structure_to_composition 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:format_composition_formula",
+      "type": "function",
+      "name": "format_composition_formula",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        202,
+        222
+      ],
+      "summary": "封装项目模块中的 format_composition_formula 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:format_formula_generic",
+      "type": "function",
+      "name": "format_formula_generic",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        225,
+        250
+      ],
+      "summary": "封装项目模块中的 format_formula_generic 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:get_alphabetical_formula",
+      "type": "function",
+      "name": "get_alphabetical_formula",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        253,
+        265
+      ],
+      "summary": "封装项目模块中的 get_alphabetical_formula 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:sort_by_electronegativity",
+      "type": "function",
+      "name": "sort_by_electronegativity",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        267,
+        272
+      ],
+      "summary": "封装项目模块中的 sort_by_electronegativity 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:sort_by_hill_notation",
+      "type": "function",
+      "name": "sort_by_hill_notation",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        276,
+        291
+      ],
+      "summary": "封装项目模块中的 sort_by_hill_notation 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:get_electro_neg_formula",
+      "type": "function",
+      "name": "get_electro_neg_formula",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        294,
+        306
+      ],
+      "summary": "封装项目模块中的 get_electro_neg_formula 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:parse_oxidation_state",
+      "type": "function",
+      "name": "parse_oxidation_state",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        323,
+        335
+      ],
+      "summary": "封装项目模块中的 parse_oxidation_state 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:parse_formula_with_oxidation",
+      "type": "function",
+      "name": "parse_formula_with_oxidation",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        341,
+        389
+      ],
+      "summary": "封装项目模块中的 parse_formula_with_oxidation 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:composition_with_oxidation_to_elements",
+      "type": "function",
+      "name": "composition_with_oxidation_to_elements",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        393,
+        402
+      ],
+      "summary": "封装项目模块中的 composition_with_oxidation_to_elements 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/composition/parse.ts:format_oxi_state",
+      "type": "function",
+      "name": "format_oxi_state",
+      "filePath": "src/lib/composition/parse.ts",
+      "lineRange": [
+        404,
+        408
+      ],
+      "summary": "封装项目模块中的 format_oxi_state 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/composition/PieChart.svelte",
+      "type": "file",
+      "name": "PieChart.svelte",
+      "filePath": "src/lib/composition/PieChart.svelte",
+      "summary": "实现Svelte UI相关的 PieChart.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/ConnectDialog.svelte",
+      "type": "file",
+      "name": "ConnectDialog.svelte",
+      "filePath": "src/lib/ConnectDialog.svelte",
+      "summary": "实现Svelte UI相关的 ConnectDialog.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/constants.ts",
+      "type": "file",
+      "name": "constants.ts",
+      "filePath": "src/lib/constants.ts",
+      "summary": "实现项目相关的 constants.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/ContextMenu.svelte",
+      "type": "file",
+      "name": "ContextMenu.svelte",
+      "filePath": "src/lib/ContextMenu.svelte",
+      "summary": "实现Svelte UI相关的 ContextMenu.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/coordination/calc-coordination.ts",
+      "type": "file",
+      "name": "calc-coordination.ts",
+      "filePath": "src/lib/coordination/calc-coordination.ts",
+      "summary": "实现项目相关的 calc-coordination.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/coordination/calc-coordination.ts:calc_coordination_nums",
+      "type": "function",
+      "name": "calc_coordination_nums",
+      "filePath": "src/lib/coordination/calc-coordination.ts",
+      "lineRange": [
+        30,
+        99
+      ],
+      "summary": "封装项目模块中的 calc_coordination_nums 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/coordination/CoordinationBarPlot.svelte",
+      "type": "file",
+      "name": "CoordinationBarPlot.svelte",
+      "filePath": "src/lib/coordination/CoordinationBarPlot.svelte",
+      "summary": "实现Svelte UI相关的 CoordinationBarPlot.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/coordination/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/coordination/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/css-utils.ts",
+      "type": "file",
+      "name": "css-utils.ts",
+      "filePath": "src/lib/css-utils.ts",
+      "summary": "实现项目相关的 css-utils.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 1 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "utility",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/css-utils.ts:resolve_css_var",
+      "type": "function",
+      "name": "resolve_css_var",
+      "filePath": "src/lib/css-utils.ts",
+      "lineRange": [
+        1,
+        6
+      ],
+      "summary": "封装项目模块中的 resolve_css_var 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/cube/api.ts",
+      "type": "file",
+      "name": "api.ts",
+      "filePath": "src/lib/cube/api.ts",
+      "summary": "实现项目相关的 api.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 7 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "api",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/cube/api.ts:setCubeApiBase",
+      "type": "function",
+      "name": "setCubeApiBase",
+      "filePath": "src/lib/cube/api.ts",
+      "lineRange": [
+        10,
+        12
+      ],
+      "summary": "封装项目模块中的 setCubeApiBase 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/api.ts:uploadCubeFile",
+      "type": "function",
+      "name": "uploadCubeFile",
+      "filePath": "src/lib/cube/api.ts",
+      "lineRange": [
+        101,
+        113
+      ],
+      "summary": "封装项目模块中的 uploadCubeFile 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/api.ts:extractIsosurface",
+      "type": "function",
+      "name": "extractIsosurface",
+      "filePath": "src/lib/cube/api.ts",
+      "lineRange": [
+        119,
+        130
+      ],
+      "summary": "封装项目模块中的 extractIsosurface 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/api.ts:downloadIsosurface",
+      "type": "function",
+      "name": "downloadIsosurface",
+      "filePath": "src/lib/cube/api.ts",
+      "lineRange": [
+        135,
+        146
+      ],
+      "summary": "封装项目模块中的 downloadIsosurface 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/api.ts:extractSlicePng",
+      "type": "function",
+      "name": "extractSlicePng",
+      "filePath": "src/lib/cube/api.ts",
+      "lineRange": [
+        151,
+        159
+      ],
+      "summary": "封装项目模块中的 extractSlicePng 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/api.ts:extractPlaneSlice",
+      "type": "function",
+      "name": "extractPlaneSlice",
+      "filePath": "src/lib/cube/api.ts",
+      "lineRange": [
+        164,
+        175
+      ],
+      "summary": "封装项目模块中的 extractPlaneSlice 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/api.ts:listCachedFiles",
+      "type": "function",
+      "name": "listCachedFiles",
+      "filePath": "src/lib/cube/api.ts",
+      "lineRange": [
+        180,
+        187
+      ],
+      "summary": "封装项目模块中的 listCachedFiles 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/cube/client.ts",
+      "type": "file",
+      "name": "client.ts",
+      "filePath": "src/lib/cube/client.ts",
+      "summary": "实现项目相关的 client.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 4 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/cube/client.ts:extract_isosurface_client",
+      "type": "function",
+      "name": "extract_isosurface_client",
+      "filePath": "src/lib/cube/client.ts",
+      "lineRange": [
+        29,
+        96
+      ],
+      "summary": "封装项目模块中的 extract_isosurface_client 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/cube/client.ts:cancel_extraction",
+      "type": "function",
+      "name": "cancel_extraction",
+      "filePath": "src/lib/cube/client.ts",
+      "lineRange": [
+        99,
+        101
+      ],
+      "summary": "封装项目模块中的 cancel_extraction 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/client.ts:dispose_worker",
+      "type": "function",
+      "name": "dispose_worker",
+      "filePath": "src/lib/cube/client.ts",
+      "lineRange": [
+        104,
+        110
+      ],
+      "summary": "封装项目模块中的 dispose_worker 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/cube/CubeControls.svelte",
+      "type": "file",
+      "name": "CubeControls.svelte",
+      "filePath": "src/lib/cube/CubeControls.svelte",
+      "summary": "实现Svelte UI相关的 CubeControls.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/cube/CubeScene.svelte",
+      "type": "file",
+      "name": "CubeScene.svelte",
+      "filePath": "src/lib/cube/CubeScene.svelte",
+      "summary": "实现Svelte UI相关的 CubeScene.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/cube/CubeViewer.svelte",
+      "type": "file",
+      "name": "CubeViewer.svelte",
+      "filePath": "src/lib/cube/CubeViewer.svelte",
+      "summary": "实现Svelte UI相关的 CubeViewer.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/cube/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "src/lib/cube/index.ts",
+      "summary": "实现项目相关的 index.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "entry-point",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/cube/IsosurfaceMesh.svelte",
+      "type": "file",
+      "name": "IsosurfaceMesh.svelte",
+      "filePath": "src/lib/cube/IsosurfaceMesh.svelte",
+      "summary": "实现Svelte UI相关的 IsosurfaceMesh.svelte 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "component",
+        "svelte-ui"
+      ],
+      "complexity": "moderate",
+      "languageNotes": "使用 svelte 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/cube/marching-cubes.ts",
+      "type": "file",
+      "name": "marching-cubes.ts",
+      "filePath": "src/lib/cube/marching-cubes.ts",
+      "summary": "实现项目相关的 marching-cubes.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 11 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/cube/marching-cubes.ts:grid_to_cart",
+      "type": "function",
+      "name": "grid_to_cart",
+      "filePath": "src/lib/cube/marching-cubes.ts",
+      "lineRange": [
+        33,
+        49
+      ],
+      "summary": "封装项目模块中的 grid_to_cart 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/marching-cubes.ts:compute_gradient",
+      "type": "function",
+      "name": "compute_gradient",
+      "filePath": "src/lib/cube/marching-cubes.ts",
+      "lineRange": [
+        52,
+        90
+      ],
+      "summary": "封装项目模块中的 compute_gradient 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/marching-cubes.ts:add_vertex_welded",
+      "type": "function",
+      "name": "add_vertex_welded",
+      "filePath": "src/lib/cube/marching-cubes.ts",
+      "lineRange": [
+        105,
+        132
+      ],
+      "summary": "封装项目模块中的 add_vertex_welded 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/marching-cubes.ts:compute_inv_transpose",
+      "type": "function",
+      "name": "compute_inv_transpose",
+      "filePath": "src/lib/cube/marching-cubes.ts",
+      "lineRange": [
+        154,
+        193
+      ],
+      "summary": "封装项目模块中的 compute_inv_transpose 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/marching-cubes.ts:smooth_mesh",
+      "type": "function",
+      "name": "smooth_mesh",
+      "filePath": "src/lib/cube/marching-cubes.ts",
+      "lineRange": [
+        202,
+        231
+      ],
+      "summary": "封装项目模块中的 smooth_mesh 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/marching-cubes.ts:laplacian_pass",
+      "type": "function",
+      "name": "laplacian_pass",
+      "filePath": "src/lib/cube/marching-cubes.ts",
+      "lineRange": [
+        233,
+        257
+      ],
+      "summary": "封装项目模块中的 laplacian_pass 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/marching-cubes.ts:recompute_normals",
+      "type": "function",
+      "name": "recompute_normals",
+      "filePath": "src/lib/cube/marching-cubes.ts",
+      "lineRange": [
+        263,
+        293
+      ],
+      "summary": "封装项目模块中的 recompute_normals 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/marching-cubes.ts:extract_isosurface",
+      "type": "function",
+      "name": "extract_isosurface",
+      "filePath": "src/lib/cube/marching-cubes.ts",
+      "lineRange": [
+        300,
+        440
+      ],
+      "summary": "封装项目模块中的 extract_isosurface 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:src/lib/cube/marching-cubes.worker.ts",
+      "type": "file",
+      "name": "marching-cubes.worker.ts",
+      "filePath": "src/lib/cube/marching-cubes.worker.ts",
+      "summary": "实现项目相关的 marching-cubes.worker.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 0 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "worker",
+        "项目"
+      ],
+      "complexity": "simple",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "file:src/lib/cube/parse-cube.ts",
+      "type": "file",
+      "name": "parse-cube.ts",
+      "filePath": "src/lib/cube/parse-cube.ts",
+      "summary": "实现项目相关的 parse-cube.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 4 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "parsing",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/cube/parse-cube.ts:parse_cube_header",
+      "type": "function",
+      "name": "parse_cube_header",
+      "filePath": "src/lib/cube/parse-cube.ts",
+      "lineRange": [
+        49,
+        94
+      ],
+      "summary": "封装项目模块中的 parse_cube_header 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/parse-cube.ts:grid_to_cart",
+      "type": "function",
+      "name": "grid_to_cart",
+      "filePath": "src/lib/cube/parse-cube.ts",
+      "lineRange": [
+        100,
+        116
+      ],
+      "summary": "封装项目模块中的 grid_to_cart 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/parse-cube.ts:parse_cube_full",
+      "type": "function",
+      "name": "parse_cube_full",
+      "filePath": "src/lib/cube/parse-cube.ts",
+      "lineRange": [
+        122,
+        222
+      ],
+      "summary": "封装项目模块中的 parse_cube_full 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/cube/parse-cube.ts:cube_atoms_to_molecule",
+      "type": "function",
+      "name": "cube_atoms_to_molecule",
+      "filePath": "src/lib/cube/parse-cube.ts",
+      "lineRange": [
+        227,
+        245
+      ],
+      "summary": "封装项目模块中的 cube_atoms_to_molecule 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:src/lib/cube/slice.ts",
+      "type": "file",
+      "name": "slice.ts",
+      "filePath": "src/lib/cube/slice.ts",
+      "summary": "实现项目相关的 slice.ts 模块，提供该区域的核心逻辑、UI 状态或工具函数。结构提取发现 14 个函数和 0 个类/类型。",
+      "tags": [
+        "code",
+        "项目"
+      ],
+      "complexity": "complex",
+      "languageNotes": "使用 typescript 编写，结构分析以导出、函数和类/类型边界作为知识图谱依据。"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:sample_colormap",
+      "type": "function",
+      "name": "sample_colormap",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        92,
+        110
+      ],
+      "summary": "封装项目模块中的 sample_colormap 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:colormap_css_gradient",
+      "type": "function",
+      "name": "colormap_css_gradient",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        113,
+        117
+      ],
+      "summary": "封装项目模块中的 colormap_css_gradient 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:dot",
+      "type": "function",
+      "name": "dot",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        121,
+        123
+      ],
+      "summary": "封装项目模块中的 dot 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:cross",
+      "type": "function",
+      "name": "cross",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        125,
+        131
+      ],
+      "summary": "封装项目模块中的 cross 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:normalize",
+      "type": "function",
+      "name": "normalize",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        133,
+        136
+      ],
+      "summary": "封装项目模块中的 normalize 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:in_plane_basis",
+      "type": "function",
+      "name": "in_plane_basis",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        139,
+        152
+      ],
+      "summary": "封装项目模块中的 in_plane_basis 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:rodrigues_rotate",
+      "type": "function",
+      "name": "rodrigues_rotate",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        155,
+        165
+      ],
+      "summary": "封装项目模块中的 rodrigues_rotate 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:invert3",
+      "type": "function",
+      "name": "invert3",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        168,
+        179
+      ],
+      "summary": "封装项目模块中的 invert3 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:trilinear",
+      "type": "function",
+      "name": "trilinear",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        183,
+        221
+      ],
+      "summary": "封装项目模块中的 trilinear 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:sample_plane_slice",
+      "type": "function",
+      "name": "sample_plane_slice",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        229,
+        306
+      ],
+      "summary": "封装项目模块中的 sample_plane_slice 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:render_slice_to_canvas",
+      "type": "function",
+      "name": "render_slice_to_canvas",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        314,
+        367
+      ],
+      "summary": "封装项目模块中的 render_slice_to_canvas 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:project_atoms_to_plane",
+      "type": "function",
+      "name": "project_atoms_to_plane",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        375,
+        400
+      ],
+      "summary": "封装项目模块中的 project_atoms_to_plane 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:src/lib/cube/slice.ts:render_atoms_to_canvas",
+      "type": "function",
+      "name": "render_atoms_to_canvas",
+      "filePath": "src/lib/cube/slice.ts",
+      "lineRange": [
+        416,
+        477
+      ],
+      "summary": "封装项目模块中的 render_atoms_to_canvas 行为，承担局部流程控制、数据转换或交互处理职责。",
+      "tags": [
+        "业务逻辑",
+        "function",
+        "code"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:src/lib/composition/index.ts",
+      "target": "function:src/lib/composition/index.ts:get_chart_font_scale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/index.ts",
+      "target": "function:src/lib/composition/index.ts:get_chart_font_scale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:atomic_num_to_symbols",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:atomic_symbol_to_num",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:expand_parentheses",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:parse_formula",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:normalize_composition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:fractional_composition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:get_total_atoms",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:parse_composition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:structure_to_composition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:format_composition_formula",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:format_formula_generic",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:get_alphabetical_formula",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:sort_by_electronegativity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:sort_by_hill_notation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:get_electro_neg_formula",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:parse_oxidation_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:parse_formula_with_oxidation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:composition_with_oxidation_to_elements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:format_oxi_state",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:atomic_num_to_symbols",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:atomic_symbol_to_num",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:parse_formula",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:normalize_composition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:fractional_composition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:get_total_atoms",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:parse_composition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:format_composition_formula",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:get_alphabetical_formula",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:sort_by_electronegativity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:sort_by_hill_notation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:get_electro_neg_formula",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:parse_formula_with_oxidation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:composition_with_oxidation_to_elements",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/composition/parse.ts",
+      "target": "function:src/lib/composition/parse.ts:format_oxi_state",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/coordination/calc-coordination.ts",
+      "target": "function:src/lib/coordination/calc-coordination.ts:calc_coordination_nums",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/coordination/calc-coordination.ts",
+      "target": "function:src/lib/coordination/calc-coordination.ts:calc_coordination_nums",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/css-utils.ts",
+      "target": "function:src/lib/css-utils.ts:resolve_css_var",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/css-utils.ts",
+      "target": "function:src/lib/css-utils.ts:resolve_css_var",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:setCubeApiBase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:uploadCubeFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:extractIsosurface",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:downloadIsosurface",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:extractSlicePng",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:extractPlaneSlice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:listCachedFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:setCubeApiBase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:uploadCubeFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:extractIsosurface",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:downloadIsosurface",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:extractSlicePng",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:extractPlaneSlice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/api.ts",
+      "target": "function:src/lib/cube/api.ts:listCachedFiles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/client.ts",
+      "target": "function:src/lib/cube/client.ts:extract_isosurface_client",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/client.ts",
+      "target": "function:src/lib/cube/client.ts:cancel_extraction",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/client.ts",
+      "target": "function:src/lib/cube/client.ts:dispose_worker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/client.ts",
+      "target": "function:src/lib/cube/client.ts:extract_isosurface_client",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/client.ts",
+      "target": "function:src/lib/cube/client.ts:cancel_extraction",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/client.ts",
+      "target": "function:src/lib/cube/client.ts:dispose_worker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/marching-cubes.ts",
+      "target": "function:src/lib/cube/marching-cubes.ts:grid_to_cart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/marching-cubes.ts",
+      "target": "function:src/lib/cube/marching-cubes.ts:compute_gradient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/marching-cubes.ts",
+      "target": "function:src/lib/cube/marching-cubes.ts:add_vertex_welded",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/marching-cubes.ts",
+      "target": "function:src/lib/cube/marching-cubes.ts:compute_inv_transpose",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/marching-cubes.ts",
+      "target": "function:src/lib/cube/marching-cubes.ts:smooth_mesh",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/marching-cubes.ts",
+      "target": "function:src/lib/cube/marching-cubes.ts:laplacian_pass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/marching-cubes.ts",
+      "target": "function:src/lib/cube/marching-cubes.ts:recompute_normals",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/marching-cubes.ts",
+      "target": "function:src/lib/cube/marching-cubes.ts:extract_isosurface",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/marching-cubes.ts",
+      "target": "function:src/lib/cube/marching-cubes.ts:extract_isosurface",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/parse-cube.ts",
+      "target": "function:src/lib/cube/parse-cube.ts:parse_cube_header",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/parse-cube.ts",
+      "target": "function:src/lib/cube/parse-cube.ts:grid_to_cart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/parse-cube.ts",
+      "target": "function:src/lib/cube/parse-cube.ts:parse_cube_full",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/parse-cube.ts",
+      "target": "function:src/lib/cube/parse-cube.ts:cube_atoms_to_molecule",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/parse-cube.ts",
+      "target": "function:src/lib/cube/parse-cube.ts:parse_cube_header",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/parse-cube.ts",
+      "target": "function:src/lib/cube/parse-cube.ts:grid_to_cart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/parse-cube.ts",
+      "target": "function:src/lib/cube/parse-cube.ts:parse_cube_full",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/parse-cube.ts",
+      "target": "function:src/lib/cube/parse-cube.ts:cube_atoms_to_molecule",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:sample_colormap",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:colormap_css_gradient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:dot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:cross",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:normalize",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:in_plane_basis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:rodrigues_rotate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:invert3",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:trilinear",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:sample_plane_slice",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:render_slice_to_canvas",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:project_atoms_to_plane",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:render_atoms_to_canvas",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:colormap_css_gradient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:dot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:cross",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:normalize",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:in_plane_basis",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:rodrigues_rotate",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:sample_plane_slice",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:render_slice_to_canvas",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:project_atoms_to_plane",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:src/lib/cube/slice.ts",
+      "target": "function:src/lib/cube/slice.ts:render_atoms_to_canvas",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

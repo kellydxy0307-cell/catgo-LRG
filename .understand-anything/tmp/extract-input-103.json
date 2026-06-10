@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/workflow/IrcPathPlot.svelte",
+      "language": "svelte",
+      "sizeLines": 246,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/job-script-store.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 168,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/JobScriptWorkplace.svelte",
+      "language": "svelte",
+      "sizeLines": 521,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/monitor-series.ts",
+      "language": "typescript",
+      "sizeLines": 205,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/MultiStructurePreview.svelte",
+      "language": "svelte",
+      "sizeLines": 419,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/NEBPathPlot.svelte",
+      "language": "svelte",
+      "sizeLines": 195,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-definitions.ts",
+      "language": "typescript",
+      "sizeLines": 2976,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/adsorption-energy.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/charge-analysis.ts",
+      "language": "typescript",
+      "sizeLines": 31,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/cohp-analysis.ts",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/coverage-analysis.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/dos-analysis.ts",
+      "language": "typescript",
+      "sizeLines": 65,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/elastic-analysis.ts",
+      "language": "typescript",
+      "sizeLines": 29,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/electronic.ts",
+      "language": "typescript",
+      "sizeLines": 28,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/eos-analysis.ts",
+      "language": "typescript",
+      "sizeLines": 40,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/free-energy.ts",
+      "language": "typescript",
+      "sizeLines": 56,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/gibbs-energy.ts",
+      "language": "typescript",
+      "sizeLines": 87,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/index.ts",
+      "language": "typescript",
+      "sizeLines": 33,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/md-analysis.ts",
+      "language": "typescript",
+      "sizeLines": 50,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/phonon-analysis.ts",
+      "language": "typescript",
+      "sizeLines": 45,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/surface-energy.ts",
+      "language": "typescript",
+      "sizeLines": 43,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/analysis/wulff-construction.ts",
+      "language": "typescript",
+      "sizeLines": 27,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/calculation.ts",
+      "language": "typescript",
+      "sizeLines": 1266,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/calculation/cell-opt.ts",
+      "language": "typescript",
+      "sizeLines": 92,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/node-defs/calculation/freq.ts",
+      "language": "typescript",
+      "sizeLines": 191,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/workflow/IrcPathPlot.svelte": [],
+    "src/lib/workflow/job-script-store.svelte.ts": [],
+    "src/lib/workflow/JobScriptWorkplace.svelte": [],
+    "src/lib/workflow/monitor-series.ts": [],
+    "src/lib/workflow/MultiStructurePreview.svelte": [],
+    "src/lib/workflow/NEBPathPlot.svelte": [],
+    "src/lib/workflow/node-definitions.ts": [],
+    "src/lib/workflow/node-defs/analysis/adsorption-energy.ts": [],
+    "src/lib/workflow/node-defs/analysis/charge-analysis.ts": [],
+    "src/lib/workflow/node-defs/analysis/cohp-analysis.ts": [],
+    "src/lib/workflow/node-defs/analysis/coverage-analysis.ts": [],
+    "src/lib/workflow/node-defs/analysis/dos-analysis.ts": [],
+    "src/lib/workflow/node-defs/analysis/elastic-analysis.ts": [],
+    "src/lib/workflow/node-defs/analysis/electronic.ts": [],
+    "src/lib/workflow/node-defs/analysis/eos-analysis.ts": [],
+    "src/lib/workflow/node-defs/analysis/free-energy.ts": [],
+    "src/lib/workflow/node-defs/analysis/gibbs-energy.ts": [],
+    "src/lib/workflow/node-defs/analysis/index.ts": [],
+    "src/lib/workflow/node-defs/analysis/md-analysis.ts": [],
+    "src/lib/workflow/node-defs/analysis/phonon-analysis.ts": [],
+    "src/lib/workflow/node-defs/analysis/surface-energy.ts": [],
+    "src/lib/workflow/node-defs/analysis/wulff-construction.ts": [],
+    "src/lib/workflow/node-defs/calculation.ts": [],
+    "src/lib/workflow/node-defs/calculation/cell-opt.ts": [],
+    "src/lib/workflow/node-defs/calculation/freq.ts": []
+  }
+}

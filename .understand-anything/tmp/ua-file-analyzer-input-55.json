@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "extensions/rust/src/bin/ferrox_cli.rs",
+      "language": "rust",
+      "sizeLines": 265,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/bonding.rs",
+      "language": "rust",
+      "sizeLines": 842,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/cell_ops.rs",
+      "language": "rust",
+      "sizeLines": 1156,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/cif.rs",
+      "language": "rust",
+      "sizeLines": 1099,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/composition.rs",
+      "language": "rust",
+      "sizeLines": 1564,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/coordination.rs",
+      "language": "rust",
+      "sizeLines": 759,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/crystal_nn.rs",
+      "language": "rust",
+      "sizeLines": 886,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/defects.rs",
+      "language": "rust",
+      "sizeLines": 1775,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/distortions.rs",
+      "language": "rust",
+      "sizeLines": 908,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/elastic.rs",
+      "language": "rust",
+      "sizeLines": 1071,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/element.rs",
+      "language": "rust",
+      "sizeLines": 2093,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/error.rs",
+      "language": "rust",
+      "sizeLines": 302,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/ewald.rs",
+      "language": "rust",
+      "sizeLines": 423,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/heterostructure.rs",
+      "language": "rust",
+      "sizeLines": 1682,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/integrators.rs",
+      "language": "rust",
+      "sizeLines": 2918,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/io.rs",
+      "language": "rust",
+      "sizeLines": 4183,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/lattice.rs",
+      "language": "rust",
+      "sizeLines": 1662,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/lib.rs",
+      "language": "rust",
+      "sizeLines": 128,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/matcher.rs",
+      "language": "rust",
+      "sizeLines": 1712,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/mof/cap_replace.rs",
+      "language": "rust",
+      "sizeLines": 652,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/mof/classify.rs",
+      "language": "rust",
+      "sizeLines": 109,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/mof/clustering.rs",
+      "language": "rust",
+      "sizeLines": 430,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/mof/functional_groups.rs",
+      "language": "rust",
+      "sizeLines": 415,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/mof/mod.rs",
+      "language": "rust",
+      "sizeLines": 280,
+      "fileCategory": "code"
+    },
+    {
+      "path": "extensions/rust/src/mof/paddlewheel.rs",
+      "language": "rust",
+      "sizeLines": 124,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "extensions/rust/src/bin/ferrox_cli.rs": [],
+    "extensions/rust/src/bonding.rs": [],
+    "extensions/rust/src/cell_ops.rs": [],
+    "extensions/rust/src/cif.rs": [],
+    "extensions/rust/src/composition.rs": [],
+    "extensions/rust/src/coordination.rs": [],
+    "extensions/rust/src/crystal_nn.rs": [],
+    "extensions/rust/src/defects.rs": [],
+    "extensions/rust/src/distortions.rs": [],
+    "extensions/rust/src/elastic.rs": [],
+    "extensions/rust/src/element.rs": [],
+    "extensions/rust/src/error.rs": [],
+    "extensions/rust/src/ewald.rs": [],
+    "extensions/rust/src/heterostructure.rs": [],
+    "extensions/rust/src/integrators.rs": [],
+    "extensions/rust/src/io.rs": [],
+    "extensions/rust/src/lattice.rs": [],
+    "extensions/rust/src/lib.rs": [],
+    "extensions/rust/src/matcher.rs": [],
+    "extensions/rust/src/mof/cap_replace.rs": [],
+    "extensions/rust/src/mof/classify.rs": [],
+    "extensions/rust/src/mof/clustering.rs": [],
+    "extensions/rust/src/mof/functional_groups.rs": [],
+    "extensions/rust/src/mof/mod.rs": [],
+    "extensions/rust/src/mof/paddlewheel.rs": []
+  }
+}

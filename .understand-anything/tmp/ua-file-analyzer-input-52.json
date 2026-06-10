@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "docs/modules/dynamics/trajectories.md",
+      "language": "markdown",
+      "sizeLines": 91,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/modules/index.md",
+      "language": "markdown",
+      "sizeLines": 99,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/modules/integrations/database-integration.md",
+      "language": "markdown",
+      "sizeLines": 128,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/modules/integrations/density-visualization.md",
+      "language": "markdown",
+      "sizeLines": 63,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/modules/server/mcp-server.md",
+      "language": "markdown",
+      "sizeLines": 51,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/modules/server/rest-api.md",
+      "language": "markdown",
+      "sizeLines": 86,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/ai/ai-chat.md",
+      "language": "markdown",
+      "sizeLines": 63,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/ai/literature-import.md",
+      "language": "markdown",
+      "sizeLines": 65,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/basics/getting-started.md",
+      "language": "markdown",
+      "sizeLines": 106,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/desktop/desktop-app.md",
+      "language": "markdown",
+      "sizeLines": 174,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/index.md",
+      "language": "markdown",
+      "sizeLines": 59,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/interaction/gesture-hand-tracking.md",
+      "language": "markdown",
+      "sizeLines": 55,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/interaction/voice-control.md",
+      "language": "markdown",
+      "sizeLines": 58,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/server/mcp-server.md",
+      "language": "markdown",
+      "sizeLines": 56,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/server/server-api.md",
+      "language": "markdown",
+      "sizeLines": 57,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/visualization/density-viz.md",
+      "language": "markdown",
+      "sizeLines": 82,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/visualization/trajectories.md",
+      "language": "markdown",
+      "sizeLines": 118,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/tutorials/workflows/workflows.md",
+      "language": "markdown",
+      "sizeLines": 295,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/zh/guide/catbot.md",
+      "language": "markdown",
+      "sizeLines": 74,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/zh/guide/installation.md",
+      "language": "markdown",
+      "sizeLines": 81,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "docs/zh/index.md",
+      "language": "markdown",
+      "sizeLines": 71,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "energy_diagram/energydiagram.egg-info/PKG-INFO",
+      "language": "unknown",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "energy_diagram/energydiagram/__init__.py",
+      "language": "python",
+      "sizeLines": 10,
+      "fileCategory": "code"
+    },
+    {
+      "path": "energy_diagram/energydiagram/core.py",
+      "language": "python",
+      "sizeLines": 337,
+      "fileCategory": "code"
+    },
+    {
+      "path": "energy_diagram/energydiagram/interaction.py",
+      "language": "python",
+      "sizeLines": 222,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "docs/modules/dynamics/trajectories.md": [],
+    "docs/modules/index.md": [],
+    "docs/modules/integrations/database-integration.md": [],
+    "docs/modules/integrations/density-visualization.md": [],
+    "docs/modules/server/mcp-server.md": [],
+    "docs/modules/server/rest-api.md": [],
+    "docs/tutorials/ai/ai-chat.md": [],
+    "docs/tutorials/ai/literature-import.md": [],
+    "docs/tutorials/basics/getting-started.md": [],
+    "docs/tutorials/desktop/desktop-app.md": [],
+    "docs/tutorials/index.md": [],
+    "docs/tutorials/interaction/gesture-hand-tracking.md": [],
+    "docs/tutorials/interaction/voice-control.md": [],
+    "docs/tutorials/server/mcp-server.md": [],
+    "docs/tutorials/server/server-api.md": [],
+    "docs/tutorials/visualization/density-viz.md": [],
+    "docs/tutorials/visualization/trajectories.md": [],
+    "docs/tutorials/workflows/workflows.md": [],
+    "docs/zh/guide/catbot.md": [],
+    "docs/zh/guide/installation.md": [],
+    "docs/zh/index.md": [],
+    "energy_diagram/energydiagram.egg-info/PKG-INFO": [],
+    "energy_diagram/energydiagram/__init__.py": [],
+    "energy_diagram/energydiagram/core.py": [],
+    "energy_diagram/energydiagram/interaction.py": []
+  }
+}

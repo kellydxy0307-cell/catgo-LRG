@@ -1,0 +1,784 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/vitest/structure/abacus-export.test.ts",
+      "type": "file",
+      "name": "abacus-export.test.ts",
+      "filePath": "tests/vitest/structure/abacus-export.test.ts",
+      "summary": "abacus-export.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/abacus-export.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/amber-export.test.ts",
+      "type": "file",
+      "name": "amber-export.test.ts",
+      "filePath": "tests/vitest/structure/amber-export.test.ts",
+      "summary": "amber-export.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/amber-export.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/atoms/apply-atom-delete.test.svelte.ts",
+      "type": "file",
+      "name": "apply-atom-delete.test.svelte.ts",
+      "filePath": "tests/vitest/structure/atoms/apply-atom-delete.test.svelte.ts",
+      "summary": "apply-atom-delete.test.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/atoms/apply-atom-delete.test.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/atoms/atom-manager.test.svelte.ts",
+      "type": "file",
+      "name": "atom-manager.test.svelte.ts",
+      "filePath": "tests/vitest/structure/atoms/atom-manager.test.svelte.ts",
+      "summary": "atom-manager.test.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/atoms/atom-manager.test.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/bond-manager.test.ts",
+      "type": "file",
+      "name": "bond-manager.test.ts",
+      "filePath": "tests/vitest/structure/bond-manager.test.ts",
+      "summary": "bond-manager.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/bond-manager.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/bond-undo-stack.test.ts",
+      "type": "file",
+      "name": "bond-undo-stack.test.ts",
+      "filePath": "tests/vitest/structure/bond-undo-stack.test.ts",
+      "summary": "bond-undo-stack.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/bond-undo-stack.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/bonding.test.ts",
+      "type": "file",
+      "name": "bonding.test.ts",
+      "filePath": "tests/vitest/structure/bonding.test.ts",
+      "summary": "bonding.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/bonding.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/bonding/apply-atom-delete.test.svelte.ts",
+      "type": "file",
+      "name": "apply-atom-delete.test.svelte.ts",
+      "filePath": "tests/vitest/structure/bonding/apply-atom-delete.test.svelte.ts",
+      "summary": "apply-atom-delete.test.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/bonding/apply-atom-delete.test.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/bonding/apply-atom-mutation.test.svelte.ts",
+      "type": "file",
+      "name": "apply-atom-mutation.test.svelte.ts",
+      "filePath": "tests/vitest/structure/bonding/apply-atom-mutation.test.svelte.ts",
+      "summary": "apply-atom-mutation.test.svelte.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/bonding/apply-atom-mutation.test.svelte.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/bonding/image-atom-layout.test.ts",
+      "type": "file",
+      "name": "image-atom-layout.test.ts",
+      "filePath": "tests/vitest/structure/bonding/image-atom-layout.test.ts",
+      "summary": "image-atom-layout.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/bonding/image-atom-layout.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/controllers.test.ts",
+      "type": "file",
+      "name": "controllers.test.ts",
+      "filePath": "tests/vitest/structure/controllers.test.ts",
+      "summary": "controllers.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/controllers.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/cp2k-export.test.ts",
+      "type": "file",
+      "name": "cp2k-export.test.ts",
+      "filePath": "tests/vitest/structure/cp2k-export.test.ts",
+      "summary": "cp2k-export.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/cp2k-export.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/export-modules.test.ts",
+      "type": "file",
+      "name": "export-modules.test.ts",
+      "filePath": "tests/vitest/structure/export-modules.test.ts",
+      "summary": "export-modules.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/export-modules.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/export.test.ts",
+      "type": "file",
+      "name": "export.test.ts",
+      "filePath": "tests/vitest/structure/export.test.ts",
+      "summary": "export.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/export.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "complex",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gaussian-export.test.ts",
+      "type": "file",
+      "name": "gaussian-export.test.ts",
+      "filePath": "tests/vitest/structure/gaussian-export.test.ts",
+      "summary": "gaussian-export.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gaussian-export.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "moderate",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/bond-compute-pack.test.ts",
+      "type": "file",
+      "name": "bond-compute-pack.test.ts",
+      "filePath": "tests/vitest/structure/gpu/bond-compute-pack.test.ts",
+      "summary": "bond-compute-pack.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/bond-compute-pack.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/bond-compute.test.ts",
+      "type": "file",
+      "name": "bond-compute.test.ts",
+      "filePath": "tests/vitest/structure/gpu/bond-compute.test.ts",
+      "summary": "bond-compute.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/bond-compute.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/bond-compute.wgsl.test.ts",
+      "type": "file",
+      "name": "bond-compute.wgsl.test.ts",
+      "filePath": "tests/vitest/structure/gpu/bond-compute.wgsl.test.ts",
+      "summary": "bond-compute.wgsl.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/bond-compute.wgsl.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/bond-detect-reference.test.ts",
+      "type": "file",
+      "name": "bond-detect-reference.test.ts",
+      "filePath": "tests/vitest/structure/gpu/bond-detect-reference.test.ts",
+      "summary": "bond-detect-reference.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/bond-detect-reference.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/bond-grid.test.ts",
+      "type": "file",
+      "name": "bond-grid.test.ts",
+      "filePath": "tests/vitest/structure/gpu/bond-grid.test.ts",
+      "summary": "bond-grid.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/bond-grid.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/bond-rules.test.ts",
+      "type": "file",
+      "name": "bond-rules.test.ts",
+      "filePath": "tests/vitest/structure/gpu/bond-rules.test.ts",
+      "summary": "bond-rules.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/bond-rules.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/camera-uniform.test.ts",
+      "type": "file",
+      "name": "camera-uniform.test.ts",
+      "filePath": "tests/vitest/structure/gpu/camera-uniform.test.ts",
+      "summary": "camera-uniform.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/camera-uniform.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/frame-buffers.test.ts",
+      "type": "file",
+      "name": "frame-buffers.test.ts",
+      "filePath": "tests/vitest/structure/gpu/frame-buffers.test.ts",
+      "summary": "frame-buffers.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/frame-buffers.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/large-system-mode.test.ts",
+      "type": "file",
+      "name": "large-system-mode.test.ts",
+      "filePath": "tests/vitest/structure/gpu/large-system-mode.test.ts",
+      "summary": "large-system-mode.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/large-system-mode.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    },
+    {
+      "id": "file:tests/vitest/structure/gpu/large-system-renderer.test.ts",
+      "type": "file",
+      "name": "large-system-renderer.test.ts",
+      "filePath": "tests/vitest/structure/gpu/large-system-renderer.test.ts",
+      "summary": "large-system-renderer.test.ts 是 CatGo 项目中的代码文件，使用 typescript，位于 tests/vitest/structure/gpu/large-system-renderer.test.ts，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "typescript",
+        "测试"
+      ],
+      "complexity": "simple",
+      "language": "typescript",
+      "languageNotes": "此节点以中文概述，保留必要的 typescript 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tests/vitest/structure/abacus-export.test.ts",
+      "target": "file:src/lib/structure/export/abacus-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/abacus-export.test.ts",
+      "target": "file:src/lib/structure/export/common-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/amber-export.test.ts",
+      "target": "file:src/lib/structure/export/amber-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/atoms/apply-atom-delete.test.svelte.ts",
+      "target": "file:src/lib/structure/atoms/atom-manager.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/atoms/atom-manager.test.svelte.ts",
+      "target": "file:src/lib/structure/atoms/atom-manager.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bond-manager.test.ts",
+      "target": "file:src/lib/structure/bonding/bond-manager.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bond-undo-stack.test.ts",
+      "target": "file:src/lib/structure/bonding/bond-manager.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bond-undo-stack.test.ts",
+      "target": "file:src/lib/structure/bonding/bond-undo-stack.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding.test.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding.test.ts",
+      "target": "file:src/lib/structure/bonding.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding.test.ts",
+      "target": "file:src/site/molecules/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/apply-atom-delete.test.svelte.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/apply-atom-delete.test.svelte.ts",
+      "target": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/apply-atom-delete.test.svelte.ts",
+      "target": "file:src/lib/structure/bonding/bond-manager.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/apply-atom-mutation.test.svelte.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/apply-atom-mutation.test.svelte.ts",
+      "target": "file:src/lib/structure/bond-computation-controller.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/apply-atom-mutation.test.svelte.ts",
+      "target": "file:src/lib/structure/bonding/bond-manager.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/apply-atom-mutation.test.svelte.ts",
+      "target": "file:src/lib/structure/workers/bond-worker-api.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/image-atom-layout.test.ts",
+      "target": "file:src/lib/structure/bonding/bond-manager.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/image-atom-layout.test.ts",
+      "target": "file:src/lib/structure/bonding/image-atom-layout.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/bonding/image-atom-layout.test.ts",
+      "target": "file:src/lib/structure/pbc-image-atoms.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/controllers.test.ts",
+      "target": "file:src/lib/structure/controllers/analysis-controller.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/controllers.test.ts",
+      "target": "file:src/lib/structure/controllers/transform-controller.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/controllers.test.ts",
+      "target": "file:src/lib/structure/controllers/viewer-controller.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/controllers.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/cp2k-export.test.ts",
+      "target": "file:src/lib/structure/export/cp2k-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export-modules.test.ts",
+      "target": "file:src/lib/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export-modules.test.ts",
+      "target": "file:src/lib/structure/export/abacus-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export-modules.test.ts",
+      "target": "file:src/lib/structure/export/common-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export-modules.test.ts",
+      "target": "file:src/lib/structure/export/gaussian-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export-modules.test.ts",
+      "target": "file:src/lib/structure/export/lammps-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export-modules.test.ts",
+      "target": "file:src/lib/structure/export/orca-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export-modules.test.ts",
+      "target": "file:src/lib/structure/export/qe-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export-modules.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export.test.ts",
+      "target": "file:src/lib/io/fetch.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export.test.ts",
+      "target": "file:src/lib/math.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export.test.ts",
+      "target": "file:src/lib/structure/export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export.test.ts",
+      "target": "file:src/lib/structure/parse.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/export.test.ts",
+      "target": "file:tests/vitest/setup.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gaussian-export.test.ts",
+      "target": "file:src/lib/structure/export/gaussian-export.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-compute-pack.test.ts",
+      "target": "file:src/lib/structure/gpu/bond-compute.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-compute.test.ts",
+      "target": "file:src/lib/structure/gpu/bond-compute.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-compute.test.ts",
+      "target": "file:src/lib/structure/gpu/bond-detect-reference.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-compute.test.ts",
+      "target": "file:src/lib/structure/gpu/webgpu-context.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-compute.wgsl.test.ts",
+      "target": "file:src/lib/structure/gpu/bond-compute.wgsl.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-detect-reference.test.ts",
+      "target": "file:src/lib/structure/gpu/bond-detect-reference.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-detect-reference.test.ts",
+      "target": "file:src/lib/structure/gpu/frame-buffers.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-detect-reference.test.ts",
+      "target": "file:src/lib/structure/gpu/radius-lut.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-detect-reference.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-detect-reference.test.ts",
+      "target": "file:src/lib/structure/workers/bond-worker-api.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-grid.test.ts",
+      "target": "file:src/lib/structure/gpu/bond-grid.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-rules.test.ts",
+      "target": "file:src/lib/structure/gpu/bond-rules.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/bond-rules.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/camera-uniform.test.ts",
+      "target": "file:src/lib/structure/gpu/camera-uniform.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/frame-buffers.test.ts",
+      "target": "file:src/lib/structure/gpu/frame-buffers.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/frame-buffers.test.ts",
+      "target": "file:src/lib/structure/index.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/large-system-mode.test.ts",
+      "target": "file:src/lib/structure/gpu/large-system-mode.svelte.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/large-system-renderer.test.ts",
+      "target": "file:src/lib/structure/gpu/large-system-renderer.ts",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/vitest/structure/gpu/large-system-renderer.test.ts",
+      "target": "file:src/lib/structure/gpu/webgpu-context.ts",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}

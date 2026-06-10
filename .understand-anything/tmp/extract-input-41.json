@@ -1,0 +1,42 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/site/molecules/benzene.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/site/molecules/ethanol.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/site/molecules/methane.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/site/molecules/methyl.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    },
+    {
+      "path": "src/site/molecules/water.json",
+      "language": "json",
+      "sizeLines": 1,
+      "fileCategory": "config"
+    }
+  ],
+  "batchImportData": {
+    "src/site/molecules/benzene.json": [],
+    "src/site/molecules/ethanol.json": [],
+    "src/site/molecules/methane.json": [],
+    "src/site/molecules/methyl.json": [],
+    "src/site/molecules/water.json": []
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 4,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "deploy/web/INSTALL.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 116,
+      "nonEmptyLines": 86,
+      "sections": [
+        {
+          "heading": "CatGo backend — one-line installer",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Quick start",
+          "level": 2,
+          "line": 7
+        },
+        {
+          "heading": "What it does",
+          "level": 2,
+          "line": 22
+        },
+        {
+          "heading": "Security",
+          "level": 2,
+          "line": 47
+        },
+        {
+          "heading": "Customizing",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "Change the source repository",
+          "level": 3,
+          "line": 72
+        },
+        {
+          "heading": "Change the origin or port",
+          "level": 3,
+          "line": 78
+        },
+        {
+          "heading": "Stopping the backend",
+          "level": 2,
+          "line": 90
+        },
+        {
+          "heading": "Re-running / updating",
+          "level": 2,
+          "line": 100
+        },
+        {
+          "heading": "Troubleshooting",
+          "level": 2,
+          "line": 105
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 10
+      }
+    },
+    {
+      "path": "deploy/web/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 140,
+      "nonEmptyLines": 101,
+      "sections": [
+        {
+          "heading": "CatGO — Model C: hosted static frontend + user-owned backend",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Three deployment models (context)",
+          "level": 2,
+          "line": 12
+        },
+        {
+          "heading": "Maintainer: build & host the static SPA",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Cloudflare Pages (works out of the box)",
+          "level": 3,
+          "line": 43
+        },
+        {
+          "heading": "Vercel (uses `vercel.json`)",
+          "level": 3,
+          "line": 48
+        },
+        {
+          "heading": "GitHub Pages (manual SPA fallback)",
+          "level": 3,
+          "line": 56
+        },
+        {
+          "heading": "User: same device (laptop)",
+          "level": 2,
+          "line": 67
+        },
+        {
+          "heading": "User: phone → computer (cross-device, via Tailscale)",
+          "level": 2,
+          "line": 95
+        },
+        {
+          "heading": "Security note",
+          "level": 2,
+          "line": 130
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": "deploy/web/install.sh",
+      "language": "shell",
+      "fileCategory": "script",
+      "totalLines": 251,
+      "nonEmptyLines": 234,
+      "functions": [
+        {
+          "name": "info",
+          "startLine": 76,
+          "endLine": 76,
+          "params": []
+        },
+        {
+          "name": "warn",
+          "startLine": 77,
+          "endLine": 77,
+          "params": []
+        },
+        {
+          "name": "err",
+          "startLine": 78,
+          "endLine": 78,
+          "params": []
+        },
+        {
+          "name": "on_error",
+          "startLine": 80,
+          "endLine": 90,
+          "params": []
+        },
+        {
+          "name": "require_cmd",
+          "startLine": 111,
+          "endLine": 116,
+          "params": []
+        },
+        {
+          "name": "find_python",
+          "startLine": 121,
+          "endLine": 132,
+          "params": []
+        },
+        {
+          "name": "find_existing_checkout",
+          "startLine": 157,
+          "endLine": 168,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "deploy/web/vercel.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "sections": [
+        {
+          "heading": "$schema",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "rewrites",
+          "level": 1,
+          "line": 3
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 2
+      }
+    }
+  ]
+}

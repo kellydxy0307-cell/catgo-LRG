@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "tests/vitest/structure/gpu/radius-lut.test.ts",
+      "language": "typescript",
+      "sizeLines": 22,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gpu/webgpu-context.test.ts",
+      "language": "typescript",
+      "sizeLines": 26,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/gromacs-export.test.ts",
+      "language": "typescript",
+      "sizeLines": 278,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/index.test.ts",
+      "language": "typescript",
+      "sizeLines": 230,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/lammps-export.test.ts",
+      "language": "typescript",
+      "sizeLines": 167,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/measure.test.ts",
+      "language": "typescript",
+      "sizeLines": 267,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/merge-import.test.ts",
+      "language": "typescript",
+      "sizeLines": 88,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/orca-export.test.ts",
+      "language": "typescript",
+      "sizeLines": 159,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/pane-structure-isolation.test.ts",
+      "language": "typescript",
+      "sizeLines": 51,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/parse.test.ts",
+      "language": "typescript",
+      "sizeLines": 3431,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/pbc-image-atoms.test.ts",
+      "language": "typescript",
+      "sizeLines": 281,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/pbc.test.ts",
+      "language": "typescript",
+      "sizeLines": 1072,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/qe-export.test.ts",
+      "language": "typescript",
+      "sizeLines": 224,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/scene.test.ts",
+      "language": "typescript",
+      "sizeLines": 631,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/selection-state-redo.test.ts",
+      "language": "typescript",
+      "sizeLines": 42,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/Structure.test.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 964,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/StructureControls.test.ts",
+      "language": "typescript",
+      "sizeLines": 137,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/StructureExportPane.test.ts",
+      "language": "typescript",
+      "sizeLines": 229,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/StructureInfoPane.test.ts",
+      "language": "typescript",
+      "sizeLines": 254,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/StructureLegend.test.ts",
+      "language": "typescript",
+      "sizeLines": 177,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/supercell-export-core.test.ts",
+      "language": "typescript",
+      "sizeLines": 118,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/supercell-performance.test.ts",
+      "language": "typescript",
+      "sizeLines": 230,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/supercell.test.ts",
+      "language": "typescript",
+      "sizeLines": 521,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/validation.test.ts",
+      "language": "typescript",
+      "sizeLines": 32,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/vitest/structure/view_output_structure_click.test.ts",
+      "language": "typescript",
+      "sizeLines": 48,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "tests/vitest/structure/gpu/radius-lut.test.ts": [],
+    "tests/vitest/structure/gpu/webgpu-context.test.ts": [],
+    "tests/vitest/structure/gromacs-export.test.ts": [],
+    "tests/vitest/structure/index.test.ts": [],
+    "tests/vitest/structure/lammps-export.test.ts": [],
+    "tests/vitest/structure/measure.test.ts": [],
+    "tests/vitest/structure/merge-import.test.ts": [],
+    "tests/vitest/structure/orca-export.test.ts": [],
+    "tests/vitest/structure/pane-structure-isolation.test.ts": [],
+    "tests/vitest/structure/parse.test.ts": [],
+    "tests/vitest/structure/pbc-image-atoms.test.ts": [],
+    "tests/vitest/structure/pbc.test.ts": [],
+    "tests/vitest/structure/qe-export.test.ts": [],
+    "tests/vitest/structure/scene.test.ts": [],
+    "tests/vitest/structure/selection-state-redo.test.ts": [],
+    "tests/vitest/structure/Structure.test.svelte.ts": [],
+    "tests/vitest/structure/StructureControls.test.ts": [],
+    "tests/vitest/structure/StructureExportPane.test.ts": [],
+    "tests/vitest/structure/StructureInfoPane.test.ts": [],
+    "tests/vitest/structure/StructureLegend.test.ts": [],
+    "tests/vitest/structure/supercell-export-core.test.ts": [],
+    "tests/vitest/structure/supercell-performance.test.ts": [],
+    "tests/vitest/structure/supercell.test.ts": [],
+    "tests/vitest/structure/validation.test.ts": [],
+    "tests/vitest/structure/view_output_structure_click.test.ts": []
+  }
+}

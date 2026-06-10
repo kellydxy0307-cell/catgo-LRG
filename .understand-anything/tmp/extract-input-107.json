@@ -1,0 +1,182 @@
+{
+  "projectRoot": "D:/catgo-LRG",
+  "batchFiles": [
+    {
+      "path": "src/lib/workflow/workflow-state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 223,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/workflow-types.ts",
+      "language": "typescript",
+      "sizeLines": 256,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/WorkflowDAGViewer.svelte",
+      "language": "svelte",
+      "sizeLines": 468,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/WorkflowEditor.svelte",
+      "language": "svelte",
+      "sizeLines": 3921,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/WorkflowListV2.svelte",
+      "language": "svelte",
+      "sizeLines": 103,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/WulffPlot.svelte",
+      "language": "svelte",
+      "sizeLines": 160,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/workflow/WulffShape3D.svelte",
+      "language": "svelte",
+      "sizeLines": 313,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/xrd/atomic-scattering-params.ts",
+      "language": "typescript",
+      "sizeLines": 107,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/xrd/calc-xrd.ts",
+      "language": "typescript",
+      "sizeLines": 329,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/xrd/index.ts",
+      "language": "typescript",
+      "sizeLines": 35,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/lib/xrd/XrdPlot.svelte",
+      "language": "svelte",
+      "sizeLines": 297,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/scripts/fetch-elem-images.ts",
+      "language": "typescript",
+      "sizeLines": 101,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/scripts/update-site-screenshots.ts",
+      "language": "typescript",
+      "sizeLines": 41,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/molecules/C2HO-scientific-notation.xyz",
+      "language": "xyz",
+      "sizeLines": 6,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/molecules/C5-extra-data.xyz",
+      "language": "xyz",
+      "sizeLines": 7,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/molecules/cyclohexane.xyz",
+      "language": "xyz",
+      "sizeLines": 20,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/molecules/index.ts",
+      "language": "typescript",
+      "sizeLines": 30,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/plot-utils.ts",
+      "language": "typescript",
+      "sizeLines": 211,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/site/state.svelte.ts",
+      "language": "typescript",
+      "sizeLines": 72,
+      "fileCategory": "code"
+    },
+    {
+      "path": "src/sql-js.d.ts",
+      "language": "typescript",
+      "sizeLines": 24,
+      "fileCategory": "code"
+    },
+    {
+      "path": "svelte.config.js",
+      "language": "javascript",
+      "sizeLines": 75,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/conftest.py",
+      "language": "python",
+      "sizeLines": 57,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/fidelity/REPORT.md",
+      "language": "markdown",
+      "sizeLines": 99,
+      "fileCategory": "docs"
+    },
+    {
+      "path": "tests/fidelity/run_fidelity.py",
+      "language": "python",
+      "sizeLines": 768,
+      "fileCategory": "code"
+    },
+    {
+      "path": "tests/fidelity/structures/benzene.xyz",
+      "language": "xyz",
+      "sizeLines": 14,
+      "fileCategory": "code"
+    }
+  ],
+  "batchImportData": {
+    "src/lib/workflow/workflow-state.svelte.ts": [],
+    "src/lib/workflow/workflow-types.ts": [],
+    "src/lib/workflow/WorkflowDAGViewer.svelte": [],
+    "src/lib/workflow/WorkflowEditor.svelte": [],
+    "src/lib/workflow/WorkflowListV2.svelte": [],
+    "src/lib/workflow/WulffPlot.svelte": [],
+    "src/lib/workflow/WulffShape3D.svelte": [],
+    "src/lib/xrd/atomic-scattering-params.ts": [],
+    "src/lib/xrd/calc-xrd.ts": [],
+    "src/lib/xrd/index.ts": [],
+    "src/lib/xrd/XrdPlot.svelte": [],
+    "src/scripts/fetch-elem-images.ts": [],
+    "src/scripts/update-site-screenshots.ts": [],
+    "src/site/molecules/C2HO-scientific-notation.xyz": [],
+    "src/site/molecules/C5-extra-data.xyz": [],
+    "src/site/molecules/cyclohexane.xyz": [],
+    "src/site/molecules/index.ts": [],
+    "src/site/plot-utils.ts": [],
+    "src/site/state.svelte.ts": [],
+    "src/sql-js.d.ts": [],
+    "svelte.config.js": [],
+    "tests/conftest.py": [],
+    "tests/fidelity/REPORT.md": [],
+    "tests/fidelity/run_fidelity.py": [],
+    "tests/fidelity/structures/benzene.xyz": []
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 3,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "docs/tutorials/electronic/band-structure.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 58,
+      "nonEmptyLines": 34,
+      "sections": [
+        {
+          "heading": "Band Structure Tutorial",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Step 1: Load Band Data",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Supported Formats",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "Step 2: Configure the Plot",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Setting the Fermi Level",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "High-Symmetry Points",
+          "level": 3,
+          "line": 32
+        },
+        {
+          "heading": "Step 3: Analyze Features",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Band Gap Detection",
+          "level": 3,
+          "line": 38
+        },
+        {
+          "heading": "Orbital Projections",
+          "level": 3,
+          "line": 42
+        },
+        {
+          "heading": "D-Band Analysis",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "Step 4: Export",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 54
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    },
+    {
+      "path": "docs/tutorials/electronic/cohp-analysis.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 51,
+      "nonEmptyLines": 30,
+      "sections": [
+        {
+          "heading": "COHP Analysis Tutorial",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Step 1: Load COHP Data",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Supported Formats",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "Step 2: Select Bond Pairs",
+          "level": 2,
+          "line": 25
+        },
+        {
+          "heading": "Pair Selection",
+          "level": 3,
+          "line": 29
+        },
+        {
+          "heading": "Step 3: Interpret the Plot",
+          "level": 2,
+          "line": 33
+        },
+        {
+          "heading": "Bonding vs Antibonding",
+          "level": 3,
+          "line": 35
+        },
+        {
+          "heading": "Integrated COHP (ICOHP)",
+          "level": 3,
+          "line": 40
+        },
+        {
+          "heading": "Step 4: Export",
+          "level": 2,
+          "line": 44
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 48
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 11
+      }
+    },
+    {
+      "path": "docs/tutorials/electronic/dos-analysis.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 57,
+      "nonEmptyLines": 33,
+      "sections": [
+        {
+          "heading": "DOS Analysis Tutorial",
+          "level": 1,
+          "line": 7
+        },
+        {
+          "heading": "Prerequisites",
+          "level": 2,
+          "line": 11
+        },
+        {
+          "heading": "Step 1: Load DOS Data",
+          "level": 2,
+          "line": 16
+        },
+        {
+          "heading": "Supported Formats",
+          "level": 3,
+          "line": 20
+        },
+        {
+          "heading": "Step 2: Configure the Plot",
+          "level": 2,
+          "line": 26
+        },
+        {
+          "heading": "Energy Range",
+          "level": 3,
+          "line": 28
+        },
+        {
+          "heading": "Projection Type",
+          "level": 3,
+          "line": 32
+        },
+        {
+          "heading": "Spin Polarization",
+          "level": 3,
+          "line": 36
+        },
+        {
+          "heading": "Step 3: Analyze Features",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "Peak Identification",
+          "level": 3,
+          "line": 42
+        },
+        {
+          "heading": "Integration",
+          "level": 3,
+          "line": 46
+        },
+        {
+          "heading": "Step 4: Export",
+          "level": 2,
+          "line": 50
+        },
+        {
+          "heading": "Related",
+          "level": 2,
+          "line": 54
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 13
+      }
+    }
+  ]
+}

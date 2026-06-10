@@ -1,0 +1,635 @@
+{
+  "nodes": [
+    {
+      "id": "file:server/catgo/workflow/engine/lifecycle.py",
+      "type": "file",
+      "name": "lifecycle.py",
+      "filePath": "server/catgo/workflow/engine/lifecycle.py",
+      "summary": "lifecycle.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/engine/lifecycle.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/engine/poller.py",
+      "type": "file",
+      "name": "poller.py",
+      "filePath": "server/catgo/workflow/engine/poller.py",
+      "summary": "poller.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/engine/poller.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/engine/resolver.py",
+      "type": "file",
+      "name": "resolver.py",
+      "filePath": "server/catgo/workflow/engine/resolver.py",
+      "summary": "resolver.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/engine/resolver.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/engine/result_collector.py",
+      "type": "file",
+      "name": "result_collector.py",
+      "filePath": "server/catgo/workflow/engine/result_collector.py",
+      "summary": "result_collector.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/engine/result_collector.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/engine/result_handler.py",
+      "type": "file",
+      "name": "result_handler.py",
+      "filePath": "server/catgo/workflow/engine/result_handler.py",
+      "summary": "result_handler.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/engine/result_handler.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/engine/scanner.py",
+      "type": "file",
+      "name": "scanner.py",
+      "filePath": "server/catgo/workflow/engine/scanner.py",
+      "summary": "scanner.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/engine/scanner.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/engine/smart_recovery.py",
+      "type": "file",
+      "name": "smart_recovery.py",
+      "filePath": "server/catgo/workflow/engine/smart_recovery.py",
+      "summary": "smart_recovery.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/engine/smart_recovery.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/engine/submitter.py",
+      "type": "file",
+      "name": "submitter.py",
+      "filePath": "server/catgo/workflow/engine/submitter.py",
+      "summary": "submitter.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/engine/submitter.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "complex",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/engine/v1_monitor.py",
+      "type": "file",
+      "name": "v1_monitor.py",
+      "filePath": "server/catgo/workflow/engine/v1_monitor.py",
+      "summary": "v1_monitor.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/engine/v1_monitor.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/graph_converter.py",
+      "type": "file",
+      "name": "graph_converter.py",
+      "filePath": "server/catgo/workflow/graph_converter.py",
+      "summary": "graph_converter.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/graph_converter.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/mcp_tools.py",
+      "type": "file",
+      "name": "mcp_tools.py",
+      "filePath": "server/catgo/workflow/mcp_tools.py",
+      "summary": "mcp_tools.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/mcp_tools.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/provenance.py",
+      "type": "file",
+      "name": "provenance.py",
+      "filePath": "server/catgo/workflow/provenance.py",
+      "summary": "provenance.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/provenance.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/reference.py",
+      "type": "file",
+      "name": "reference.py",
+      "filePath": "server/catgo/workflow/reference.py",
+      "summary": "reference.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/reference.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "file:server/catgo/workflow/service.py",
+      "type": "file",
+      "name": "service.py",
+      "filePath": "server/catgo/workflow/service.py",
+      "summary": "service.py 是 CatGo 项目中的代码文件，使用 python，位于 server/catgo/workflow/service.py，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "code",
+        "python",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "python",
+      "languageNotes": "此节点以中文概述，保留必要的 python 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "simple",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/abinit/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/abinit/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/abinit/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/analysis/adsorption/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/analysis/adsorption/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/analysis/adsorption/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/analysis/charge/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/analysis/charge/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/analysis/charge/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/analysis/co2rr/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/analysis/co2rr/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/analysis/co2rr/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/analysis/cohp/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/analysis/cohp/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/analysis/cohp/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/analysis/convergence/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/analysis/convergence/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/analysis/convergence/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/analysis/dos_analysis/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/analysis/dos_analysis/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/analysis/dos_analysis/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/analysis/energy_diagram/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/analysis/energy_diagram/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/analysis/energy_diagram/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/analysis/gibbs/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/analysis/gibbs/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/analysis/gibbs/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    },
+    {
+      "id": "document:server/catgo/workflow/skills/analysis/her/SKILL.md",
+      "type": "document",
+      "name": "SKILL.md",
+      "filePath": "server/catgo/workflow/skills/analysis/her/SKILL.md",
+      "summary": "SKILL.md 是 CatGo 项目中的文档文件，使用 markdown，位于 server/catgo/workflow/skills/analysis/her/SKILL.md，参与桌面应用、材料科学工作流、服务端或工程配置体系。",
+      "tags": [
+        "中文图谱",
+        "docs",
+        "markdown",
+        "工作流",
+        "后端"
+      ],
+      "complexity": "moderate",
+      "language": "markdown",
+      "languageNotes": "此节点以中文概述，保留必要的 markdown 技术术语。"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:server/catgo/workflow/engine/lifecycle.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/lifecycle.py",
+      "target": "file:server/catgo/workflow/engine/scanner.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/lifecycle.py",
+      "target": "file:server/catgo/workflow/states.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/poller.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/poller.py",
+      "target": "file:server/catgo/workflow/engine/broadcast.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/poller.py",
+      "target": "file:server/catgo/workflow/engine/hpc_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/poller.py",
+      "target": "file:server/catgo/workflow/engine/result_handler.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/poller.py",
+      "target": "file:server/catgo/workflow/engine/v1_monitor.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/poller.py",
+      "target": "file:server/catgo/workflow/states.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/resolver.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/result_handler.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/result_handler.py",
+      "target": "file:server/catgo/workflow/engine/result_collector.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/scanner.py",
+      "target": "file:server/catgo/workflow/builtins.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/scanner.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/scanner.py",
+      "target": "file:server/catgo/workflow/engine/advancer.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/scanner.py",
+      "target": "file:server/catgo/workflow/engine/broadcast.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/scanner.py",
+      "target": "file:server/catgo/workflow/engine/control_flow.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/scanner.py",
+      "target": "file:server/catgo/workflow/engine/error_handler.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/scanner.py",
+      "target": "file:server/catgo/workflow/provenance.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/scanner.py",
+      "target": "file:server/catgo/workflow/states.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/smart_recovery.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/submitter.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/submitter.py",
+      "target": "file:server/catgo/workflow/engine/batch_submitter.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/submitter.py",
+      "target": "file:server/catgo/workflow/engine/hpc_utils.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/submitter.py",
+      "target": "file:server/catgo/workflow/engine/resolver.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/submitter.py",
+      "target": "file:server/catgo/workflow/states.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/engine/v1_monitor.py",
+      "target": "file:server/catgo/workflow/state_map.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/graph_converter.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/provenance.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/service.py",
+      "target": "file:server/catgo/workflow/db.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/service.py",
+      "target": "file:server/catgo/workflow/engine/lifecycle.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/service.py",
+      "target": "file:server/catgo/workflow/reference.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/service.py",
+      "target": "file:server/catgo/workflow/states.py",
+      "type": "imports",
+      "weight": 0.7
+    },
+    {
+      "source": "file:server/catgo/workflow/service.py",
+      "target": "file:server/catgo/workflow/workflow.py",
+      "type": "imports",
+      "weight": 0.7
+    }
+  ]
+}
