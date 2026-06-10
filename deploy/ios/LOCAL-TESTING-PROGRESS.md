@@ -89,6 +89,16 @@ the phone loads the UI from `http://<LAN-IP>:3100` and HMR pushes edits live.
 - If signing shows *"Failed to register bundle identifier"* on another machine/Apple ID,
   change the bundle id to something unique (e.g. `com.<yourname>.catgo`) and mirror
   it in `src-tauri/tauri.conf.json`. (Not needed here — `com.catgo.app` was accepted.)
+- **iPad needed two fixes beyond the iPhone build (2026-06-07).** The PR built for iPhone
+  but the iPad showed a letterboxed iPhone window rendering the *desktop* UI. Two causes,
+  both now fixed (see the knobs table): (1) the generated Xcode project's device family
+  wasn't pinned, so the iPad build wasn't universal → letterbox; pinned
+  `TARGETED_DEVICE_FAMILY: "1,2"` in `project.yml`. (2) **iPadOS WKWebView masquerades as a
+  Mac** — its `navigator.userAgent` says `Macintosh`, not `iPad` (desktop-class browsing,
+  default since iPadOS 13), so `isMobile()` fell through to the desktop UI + localhost
+  transport. Fixed by also matching a `Macintosh` UA with `navigator.maxTouchPoints > 1`.
+  Canvas sizing needed **no** change — Threlte's `<Canvas>` `ResizeObserver` + the
+  `flex:1 / 100%` `.mw-struct` pane already fill the larger iPad viewport.
 
 ## Mobile/iOS code changes — map & adjustable knobs
 
@@ -107,6 +117,10 @@ comments at the change site.
 | Action bar overflow | `MobileWorkspace.svelte` | Compact locale switch + scrollable/shrinkable `.mw-actions` so the buttons (up to 6 when connected) never clip. | — |
 | Terminal | `MobileTerminal.svelte` | Hides the OSC7 cwd-setup echo via a render-gate (private OSC 99 sentinel); registers the cwd hook for **zsh** (`precmd_functions`, not bash `PROMPT_COMMAND`); adds left/right padding. | — |
 | Local file picker | `MobileWorkspace.svelte` (`accept="*/*"`) | iOS greys out unknown extensions (`.xyz`, `.cif`, …); `*/*` lets you pick any file and the handler parses by content. | Production fix: declare the formats as UTTypes in `src-tauri/gen/apple/.../Info.plist`. |
+| **iPad: full-screen** | `src-tauri/gen/apple/project.yml` (`TARGETED_DEVICE_FAMILY: "1,2"`) | `project.yml` previously left device family to xcodegen's default → non-deterministic across build machines, so a build could ship iPhone-only (family `1`) and show the **letterboxed** window on iPad. Now pinned universal. | Pin in `project.yml` (tracked), **not** in Xcode — the `.xcodeproj` is gitignored/regenerated, so an Xcode-GUI toggle is wiped on the next build. Optionally add `UIRequiresFullScreen: true` to the Info.plist props to opt out of iPad Split View (protects the resize-fragile 3D viewer). |
+| **iPad: mobile UI** | `src/lib/api/transport/index.ts` (`isMobile()`) | iPadOS 13+ defaults its WKWebView to *desktop-class browsing*, so `navigator.userAgent` reports `Macintosh` with **no `iPad` token** → the old regex returned false → iPad loaded the **desktop UI + HTTP/localhost transport** instead of the mobile UI + SSH transport. Fixed by also treating `Macintosh` UA **with `maxTouchPoints > 1`** as mobile (a real Mac reports 0). | The `maxTouchPoints > 1` threshold is the iPad tell. Don't drop it. A genuine desktop Mac is unaffected (touch points = 0). |
+| **Terminal tabs** | `src/lib/mobile/terminal-tabs.svelte.ts`, `MobileTerminal.svelte`, `MobileWorkspace.svelte` | iTerm-style multi-terminal: a registry of tabs (one PTY each), a width-responsive "Terminals" panel (strip on phone / sidebar on iPad), kept-warm inactive tabs (`visibility:hidden`, never `display:none`). Single-host, cap 5. | Cap = `MAX_TABS` in `terminal-tabs.svelte.ts`. Keep inactive tabs `visibility:hidden` (display:none zeroes xterm's grid). Design: `docs/developer/mobile-terminal-tabs-design.md`. |
+| **AI chat (API-key)** | `src/lib/mobile/ai-keys.ts`, `MobileChat.svelte`, `MobileChatSetup.svelte`; `src/lib/chat/{client-llm,provider-routing,chat-state,message-utils}.ts` | Text-only CatBot on mobile via the **client-direct** path with a user API key. Key stored **encrypted** (`transport.keyStore`), **never** localStorage. The LLM call uses `llm_fetch` (Tauri native HTTP, **no relay** — the key must not transit the third-party CORS Worker). Text-only = `run_tool_loop` with empty tools (and the request omits the `tools` field). Design: `docs/developer/mobile-ai-chat-design.md`. | API-key providers only (SDK providers hidden). Default model per provider in `MobileChatSetup`. **Device-test items:** does the Tauri HTTP plugin stream SSE (else the single-read fallback renders one-shot)? Anthropic Bearer-vs-`x-api-key` on the `/v1` compat endpoint? `AbortSignal` honored mid-request? **Never** route a key-bearing request through `relay_fetch`/`relay_url`. |
 
 App icon: regenerated locally via `pnpm tauri icon src-tauri/icons/icon.png`, but
 `gen/apple` is machine-local — the durable fix is a 1024×1024 master so `tauri icon` /
@@ -123,6 +137,155 @@ App icon: regenerated locally via `pnpm tauri icon src-tauri/icons/icon.png`, bu
 - `deploy/ios/README.md` — full iOS build guide (toolchain, signing, Keychain plan)
 - `.github/workflows/ios-build.yml` — CI build on a GitHub macOS runner (simulator
   smoke build by default; signed IPA when `APPLE_*` secrets are set)
+
+---
+
+## 2026-06-08 session — iPad (M5) device run + AI-chat testing
+
+Branch `ios-app`. Ran on a physical **iPad Pro 13" (M5, iPadOS 26)**. Several
+issues surfaced building + running on a fresh device/OS; fixes below.
+
+### Launch command (CORRECTED — `--host` flag is required)
+
+```bash
+TAURI_DEV_HOST=<MAC_LAN_IP> pnpm tauri ios dev "<device>" --host <MAC_LAN_IP>
+```
+
+`TAURI_DEV_HOST` (env) drives Vite's bind + backend CORS, but Tauri CLI **2.9.6
+does not rewrite the app's baked devUrl from the env var alone** — you MUST pass
+`--host <ip>` too, or the app loads `http://localhost:3100` (unreachable from the
+device → "did you grant local network permissions?"). With `--host`, Tauri logs
+`Replacing devUrl host with <ip>` and injects the ATS / local-network plist keys.
+
+### Build/run fixes (all required to get a device build to launch)
+
+| Symptom | Cause | Fix |
+|---------|-------|-----|
+| `tauri ios dev` hangs, then `Could not connect to http://localhost:3100 after 180s` | Vite bound to ONLY `TAURI_DEV_HOST`; Tauri's readiness poll hits `localhost` (the configured devUrl), which isn't served. | `vite.desktop.config.ts`: bind mobile to `0.0.0.0` (`host: tauri_dev_host ? '0.0.0.0' : '127.0.0.1'`) so localhost + LAN both work. |
+| Xcode build: `PhaseScriptExecution failed … pnpm: command not found` | Xcode GUI builds inherit launchd's minimal PATH (no Homebrew/cargo). | `gen/apple/project.yml` → `preBuildScripts` "Build Rust Code": prepend `export PATH="/opt/homebrew/bin:$HOME/.cargo/bin:$PATH"`. Re-run `xcodegen generate`. |
+| Xcode: `Signing requires a development team` | `project.yml` carried no team, so each `xcodegen` regen dropped the Xcode-GUI selection. | `gen/apple/project.yml` target `settings.base`: `DEVELOPMENT_TEAM: 6G73SADM5R` + `CODE_SIGN_STYLE: Automatic` (re-apply after `tauri ios init`). Team = the one local `Apple Development: ijennheart@gmail.com` identity. |
+| App launches but: `Failed to request http://localhost:3100 … local network permissions?` | See "Launch command" — `--host` not passed. | Pass `--host <ip>`; grant the iOS **Local Network** prompt (or Settings → Privacy & Security → Local Network → CatGo). |
+
+`gen/apple` is gitignored/regenerated — re-apply the PATH + signing edits to
+`project.yml` after any `tauri ios init`, then `xcodegen generate`.
+
+### AI-chat (mobile, client-direct) findings
+
+| Finding | Status / fix |
+|---------|--------------|
+| **Default model `gemini-2.0-flash` 429s with `limit: 0`** | Google **retired 2.0-flash 2026-03-03**; free-tier quota is 0. Bumped `DEFAULT_MODELS.gemini` → `gemini-2.5-flash` in `MobileChatSetup.svelte`. (Free tier is per-**project** & per-**model**; new keys/projects don't help — only a live model does.) |
+| **Gemini `AQ.`-prefix keys** | New Google key format (replaces `AIza`). Works on CatGo's **native** Gemini path; known to break on **OpenAI-compat** endpoints ("Multiple authentication credentials"). |
+| **No SSE streaming on iOS** | EXPECTED — the Tauri HTTP plugin buffers the whole body; `stream_client_llm`'s single-read detection falls back to one-shot render. Confirmed on device; not a bug. |
+| **Chat freezes after loading a structure → no reply, no new sends** | The structure goes into the system prompt; that request **hung** (no client-side timeout) → awaited stream never settled → `loading` stuck `true` → every later message silently queued (`chat-state` line ~495). **Fixed:** added an idle-timeout watchdog (60s, re-arms per chunk, folded into the Stop signal) + clean retryable error in `stream_client_llm`. Test: `client-llm.test.ts` "idle-timeout …". |
+| **System prompt advertised tools the mobile path doesn't have** | Mobile chat is tool-free (`isMobile() ? [] : CLIENT_TOOLS`), but `build_sdk_system_prompt` told the model to "call catgo_* tools directly" — so it promised actions (e.g. "I'll check the active structure") and burned turns / stalled. **Fixed:** added a `text_only` branch to `build_sdk_system_prompt` (no tool talk; answer from the inline structure context); `chat-state` passes `isMobile()`. The same `text_only` prompt also instructs **Unicode** formulas (TiO₂, α-Fe₂O₃) instead of LaTeX `$...$` — `MobileChat.svelte`'s renderer is lightweight by design (no KaTeX, to avoid its ~250 KB load), so LaTeX rendered raw (`$TiO_2$`). |
+| **Typed mobile chat didn't get the structure context** | `structure_context.value` is only fed by desktop `ChatPane` and the `Structure.svelte` *voice* path — neither runs for `MobileChat` (tab `mobile`). So typed chat only had context by coincidence (right after a fetch); after an app restart (structure restored, no load event) it reported "no structure loaded". **Fixed:** `MobileChat` now takes a `structure` prop (passed from `MobileWorkspace`) and rebuilds `structure_context` via `build_structure_context({structure})` on every send — always current across restarts and mid-chat swaps. |
+| Open: structure context may be sent **un-trimmed** | A large structure could bloat the prompt enough to stall every time. Timeout makes it fail gracefully; trimming/summarizing the context is the real cure (TODO). |
+| Transient errors (429 rate-limit, 503 overload, 5xx/529) | **Fixed:** `stream_client_llm` now auto-retries the connect/status phase with exponential backoff (3 attempts; honors `Retry-After` up to 8s; abortable via Stop/idle-timeout; never retries once a 200 body streams). `gemini-2.5-flash` free tier is 10 RPM; busy-model 503s and brief 429s now self-heal before surfacing. Tests: `client-llm.test.ts` "auto-retries transient 503s", "does NOT retry a non-transient 4xx". |
+
+### Multi-chat tabs + minimize (feature)
+
+Mirrors the terminal tab bar for the AI chat. New `src/lib/mobile/chat-tabs.svelte.ts`
+(module-scope reactive registry, like `terminal-tabs.svelte.ts`) — each tab's `id`
+IS its chat-state slice id, so history/loading/abort/queue come free per tab.
+`MobileChat.svelte` drives off `chat_tabs.active_id`, renders a header tab strip
+(tap=switch, long-press=close sheet, **+**=new, cap `MAX_CHAT_TABS=5`) and a
+**Collapse**(minimize) button — minimize/close just dismiss the overlay; chats persist
+at module scope and restore on reopen. Tabs label by first message. New i18n keys:
+`ai_new_chat`, `ai_minimize`, `ai_close_chat` (en + zh).
+
+### Other mobile fix
+
+- **Terminal tab long-press selected the "Delete" label text** (WKWebView native
+  text-selection on press-and-hold). `MobileWorkspace.svelte`: added
+  `-webkit-user-select: none` + `-webkit-touch-callout: none` to `.mw-tabchip-btn`
+  and `.mw-sheet-btn`.
+
+### SSH "connect to this Mac" (works)
+
+Enable **System Settings → General → Sharing → Remote Login**, then in CatGo's
+Connect dialog: host = Mac LAN IP, user = Mac username, port 22, Mac login
+password. (iPad must be on the same LAN — it already is, since it loads the UI
+from that IP.)
+
+## 2026-06-09 — connection + terminal/keyboard polish (device-tested)
+
+Found while a colleague + we tested SSH connections and the terminal on iPhone/iPad.
+
+### SSH connection password (`MobileConnect.svelte`, `OtpDialog.svelte`)
+
+- **Saved password never applied → "Password authentication rejected".** The
+  `password = pw` copy lived INSIDE `if (!auto_password)`, but tapping a saved
+  connection (`pick_saved`) pre-loads `auto_password`, so the block was skipped
+  and an empty password was sent. Fixed: apply the saved password whenever it's
+  the password method (any load path); mark `used_saved_pw` when sending the
+  unchanged saved password so we don't re-offer to save it.
+- **No masked feedback on tap.** `pick_saved` now fills the (masked) password
+  field from the store for the password method, so the user sees `••••` and can
+  just tap Connect.
+- **2FA clusters.** Reconnect now pre-fills the password prompt(s) from the saved
+  password even in a MIXED password+OTP round (new `prefill` prop on
+  `OtpDialog`); submits silently only when the whole round is password prompts.
+  Generalized from the old "exactly one prompt" rule.
+- **Key-trim consistency.** `persist_non_secrets` trims host/username so the saved
+  descriptor matches the (trimmed) password key.
+
+### iPhone top-bar overflow (`MobileWorkspace.svelte`)
+
+- Save (and Disconnect) were scrolling off the right edge. Wrapped the secondary
+  actions in a `.mw-actions-scroll` flexbox scroller; Save/Disconnect stay OUTSIDE
+  it (`flex-shrink:0`) so they're always pinned/visible on a narrow screen.
+
+### Terminal soft-keyboard (`MobileTerminal.svelte`, `MobileWorkspace.svelte`)
+
+- **Key bar hidden under the keyboard.** It floats `position:fixed` just above
+  the keyboard (height tracked via `visualViewport`; no transformed ancestors so
+  fixed tracks the viewport). CSS transition + debounced re-fit keep it smooth.
+- **Split mode auto-expand.** When the keyboard opens in split layout, the
+  workspace switches to full-terminal (keep-warm `visibility:hidden`, NOT
+  display:none) and restores the split on close — so the terminal is usable.
+- **Collapse toggle.** A toggle on the bar hides it to a corner pill (terminal
+  visible) and back; `preventDefault` + refocus keep the keyboard up. Styled to
+  fill the strip (`align-self:stretch`, strip bg) so there's no dark box.
+
+### Visualizer (`MobileWorkspace.svelte`)
+
+- Touch-drag to rotate the 3D viewer triggered WKWebView text selection
+  ("selects the whole thing"). Added `-webkit-user-select:none` +
+  `-webkit-touch-callout:none` to `.mw-struct`.
+
+### Review follow-ups (post code-review)
+
+- **Per-tab stream cancel.** `MobileChat`'s unmount-cancel `$effect` read the
+  reactive `active_id`, so switching tabs cancelled the LEFT tab's stream. Now
+  reads it via `untrack` → cancels only on real unmount.
+- **Silent password-save failure.** `save_password_yes` swallowed a `keyStore`
+  error. Now surfaces it in the save dialog with a Retry (`save_pw_failed` /
+  `save_pw_retry`).
+- **Stale saved password.** If a saved password is rejected on reconnect (changed
+  server-side), clear it in-memory AND from the store (overwrite empty — no
+  delete command; empty reads back as "none") and prompt to re-enter
+  (`saved_pw_rejected`). Mainly matters for the keyboard-interactive auto-answer
+  path, which the user couldn't otherwise interrupt.
+
+### Fixed: Xcode deployment-target warnings
+
+- The ~390 *"object file built for newer iOS (17.0) than being linked (14.0)"*
+  warnings: added `export IPHONEOS_DEPLOYMENT_TARGET="${...:-14.0}"` to the
+  `gen/apple/project.yml` "Build Rust Code" preBuildScript (next to the PATH
+  export) so cargo builds the Rust lib for iOS 14 to match the project's link
+  target. **Machine-local (gen/apple is gitignored) — re-apply after
+  `tauri ios init`, then `xcodegen generate` + rebuild.**
+
+### Not changed — by design / platform
+
+- **No SSE streaming on iOS** — the Tauri HTTP plugin buffers the whole body;
+  fixing needs native plugin work. The single-read fallback + idle-timeout make
+  it correct, just one-shot. Out of scope.
+- **Conservative password-prompt capture** — only offers to save when the prompt
+  is recognized as a password (excludes passcode/OTP/duo) so we never persist a
+  one-time code. Intentional; broadening it is unsafe.
+- **One abort-listener per send** in `stream_client_llm` — bounded and GC'd with
+  the per-send AbortController; not a real leak.
 
 ---
 *Session notes — a resume guide for building and testing CatGo on iOS.*

@@ -68,6 +68,7 @@
     JobDetailPane,
     PluginHubPane,
   } from './index'
+  import HpcUploadDialog from './HpcUploadDialog.svelte'
   import LargeSystemOverlay from './gpu/LargeSystemOverlay.svelte'
   import ReticularPane from '$lib/structure/ReticularPane.svelte'
   import { ChatPane, get_display_text } from '$lib/chat'
@@ -172,6 +173,17 @@
 
   let center_camera_trigger = $state(0) // Increment to trigger camera centering on new structure
   let reset_camera_up_trigger = $state(0) // Increment to reset camera.up to [0,1,0] after slab cut
+
+  function clamp_floating_position(x: number, y: number, width: number, height: number) {
+    if (typeof window === `undefined`) return { x, y }
+    const margin = 8
+    const max_x = Math.max(margin, window.innerWidth - width - margin)
+    const max_y = Math.max(margin, window.innerHeight - height - margin)
+    return {
+      x: Math.min(Math.max(x, margin), max_x),
+      y: Math.min(Math.max(y, margin), max_y),
+    }
+  }
 
   // Phase X5: atom-delete fast-path, bound from <StructureScene>. StructureScene
   // owns atom_manager + bond_state + bond_manager and publishes this hook; we
@@ -1035,6 +1047,7 @@
     push_to_undo: () => push_to_undo(),
     inc_center_camera: () => { center_camera_trigger++ },
     inc_reset_camera_up: () => { reset_camera_up_trigger++ },
+    reset_camera_position: () => { scene_props.camera_position = [0, 0, 0] },
     align_view_to_lattice: () => align_view_to_lattice(),
     initial_bulk,
   })
@@ -1405,6 +1418,7 @@
   let slow_growth_pane_open = $state(false)  // Slow-growth post-processing
   let io_pane_open = $state(false)  // IO (import/export) pane
   let server_pane_open = $state(false)  // Server (HPC) pane
+  let hpc_upload_open = $state(false)  // "Upload structure to HPC" dialog
   let plugin_hub_open = $state(false)  // Plugin Hub pane
   // Open Plugin Hub when external counter prop is incremented
   $effect(() => {
@@ -2955,6 +2969,7 @@
       {hidden_toolbar_items}
       {remote_origin}
       {structure}
+      on_upload_to_hpc={() => { hpc_upload_open = true }}
       {molecular_fragments}
       {reset_text}
       {wrapper}
@@ -3148,7 +3163,7 @@
               bind:structure={structure as PymatgenStructure}
               pane_open={true}
               on_push_undo={push_to_undo}
-              on_structure_change={(new_struct) => build.handle_structure_replace(new_struct)}
+              on_structure_change={(new_struct) => build.handle_structure_replace_and_fit(new_struct)}
             />
           {:else if build.active_build_tab === 'heterostructure'}
             <HeterostructurePane
@@ -4331,8 +4346,9 @@
 
     <!-- Element selector for add/replace operations -->
     {#if context_menu_visible}
-      {@const selector_top = `${context_menu_position.y}px`}
-      {@const selector_left = `${context_menu_position.x + 180}px`}
+      {@const selector_position = clamp_floating_position(context_menu_position.x + 180, context_menu_position.y, 300, 400)}
+      {@const selector_top = `${selector_position.y}px`}
+      {@const selector_left = `${selector_position.x}px`}
       <div class="element-selector" style:top={selector_top} style:left={selector_left}>
         <div class="element-selector-header">{t('structure.select_element')}</div>
         <div class="element-grid">
@@ -4430,6 +4446,9 @@
     }}
   />
 
+  <!-- Upload current structure to HPC (independent guided dialog) -->
+  <HpcUploadDialog bind:show={hpc_upload_open} structure={saveable_structure ?? structure} />
+
   <!-- OPTIMADE search modal -->
   <OptimadeSearchModal
     visible={optimade_modal_visible}
@@ -4509,13 +4528,14 @@
   {/if}
   <!-- Charge label color picker popup (right-click on a charge label) -->
   {#if charge_state.charge_color_menu}
+    {@const charge_color_position = clamp_floating_position(charge_state.charge_color_menu.x, charge_state.charge_color_menu.y, 180, 170)}
     <!-- svelte-ignore a11y_no_static_element_interactions -->
     <div class="charge-color-overlay" onclick={() => charge_state.charge_color_menu = null}>
       <!-- svelte-ignore a11y_no_static_element_interactions -->
       <div
         class="charge-color-popup"
-        style:left="{charge_state.charge_color_menu.x}px"
-        style:top="{charge_state.charge_color_menu.y}px"
+        style:left="{charge_color_position.x}px"
+        style:top="{charge_color_position.y}px"
         onclick={(e) => e.stopPropagation()}
       >
         <div class="charge-color-row">
@@ -5773,6 +5793,9 @@
     color: var(--text-color, #e2e8f0);
     z-index: 201;
     min-width: 130px;
+    max-width: calc(100vw - 16px);
+    max-height: calc(100vh - 16px);
+    overflow: auto;
   }
   .charge-color-row {
     display: flex;
@@ -5826,15 +5849,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 16px;
     z-index: 100000002;
+    overflow: auto;
   }
   .periodic-table-modal {
     background: var(--surface-bg, #1e1e1e);
     border: 1px solid var(--border-color, #444);
     border-radius: 8px;
     box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
-    max-width: 95vw;
-    max-height: 90vh;
+    width: min-content;
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 32px);
     overflow: auto;
   }
   .periodic-table-modal-header {
@@ -5865,7 +5891,8 @@
   }
   .periodic-table-modal-content {
     padding: 16px;
-    min-width: 700px;
+    min-width: 0;
+    overflow: auto;
   }
   .periodic-table-modal-content :global(.periodic-table) {
     font-size: 0.75em;
@@ -5961,9 +5988,9 @@
     box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.3), 0 4px 8px -2px rgba(0, 0, 0, 0.1);
     padding: 8px;
     z-index: 100000002;
-    max-width: 300px;
-    max-height: 400px;
-    overflow-y: auto;
+    max-width: min(300px, calc(100vw - 16px));
+    max-height: min(400px, calc(100vh - 16px));
+    overflow: auto;
   }
   .element-selector-header {
     font-size: 0.65rem;

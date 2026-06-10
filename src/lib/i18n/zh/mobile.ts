@@ -69,6 +69,7 @@ const mobile: Record<string, string> = {
   connecting:             `连接中…`,
   connect_action:         `连接`,
   connection_failed:      `连接失败。`,
+  saved_pw_rejected:      `已保存的密码被拒绝 — 可能已更改。请重新输入以连接。`,
   auth_cancelled:         `认证已取消。`,
 
   // ── 保存密码提示 (MobileConnect) ─────────────────────────────────────
@@ -76,6 +77,8 @@ const mobile: Record<string, string> = {
   save_pw_body:           `下次连接到 {user} 时，你只需输入一次性验证码（OTP）。密码会加密保存在本设备上。`,
   save_pw_not_now:        `暂不`,
   save_pw_save:           `保存密码`,
+  save_pw_retry:          `重试`,
+  save_pw_failed:         `无法保存密码 — 未能存储。请重试，或继续并下次手动输入。`,
 
   // ── OTP 对话框 (OtpDialog) ───────────────────────────────────────────
   otp_title:              `需要验证`,
@@ -116,6 +119,44 @@ const mobile: Record<string, string> = {
   saving:                 `保存中…`,
   saved:                  `已保存`,
   save_failed:            `保存失败`,
+
+  // ── 终端标签（MobileWorkspace「终端」面板）───────────────────────────
+  term_panel:             `终端`,
+  term_label:             `终端 {n}`,
+  term_new:               `新建终端`,
+  term_close:             `关闭终端`,
+  term_edit:              `编辑终端`,
+
+  // ── AI 对话 (MobileChat / MobileChatSetup) ───────────────────────────
+  action_ai:              `AI 助手`,
+  action_ai_short:        `AI`,
+  ai_title:               `AI`,
+  ai_provider:            `提供方`,
+  ai_setup:               `AI 设置`,
+  ai_api_key:             `API 密钥`,
+  ai_api_key_placeholder: `粘贴你的 API 密钥`,
+  ai_base_url:            `基础 URL`,
+  ai_base_url_placeholder: `https://host/v1`,
+  ai_model:               `模型（可选）`,
+  ai_save:                `保存`,
+  ai_saving:              `保存中…`,
+  ai_send:                `发送`,
+  ai_new_chat:            `新对话`,
+  ai_minimize:            `最小化`,
+  ai_close_chat:          `关闭对话`,
+  ai_stop:                `停止`,
+  ai_thinking:            `思考中…`,
+  ai_empty:               `关于你的结构或研究，尽管问我。`,
+  ai_no_key:              `添加 API 密钥即可开始对话。`,
+  ai_invalid_key:         `API 密钥无效。请在 AI 设置中检查密钥。`,
+  ai_rate_limited:        `已达到速率限制 — 免费层每分钟只能发送少量消息。请等待几秒后重试，或在设置中选择额度更高的模型。`,
+  ai_model_busy:          `模型当前繁忙（需求高峰）— 通常是暂时的。请稍候重试，或在设置中尝试其他模型。`,
+  ai_message_placeholder: `输入消息…`,
+  ai_tool_permission:    `CatBot 请求执行工具`,
+  ai_allow:              `允许`,
+  ai_deny:               `拒绝`,
+  ai_dont_ask_again:     `本会话内不再询问`,
+  ai_tool_failed:        `失败`,
 }
 
 export default mobile

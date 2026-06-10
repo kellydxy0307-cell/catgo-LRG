@@ -87,6 +87,7 @@
     delete_measurement = (_id: string) => {},
     delete_selected_atoms = () => {},
     on_popout_chat = undefined as (() => void) | undefined,
+    on_upload_to_hpc = undefined as (() => void) | undefined,
 
     // ── 子组件 snippet (面板组件从 Structure.svelte 传入) ──
     children,
@@ -144,6 +145,7 @@
     delete_measurement?: (id: string) => void
     delete_selected_atoms?: () => void
     on_popout_chat?: () => void
+    on_upload_to_hpc?: () => void
 
     // 子组件 snippet
     children?: Snippet
@@ -508,6 +510,17 @@
           <Icon icon="Server" />
         </button>
         <span class="struct-toolbar-tooltip" role="tooltip">{t('structure.server_hpc')}</span>
+      </span>
+      <!-- === Upload current structure to HPC === -->
+      <span class="struct-toolbar-tooltip-wrap">
+        <button
+          type="button"
+          onclick={() => on_upload_to_hpc?.()}
+          class="build-tools-toggle"
+        >
+          <Icon icon="Cloud" />
+        </button>
+        <span class="struct-toolbar-tooltip" role="tooltip">{t('structure.upload_to_hpc')}</span>
       </span>
       {/if}
 
@@ -885,6 +898,8 @@
     position: absolute;
     top: 115%;
     right: 0;
+    max-width: calc(100vw - 24px);
+    overflow-x: auto;
     background: var(--surface-bg);
     border-radius: 4px;
     box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.3), 0 4px 8px -2px rgba(0, 0, 0, 0.1);
@@ -1089,8 +1104,10 @@
     border-radius: var(--border-radius, 6px);
     padding: 4px;
     width: max-content;
-    max-width: calc(100cqw - 20px);
+    max-width: min(420px, calc(100vw - 24px));
+    max-height: calc(100vh - 96px);
     overflow-x: auto;
+    overflow-y: auto;
     box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.3), 0 4px 8px -2px rgba(0, 0, 0, 0.1);
     font-size: 0.9rem;
   }
@@ -1132,7 +1149,7 @@
 
   /* === 片段选择器 === */
   .fragment-selector {
-    max-width: 400px;
+    max-width: min(400px, calc(100vw - 36px));
   }
   .fragment-categories {
     display: flex;
@@ -1170,5 +1187,19 @@
     background: var(--accent-color, #007acc);
     color: white;
     border-color: var(--accent-color, #007acc);
+  }
+
+  @media (max-width: 560px) {
+    .pencil-mode-selector,
+    .view-mode-dropdown {
+      position: fixed;
+      left: 50%;
+      right: auto;
+      top: 72px;
+      transform: translateX(-50%);
+      width: max-content;
+      max-width: calc(100vw - 24px);
+      z-index: 100000020;
+    }
   }
 </style>

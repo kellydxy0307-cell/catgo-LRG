@@ -146,7 +146,7 @@
       // Filter to matching file types if any filter specified
       if (file_types.length > 0) {
         step_files = all_files.filter((f) =>
-          file_types.some((ext) => f.name.toLowerCase().endsWith(ext)),
+          file_types.some((ext) => f.name.toLowerCase().endsWith(ext.toLowerCase())),
         )
         // If no matches found, show all files so user can still choose
         if (step_files.length === 0) step_files = all_files
@@ -174,7 +174,9 @@
   function validate_file(file: File): boolean {
     if (file_types.length === 0) return true
     const name = file.name.toLowerCase()
-    return file_types.some((ext) => name.endsWith(ext))
+    // Compare case-insensitively so extensionless names like "XDATCAR"
+    // (matched by an "XDATCAR" entry) validate regardless of casing.
+    return file_types.some((ext) => name.endsWith(ext.toLowerCase()))
   }
 
   // ─── Tab 1: Local Upload ───
@@ -578,9 +580,10 @@
   /* .backdrop - layout handled by dialog-shared.css via .dialog-backdrop */
 
   .modal {
-    max-width: 520px;
-    width: 95%;
-    max-height: 85vh;
+    width: min(520px, calc(100vw - 32px));
+    max-width: calc(100vw - 32px);
+    max-height: calc(100vh - 32px);
+    min-width: 0;
   }
 
   .modal-header {
@@ -606,6 +609,7 @@
     font-size: 12px;
     color: var(--text-color-muted, light-dark(#6b7280, #9ca3af));
     line-height: 1.5;
+    overflow-wrap: anywhere;
   }
 
   /* ─── Tab bar ─── */
@@ -625,6 +629,7 @@
   /* ─── Modal body ─── */
   .modal-body {
     padding: 16px 20px 20px;
+    min-width: 0;
   }
 
   /* ─── Drop zone (Tab 1) ─── */

@@ -31,7 +31,7 @@
   import { pending_open_structure } from './workflow-state.svelte'
   import type { TaskRef } from '$lib/api/task-adapter'
   import * as adapter from '$lib/api/task-adapter'
-  import { normalize_status } from '$lib/api/task-adapter'
+  import { normalize_status, is_valid_task_id } from '$lib/api/task-adapter'
   import { get_v2_task, get_v2_task_result, type V2Task } from '$lib/api/workflow-v2'
   import ResultsPlot from './ResultsPlot.svelte'
   // Static imports for the View Structure click handler — using a dynamic
@@ -166,12 +166,13 @@
 
   // Derived TaskRef for adapter calls.
   // In step mode, if we have an engine_task (e.g. for PENDING_REVIEW confirm),
-  // use task mode with node_id as task_id (graph converter preserves node IDs).
+  // use task mode with the engine task's namespaced id (#227: task ids are
+  // {workflow_id}:{node_id}, so never pass the bare node_id as a task_id).
   const task_ref = $derived<TaskRef>(
     mode === 'task' && task_id
       ? { mode: 'task', task_id }
       : engine_task
-        ? { mode: 'task', task_id: node_id }
+        ? { mode: 'task', task_id: engine_task.id }   // was: node_id
         : { mode: 'step', workflow_id, node_id }
   )
 
@@ -199,12 +200,6 @@
 
   // ========== PHASE DETECTION ==========
   // Determine which workflow phase we're in based on status + mode
-
-  // ========== INPUT VALIDATION ==========
-  function is_valid_task_id(id: unknown): id is string {
-    // UUID or alphanumeric with dashes/underscores, 8-64 chars
-    return typeof id === 'string' && /^[a-zA-Z0-9_-]{8,64}$/.test(id)
-  }
 
   /**
    * Review phase: User reviewing parameters before HPC submission
@@ -793,7 +788,7 @@
       // - engine_task already loaded: keep it in sync (e.g. after confirmation)
       if (effective_status === 'pending_review' || status === 'pending_review' || engine_task) {
         try {
-          const data = await get_v2_task(node_id)
+          const data = await get_v2_task(engine_task?.id ?? `${workflow_id}:${node_id}`)
           if (gen === fetch_gen) engine_task = data.task
         } catch {
           // Engine task not found — may be a V1-only workflow

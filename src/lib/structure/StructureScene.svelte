@@ -1141,6 +1141,19 @@
       (state === TRACKBALL_STATE_NONE && Math.abs(ctrl._lastAngle ?? 0) > 1e-7)
   }
 
+  // Full view-frame orientation (eye direction + up), so the recovered rotation
+  // includes the roll component TrackballControls produces on curved drags.
+  // A two-vector minimal-arc quaternion (setFromUnitVectors on eye alone) would
+  // silently drop that roll and the rebased view would drift from the user's drag.
+  function view_frame_quaternion(eye: Vector3, up: Vector3): Quaternion | null {
+    const z_axis = eye.clone().normalize()
+    const x_axis = new Vector3().crossVectors(up, z_axis)
+    if (x_axis.lengthSq() < 1e-10) return null // up parallel to eye — degenerate frame
+    x_axis.normalize()
+    const y_axis = new Vector3().crossVectors(z_axis, x_axis)
+    return new Quaternion().setFromRotationMatrix(new Matrix4().makeBasis(x_axis, y_axis, z_axis))
+  }
+
   function rebase_trackball_rotation_to_locked_pivot() {
     if (!camera || !orbit_controls?.target || !trackball_view_state) return
     if (!trackball_is_rotating()) return
@@ -1149,7 +1162,11 @@
     const next_eye = camera.position.clone().sub(orbit_controls.target)
     if (prev_eye.lengthSq() < 1e-10 || next_eye.lengthSq() < 1e-10) return
 
-    const q = new Quaternion().setFromUnitVectors(prev_eye.normalize(), next_eye.normalize())
+    const q_prev = view_frame_quaternion(prev_eye, trackball_view_state.up)
+    const q_next = view_frame_quaternion(next_eye, camera.up)
+    if (!q_prev || !q_next) return
+    // World-frame rotation that carries the previous view frame onto the new one.
+    const q = q_next.multiply(q_prev.invert())
     const pivot = get_locked_rotation_pivot_vector()
     const target = orbit_controls.target as Vector3
 
@@ -1187,6 +1204,24 @@
   let initial_target_set = $state(false)
   // Current camera look-at point. It can drift away from the structure pivot when the user pans.
   let current_camera_target = $state<Vec3>([0, 0, 0])
+
+  function get_atom_bounds_center(structure: AnyStructure | undefined): Vec3 | null {
+    if (!structure?.sites?.length) return null
+    let min_x = Infinity, max_x = -Infinity
+    let min_y = Infinity, max_y = -Infinity
+    let min_z = Infinity, max_z = -Infinity
+    for (const site of structure.sites) {
+      const [x, y, z] = site.xyz
+      if (x < min_x) min_x = x; if (x > max_x) max_x = x
+      if (y < min_y) min_y = y; if (y > max_y) max_y = y
+      if (z < min_z) min_z = z; if (z > max_z) max_z = z
+    }
+    return [(min_x + max_x) / 2, (min_y + max_y) / 2, (min_z + max_z) / 2]
+  }
+
+  function get_camera_fit_target(): Vec3 {
+    return get_atom_bounds_center(structure) ?? rotation_target ?? [0, 0, 0]
+  }
 
   // Apply target to orbit controls imperatively (outside reactive tracking).
   // Uses untrack to avoid Svelte proxy reads on Three.js internals causing
@@ -1237,10 +1272,10 @@
 
     if (!initial_target_set) {
       locked_rotation_pivot = copy_vec3(base_target)
-      current_camera_target = copy_vec3(base_target)
+      current_camera_target = get_camera_fit_target()
       last_center_trigger = center_camera_trigger
       if (controls_ready) {
-        apply_orbit_target(base_target)
+        apply_orbit_target(current_camera_target)
         initial_target_set = true
       }
       return
@@ -1249,8 +1284,7 @@
     if (center_camera_trigger === last_center_trigger) return
     last_center_trigger = center_camera_trigger
     locked_rotation_pivot = copy_vec3(base_target)
-    current_camera_target = copy_vec3(base_target)
-    apply_orbit_target(base_target)
+    apply_orbit_target(get_camera_fit_target())
   })
 
   // Reset camera to default +Z viewing direction when lattice_align_trigger changes.
@@ -1384,7 +1418,9 @@
   })
 
   // Do not auto-recenter when the look-at target drifts from the structure pivot:
-  // that drift is exactly the user's pan offset. Explicit recenter/reset paths
+  // that drift is exactly the user's pan offset (current_camera_target now tracks
+  // panning via the TrackballControls onchange handler, so the old divergence
+  // check would undo any pan larger than 2 Å). Explicit recenter/reset paths
   // update both current_camera_target and locked_rotation_pivot above.
 
   // Keep TrackballControls reset points (_target0, _eye0, _up0) synchronized with current state
@@ -1866,7 +1902,7 @@
   let computed_zoom = $state<number>(untrack(() => initial_zoom))
   $effect(() => {
     if (!(width > 0) || !(height > 0)) return
-    const structure_max_dim = Math.max(1, untrack(() => structure_size))
+    const structure_max_dim = Math.max(1, structure_size)
     const viewer_min_dim = Math.min(width, height)
     const scale_factor = viewer_min_dim / (structure_max_dim * 30) // 30px per unit — fills more of the viewport
     let new_zoom = initial_zoom * scale_factor
@@ -1923,7 +1959,7 @@
       }
       const distance = Math.max(1, view_size) * (60 / fov)
       // Camera on -Y axis looking into +Y, so Z is up and Y goes into screen
-      const center = rotation_target || [0, 0, 0]
+      const center = get_camera_fit_target()
       camera_position = [
         center[0],
         center[1] - distance,

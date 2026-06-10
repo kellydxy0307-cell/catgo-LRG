@@ -167,7 +167,16 @@
       task_count: ewf.task_count,
       created_at: ewf.created_at ?? ``,
     }))
-    return [...gui, ...engine].sort((a, b) => {
+    // A uuid present in BOTH DBs (V1 graph_json skin + V2 tasks) is the SAME
+    // workflow — dedup by id so it appears once. GUI is listed first so it wins
+    // (it carries graph_json + step counts and loads in the editor). Without this
+    // the keyed {#each ... (wf.id)} below throws each_key_duplicate and crashes the
+    // "All Workflows" view.
+    const by_id = new Map<string, UnifiedWorkflow>()
+    for (const w of [...gui, ...engine]) {
+      if (!by_id.has(w.id)) by_id.set(w.id, w)
+    }
+    return [...by_id.values()].sort((a, b) => {
       if (!a.created_at && !b.created_at) return 0
       if (!a.created_at) return 1
       if (!b.created_at) return -1
@@ -356,9 +365,9 @@
       chat_open={show_chat}
     />
   {:else if view === `v2_dag`}
-    <div style="display:flex; flex:1; overflow:hidden;">
-      <div style="flex:1; position:relative;">
-        <div style="position:absolute; top:8px; left:8px; z-index:10;">
+    <div class="v2-dag-layout">
+      <div class="v2-dag-main">
+        <div class="v2-dag-back">
           <button class="back-btn" onclick={() => { view = `list`; load_list() }}>
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7" /></svg>
             {t('common.workflows')}
@@ -366,7 +375,7 @@
         </div>
         <WorkflowDAGViewer workflow_id={v2_workflow_id} onselect_task={(id) => { v2_selected_task = id }} />
       </div>
-      <div style="width:420px;border-left:1px solid var(--border-color,#333);background:var(--surface-bg,#111);flex-shrink:0;overflow:hidden;">
+      <div class="v2-task-panel">
         <EngineTaskEditor
           task_id={v2_selected_task}
           workflow_id={v2_workflow_id}
@@ -614,6 +623,46 @@
     z-index: 9999;
   }
 
+  .v2-dag-layout {
+    display: flex;
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .v2-dag-main {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    position: relative;
+  }
+
+  .v2-dag-back {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    z-index: 10;
+    max-width: calc(100% - 16px);
+  }
+
+  .v2-task-panel {
+    width: min(420px, 38vw);
+    min-width: 280px;
+    border-left: 1px solid var(--border-color, #333);
+    background: var(--surface-bg, #111);
+    flex-shrink: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .v2-task-panel > :global(*) {
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+  }
+
   .workflow-dashboard {
     flex: 1;
     overflow-y: auto;
@@ -621,6 +670,21 @@
     max-width: 900px;
     margin: 0 auto;
     width: 100%;
+  }
+
+  @media (max-width: 900px) {
+    .v2-dag-layout {
+      flex-direction: column;
+    }
+
+    .v2-task-panel {
+      width: 100%;
+      min-width: 0;
+      min-height: 220px;
+      max-height: 42%;
+      border-left: none;
+      border-top: 1px solid var(--border-color, #333);
+    }
   }
 
   .dashboard-header {

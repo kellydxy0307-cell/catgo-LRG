@@ -69,6 +69,7 @@ const mobile: Record<string, string> = {
   connecting:             `Connecting…`,
   connect_action:         `Connect`,
   connection_failed:      `Connection failed.`,
+  saved_pw_rejected:      `Saved password was rejected — it may have changed. Enter it again to reconnect.`,
   auth_cancelled:         `Authentication cancelled.`,
 
   // ── Save-password prompt (MobileConnect) ─────────────────────────────
@@ -76,6 +77,8 @@ const mobile: Record<string, string> = {
   save_pw_body:           `Next time you connect to {user} you'll only need the one-time passcode (OTP). The password is encrypted on this device.`,
   save_pw_not_now:        `Not now`,
   save_pw_save:           `Save password`,
+  save_pw_retry:          `Retry`,
+  save_pw_failed:         `Couldn't save the password — it wasn't stored. Retry, or continue and enter it next time.`,
 
   // ── OTP dialog (OtpDialog) ───────────────────────────────────────────
   otp_title:              `Verification required`,
@@ -116,6 +119,44 @@ const mobile: Record<string, string> = {
   saving:                 `Saving…`,
   saved:                  `Saved`,
   save_failed:            `Save failed`,
+
+  // ── Terminal tabs ("Terminals" panel, MobileWorkspace) ───────────────
+  term_panel:             `Terminals`,
+  term_label:             `Terminal {n}`,
+  term_new:               `New terminal`,
+  term_close:             `Close terminal`,
+  term_edit:              `Edit terminals`,
+
+  // ── AI chat (MobileChat / MobileChatSetup) ───────────────────────────
+  action_ai:              `AI assistant`,
+  action_ai_short:        `AI`,
+  ai_title:               `AI`,
+  ai_provider:            `Provider`,
+  ai_setup:               `AI setup`,
+  ai_api_key:             `API key`,
+  ai_api_key_placeholder: `Paste your API key`,
+  ai_base_url:            `Base URL`,
+  ai_base_url_placeholder: `https://host/v1`,
+  ai_model:               `Model (optional)`,
+  ai_save:                `Save`,
+  ai_saving:              `Saving…`,
+  ai_send:                `Send`,
+  ai_new_chat:            `New chat`,
+  ai_minimize:            `Minimize`,
+  ai_close_chat:          `Close chat`,
+  ai_stop:                `Stop`,
+  ai_thinking:            `Thinking…`,
+  ai_empty:               `Ask me anything about your structure or research.`,
+  ai_no_key:              `Add an API key to start chatting.`,
+  ai_invalid_key:         `API key is invalid. Check your key in AI setup.`,
+  ai_rate_limited:        `Rate limit reached — the free tier allows only a few messages per minute. Wait a few seconds and resend, or pick a higher-limit model in settings.`,
+  ai_model_busy:          `The model is busy right now (high demand) — usually temporary. Wait a moment and resend, or try a different model in settings.`,
+  ai_message_placeholder: `Type a message…`,
+  ai_tool_permission:    `CatBot wants to run a tool`,
+  ai_allow:              `Allow`,
+  ai_deny:               `Deny`,
+  ai_dont_ask_again:     `Don't ask again this session`,
+  ai_tool_failed:        `failed`,
 }
 
 export default mobile

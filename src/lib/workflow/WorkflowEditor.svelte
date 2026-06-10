@@ -17,6 +17,7 @@
   import NodeConfigPanel from './NodeConfigPanel.svelte'
   import NodeStatusPanel from './NodeStatusPanel.svelte'
   import SlabGenPreview from './SlabGenPreview.svelte'
+  import { apply_freeze_to_structure } from './freeze'
   import CalcStructurePreview from './CalcStructurePreview.svelte'
   import BatchPanel from './BatchPanel.svelte'
   import GestureProvider from '$lib/gesture/GestureProvider.svelte'
@@ -29,6 +30,7 @@
   import PauseDialog from './PauseDialog.svelte'
   import * as api from '$lib/api/workflow'
   import type { StepForces } from '$lib/api/workflow'
+  import { put_engine_task_file_content } from '$lib/api/workflow-v2'
   import { API_BASE } from '$lib/api/config'
   import { hpc_session_store, refresh_hpc_sessions } from '$lib/hpc-sessions.svelte'
   import ConnectDialog from '$lib/ConnectDialog.svelte'
@@ -240,6 +242,7 @@
   const show_pause_dialog = $derived(exec.show_pause_dialog)
   const pause_jobs = $derived(exec.pause_jobs)
   const node_statuses = $derived(exec.node_statuses)
+  const node_errors = $derived(exec.node_errors)
   const step_messages = $derived(exec.step_messages)
   const task_results = $derived(exec.task_results)
   const has_running_jobs = $derived(exec.has_running_jobs)
@@ -522,7 +525,7 @@
   }
 
   async function handle_execute(config: WorkflowRunConfig) {
-    await exec.handle_execute(config, workflow_id, nodes, resolve_input_structure, do_save, (updated: typeof nodes) => { nodes = updated })
+    await exec.handle_execute(config, workflow_id, nodes, edges, resolve_input_structure, do_save, (updated: typeof nodes) => { nodes = updated })
   }
 
   async function handle_pause_confirm(cancel_step_ids: string[]) {
@@ -615,78 +618,6 @@
     const indices_str = indices.join(`,`)
     update_node_param(freeze_edit_node_id, `freeze_indices`, indices_str)
     schedule_save()
-  }
-
-  /** Apply freeze params to a structure JSON, setting selective_dynamics on sites */
-  function apply_freeze_to_structure(struct_json: string | null, params: Record<string, unknown>): string | null {
-    if (!struct_json) return null
-    // Tolerate every spelling: explicit freeze_mode, or a bare frozen_layers /
-    // freeze_layers / freeze_n_layers (the geo_opt/slab convention) which implies
-    // bottom-layer freezing. Mirrors the backend's _freeze_n_bottom_layers.
-    const n_bottom = Number(params.frozen_layers ?? params.freeze_layers ?? params.freeze_n_layers ?? 0)
-    let mode = params.freeze_mode as string
-    if ((!mode || mode === `none`) && n_bottom > 0) mode = `layers`
-    if (!mode || mode === `none`) return struct_json
-
-    try {
-      const struct = JSON.parse(struct_json)
-      if (!struct.sites?.length) return struct_json
-      const n = struct.sites.length
-      const frozen = new Set<number>()
-
-      if (mode === `z_range`) {
-        const z_lo = Number(params.freeze_z_below ?? 0)
-        for (let i = 0; i < n; i++) {
-          const z = struct.sites[i].xyz?.[2] ?? 0
-          if (z < z_lo) frozen.add(i)
-        }
-      } else if (mode === `element`) {
-        const elems = new Set(String(params.freeze_elements ?? ``).split(`,`).map(s => s.trim()).filter(Boolean))
-        for (let i = 0; i < n; i++) {
-          const el = struct.sites[i].species?.[0]?.element ?? struct.sites[i].label ?? ``
-          if (elems.has(el)) frozen.add(i)
-        }
-      } else if (mode === `indices` || mode === `manual`) {
-        for (const part of String(params.freeze_indices ?? ``).split(`,`)) {
-          const t = part.trim()
-          if (!t) continue
-          if (t.includes(`-`)) {
-            const [a, b] = t.split(`-`).map(Number)
-            for (let i = a; i <= b; i++) frozen.add(i)
-          } else {
-            const v = parseInt(t)
-            if (!isNaN(v)) frozen.add(v)
-          }
-        }
-      } else if (mode === `layers` || mode === `bottom`) {
-        const n_layers = n_bottom > 0 ? n_bottom : Number(params.freeze_layers ?? 0)
-        if (n_layers > 0) {
-          const zs = ([...new Set(struct.sites.map((s: any) => Math.round((s.xyz?.[2] ?? 0) * 100) / 100))] as number[]).sort((a, b) => a - b)
-          const threshold = n_layers < zs.length ? (zs[n_layers - 1] + zs[n_layers]) / 2 : zs[zs.length - 1] + 0.1
-          for (let i = 0; i < n; i++) {
-            if ((struct.sites[i].xyz?.[2] ?? 0) < threshold) frozen.add(i)
-          }
-        }
-      }
-
-      // Apply invert
-      let final_frozen = frozen
-      if (params.freeze_invert && mode !== `none`) {
-        final_frozen = new Set(Array.from({ length: n }, (_, i) => i).filter(i => !frozen.has(i)))
-      }
-
-      // Set selective_dynamics on sites
-      for (let i = 0; i < n; i++) {
-        const free = !final_frozen.has(i)
-        struct.sites[i].properties = {
-          ...(struct.sites[i].properties ?? {}),
-          selective_dynamics: [free, free, free],
-        }
-      }
-      return JSON.stringify(struct)
-    } catch {
-      return struct_json
-    }
   }
 
   // Non-reactive cache for trajectory objects (avoids Svelte reactivity + serialization overhead)
@@ -942,7 +873,9 @@
       // V2 engine never writes to workflow_steps so Try 1 returns nothing for V2 tasks.
       if (!structure_json) {
         try {
-          const resp = await fetch(`${API_BASE}/engine/tasks/${encodeURIComponent(node_id)}/result`)
+          const resp = await fetch(
+            `${API_BASE}/engine/tasks/${encodeURIComponent(`${workflow_id}:${node_id}`)}/result`
+          )
           if (resp.ok) {
             const row: any = await resp.json()
             const raw = row?.structure_json
@@ -1513,6 +1446,31 @@
     } finally {
       file_browser_loading = false
     }
+  }
+
+  /** Save the edited work_dir file back via the V2 engine endpoint. Task id is the
+   *  namespaced {workflow_id}:{node_id}; the endpoint handles both local-preview and
+   *  HPC-remote work_dirs. Throws on failure so MonacoEditorPanel surfaces the error. */
+  async function save_file_browser_content(new_content: string) {
+    if (!workflow_id || !file_browser_node_id || !file_browser_filename) return
+    // Newer workflows use namespaced task ids ({workflow_id}:{node_id}); pre-#227
+    // workflows store the bare node_id as the task id. Try namespaced first, fall
+    // back to bare only when the task isn't found (so real write errors surface).
+    try {
+      await put_engine_task_file_content(
+        `${workflow_id}:${file_browser_node_id}`,
+        file_browser_filename,
+        new_content,
+      )
+    } catch (e) {
+      if (!/not found/i.test(e instanceof Error ? e.message : String(e))) throw e
+      await put_engine_task_file_content(
+        file_browser_node_id,
+        file_browser_filename,
+        new_content,
+      )
+    }
+    file_browser_content = new_content
   }
 
   /** Load a structure file (CONTCAR/POSCAR/etc.) from step output into the 3D viewer. */
@@ -2386,7 +2344,7 @@
       {/if}
       <span class="toolbar-tooltip-wrap">
         <button class="tbtn" onclick={simulate_run}>{t('workflow.we_simulate') || '🧪'}</button>
-        <span class="toolbar-tooltip" role="tooltip">{t('workflow.we_simulate_title') || "Simulate (test without HPC)"}</span>
+        <span class="toolbar-tooltip" role="tooltip">{t('workflow.we_simulate_title') || "Dry-run (validate + generate inputs, no HPC)"}</span>
       </span>
       {#if ontoggle_terminal}
         <span class="toolbar-tooltip-wrap">
@@ -2582,6 +2540,7 @@
             {@const is_orphan = orphan_set.has(node.id)}
             {@const status = node_statuses[node.id]}
             {@const scolor = status ? STATUS_COLORS[status] || null : null}
+            {@const node_err = node_errors[node.id]}
             {@const inputs = cfg.inputs || []}
             {@const outputs = cfg.outputs || []}
             {@const custom_label = (node.params?.label as string) || ``}
@@ -2596,6 +2555,7 @@
                 else if (is_cp2k_node(node.type, node.params)) open_input_editor(node.id, 'cp2k')
                 else if (is_lammps_node(node.type, node.params)) open_input_editor(node.id, 'lammps')
               }} style="cursor:grab">
+              {#if node_err}<title>{status === `skipped` ? `${t('workflow.we_skipped') || 'Skipped'}: ${node_err}` : node_err}</title>{/if}
               {#if status === `running`}
                 <rect x={-4} y={-4} width={NW + 8} height={nh + 8} rx={14} fill="none" stroke={scolor} stroke-width={2} opacity={0.5}>
                   <animate attributeName="opacity" values="0.3;0.8;0.3" dur="1.2s" repeatCount="indefinite" />
@@ -3075,7 +3035,7 @@
                 {#if _has_input}
                   {@const _upstream_structures = resolve_input_structures(nd.id)}
                   {@const _raw_struct = resolve_input_structure(nd.id)}
-                  {@const _preview_struct = (nd.type === `freq` || nd.type === `geo_opt` || nd.type === `slab_gen`) ? apply_freeze_to_structure(_raw_struct, nd.params) : _raw_struct}
+                  {@const _preview_struct = (nd.type === `freq` || nd.type === `geo_opt`) ? apply_freeze_to_structure(_raw_struct, nd.params) : _raw_struct}
                   <CalcStructurePreview
                     upstream_structure_json={_preview_struct}
                     upstream_structures_json={_upstream_structures && _upstream_structures.length > 1 ? _upstream_structures : null}
@@ -3517,6 +3477,7 @@
   file_path={file_browser_file_path}
   session_id={file_browser_session_id}
   onopen_file={open_file_in_editor}
+  onsave={save_file_browser_content}
   onback_to_list={() => { file_browser_view = 'list' }}
   onclose={() => { show_file_browser = false; file_browser_node_id = null }}
 />
@@ -3615,7 +3576,9 @@
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
     font-size: 10px;
     line-height: 1.25;
-    white-space: nowrap;
+    max-width: min(260px, calc(100vw - 32px));
+    white-space: normal;
+    overflow-wrap: anywhere;
     pointer-events: none;
     opacity: 0;
     visibility: hidden;
@@ -3685,6 +3648,9 @@
     position: absolute; top: 44px; left: 50%; transform: translateX(-50%);
     background: color-mix(in srgb, var(--error-color) 85%, var(--surface-bg)); color: light-dark(#dc2626, #fca5a5); padding: 6px 16px; border-radius: 6px;
     font-size: 11px; z-index: 20; pointer-events: none;
+    max-width: calc(100% - 24px);
+    text-align: center;
+    overflow-wrap: anywhere;
     animation: wf-fade-in 0.2s ease;
   }
   .load-error-bar {
@@ -3699,7 +3665,9 @@
     position: absolute; top: 44px; left: 50%; transform: translateX(-50%);
     background: color-mix(in srgb, var(--error-color) 85%, var(--surface-bg)); color: light-dark(#dc2626, #fca5a5); padding: 6px 16px; border-radius: 6px;
     font-size: 11px; z-index: 20; display: flex; align-items: center; gap: 10px;
-    max-width: 80%; animation: wf-fade-in 0.2s ease;
+    max-width: calc(100% - 24px); animation: wf-fade-in 0.2s ease;
+    min-width: 0;
+    overflow-wrap: anywhere;
   }
   .error-dismiss {
     background: none; border: none; color: light-dark(#dc2626, #fca5a5); cursor: pointer;
@@ -3712,6 +3680,9 @@
     padding: 6px 16px; border-radius: 6px; font-size: 11px; z-index: 20;
     display: flex; align-items: center; gap: 8px; animation: wf-fade-in 0.2s ease;
     border: 1px solid color-mix(in srgb, #2563eb 30%, transparent);
+    max-width: calc(100% - 24px);
+    min-width: 0;
+    flex-wrap: wrap;
   }
   .external-change-bar button {
     background: color-mix(in srgb, #2563eb 20%, transparent); border: 1px solid color-mix(in srgb, #2563eb 40%, transparent);
@@ -3724,7 +3695,9 @@
     padding: 6px 16px; border-radius: 6px; font-size: 11px; z-index: 20;
     display: flex; align-items: center; gap: 8px; animation: wf-fade-in 0.2s ease;
     border: 1px solid color-mix(in srgb, #f59e0b 30%, transparent);
-    max-width: 90%;
+    max-width: calc(100% - 24px);
+    min-width: 0;
+    flex-wrap: wrap;
   }
   .hpc-banner strong { color: light-dark(#78350f, #fde68a); }
   .hpc-banner-connect {
@@ -3743,8 +3716,13 @@
   .tmpl-overlay {
     position: absolute; left: 10px; top: 50px; z-index: 30;
     background: var(--surface-bg); border: 1px solid var(--border-color); border-radius: 8px;
-    padding: 12px; width: 300px; backdrop-filter: blur(8px);
-    max-height: calc(100vh - 120px); overflow-y: auto;
+    padding: 12px;
+    width: min(300px, calc(100% - 20px));
+    max-width: calc(100vw - 32px);
+    backdrop-filter: blur(8px);
+    max-height: calc(100vh - 120px);
+    overflow: auto;
+    box-sizing: border-box;
   }
   .tmpl-title { font-size: 10px; font-weight: 700; color: var(--text-color-muted); text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 8px; }
   .tmpl-group-header { font-size: 9px; font-weight: 700; color: var(--text-color-muted); text-transform: uppercase; letter-spacing: 1px; margin: 10px 0 4px; padding-top: 6px; border-top: 1px solid var(--border-color); }
@@ -3755,9 +3733,9 @@
     cursor: pointer; color: inherit; font-family: inherit; transition: all 0.12s;
   }
   .tmpl-card:hover { background: var(--surface-bg-hover); border-color: var(--text-color-muted); }
-  .tmpl-name { font-size: 12px; font-weight: 600; color: var(--text-color-muted); }
-  .tmpl-desc { font-size: 10px; color: var(--text-color-muted); margin-top: 2px; }
-  .tmpl-meta { font-size: 9px; color: var(--text-color-muted); margin-top: 2px; }
+  .tmpl-name { font-size: 12px; font-weight: 600; color: var(--text-color-muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .tmpl-desc { font-size: 10px; color: var(--text-color-muted); margin-top: 2px; overflow-wrap: anywhere; }
+  .tmpl-meta { font-size: 9px; color: var(--text-color-muted); margin-top: 2px; overflow-wrap: anywhere; }
   .tmpl-quick-strip {
     display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 4px;
   }
@@ -3786,6 +3764,8 @@
   .help {
     position: absolute; bottom: 10px; right: 290px; font-size: 9px;
     color: var(--border-color); z-index: 5; text-align: right; line-height: 1.6;
+    max-width: min(260px, calc(100% - 320px));
+    overflow-wrap: anywhere;
   }
   .rpanel {
     width: 280px; background: var(--surface-bg); border-left: 1px solid var(--border-color);
@@ -3827,6 +3807,26 @@
      the rpanel's .pcontent handles scrolling, not the individual panels */
   .pcontent :global(.config-panel.dialog-modal),
   .pcontent :global(.config-panel) { max-height: none !important; height: auto !important; overflow: visible !important; }
+
+  @media (max-width: 820px) {
+    .tmpl-overlay {
+      left: 8px;
+      right: 8px;
+      width: auto;
+      max-width: none;
+    }
+
+    .minimap,
+    .help {
+      display: none;
+    }
+
+    .execution-error,
+    .external-change-bar,
+    .hpc-banner {
+      align-items: flex-start;
+    }
+  }
   .props { display: flex; flex-direction: column; }
   .prop-lbl { font-size: 13px; font-weight: 600; color: var(--text-color); }
   .sec-label {

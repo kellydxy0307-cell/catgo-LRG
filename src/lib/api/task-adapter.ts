@@ -11,6 +11,19 @@ export type TaskRef =
   | { mode: 'step'; workflow_id: string; node_id: string }
   | { mode: 'task'; task_id: string }
 
+/**
+ * Validate a task id before sending it to the engine API.
+ * Accepts legacy bare ids (`n1780126181-5mj`) and #227 namespaced ids
+ * (`{workflow_id}:{node_id}`, e.g. `885d5082-…-f75c9cf3b56b:n1781062668958-89a2`
+ * — see server/catgo/workflow/task_ids.py). At most one ':' separator.
+ */
+export function is_valid_task_id(id: unknown): id is string {
+  return (
+    typeof id === 'string' &&
+    /^[a-zA-Z0-9_-]{8,64}(:[a-zA-Z0-9_-]{1,64})?$/.test(id)
+  )
+}
+
 // --- Normalized types ---
 
 export interface NormalizedFileEntry {
@@ -97,10 +110,16 @@ export async function get_mlp_progress(ref: TaskRef): Promise<NormalizedConverge
     const data = await v1.get_mlp_progress(ref.workflow_id, ref.node_id)
     return { points: data.points, converged: data.converged, message: data.message }
   }
+  // V2 task-mode: hit the V2-native endpoint, which parses the SAME ASE
+  // optimizer log via the V1 parser. `converged` may come back null when the
+  // task's fmax target is unresolvable — pass it through unchanged so the
+  // status-sync branch in NodeStatusPanel keeps the node "running" rather than
+  // treating it as converged (the V1 step-mode path above does the same).
+  const data = await v2.get_engine_task_mlp_progress(ref.task_id)
   return {
-    points: [],
-    converged: false,
-    message: `Live progress is only available from the workflow editor view. Open the step via its workflow to see iteration-by-iteration convergence.`,
+    points: data.points,
+    converged: data.converged as NormalizedConvergence['converged'],
+    message: data.message,
   }
 }
 
