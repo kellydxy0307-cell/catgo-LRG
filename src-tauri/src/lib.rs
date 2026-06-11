@@ -193,6 +193,7 @@ pub fn run() {
     }));
     let builder = builder
         .plugin(tauri_plugin_fs::init())
+        .plugin(tauri_plugin_clipboard_manager::init())
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_shell::init())
         .plugin(tauri_plugin_http::init())
@@ -202,6 +203,12 @@ pub fn run() {
         // SSH session registry — shared by ssh_connect/ssh_exec/ssh_submit_otp
         // on both desktop and mobile (the SSH module is not cfg-gated).
         .manage(ssh::SshState::default());
+
+    // iOS only: ~30 s background grace (beginBackgroundTask) so SSH sockets and
+    // pending OTP handshakes survive a quick switch to an authenticator app
+    // (reading a 2FA code) instead of dying when iOS freezes the process.
+    #[cfg(target_os = "ios")]
+    let builder = builder.plugin(tauri_plugin_bg_grace::init());
 
     // Desktop-only managed state: the Python/Node sidecars (BackendState,
     // AgentState) and the local-PTY terminal (PtyState) only exist on desktop.

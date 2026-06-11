@@ -18,45 +18,20 @@
   their normal sequence) to keep behavior predictable.
 -->
 <script lang="ts">
+  import { to_control } from '$lib/mobile/control-chars'
+
   interface Props {
     /** Emitted with the raw byte sequence (as a string) for the pressed key. */
     on_key?: (seq: string) => void
+    /** Sticky Ctrl modifier state. Bindable so the parent terminal can fold the
+     * NEXT soft-keyboard character into a control char too — the bar's own keys
+     * alone can't produce Ctrl+C, since letters come from the soft keyboard. */
+    ctrl_armed?: boolean
   }
 
-  let { on_key }: Props = $props()
+  let { on_key, ctrl_armed = $bindable(false) }: Props = $props()
 
   const ESC = `\x1b`
-
-  // Sticky Ctrl modifier state.
-  let ctrl_armed = $state(false)
-
-  /** Map a printable key to its control char when Ctrl is armed. */
-  function to_control(ch: string): string | null {
-    if (ch.length !== 1) return null
-    const c = ch.toLowerCase()
-    const code = c.charCodeAt(0)
-    // Ctrl-A..Ctrl-Z -> 0x01..0x1a
-    if (code >= 97 && code <= 122) return String.fromCharCode(code - 96)
-    // A handful of standard non-letter control mappings.
-    switch (ch) {
-      case `@`:
-      case ` `:
-        return `\x00`
-      case `[`:
-        return `\x1b`
-      case `\\`:
-        return `\x1c`
-      case `]`:
-        return `\x1d`
-      case `^`:
-        return `\x1e`
-      case `_`:
-      case `/`:
-        return `\x1f`
-      default:
-        return null
-    }
-  }
 
   function emit(seq: string): void {
     on_key?.(seq)
@@ -104,19 +79,29 @@
   ]
 </script>
 
+<!-- pointerdown preventDefault on EVERY key: a plain button tap steals focus
+     from xterm's hidden textarea, which dismisses the soft keyboard. Normal
+     keys got refocused by the parent's send_keys, but Ctrl emits nothing — so
+     tapping Ctrl collapsed the keyboard and the Ctrl+<letter> flow broke. -->
 <div class="keybar" role="toolbar" aria-label="Terminal keys">
   <button
     type="button"
     class="key ctrl"
     class:armed={ctrl_armed}
     aria-pressed={ctrl_armed}
+    onpointerdown={(e) => e.preventDefault()}
     onclick={toggle_ctrl}
   >
     Ctrl
   </button>
 
   {#each keys as k (k.label)}
-    <button type="button" class="key" onclick={() => press(k.seq)}>
+    <button
+      type="button"
+      class="key"
+      onpointerdown={(e) => e.preventDefault()}
+      onclick={() => press(k.seq)}
+    >
       {k.label}
     </button>
   {/each}

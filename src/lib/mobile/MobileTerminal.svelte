@@ -18,6 +18,7 @@
   NEW + standalone: this never touches the desktop terminal / pty.ts.
 -->
 <script lang="ts">
+  import { to_control } from '$lib/mobile/control-chars'
   import { transport } from '$lib/api/transport'
   import Icon from '$lib/Icon.svelte'
   import MobileTerminalKeyBar from '$lib/structure/MobileTerminalKeyBar.svelte'
@@ -80,6 +81,8 @@
   // User toggle: collapse the floating bar to a small pill so the terminal is
   // visible (e.g. in split mode where the pane is short). Re-tap to expand.
   let keybar_open = $state(true)
+  // Sticky-Ctrl from the key bar; folds the next soft-keyboard char in onData.
+  let kb_ctrl_armed = $state(false)
   $effect(() => {
     const vv = window.visualViewport
     if (!vv) return
@@ -247,13 +250,23 @@
         opened_channel = ch
         status = `connected`
 
-        // Stdin: xterm -> PTY.
+        // Stdin: xterm -> PTY. When the key bar's sticky Ctrl is armed, fold
+        // the next single soft-keyboard character into its control char
+        // (Ctrl then `c` -> 0x03 = SIGINT) — letters only exist on the soft
+        // keyboard, so the bar can't produce Ctrl+C by itself.
         term.onData((data: string) => {
-          if (!disposed && channel_id) {
-            transport
-              .ptyWrite(session_id, channel_id, encoder.encode(data))
-              .catch(() => {})
+          if (disposed || !channel_id) return
+          let out = data
+          if (kb_ctrl_armed) {
+            // Disarm on ANY input: a predictive-keyboard burst (length > 1)
+            // must not leave Ctrl stuck armed for a later keystroke.
+            kb_ctrl_armed = false
+            const ctl = data.length === 1 ? to_control(data) : null
+            if (ctl !== null) out = ctl
           }
+          transport
+            .ptyWrite(session_id, channel_id, encoder.encode(out))
+            .catch(() => {})
         })
 
         // Resize: keep the remote PTY in sync with xterm's grid.
@@ -334,10 +347,25 @@
         transport.ptyWrite(session_id, ch, encoder.encode(osc7_setup)).catch(() => {})
 
         // Selection = copy: in a touch UI there's no right-click/Ctrl-C, so push
-        // any non-empty selection straight to the clipboard.
+        // any non-empty selection straight to the clipboard. navigator.clipboard
+        // silently rejects in the Android/iOS WebView (a selection change is not
+        // a user gesture there) — use the native Tauri clipboard when available.
         term.onSelectionChange(() => {
           const sel = term.getSelection()
-          if (sel) navigator.clipboard?.writeText(sel).catch(() => {})
+          if (!sel) return
+          void (async () => {
+            try {
+              const { check_tauri } = await import(`$lib/io/tauri`)
+              if (check_tauri()) {
+                const { writeText } = await import(`@tauri-apps/plugin-clipboard-manager`)
+                await writeText(sel)
+                return
+              }
+            } catch {
+              /* fall through to the web clipboard */
+            }
+            navigator.clipboard?.writeText(sel).catch(() => {})
+          })()
         })
 
         // Focus the hidden textarea so the soft keyboard appears.
@@ -389,7 +417,7 @@
     bind:clientHeight={keybar_h}
   >
     {#if keybar_open}
-      <MobileTerminalKeyBar on_key={send_keys} />
+      <MobileTerminalKeyBar on_key={send_keys} bind:ctrl_armed={kb_ctrl_armed} />
     {/if}
     <button
       type="button"

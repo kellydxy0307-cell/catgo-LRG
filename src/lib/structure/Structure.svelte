@@ -76,6 +76,7 @@
   import { build_structure_context } from '$lib/chat/context'
   import { analysis_sessions, get_analysis_session, get_session_blob } from '$lib/chat/analysis-session-store.svelte'
   import { start_mcp_bridge, type McpBridgeDeps } from './controllers/tool-handler'
+  import { isMobile } from '$lib/api/transport'
   import { set_current_structure, current_structure_state } from './current-structure.svelte'
   import { molecular_fragments, type MolecularFragment } from './controllers/fragments'
   import { create_xrd_controller, format_hkl } from './controllers/xrd-state.svelte'
@@ -850,6 +851,13 @@
     initial_bulk = null as PymatgenStructure | null,
     tab_id,
     is_active = true,
+    // Bindable handle exposing undo/redo to parent (used by mobile toolbar)
+    editor_api = $bindable<{
+      undo: () => void
+      redo: () => void
+      can_undo: () => boolean
+      can_redo: () => boolean
+    } | undefined>(undefined),
     ...rest
   }:
     & {
@@ -1002,6 +1010,13 @@
       // clobbered by a load/edit that targeted a sibling pane. Defaults true
       // so single-pane and preview usages behave as before.
       is_active?: boolean
+      // Bindable handle exposing undo/redo API to parent (used by mobile toolbar buttons)
+      editor_api?: {
+        undo: () => void
+        redo: () => void
+        can_undo: () => boolean
+        can_redo: () => boolean
+      }
     }
     & Omit<ComponentProps<typeof StructureControls>, `children` | `onclose`>
     & Omit<HTMLAttributes<HTMLDivElement>, `children`> = $props()
@@ -1365,7 +1380,10 @@
   let dos_plot_ref: DosPlot | undefined = $state()
   let show_dos_panel = $derived(dos_state.dos_result !== null)
   let dband_center_for_plot = $derived(
-    dos_state.show_dband_line && dos_state.dband_result ? dos_state.dband_result.center_rel : null
+    dos_state.show_dband_line && typeof dos_state.dband_result?.center_rel === `number` &&
+      Number.isFinite(dos_state.dband_result.center_rel)
+      ? dos_state.dband_result.center_rel
+      : null
   )
 
   // Band structure state
@@ -2241,6 +2259,10 @@
     // to panel_id="default" every 5s, silently overwriting whatever lab
     // claude pushed there. Only mount the bridge when tab_id was given.
     if (tab_id === undefined) return
+    // Mobile passes tab_id so the viewer adopts CatBot's client-direct edits
+    // (the store-adoption effect above), but it has no Python backend — the
+    // bridge would just fail a fetch to localhost every 5s. Skip it.
+    if (isMobile()) return
     const bridge = untrack(() => start_mcp_bridge(mcp_bridge_deps))
     mcp_request_push = bridge.request_push
     return () => {
@@ -2343,6 +2365,16 @@
     // undo entry, WITHOUT clearing the redo stack (so chained redo still works).
     sel_state.push_structure_entry($state.snapshot(structure) as AnyStructure, false)
     structure = snap as typeof structure
+  }
+
+  // Populate the bindable editor_api handle so parents (e.g. mobile toolbar) can
+  // drive undo/redo without keyboard access. Assigned once; the functions themselves
+  // read reactive state (sel_state.can_undo/can_redo) at call time.
+  editor_api = {
+    undo,
+    redo,
+    can_undo: () => sel_state.can_undo,
+    can_redo: () => sel_state.can_redo,
   }
 
   // Push current state to undo stack (used by slab cutter and other tools)
