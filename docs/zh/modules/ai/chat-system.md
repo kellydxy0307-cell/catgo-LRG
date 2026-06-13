@@ -60,10 +60,10 @@ Provider 会在 CatBot 设置面板中按聊天标签页选择。
 
 | 端点 | 方法 | 说明 |
 |---|---|---|
-| `/chat/stream` | `POST` | 以 Server-Sent Events 流式返回一次聊天 turn |
+| `/chat/stream` | `POST` | 以 Server-Sent Events 流式返回一次聊天轮次 |
 | `/chat/providers` | `GET` | 列出可用 LLM provider 及其认证状态 |
 
 ## 相关
 
 - [工作流工具](/zh/modules/ai/workflow-tools) - 模型可调用的、用于构建工作流的 MCP 工具
-- [AI 聊天教程](/zh/tutorials/ai/ai-chat) - 如何开始与 CatBot 对话
+- [AI 聊天教程](/zh/tutorials/ai/ai-chat) - 如何开始和 CatBot 对话

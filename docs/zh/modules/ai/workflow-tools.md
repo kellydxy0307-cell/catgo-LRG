@@ -1,22 +1,22 @@
 ---
-title: Workflow Tools
-description: AI workflow authoring surfaces in CatGo
+title: 工作流工具
+description: CatGo 中面向 AI 的工作流编排入口
 source: src/lib/chat/workflow-tools.ts
 ---
 
 # 工作流工具
 
-**Current status:** CatGo now has **two different AI-facing workflow surfaces**. Older docs that treated them as one layer are outdated.
+**当前状态：** CatGo 现在有**两个不同的 AI 工作流入口**。旧文档中把它们当作同一层的说法已经过时。
 
-## 1. Frontend Chat 工作流工具
+## 1. 前端聊天工作流工具
 
-Source:
+来源：
 - `src/lib/chat/workflow-tools.ts`
 - `src/lib/chat/workflow-tool-executor.ts`
 
-These are the tools used by the in-app chat panel. They are separate named tools, not a single `action` router.
+这些是应用内聊天面板使用的工具。它们是彼此独立的具名工具，而不是单一的 `action` router。
 
-Available tool names:
+可用工具名：
 - `list_workflows`
 - `get_workflow_status`
 - `get_step_error`
@@ -32,23 +32,23 @@ Available tool names:
 - `run_workflow`
 - `pause_workflow`
 
-Behavior notes:
-- `create_workflow` creates an **empty graph** in the frontend chat path.
-- If the user is inside a project dashboard, the executor tries to auto-assign the new workflow to the active project.
-- Mutation tools require an active `WorkflowEditor` instance.
+行为说明：
+- `create_workflow` 会在前端聊天路径中创建一个**空图**。
+- 如果用户位于项目仪表盘中，执行器会尝试把新工作流自动分配给当前活动项目。
+- 修改类工具需要存在活动的 `WorkflowEditor` 实例。
 
-## 2. MCP 工作流 Tool
+## 2. MCP 工作流工具
 
-Source:
+来源：
 - `server/mcp_tools/tools/misc.py`
 - `server/mcp_tools/server.py`
 - `server/mcp_tools/server_claude_code.py`
 
-This is the unified MCP tool:
+这是统一的 MCP 工具：
 
 `catgo_workflow`
 
-It uses an `action` field:
+它使用 `action` 字段：
 - `list`
 - `templates`
 - `node_types`
@@ -65,35 +65,35 @@ It uses an `action` field:
 - `status`
 - `step_error`
 
-Behavior notes:
-- MCP `create` currently creates a workflow with an initial `structure_input` node already present.
-- MCP `run` sends the run request immediately; it does **not** open a UI dialog for confirmation.
-- MCP `connect` defaults `from_handle` and `to_handle` to `structure` if omitted.
+行为说明：
+- MCP `create` 当前会创建一个已包含初始 `structure_input` 节点的工作流。
+- MCP `run` 会立即发送运行请求，**不会**打开 UI 对话框进行确认。
+- MCP `connect` 在省略时会把 `from_handle` 和 `to_handle` 默认设为 `structure`。
 
-## 3. Important Difference
+## 3. 重要差异
 
-The frontend chat tools and the MCP tool do **not** behave identically.
+前端聊天工具和 MCP 工具的行为**并不完全相同**。
 
-Most important mismatch:
-- Frontend chat `create_workflow` -> empty graph
-- MCP `catgo_workflow(action="create")` -> graph pre-populated with `structure_input`
+最重要的不一致点：
+- 前端聊天 `create_workflow` -> 空图
+- MCP `catgo_workflow(action="create")` -> 图中预先包含 `structure_input`
 
-When updating prompts, skills, or agent instructions, do not assume these two surfaces are interchangeable.
+更新 prompts、skills 或 agent 指令时，不要假设这两个入口可以互换。
 
-## 4. Safe Authoring Pattern
+## 4. 安全编排模式
 
-For MCP / CatBot:
+对于 MCP / CatBot：
 1. `node_types`
 2. `create`
 3. `get`
 4. `add_node`
 5. `set_params`
-6. `connect` with explicit handles when the graph is not trivially `structure -> structure`
+6. 当图不是简单的 `structure -> structure` 链路时，使用显式 handle 执行 `connect`
 7. `validate`
 8. `get`
-9. `run` only after explicit `run_config`
+9. 只有在显式设置 `run_config` 后才执行 `run`
 
-For frontend chat:
+对于前端聊天：
 1. `create_workflow`
 2. `get_node_definitions`
 3. `add_node`

@@ -1,6 +1,6 @@
 ---
-title: Paper Import
-description: PDF and DOI ingestion for paper-grounded conversations
+title: 论文导入
+description: 面向论文上下文对话的 PDF 与 DOI 导入
 source: server/catgo/routers/paper.py
 ---
 
@@ -8,58 +8,58 @@ source: server/catgo/routers/paper.py
 
 **Source:** `server/catgo/routers/paper.py`, `server/catgo/models/paper.py`
 
-The paper import module ingests scientific papers into CatGo's session store so CatBot can reference them while constructing workflows. Two ingestion paths are supported: direct PDF upload, and DOI resolution via CrossRef metadata.
+论文导入模块会把科研论文纳入 CatGo 的会话存储，使 CatBot 在构建工作流时可以引用论文内容。支持两种导入路径：直接上传 PDF，以及通过 CrossRef 元数据解析 DOI。
 
-本模块 is the data ingestion layer. The downstream "tell CatBot about this paper and let it build a workflow" flow happens through normal CatBot chat turns — there is no automated paper-to-workflow extractor.
+本模块是数据导入层。后续“告诉 CatBot 这篇论文内容并让它构建工作流”的流程通过普通 CatBot 聊天轮次完成；这里没有自动的论文到工作流提取器。
 
 ## 本模块的作用
 
-- **PDF upload** — Accept a PDF, extract its text content, store it in a TTL-managed session
-- **DOI resolution** — Resolve a DOI through CrossRef to get title, authors, abstract, and metadata
-- **Session storage** — Hold paper text + metadata in memory keyed by session ID, with automatic cleanup after a TTL window
-- **Text retrieval** — Return the extracted text for chat context augmentation
+- **PDF 上传** — 接收 PDF，提取文本内容，并存入带 TTL 管理的会话
+- **DOI 解析** — 通过 CrossRef 解析 DOI，获取标题、作者、摘要和元数据
+- **会话存储** — 以 session ID 为键在内存中保存论文文本和元数据，并在 TTL 到期后自动清理
+- **文本检索** — 返回提取出的文本，用于增强聊天上下文
 
 ## 本模块不做什么
 
-- Automatic parameter extraction (functionals, k-points, cutoffs) from paper PDFs — this is a CatBot prompt-driven task, not a backend feature
-- Automatic workflow generation from paper methods — users describe the paper's method in chat and let CatBot construct the workflow
+- 不会从论文 PDF 中自动提取参数（泛函、k 点、截断能等）；这是由 CatBot prompt 驱动的任务，不是后端功能
+- 不会根据论文方法部分自动生成工作流；用户需要在聊天中描述论文方法，再让 CatBot 构建工作流
 
 ## 服务器 API
 
-All endpoints live under the `/paper` prefix:
+所有端点都位于 `/paper` 前缀下：
 
-| Endpoint | Method | Description |
+| 端点 | 方法 | 说明 |
 |---|---|---|
-| `/paper/upload` | `POST` | Upload a PDF; returns a `session_id` and parsed metadata |
-| `/paper/{session_id}` | `GET` | Retrieve session info (title, authors, page count, expiry) |
-| `/paper/{session_id}/text` | `GET` | Get the extracted text body of the paper |
-| `/paper/resolve-doi` | `POST` | Resolve a DOI via CrossRef; returns metadata without storing |
-| `/paper/{session_id}` | `DELETE` | Manually clean up a session before TTL expiry |
+| `/paper/upload` | `POST` | 上传 PDF；返回 `session_id` 和解析出的元数据 |
+| `/paper/{session_id}` | `GET` | 获取会话信息（标题、作者、页数、过期时间） |
+| `/paper/{session_id}/text` | `GET` | 获取论文正文的提取文本 |
+| `/paper/resolve-doi` | `POST` | 通过 CrossRef 解析 DOI；返回元数据但不存储 |
+| `/paper/{session_id}` | `DELETE` | 在 TTL 到期前手动清理会话 |
 
 ## 数据模型
 
 ### `PaperSessionInfo`
 
-- `session_id` — UUID for the in-memory session
-- `title` — Paper title (from PDF metadata or first heading)
-- `authors` — Author list (when extractable)
-- `created_at` — Session creation timestamp
-- `expires_at` — TTL expiry timestamp
+- `session_id` — 内存会话的 UUID
+- `title` — 论文标题（来自 PDF 元数据或第一个标题）
+- `authors` — 作者列表（可提取时）
+- `created_at` — 会话创建时间戳
+- `expires_at` — TTL 过期时间戳
 
 ### `DOIResolveResponse`
 
-Returns CrossRef metadata: title, authors, journal, publication year, abstract, and the resolved DOI URL.
+返回 CrossRef 元数据：标题、作者、期刊、发表年份、摘要，以及解析后的 DOI URL。
 
 ## 典型流程
 
-1. User drops a PDF into CatBot or pastes a DOI
-2. Frontend posts to `/paper/upload` or `/paper/resolve-doi` and receives a `session_id`
-3. The chat context includes the paper's text/metadata in subsequent LLM calls (see [`context.ts`](/zh/modules/ai/chat-system))
-4. User asks CatBot to build a workflow based on the paper's method — CatBot drafts the workflow via the [workflow tools](/zh/modules/ai/workflow-tools)
-5. Session expires after TTL or is manually deleted
+1. 用户将 PDF 拖入 CatBot，或粘贴 DOI
+2. 前端请求 `/paper/upload` 或 `/paper/resolve-doi`，并接收 `session_id`
+3. 后续 LLM 调用的聊天上下文会包含论文文本/元数据（见 [`context.ts`](/zh/modules/ai/chat-system)）
+4. 用户要求 CatBot 基于论文方法构建工作流；CatBot 通过[工作流工具](/zh/modules/ai/workflow-tools)起草工作流
+5. 会话在 TTL 后过期，或被手动删除
 
 ## 相关内容
 
-- [Paper Import 教程](/zh/tutorials/ai/literature-import) — Step-by-step user guide
-- [聊天系统](/zh/modules/ai/chat-system) — How paper context flows into LLM calls
-- [工作流工具](/zh/modules/ai/workflow-tools) — The tools CatBot uses to construct workflows
+- [论文导入教程](/zh/tutorials/ai/literature-import) — 分步用户指南
+- [聊天系统](/zh/modules/ai/chat-system) — 论文上下文如何进入 LLM 调用
+- [工作流工具](/zh/modules/ai/workflow-tools) — CatBot 用于构建工作流的工具

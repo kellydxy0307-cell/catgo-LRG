@@ -1,6 +1,6 @@
 ---
 title: Clustering & PCA
-description: Trajectory clustering and dimensionality reduction module
+description: 轨迹聚类与降维分析模块
 source: src/lib/md/MdClusteringPanel.svelte
 ---
 
@@ -10,37 +10,37 @@ source: src/lib/md/MdClusteringPanel.svelte
 
 ## 概述
 
-Clusters MD trajectory frames based on structural similarity and performs PCA for dimensionality reduction. Identifies distinct conformational states.
+基于结构相似性对 MD 轨迹帧进行聚类，并通过 PCA 降维，以识别不同构象状态。
 
 ## 组件
 
 ### MdClusteringPanel
 
-Interactive panel for clustering and PCA configuration.
+用于配置聚类和 PCA 的交互式面板。
 
 ## Algorithms
 
 ### K-Means
 
-Partition frames into k clusters based on structural descriptors.
+基于结构描述符将帧划分为 k 个簇。
 
 ### DBSCAN
 
-Density-based clustering that automatically determines the number of clusters.
+基于密度的聚类方法，可自动确定簇数量。
 
 ### Hierarchical
 
-Agglomerative clustering with dendrogram visualization.
+带树状图可视化的凝聚层次聚类。
 
 ## PCA
 
-### Principal Component Analysis
+### 主成分分析
 
-Projects high-dimensional trajectory data onto orthogonal components capturing maximum variance.
+将高维轨迹数据投影到捕获最大方差的正交主成分上。
 
 ### 可视化
 
-2D scatter plot of frames in PC1-PC2 space, colored by cluster assignment.
+在 PC1-PC2 空间中绘制帧的二维散点图，并按簇分配着色。
 
 ## 服务器 API
 
@@ -48,5 +48,5 @@ Projects high-dimensional trajectory data onto orthogonal components capturing m
 
 ## 相关内容
 
-- [Clustering 教程](/zh/tutorials/md-analysis/clustering-pca)
-- [Dynamics Module](/zh/modules/md-analysis/dynamics)
+- [聚类教程](/zh/tutorials/md-analysis/clustering-pca)
+- [动力学模块](/zh/modules/md-analysis/dynamics)

@@ -1,21 +1,21 @@
 # 对称性
 
-Space group detection, Wyckoff position identification, and symmetry analysis using WASM-accelerated algorithms.
+使用 WASM 加速算法进行空间群检测、Wyckoff 位置识别和对称性分析。
 
 **Source:** `src/lib/symmetry/`
 
 ## Algorithms
 
-Two symmetry backends are available, both compiled to WASM:
+提供两个对称性后端，二者都编译为 WASM：
 
 | Algorithm | Package | Description |
 |-----------|---------|-------------|
-| **Moyo** | `@spglib/moyo-wasm` | Modern Rust reimplementation, recommended |
-| **Spglib** | spglib (via WASM) | Classic C library, widely used reference |
+| **Moyo** | `@spglib/moyo-wasm` | 现代 Rust 重新实现，推荐使用 |
+| **Spglib** | spglib（通过 WASM） | 经典 C 库，广泛使用的参考实现 |
 
 ## 核心函数
 
-### Space Group Detection
+### 空间群检测
 
 ```typescript
 // Analyze structure symmetry (space group, point group, crystal system)
@@ -35,7 +35,7 @@ wyckoff_positions_from_moyo(structure): WyckoffResult[]
 map_wyckoff_to_all_atoms(wyckoff_result, num_display_atoms): WyckoffMap
 ```
 
-### Symmetry Operations
+### 对称操作
 
 ```typescript
 // Apply symmetry operations to generate equivalent positions
@@ -63,14 +63,14 @@ interface SymmetryResult {
 
 ## Wyckoff Display
 
-Wyckoff positions can be used for atom coloring in the structure viewer:
-- Each unique Wyckoff site gets a distinct color
-- The `color_mode: "wyckoff"` setting activates this mode
-- Helps identify symmetry-equivalent atoms visually
+Wyckoff 位置可用于结构查看器中的原子着色：
+- 每个唯一 Wyckoff 位点使用不同颜色
+- `color_mode: "wyckoff"` 设置会启用该模式
+- 有助于直观识别对称等价原子
 
 ## Bravais Lattices
 
-该模块 identifies all 14 Bravais lattice types:
+该模块可识别全部 14 种 Bravais 晶格类型：
 
 | Symbol | Type |
 |--------|------|
@@ -84,10 +84,10 @@ Wyckoff positions can be used for atom coloring in the structure viewer:
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
-| `symprec` | number | 0.01 | Symmetry precision tolerance (Angstroms) |
+| `symprec` | number | 0.01 | 对称性精度容差（Angstrom） |
 | `symmetry_algorithm` | string | "moyo" | Backend: "moyo" or "spglib" |
 
 ## 组件
 
-- **SymmetryStats.svelte** — Displays space group, point group, crystal system
-- **WyckoffTable.svelte** — Table of Wyckoff positions with multiplicity, letter, and site symmetry
+- **SymmetryStats.svelte** — 显示空间群、点群和晶系
+- **WyckoffTable.svelte** — Wyckoff 位置表，包含重数、字母和位点对称性

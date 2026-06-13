@@ -1,12 +1,12 @@
 # 数据库集成
 
-Search and load crystal structures from external databases: OPTIMADE, Materials Project, and PubChem.
+从外部数据库搜索并加载晶体结构：OPTIMADE、Materials Project 和 PubChem。
 
 **Source:** `src/lib/api/`
 
 ## OPTIMADE
 
-The [OPTIMADE](https://www.optimade.org/) API provides a standardized interface to query crystal structure databases worldwide.
+[OPTIMADE](https://www.optimade.org/) API 提供标准化接口，用于查询全球晶体结构数据库。
 
 ### 核心函数
 
@@ -21,9 +21,9 @@ search_optimade(query, provider): Promise<SearchResult>
 fetch_optimade_structure(provider_id, structure_id): Promise<Structure>
 ```
 
-### Supported Databases
+### 支持的数据库
 
-OPTIMADE connects to many providers, including:
+OPTIMADE 可连接多个 provider，包括：
 - Materials Project
 - AFLOW
 - OQMD
@@ -34,23 +34,23 @@ OPTIMADE connects to many providers, including:
 
 ### 组件
 
-| Component | Description |
+| 组件 | 说明 |
 |-----------|-------------|
-| `OptimadeSearchModal.svelte` | Search interface with provider selection, formula/element filters |
-| `OptimadePreviewModal.svelte` | Preview structure before loading into viewer |
+| `OptimadeSearchModal.svelte` | 搜索界面，支持 provider 选择、化学式/元素筛选 |
+| `OptimadePreviewModal.svelte` | 加载到查看器前预览结构 |
 
 ### Query Options
 
-- **Chemical formula** — exact or partial formula match
-- **Elements** — filter by contained elements
+- **化学式** — 精确或部分化学式匹配
+- **元素** — 按包含元素筛选
 - **Space group** — filter by symmetry
-- **Provider selection** — choose which databases to search
+- **Provider 选择** — 选择要搜索的数据库
 
 ---
 
 ## Materials Project
 
-Direct access to the [Materials Project](https://materialsproject.org/) database for crystal structures and computed properties.
+直接访问 [Materials Project](https://materialsproject.org/) 数据库，获取晶体结构和计算性质。
 
 ### 核心函数
 
@@ -66,16 +66,16 @@ GET /api/materials_project/structure/{material_id}
 ```
 
 Returns:
-- Crystal structure (pymatgen format)
-- Summary properties (band gap, formation energy, etc.)
-- Robocrystallographer description
+- 晶体结构（pymatgen 格式）
+- 摘要性质（带隙、形成能等）
+- Robocrystallographer 描述
 - Similar structures
 
 ---
 
 ## PubChem
 
-Search molecular structures from the [PubChem](https://pubchem.ncbi.nlm.nih.gov/) chemical database.
+从 [PubChem](https://pubchem.ncbi.nlm.nih.gov/) 化学数据库搜索分子结构。
 
 ### 核心函数
 
@@ -92,25 +92,25 @@ extract_atoms_from_pubchem(compound_data): Structure
 
 ### 组件
 
-| Component | Description |
+| 组件 | 说明 |
 |-----------|-------------|
-| `PubchemSearchModal.svelte` | Search by compound name, formula, or CID |
+| `PubchemSearchModal.svelte` | 按化合物名称、化学式或 CID 搜索 |
 
 ### 功能
 
-- Name-based search (e.g., "aspirin", "caffeine")
-- Formula-based search (e.g., "C6H12O6")
-- 3D conformer retrieval
-- Automatic conversion to viewer format
+- 按名称搜索（如 "aspirin"、"caffeine"）
+- 按化学式搜索（如 "C6H12O6"）
+- 获取三维构象
+- 自动转换为查看器格式
 
 ---
 
 ## 架构
 
-Database queries can go through two paths:
+数据库查询可以走两条路径：
 
-1. **Direct client-side** — JavaScript fetches from public APIs directly (OPTIMADE, PubChem)
-2. **Via Python server** — for APIs requiring server-side processing or API keys (Materials Project)
+1. **客户端直连** — JavaScript 直接从公共 API 获取数据（OPTIMADE、PubChem）
+2. **通过 Python 服务器** — 用于需要服务端处理或 API key 的接口（Materials Project）
 
 ```
 Browser                              External APIs

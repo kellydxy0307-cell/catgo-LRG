@@ -55,7 +55,7 @@
 - **InstancedMesh** 用于高效渲染大量原子（可处理数千个原子）
 - **BVH acceleration**（three-mesh-bvh）用于快速射线拾取和原子选择
 - **Spatial grid** 用于超过 50 个原子的结构中的键检测
-- **Level of Detail (LOD)** 会根据原子数量调整球体分段数
+- **细节层级（LOD）** 会根据原子数量调整球体分段数
 - **Depth cueing** 会将远处原子和化学键向背景色淡出，形成类似 VESTA 的深度感
 
 ## 相机与控制
@@ -121,7 +121,7 @@
 ### 原子着色
 
 - **Element** - CPK/Jmol 标准颜色
-- **Coordination number** - 按配位数着色
+- **配位数** - 按配位数着色
 - **Wyckoff position** - 按对称位点着色
 - **Charge** - 按 Bader 电荷值（来自 ACF.dat）着色，并支持逐原子电荷标签
 - **Custom** - 用户按元素自定义颜色

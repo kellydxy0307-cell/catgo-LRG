@@ -103,7 +103,7 @@
 |---------|-------------|
 | `web` | 浏览器 Web 应用 |
 | `editor` | VSCode 扩展 |
-| `notebook` | Jupyter / Marimo widget |
+| `notebook` | Jupyter / Marimo 小组件 |
 | `all` | 所有平台（默认） |
 
 ## 设置 Schema
@@ -127,5 +127,5 @@
 
 - **Web app** - 设置存储在 `localStorage`
 - **Desktop app** - 设置通过 Tauri IPC 持久化，重启后保留
-- **VSCode** - 设置位于 VSCode workspace/user config
+- **VSCode** - 设置位于 VSCode 工作区/用户配置
 - **Jupyter** - 设置作为 widget props 传入

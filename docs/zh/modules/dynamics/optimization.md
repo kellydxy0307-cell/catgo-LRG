@@ -1,26 +1,26 @@
 # 优化
 
-Structure relaxation and energy calculations using multiple computational backends, with real-time progress streaming.
+使用多种计算后端进行结构弛豫和能量计算，并支持实时进度流式输出。
 
 **Source:** `src/lib/api/compute.ts`, `src/lib/structure/OptimizationPane.svelte`, `server/routers/`
 
 ## 可用计算器
 
-| Calculator | Method | Description | Use Case |
+| 计算器 | 方法 | 说明 | 适用场景 |
 |-----------|--------|-------------|----------|
-| **EMT** | Effective Medium Theory | Fast empirical potential | Metals (Al, Cu, Ag, Au, Ni, Pd, Pt) |
-| **xTB GFN2** | Semi-empirical DFT | Tight-binding with dispersion | Organic molecules, molecular crystals |
-| **xTB GFN1** | Semi-empirical DFT | Faster, less accurate than GFN2 | Large organic systems |
-| **xTB GFN0** | Semi-empirical | Fastest xTB variant | Screening, pre-optimization |
-| **xTB GFN-FF** | Force field | xTB-parameterized force field | Very fast pre-relaxation |
-| **MACE** | Machine learning | Equivariant neural network potential | General-purpose, high accuracy |
-| **CHGNet** | Machine learning | Crystal Hamiltonian Graph Network | Inorganic materials |
-| **M3GNet** | Machine learning | Materials 3-body Graph Network | Inorganic materials |
-| **UFF** | Force field (WASM) | Universal Force Field | Quick in-browser optimization |
+| **EMT** | 有效介质理论 | 快速经验势 | 金属（Al、Cu、Ag、Au、Ni、Pd、Pt） |
+| **xTB GFN2** | 半经验 DFT | 含色散校正的紧束缚方法 | 有机分子、分子晶体 |
+| **xTB GFN1** | 半经验 DFT | 比 GFN2 更快但精度较低 | 大型有机体系 |
+| **xTB GFN0** | 半经验方法 | 最快的 xTB 变体 | 筛选、预优化 |
+| **xTB GFN-FF** | 力场 | xTB 参数化力场 | 非常快速的预弛豫 |
+| **MACE** | 机器学习 | 等变神经网络势 | 通用、高精度 |
+| **CHGNet** | 机器学习 | 晶体 Hamilton 图网络 | 无机材料 |
+| **M3GNet** | 机器学习 | 材料三体图网络 | 无机材料 |
+| **UFF** | 力场（WASM） | 通用力场 | 浏览器内快速优化 |
 
 ## 核心函数
 
-### Client-Side (TypeScript)
+### 客户端（TypeScript）
 
 ```typescript
 // List available calculators and their status
@@ -39,47 +39,47 @@ optimize_structure_ws(structure, calculator, options, onStep): Promise<Optimizat
 wasm_optimize_structure(structure): Structure
 ```
 
-### 服务器-Side (Python)
+### 服务器端（Python）
 
-The FastAPI server exposes:
+FastAPI 服务器暴露以下端点：
 
-- `GET /api/optimize/calculators` — list available calculators
-- `POST /api/optimize/structure` — optimize structure (HTTP)
-- `GET /api/optimize/ws` — WebSocket streaming optimization
-- `GET /api/optimize/energy` — single-point energy calculation
+- `GET /api/optimize/calculators` — 列出可用计算器
+- `POST /api/optimize/structure` — 优化结构（HTTP）
+- `GET /api/optimize/ws` — WebSocket 流式优化
+- `GET /api/optimize/energy` — 单点能计算
 
-## Optimizer Methods
+## 优化器方法
 
-In addition to choosing a calculator (energy/force engine), you can choose the **optimizer algorithm** that drives the search:
+除了选择计算器（能量/力引擎），还可以选择驱动搜索过程的**优化算法**：
 
-| Optimizer | Type | Description | Use Case |
+| 优化器 | 类型 | 说明 | 适用场景 |
 |-----------|------|-------------|----------|
-| **BFGS** | Minimizer | Quasi-Newton local minimizer (ASE default) | Finding stable structures (local minima) |
-| **Sella Minimize** | Minimizer | Trust-radius minimizer ([Sella](https://github.com/zadorlab/sella) `order=0`) | Alternative to BFGS, sometimes more robust |
-| **Sella TS Search** | Saddle point | Transition state finder ([Sella](https://github.com/zadorlab/sella) `order=1`) | Finding reaction barriers and transition states |
-| **IRC** | Reaction path | Intrinsic Reaction Coordinate ([Sella](https://github.com/zadorlab/sella)) | Tracing the minimum energy path from a TS |
+| **BFGS** | 极小化器 | 拟 Newton 局部极小化器（ASE 默认） | 寻找稳定结构（局部极小值） |
+| **Sella Minimize** | 极小化器 | 信赖半径极小化器（[Sella](https://github.com/zadorlab/sella) `order=0`） | BFGS 的替代方案，有时更稳健 |
+| **Sella TS Search** | 鞍点 | 过渡态搜索器（[Sella](https://github.com/zadorlab/sella) `order=1`） | 寻找反应能垒和过渡态 |
+| **IRC** | 反应路径 | 内禀反应坐标（[Sella](https://github.com/zadorlab/sella)） | 从过渡态追踪最低能量路径 |
 
-::: tip What is a transition state?
-A **transition state** (TS) is the highest-energy point along the lowest-energy path between a reactant and product. It tells you the **activation energy** — the energy barrier the system must overcome for a reaction to occur. Sella's TS Search finds these saddle points on the potential energy surface.
+::: tip 什么是过渡态？
+**过渡态**（TS）是反应物到产物最低能量路径上的最高能点。它给出**活化能**，即体系发生反应必须跨越的能垒。Sella 的 TS Search 会在势能面上寻找这些鞍点。
 :::
 
-### Sella Parameters
+### Sella 参数
 
-When using Sella Minimize or Sella TS Search:
+使用 Sella Minimize 或 Sella TS Search 时：
 
-| Parameter | Description | Default |
+| 参数 | 说明 | 默认值 |
 |-----------|-------------|---------|
-| `delta0` (Trust radius) | Initial trust radius for step size control | Auto (Sella default) |
+| `delta0`（信赖半径） | 用于步长控制的初始信赖半径 | 自动（Sella 默认） |
 
-When using IRC:
+使用 IRC 时：
 
-| Parameter | Description | Default |
+| 参数 | 说明 | 默认值 |
 |-----------|-------------|---------|
-| `dx` (Step size) | IRC step size in Angstrom | Auto (Sella default) |
+| `dx`（步长） | IRC 步长，单位 Angstrom | 自动（Sella 默认） |
 
-### Installing Sella
+### 安装 Sella
 
-Sella is an optional dependency. The server works without it — BFGS is always available. To enable Sella optimizers:
+Sella 是可选依赖。没有它服务器也能工作，BFGS 始终可用。若要启用 Sella 优化器：
 
 ```bash
 # Python 3.13+ requires setuptools-scm first
@@ -89,24 +89,24 @@ pip install setuptools-scm
 pip install --no-build-isolation sella
 ```
 
-If Sella is not installed and you select a Sella optimizer, the server returns a clear error message with install instructions.
+如果未安装 Sella 却选择了 Sella 优化器，服务器会返回包含安装说明的明确错误信息。
 
-For more details, see the [Sella GitHub repository](https://github.com/zadorlab/sella).
+更多细节见 [Sella GitHub 仓库](https://github.com/zadorlab/sella)。
 
-## Optimization Options
+## 优化选项
 
-| Option | Type | Description |
+| 选项 | 类型 | 说明 |
 |--------|------|-------------|
-| `calculator` | string | Calculator name (e.g., "mace", "xtb_gfn2") |
-| `optimizer` | string | Optimizer algorithm: `bfgs`, `sella_min`, `sella_ts`, `irc` |
-| `fmax` | number | Force convergence criterion (eV/A) |
-| `max_steps` | number | Maximum optimization steps |
-| `optimize_cell` | boolean | Also relax cell shape/volume |
-| `frozen_atoms` | number[] | Atom indices to keep fixed |
+| `calculator` | string | 计算器名称（如 "mace"、"xtb_gfn2"） |
+| `optimizer` | string | 优化算法：`bfgs`、`sella_min`、`sella_ts`、`irc` |
+| `fmax` | number | 力收敛判据（eV/A） |
+| `max_steps` | number | 最大优化步数 |
+| `optimize_cell` | boolean | 同时弛豫晶胞形状/体积 |
+| `frozen_atoms` | number[] | 需要固定的原子 index |
 
-## Real-Time Progress
+## 实时进度
 
-WebSocket optimization streams per-step updates:
+WebSocket 优化会流式返回逐步更新：
 
 ```typescript
 interface OptimizationStep {
@@ -118,28 +118,28 @@ interface OptimizationStep {
 }
 ```
 
-The UI displays:
-- Energy convergence plot
-- Maximum force (fmax) convergence plot
-- Live 3D structure update at each step
-- Step counter and status
+UI 会显示：
+- 能量收敛曲线
+- 最大力（fmax）收敛曲线
+- 每一步实时更新三维结构
+- 步数计数器和状态
 
 ## Frozen Atoms
 
-Atoms can be marked as "fixed" to exclude them from optimization:
+原子可以标记为“固定”，从优化中排除：
 
-- **Ring indicator** — circular ring around frozen atoms
-- **Crosshatch** — patterned overlay
-- **Dimmed** — reduced opacity
+- **环形标记** — 固定原子周围的圆环
+- **交叉阴影** — 图案化叠层
+- **变暗** — 降低不透明度
 
-Frozen atoms are passed as index arrays to the optimizer.
+固定原子会以 index 数组传递给优化器。
 
 ## 组件
 
-| Component | Description |
+| 组件 | 说明 |
 |-----------|-------------|
-| `OptimizationPane.svelte` | Calculator selection, options, run/stop controls |
-| Energy/force convergence plots | Real-time line plots during optimization |
+| `OptimizationPane.svelte` | 计算器选择、选项、运行/停止控制 |
+| 能量/力收敛图 | 优化过程中的实时折线图 |
 
 ## 架构
 

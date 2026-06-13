@@ -1,6 +1,6 @@
 ---
-title: Dynamics (RMSD/RMSF)
-description: Structural deviation metrics from MD trajectories
+title: 动力学（RMSD/RMSF）
+description: MD 轨迹的结构偏差指标
 source: src/lib/md/MdDynamicsPanel.svelte
 ---
 
@@ -10,27 +10,27 @@ source: src/lib/md/MdDynamicsPanel.svelte
 
 ## 概述
 
-Computes RMSD (Root Mean Square Deviation) and RMSF (Root Mean Square Fluctuation) from MD trajectories to quantify structural stability and per-atom flexibility.
+从 MD 轨迹计算 RMSD（均方根偏差）和 RMSF（均方根涨落），用于量化结构稳定性和逐原子柔性。
 
 ## 组件
 
 ### MdDynamicsPanel
 
-Interactive panel for RMSD/RMSF computation and visualization.
+用于 RMSD/RMSF 计算和可视化的交互式面板。
 
 ### MdAnalysisPane
 
-Parent pane orchestrating all MD analysis tools.
+统筹所有 MD 分析工具的父面板。
 
 ## Metrics
 
 ### RMSD
 
-Measures how much the structure has changed from a reference frame over time.
+衡量结构随时间相对于参考帧的变化程度。
 
 ### RMSF
 
-Measures the average fluctuation of each atom around its mean position.
+衡量每个原子围绕其平均位置的平均涨落。
 
 ## 服务器 API
 
@@ -38,11 +38,11 @@ Measures the average fluctuation of each atom around its mean position.
 
 ## Parameters
 
-- `reference_frame` — Index of the reference frame (default: 0)
-- `atom_selection` — Which atoms to include
-- `alignment` — Whether to align frames before computing
+- `reference_frame` — 参考帧 index（默认：0）
+- `atom_selection` — 纳入计算的原子
+- `alignment` — 计算前是否对齐帧
 
 ## 相关内容
 
 - [RMSD/RMSF 教程](/zh/tutorials/md-analysis/rmsd-rmsf)
-- [RDF Module](/zh/modules/md-analysis/rdf)
+- [RDF 模块](/zh/modules/md-analysis/rdf)

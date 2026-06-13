@@ -1,6 +1,6 @@
 ---
-title: Project Dashboard
-description: Project management and results visualization
+title: 项目仪表盘
+description: 项目管理与结果可视化
 source: src/lib/workflow/ProjectDashboard.svelte
 ---
 
@@ -10,43 +10,43 @@ source: src/lib/workflow/ProjectDashboard.svelte
 
 ## 概述
 
-The project dashboard provides an overview of all workflows, their execution status, and collected results. Supports tabular and graphical result comparison.
+项目仪表盘提供所有工作流、执行状态和已收集结果的概览，并支持以表格和图形方式比较结果。
 
 ## 组件
 
 ### ProjectDashboard
 
-Main dashboard view with project overview.
+带项目概览的主仪表盘视图。
 
 ### ProjectListView
 
-List of all projects with status indicators.
+带状态指示器的项目列表。
 
 ### NodeStatusPanel
 
-Detailed status for individual workflow nodes.
+单个工作流节点的详细状态。
 
 ### ResultsTable
 
-Tabular view of computed results across workflow runs.
+跨工作流运行的计算结果表格视图。
 
 ### ResultsPlot
 
-Interactive scatter/bar plots for result comparison.
+用于结果比较的交互式散点图/条形图。
 
 ## 功能
 
-### 工作流 Status Tracking
+### 工作流状态追踪
 
-Real-time status updates for running workflows.
+运行中工作流的实时状态更新。
 
-### Result Aggregation
+### 结果汇总
 
-Collect and compare results across multiple workflow runs.
+收集并比较多个工作流运行的结果。
 
 ### Export
 
-Export results as CSV, JSON, or publication-ready tables.
+将结果导出为 CSV、JSON 或可用于论文发表的表格。
 
 ## 相关内容
 

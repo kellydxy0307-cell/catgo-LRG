@@ -1,6 +1,6 @@
 ---
 title: Voice Control
-description: Speech-to-text and voice command system
+description: 语音转文本与语音命令系统
 source: src/lib/gesture/voice-engine.ts
 ---
 
@@ -10,48 +10,48 @@ source: src/lib/gesture/voice-engine.ts
 
 ## 概述
 
-CatGo's voice control system provides speech-to-text (via Whisper) and text-to-speech for hands-free interaction with the application.
+CatGo 的语音控制系统提供基于 Whisper 的语音转文本和文本转语音能力，用于免手操作应用。
 
 ## 架构
 
 ### VoiceEngine
 
-Base voice engine interface for speech recognition.
+用于语音识别的基础语音引擎接口。
 
 ### WhisperVoiceEngine
 
-Local Whisper model for privacy-preserving speech-to-text. Model downloaded on first use.
+本地 Whisper 模型用于保护隐私的语音转文本；模型会在首次使用时下载。
 
 ### TTSEngine
 
-Text-to-speech engine for voice feedback on executed commands.
+文本转语音引擎，用于对已执行命令进行语音反馈。
 
 ## 语音命令
 
-### Structure Manipulation
+### 结构操作
 
-- Rotation, zoom, pan commands
-- Show/hide bonds, labels, axes
+- 旋转、缩放、平移命令
+- 显示/隐藏化学键、标签、坐标轴
 - Reset view
 
 ### Atom Art
 
-- Place atoms by element name
-- Build molecular fragments
+- 按元素名称放置原子
+- 构建分子片段
 
 ### Analysis
 
-- Trigger computations by voice
+- 通过语音触发计算
 
 ## 配置
 
-- Microphone selection
-- Voice activation sensitivity
+- 麦克风选择
+- 语音激活灵敏度
 - Language setting
-- TTS voice selection
+- TTS 语音选择
 
 ## 相关内容
 
-- [Voice Control 教程](/zh/tutorials/interaction/voice-control)
+- [语音控制教程](/zh/tutorials/interaction/voice-control)
 - [手势追踪](/zh/modules/interaction/gesture-tracking)
 - [Atom Art](/zh/modules/interaction/atom-art)

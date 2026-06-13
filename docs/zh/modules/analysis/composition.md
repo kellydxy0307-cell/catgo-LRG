@@ -1,12 +1,12 @@
 # 组成
 
-Chemical formula handling, element analysis, and composition visualization.
+化学式处理、元素分析与组成可视化。
 
 **Source:** `src/lib/composition/`
 
 ## 概述
 
-The composition module provides tools for analyzing and displaying the chemical makeup of structures, with multiple chart types and formula formatting options.
+组成模块提供结构化学组成的分析与展示工具，支持多种图表类型和化学式格式化选项。
 
 ## 核心函数
 
@@ -32,17 +32,17 @@ wasm_get_composition(structure): Composition
 
 ## 可视化 组件
 
-| Component | Description |
+| 组件 | 说明 |
 |-----------|-------------|
-| `Composition.svelte` | Main composition display container |
-| `BarChart.svelte` | Horizontal bar chart of element fractions |
-| `BubbleChart.svelte` | Bubble chart scaled by element amount |
-| `PieChart.svelte` | Pie chart of composition |
-| `Formula.svelte` | Formatted chemical formula rendering |
+| `Composition.svelte` | 主要组成显示容器 |
+| `BarChart.svelte` | 元素比例水平条形图 |
+| `BubbleChart.svelte` | 按元素含量缩放的气泡图 |
+| `PieChart.svelte` | 组成饼图 |
+| `Formula.svelte` | 格式化化学式渲染 |
 
 ## Chart 功能
 
-- Element colors follow CPK/Jmol convention
-- Hover tooltips show exact amounts and percentages
-- Multiple chart types for different visual preferences
+- 元素颜色遵循 CPK/Jmol 约定
+- 悬停提示显示精确含量和百分比
+- 提供多种图表类型以适应不同可视化偏好
 - Responsive sizing

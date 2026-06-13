@@ -1,6 +1,6 @@
 ---
 title: Node Types
-description: Catalog of workflow node types available in CatGo
+description: CatGo 可用工作流节点类型目录
 source: src/lib/workflow/node-definitions.ts
 ---
 
@@ -10,68 +10,68 @@ source: src/lib/workflow/node-definitions.ts
 
 ## 概述
 
-CatGo's workflow engine provides 70+ node types for building computational materials science workflows. Nodes are categorized by function.
+CatGo 的工作流引擎提供 70 多种节点类型，用于构建计算材料科学工作流。节点按功能分类。
 
 ## 结构节点
 
-### Structure Input
-Load structures from files, databases, or manual input.
+### 结构输入
+从文件、数据库或手动输入加载结构。
 
-### Structure Transform
-Supercell generation, slab cutting, coordinate transformation.
+### 结构变换
+超胞生成、slab 切割、坐标变换。
 
-### Structure Filter
-Filter structures by composition, symmetry, or properties.
+### 结构筛选
+按组成、对称性或性质筛选结构。
 
 ## 计算节点
 
 ### DFT Setup
-Configure DFT calculations (VASP, QE, CP2K).
+配置 DFT 计算（VASP、QE、CP2K）。
 
 ### ML Potential
-Run calculations with machine learning potentials (MACE, CHGNet, M3GNet).
+使用机器学习势（MACE、CHGNet、M3GNet）运行计算。
 
 ### 优化
-Geometry relaxation with configurable calculators.
+使用可配置计算器进行几何弛豫。
 
-### Molecular Dynamics
-MD simulation configuration and execution.
+### 分子动力学
+MD 模拟配置与执行。
 
-## Analysis Nodes
+## 分析节点
 
 ### 电子结构
-Band structure, DOS, COHP computation.
+能带结构、DOS、COHP 计算。
 
-### Property Calculation
-Energy, forces, stress, band gap, magnetic moments.
+### 性质计算
+能量、力、应力、带隙、磁矩。
 
-### Thermodynamics
-Phase stability, formation energy, convex hull.
+### 热力学
+相稳定性、形成能、凸包。
 
 ## I/O Nodes
 
 ### File Reader
-Read various input file formats.
+读取多种输入文件格式。
 
 ### File Writer
-Write output in configurable formats.
+以可配置格式写出结果。
 
-### Database Query
-Search OPTIMADE, Materials Project, PubChem.
+### 数据库查询
+搜索 OPTIMADE、Materials Project、PubChem。
 
-## Control Flow Nodes
+## 控制流节点
 
 ### Loop
-Iterate over parameter ranges or structure lists.
+遍历参数范围或结构列表。
 
 ### Conditional
-Branch based on computed properties.
+根据计算性质进行分支。
 
 ### Aggregator
-Collect results from parallel branches.
+收集并行分支的结果。
 
 ## 相关内容
 
 - [工作流引擎](/zh/modules/workflow/workflow-engine)
 - [作业脚本](/zh/modules/workflow/job-scripts)
-- [工作流s 教程](/zh/tutorials/workflows/workflows)
+- [工作流教程](/zh/tutorials/workflows/workflows)

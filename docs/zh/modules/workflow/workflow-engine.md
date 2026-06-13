@@ -14,9 +14,9 @@
 两套 AI 层共享同一套节点 schema 和 CRUD 端点，但有几个行为差异需要注意：
 
 - MCP 的 `create` 路径会自动添加 `structure_input` 节点，保证 agent 总有起点。
-- MCP 的 `run` 路径会在调用时立即开始执行，不经过 UI 确认。这是为了支持 unattended agent runs；应用内聊天路径则使用 CatBot 的 PermissionCard。
+- MCP 的 `run` 路径会在调用时立即开始执行，不经过 UI 确认。这是为了支持无人值守的 agent 运行；应用内聊天路径则使用 CatBot 的 PermissionCard。
 
-> **连接 handle 很重要。** 连线时请命名 source/destination handle（例如 `out-0`、`in-1`）。省略 handle 会回退到通用 `structure` 连接，这只适合简单的单结构链。对于有多个输出的节点（例如 relaxed structure + WAVECAR + DOS），必须显式指定 handle。
+> **连接 handle 很重要。** 连线时请命名 source/destination handle（例如 `out-0`、`in-1`）。省略 handle 会回退到通用 `structure` 连接，这只适合简单的单结构链。对于有多个输出的节点（例如弛豫后结构 + WAVECAR + DOS），必须显式指定 handle。
 
 ## 权威来源
 
@@ -114,7 +114,7 @@ Step:      pending -> queued -> running -> completed / failed / skipped
 |-----------|---------|-------------|
 | ENCUT | 520 | 平面波截断 |
 | EDIFF | 1e-6 | 更严格的电子收敛 |
-| ISMEAR | -5 | 带 Blochl 修正的 tetrahedron method |
+| ISMEAR | -5 | 带 Blochl 修正的四面体方法 |
 | LORBIT | 11 | 将 DOS 投影到原子 |
 | NEDOS | 3001 | DOS 网格点 |
 | KPOINTS | 6x6x6 | 用于准确 DOS 的更密 k 网格 |
@@ -135,7 +135,7 @@ Step:      pending -> queued -> running -> completed / failed / skipped
 
 **输出：** 轨迹、能量随时间变化、温度曲线。
 
-#### Electronic Analysis
+#### 电子结构分析
 
 电子结构性质后处理。
 
@@ -144,7 +144,7 @@ Step:      pending -> queued -> running -> completed / failed / skipped
 | analysis | dos | 类型：dos、bader、cohp |
 | NEDOS | 3001 | DOS 能量网格点 |
 | LORBIT | 11 | 轨道投影级别 |
-| ISMEAR | -5 | 用于准确 DOS 的 tetrahedron method |
+| ISMEAR | -5 | 用于准确 DOS 的四面体方法 |
 
 **输出：** DOS 数据、Bader 电荷或 COHP 键合分析，取决于 `analysis` 类型。
 
@@ -180,7 +180,7 @@ ML potential 节点在 HPC 上运行，但通常比 DFT 快得多，适合预筛
 
 | 参数 | 默认值 | 说明 |
 |-----------|---------|-------------|
-| model | MACE-MP | ML potential model |
+| model | MACE-MP | 机器学习势模型 |
 | temperature | 300 | 温度（K） |
 | steps | 10000 | MD 步数 |
 | timestep | 1.0 | 时间步长（fs） |
@@ -224,7 +224,7 @@ ML potential 节点在 HPC 上运行，但通常比 DFT 快得多，适合预筛
 | freeze_layers | 2 | 要冻结的底层层数 |
 | LDIPOL | true | 用于非对称 slab 的偶极修正 |
 
-#### Adsorbate Placement
+#### 吸附物放置
 
 把分子放置到表面吸附位点上（本地运行）。
 
@@ -244,7 +244,7 @@ ML potential 节点在 HPC 上运行，但通常比 DFT 快得多，适合预筛
 | box_size | 20 | 立方盒尺寸（A） |
 | KPOINTS | 1x1x1 | 只使用 Gamma 点 |
 
-#### Free Energy Diagram
+#### 自由能图
 
 计算反应路径上的反应自由能。
 
@@ -270,7 +270,7 @@ ML potential 节点在 HPC 上运行，但通常比 DFT 快得多，适合预筛
 
 所有变换节点都在服务器本地运行。它们会修改输入结构，并把结果传给下游。
 
-#### Supercell Generation
+#### 超胞生成
 
 | 参数 | 默认值 | 说明 |
 |-----------|---------|-------------|
@@ -286,7 +286,7 @@ ML potential 节点在 HPC 上运行，但通常比 DFT 快得多，适合预筛
 
 当存在多个可能缺陷时，会枚举对称唯一位点。
 
-#### Strain / Deformation
+#### 应变 / 形变
 
 | 参数 | 默认值 | 说明 |
 |-----------|---------|-------------|
@@ -347,7 +347,7 @@ ML potential 节点在 HPC 上运行，但通常比 DFT 快得多，适合预筛
 
 #### COHP Analysis
 
-运行 LOBSTER 进行 crystal orbital Hamilton population 分析。
+运行 LOBSTER 进行晶体轨道 Hamilton 布居分析。
 
 #### MD Analysis
 
@@ -415,11 +415,11 @@ ML potential 节点在 HPC 上运行，但通常比 DFT 快得多，适合预筛
 | 模板 | 节点数 | 说明 |
 |----------|-------|-------------|
 | **Band Structure** | 3 | Relax -> Static -> DOS analysis |
-| **Adsorption Screening** | 5 | 并行 DFT + MLP 弛豫，能量比较 |
+| **吸附筛选** | 5 | 并行 DFT + MLP 弛豫，能量比较 |
 | **MLP MD Pipeline** | 4 | Structure -> MLP MD -> MD analysis -> Export |
 | **Batch Surface** | 5 | Loop surfaces -> Relax -> Merge -> Analyze |
 | **Defect Screening** | 6 | Supercell -> Defect gen -> Loop -> Relax -> Compare |
-| **Heterostructure Study** | 5 | Build interface -> Relax -> DOS + COHP |
+| **异质结构研究** | 5 | 构建界面 -> 弛豫 -> DOS + COHP |
 
 模板只是起点，加载后可以继续添加、删除或重新配置任意节点。
 

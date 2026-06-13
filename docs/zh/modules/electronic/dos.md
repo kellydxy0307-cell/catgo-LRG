@@ -1,6 +1,6 @@
 ---
-title: Density of States
-description: Total and projected DOS visualization module
+title: 态密度
+description: 总态密度与投影态密度可视化模块
 source: src/lib/electronic/DosPlot.svelte
 ---
 
@@ -10,41 +10,41 @@ source: src/lib/electronic/DosPlot.svelte
 
 ## 概述
 
-The DOS module visualizes total and projected density of states from DFT calculations. Supports atom-resolved and orbital-resolved projections.
+DOS 模块用于可视化 DFT 计算得到的总态密度和投影态密度，支持按原子和按轨道投影。
 
 ## 组件
 
 ### DosPlot
 
-Interactive DOS plotting component.
+交互式 DOS 绘图组件。
 
 ### DosAnalysisPane
 
-Analysis controls for DOS data.
+DOS 数据分析控制项。
 
 ### DosPlotWindow
 
-Standalone DOS viewer window.
+独立 DOS 查看窗口。
 
 ## 数据格式
 
-- `energies` — Energy grid relative to Fermi level
+- `energies` — 相对于 Fermi 能级的能量网格
 - `total_dos` — Total DOS values
-- `pdos` — Projected DOS by atom and orbital
-- `spin` — Spin channel (up/down for spin-polarized)
+- `pdos` — 按原子和轨道投影的 DOS
+- `spin` — 自旋通道（自旋极化时为 up/down）
 
 ## 功能
 
-### Projection Types
+### 投影类型
 
 - Total DOS
-- Atom-projected DOS
-- Orbital-projected DOS (s, p, d, f)
-- Element-projected DOS
+- 原子投影 DOS
+- 轨道投影 DOS（s、p、d、f）
+- 元素投影 DOS
 
 ### Integration
 
-Interactive integration over energy ranges to compute electron counts.
+在能量区间上交互式积分，以计算电子数。
 
 ## 服务器 API
 
@@ -53,4 +53,4 @@ Interactive integration over energy ranges to compute electron counts.
 ## 相关内容
 
 - [DOS 教程](/zh/tutorials/electronic/dos-analysis)
-- [Band Structure Module](/zh/modules/electronic/band-structure)
+- [能带结构模块](/zh/modules/electronic/band-structure)

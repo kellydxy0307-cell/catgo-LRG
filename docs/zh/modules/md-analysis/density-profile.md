@@ -1,6 +1,6 @@
 ---
-title: Density Profile
-description: Spatial density distribution analysis module
+title: 密度剖面
+description: 空间密度分布分析模块
 source: src/lib/md/MdDensityPanel.svelte
 ---
 
@@ -10,27 +10,27 @@ source: src/lib/md/MdDensityPanel.svelte
 
 ## 概述
 
-Computes density profiles along cell axes from MD trajectories. Useful for analyzing interfaces, confinement, and layered structures.
+从 MD 轨迹沿晶胞轴计算密度剖面，适用于分析界面、限域和层状结构。
 
 ## 组件
 
 ### MdDensityPanel
 
-Interactive panel for density profile computation and visualization.
+用于密度剖面计算和可视化的交互式面板。
 
 ## 功能
 
-### Axis Selection
+### 轴向选择
 
-Compute density along a, b, or c lattice directions.
+沿 a、b 或 c 晶格方向计算密度。
 
-### Element Filtering
+### 元素筛选
 
-Compute density profiles for specific element types.
+计算特定元素类型的密度剖面。
 
-### Multi-Frame Averaging
+### 多帧平均
 
-Average density over trajectory frames.
+对轨迹帧上的密度进行平均。
 
 ## 服务器 API
 
@@ -38,5 +38,5 @@ Average density over trajectory frames.
 
 ## 相关内容
 
-- [RDF Module](/zh/modules/md-analysis/rdf)
-- [Dynamics Module](/zh/modules/md-analysis/dynamics)
+- [RDF 模块](/zh/modules/md-analysis/rdf)
+- [动力学模块](/zh/modules/md-analysis/dynamics)

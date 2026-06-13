@@ -1,22 +1,22 @@
 # 轨迹与分子动力学
 
-Playback, analysis, and export of molecular dynamics trajectories from multiple file formats.
+播放、分析并导出多种文件格式的分子动力学轨迹。
 
 **Source:** `src/lib/trajectory/`
 
 ## 支持的格式
 
-| Format | Extensions | Description |
+| 格式 | 扩展名 | 说明 |
 |--------|-----------|-------------|
-| XYZ | `.xyz` | Multi-frame XYZ (frames separated by headers) |
-| Extended XYZ | `.extxyz` | Multi-frame with lattice and properties |
-| ASE Trajectory | `.traj` | ASE native binary format |
-| XDATCAR | `XDATCAR` | VASP molecular dynamics output |
-| HDF5 | `.hdf5`, `.h5` | Hierarchical 数据格式 (multi-frame) |
+| XYZ | `.xyz` | 多帧 XYZ（帧之间用 header 分隔） |
+| Extended XYZ | `.extxyz` | 包含晶格和属性的多帧格式 |
+| ASE Trajectory | `.traj` | ASE 原生二进制格式 |
+| XDATCAR | `XDATCAR` | VASP 分子动力学输出 |
+| HDF5 | `.hdf5`, `.h5` | 层次化数据格式（多帧） |
 
 ## 核心函数
 
-### Loading
+### 加载
 
 ```typescript
 // Load trajectory from file
@@ -29,9 +29,9 @@ validate_trajectory(trajectory): ValidationResult
 get_trajectory_stats(trajectory): TrajectoryStats
 ```
 
-### Streaming & Indexing
+### 流式读取与索引
 
-For large trajectory files (>100 MB), the module supports indexed access:
+对于大型轨迹文件（>100 MB），该模块支持索引访问：
 
 ```typescript
 // Build index for random frame access (avoids reading entire file)
@@ -46,46 +46,46 @@ interface FrameIndex {
 
 ## 组件
 
-| Component | Description |
+| 组件 | 说明 |
 |-----------|-------------|
-| `Trajectory.svelte` | Main trajectory player with animation controls |
-| `TrajectoryInfoPane.svelte` | Frame count, duration, and property metadata |
-| `TrajectoryExportPane.svelte` | Export individual frames or sub-ranges |
-| `TrajectoryError.svelte` | Error display for invalid trajectories |
+| `Trajectory.svelte` | 带动画控制的主轨迹播放器 |
+| `TrajectoryInfoPane.svelte` | 帧数、时长和属性元数据 |
+| `TrajectoryExportPane.svelte` | 导出单帧或帧范围 |
+| `TrajectoryError.svelte` | 无效轨迹的错误显示 |
 
-## Playback Controls
+## 播放控制
 
-- **Play/Pause** — animate through frames
-- **Frame slider** — scrub to any frame
-- **FPS control** — adjustable playback speed
-- **Step forward/backward** — single frame advance
-- **Loop mode** — continuous playback
+- **播放/暂停** — 按帧播放动画
+- **帧滑块** — 拖动到任意帧
+- **FPS 控制** — 调整播放速度
+- **前进/后退一步** — 单帧步进
+- **循环模式** — 连续循环播放
 
-## 可视化 Modes
+## 可视化模式
 
-The trajectory viewer can display alongside analysis plots:
+轨迹查看器可以与分析图并排显示：
 
-- **Structure + Scatter** — 3D structure with per-frame property scatter plot
-- **Structure + Histogram** — 3D structure with property distribution histogram
+- **结构 + 散点图** — 三维结构与逐帧属性散点图
+- **结构 + 直方图** — 三维结构与属性分布直方图
 
-Properties that can be plotted:
-- Energy per frame
-- Forces (max, mean)
-- Temperature
-- Stress/pressure
-- Custom per-frame properties (from EXTXYZ)
+可绘制的属性包括：
+- 每帧能量
+- 力（最大值、平均值）
+- 温度
+- 应力/压力
+- 自定义逐帧属性（来自 EXTXYZ）
 
 ## 设置
 
-| Setting | Type | Default | Description |
+| 设置项 | 类型 | 默认值 | 说明 |
 |---------|------|---------|-------------|
-| `trajectory_fps` | number | 10 | Playback speed (frames per second) |
-| `trajectory_auto_play` | boolean | false | Start playing on load |
-| `trajectory_display_mode` | string | "structure" | Display layout mode |
+| `trajectory_fps` | number | 10 | 播放速度（帧/秒） |
+| `trajectory_auto_play` | boolean | false | 加载后自动播放 |
+| `trajectory_display_mode` | string | "structure" | 显示布局模式 |
 
-## Performance
+## 性能
 
-- **Frame indexing** enables random access into GB-scale trajectory files
-- Binary formats (`.traj`, `.h5`) are more memory-efficient than text (`.xyz`)
-- Lazy decompression for gzip-compressed trajectories
-- Only the current frame's atom positions are sent to the GPU
+- **帧索引**支持随机访问 GB 级轨迹文件
+- 二进制格式（`.traj`、`.h5`）比文本格式（`.xyz`）更节省内存
+- 对 gzip 压缩轨迹进行懒解压
+- 只把当前帧的原子位置发送到 GPU

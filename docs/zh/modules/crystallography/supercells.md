@@ -1,16 +1,16 @@
 # 超胞
 
-Expand periodic structures by replicating the unit cell along lattice directions.
+通过沿晶格方向复制晶胞来扩展周期结构。
 
 **Source:** `src/lib/structure/lattice-ops.ts`, `src/lib/structure/ferrox-wasm.ts`
 
 ## 概述
 
-Supercell generation creates an n x m x p expansion of the original unit cell, replicating all atoms and scaling the lattice accordingly. This is commonly used for:
+超胞生成会把原始晶胞扩展为 n x m x p，并复制所有原子、相应缩放晶格。常用于：
 
-- Creating larger simulation cells for DFT or MD
-- Visualizing extended crystal structures
-- Constructing defect supercells with dilute defect concentration
+- 为 DFT 或 MD 创建更大的模拟胞
+- 可视化扩展晶体结构
+- 构建低缺陷浓度的缺陷超胞
 
 ## 核心函数
 
@@ -24,22 +24,22 @@ get_supercell_structure(structure, transform_matrix): Structure
 
 ## Interactive UI
 
-The **CellSelect** component provides a simple selector for supercell dimensions:
+**CellSelect** 组件提供简单的超胞尺寸选择器：
 
-- Input fields for n, m, p (repeat counts along a, b, c)
-- One-click supercell generation
-- 相机 automatically re-aligns after supercell expansion
+- 输入 n、m、p（沿 a、b、c 的重复次数）
+- 一键生成超胞
+- 超胞扩展后相机会自动重新对齐
 
 ## How It Works
 
-1. The lattice matrix is scaled: `new_lattice = diag(n, m, p) * original_lattice`
-2. For each original atom at fractional position `(fa, fb, fc)`:
-   - Generate copies at `((fa + i)/n, (fb + j)/m, (fc + k)/p)` for `i=0..n-1`, `j=0..m-1`, `k=0..p-1`
-3. All atom properties (element, occupancy, charge) are preserved
+1. 缩放晶格矩阵：`new_lattice = diag(n, m, p) * original_lattice`
+2. 对每个分数坐标为 `(fa, fb, fc)` 的原始原子：
+   - 为 `i=0..n-1`、`j=0..m-1`、`k=0..p-1` 生成位于 `((fa + i)/n, (fb + j)/m, (fc + k)/p)` 的副本
+3. 保留所有原子属性（元素、占位率、电荷）
 
-## Transformation Matrix
+## 变换矩阵
 
-For non-diagonal expansions (e.g., rotating the cell), use the transformation matrix approach:
+对于非对角扩展（例如旋转晶胞），使用变换矩阵方法：
 
 ```typescript
 // Example: 2x2x1 supercell with 45-degree rotation
@@ -51,4 +51,4 @@ const transform = [
 get_supercell_structure(structure, transform)
 ```
 
-The new lattice is `M * old_lattice`, and atom positions are mapped accordingly.
+新晶格为 `M * old_lattice`，原子位置也会相应映射。

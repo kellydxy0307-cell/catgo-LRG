@@ -31,7 +31,7 @@ description: 所有 CatGo 模块的 API 文档
 |--------|-------------|
 | [能带结构](/zh/modules/electronic/band-structure) | 电子能带结构绘图与分析 |
 | [态密度](/zh/modules/electronic/dos) | 总 DOS 和投影 DOS 可视化 |
-| [COHP](/zh/modules/electronic/cohp) | Crystal orbital Hamilton populations |
+| [COHP](/zh/modules/electronic/cohp) | 晶体轨道 Hamilton 布居分析 |
 
 ## MD 分析
 

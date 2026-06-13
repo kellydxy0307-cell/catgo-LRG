@@ -1,6 +1,6 @@
 ---
 title: REST API
-description: HTTP API reference for programmatic access to CatGo
+description: 用于程序化访问 CatGo 的 HTTP API 参考
 source: server/main.py
 ---
 
@@ -10,7 +10,7 @@ source: server/main.py
 
 ## 概述
 
-CatGo's Python server provides a REST API built with FastAPI for programmatic access to all computation and analysis features.
+CatGo 的 Python 服务器提供基于 FastAPI 构建的 REST API，用于程序化访问全部计算与分析功能。
 
 ## Base URL
 
@@ -22,15 +22,15 @@ CatGo's Python server provides a REST API built with FastAPI for programmatic ac
 
 | Method | Path | Description |
 |--------|------|-------------|
-| POST | `/structure/parse` | Parse a structure file |
-| POST | `/structure/optimize` | Run geometry optimization |
+| POST | `/structure/parse` | 解析结构文件 |
+| POST | `/structure/optimize` | 运行几何优化 |
 | POST | `/structure/slab` | Generate a slab |
 
 ### Electronic
 
 | Method | Path | Description |
 |--------|------|-------------|
-| POST | `/bands` | Band structure computation |
+| POST | `/bands` | 能带结构计算 |
 | POST | `/dos` | Density of states |
 | POST | `/cohp` | COHP analysis |
 
@@ -38,7 +38,7 @@ CatGo's Python server provides a REST API built with FastAPI for programmatic ac
 
 | Method | Path | Description |
 |--------|------|-------------|
-| POST | `/md/rdf` | Radial distribution function |
+| POST | `/md/rdf` | 径向分布函数 |
 | POST | `/md/rmsd` | RMSD computation |
 | POST | `/md/density` | Density profile |
 | POST | `/md/hbonds` | H-bond detection |
@@ -50,7 +50,7 @@ CatGo's Python server provides a REST API built with FastAPI for programmatic ac
 |--------|------|-------------|
 | POST | `/workflow/create` | Create workflow |
 | POST | `/workflow/run` | Execute workflow |
-| GET | `/workflow/{id}` | Get workflow status |
+| GET | `/workflow/{id}` | 获取工作流状态 |
 
 ### HPC
 
@@ -64,21 +64,21 @@ CatGo's Python server provides a REST API built with FastAPI for programmatic ac
 | Method | Path | Description |
 |--------|------|-------------|
 | POST | `/chat` | Single-turn chat |
-| POST | `/chat/multi` | Multi-turn conversation |
+| POST | `/chat/multi` | 多轮对话 |
 
 ### Paper
 
 | Method | Path | Description |
 |--------|------|-------------|
-| POST | `/paper/upload` | Upload a PDF and create a session |
-| GET | `/paper/{session_id}` | Get session info (title, authors, expiry) |
-| GET | `/paper/{session_id}/text` | Retrieve extracted text body |
-| POST | `/paper/resolve-doi` | Resolve a DOI via CrossRef |
-| DELETE | `/paper/{session_id}` | Manually clean up a session |
+| POST | `/paper/upload` | 上传 PDF 并创建会话 |
+| GET | `/paper/{session_id}` | 获取会话信息（标题、作者、过期时间） |
+| GET | `/paper/{session_id}/text` | 获取提取出的正文文本 |
+| POST | `/paper/resolve-doi` | 通过 CrossRef 解析 DOI |
+| DELETE | `/paper/{session_id}` | 手动清理会话 |
 
 ## Authentication
 
-Currently no authentication required for local server. Configure CORS in `server/main.py`.
+当前本地服务器不需要认证。可在 `server/main.py` 中配置 CORS。
 
 ## 相关内容
 

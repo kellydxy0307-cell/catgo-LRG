@@ -8,12 +8,12 @@ CatGo 支持读取和写出多种标准晶体与分子结构文件格式。
 
 | 格式 | 扩展名 | 说明 |
 |--------|-----------|-------------|
-| CIF | `.cif` | Crystallographic Information File，晶体结构的标准格式 |
+| CIF | `.cif` | 晶体学信息文件，晶体结构的标准格式 |
 | POSCAR | `.poscar`, `.vasp`, `POSCAR`, `CONTCAR` | VASP 结构格式 |
 | XYZ | `.xyz` | 简单笛卡尔坐标 |
 | Extended XYZ | `.extxyz` | 带晶格和逐原子属性的 XYZ |
 | ASE Trajectory | `.traj` | ASE 原生二进制轨迹格式 |
-| HDF5 | `.hdf5`, `.h5` | Hierarchical Data Format（多帧） |
+| HDF5 | `.hdf5`, `.h5` | 层次化数据格式（多帧） |
 | XDATCAR | `XDATCAR` | VASP 分子动力学轨迹 |
 | CUBE | `.cube` | Gaussian/VASP 体数据 |
 
@@ -29,7 +29,7 @@ CatGo 支持读取和写出多种标准晶体与分子结构文件格式。
 
 | 格式 | 函数 | 说明 |
 |--------|----------|-------------|
-| CIF | `export_structure_as_cif()` | Crystallographic Information File |
+| CIF | `export_structure_as_cif()` | 晶体学信息文件 |
 | POSCAR | `export_structure_as_poscar()` | VASP 结构格式 |
 | XYZ | `export_structure_as_xyz()` | 简单笛卡尔坐标 |
 | Extended XYZ | `export_structure_as_extxyz()` | 带晶格信息的 XYZ |

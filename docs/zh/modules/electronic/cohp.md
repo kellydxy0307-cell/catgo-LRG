@@ -1,6 +1,6 @@
 ---
 title: COHP
-description: Crystal orbital Hamilton population analysis module
+description: 晶体轨道 Hamilton 布居（COHP）分析模块
 source: src/lib/electronic/CohpPlot.svelte
 ---
 
@@ -10,38 +10,38 @@ source: src/lib/electronic/CohpPlot.svelte
 
 ## 概述
 
-The COHP module visualizes Crystal Orbital Hamilton Population data for chemical bonding analysis. COHP decomposes the band structure energy into bonding and antibonding contributions for specific atom pairs.
+COHP 模块用于可视化晶体轨道 Hamilton 布居数据，以分析化学键。COHP 会把能带结构能量分解为特定原子对的成键与反键贡献。
 
 ## 组件
 
 ### CohpPlot
 
-Interactive COHP plotting component with bonding/antibonding regions.
+带成键/反键区域的交互式 COHP 绘图组件。
 
 ### CohpAnalysisPane
 
-Controls for selecting atom pairs and analysis options.
+用于选择原子对和分析选项的控制项。
 
 ## 数据格式
 
 - `energies` — Energy grid
-- `cohp_data` — COHP values per atom pair
-- `icohp` — Integrated COHP values
-- `atom_pairs` — List of atom pair indices
+- `cohp_data` — 每个原子对的 COHP 数值
+- `icohp` — 积分 COHP 数值
+- `atom_pairs` — 原子对 index 列表
 
 ## 功能
 
-### Bond Pair Selection
+### 键对选择
 
-Select specific atom pairs for COHP visualization.
+选择特定原子对进行 COHP 可视化。
 
-### Integrated COHP (ICOHP)
+### 积分 COHP（ICOHP）
 
-Quantitative bond strength metric from integration of COHP curves.
+通过积分 COHP 曲线得到的定量键强度指标。
 
-### Multi-Pair Comparison
+### 多原子对比较
 
-Compare bonding interactions across multiple atom pairs.
+比较多个原子对之间的成键相互作用。
 
 ## 服务器 API
 
@@ -50,4 +50,4 @@ Compare bonding interactions across multiple atom pairs.
 ## 相关内容
 
 - [COHP 教程](/zh/tutorials/electronic/cohp-analysis)
-- [Band Structure Module](/zh/modules/electronic/band-structure)
+- [能带结构模块](/zh/modules/electronic/band-structure)

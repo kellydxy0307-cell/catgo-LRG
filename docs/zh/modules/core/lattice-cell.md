@@ -1,12 +1,12 @@
 # 晶格与晶胞操作
 
-Functions for working with crystal lattice parameters, coordinate transformations, and unit cell manipulation.
+用于处理晶格参数、坐标转换和晶胞操作的函数。
 
 **Source:** `src/lib/structure/lattice-ops.ts`, `src/lib/structure/pbc.ts`
 
-## Lattice Representation
+## 晶格表示
 
-The lattice is stored as a 3x3 matrix where **rows are lattice vectors** (pymatgen convention):
+晶格以 3x3 矩阵存储，其中**行向量为晶格矢量**（pymatgen 约定）：
 
 ```
 matrix = [
@@ -16,11 +16,11 @@ matrix = [
 ]
 ```
 
-Fractional-to-Cartesian conversion: `xyz = M^T * abc`
+分数坐标到笛卡尔坐标转换：`xyz = M^T * abc`
 
 ## 核心函数
 
-### Parameter Conversion
+### 参数转换
 
 ```typescript
 // Convert lattice parameters to 3x3 matrix
@@ -30,7 +30,7 @@ params_to_matrix(a, b, c, alpha, beta, gamma): number[][]
 matrix_to_params(matrix): { a, b, c, alpha, beta, gamma }
 ```
 
-### Coordinate Transformations
+### 坐标转换
 
 ```typescript
 // Cartesian (xyz) to fractional (abc) coordinates
@@ -66,7 +66,7 @@ add_vacuum_layer(structure, vacuum_thickness, direction): Structure
 wrap_molecule_in_box(structure, padding): Structure
 ```
 
-### Periodic Boundary Conditions
+### 周期性边界条件
 
 ```typescript
 // Wrap fractional coordinates to [0, 1) range
@@ -79,18 +79,18 @@ find_image_atoms(structure, tolerance): ImageAtom[]
 get_pbc_image_sites(structure): Site[]
 ```
 
-## Interactive Lattice Editing
+## 交互式晶格编辑
 
-The **LatticePane** component (`LatticePane.svelte`) provides a UI for editing lattice parameters:
+**LatticePane** 组件（`LatticePane.svelte`）提供编辑晶格参数的界面：
 
-- Direct input of a, b, c (in Angstroms) and alpha, beta, gamma (in degrees)
-- Real-time update of the 3D visualization
-- Transformation matrix application
+- 直接输入 a、b、c（单位 Angstrom）以及 alpha、beta、gamma（单位度）
+- 实时更新三维可视化
+- 应用变换矩阵
 - Volume display
 
-## Conventions
+## 约定
 
-- **Lattice matrix rows** are lattice vectors (pymatgen convention)
-- **Angles** are in degrees for user-facing parameters, radians internally
+- **晶格矩阵的行**为晶格矢量（pymatgen 约定）
+- **角度**在用户界面中使用度，内部使用弧度
 - **Lengths** are in Angstroms
-- Right-handed coordinate system is enforced — `(a x b) . c > 0`
+- 强制使用右手坐标系 — `(a x b) . c > 0`
